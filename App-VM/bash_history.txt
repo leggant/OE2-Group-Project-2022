@@ -1,0 +1,203 @@
+sudo useradd -d /home/manager -m -s /bin/bash manager
+sudo passwd manager
+sudo usermod -aG sudo manager
+clear
+exit
+ls
+sudo vim /etc/hosts
+exit
+sudo vim /etc/hosts
+[9:00 am] Mohammed Alhasan (1000074297)
+cp ~/.bashrc ~/.bashrc.bak
+sudo vim /etc/hosts
+sudo hostnamectl set-hostname app-b.foo.org.nz
+hostname
+sudo vim ~/.bashrc
+exit
+hostname
+ping app-b.foo.org.nz
+sudo vim /etc/hosts
+exit
+sudo vim etc/hosts
+sudo vim /etc/hosts
+ifconfig
+:q
+sudo cat /etc/hosts
+hostname
+exit
+ip a
+exit
+sudo apt autoremove puppet
+cd /etc
+ls
+sudo rm -r puppet
+cd ..
+cd ~
+sudo vi /etc/hosts
+sudo apt-get install puppet
+sudo vi /etc/puppet/puppet.conf
+sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetime
+sudo rm -rf /var/lib/puppet/ssl
+sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetime
+sudo puppet cert --sign mgmt-b.foo.org.nz
+sudo puppet cert --sign --all
+sudo service puppet restart
+sudo service puppet status
+sudo vi /etc/hosts
+ping mgmt-b.foo.org.nz
+sudo service puppet status
+sudo puppet cert --sign --all
+sudo service puppet status
+sudo rm -rf /var/lib/puppet/ssl
+sudo service puppet restart
+sudo service puppet status
+sudo puppet cert --sign -all
+sudo service puppet status
+sudo service puppet restart
+sudo service puppet status
+sudo apt remove vim
+exit
+sudo apt remove vim
+exit
+sudo apt remove vim
+sudo service puppet restart
+exit
+sudo apt remove vim
+exit
+sudo apt remove vim
+sudo vi /etc/puppet/puppet.conf
+sudo vi /rtc/hosts
+sudo vi /etc/hosts
+sudo apt remove vim
+sudo puppet cert --sign -all
+sudo service puppet status
+sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetime
+sudo service puppet status
+sudo service puppet restart
+exit
+sudo apt remove vim
+sudo puppet ca destroy mgmt-b.foo.org.nz
+sudo rm -rf /var/lib/puppet/ssl
+sudo puppet cert clean -all
+sudo service puppet restart
+sudo service puppet status
+sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetime
+sudo -i
+sudo service puppet status
+sudo rm -rf /var/lib/puppet/ssl
+sudo service puppet restart
+sudo rm -rf /var/lib/puppet/ssl
+sudo service puppet restart
+sudo service puppet status
+sudo rm \var\lib\puppet\ssl\certs\app-b.foo.org.nz.pem
+sudo rm /var/lib/puppet/ssl/certs/app-b.foo.org.nz.pem
+sudo apt autoremove puppet
+sudo rm -rf /var/lib/puppet/ssl
+sudo puppet cert clean -all 
+cd /etc
+ls
+sudo rm -r puppet
+cd ~
+sudo apt-get install puppet
+sudo vi /etc/puppet/puppet.conf
+sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetime
+sudo puppet cert --sign -all
+sudo systemctl restart puppet
+sudo apt remove vim
+exit
+sudo apt remove vim
+exit
+sudo apt remove vim
+exit
+sudo apt remove vim
+sudo apt autoremove vim
+exit
+sudo apt autoremove vim
+sudo systemctl restart puppet
+sudo sudo service puppet status
+sudo apt autoremove vim
+sudo service puppet status
+date
+sudo service puppet status
+top
+sudo service ntp status
+sudo service ntpd status
+sudo service ntp status
+sudo vi /etc/hosts
+sudo service ntp status
+sudo service ntp restart
+sudo service ntp status
+data
+date
+sudo service ntp restart
+sudo service ntp status
+date
+ntpq -p
+date
+ntpq -p
+sudo service ntp restart
+ntpq -p
+date
+ntpq -p
+sudo service ntp restart
+ntpq -p
+sudo service ntp status
+sudo service ntp restart
+sudo service puppet status
+sudo service ntp status
+date
+restart
+reload
+sudo reboot
+date
+ntptime
+sudo service ntp status
+sudo service puppet status
+sudo systemctl status puppet
+sudo service puppet start
+sudo service puppet status
+sudo systemctl status puppet
+ntptime
+sudo systemctl status puppet
+git clone https://github.com/leggant/OE2-Group-Project.git
+curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo dd of=/usr/share/keyrings/githubcli-archive-keyring.gpg
+echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" | sudo tee /etc/apt/sources.list.d/github-cli.list > /dev/null
+sudo apt update
+sudo apt install gh
+gh auth login
+ls
+cd O
+cd OE2-Group-Project/
+ls
+mv PuppetMaster/ Mgmt-VM
+ls
+ls Mgmt-VM/
+ls
+mkdir App-VM
+cd App-VM/
+sudo cp /etc/hosts .
+la
+ls
+cd ..
+ls
+git add Mgmt-VM/
+git status
+git commit -m "Edited Puppetmaster directory name"
+git config --global user.name "Anthony Legg"
+git config --global user.email leggtc1@student.op.ac.nz
+git commit --amend --reset-author
+git push
+git status
+git add/rm .
+git rm .
+git add .
+git status
+git commit -m "add App VM Hosts" -m "removed old PuppetMaster Directory" -m "Ant"
+git push
+ls -al
+cd ..
+ls -al
+sudo cp .bash_history OE2-Group-Project/App-VM/bash_history_14_03_2022.txt
+cat OE2-Group-Project/App-VM/bash_history_14_03_2022.txt 
+sudo cat OE2-Group-Project/App-VM/bash_history_14_03_2022.txt 
+history -w
