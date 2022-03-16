@@ -1,10 +1,10 @@
 class mariadb::service {
-    service { "mysql" :
+    service { 'mysql' :
       ensure => running,
       hasstatus => true,
       hasrestart => true,
       enable => true,
-      require => Class["mariadb::config"],
+      require => Class['mariadb::config'],
 	}
 }
 
