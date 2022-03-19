@@ -1,0 +1,672 @@
+sudo useradd -d /home/manager -m -s /bin/bash manager
+sudo passwd manager
+sudo useradd -aG sudo manager
+sudo usermod -aG sudo manager
+clear
+exit
+sudo /etc/hosts
+sudo vi /etc/hosts
+sudo vi ~/.bashrc
+cp ~/.bashrc ~/.bashrc.bak
+sudo vi ~/.bashrc
+sudo hostname set-hostname db-b.foo.org.nz
+sudo hostname
+sudo hostnamectl set-hostname db-b.foo.org.nz
+hostname
+ping 
+ping db-b.foo.org.nz
+exit
+ping mgmt-b.foo.org.nz
+sudo service puppet status
+sudo apt-remove vim
+sudo apt remove vim
+sudo vim /etc/hosts
+exit
+sudo vim /etc/hosts
+exit
+ls
+sudo vim /etc/hosts
+cat /etc/hosts
+ping 
+ping 10.6.0.6
+ping mgmt-b.foo.org.nz
+sudo apt-get install ruby
+ping mgmt-b.foo.org.nz
+puppet cert clean db-b.foo.org.nz
+sudo pupet cert list -all
+sudo puppet cert list -all
+sudo service puppet status
+sudo nano /etc/puppet/puppet.conf
+sudo service puppet status
+sudo service puppet restart
+sudo service puppet status
+puppet agent --configprint server
+puppet agent -t
+sudo service puppet status
+sudo cat /etc/hosts
+sudo nano /etc/puppet/puppet.conf
+sudo service puppet status
+sudo service puppet restart
+puppet agent -t
+sudo service puppet status
+sudo -i
+sudo service puppet restart
+puppet agent -t
+sudo service puppet status
+sudo service puppet restart
+sudo -i
+sudo service puppet restart
+puppet agent -t
+sudo service puppet status
+sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetim
+puppet cert clean db-b.foo.org.nz
+sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetim
+sudo service puppet restart
+sudo -i
+sudo service puppet restart
+sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetim
+sudo service puppet restart
+sudo -i
+sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetim
+sudo -i
+sudo service puppet restart
+sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetim
+puppet cert clean db-b.foo.org.nz
+sudo -i
+sudo service puppet restart
+sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetim
+sudo service puppet restart
+sudo service puppet stop
+sudo -i
+sudo service puppet start
+sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetim
+sudo service puppet restart
+sudo service puppet status
+sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetim
+sudo service puppet status
+sugo puppet agent -t
+sudo puppet agent -t
+sudo service puppet status
+sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetim
+sudo service puppet status
+sudo service puppet stop
+sudo -i
+sudo service puppet start
+sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetim
+exit
+sudo cat /etc/hosts
+hostname
+exit
+sudo service puppet status
+sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetim
+sudo service puppet status
+sudo service puppet stop
+sudo nano /etc/puppet/puppet.conf
+sudo service puppet status
+sudo -i
+sudo service puppet start
+sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetim
+sudo service puppet stop
+sudo -i
+sudo puppet cert clean --all
+sudo puppet cert clean -all
+sudo service puppet start
+sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetim
+puppet agent -t
+sudo remove puppet
+sudo apt remove puppet
+sudo -i
+sudo apt-get install puppet
+sudo service puppet status
+sudo puppet cert clean -all
+sudo puppet cert clear -all
+sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetim
+sudo puppet cert clear -all
+sudo puppet cert clean -all
+sudo puppet agent --test
+sudo service puppet restart
+sudo puppet cert clear -all
+sudo puppet cert clean -all
+sudo service puppet status
+sudo service puppet restart
+sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetim
+sudo service puppet status
+sudo puppet cert clean -all
+sudo puppet cert clear -all
+sudo -i
+sudo service puppet status
+sudo service puppet restart
+sudo service puppet agent --test
+sudo puppet agent --test
+sudo service puppet stop
+sudo service puppet start
+sudo service puppet agent --test
+sudo puppet agent --test
+sudo nano /etc/puppet/puppet.conf
+sudo puppet agent --test
+sudo nano /etc/puppet/puppet.conf
+sudo puppet agent --test
+sudo service puppet restart
+sudo service puppet status
+sudo service puppet stop
+sudo -i
+sudo service puppet restart
+sudo service puppet status
+sudo puppet agent --test
+sudo service puppet status
+sudo puppet agent --test
+sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetim
+sudo service puppet restart
+sudo nano /etc/puppet/puppet.conf
+sudo service puppet restart
+sudo -i
+sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetim
+sudo -i
+sudo service puppet restart
+sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetim
+puppet agent -t
+sudo service puppet restart
+puppet agent -t
+sudo nano /etc/puppet/puppet.conf
+sudo service puppet restart
+puppet agent -t
+vim
+sudo puppet cert clear -all
+puppet agent -t
+puppet agent --test
+sudo puppet agent --test
+sudo puppet agent -t
+sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetim
+sudo puppet cert clear -all
+sudo puppet cert clean -all
+sudo -i
+sudo service puppet restart
+sudo puppet agent -t
+sudo nano /etc/puppet/puppet.conf
+sudo service puppet restart
+sudo -i
+sudo service puppet restart
+sudo puppet agent -t
+sudo -i
+sudo puppet cert clear -all
+sudo service puppet restart
+sudo puppet agent -t
+sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetim
+sudo service puppet restart
+sudo service puppet status
+sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetim
+sudo service puppet restart
+sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetim
+sudo service puppet stop
+sudo puppet cert clear -all
+sudo -i
+sudo service puppet status
+sudo service puppet restart
+sudo service puppet status
+sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetim
+sudo puppet agent -t
+sudo service puppet status
+sudo puppet cert clear -all
+sudo puppet cert -sign -all
+sudo puppet cert -sign --all
+sudo puppet cert --sign -all
+sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetim
+sudo service puppet status
+sudo puppet agent -t
+exit
+sudo service puppet status
+sudo puppet cert clear -all
+sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetim
+sudo service puppet stop
+sudo puppet cert clear -all
+sudo -i
+sudo service puppet status
+sudo service puppet start
+sudo puppet agent -t
+sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetim
+sudo puppet cert clear -all
+sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetim
+exit
+sudo nano /etc/puppet/puppet.conf
+sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetim
+sudo service puppet restart
+sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetim
+exi
+t
+exit
+sudo service puppet restart
+sudo service puppet stop
+exit
+sudo service puppet sto
+sudo -i
+sudo service puppet restart
+sudo nano /etc/puppet/puppet.conf
+sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetim
+sudo service puppet restart
+sudo service puppet stop
+sudo puppet cert clear -all
+sudo -i
+sudo service puppet start
+sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetim
+sudo service puppet 
+sudo -i
+sudo service puppet start
+sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetim
+sudo puppet cert clear -all
+sudo service puppet stop
+sudo -i
+sudo service puppet start
+sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetim
+sudo puppet agent --test
+sudo nano /etc/puppet/puppet.conf
+sudo puppet cert clear -all
+sudo -i
+sudo service puppet restart
+sudo puppet agent -t
+sudo service puppet stop
+sudo -i
+sudo service puppet start
+sudo puppet agent -t
+sudo puppet agent --test
+sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetim
+sudo -i
+sudo service puppet restart
+sudo puppet agent -t
+sudo service puppet restart
+sudo puppet agent -t
+sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetim
+sudo -i
+sudo puppet agent -t
+sudo -i
+sudo service puppet restart
+sudo puppet agent -t
+sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetim
+sudo service puppet stop
+sudo service puppet restart
+sudo -i
+sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetim
+sudo service puppet stop
+sudo service puppet restart
+sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetim
+sudo service puppet restart
+sudo systemctl restart puppet
+sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetim
+sudo systemctl restart puppet
+systemctl status puppet.service
+systemctl stop puppet
+systemctl status puppet.service
+sudo systemctl restart puppet
+systemctl restart puppet
+sudo i
+sudo -i
+sudo systemctl restart puppet
+sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetim
+exit
+sudo systemctl restart puppet
+sudo service puppet status
+sudo nano /etc/hosts
+sudo service puppet status
+sudo nano /etc/hosts
+sudo service puppet status
+sudo service puppet restart
+sudo service puppet status
+sudo nano /etc/puppet/puppet.conf
+sudo service puppet status
+sudo service puppet restart
+sudo service puppet status
+sudo service puppet stop
+sudo service puppet restart
+sudo service puppet status
+sudo -i
+sudo service puppet restart
+sudo service puppet status
+sudo puppet agent -t
+sudo puppet agent --test
+sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetim
+sudo nano etc/hosts
+sudo nano /etc/hosts
+sudo puppet agent --test
+sudo service puppet restart
+sudo puppet agent --test
+sudo puppet agent -t
+sudo service puppet status
+sudo puppet agent -t
+sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetim
+sudo puppet agent --server= mgmt-b.foo.org.nz --no-daemonize --verbose --onetim
+sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetime
+sudo service puppet restart
+sudo service puppet status
+sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetime
+sudo service puppet status
+sudo nano /etc/hosts
+sudo service puppet restart
+sudo -i
+sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetime
+sudo service puppet restart
+sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetime
+sudo service puppet status
+sudo -i
+sudo service puppet status
+sudo service puppet restart
+sudo service puppet status
+sudo -i
+sudo service puppet status
+puppet cert clean db-b.foo.org.nz
+puppet cert clean -all
+sudo service puppet status
+sudo service puppet stop
+sudo -i
+sudo service puppet start
+sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetime
+puppet cert clear -all
+sudo -i
+sudo -i
+sudo puppet agent -t
+sudo service puppet restart
+sudo service puppet status
+sudo -i
+sudo service puppet restart
+sudo puppet agent -t
+sudo service puppet restart
+sudo puppet agent -t
+puppet cert clear -all
+puppet cert clean -all
+sudo service puppet stop
+sudo nano /etc/hosts
+sudo service puppet restart
+sudo -i
+sudo puppet agent -t
+sudo puppet agent -test
+sudo puppet agent --test
+sudo -i
+sudo puppet agent --test
+sudo -i
+puppet cert clean -all
+sudo service puppet restart
+sudo puppet agent --test
+puppet cert clean -all
+sudo puppet agent --test
+sudo service puppet restart
+puppet cert clean -all
+sudo -i
+sudo service puppet restart
+sudo puppet agent --test
+rm -rf /var/lib/puppet/ssl
+sudo rm -rf /var/lib/puppet/ssl
+sudo service puppet restart
+sudo puppet agent --test
+sudo service puppet restart
+sudo rm -rf /var/lib/puppet/ssl
+sudo service puppet restart
+sudo puppet agent --test
+sudo rm -rf /var/lib/puppet/ssl
+sudo -i
+sudo service puppet restart
+sudo puppet agent --test
+sudo -i
+sudo rm -rf /var/lib/puppet/ssl
+sudo service puppet restart
+puppet config print certname
+sudo rm -rf /var/lib/puppet/ssl
+sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetime
+sudo rm -rf /var/lib/puppet/ssl
+sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetime
+sudo rm -rf /var/lib/puppet/ssl
+sudo service puppet restart
+sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetime
+rm -rf /var/lib/puppet/ssl
+sudo rm -rf /var/lib/puppet/ssl
+sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetime
+sudo rm -rf /var/lib/puppet/ssl
+sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetime
+sudo rm -rf /var/lib/puppet/ssl
+sudo service puppet restart
+sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetime
+sudo nano /etc/puppet/puppet.conf
+sudo rm -rf /var/lib/puppet/ssl
+sudo service puppet restart
+sudo rm -rf /var/lib/puppet/ssl
+sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetime
+sudo nano /etc/hosts
+sudo -i
+hostname
+sudo rm -rf /var/lib/puppet/ssl
+sudo service puppet restart
+sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetime
+sudo service puppet restart
+sudo rm -rf /var/lib/puppet/ssl
+sudo agent -t
+sudo pupet agent -t
+sudo puppet agent -t
+sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetime
+sudo rm -rf /var/lib/puppet/ssl
+sudo puppet agent -t
+sudo puppet agent status
+sudo service puppet status
+sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetime
+sudo puppet agent -t
+sudo puppet agent --test
+vim
+exit
+vim
+sudo puppet agent --test
+sudo rm -rf /var/lib/puppet/ssl
+sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetime
+sudo puppet agent --test
+vim
+exit
+vim
+sudo puppet agent --test
+sudo puppet agent -t
+exit
+cat /etc/hosts
+sudo vim /etc/hosts
+ping mgmt-b.foo.org.nz
+sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetime
+sudo su
+sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetime
+exit
+sudo cat /etc/puppet/puppet.conf
+[main]
+ssldir = /var/lib/puppet/ssl
+server = mgmt-b.foo.org.nz
+[master]
+vardir = /var/lib/puppet
+cadir  = /var/lib/puppet/ssl/ca
+dns_alt_names = puppet
+[agent]
+sudo vi /etc/puppet/puppet.conf
+sudo vi /etc/hosts
+sudo apt remove vim
+exit
+sudo apt remove vim
+exit
+sudo apt remove vim
+exit
+sudo apt remove vim
+sudo puppet server status
+sudo  service puppet  status
+sudo service puppet status
+sudo service puppet restart
+sudo service puppet status
+exit
+sudo service puppet status
+cd /etc/puppet/code/modules/sudo/files/
+sudo service puppet status
+sudo service puppet restart
+sudo service puppet status
+sudo service puppet restart
+sudo service puppet status
+sudo service puppet restart
+sudo service puppet status
+exit
+sudo service puppet status
+ntpstat
+sudo service puppet status
+ntpstat
+apt list --installed
+chkconfig --list ntpd
+ntpq
+ntpstat
+service ntpd status
+cat /etc/ntp.conf
+service ntpd status
+sudo service puppet status
+date
+sudo service puppet status
+sudo service puppet restart
+sudo service puppet status
+ntpq -p
+ntpq stat
+sudo service ntp status
+sudo service ntp restart
+sudo service ntp status
+exit
+sudo service ntp status
+sudo service ntp restart
+sudo service ntp status
+date
+ntpq -p
+date
+sudo service ntp status
+sudo service ntp restart
+sudo service ntp status
+date
+sudo service ntp status
+sudo reboot
+sudo service puppet start
+sudo service puppet status
+sudo service ntp status
+date
+sudo service puppet status
+sudo service puppet restart
+sudo service puppet status
+mysql
+sudo mysql
+sudo systemctl status puppet
+sudo systemctl restart puppet
+sudo systemctl status puppet
+sudo systemctl restart puppet
+sudo systemctl status puppet
+mysql
+sudo mysql
+sudo service puppet status
+cd /etc/mysql
+ls
+vim mariadb.conf.d/
+sudo service puppet status
+sudo mysql
+sudo service puppet status
+sudo systemctl restart puppet
+sudo service puppet status
+sudo systemctl restart puppet
+sudo service puppet status
+sudo service puppetmaster status
+sudo service puppet status
+sudo systemctl restart puppet
+sudo service puppet status
+sudo mysql
+l
+ls
+cd mariadb.conf.d/
+ls
+cd 
+cd ~
+ls
+sudo service puppet status
+sudo service puppet restart
+sudo service puppet status
+sudo rm -rf /var/lib/puppet/ssl
+sudo service puppet restart
+sudo service puppet status
+sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetime
+sudo service puppet status
+sudo service puppet restart
+sudo service puppet status
+sudo rm -rf /var/lib/puppet/ssl
+sudo service puppet status
+sudo service puppet restart
+sudo service puppet status
+sudo rm -rf /var/lib/puppet/ssl
+sudo service puppet status
+sudo service puppet restart
+sudo service puppet status
+sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetime
+sudo service puppet status
+sudo service puppet restart
+sudo service puppet status
+sudo puppet cert list -all
+sudo puppet cert --sign -all
+sudo service puppet status
+sudo aptlist
+sudo apt list
+sudo apt list | grep mariadb
+ls
+sudo service puppet status
+sudo puppet cert list -all
+sudo service puppet status
+sudo service puppet restart
+sudo service puppet status
+sudo service puppet restart
+sudo service puppet status
+sudo service puppet restart
+sudo service puppet status
+:q
+sudo service puppet status
+sudo service puppet restart
+sudo service puppet status
+sudo apt remove mysql
+sudo apt remove mariadb
+sudo service puppet status
+sudo apt remove Mariadb
+sudo apt list | grep mariadb
+sudo apt remove mariadb-server
+sudo apt remove mariadb-plugin
+sudo apt remove mariadb-plugin -r
+sudo service puppet restart
+exit
+mysql
+sudo service puppet restart
+sudo service puppet status
+sudo apt remove MariaDB-server MariaDB-client
+sudo apt remove mariadb-server mariadb-client
+sudo service puppet restart
+sudo service puppet status
+sudo service puppet restart
+sudo service puppet status
+mysql
+sudo mysql
+sudo service puppet status
+sudo service puppet restart
+sudo service puppet status
+exit
+sudo service puppet status
+exit
+sudo service puppet status
+sudo service nagios3 status
+sudo service puppet restart
+sudo service puppet status
+sudo systemctl restart puppet
+sudo service puppet status
+sudo service nagios3 status
+sudo apt list | nagios
+sudo service puppet status
+sudo apt list | nagios
+sudo apt list | nagios3
+sudo vi ~/.bashrc
+cd /etc
+ls
+cd puppet
+ls
+cd code
+ls
+cd ..
+sudo vi ~/.bashrc
+source ~/.bashrc
+budb
+ls
+cd ~/OE2-Group-Project/Db-VM/
+ls
+sudo vi ~/.bashrc
+source ~/.bashrc
+budb
