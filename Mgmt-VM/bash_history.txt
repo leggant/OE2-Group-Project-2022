@@ -1,0 +1,1000 @@
+ls
+sudo vim nagios.cfg 
+cd /var/log/nagios3/archives
+ls
+cd ..
+ls
+cd /etc/nagios3/
+ls
+sudo vim nagios.cfg 
+cd /etc/puppet/code/modules
+ls
+cd nagios/
+ls
+cd manifests/
+ls
+cat config.pp 
+cd /etc/nagios3/
+ls
+cd conf.d
+cat conf.d 
+rm  conf.d 
+sudo cat conf.d 
+cd /var/log/nagios3/archives
+sudo nagios3 -v /etc/nagios3/nagios.cfg
+sudo aptlist 
+sudo apt list |nagios 
+ls
+cd /etc
+ls
+sudo systemctl start nagios
+sudo systemctl status nagios
+sudo service status nagios
+sudo service  nagios status
+sudo service  nagios3 status
+sudo nagios3.service status
+sudo nagios3.service 
+nagios3.service 
+usr/local/nagios/etc# /usr/local/nagios/bin/nagios -v /usr/local/nagios/etc/nagios.cfg
+ls
+cd nagios-plugins/
+ls
+cd ..
+ls
+cd nagios3/
+ls
+systemctl service status nagios3.service
+systemctl status nagios3.service
+ls /etc/nagios
+ls /etc/nagios3
+cd conf.d/
+ls
+cat ppt_hosts.cfg 
+sudo systemctl start nagios
+sudo /usr/local/nagios/bin/nagios -v /usr/local/nagios/etc/nagios.cfg
+ls
+cd ..
+ls
+cd ..
+ls
+cd nagios3/
+ls
+cd ..
+ls
+cd nagios-plugins/
+ls
+cd ~
+ls
+s
+ls
+cd /etc
+ls
+cd nagios3
+ls
+cd ..
+cd nagios-plugins/
+ls
+cd /etc/puppet/code/modules
+ls
+cd nagios/
+ls
+cd manifests/
+'ls
+ls
+sudo vim init.pp 
+ls
+cd /etc/puppet/code/modules
+cd manifests/
+ls
+cd nagios/
+ls
+cd manifests/
+ls
+sudo vim init.pp 
+cd /etc
+ls
+cd nagios3/
+ls
+cd..
+ls
+cd ..
+ls
+cd nagios-plugins/
+ls
+cd config/
+ls
+cd /etc/puppet/code/modules
+cd manifests/
+ls
+cd nagios/
+ls
+cd manifests/
+ls
+sudo vim init.pp 
+sudo systemctl puppetmaster status
+sudo systemctl status puppetmaster
+sudo systemctl restart puppetmaster
+sudo systemctl status puppetmaster
+agentupdate
+sudo systemctl puppetmaster status
+sudo systemctl status puppetmaster
+ls
+cd  ~
+ls
+sudo systemctl puppetmaster status
+sudo systemctl status puppetmaster
+ls
+cd /etc
+ls
+cd nagios3/
+ls
+cd ..
+ls
+cd nagios3/
+ls
+cd conf.d/
+l
+ls
+cd ..
+ls
+cd ~
+ls
+sudo apt-get remove --purge nagios3
+ls
+cd /etc
+ls
+sudo rm -r nagios3/
+ls
+sudo rm -r nagios-plugins/
+ls
+sudo apt-get remove --purge nagios3
+sudo apt-get remove --auto-remove nagios3-cgi
+sudo apt-get remove --purge nagios3
+sudo systemctl puppetmaster status
+sudo systemctl restart  puppetmaster
+sudo systemctl status  puppetmaster
+agentupdate
+rm -rf /etc/nagios3
+sudo rm -rf /etc/nagios3
+apt-get --purge remove nagios3-common
+sudo apt-get --purge remove nagios3-common
+sudo apt-get --purge remove nagios3
+sudo apt list 
+sudo apt-get --purge remove nagios3-common
+sudo apt list |grep nasios
+sudo apt list |grep nagios
+sudo apt-get --purge remove nagios3-plugins
+sudo apt-get --purge remove nagios-plugins
+sudo apt-get --purge remove nagios3-common
+sudo apt-get --purge remove nagios3-*
+sudo autoremove
+sudo apt autoremove
+sudo apt-get --purge remove nagios3-*
+ls
+sudo systemctl restart  puppetmaster
+sudo systemctl status  puppetmaster
+sudo systemctl restart  nagios
+sudo systemctl restart  nagios3
+sudo systemctl status  puppetmaster
+ls
+agentupdate
+ls
+cd nagios3/
+ls
+cd ..
+ls
+cd nagios-plugins/
+ls
+cd ..
+cd /etc/puppet/code/modules
+ls
+cd nagios/
+ls
+cd manifests/
+ls
+sudo vim config.pp 
+sudo vim inn
+ls
+sudo vim init.pp 
+cd /etc
+ls
+rm -rf /etc/nagios3
+sudo rm -rf /etc/nagios3
+sudo rm -rf /etc/nagios-plugins/
+ls
+sudo apt-get --purge remove nagios3
+sudo apt-get --purge remove nagios3-common
+sudo apt-get --purge remove nagios3
+ls
+agentupdate
+sudo apt-get remove nagios3
+sudo apt-get remove --auto-remove nagios3
+sudo apt-get purge nagios3
+sudo apt-get purge --auto-remove nagios3
+ls
+sudo rm -rf /etc/nagios3
+ls
+sudo systemctl restart  puppetmaster
+sudo systemctl status  puppetmaster
+agentupdate
+ls
+cd nagios3/
+ls
+cd..
+ls
+cd ..
+ls
+cd nagios-plugins/
+ls
+cd config/
+ls
+cd..
+cd ..
+sudo systemctl status  puppetmaster
+sudo systemctl status  nagios3
+ls
+cd ..
+ls
+cd nagios3/
+ls
+agentupdate
+ls
+sudo systemctl status  nagios3
+cd /puppet
+/etc/puppet
+cd /etc/puppet/
+ls
+cd code/
+ls
+cd modules/
+ls
+cd nagios/
+ls
+cd manifests/
+ls
+sudo vi config.pp 
+sudo vi install.pp 
+sudo vi config.pp 
+ls
+sudo vim init.pp 
+agentupdate
+sudo systemctl status  nagios3
+journalctl
+sudo systemctl status  nagios3
+agentupdate
+cd /etc/puppet/code/modules/nagios/
+cd manifests/
+sudo vim service.pp 
+agentupdate
+ls
+sudo systemctl status  nagios3
+sudo vi config.pp 
+cd /etc
+ls
+cd nagios3/
+ls
+agentupdate
+sudo htpasswd -c /etc/puppet/code/modules/nagios3/files/htpasswd.users nagiosadmin
+cd  /etc/puppet/code/modules/nagios3/files/
+cd  /etc/puppet/code/modules/nagios3/files
+cd  /etc/puppet/code/modules/nagios/files
+sudo htpasswd -c /etc/puppet/code/modules/nagios/files/htpasswd.users nagiosadmin
+agentupdate
+cd /etc/puppet/code/modules/nagios/
+ls
+cd files/
+ls
+vim htpasswd.users 
+ls
+vim nagios.cfg 
+cd ..
+ls
+cd manifests/
+ls
+sudo vim service.pp 
+sudo vim config.pp 
+agentupdate
+ls
+cd /etc/nagios
+cd /etc/nagios3/
+ls
+sudo systemctl status  nagios3
+hostname -i
+sudo systemctl status  nagios3
+ls
+sudo nagios3 -v /etc/nagios3/nagios.cfg
+ls
+cd /etc/puppet/code/modules/nagios/
+ls
+cd files/
+ls
+sudo cp -r nagios.cfg  /etc/nagios3/
+sudo systemctl status  nagios3
+sudo systemctl restart  nagios3
+sudo systemctl status  nagios3
+sudo nagios3 -v /etc/nagios3/nagios.cfg
+ls
+sudo apt-get --purge remove nagios3
+sudo apt-get --purge remove nagios3-common
+sudo apt-get --purge remove nagios3
+sudo apt autoremove
+sudo rm -rf /etc/nagios3
+ls
+cd /etc
+ls
+sudo systemctl restart  nagios
+sudo systemctl 
+sudo systemctl restart  puppe
+sudo systemctl status  puppetmaster
+sudo systemctl status  nagios3
+sudo systemctl restart  nagios3
+sudo systemctl status  nagios3
+sudo systemctl stop  nagios3
+sudo systemctl status  nagios3
+sudo systemctl remove  nagios3
+sudo systemctl delete  nagios3
+cd /etc/puppet/code/modules/nagios/
+ls
+cd manifests/
+ls
+sudo vim init.pp 
+sudo systemctl status  nagios3
+sudo apt-get --purge remove nagios3
+sudo systemctl status  nagios3
+agentupdate
+sudo apt-get --purge remove nagios3
+sudo apt-get --purge remove nagios3-common
+sudo apt-get --purge autoremove remove nagios3-common
+sudo apt-get --purge autoremove  nagios3-common
+sudo apt-get --purge autoremove  nagios3
+ls
+cd /etc/
+ls
+agentupdate
+ls
+cd nagios3
+ls
+ls -la
+cd /etc/puppet/code/modules/nagios/
+ls
+cd manifests/
+ls
+sudo vi init.pp 
+agentupdate
+sudo systemctl status  nagios3
+ls
+cd /etc/nagios3/
+ls
+ls la
+ls -la
+sudo systemctl status  nagios3
+agentupdate
+sudo systemctl status  nagios3
+sudo systemctl status puppetmaster
+sudo systemctl status  nagios3
+ls
+ls -la
+sudo systemctl status  apache2
+sudo systemctl status  nagios3
+cd /etc/puupet/
+cd /etc/puppet
+ls
+cd /etc/puppet/code/modules/nagios/
+ls
+cd files/
+ls
+sudo vim htpasswd.users 
+ls
+htpasswd htpasswd.users 
+htpasswd htpasswd.users -v
+sudo htpasswd htpasswd.users -v
+sudo vim htpasswd.users 
+sudo htpasswd htpasswd.users nagiosadmin
+sudo vim htpasswd.users 
+sudo systemctl status  nagios3
+sudo systemctl restart  nagios3
+sudo systemctl status  nagios3
+ls
+cd /etc/nagios3/
+la
+cd /etc/puppet/code/modules/nagios/
+ls
+cd manifests/
+ls
+cat config.pp 
+ls
+sudo vim config.pp 
+agentupdate
+cd /etc/
+cd nagios3/
+ls
+cat htpasswd.users 
+sudo htpasswd -c /etc/nagios3/htpasswd.users nagiosadmin
+sudo systemctl restart  nagios3
+sudo systemctl status  nagios3
+ls
+sudo vim cgi.cfg 
+sudo systemctl restart  nagios3
+sudo systemctl status  nagios3
+sudo systemctl status  puppetmaster
+sudo systemctl status  nagios3
+sudo apt get install  libapache2-mod-php.
+sudo apt get install  libapache2-mod-php
+sudo apt-get install  libapache2-mod-php
+sudo systemctl status  puppetmaster
+sudo systemctl status  nagios3
+sudo systemctl status  apache2
+sudo systemctl restart  apache2
+sudo systemctl status  apache2
+ls
+ls -la
+cd stylesheets/
+ls
+cd ..
+ls
+sudo systemctl restart  lighttpd
+sudo systemctl status  lighttpd
+sudo chmod 644 resource.cfg 
+ls -la
+sudo systemctl restart  nagios3
+sudo systemctl status  apache2
+sudo systemctl status  nagios3
+cd /etc/apache2/
+ls
+cd sites-enabled/
+ls
+cat 000-default.conf 
+cd ..
+ls
+cd sites-available/
+ls
+cat default-ssl.conf 
+ls
+cd ..
+ls
+cd ~
+ls
+cd /etc/hosts
+cd /etc/nagios3
+ls
+ls -a
+ls -la
+cd /etc/puppet/code/modules/nagios/
+ls
+cd manifests/
+sudo vim config.pp 
+agentupdate
+sudo vim config.pp 
+cd /etc/nagios3/
+ls -l
+sudo systemctl status  apache2
+sudo systemctl status  nagios3
+sudo systemctl restart  nagios3
+sudo vim /etc/httpd/conf.d/nagios.conf
+cd /etc/httpd/conf.d/nagios.conf
+/etc/httpd/conf.d/
+/etc/httpd/
+ls
+sudo vim nagios.cfg 
+ls
+sudo systemctl status  nagios3
+service httpd status
+wget -p http://localhost/nagios3
+wget -p http://localhost/nagios3 nagiosadmin Oe2b2022
+sudo systemctl status  nagios3
+sudo systemctl status  apache2
+cd /etc/puppet/code/modules/nagios/
+ls
+cd manifests/
+ls
+sudo vim config.pp 
+agentupdate 
+sudo systemctl status  nagios3
+cd /etc
+ls
+cd nagios3/
+ls
+cd conf.d/
+ls
+cd ..
+ls -la
+cd /etc/puppet/code/modules/nagios/
+ls
+cd  manifests/
+vim nagios3
+ls
+sudo vim config.pp 
+cd /etc/nagios3/
+ls
+cd conf.d/
+ls
+agentupdate
+sudo systemctl status  nagios3
+sudo systemctl restart  nagios3
+sudo systemctl status  nagios3
+sudo systemctl status apache2
+sudo nagios3 -v /etc/nagios3/nagios.cfg 
+cd /etc/puppet/code/modules/nagios/
+cd manifests/
+sudo vim config.pp 
+cd etc/apache2
+cd /etc/apache2
+ls
+cd ..
+cd nagios3/
+ls
+vim nagios.cfg 
+vim cgi.cfg 
+cd /usr/share/nagios3/htdocs
+ls
+cd ..
+ls
+cd htdocs/
+ls
+cd images/
+ls
+cd ..
+l
+ls
+cat index.php 
+ls
+vim config.inc.php 
+ls
+cd ..
+ls
+cd ..
+ls
+php -v
+ls
+cd ~
+cd /etc/nagios3/
+ls
+sudo vim apache2.conf 
+sudo a2dismod mpm_event &amp;&amp;
+sudo a2dismod mpm_event
+systemctl restart apache2
+sudo systemctl restart apache2
+sudo systemctl status apache2
+sudo a2enmod mpm_prefork
+sudo systemctl restart apache2
+sudo systemctl status apache2
+cd /etc/nagios3/
+ls
+sudo vim apache2.conf 
+sudo systemctl restart apache2
+sudo systemctl restart nagios3
+sudo systemctl status apache2
+cd /etc/apache2/
+ls
+sudo vim apache2.conf 
+sudo systemctl restart nagios3
+sudo systemctl restart apache2
+sudo systemctl status apache2
+sudo cp /etc/apache2/nagios.conf /etc/apache2/sites-available/nagios.conf
+cd ~
+sudo cp /etc/apache2/nagios.conf /etc/apache2/sites-available/nagios.conf
+cd /etc/apache2/
+ls
+sudo ln -s /etc/apache2/sites-available/nagios.conf /etc/apache2/sites-enabled/
+sudo systemctl restart apache2
+sudo a2enmod rewrite
+sudo systemctl restart apache2
+sudo a2enmod cgi
+sudo systemctl restart apache2
+sudo systemctl status apache2
+sudo /usr/bin/install -c -m 644 sample-config/httpd.conf /etc/apache2/site
+service httpd restart
+sudo service httpd restart
+sudo systemctl restart httpd
+sudo apt-get httpd
+sudo apt-get install httpd
+sudo apt-get install lighttpd
+sudo systemctl start http
+sudo systemctl start httpd
+sudo systemctl restart httpd
+sudo systemctl start httpd
+sudo systemctl start lighhttpd
+sudo systemctl status lighhttpd
+sudo systemctl status lighttpd
+sudo systemctl start lighttpd
+sudo systemctl status lighttpd
+sudo systemctl restart lighttpd
+sudo systemctl status lighttpd
+sudo systemctl restart apache2
+sudo systemctl status lighttpd
+sudo systemctl restart apache2
+sudo systemctl status apache2
+sudo make install-webconf
+sudo apt-get install-webconf
+sudo apt-get install webconf
+cd /etc/nagios3
+ls
+cd ..
+ls
+cd apache2/
+ls
+cd sites-available/
+ls
+sudo apt-get install libapache2-mod-php
+sudo a2enmod php7.0
+sudo a2enmod mpm_prefork
+sudo a2dismod mpm_event
+ls
+vim 000-default.conf 
+cd ..
+ls
+cd ..
+ls
+cd nagios3/
+ls
+sudo cp /etc/nagios3/nagios.cfg /etc/apache2/sites-available/
+sudo systemctl restart apache2
+sudo systemctl restart nagios3
+sudo systemctl status nagios3
+sudo systemctl status apache2.service 
+cd /etc/apache2/
+ls
+cd ..
+ls
+cd nagios3/
+ls
+cd stylesheets/
+ls
+cd ..
+ls
+cd /etc/apache2/
+ls
+cd sites-enabled/
+ls
+cd ..
+cd sites-available/
+ls
+c ..
+cd ..
+ls
+cd sites-enabled/
+cat nagios.conf 
+ls
+sudo vim nagios.conf 
+sudo rm nagios.conf 
+ls
+cd ..
+ls
+cd conf-enabled/
+ls
+vim nagios3.conf 
+ls
+cd ..
+ls
+cd ..
+ls
+cd nagios3/
+ls
+cat htpasswd.users 
+sudo apt-get --purge remove apache2
+sudo apt-get --purge autoremove apache2
+sudo apt-get --purge remove apache2
+sudo apt-get --purge remove apache2-commn
+sudo apt-get --purge remove apache2-common
+sudo systemctl status apache2
+sudo systemctl status puppetmaster
+sudo systemctl restart puppetmaster
+sudo systemctl status puppetmaster
+agentupdate
+sudo systemctl status puppetmaster
+sudo systemctl status apache2
+sudo systemctl start apache2
+sudo systemctl start apache2-utlis
+sudo systemctl status apache2
+cd /etc/puppet/code/modules/nagios/manifests/
+sudo vim install.pp 
+agentupdate
+sudo systemctl status apache2
+sudo systemctl start apache2
+sudo systemctl status apache2
+sudo systemctl status apache2-utils
+sudo systemctl start apache2-utils
+sudo systemctl restart puppetmaster
+sudo systemctl status apache2
+sudo systemctl status puppetmaster
+sudo systemctl status apache2
+sudo apt-get install apache2-utils
+sudo systemctl status apache2
+sudo /etc/init.d/apache2 restart
+cd /etc
+ls
+sudo service apache2 start
+sudo service apache2 restart
+sudo apt list |grep apache2
+sudo apt-get --purge remove apache2
+sudo apt-get --purge autoremove apache2
+sudo apt-get autoremove
+sudo apt list |grep apache2
+sudo systemctl status lighttpd
+sudo apt-get --purge autoremove lighttpd
+sudo apt-get --purge remove lighttpd
+sudo systemctl status lighttpd
+agentupdate
+sudo apt list |grep apache2
+sudo apt-get --purge autoremove apache2-utils
+sudo apt-get --purge remove apache2-utils
+sudo apt list |grep apache2
+agentupdate
+sudo systemctl status apache2-utils
+sudo systemctl status apache2
+sudo systemctl restart apache2
+sudo systemctl status apache2
+sudo systemctl restart nagios3
+sudo systemctl status nagios3
+cd /etc/nagios3/
+ls
+htpasswd -c  htpasswd.users nagiosadmin
+sudo htpasswd -c  htpasswd.users nagiosadmin
+sudo vim htpasswd.users 
+sudo systemctl restart nagios3
+sudo systemctl restart apache2
+cd /etc/puppet/code/modules/nagios/
+cd files/
+ls
+sudo rm htpasswd.users 
+ls
+sudo mv nagios.cfg  /etc/puppet/code/modules/nagios/
+ls
+cd ..
+ls
+cd manifests/
+sudo vim config.pp 
+sudo systemctl restart nagios3
+sudo systemctl restart apache2
+agentupdate
+cd /etc/nagios3/
+ls
+sudo cp nagios.cfg /etc/puppet/code/modules/nagios/files
+agentupdate
+cd /etc/puppet/code/modules/nagios/
+ls
+sudo rm nagios.cfg 
+ls
+agentupdate 
+sudo systemctl restart nagios3
+sudo systemctl restart apache2
+sudo apt-get --purge autoremove apache2-utils
+sudo apt-get --purge remove apache2-utils
+sudo apt-get --purge autoremove nagios3
+sudo systemctl status nagios3
+sudo apt list |grep nagios3
+sudo apt list |grep nagios3-common
+sudo apt-get --purge autoremove nagios3-common
+sudo apt-get autoremove
+sudo apt list |grep nagios3
+cd /etc
+ls
+sudo apt-get --purge autoremove nagios3-common
+sudo apt-get --purge remove nagios3-common
+sudo apt-get --purge remove nagios3
+agentupdate
+sudo apt list |grep nagios3
+sudo systemctl restart nagios3
+sudo systemctl restart apache2
+ls
+sudo rm -r nagios3
+sudo rm -r nagios-plugins/
+sudo rm -r apache2/
+sudo apt-get --purge remove nagios3
+sudo apt-get --purge autoremove nagios3
+sudo apt-get --purge autoremove nagios3-common
+sudo apt-get --purge autoremove apache2
+sudo apt-get --purge autoremove apache2-utils
+sudo systemctl restart puppetmaster
+agentupdate
+cd /etc/
+ls
+cd nagios3/
+ls
+htpasswd -c htpasswd.users nagiosadmin
+sudo htpasswd -c htpasswd.users nagiosadmin
+sudo systemctl restart nagio3
+sudo systemctl restart nagios3
+sudo systemctl restart apache2
+sudo systemctl status apache2
+sudo systemctl status nagios3
+ls
+ls -la
+sudo apt-get install fcgiwrap
+sudo systemctl restart apache2
+ls
+sudo vim nagios.cfg 
+exit
+ls -la
+sudo vim nagios.cfg
+sudo systemctl status nagios3
+history -w
+cd OE2-Group-Project/Mgmt-VM/
+ls
+cp ~/.bash_history Bash_History/bash_history_19_03_2022.txt
+sudo cp ~/.bash_history Bash_History/bash_history_19_03_2022.txt
+cd modules/nagios/
+sudo cp /etc/puppet/code/modules/nagios/ .
+sudo cp /etc/puppet/code/modules/nagios/ . -r
+ls
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+git status
+cd Mgmt-VM/modules/nagios/nagios/
+ls
+cd ..
+l
+ls
+cd nagios/
+ls
+sudo mv . ../
+ls
+cd ..
+ls
+sudo mv nagios/ -r .
+sudo mv nagios/ .
+sudo mv nagios/manifests/ .
+sudo mv nagios/manifests/ . -r
+ls
+sudo rm -r nagios/
+ls
+cd ..
+ls
+cd ..
+ls
+ls -la
+cd ..
+ls
+cd Mgmt-VM/
+ls
+sudo cp /etc/puppet/code/modules/ . -r
+ls la
+ls
+git status
+git add .
+ls
+cd Bash_History/
+ls
+ls -al
+sudo shown bash_history_16-03-2022.txt bitstudent
+sudo chown bash_history_16-03-2022.txt bitstudent
+sudo chgrp bash_history_16-03-2022.txt bitstudent
+sudo chgrp  bitstudent bash_history_16-03-2022.txt 
+sudo chgrp  bitstudent bash_history_19_03_2022.txt 
+ls -al
+sudo chown 
+sudo chown bitstudent bash_history_19_03_2022.txt 
+ls -al
+sudo chmod go+r
+sudo chmod go+r bash_history_19_03_2022.txt 
+ls -al
+sudo chmod go+r bash_history_16-03-2022.txt 
+ls -al
+cd ..
+ls
+git status
+git add .
+cd Mgmt-VM/
+ls al
+ls -al
+cd /etc/puppet/
+ls
+cd code/environments/
+ls
+cd production/
+ls
+cd manifests/
+ls
+sudo vi ~/.bashrc
+cd ~
+ls
+sudo cp ~/.bashrc OE2-Group-Project/Mgmt-VM/
+source ~/.bashrc
+site
+sudo vi ~/.bashrc
+cd ~
+ls
+cd OE2-Group-Project/
+ls
+cd Mgmt-VM/
+ls
+sudo vi ~/.bashrc
+ls -al
+cd Config/
+ls
+cd ..
+ls
+cd ..
+ls
+sudo vi ~/.bashrc
+source ~/.bashrc
+cpmgmt
+sudo vi ~/.bashrc
+source ~/.bashrc
+cpmgmt
+sudo vi ~/.bashrc
+source ~/.bashrc
+cpmgmt
+sudo vi ~/.bashrc
+source ~/.bashrc
+cpmgmt
+sudo vi ~/.bashrc
+source ~/.bashrc
+cpmgmt
+sudo vi ~/.bashrc
+source ~/.bashrc
+cpmgmt
+sudo vi ~/.bashrc
+source ~/.bashrc
+cpmgmt
+sudo vi ~/.bashrc
+source ~/.bashrc
+cpmgmt
+sudo vi ~/.bashrc
+source ~/.bashrc
+cpmgmt
+git add .
+git commit -m "Update: nagios installation" -m "addition of new aliases for accessing site.pp and backing up puppet files to the repo in the home directory" -m "Mgmt-VM"
+git push
+cd ~/OE2-Group-Project/Mgmt-VM/
+ls
+ls -al
+sudo rm .bashrc 
+ls -al
+cd ..
+ls
+git add .
+git status
+git commit -m "removed hidden .bashrc file backup" -m "is now backed up to a .txt file" -m "mgmt-b vm"
+git push
+sudo cp /etc/nagios/ -r ~/OE2-Group-Project/Mgmt-VM/nagios-config/
+sudo cp /etc/nagios3/ -r ~/OE2-Group-Project/Mgmt-VM/nagios3/
+cd ~/OE2-Group-Project/Mgmt-VM/
+ls
+cd nagios3/
+ls
+cd ..
+ls
+cd ..
+git add .
+ls -al Mgmt-VM/nagios3/
+sudo chmod o+r Mgmt-VM/nagios3/resource.cfg 
+ls -al Mgmt-VM/nagios3/
+cd ../..
+ls
+cd bitstudent/
+ls
+cd OE2-Group-Project/
+ls -al
+git add .
+git commit -m "mgmt: add nagios3 install files" -m "install error still occuring" -m "mgmt-b vm"
+git push
+cd /etc
+ls
+cd sudoers.d/
+sudo cd sudoers.d/
+sudo vi sudoers
+sudo vi ca-certificates
+cd /etc/puppet
+ls
+cd code
+ls
+cd modules/
+ls
+mv htpasswd.users nagios/
+sudo mv htpasswd.users nagios/
+ls
+cd nagios/
+ls
+sudo vm htpasswd.users files/
+sudo mv htpasswd.users files/
+ls
+cd ..
+ls
+cd ~
+ls
+cpmgmt
