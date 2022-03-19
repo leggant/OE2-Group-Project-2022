@@ -3,14 +3,16 @@ class nagios::config {
 		ensure => present,
 		mode => '0644',
 		owner => 'root',
+		source => 'puppet:///modules/nagios/nagios.cfg',
 		group => 'www-data',
 		require => Class['nagios::install'],
 		notify => Class['nagios::service'],
 	}
 
 	file { '/etc/nagios3/htpasswd.users':
+	source => 'puppet:///modules/nagios/htpasswd.users',
 	ensure => present,
-	group => 'www-data'
+	group => 'www-data',
 	}
 	
 	file { '/etc/nagios3/conf.d':

@@ -4,5 +4,7 @@ class nagios::service {
 		hasstatus => true,
 		hasrestart => true,
 		enable => true,
+		require => Class["nagios::config"],
 	}
+
 }

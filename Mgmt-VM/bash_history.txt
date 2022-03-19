@@ -1,93 +1,3 @@
-cd /etc/nagios3/
-ls
-sudo systemctl status  nagios3
-hostname -i
-sudo systemctl status  nagios3
-ls
-sudo nagios3 -v /etc/nagios3/nagios.cfg
-ls
-cd /etc/puppet/code/modules/nagios/
-ls
-cd files/
-ls
-sudo cp -r nagios.cfg  /etc/nagios3/
-sudo systemctl status  nagios3
-sudo systemctl restart  nagios3
-sudo systemctl status  nagios3
-sudo nagios3 -v /etc/nagios3/nagios.cfg
-ls
-sudo apt-get --purge remove nagios3
-sudo apt-get --purge remove nagios3-common
-sudo apt-get --purge remove nagios3
-sudo apt autoremove
-sudo rm -rf /etc/nagios3
-ls
-cd /etc
-ls
-sudo systemctl restart  nagios
-sudo systemctl 
-sudo systemctl restart  puppe
-sudo systemctl status  puppetmaster
-sudo systemctl status  nagios3
-sudo systemctl restart  nagios3
-sudo systemctl status  nagios3
-sudo systemctl stop  nagios3
-sudo systemctl status  nagios3
-sudo systemctl remove  nagios3
-sudo systemctl delete  nagios3
-cd /etc/puppet/code/modules/nagios/
-ls
-cd manifests/
-ls
-sudo vim init.pp 
-sudo systemctl status  nagios3
-sudo apt-get --purge remove nagios3
-sudo systemctl status  nagios3
-agentupdate
-sudo apt-get --purge remove nagios3
-sudo apt-get --purge remove nagios3-common
-sudo apt-get --purge autoremove remove nagios3-common
-sudo apt-get --purge autoremove  nagios3-common
-sudo apt-get --purge autoremove  nagios3
-ls
-cd /etc/
-ls
-agentupdate
-ls
-cd nagios3
-ls
-ls -la
-cd /etc/puppet/code/modules/nagios/
-ls
-cd manifests/
-ls
-sudo vi init.pp 
-agentupdate
-sudo systemctl status  nagios3
-ls
-cd /etc/nagios3/
-ls
-ls la
-ls -la
-sudo systemctl status  nagios3
-agentupdate
-sudo systemctl status  nagios3
-sudo systemctl status puppetmaster
-sudo systemctl status  nagios3
-ls
-ls -la
-sudo systemctl status  apache2
-sudo systemctl status  nagios3
-cd /etc/puupet/
-cd /etc/puppet
-ls
-cd /etc/puppet/code/modules/nagios/
-ls
-cd files/
-ls
-sudo vim htpasswd.users 
-ls
-htpasswd htpasswd.users 
 htpasswd htpasswd.users -v
 sudo htpasswd htpasswd.users -v
 sudo vim htpasswd.users 
@@ -997,4 +907,94 @@ sudo systemctl restart nagios.service
 sudo systemctl restart nagios3.service
 sudo systemctl status nagios3.service
 sudo systemctl status puppetmaster.service
+cpmgmt
+ls
+sudo rm -r nagioscore.tar.gz nagioscore-nagios-4.4.6/
+ls
+cd /etc/
+ls
+cd /usr
+ls
+cd config/
+ls
+cd ../bin/
+ks
+ls
+cd ..
+ls
+ls -al ./ | grep nagios
+ls -al ./* | grep nagios
+cd nagios
+cd local/
+ls
+cd /nagios
+cd /nagios3
+cd /nagios-plugins/
+ls
+cd config/
+ls
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+cd /etc
+ls
+cd nagios3
+ls
+cpmgmt
+git stash
+git status
+git pull
+cd /etc/puppet/code/modules/nagios/
+ls
+cd manifests/
+ls
+sudo vi init.pp
+cpmgmt
+site
+cpmgmt
+sudo systemctl restart puppetmaster.service
+sudo systemctl restart nagios.service
+sudo systemctl restart nagios3.service
+sudo systemctl status nagios3.service
+sudo systemctl status puppetmaster.service
+cpmgmt
+cd ~/OE2-Group-Project/
+git status
+git add .
+git commit -m "mgmt: nagios changes did not resolve failures" -m "fresh attempt at getting the service to work failed; installed a nagios core installation by mistake, and now cannot remove it" -m "mgmt-b vm"
+git push
+cd OE2-Group-Project && git pull
+cd /etc/nagios3
+ls
+sudo vi ~/.bashrc
+ls
+cd ~
+sudo cp /etc/nagios3/ -r ~/OE2-Group-Project/Mgmt-VM/nagios3/
+cd ~/OE2-Group-Project/Mgmt-VM/
+ls
+cd nagios3/
+ls
+sudo rm -r nagios3/
+sudo cp /etc/nagios3/ -r ~/OE2-Group-Project/Mgmt-VM/
+ls
+cd ..
+ls
+cd ..
+ls
+git status
+cd Mgmt-VM/
+ls
+cd nagios3/
+ls
+cd ../..
+ls
+git add .
+git commit -m "mgmt: updated nagios3 backup file" -m "mgmt-b vm"
+git push
+Mymensingh1857
+cd OE2-Group-Project && git pull
+sudo cp /etc/nagios3/ -r ~/OE2-Group-Project/Mgmt-VM/
 cpmgmt
