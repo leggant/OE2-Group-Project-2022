@@ -670,3 +670,24 @@ ls
 sudo vi ~/.bashrc
 source ~/.bashrc
 budb
+git add .
+git status
+git commit -m "db: backup of puppet config, bash history/rc" -m "alias added to run backup to gh repo" -m "db-b vm"
+git push
+git pull
+git push
+git status
+sudo vi ~/.bashrc
+source ~/.bashrc
+budb
+cd /etc/puppet
+ls
+cd code
+touch .gitinclude
+sudo touch .gitinclude
+cd !
+cd ~
+cd OE2-Group-Project/
+sudo vi ~/.bashrc
+source ~/.bashrc
+budb
