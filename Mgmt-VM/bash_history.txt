@@ -1,16 +1,3 @@
-htpasswd htpasswd.users -v
-sudo htpasswd htpasswd.users -v
-sudo vim htpasswd.users 
-sudo htpasswd htpasswd.users nagiosadmin
-sudo vim htpasswd.users 
-sudo systemctl status  nagios3
-sudo systemctl restart  nagios3
-sudo systemctl status  nagios3
-ls
-cd /etc/nagios3/
-la
-cd /etc/puppet/code/modules/nagios/
-ls
 cd manifests/
 ls
 cat config.pp 
@@ -998,3 +985,16 @@ Mymensingh1857
 cd OE2-Group-Project && git pull
 sudo cp /etc/nagios3/ -r ~/OE2-Group-Project/Mgmt-VM/
 cpmgmt
+sudo cp /etc/nagios3/ -r ~/OE2-Group-Project/Mgmt-VM/
+cpmgmt
+git add .
+git commit -m "mgmt: update to nagios config" -m "mgmt-b vm"
+git push
+cd OE2-Group-Project && git pull
+sudo vi ~/.bashrc
+sudo source ~/.bashrc
+source ~/.bashrc
+bumgmt
+git add .
+sudo vi ~/.bashrc
+bumgmt
