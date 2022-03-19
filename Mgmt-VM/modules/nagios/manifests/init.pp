@@ -1,3 +1,3 @@
 class nagios {
-	include nagios::install
+include nagios::install
 }
