@@ -1,0 +1,311 @@
+sudo useradd -d /home/manager -m -s /bin/bash manager
+sudo passwd manager
+sudo usermod -aG sudo manager
+clear
+exit
+hostname
+cp ~/.bashrc ~/.bashrc.bak
+sudo vi ~/.bashrc
+exit
+sudo vim /etc/hosts
+sudo hostnamectl set-hostname backup-b.foo.org.nz
+hostname
+ping backup-b.foo.org.nz
+hostname
+exit
+hostname
+:q
+exit
+sudo cat /etc/hosts
+hostname
+ping mgmt-b.foo.org.nz
+sudo vi /etc/hosts
+ping backup-b.foo.org.nz
+ping mgmt-b.foo.org.nz
+sudo -i
+sudo service puppet restart
+sudo service puppet status
+sudo service agent --test
+sudo puppet agent --test
+sudo puppet agent -t
+sudo nano /etc/puppet/puppet.conf
+sudo service puppet restart
+sudo service puppet status
+sudo puppet agent -t
+sudo puppet agent --test
+sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetime
+sudo nano /etc/puppet/puppet.conf
+sudo vi /etc/hosts
+sudo nano /etc/puppet/puppet.conf
+sudo service puppet restart
+sudo service puppet status
+sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetime
+sudo puppet cert clean --all
+sudo -i
+sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetime
+sudo apt remove vim
+sudo vim /etc/hosts
+exit
+sudo vi /etc/puppet/puppet.conf
+sudo apt remove puppet
+sudo apt autoremove puppet
+cd etc
+cd /etc
+ls
+rm -r puppet
+ls
+sudo rm -r puppet
+ls
+cd ..
+cd ~
+ls
+sudo vi /etc/hosts
+sudo apt-get install puppet
+sudo vi /etc/puppet/puppet.conf
+sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetime
+sudo puppet cert --sign -all
+sudo apt remove vim
+exit
+sudo apt remove vim
+sudo puppet cert --sign -all
+sudo rm -rf /var/lib/puppet/ssl
+sudo service puppet restart
+sudo service puppet status
+sudo puppet ca destroy backup-b.foo.org.nz
+sudo rm -rf /var/lib/puppet/ssl
+sudo service puppet restart
+sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetime
+sudo service puppet status
+sudo vi /etc/puppet/puppet.conf
+sudo service puppet restart
+sudo service puppet status
+sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetime
+sudo puppet cert --sign -mgmt-b.foo.org.nz
+sudo puppet cert --sign --mgmt-b.foo.org.nz
+sudo puppet cert --sign mgmt-b.foo.org.nz
+sudo service puppet status
+sudo apt remove vim
+exit
+sudo apt remove vim
+sudo puppet cert --sign -all
+sudo apt remove vim
+exit
+sudo apt remove vim
+sudo service puppet restart
+exit
+sudo apt remove vim
+exit
+sudo apt remove vim
+exit
+sudo apt remove vim
+exit
+sudo apt remove vim
+exit
+sudo apt remove vim
+sudo systemctl restart puppet
+sudo apt remove vim
+exit
+sudo service puppet status
+sudo service puppet restart
+sudo service puppet status
+ntpq -p
+top
+top | grep ntp
+sudo systemctl restart ntpd
+sudo systemctl restart ntp
+top | grep ntp
+top | grep ntpd
+sudo service ntp restart
+sudo service ntp status
+sudo service puppet status
+sudo service ntp status
+sudo service puppet status
+date
+sudo service puppet status
+sudo service ntp status
+sudo reboot
+sudo service puppet start
+sudo service puppet status
+curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo dd of=/usr/share/keyrings/githubcli-archive-keyring.gpg
+echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" | sudo tee /etc/apt/sources.list.d/github-cli.list > /dev/null
+sudo apt update
+sudo apt install gh
+gh auth login
+ls
+git clone https://github.com/leggant/OE2-Group-Project.git
+cd OE2-Group-Project/
+mkdir Backup-VM
+cd Backup-VM/
+cp /etc/hosts .
+ls
+cd ..
+git add Backup-VM/
+git --global --edit
+git config --global --edit
+git add Backup-VM/
+git commit -m "Backup VM hosts"
+ls
+git push
+cd Backup-VM/
+ls
+cd ..
+git add .
+git status
+rm Backup-VM/hosts 
+git add .
+git status
+git pull
+cd Backup-VM/
+ls
+sudo cp /etc/hosts .
+ls
+cd ..
+git status
+git add Backup-VM/hosts
+git add Backup-VM/hosts -f
+git status
+git commit -m "Backup VM hosts"
+git push
+ls
+ls -al
+rm -r .github
+ls
+ls -al
+git status
+git add .
+git commit -m "removed Issue Templates" -m "these wont be used" -m "Ant"
+git push
+sudo service puppet status
+sudo service puppet restart
+sudo service puppet status
+cd OE2-Group-Project && git pull
+ls
+cd OE2-Group-Project && git pull
+sudo reboot
+sudo vi ~/.bashrc
+source ~/.bashrc
+bubup
+ls
+cd Backup-VM/
+ls
+cd ..
+cd ~
+cd OE2-Group-Project/
+ls
+cd Backup-VM/
+ls
+cd ..
+ls
+bubup
+cd ~
+ls
+ls -al
+sudo vi ~/.bashrc
+cd OE2-Group-Project/
+cd Backup-VM/
+ls
+ls -al
+cat bashrc.txt 
+cd ../..
+ls
+cd OE2-Group-Project/
+git status
+cd ..
+bubup
+sudo vi ~/.bashrc
+source ~/.bashrc
+bubup
+ls
+cd Backup-VM/
+ls
+cd ..
+cd ~
+cd OE2-Group-Project/
+ls
+cd Backup-VM/
+ls
+cd ..
+ls
+bubup
+cd ~
+ls
+ls -al
+sudo vi ~/.bashrc
+cd OE2-Group-Project/
+cd Backup-VM/
+ls
+ls -al
+cat bashrc.txt 
+cd ../..
+ls
+cd OE2-Group-Project/
+git status
+cd ..
+bubup
+exit
+bubup
+cd Backup-VM/
+ls -al
+cp /etc/puppet/ ~/OE2-Group-Project/Backup-VM/ -r
+sudo cp /etc/puppet/ ~/OE2-Group-Project/Backup-VM/ -r
+git status
+ls -al
+rm -r puppet/
+sudo rm -r puppet/
+sudo rm bash_history.txt 
+sudo rm bashrc.txt 
+sudo rm hosts 
+ls
+cd ~
+bubup
+cd Backup-VM/
+ls
+ls -al
+git status
+cd ..
+git add .
+git status
+cd Backup-VM/
+ls -al
+mv bash_history.txt bashhistory.txt
+ls -al
+git status
+cd ..
+ls -al
+cd Backup-VM/
+git status
+cd ~
+sudo rm -r OE2-Group-Project/
+git clone https://github.com/leggant/OE2-Group-Project.git
+cd OE2-Group-Project/
+ls -al
+cd ~
+bubup
+cd Backup-VM/
+ls -al
+cd ..
+ls
+sudo mv Backup-VM/ backup/
+git status
+cd backup/
+ls
+cd ..
+git add .
+git commit -m "backup: fix repo issue" -m "repo on backup vm not updating. renamed file to force a commit" -m "backup-b vm"
+git push
+sudo mv backup/ Backup-VM/
+ls -al
+git status
+cd Backup-VM/
+ls
+cd ..
+git add .
+git status
+git commit -m "backup: revert previous directory name change" -m "backup-b vm"
+git push
+cd Backup-VM/
+ls -al
+cd ..
+git pull
+ls -al
+bubup
