@@ -201,3 +201,100 @@ sudo cp .bash_history OE2-Group-Project/App-VM/bash_history_14_03_2022.txt
 cat OE2-Group-Project/App-VM/bash_history_14_03_2022.txt 
 sudo cat OE2-Group-Project/App-VM/bash_history_14_03_2022.txt 
 history -w
+git clone https://github.com/leggant/OE2-Group-Project.git
+curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo dd of=/usr/share/keyrings/githubcli-archive-keyring.gpg
+echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" | sudo tee /etc/apt/sources.list.d/github-cli.list > /dev/null
+sudo apt update
+sudo apt install gh
+gh auth login
+ls
+cd O
+cd OE2-Group-Project/
+ls
+mv PuppetMaster/ Mgmt-VM
+ls
+ls Mgmt-VM/
+ls
+mkdir App-VM
+cd App-VM/
+sudo cp /etc/hosts .
+la
+ls
+cd ..
+ls
+git add Mgmt-VM/
+git status
+git commit -m "Edited Puppetmaster directory name"
+git config --global user.name "Anthony Legg"
+git config --global user.email leggtc1@student.op.ac.nz
+git commit --amend --reset-author
+git push
+git status
+git add/rm .
+git rm .
+git add .
+git status
+git commit -m "add App VM Hosts" -m "removed old PuppetMaster Directory" -m "Ant"
+git push
+ls -al
+cd ..
+ls -al
+sudo cp .bash_history OE2-Group-Project/App-VM/bash_history_14_03_2022.txt
+cat OE2-Group-Project/App-VM/bash_history_14_03_2022.txt 
+sudo cat OE2-Group-Project/App-VM/bash_history_14_03_2022.txt 
+history -w
+sudo cp .bash_history OE2-Group-Project/App-VM/bash_history_14_03_2022.txt
+sudo cat OE2-Group-Project/App-VM/bash_history_14_03_2022.txt 
+cd OE2-Group-Project/App-VM/
+ls
+vm bash_history_14_03_2022.txt bash_history.txt
+mv bash_history_14_03_2022.txt bash_history.txt
+ls
+sudo vi ~./bashrc
+sudo vi ~./.bashrc
+sudo vi ~./.bash_rc
+sudo vi ~/.bash_rc
+sudo vi ~/.bashrc
+source source ~/.bashrc
+source ~/.bashrc
+sudo vi ~/.bashrc
+cphis
+sudo vi ~/.bashrc
+source ~/.bash_aliases
+sudo vi ~/.bashrc
+ls
+cp ~/.bash_rc .
+cp ~/.bashrc .
+ls
+ls -al
+mv .bashrc bashrc.txt
+ls
+mv hosts hosts.txt
+ls
+cd ..
+ls
+git add .
+git add . -f
+cd App-VM/
+ls -al
+sudo chmod ug+r
+sudo chmod u+r
+sudo chmod ug+r bash_history.txt 
+ls -al
+sudo chmod 444 bash_history.txt 
+ls -al
+sudo chmod 644 bash_history.txt 
+ls -al
+cd ..
+git add .
+git status
+git commit -m "add file ext to hosts" -m "made backup of history and bashrc files" -m "Ant"
+git push
+sudo systemctl status puppet
+sudo service puppet restart
+sudo systemctl status puppet
+cd OE2-Group-Project && git pull
+sudo reboot
+sudo vi ~/.bashrc
+source ~/.bashrc
+buapp
