@@ -309,3 +309,20 @@ cd ..
 git pull
 ls -al
 bubup
+ls -al
+sudo mv Backup-VM/ BackupVM/
+git status
+sudo mv BackupVM/ Backup-VM/
+git status
+git add Backup-VM/
+git status
+cat .gitignore 
+sudo rm .gitignore 
+git status
+touch .gitignore
+git status
+git add .
+git commit -m "backup: .gitignore prevented backup vm changes" -m "from beign tracked. removed content from .gitignore and run new update via backup alias" -m "backup-b vm"
+git push
+cd ~
+bubup
