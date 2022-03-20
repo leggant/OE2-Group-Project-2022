@@ -1,157 +1,3 @@
-cd manifests/
-ls
-cat config.pp 
-ls
-sudo vim config.pp 
-agentupdate
-cd /etc/
-cd nagios3/
-ls
-cat htpasswd.users 
-sudo htpasswd -c /etc/nagios3/htpasswd.users nagiosadmin
-sudo systemctl restart  nagios3
-sudo systemctl status  nagios3
-ls
-sudo vim cgi.cfg 
-sudo systemctl restart  nagios3
-sudo systemctl status  nagios3
-sudo systemctl status  puppetmaster
-sudo systemctl status  nagios3
-sudo apt get install  libapache2-mod-php.
-sudo apt get install  libapache2-mod-php
-sudo apt-get install  libapache2-mod-php
-sudo systemctl status  puppetmaster
-sudo systemctl status  nagios3
-sudo systemctl status  apache2
-sudo systemctl restart  apache2
-sudo systemctl status  apache2
-ls
-ls -la
-cd stylesheets/
-ls
-cd ..
-ls
-sudo systemctl restart  lighttpd
-sudo systemctl status  lighttpd
-sudo chmod 644 resource.cfg 
-ls -la
-sudo systemctl restart  nagios3
-sudo systemctl status  apache2
-sudo systemctl status  nagios3
-cd /etc/apache2/
-ls
-cd sites-enabled/
-ls
-cat 000-default.conf 
-cd ..
-ls
-cd sites-available/
-ls
-cat default-ssl.conf 
-ls
-cd ..
-ls
-cd ~
-ls
-cd /etc/hosts
-cd /etc/nagios3
-ls
-ls -a
-ls -la
-cd /etc/puppet/code/modules/nagios/
-ls
-cd manifests/
-sudo vim config.pp 
-agentupdate
-sudo vim config.pp 
-cd /etc/nagios3/
-ls -l
-sudo systemctl status  apache2
-sudo systemctl status  nagios3
-sudo systemctl restart  nagios3
-sudo vim /etc/httpd/conf.d/nagios.conf
-cd /etc/httpd/conf.d/nagios.conf
-/etc/httpd/conf.d/
-/etc/httpd/
-ls
-sudo vim nagios.cfg 
-ls
-sudo systemctl status  nagios3
-service httpd status
-wget -p http://localhost/nagios3
-wget -p http://localhost/nagios3 nagiosadmin Oe2b2022
-sudo systemctl status  nagios3
-sudo systemctl status  apache2
-cd /etc/puppet/code/modules/nagios/
-ls
-cd manifests/
-ls
-sudo vim config.pp 
-agentupdate 
-sudo systemctl status  nagios3
-cd /etc
-ls
-cd nagios3/
-ls
-cd conf.d/
-ls
-cd ..
-ls -la
-cd /etc/puppet/code/modules/nagios/
-ls
-cd  manifests/
-vim nagios3
-ls
-sudo vim config.pp 
-cd /etc/nagios3/
-ls
-cd conf.d/
-ls
-agentupdate
-sudo systemctl status  nagios3
-sudo systemctl restart  nagios3
-sudo systemctl status  nagios3
-sudo systemctl status apache2
-sudo nagios3 -v /etc/nagios3/nagios.cfg 
-cd /etc/puppet/code/modules/nagios/
-cd manifests/
-sudo vim config.pp 
-cd etc/apache2
-cd /etc/apache2
-ls
-cd ..
-cd nagios3/
-ls
-vim nagios.cfg 
-vim cgi.cfg 
-cd /usr/share/nagios3/htdocs
-ls
-cd ..
-ls
-cd htdocs/
-ls
-cd images/
-ls
-cd ..
-l
-ls
-cat index.php 
-ls
-vim config.inc.php 
-ls
-cd ..
-ls
-cd ..
-ls
-php -v
-ls
-cd ~
-cd /etc/nagios3/
-ls
-sudo vim apache2.conf 
-sudo a2dismod mpm_event &amp;&amp;
-sudo a2dismod mpm_event
-systemctl restart apache2
 sudo systemctl restart apache2
 sudo systemctl status apache2
 sudo a2enmod mpm_prefork
@@ -997,4 +843,158 @@ source ~/.bashrc
 bumgmt
 git add .
 sudo vi ~/.bashrc
+bumgmt
+cd OE2-Group-Project && git pull
+sudo vi ~/.bashrc
+sudo source ~/.bashrc
+source ~/.bashrc
+bumgmt
+git add .
+sudo vi ~/.bashrc
+bumgmt
+git add .
+git commit -m "mgmt: updated vm git backup alias" -m "script now pulls changes from the repo before running a backup of files" -m "mgmt-b vm"
+git push
+exit
+bumgmt
+cd /etc/puppet
+ls
+cd ~/OE2-Group-Project/
+cd Mgmt-VM/
+ls
+cd Config/
+ls
+cd m
+cd modules
+ls
+cd ..
+cd modules/
+ls
+cd nagios/
+ls
+cd manifests/
+ls
+cd /etc/puppet/
+ls
+cd /etc/
+ls
+cd /
+ls
+cd /bin/
+ls
+cd /etc/
+ls
+cd php
+ls
+cd 7.2/
+ls
+cd cgi/
+ls
+sudo cp /etc/puppet/ ~/OE2-Group-Project/Mgmt-VM/
+sudo cp /etc/puppet/ -r ~/OE2-Group-Project/Mgmt-VM/ -r
+cd ~/OE2-Group-Project/
+ls
+cd Mgmt-VM/
+ls
+cd puppet/
+ls
+mv ../site.pp .
+sudo mv ../site.pp .
+ls
+cd ..
+ls
+cd modules/
+ls
+cd ..
+cd puppet/
+ls
+cd code/
+ls
+cd modules/
+ls
+cd ../../..
+ls
+sudo rm -r modules/
+ls
+cd Config/
+ls
+sudo mv hosts ../
+ls
+cd ..
+ls
+cat hosts
+sudo rm -r Config/
+ls
+sudo cp /etc/php/7.2/cgi/php.ini ~/OE2-Group-Project/Mgmt-VM/php
+ls
+cd php
+sudo mv php php.ini
+ls
+ls lsls
+ls
+lslsls
+ls
+ls -al
+cd ../
+ls
+git add .
+sudo chown bitstudent ~/OE2-Group-Project/Mgmt-VM/puppet -r
+sudo chown bitstudent ~/OE2-Group-Project/Mgmt-VM/puppet
+ls -al
+cd Mgmt-VM/
+ls -al
+sudo chgrp bitstudent ~/OE2-Group-Project/Mgmt-VM/puppet
+ls -al
+sudo cp /etc/nagios3/ -r ~/OE2-Group-Project/Mgmt-VM/nagios3 -r
+ls -al
+sudo chown bitstudent ~/OE2-Group-Project/Mgmt-VM/nagios3
+ls -al
+sudo chgrp bitstudent ~/OE2-Group-Project/Mgmt-VM/nagios3
+cd nagios3/
+ls -al
+sudo chown bitstudent ~/OE2-Group-Project/Mgmt-VM/nagios3/ -r
+sudo chown bitstudent ~/OE2-Group-Project/Mgmt-VM/nagios3/
+ls -al
+sudo chown bitstudent ~/OE2-Group-Project/Mgmt-VM/nagios3/*
+ls -al
+sudo chgrp bitstudent ~/OE2-Group-Project/Mgmt-VM/nagios3/*
+ls -al
+source ~/.bashrc
+sudo vi ~/.bashrc
+source ~/.bashrc
+bumgmt
+sudo vi ~/.bashrc
+source ~/.bashrc
+bumgmt
+git add .
+cd ~/OE2-Group-Project/Mgmt-VM/
+ls
+cd puppet/
+ls
+sudo rm -r ~/OE2-Group-Project/Mgmt-VM/puppet/ssl
+ls
+cd ~
+sudo vi ~/.bashrc
+source ~/.bashrc
+bumgmt
+sudo vi ~/.bashrc
+bumgmt
+cd ~/OE2-Group-Project/
+ls
+cd Mgmt-VM/
+ls
+cd nagios3/
+ls
+sudo rm -r nagios3/
+ls
+cd ~
+bumgmt
+cd ~/OE2-Group-Project/
+cd Mgmt-VM/nagios3/
+ls
+sudo rm -r nagios3/
+ls
+cd ~
+sudo vi ~/.bashrc
+source ~/.bashrc
 bumgmt
