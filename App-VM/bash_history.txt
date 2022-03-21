@@ -298,3 +298,18 @@ sudo reboot
 sudo vi ~/.bashrc
 source ~/.bashrc
 buapp
+sudo vi ~/.bashrc
+source ~/.bashrc
+buapp
+git add .
+git commit -m "app: backup alias app vm" -m "alias and backup run on the app vm" -m "app-b vm"
+git push
+exit
+cd OE2-Group-Project && git pull
+exit
+sudo vi ~/.bashrc
+source ~/.bashrc
+statpup
+respup
+statpup
+buapp
