@@ -1,166 +1,3 @@
-sudo systemctl restart apache2
-sudo systemctl status apache2
-sudo a2enmod mpm_prefork
-sudo systemctl restart apache2
-sudo systemctl status apache2
-cd /etc/nagios3/
-ls
-sudo vim apache2.conf 
-sudo systemctl restart apache2
-sudo systemctl restart nagios3
-sudo systemctl status apache2
-cd /etc/apache2/
-ls
-sudo vim apache2.conf 
-sudo systemctl restart nagios3
-sudo systemctl restart apache2
-sudo systemctl status apache2
-sudo cp /etc/apache2/nagios.conf /etc/apache2/sites-available/nagios.conf
-cd ~
-sudo cp /etc/apache2/nagios.conf /etc/apache2/sites-available/nagios.conf
-cd /etc/apache2/
-ls
-sudo ln -s /etc/apache2/sites-available/nagios.conf /etc/apache2/sites-enabled/
-sudo systemctl restart apache2
-sudo a2enmod rewrite
-sudo systemctl restart apache2
-sudo a2enmod cgi
-sudo systemctl restart apache2
-sudo systemctl status apache2
-sudo /usr/bin/install -c -m 644 sample-config/httpd.conf /etc/apache2/site
-service httpd restart
-sudo service httpd restart
-sudo systemctl restart httpd
-sudo apt-get httpd
-sudo apt-get install httpd
-sudo apt-get install lighttpd
-sudo systemctl start http
-sudo systemctl start httpd
-sudo systemctl restart httpd
-sudo systemctl start httpd
-sudo systemctl start lighhttpd
-sudo systemctl status lighhttpd
-sudo systemctl status lighttpd
-sudo systemctl start lighttpd
-sudo systemctl status lighttpd
-sudo systemctl restart lighttpd
-sudo systemctl status lighttpd
-sudo systemctl restart apache2
-sudo systemctl status lighttpd
-sudo systemctl restart apache2
-sudo systemctl status apache2
-sudo make install-webconf
-sudo apt-get install-webconf
-sudo apt-get install webconf
-cd /etc/nagios3
-ls
-cd ..
-ls
-cd apache2/
-ls
-cd sites-available/
-ls
-sudo apt-get install libapache2-mod-php
-sudo a2enmod php7.0
-sudo a2enmod mpm_prefork
-sudo a2dismod mpm_event
-ls
-vim 000-default.conf 
-cd ..
-ls
-cd ..
-ls
-cd nagios3/
-ls
-sudo cp /etc/nagios3/nagios.cfg /etc/apache2/sites-available/
-sudo systemctl restart apache2
-sudo systemctl restart nagios3
-sudo systemctl status nagios3
-sudo systemctl status apache2.service 
-cd /etc/apache2/
-ls
-cd ..
-ls
-cd nagios3/
-ls
-cd stylesheets/
-ls
-cd ..
-ls
-cd /etc/apache2/
-ls
-cd sites-enabled/
-ls
-cd ..
-cd sites-available/
-ls
-c ..
-cd ..
-ls
-cd sites-enabled/
-cat nagios.conf 
-ls
-sudo vim nagios.conf 
-sudo rm nagios.conf 
-ls
-cd ..
-ls
-cd conf-enabled/
-ls
-vim nagios3.conf 
-ls
-cd ..
-ls
-cd ..
-ls
-cd nagios3/
-ls
-cat htpasswd.users 
-sudo apt-get --purge remove apache2
-sudo apt-get --purge autoremove apache2
-sudo apt-get --purge remove apache2
-sudo apt-get --purge remove apache2-commn
-sudo apt-get --purge remove apache2-common
-sudo systemctl status apache2
-sudo systemctl status puppetmaster
-sudo systemctl restart puppetmaster
-sudo systemctl status puppetmaster
-agentupdate
-sudo systemctl status puppetmaster
-sudo systemctl status apache2
-sudo systemctl start apache2
-sudo systemctl start apache2-utlis
-sudo systemctl status apache2
-cd /etc/puppet/code/modules/nagios/manifests/
-sudo vim install.pp 
-agentupdate
-sudo systemctl status apache2
-sudo systemctl start apache2
-sudo systemctl status apache2
-sudo systemctl status apache2-utils
-sudo systemctl start apache2-utils
-sudo systemctl restart puppetmaster
-sudo systemctl status apache2
-sudo systemctl status puppetmaster
-sudo systemctl status apache2
-sudo apt-get install apache2-utils
-sudo systemctl status apache2
-sudo /etc/init.d/apache2 restart
-cd /etc
-ls
-sudo service apache2 start
-sudo service apache2 restart
-sudo apt list |grep apache2
-sudo apt-get --purge remove apache2
-sudo apt-get --purge autoremove apache2
-sudo apt-get autoremove
-sudo apt list |grep apache2
-sudo systemctl status lighttpd
-sudo apt-get --purge autoremove lighttpd
-sudo apt-get --purge remove lighttpd
-sudo systemctl status lighttpd
-agentupdate
-sudo apt list |grep apache2
 sudo apt-get --purge autoremove apache2-utils
 sudo apt-get --purge remove apache2-utils
 sudo apt list |grep apache2
@@ -995,6 +832,169 @@ ls
 sudo rm -r nagios3/
 ls
 cd ~
+sudo vi ~/.bashrc
+source ~/.bashrc
+bumgmt
+bumgmt
+cd /etc/puppet
+ls
+cd ~/OE2-Group-Project/
+cd Mgmt-VM/
+ls
+cd Config/
+ls
+cd m
+cd modules
+ls
+cd ..
+cd modules/
+ls
+cd nagios/
+ls
+cd manifests/
+ls
+cd /etc/puppet/
+ls
+cd /etc/
+ls
+cd /
+ls
+cd /bin/
+ls
+cd /etc/
+ls
+cd php
+ls
+cd 7.2/
+ls
+cd cgi/
+ls
+sudo cp /etc/puppet/ ~/OE2-Group-Project/Mgmt-VM/
+sudo cp /etc/puppet/ -r ~/OE2-Group-Project/Mgmt-VM/ -r
+cd ~/OE2-Group-Project/
+ls
+cd Mgmt-VM/
+ls
+cd puppet/
+ls
+mv ../site.pp .
+sudo mv ../site.pp .
+ls
+cd ..
+ls
+cd modules/
+ls
+cd ..
+cd puppet/
+ls
+cd code/
+ls
+cd modules/
+ls
+cd ../../..
+ls
+sudo rm -r modules/
+ls
+cd Config/
+ls
+sudo mv hosts ../
+ls
+cd ..
+ls
+cat hosts
+sudo rm -r Config/
+ls
+sudo cp /etc/php/7.2/cgi/php.ini ~/OE2-Group-Project/Mgmt-VM/php
+ls
+cd php
+sudo mv php php.ini
+ls
+ls lsls
+ls
+lslsls
+ls
+ls -al
+cd ../
+ls
+git add .
+sudo chown bitstudent ~/OE2-Group-Project/Mgmt-VM/puppet -r
+sudo chown bitstudent ~/OE2-Group-Project/Mgmt-VM/puppet
+ls -al
+cd Mgmt-VM/
+ls -al
+sudo chgrp bitstudent ~/OE2-Group-Project/Mgmt-VM/puppet
+ls -al
+sudo cp /etc/nagios3/ -r ~/OE2-Group-Project/Mgmt-VM/nagios3 -r
+ls -al
+sudo chown bitstudent ~/OE2-Group-Project/Mgmt-VM/nagios3
+ls -al
+sudo chgrp bitstudent ~/OE2-Group-Project/Mgmt-VM/nagios3
+cd nagios3/
+ls -al
+sudo chown bitstudent ~/OE2-Group-Project/Mgmt-VM/nagios3/ -r
+sudo chown bitstudent ~/OE2-Group-Project/Mgmt-VM/nagios3/
+ls -al
+sudo chown bitstudent ~/OE2-Group-Project/Mgmt-VM/nagios3/*
+ls -al
+sudo chgrp bitstudent ~/OE2-Group-Project/Mgmt-VM/nagios3/*
+ls -al
+source ~/.bashrc
+sudo vi ~/.bashrc
+source ~/.bashrc
+bumgmt
+sudo vi ~/.bashrc
+source ~/.bashrc
+bumgmt
+git add .
+cd ~/OE2-Group-Project/Mgmt-VM/
+ls
+cd puppet/
+ls
+sudo rm -r ~/OE2-Group-Project/Mgmt-VM/puppet/ssl
+ls
+cd ~
+sudo vi ~/.bashrc
+source ~/.bashrc
+bumgmt
+sudo vi ~/.bashrc
+bumgmt
+cd ~/OE2-Group-Project/
+ls
+cd Mgmt-VM/
+ls
+cd nagios3/
+ls
+sudo rm -r nagios3/
+ls
+cd ~
+bumgmt
+cd ~/OE2-Group-Project/
+cd Mgmt-VM/nagios3/
+ls
+sudo rm -r nagios3/
+ls
+cd ~
+sudo vi ~/.bashrc
+source ~/.bashrc
+bumgmt
+cd ~/OE2-Group-Project/Mgmt-VM/nagios3/
+ls
+cd ../..
+ls
+git add .
+git commit -m "mgmt: nagios 3 install backup" -m "nagios installation completed, backup of files added. Backup alias updated to include all files" -m "mgmt-b vm"
+git push
+exit
+sudo vi ~/.bashrc
+source ~/.bashrc
+nag
+ls
+mod
+ls
+bumgmt
+sudo vi ~/.bashrc
+source ~/.bashrc
+inst nagios
 sudo vi ~/.bashrc
 source ~/.bashrc
 bumgmt
