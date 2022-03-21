@@ -739,3 +739,35 @@ sudo reboot
 sudo vi ~/.bashrc
 source ~/.bashrc
 budb
+sudo vi ~/.bashrc
+source ~/.bashrc
+budb
+git add .
+git commit -m "db: updated vm backup alias" -m "changes are pulled from the repo before files are backed up on this vm" -m "db-b vm"
+git push
+exit
+cd OE2-Group-Project && git pull
+exit
+sudo vi ~/.bashrc
+source ~/.bashrc
+mod
+cd /etc/
+ls
+cd puppet/
+ls
+cd code/
+ls
+source ~/.bashrc
+cd code/sudo vi ~/.bashrc
+sudo vi ~/.bashrc
+source ~/.bashrc
+mod
+ls
+sudo vi ~/.bashrc
+source ~/.bashrc
+pup
+ls
+statpup
+sudo service puppet start
+statpup
+budb
