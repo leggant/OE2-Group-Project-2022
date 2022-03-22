@@ -1,93 +1,3 @@
-sudo apt-get --purge autoremove apache2-utils
-sudo apt-get --purge remove apache2-utils
-sudo apt list |grep apache2
-agentupdate
-sudo systemctl status apache2-utils
-sudo systemctl status apache2
-sudo systemctl restart apache2
-sudo systemctl status apache2
-sudo systemctl restart nagios3
-sudo systemctl status nagios3
-cd /etc/nagios3/
-ls
-htpasswd -c  htpasswd.users nagiosadmin
-sudo htpasswd -c  htpasswd.users nagiosadmin
-sudo vim htpasswd.users 
-sudo systemctl restart nagios3
-sudo systemctl restart apache2
-cd /etc/puppet/code/modules/nagios/
-cd files/
-ls
-sudo rm htpasswd.users 
-ls
-sudo mv nagios.cfg  /etc/puppet/code/modules/nagios/
-ls
-cd ..
-ls
-cd manifests/
-sudo vim config.pp 
-sudo systemctl restart nagios3
-sudo systemctl restart apache2
-agentupdate
-cd /etc/nagios3/
-ls
-sudo cp nagios.cfg /etc/puppet/code/modules/nagios/files
-agentupdate
-cd /etc/puppet/code/modules/nagios/
-ls
-sudo rm nagios.cfg 
-ls
-agentupdate 
-sudo systemctl restart nagios3
-sudo systemctl restart apache2
-sudo apt-get --purge autoremove apache2-utils
-sudo apt-get --purge remove apache2-utils
-sudo apt-get --purge autoremove nagios3
-sudo systemctl status nagios3
-sudo apt list |grep nagios3
-sudo apt list |grep nagios3-common
-sudo apt-get --purge autoremove nagios3-common
-sudo apt-get autoremove
-sudo apt list |grep nagios3
-cd /etc
-ls
-sudo apt-get --purge autoremove nagios3-common
-sudo apt-get --purge remove nagios3-common
-sudo apt-get --purge remove nagios3
-agentupdate
-sudo apt list |grep nagios3
-sudo systemctl restart nagios3
-sudo systemctl restart apache2
-ls
-sudo rm -r nagios3
-sudo rm -r nagios-plugins/
-sudo rm -r apache2/
-sudo apt-get --purge remove nagios3
-sudo apt-get --purge autoremove nagios3
-sudo apt-get --purge autoremove nagios3-common
-sudo apt-get --purge autoremove apache2
-sudo apt-get --purge autoremove apache2-utils
-sudo systemctl restart puppetmaster
-agentupdate
-cd /etc/
-ls
-cd nagios3/
-ls
-htpasswd -c htpasswd.users nagiosadmin
-sudo htpasswd -c htpasswd.users nagiosadmin
-sudo systemctl restart nagio3
-sudo systemctl restart nagios3
-sudo systemctl restart apache2
-sudo systemctl status apache2
-sudo systemctl status nagios3
-ls
-ls -la
-sudo apt-get install fcgiwrap
-sudo systemctl restart apache2
-ls
-sudo vim nagios.cfg 
-exit
-ls -la
 sudo vim nagios.cfg
 sudo systemctl status nagios3
 history -w
@@ -997,4 +907,94 @@ source ~/.bashrc
 inst nagios
 sudo vi ~/.bashrc
 source ~/.bashrc
+bumgmt
+sudo vi ~/.bashrc
+source ~/.bashrc
+nag
+ls
+mod
+ls
+bumgmt
+sudo vi ~/.bashrc
+source ~/.bashrc
+inst nagios
+sudo vi ~/.bashrc
+source ~/.bashrc
+bumgmt
+git add .
+git commit -m "mgmt: updated bash aliases" -m "mgmt-b"
+git push
+exit
+cd /etc/puppet/code/modules/
+ls
+cd nagios/
+ls
+cd manifests/
+vim install.pp 
+vim init.pp 
+cd /etc/puppet/code/
+ls
+cd environments/
+ls
+cd production/
+ls
+cd manifests/
+ls
+vim site.pp 
+pwd
+vim site.pp 
+vim  ~/.bashrc
+sudo systemctl nagios3 status
+sudo systemctl status nagios3
+/etc/puppet/code/modules
+cd /etc/puppet/code/modules/
+ls
+cd nagios/
+ls
+cd manifests/
+vim service.pp 
+vim config.pp 
+vim init.pp 
+ls
+vim config.pp 
+ls
+cd ..
+ls
+cd ..
+ls
+stat puppetmaster
+respup
+statpup
+stat puppetmaster
+statpup
+stat puppet
+respup
+stat puppet
+respup
+stat puppet
+respup
+respup && statpup
+stat puppetrespup && stat puppet
+respup && stat puppet
+sudo puppet cert --list --all
+sudo -i
+sudo puppet cert --list --all
+sudo puppet cert --sign mgmt-b.foo.org.nz
+respup && stat puppet
+sudo puppet cert --sign mgmt-b.foo.org.nz
+sudo vim /etc/hosts
+sudo vi ~/.bashrc
+site
+agentupdate
+respup && stat puppet
+sudo systemctl restart puppetmaster
+sudo systemctl restart puppet
+respup && stat puppet
+stat puppet
+sudo systemctl status puppetmaster
+sudo puppet cert --list --all
+exit
+sudo vi ~/.bashrc
+source ~/.bashrc
+lcert
 bumgmt
