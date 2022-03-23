@@ -998,3 +998,53 @@ crontab -l
 vim ~/OE2-Group-Project/Mgmt-VM/crontab.txt
 cd ~/OE2-Group-Project && git status
 bumgmt
+crontab -e
+crontab -l
+cat crontab -l > ~/OE2-Group-Project/Mgmt-VM/crontab.txt
+echo crontab -l > ~/OE2-Group-Project/Mgmt-VM/crontab.txt
+cat ~/OE2-Group-Project/Mgmt-VM/crontab.txt
+vim ~/OE2-Group-Project/Mgmt-VM/crontab.txt
+cd ~/OE2-Group-Project/
+cd ~/OE2-Group-Project && git status
+time
+timezone
+date
+crontab -e
+crontab -l
+# utc time converted using: https://savvytime.com/converter/utc-to-nzst 
+# m h  dom mon dow   command
+# 10pm utc converts to 11am nzst
+0 22 * * * bash ~/OE2-Group-Project/Scripts/mgmt/backup.sh
+# 1am utc converts to 2pm nzst
+0 1 * * * bash ~/OE2-Group-Project/Scripts/mgmt/backup.sh
+# 8am utc converts to 9pm nzst
+vim ~/OE2-Group-Project/Mgmt-VM/crontab.txt
+cd ~/OE2-Group-Project && git status
+bumgmt
+git add .
+git commit -m "mgmt: updated crontab github repo update" -m "script needs to be altered to check for file changes before running" -m "mgmt-b vm"
+git push
+cd ~/OE2-Group-Project && git pull
+bash ~/OE2-Group-Project/Scripts/mgmt/backup.sh
+ls -al ~/OE2-Group-Project/Scripts/mgmt/backup.sh
+sudo chown ~/OE2-Group-Project/Scripts/mgmt/backup.sh root
+sudo chown root ~/OE2-Group-Project/Scripts/mgmt/backup.sh
+sudo chgrp root ~/OE2-Group-Project/Scripts/mgmt/backup.sh
+ls -al ~/OE2-Group-Project/Scripts/mgmt/backup.sh
+sudo chmod u+x ~/OE2-Group-Project/Scripts/mgmt/backup.sh
+ls -al
+
+sudo chgrp bitstudent ~/OE2-Group-Project/Scripts/mgmt/backup.sh
+sudo chown bitstudent ~/OE2-Group-Project/Scripts/mgmt/backup.sh
+sudo chmod o+x ~/OE2-Group-Project/Scripts/mgmt/backup.sh
+ls -al
+ls -al ~/OE2-Group-Project/Scripts/mgmt/backup.sh
+sudo bash ~/OE2-Group-Project/Scripts/mgmt/backup.sh
+crontab -e
+crontab -l
+sudo vim ~/OE2-Group-Project/Scripts/mgmt/backup.sh
+sudo vim ~/OE2-Group-Project/Mgmt-VM/crontab.txt 
+cd ../..
+git status
+cd ~/OE2-Group-Project/
+git status

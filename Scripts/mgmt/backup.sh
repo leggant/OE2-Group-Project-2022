@@ -44,10 +44,10 @@ if [ -z "$(git status --porcelain)" ]; then
 	# no changes to add to a commit
   cd ~/
 else 
-	COMMIT_TIMESTAMP=`date +'%d-%m-%Y %H:%M:%S %Z'`
-	git status
-	git add .
-	git commit -m "mgmt: automated system backup" -m "completed: $COMMIT_TIMESTAMP" -m "mgmt-b"
-	git push
-	cd ~/
+  COMMIT_TIMESTAMP=`date +'%d-%m-%Y %H:%M:%S %Z'`
+  git status
+  git add .
+  git commit -m "mgmt: automated system backup" -m "completed: $COMMIT_TIMESTAMP" -m "mgmt-b"
+  git push
+  cd ~/
 fi
