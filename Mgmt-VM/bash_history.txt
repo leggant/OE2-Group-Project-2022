@@ -1,417 +1,3 @@
-sudo vim nagios.cfg
-sudo systemctl status nagios3
-history -w
-cd OE2-Group-Project/Mgmt-VM/
-ls
-cp ~/.bash_history Bash_History/bash_history_19_03_2022.txt
-sudo cp ~/.bash_history Bash_History/bash_history_19_03_2022.txt
-cd modules/nagios/
-sudo cp /etc/puppet/code/modules/nagios/ .
-sudo cp /etc/puppet/code/modules/nagios/ . -r
-ls
-cd ..
-ls
-cd ..
-ls
-cd ..
-ls
-git status
-cd Mgmt-VM/modules/nagios/nagios/
-ls
-cd ..
-l
-ls
-cd nagios/
-ls
-sudo mv . ../
-ls
-cd ..
-ls
-sudo mv nagios/ -r .
-sudo mv nagios/ .
-sudo mv nagios/manifests/ .
-sudo mv nagios/manifests/ . -r
-ls
-sudo rm -r nagios/
-ls
-cd ..
-ls
-cd ..
-ls
-ls -la
-cd ..
-ls
-cd Mgmt-VM/
-ls
-sudo cp /etc/puppet/code/modules/ . -r
-ls la
-ls
-git status
-git add .
-ls
-cd Bash_History/
-ls
-ls -al
-sudo shown bash_history_16-03-2022.txt bitstudent
-sudo chown bash_history_16-03-2022.txt bitstudent
-sudo chgrp bash_history_16-03-2022.txt bitstudent
-sudo chgrp  bitstudent bash_history_16-03-2022.txt 
-sudo chgrp  bitstudent bash_history_19_03_2022.txt 
-ls -al
-sudo chown 
-sudo chown bitstudent bash_history_19_03_2022.txt 
-ls -al
-sudo chmod go+r
-sudo chmod go+r bash_history_19_03_2022.txt 
-ls -al
-sudo chmod go+r bash_history_16-03-2022.txt 
-ls -al
-cd ..
-ls
-git status
-git add .
-cd Mgmt-VM/
-ls al
-ls -al
-cd /etc/puppet/
-ls
-cd code/environments/
-ls
-cd production/
-ls
-cd manifests/
-ls
-sudo vi ~/.bashrc
-cd ~
-ls
-sudo cp ~/.bashrc OE2-Group-Project/Mgmt-VM/
-source ~/.bashrc
-site
-sudo vi ~/.bashrc
-cd ~
-ls
-cd OE2-Group-Project/
-ls
-cd Mgmt-VM/
-ls
-sudo vi ~/.bashrc
-ls -al
-cd Config/
-ls
-cd ..
-ls
-cd ..
-ls
-sudo vi ~/.bashrc
-source ~/.bashrc
-cpmgmt
-sudo vi ~/.bashrc
-source ~/.bashrc
-cpmgmt
-sudo vi ~/.bashrc
-source ~/.bashrc
-cpmgmt
-sudo vi ~/.bashrc
-source ~/.bashrc
-cpmgmt
-sudo vi ~/.bashrc
-source ~/.bashrc
-cpmgmt
-sudo vi ~/.bashrc
-source ~/.bashrc
-cpmgmt
-sudo vi ~/.bashrc
-source ~/.bashrc
-cpmgmt
-sudo vi ~/.bashrc
-source ~/.bashrc
-cpmgmt
-sudo vi ~/.bashrc
-source ~/.bashrc
-cpmgmt
-git add .
-git commit -m "Update: nagios installation" -m "addition of new aliases for accessing site.pp and backing up puppet files to the repo in the home directory" -m "Mgmt-VM"
-git push
-cd ~/OE2-Group-Project/Mgmt-VM/
-ls
-ls -al
-sudo rm .bashrc 
-ls -al
-cd ..
-ls
-git add .
-git status
-git commit -m "removed hidden .bashrc file backup" -m "is now backed up to a .txt file" -m "mgmt-b vm"
-git push
-sudo cp /etc/nagios/ -r ~/OE2-Group-Project/Mgmt-VM/nagios-config/
-sudo cp /etc/nagios3/ -r ~/OE2-Group-Project/Mgmt-VM/nagios3/
-cd ~/OE2-Group-Project/Mgmt-VM/
-ls
-cd nagios3/
-ls
-cd ..
-ls
-cd ..
-git add .
-ls -al Mgmt-VM/nagios3/
-sudo chmod o+r Mgmt-VM/nagios3/resource.cfg 
-ls -al Mgmt-VM/nagios3/
-cd ../..
-ls
-cd bitstudent/
-ls
-cd OE2-Group-Project/
-ls -al
-git add .
-git commit -m "mgmt: add nagios3 install files" -m "install error still occuring" -m "mgmt-b vm"
-git push
-cd /etc
-ls
-cd sudoers.d/
-sudo cd sudoers.d/
-sudo vi sudoers
-sudo vi ca-certificates
-cd /etc/puppet
-ls
-cd code
-ls
-cd modules/
-ls
-mv htpasswd.users nagios/
-sudo mv htpasswd.users nagios/
-ls
-cd nagios/
-ls
-sudo vm htpasswd.users files/
-sudo mv htpasswd.users files/
-ls
-cd ..
-ls
-cd ~
-ls
-cpmgmt
-cd /etc/nagios3/
-ls
-ls -la
-chmod 777 resource.cfg 
-sudo chmod 777 resource.cfg 
-ls -l
-sudo systemctl restart apache2
-sudo systemctl restart nagios3.service 
-sudo systemctl restart nagios3
-ls -l
-sudo chmod 664 resource.cfg 
-ls -la
-ls -lasudo lsof -i -P -n | grep LISTEN
-sudo lsof -i -P -n | grep LISTEN
-apt-get install build-essential php5-gd wget libgd2-xpm-dev libapache2-mod-php5 apache2-utils daemon unzip
-sudo apt-get install build-essential php5-gd wget libgd2-xpm-dev libapache2-mod-php5 apache2-utils daemon unzip
-cd /ect
-cd /etc
-ls
-cd nagios3/
-ls
-cd cp nagios.cfg /etc/apache2/sites-available/
-sudo cp nagios.cfg /etc/apache2/sites-available/
-sudo vim nagios.cfg 
-sudo vim /var/log/nagios3/nagios.log
-grep "nag\|apache\|psaserv" /etc/group
-ls -la
-sudo vim nagios.cfg
-sudo systemctl status nagios3
-history -w
-cd OE2-Group-Project/Mgmt-VM/
-ls
-cp ~/.bash_history Bash_History/bash_history_19_03_2022.txt
-sudo cp ~/.bash_history Bash_History/bash_history_19_03_2022.txt
-cd modules/nagios/
-sudo cp /etc/puppet/code/modules/nagios/ .
-sudo cp /etc/puppet/code/modules/nagios/ . -r
-ls
-cd ..
-ls
-cd ..
-ls
-cd ..
-ls
-git status
-cd Mgmt-VM/modules/nagios/nagios/
-ls
-cd ..
-l
-ls
-cd nagios/
-ls
-sudo mv . ../
-ls
-cd ..
-ls
-sudo mv nagios/ -r .
-sudo mv nagios/ .
-sudo mv nagios/manifests/ .
-sudo mv nagios/manifests/ . -r
-ls
-sudo rm -r nagios/
-ls
-cd ..
-ls
-cd ..
-ls
-ls -la
-cd ..
-ls
-cd Mgmt-VM/
-ls
-sudo cp /etc/puppet/code/modules/ . -r
-ls la
-ls
-git status
-git add .
-ls
-cd Bash_History/
-ls
-ls -al
-sudo shown bash_history_16-03-2022.txt bitstudent
-sudo chown bash_history_16-03-2022.txt bitstudent
-sudo chgrp bash_history_16-03-2022.txt bitstudent
-sudo chgrp  bitstudent bash_history_16-03-2022.txt 
-sudo chgrp  bitstudent bash_history_19_03_2022.txt 
-ls -al
-sudo chown 
-sudo chown bitstudent bash_history_19_03_2022.txt 
-ls -al
-sudo chmod go+r
-sudo chmod go+r bash_history_19_03_2022.txt 
-ls -al
-sudo chmod go+r bash_history_16-03-2022.txt 
-ls -al
-cd ..
-ls
-git status
-git add .
-cd Mgmt-VM/
-ls al
-ls -al
-cd /etc/puppet/
-ls
-cd code/environments/
-ls
-cd production/
-ls
-cd manifests/
-ls
-sudo vi ~/.bashrc
-cd ~
-ls
-sudo cp ~/.bashrc OE2-Group-Project/Mgmt-VM/
-source ~/.bashrc
-site
-sudo vi ~/.bashrc
-cd ~
-ls
-cd OE2-Group-Project/
-ls
-cd Mgmt-VM/
-ls
-sudo vi ~/.bashrc
-ls -al
-cd Config/
-ls
-cd ..
-ls
-cd ..
-ls
-sudo vi ~/.bashrc
-source ~/.bashrc
-cpmgmt
-sudo vi ~/.bashrc
-source ~/.bashrc
-cpmgmt
-sudo vi ~/.bashrc
-source ~/.bashrc
-cpmgmt
-sudo vi ~/.bashrc
-source ~/.bashrc
-cpmgmt
-sudo vi ~/.bashrc
-source ~/.bashrc
-cpmgmt
-sudo vi ~/.bashrc
-source ~/.bashrc
-cpmgmt
-sudo vi ~/.bashrc
-source ~/.bashrc
-cpmgmt
-sudo vi ~/.bashrc
-source ~/.bashrc
-cpmgmt
-sudo vi ~/.bashrc
-source ~/.bashrc
-cpmgmt
-git add .
-git commit -m "Update: nagios installation" -m "addition of new aliases for accessing site.pp and backing up puppet files to the repo in the home directory" -m "Mgmt-VM"
-git push
-cd ~/OE2-Group-Project/Mgmt-VM/
-ls
-ls -al
-sudo rm .bashrc 
-ls -al
-cd ..
-ls
-git add .
-git status
-git commit -m "removed hidden .bashrc file backup" -m "is now backed up to a .txt file" -m "mgmt-b vm"
-git push
-sudo cp /etc/nagios/ -r ~/OE2-Group-Project/Mgmt-VM/nagios-config/
-sudo cp /etc/nagios3/ -r ~/OE2-Group-Project/Mgmt-VM/nagios3/
-cd ~/OE2-Group-Project/Mgmt-VM/
-ls
-cd nagios3/
-ls
-cd ..
-ls
-cd ..
-git add .
-ls -al Mgmt-VM/nagios3/
-sudo chmod o+r Mgmt-VM/nagios3/resource.cfg 
-ls -al Mgmt-VM/nagios3/
-cd ../..
-ls
-cd bitstudent/
-ls
-cd OE2-Group-Project/
-ls -al
-git add .
-git commit -m "mgmt: add nagios3 install files" -m "install error still occuring" -m "mgmt-b vm"
-git push
-cd /etc
-ls
-cd sudoers.d/
-sudo cd sudoers.d/
-sudo vi sudoers
-sudo vi ca-certificates
-cd /etc/puppet
-ls
-cd code
-ls
-cd modules/
-ls
-mv htpasswd.users nagios/
-sudo mv htpasswd.users nagios/
-ls
-cd nagios/
-ls
-sudo vm htpasswd.users files/
-sudo mv htpasswd.users files/
-ls
-cd ..
-ls
-cd ~
-ls
-cpmgmt
-git add .
-cd ~/OE2-Group-Project/Mgmt-VM/
-ls
 cd modules/
 ls
 rm htpasswd.users 
@@ -1104,7 +690,6 @@ sudo vim /etc/nagios3/conf.d/localhost_nagios2.cfg
 ls
 sudo vim config.pp 
 agentupdate
-
 cd /etc/nagios3/conf.d/
 ls
 sudo vim ppt_host
@@ -1295,3 +880,121 @@ sudo vim ppt_db_nagios.cfg
 sudo rm  ppt_db_nagios.cfg 
 agentupdate 
 exit
+cd OE2-Group-Project && git pull
+ls
+cd Scripts/mgmt/
+ls
+bash backup.sh
+git status
+git push
+cd /etc/
+ls
+sudo vi ~/.bashrc
+cd /cron.d
+sudo vim cron.daily/
+sudo vim cron.daily
+cd cron.daily
+ls
+sudo vim crontab
+cd ..
+ls
+cd /etc/
+ls
+sudo vim crontab
+crontab -e
+ls
+sudo vi crontab
+cd cron.daily
+ls
+cd /tmp
+ls
+cd ..
+ls
+cd usr
+ls
+cd ..
+cd etc/
+ls
+cd cron.d
+ls
+cd ..
+cd OE2-Group-Project && git pull
+cd ~/
+ls 
+cd ~/OE2-Group-Project && git pull
+cat /etc/crontab
+sudo vi /tmp/crontab.F3vLqM/crontab
+sudo vi /tmp/crontab.F3vLqM
+sudo vi /var/spool/cron/crontabs/root
+cd /var/spool/cron/crontabs
+sudo cd /var/spool/cron/crontabs
+sudo vi /var/spool/cron/crontabs
+cd /var
+ls
+cd tmp
+ls
+cd ..
+cd spool/
+ls
+cd cron
+ls
+sudo vi crontabs
+cd ~
+ls
+cd /etc
+ls
+sudo crontab
+sudo vi crontab
+cron -e
+crontab -e
+sudo cp /tmp/crontab.F3vLqM/crontab ~/OE2-Group-Project/Mgmt-VM/
+sudo cp /tmp/crontab.F3vLqM/crontab ~/OE2-Group-Project/Mgmt-VM
+sudo cat crontab -e ~/OE2-Group-Project/Mgmt-VM/crontab
+sudo cat crontab -e > ~/OE2-Group-Project/Mgmt-VM/crontab
+cd ~/OE2-Group-Project/Mgmt-VM/
+ls
+cat crontab 
+sudo cat crontab -e
+cat crontab -e > ~/OE2-Group-Project/Mgmt-VM/crontab
+ls
+cat crontab 
+crontab -e > ~/OE2-Group-Project/Mgmt-VM/crontab
+cat crontab 
+crontab -e
+cat crontab
+rm crontab 
+ls
+cron -e
+crontab -e
+nano crontab.txt
+cd ..
+git status
+git add .
+git commit -m "mgmt: backup crontab script" -m "runs automated backup script in script directory, twice daily" -m "mgmt-vm"
+git push
+reboot
+reload
+sudo reboot
+crontab -e
+crontab -l
+cat crontab -l > ~/OE2-Group-Project/Mgmt-VM/crontab.txt
+echo crontab -l > ~/OE2-Group-Project/Mgmt-VM/crontab.txt
+cat ~/OE2-Group-Project/Mgmt-VM/crontab.txt
+vim ~/OE2-Group-Project/Mgmt-VM/crontab.txt
+cd ~/OE2-Group-Project/
+cd ~/OE2-Group-Project && git status
+time
+timezone
+date
+crontab -e
+crontab -l
+# utc time converted using: https://savvytime.com/converter/utc-to-nzst 
+# m h  dom mon dow   command
+# 10pm utc converts to 11am nzst
+0 22 * * * bash ~/OE2-Group-Project/Scripts/mgmt/backup.sh
+# 1am utc converts to 2pm nzst
+0 1 * * * bash ~/OE2-Group-Project/Scripts/mgmt/backup.sh
+# 8am utc converts to 9pm nzst
+vim ~/OE2-Group-Project/Mgmt-VM/crontab.txt
+cd ~/OE2-Group-Project && git status
+bumgmt

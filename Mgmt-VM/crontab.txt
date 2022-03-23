@@ -1,1 +1,8 @@
+# utc time converted using: https://savvytime.com/converter/utc-to-nzst 
+# m h  dom mon dow   command
+# 10pm utc converts to 11am nzst
+0 22 * * * bash ~/OE2-Group-Project/Scripts/mgmt/backup.sh
+# 1am utc converts to 2pm nzst
+0 1 * * * bash ~/OE2-Group-Project/Scripts/mgmt/backup.sh
+# 8am utc converts to 9pm nzst
 0 8 * * * bash ~/OE2-Group-Project/Scripts/mgmt/backup.sh
