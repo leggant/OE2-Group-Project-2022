@@ -998,3 +998,300 @@ sudo vi ~/.bashrc
 source ~/.bashrc
 lcert
 bumgmt
+sudo vi ~/.bashrc
+source ~/.bashrc
+lcert
+bumgmt
+git add .
+git commit -m "mgmt: new aliases added' -m "puppet service was not running, is now restarted and active" -m "mgmt-b vm"
+git commit -m "mgmt: new aliases added" -m "puppet service was not running, is now restarted and active" -m "mgmt-b vm"
+git push
+respup && stat puppet
+exit
+site
+sudo vi ~/.bashrc
+mod
+ls
+cd ntp_service/
+ls
+cd manifests/
+ls
+cat init.pp
+site
+cat init.pp
+site
+cat init.pp
+site
+sudo vi ~/.bashrc
+resmas
+statmas
+statpup
+sudo systemctl stop puppet
+sudo systemctl stat puppet
+sudo systemctl status puppet
+sudo systemctl start puppet
+sudo service puppet stop
+sudo service puppet status
+respup && stat puppet
+resmas
+statmas
+statpup
+statpupsudo vi ~/.bashrc
+sudo vi ~/.bashrc
+site
+resmas
+statmas
+respup && stat puppet
+sudo service puppet stop
+sudo service puppet status
+site
+respup && stat puppet
+cd mod
+cd nug
+cd mod
+mod
+ls
+cd nagios/
+ls
+cd manifests/
+ls
+vim config.pp 
+sudo vim config.pp 
+pwd
+sudo vim config.pp 
+agentupdate
+nag 
+ls
+res nagios3
+res nagios
+sudo systemctl status nagios3
+sudo systemctl restart nagios3
+nag 
+cd manifests/
+ls
+vim config.pp 
+sudo vim config.pp 
+agentupdate
+sudo vim config.pp 
+agentupdate
+sudo vim config.pp 
+site
+res nag
+res nagios3
+sudo service nagios3 restart
+sudo service nagios3 status
+sudo vim config.pp 
+agentupdate
+sudo systemctl start nagios3
+sudo systemctl restart apache2
+sudo systemctl start nagios3
+sudo systemctl restart nagios3
+sudo systemctl status nagios3
+sudo nagios3 -v /etc/nagios3/nagios.cfg
+sudo vim /etc/nagios3/conf.d/localhost_nagios2.cfg
+sudo systemctl restart nagios3
+agentupdate
+sudo systemctl restart nagios3
+sudo vim /etc/nagios3/conf.d/localhost_nagios2.cfg
+sudo nagios3 -v /etc/nagios3/nagios.cfg
+sudo vim /etc/nagios3/conf.d/localhost_nagios2.cfg
+agentupdate
+sudo nagios3 -v /etc/nagios3/nagios.cfg
+sudo vim /etc/nagios3/conf.d/localhost_nagios2.cfg
+agentupdate
+sudo nagios3 -v /etc/nagios3/nagios.cfg
+sudo vim /etc/nagios3/conf.d/localhost_nagios2.cfg
+ls
+sudo vim config.pp 
+agentupdate
+
+cd /etc/nagios3/conf.d/
+ls
+sudo vim ppt_host
+sudo vim ppt_hosts.cfg 
+agentupdate
+sudo vim ppt_hosts.cfg 
+agentupdate
+sudo nagios3 -v /etc/nagios3/nagios.cfg
+ls
+sudo vim hostgroups_nagios2.cfg 
+sudo vim ppt_hostgroups.cfg 
+agentupdate
+sudo nagios3 -v /etc/nagios3/nagios.cfg
+sudo vim ppt_hostgroups.cfg 
+sudo vim ppt_hosts.cfg 
+agentupdate
+sudo nagios3 -v /etc/nagios3/nagios.cfg
+sudo vim ppt_hostgroups.cfg 
+ngs
+nags
+nag
+ls
+cd manifests/
+sudo vim config.pp 
+agentupdate
+sudo nagios3 -v /etc/nagios3/nagios.cfg
+sudo vim config.pp 
+hostname
+sudo vim config.pp 
+sudo vim ppt_hostgroups.cfg 
+sudo vim /etc/nagios3/conf.d/ppt_hostgroups.cfg
+ls
+cd /etc/nagios3/conf.d/
+ls
+vim ppt_hostgroups.cfg 
+ls
+sudo rm ppt_hostgroups.cfg 
+agentupdate
+sudo nagios3 -v /etc/nagios3/nagios.cfg
+ls
+sudo rm ppt_hostgroups.cfg 
+ls
+agentupdate
+sudo systemctl restart nagios3
+sudo rm ppt_hostgroups.cfg 
+nag
+cd manifests/
+sudo vim config.pp 
+agentupdate
+sudo vim config.pp 
+agentupdate
+sudo systemctl restart nagios3
+sudo systemctl status nagios3
+sudo vim config.pp 
+sudo nagios3 -v /etc/nagios3/nagios.cfg
+sudo vim /etc/nagios3/conf.d/ppt_hostgroups.cfg
+ls
+sudo vim config.pp 
+agentupdate
+sudo vim /etc/nagios3/conf.d/ppt_hostgroups.cfg
+cd /etc/nagios3/conf.d/
+sudo rm ppt_hostgroups.cfg
+agentupdate
+sudo vim /etc/nagios3/conf.d/ppt_hostgroups.cfg
+sudo nagios3 -v /etc/nagios3/nagios.cfg
+sudo vim /etc/nagios3/conf.d/ppt_hostgroups.cfg
+agentupdate
+nag
+cd manifests/
+ls
+sudo vim config.pp 
+sudo vim /etc/nagios3/conf.d/ppt_hostgroups.cfg
+sudo nagios3 -v /etc/nagios3/nagios.cfg
+sudo nagios3 -v /etc/nagios3/nagios.cfg:
+cd /etc/nagios3/conf.d
+ls
+vim ppt_hosts.cfg 
+vim localhost_nagios2.cfg 
+cd /etc/nagios3/conf.d
+vim ppt_hostgroups.cfg 
+cd /etc/nagios3/conf.d
+sudo nagios3 -v /etc/nagios3/nagios.cfg
+vim ppt_hostgroups.cfg 
+ping group-b.backup.foo.org.nz
+hostname
+cd /etc/hosts
+cd /etc
+vim hosts
+nag
+cd manifests/
+ls
+sudo vim config.pp 
+agentupdate
+ping backup-b.foo.org.nz 
+sudo vim config.pp 
+cd /etc/nagios3/conf.d/
+ls
+vim hostgroups_nagios2.cfg 
+ls
+vim localhost_nagios2.cfg 
+ls
+clear
+ls
+sudo vim hostgroups_nagios2.cfg 
+agentupdate 
+sudo vim hostgroups_nagios2.cfg 
+agentupdate 
+ls
+vim extinfo_nagios2.cfg 
+ls
+vim contacts_nagios2.cfg 
+vim generic-
+vim generic-host_nagios2.cfg 
+nag
+cd manifests/
+sudo vim config.pp 
+agentupdate 
+sudo systemctl restart nagios3.service 
+sudo systemctl status nagios3
+sudo vim config.pp 
+agentupdate 
+sudo nagios3 -v /etc/nagios3/nagios.cfg
+sudo vim config.pp 
+sudo vim /etc/nagios3/conf.d/services_nagios2.cfg 
+sudo vim config.pp 
+sudo vim /etc/nagios3/conf.d/services_nagios2.cfg 
+sudo vim config.pp 
+sudo vim /etc/nagios3/conf.d/services_nagios2.cfg 
+sudo vim config.pp 
+agentupdate 
+sudo nagios3 -v /etc/nagios3/nagios.cfg
+sudo vim config.pp 
+ls
+cd /etc/nagios3/conf.d/
+ls
+sudo vim hostgroups_nagios2.cfg 
+sudo nagios3 -v /etc/nagios3/nagios.cfg
+agentupdate
+nag
+cd manifests/
+ls
+sudo vim config.pp 
+agentupdate 
+sudo vim config.pp 
+cd /etc/nagios3/conf.d/
+ls
+vim hostgroups_nagios2.cfg 
+vim generic-service_nagios2.cfg 
+vim services_nagios2.cfg 
+ls
+vim services_nagios2.cfg 
+nag
+cd manifests/
+ls
+vim config.pp 
+sudo vim config.pp 
+agentupdate
+sudo systemctl status nagios3
+sudo systemctl restart nagios3
+sudo systemctl status nagios3
+ls
+cd /etc/nagios3/conf.d/
+ls
+vim hostgroups_nagios2.cfg 
+vim localhost_nagios2.cfg 
+ls
+vim ppt_host
+vim ppt_hosts.cfg 
+vim hostgroups_nagios2.cfg 
+vim localhost_nagios2.cfg 
+ls
+vim hostgroups_nagios2.cfg 
+vim localhost_nagios2.cfg 
+sudo touch ppt_db_nagios.cfg
+sudo vim ppt_db_nagios.cfg 
+vim localhost_nagios2.cfg 
+sudo vim ppt_db_nagios.cfg 
+agentupdate 
+sudo systemctl restart nagios3
+sudo systemctl status nagios3
+sudo nagios3 -v /etc/nagios3/nagios.cfg
+ls
+sudo vim ppt_db_nagios.cfg 
+vim localhost_nagios2.cfg 
+sudo vim ppt_db_nagios.cfg 
+agentupdate 
+sudo vim ppt_db_nagios.cfg 
+sudo rm  ppt_db_nagios.cfg 
+agentupdate 
+exit
