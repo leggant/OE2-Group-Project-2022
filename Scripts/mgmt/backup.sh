@@ -20,7 +20,7 @@ sudo chown bitstudent ~/OE2-Group-Project/Mgmt-VM/nagios3/*
 sudo chgrp bitstudent ~/OE2-Group-Project/Mgmt-VM/nagios3/* 
 sudo cp /etc/php/7.2/cgi/php.ini ~/OE2-Group-Project/Mgmt-VM/php.ini 
 sudo chown bitstudent ~/OE2-Group-Project/Mgmt-VM/php.ini 
-sudo chgrp bitstudent ~/OE2-Group-Project/Mgmt-VM/php.ini 
+sudo chgrp bitstudent ~/OE2-Group-Project/Mgmt-VM/php.ini
 history -w 
 sudo cp ~/.bash_history ~/OE2-Group-Project/Mgmt-VM/bash_history.txt
 sudo chown bitstudent ~/OE2-Group-Project/Mgmt-VM/bash_history.txt 
@@ -34,3 +34,4 @@ cd ~/OE2-Group-Project
 git status
 git add .
 git commit -m "mgmt: automated system backup" -m "completed: $COMMIT_TIMESTAMP" -m "mgmt-b"
+git push
