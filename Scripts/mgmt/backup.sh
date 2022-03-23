@@ -1,5 +1,5 @@
 #!/bin/sh
-COMMIT_TIMESTAMP=`date +'%Y-%m-%d %H:%M:%S %Z'`
+COMMIT_TIMESTAMP=`date +'%d-%m-%Y %H:%M:%S %Z'`
 cd ~/OE2-Group-Project
 git pull
 sudo cp /etc/puppet/ -r ~/OE2-Group-Project/Mgmt-VM/ -r
