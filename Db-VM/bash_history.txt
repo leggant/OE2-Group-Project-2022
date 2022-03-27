@@ -771,3 +771,123 @@ statpup
 sudo service puppet start
 statpup
 budb
+sudo vi ~/.bashrc
+source ~/.bashrc
+mod
+cd /etc/
+ls
+cd puppet/
+ls
+cd code/
+ls
+source ~/.bashrc
+cd code/sudo vi ~/.bashrc
+sudo vi ~/.bashrc
+source ~/.bashrc
+mod
+ls
+sudo vi ~/.bashrc
+source ~/.bashrc
+pup
+ls
+statpup
+sudo service puppet start
+statpup
+budb
+git add .
+git commit -m "db: aliases updated" -m "new scripts added to complete common tasks" -m "db-b vm"
+git push
+exit
+statpup
+exit
+statpup
+exit
+statpup
+respup
+statpup
+exit
+statpup
+sudo reboot
+respup
+statpup
+exit
+statpup
+exit
+cd /etc
+ls 
+cd mysql
+ls
+exit
+sudo systemctl status mariadb
+sudo vi ~/.bashrc
+stat mariadb
+exit
+mysql
+sudo mysql
+sudo nano /etc/mysql/mariadb.conf.d/50-server.cnf 
+source ~/.bashrc
+sudo vi ~/.bashrc
+res mariadb
+stat mariadb
+statpup
+stat mariadb
+res mariadb
+stat mariadb
+pwd
+cd /etc/mysql
+ls
+cd mariadb.conf.d/
+ls
+cat 50-server.cnf 
+cat 50-client.cnf 
+stat mariadb
+statpup
+respup
+statpup
+respup
+statpup
+sudo vi ~/.bashrc
+cd /etc/mysql
+ls
+cd mariadb.conf.d/
+ls
+cd ../conf.d/
+ls
+cd ..
+ls
+cd ..
+ls
+sudo cp mysql/ ~/OE2-Group-Project/Db-VM/
+sudo cp mysql/ ~/OE2-Group-Project/Db-VM/ -r
+cd ~/OE2-Group-Project/Db-VM/
+ls
+cd ~/OE2-Group-Project && git pull
+git status
+git add .
+ls
+cd Db-VM/mysql/
+ls
+sudo chgrp debian.cnf bitstudent
+sudo chgrp bitstudent debian.cnf 
+sudo chown bitstudent debian.cnf 
+cd ~/OE2-Group-Project/
+ls
+git status
+git add .
+git commit -m "db: backup of mysql config changes" -m "db-b vm"
+git push
+sudo vi ~/.bashrc
+ls
+cd Db-VM/
+ls
+sudo mv bashrc.txt bashrc
+sudo vi ~/.bashrc
+source ~/.bashrc
+cd ~/OE2-Group-Project && git pull
+budb
+sudo vi ~/.bashrc
+source ~/.bashrc
+budb
+sudo vi ~/.bashrc
+source ~/.bashrc
+budb
