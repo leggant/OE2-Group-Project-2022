@@ -1062,3 +1062,22 @@ statmas
 exit
 statpup
 statmas
+exit
+cd /etc/nagios3/
+ls
+cd conf.d
+ls
+sudo nano ppt_services.cfg
+sudo nano ppt_hostgroups.cfg
+pwd
+sudo nano ppt_hostgroups.cfg
+cd /etc/nagios-plugins/
+ls
+cat cd config/
+cat config
+cd config/
+ls
+cat mysql.cfg 
+/usr/lib/nagios/plugins/check_mysql -H db-b.foo.org.nz
+/usr/lib/nagios/plugins/check_mysql -H db-b.foo.org.nz -u nagios -p Oe2b2022
+exit
