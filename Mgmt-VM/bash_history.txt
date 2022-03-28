@@ -1145,3 +1145,200 @@ ls
 cd manifests/
 ls
 vim service.pp 
+cd /etc/nagios
+cd /etc/nagios3
+ls
+cd conf.d/
+ls
+sudo vim ppt_host
+sudo vim ppt_hosts.cfg 
+sudo vim ppt_hostgroups.cfg 
+sudo vim services_nagios2.cfg 
+sudo vim localhost_nagios2.cfg 
+ls
+sudo vim generic-host_nagios2.cfg 
+sudo vim generic-service_nagios2.cfg 
+sudo vim extinfo_nagios2.cfg 
+sudo vim localhost_nagios2.cfg 
+sudo vim services_nagios2.cfg 
+sudo vim ppt_services.cfg 
+sudo vim services_nagios2.cfg 
+vim contacts_nagios2.cfg 
+sudo vim services_nagios2.cfg 
+vim contacts_nagios2.cfg 
+sudo vim localhost_nagios2.cfg 
+clear
+ls
+vim generic-
+vim generic-host_nagios2.cfg 
+sudo vim hostgroups_nagios2.cfg 
+gentupdate
+agentupdate
+sudo systemctl status nagios3
+sudo systemctl restart nagios3
+sudo vim hostgroups_nagios2.cfg 
+agentupdate
+sudo systemctl status nagios3
+sudo vim hostgroups_nagios2.cfg 
+ls
+clear
+ls
+sudo vim hostgroups_nagios2.cfg 
+agentupdate
+sudo systemctl restart nagios3
+sudo vim hostgroups_nagios2.cfg 
+sudo systemctl restart nagios3
+ls
+vim services_nagios2.cfg 
+ls
+cd ..
+ls
+sudo vim nagios.cfg 
+ls
+vim cgi.cfg 
+vim resource.cfg 
+ls
+vim conf.d/
+cd conf.d/
+ls
+vim hostgroups_nagios2.cfg 
+vim hosts
+vim generic-host_nagios2.cfg 
+vim ppt_services.cfg 
+nag
+cd ..
+ls
+cd sudo/
+ls
+cd files/
+ls
+cd etc/
+ls
+vim sudoers 
+cd s
+sudo vim sudoers 
+cd ..
+ls
+cd ..
+ls
+cd ma
+cd manifests/
+lks
+ls
+vim init.pp 
+lsl
+cd ..
+ls
+cd /etc/nagios3/
+ls
+cd conf.d/
+ls
+celar
+clear
+ls
+vim generic-service_nagios2.cfg 
+ls
+sudo vim localhost_nagios2.cfg 
+vim generic-host_nagios2.cfg 
+ls
+vim hostgroups_nagios2.cfg 
+sudo vim hostgroups_nagios2.cfg 
+agentupdate 
+res nagios3
+sudo nagios3 -v /etc/nagios3/nagios.cfg
+sudo vim /etc/nagios3/conf.d/services_nagios2.cfg
+cd etc/nagios3
+ls
+cd /etc/nagios3
+cd conf.d/
+sudo vim hostgroups_nagios2.cfg 
+agentupdate
+sudo vim hostgroups_nagios2.cfg 
+agentupdate 
+sudo vim hostgroups_nagios2.cfg 
+agentupdate 
+sudo vim hostgroups_nagios2.cfg 
+ls
+vim services_nagios2.cfg 
+ls
+l
+cd ..
+ls
+cd ..
+ls
+cd nagios-plugins/
+ls
+cd config/
+ls
+vim users.cfg 
+ls
+cd ..
+ls
+cd ..
+ls
+cd nagios3/
+ls
+vim cgi.cfg 
+vim nagios.cfg 
+cd conf.d/
+ls
+vim hostgroups_nagios2.cfg 
+sudo vim hostgroups_nagios2.cfg 
+agentupdate 
+res nagios3
+sudo vim hostgroups_nagios2.cfg 
+agentupdate 
+cd /usr/local/nagios/etc
+cd /usr/local/nagios3
+ls
+vim hostgroups_nagios2.cfg 
+sudo vim hostgroups_nagios2.cfg 
+sudo vim services_nagios2.cfg 
+sudo vim hostgroups_nagios2.cfg 
+vim hostgroups_nagios2.cfg
+vim ppt_hostgroups.cfg 
+vim ppt_host
+vim ppt_hosts.cfg 
+vim ppt_services.cfg 
+sudo vim hostgroups_nagios2.cfg 
+vim localhost_nagios2.cfg 
+sudo vim localhost_nagios2.cfg 
+agentupdate 
+res nagios3
+sudo nagios3 -v /etc/nagios3/nagios.cfg
+vim localhost_nagios2.cfg 
+ls
+sudo vim hostgroups_nagios2.cfg 
+agentupdate 
+sudo nagios3 -v /etc/nagios3/nagios.cfg
+sudo vim localhost_nagios2.cfg
+agentupdate 
+sudo nagios3 -v /etc/nagios3/nagios.cfg
+sudo vim localhost_nagios2.cfg
+agentupdate 
+sudo nagios3 -v /etc/nagios3/nagios.cfg
+sudo vim /etc/nagios3/conf.d/services_nagios2.cfg
+agentupdate 
+sudo nagios3 -v /etc/nagios3/nagios.cfg
+sudo vim extinfo_nagios2.cfg 
+agentupdate 
+sudo vim extinfo_nagios2.cfg 
+sudo nagios3 -v /etc/nagios3/nagios.cfg
+sudo vim localhost_nagios2.cfg
+ls
+sudo vim services_nagios2.cfg 
+agentupdate 
+res nag
+res nagios3
+sudo vim services_nagios2.cfg 
+agentupdate 
+res nagios3
+ls
+pwd
+vim hostgroups_nagios2.cf
+sudo vim services_nagios2.cfg 
+vim localhost_nagios2.cfg 
+sudo vim localhost_nagios2.cfg 
+agentupdate 
+res nagios3
+sudo vim services_nagios2.cfg 
