@@ -1081,3 +1081,67 @@ cat mysql.cfg
 /usr/lib/nagios/plugins/check_mysql -H db-b.foo.org.nz
 /usr/lib/nagios/plugins/check_mysql -H db-b.foo.org.nz -u nagios -p Oe2b2022
 exit
+nag
+ls
+cd manifests/
+ls
+vim config.pp 
+pwd
+vim config.pp 
+ls
+vim service.pp 
+ls
+cd ..
+ls
+cd files/
+ls
+cd ..
+ls
+cd manifests/
+ls
+vim service.pp 
+sudo vim service.pp 
+agentupdate 
+vim /etc/nagios3/conf.d/ppt_services.cfg
+sudo vim /etc/nagios3/conf.d/ppt_services.cfg
+ls
+sudo vim service.pp 
+agentupdate
+sudo systemctl restart nagios3
+sudo nagios3 -v /etc/nagios3/nagios.cfg
+ls
+vim config.pp 
+sudo vim service.pp 
+agentupdate 
+sudo nagios3 -v /etc/nagios3/nagios.cfg
+sudo systemctl restart nagios3
+sudo vim service.pp 
+pw
+pwf
+pwd
+vim service.pp 
+ls
+cd ..
+ls
+cd templates/
+ls
+cd .
+cd ..
+ls
+cd ..
+ls
+cd mariadb/
+ls
+cd manifests/
+ls
+vim service.pp 
+vim config.pp 
+site
+sudo systemctl status nagios3
+ls
+vim service.pp 
+nag
+ls
+cd manifests/
+ls
+vim service.pp 
