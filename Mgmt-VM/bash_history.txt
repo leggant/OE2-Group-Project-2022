@@ -1342,3 +1342,532 @@ sudo vim localhost_nagios2.cfg
 agentupdate 
 res nagios3
 sudo vim services_nagios2.cfg 
+nag
+cd ..
+ls
+sudo mkdir NRPE
+ls
+cd NRPE/
+ls
+cd ..
+l
+sudo rm NRPE/ nrpe
+sudo rm NRPE
+sudo mv NRPE/ nrpe
+ls
+cd nrpe/
+mkdir files
+sudo mkdir files
+sudo mkdir modules
+nag
+ls
+cd manifests/
+ls
+cd ..
+ls
+'cd ..
+cd ..
+ls
+cd nrpe/
+sudo rm modules/
+sudo rm -f  modules/
+sudo rm -r modules
+ls
+sudo mkdir manifests
+ls
+sudo apt install nagios-nrpe-server
+ls
+cd /etc
+cd  nagios3
+ls
+cd ..
+ls
+cd nagios
+ls
+cd ..
+ls
+cd nagios
+ls
+sudo cp nrpe.cfg /etc/puppet/code/modules/nrpe/files/
+cd /etc/puppet/code/modules/nrpe/files/
+ls
+cd ..
+kls
+ls
+cd manifests/
+ls
+sudo touch install.pp
+sudo vim install.pp 
+nag
+ls
+cd ..
+ls
+cd nrpe/
+nag
+ls
+cd manifests/
+ls
+vim in
+vim install.pp 
+ls
+cd ..
+ls
+cd ..
+cd nrpe/
+cd manifests/
+sudo vim install.pp 
+site
+agentupdate
+ls
+vim install.pp 
+site
+ls
+vim install.pp 
+ls
+cd ..
+ls
+cd ..
+ls
+cd nagios/
+cd manifests/
+ls
+vim install.pp 
+vim init.pp 
+cd ..
+ls
+cd ..
+ls
+cd nrpe/
+ls
+cd manifests/
+ls
+sudo touch init.pp
+sudo vim init.pp 
+agentupdate 
+ls
+vim init.pp 
+ls
+cd .
+nag
+ls
+cd manifests/
+vim config.pp 
+sudo vim /etc/nagios3/conf.d/ppt_hosts.cfg
+nag
+cd manifests/
+vim config.pp 
+ls
+cd ..
+ls
+cd ..
+ls
+cd nrpe/
+ls
+cd files/
+ls
+sudo vim nrpe.cfg 
+ls
+pwd
+ls
+cd ..
+ls
+cd manifests/
+ls
+nag
+ls
+cd manifests/
+l
+vim install.pp 
+vim install.pp ls
+ls
+vim config.pp 
+la
+ls
+cd ..
+ls
+cd ..
+sl
+ls
+cd nrpe/
+ls
+cd manifests/
+ls
+sudo apt-get install nagios-nrpe-plugin
+/usr/lib/nagios/plugins/check_nrpe -H localhost
+/usr/lib/nagios/plugins/check_nrpe -H db-b.foo.org.nz
+agentupdate
+/usr/lib/nagios/plugins/check_nrpe -H localhost
+/usr/lib/nagios/plugins/check_nrpe -H db-b.foo.org.nz
+/usr/lib/nagios/plugins/check_nrpe -H db-b.foo.org.nz check_load
+ls
+cd ..
+ls
+cd files/
+LS
+ls
+cd. .
+cd ..
+ls
+cd manifests/
+ls
+sudp touch config.pp
+sudo touch config.pp
+sudo vim config.pp 
+vim init.pp 
+sudo vim init.pp 
+cd ..
+cd files/
+sudo vim nrpe.cfg 
+agentupdate 
+cd ..
+ls
+cd manifests/
+ks
+ls
+sudi vim init.pp 
+sudo vim init.pp 
+agentupdate 
+cd /etc/nagios
+vim nrpe.cfg 
+ls
+nag
+cd ..
+ls
+cd nrpe/
+ls
+cd files/
+ls
+sudo vim nrpe.cfg 
+ls
+agentupdate 
+/usr/lib/nagios/plugins/check_nrpe -H app-b.foo.org.nz
+/usr/lib/nagios/plugins/check_nrpe -H backup-b.foo.org.nz
+/usr/lib/nagios/plugins/check_nrpe -H app-b.foo.org.nz
+/usr/lib/nagios/plugins/check_nrpe -H db-b.foo.org.nz
+ls
+cd ..
+l
+cd manifests/
+ls
+sudo vim config.pp 
+sudo tocu servive.pp
+ls
+sudo touch servive.pp
+sudo touch service.pp
+sudo rm servive.pp 
+sudo vim service.pp 
+sudo vim init.pp 
+agentupdate 
+sudo vim service.pp 
+agentupdate 
+/usr/lib/nagios/plugins/check_nrpe -H backup-b.foo.org.nz
+/usr/lib/nagios/plugins/check_nrpe -H app-b.foo.org.nz
+ls
+cd ..
+ls
+cd files/
+ls
+vim nrpe.cfg 
+sudo vim nrpe.cfg 
+/usr/lib/nagios/plugins/check_nrpe -H backup-b.foo.org.nz
+/usr/lib/nagios/plugins/check_nrpe -H backup-b.foo.org.nz check_load
+sudo vim nrpe.cfg 
+/usr/lib/nagios/plugins/check_nrpe -H localhost -c check_load
+/usr/lib/nagios/plugins/check_nrpe -H backup-b.foo.org.nz -c check_load
+sudo vim nrpe.cfg 
+dw
+df
+sudo vim nrpe.cfg 
+agentupdate 
+/usr/lib/nagios/plugins/check_nrpe -H backup-b.foo.org.nz -c check_disk
+sudo vim nrpe.cfg 
+agentupdate 
+/usr/lib/nagios/plugins/check_nrpe -H backup-b.foo.org.nz -c check_disk
+sudo vim nrpe.cfg 
+sf
+wf
+df
+/usr/lib/nagios/plugins/check_nrpe -H backup-b.foo.org.nz -c check_sda1
+/usr/lib/nagios/plugins/check_nrpe -H backup-b.foo.org.nz -c check_sd01
+sudo vim nrpe.cfg 
+/usr/lib/nagios/plugins/check_nrpe -H backup-b.foo.org.nz -c check_sda01
+sudo vim nrpe.cfg 
+agentupdate 
+/usr/lib/nagios/plugins/check_nrpe -H backup-b.foo.org.nz -c check_sda01
+sudo vim nrpe.cfg 
+ls
+cd /etc/nagios
+ls
+cd nrpe.d/
+ls
+cd ..
+lks
+ls
+vim nrpe_local.cfg 
+ls
+/usr/lib/nagios/plugins/check_nrpe -H db-b.foo.org.nz -c check_sda01
+nag
+ls
+cd files/
+ls
+cd ..
+cd 
+ls
+nag
+ls
+cd ..
+cd nrpe/
+ls
+cd files/
+ls 
+sudo vim nrpe.cfg 
+/usr/lib/nagios/plugins/check_nrpe -H db-b.foo.org.nz -c check_hda1
+sudo vim nrpe.cfg 
+/usr/lib/nagios/plugins/check_nrpe -H db-b.foo.org.nz -c check_hda1
+sudo vim nrpe.cfg 
+/usr/lib/nagios/plugins/check_nrpe -H db-b.foo.org.nz -c check_hda1
+sudo vim nrpe.cfg 
+agentupdate 
+df
+/usr/lib/nagios/plugins/check_nrpe -H db-b.foo.org.nz -c check_hda1
+sudo vim nrpe.cfg 
+/usr/lib/nagios/plugins/check_nrpe -H db-b.foo.org.nz -c check_hda1
+sudo vim nrpe.cfg 
+/usr/lib/nagios/plugins/check_nrpe -H db-b.foo.org.nz -c check_load
+sudo vim nrpe.cfg 
+agentupdate 
+sudo systemctl restart nagios-nrpe-server
+/usr/lib/nagios/plugins/check_nrpe -H db-b.foo.org.nz -c check_hda1
+/usr/lib/nagios/plugins/check_nrpe -H db-b.foo.org.nz -c check_hd
+sudo vim nrpe.cfg 
+sudo systemctl restart nagios-nrpe-server
+/usr/lib/nagios/plugins/check_nrpe -H db-b.foo.org.nz -c check_hd
+agentupdate 
+/usr/lib/nagios/plugins/check_nrpe -H db-b.foo.org.nz -c check_hd
+/usr/lib/nagios/plugins/check_nrpe -H backup-b.foo.org.nz -c check_hd
+agentupdate 
+/usr/lib/nagios/plugins/check_nrpe -H backup-b.foo.org.nz -c check_hd
+/usr/lib/nagios/plugins/check_nrpe -H db-b.foo.org.nz -c check_hd
+/usr/lib/nagios/plugins/check_nrpe -H backup-b.foo.org.nz -c check_hd
+nag
+ls
+cd manifests/
+ls
+sudo vim config.pp 
+cd ..
+ls
+cd ..
+cd nrpe/
+ls
+cd manifests/
+sudo vim config.pp 
+nag
+cd manifests/
+vim config.pp 
+vim service.pp 
+l
+cd ..
+ls
+cd ..
+ls
+cd nrpe/
+ls
+cd manifests/
+ls
+vim service.pp 
+sudo vim service.pp 
+sudo vim config.pp 
+sudo vim service.pp 
+pwd
+sudo vim /etc/nagios-plugins/config/check nrpe.cfg
+sudo vim /etc/nagios-plugins/config/check_nrpe.cfg
+cd /etc/puppet/code/modules/nrpe/manifests
+ls
+vim config.pp 
+sudo vim service.pp 
+agentupdate 
+vim config.pp 
+sudo vim config.pp 
+nag
+cd manifests/
+ls
+vim service.pp 
+agentupdate 
+cd ..
+ls
+cd ..
+ls
+cd nrpe/
+cd manifests/
+sudo vim service.pp 
+sudo vim config.pp 
+agentupdate 
+sudo vim config.pp 
+nag
+cd manifests/
+vim config.pp 
+cd ..
+cd nrpe/
+cd manifests/
+sudo vim config.pp 
+pwd
+cd /etc/nagios3/conf.d/
+vim ppt_hostgroups.cfg 
+/etc/puppet/code/modules/nrpe/manifests
+cd /etc/puppet/code/modules/nrpe/manifests
+sl
+ls
+vim config.pp 
+nag
+ls
+cd manifests/
+ls
+sudo vim config.pp 
+cd ..
+cd  ..
+cd nrpe/
+cd manifests/
+ls
+sudo vim config.pp 
+agentupdate 
+sudo vim config.pp 
+vim /etc/nagios3/conf.d/ppt_hostgroups.cfg
+sudo vim config.pp 
+agentupdate 
+sudo vim service.pp 
+agentupdate 
+sudo vim service.pp 
+vim e /etc/nagios-plugins/config/check nrpe.
+vim /etc/nagios-plugins/config/check_nrpe
+cd /etc/nagios-plugins//config/
+ls
+vim check_nrpe.cfg 
+sudo vim config.pp 
+ls
+nag
+cd ..
+ls
+cd modules/
+ls
+cd nrpe/
+cd manifests/
+sudo vim config.pp 
+sudo vim service.pp 
+check-nrpe
+/usr/lib/nagios/plugins/check_nrpe -H loaclhost check_load
+/usr/lib/nagios/plugins/check_nrpe -H localhost check_load
+/usr/lib/nagios/plugins/check_nrpe -H db-b.foo.org.nz  check_load
+/usr/lib/nagios/plugins/check_nrpe -H db-b.foo.org.nz -c check_load
+respupmas
+resmas
+ls
+sudo vim config.pp 
+sudo vim service.pp 
+agentupdate 
+sudo vim service.pp 
+agentupdate 
+sudo vim service.pp 
+sudo vim config.pp 
+sudo vim service.pp 
+sudo vim config.pp 
+sudo vim service.pp 
+agentupdate 
+sudo systemctl restart nagios3
+sudo systemctl restart nagios-nrpe-server
+agentupdate 
+/usr/lib/nagios/plugins/check_nrpe -H localhost
+/usr/lib/nagios/plugins/check_nrpe -H db-b.foo.org.nz
+/usr/lib/nagios/plugins/check_nrpe -H db-b.foo.org.nz -c check_disk
+/usr/lib/nagios/plugins/check_nrpe -H db-b.foo.org.nz -c check_hd
+ls
+sudo vim config.pp 
+sudo vim service.pp 
+vim /usr/local/nagios/libexec/check_swap
+ls
+cd ..
+ls
+cd files/
+l
+sudo vim nrpe.cfg 
+cd ..
+cd manifests/
+sudo vim service.pp 
+ls
+cd ..
+cd files/
+ls
+sudo vim nrpe.cfg 
+agentupdate
+sudo systemctl restart nagios-nrpe-server
+sudo systemctl status  nagios-nrpe-server
+agentupdate
+ls
+cd ..
+ls
+cd manifests/
+ls
+sudo vim service.pp 
+agentupdate
+sudo vim service.pp 
+agentupdate
+sudo vim service.pp 
+agentupdate
+sudo vim service.pp 
+agentupdate
+sudo vim service.pp 
+agentupdate
+sudo vim service.pp 
+agentupdate
+sudo vim service.pp 
+agentupdate
+sudo systemctl restart nagios-nrpe-server
+sudo vim service.pp 
+agentupdate
+sudo systemctl restart nagios-nrpe-server
+sudo systemctl restart nagios3
+sudo vim service.pp 
+agentupdate
+sudo systemctl restart nagios3
+sudo systemctl restart nagios-nrpe-server
+sudo systemctl status nagios-nrpe-server
+sudo vim service.pp 
+cd /etc/nagios3/
+ls
+cd conf.d/
+ls
+vim ppt_services.cfg 
+nag
+ls
+cd ..
+ls
+cd nrpe/
+ls
+cd manifests/
+ls
+vim init.pp 
+ls
+pwd
+sudo nagios3 -v /etc/nagios3/nagios.cfg
+la
+sudo vim service.pp 
+agentupdate 
+sudo systemctl restart nagios-nrpe-server
+sudo systemctl restart nagios3
+cd /etc/nagios3/conf.d
+ls
+vim ppt_hostgroups.cfg 
+vim ppt_services.cfg 
+ls
+cd /etc/puppet/code/modules/nrpe/manifests/
+sudo vim config.pp 
+sudo vim service.pp 
+agentupdate 
+sudo systemctl restart nagios-nrpe-server
+sudo systemctl restart nagios3
+cd /etc
+ls
+cd nagios
+ls
+cd ../mysql/
+ls
+exit
