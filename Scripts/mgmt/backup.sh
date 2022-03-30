@@ -32,10 +32,12 @@ sudo cp ~/.bash_history ~/OE2-Group-Project/Mgmt-VM/bash_history.txt
 sudo chown bitstudent ~/OE2-Group-Project/Mgmt-VM/bash_history.txt 
 sudo chgrp bitstudent ~/OE2-Group-Project/Mgmt-VM/bash_history.txt 
 sudo chmod go+r ~/OE2-Group-Project/Mgmt-VM/bash_history.txt 
-sudo cp ~/.bashrc ~/OE2-Group-Project/Mgmt-VM/bashrc.txt 
-sudo chown bitstudent ~/OE2-Group-Project/Mgmt-VM/bashrc.txt 
-sudo chgrp bitstudent ~/OE2-Group-Project/Mgmt-VM/bashrc.txt 
-sudo chmod go+r ~/OE2-Group-Project/Mgmt-VM/bashrc.txt 
+sudo cp ~/.bashrc ~/OE2-Group-Project/Mgmt-VM/bashrc 
+sudo chown bitstudent ~/OE2-Group-Project/Mgmt-VM/bashrc 
+sudo chgrp bitstudent ~/OE2-Group-Project/Mgmt-VM/bashrc 
+sudo chmod go+r ~/OE2-Group-Project/Mgmt-VM/bashrc
+sudo cp /etc/nagios ~/OE2-Group-Project/Mgmt-VM/ -r
+sudo cp /etc/nagios-plugins ~/OE2-Group-Project/Mgmt-VM/ -r 
 cd ~/OE2-Group-Project
 
 # check for file changes
