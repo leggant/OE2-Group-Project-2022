@@ -1,48 +1,3 @@
-sudo useradd -d /home/manager -m -s /bin/bash manager
-sudo passwd manager
-sudo useradd -aG sudo manager
-sudo usermod -aG sudo manager
-clear
-exit
-sudo /etc/hosts
-sudo vi /etc/hosts
-sudo vi ~/.bashrc
-cp ~/.bashrc ~/.bashrc.bak
-sudo vi ~/.bashrc
-sudo hostname set-hostname db-b.foo.org.nz
-sudo hostname
-sudo hostnamectl set-hostname db-b.foo.org.nz
-hostname
-ping 
-ping db-b.foo.org.nz
-exit
-ping mgmt-b.foo.org.nz
-sudo service puppet status
-sudo apt-remove vim
-sudo apt remove vim
-sudo vim /etc/hosts
-exit
-sudo vim /etc/hosts
-exit
-ls
-sudo vim /etc/hosts
-cat /etc/hosts
-ping 
-ping 10.6.0.6
-ping mgmt-b.foo.org.nz
-sudo apt-get install ruby
-ping mgmt-b.foo.org.nz
-puppet cert clean db-b.foo.org.nz
-sudo pupet cert list -all
-sudo puppet cert list -all
-sudo service puppet status
-sudo nano /etc/puppet/puppet.conf
-sudo service puppet status
-sudo service puppet restart
-sudo service puppet status
-puppet agent --configprint server
-puppet agent -t
-sudo service puppet status
 sudo cat /etc/hosts
 sudo nano /etc/puppet/puppet.conf
 sudo service puppet status
@@ -889,5 +844,157 @@ sudo vi ~/.bashrc
 source ~/.bashrc
 budb
 sudo vi ~/.bashrc
+source ~/.bashrc
+budb
+mysql
+sudo mysql
+sudo nano /etc/mysql/mariadb.conf.d/50-server.cnf 
+source ~/.bashrc
+sudo vi ~/.bashrc
+res mariadb
+stat mariadb
+statpup
+stat mariadb
+res mariadb
+stat mariadb
+pwd
+cd /etc/mysql
+ls
+cd mariadb.conf.d/
+ls
+cat 50-server.cnf 
+cat 50-client.cnf 
+stat mariadb
+statpup
+respup
+statpup
+respup
+statpup
+sudo vi ~/.bashrc
+cd /etc/mysql
+ls
+cd mariadb.conf.d/
+ls
+cd ../conf.d/
+ls
+cd ..
+ls
+cd ..
+ls
+sudo cp mysql/ ~/OE2-Group-Project/Db-VM/
+sudo cp mysql/ ~/OE2-Group-Project/Db-VM/ -r
+cd ~/OE2-Group-Project/Db-VM/
+ls
+cd ~/OE2-Group-Project && git pull
+git status
+git add .
+ls
+cd Db-VM/mysql/
+ls
+sudo chgrp debian.cnf bitstudent
+sudo chgrp bitstudent debian.cnf 
+sudo chown bitstudent debian.cnf 
+cd ~/OE2-Group-Project/
+ls
+git status
+git add .
+git commit -m "db: backup of mysql config changes" -m "db-b vm"
+git push
+sudo vi ~/.bashrc
+ls
+cd Db-VM/
+ls
+sudo mv bashrc.txt bashrc
+sudo vi ~/.bashrc
+source ~/.bashrc
+cd ~/OE2-Group-Project && git pull
+budb
+sudo vi ~/.bashrc
+source ~/.bashrc
+budb
+sudo vi ~/.bashrc
+source ~/.bashrc
+budb
+git add .
+git commit -m "db: updated backup alias for db-b" -m "db-b vm"
+git push
+respup
+statpup
+exit
+sudo apt install nagios-nrpe-server
+nag
+ls
+cd /etc/nagios
+ls
+nag
+l
+mod
+cd /etc/puppet/code/
+ls
+site
+ls
+cd /etc
+ls
+cd puppet/
+ls
+cd ..
+ls
+sudo vim /etc/nagios/nrpe.cfg
+ls
+cd nagios
+ls
+sudo vim nrpe.cfg 
+pwd
+sudo systemctl start nagios-nrpe-server
+sudo systemctl status nagios-nrpe-server
+sudo systemctl restart nagios-nrpe-server
+statpup
+sudo vim nrpe.cfg 
+statpup
+respup
+statpup
+:q
+ls
+respup
+sudo vim nrpe.cfg 
+respup
+sudo vim nrpe.cfg 
+statpup
+sudo systemctl restart nagios-nrpe-server
+ds
+dw
+df
+respup
+sudo systemctl start nagios-nrpe-server
+ls
+vim nrpe
+vim nrpe.cfg 
+sudo systemctl start nagios-nrpe-server
+sudo systemctl restart  nagios-nrpe-server
+sudo systemctl status  nagios-nrpe-server
+respup
+sudo systemctl status  nagios-nrpe-server
+vim nrpe.cfg 
+df
+vim nrpe.cfg 
+sudo systemctl restart nagios-nrpe-server
+res pup
+respup
+sudo systemctl restart nagios-nrpe-server
+respup
+sudo systemctl restart nagios-nrpe-server
+ls
+vim nrpe.cfg 
+respup
+sudo systemctl restart nagios-nrpe-server
+respup
+sudo systemctl restart nagios-nrpe-server
+respup
+sudo systemctl restart nagios-nrpe-server
+respup
+cd ~/OE2-Group-Project && git pull
+budb
+sudo vi ~/.bashrc
+budb
 source ~/.bashrc
 budb
