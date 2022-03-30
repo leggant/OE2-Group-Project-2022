@@ -421,3 +421,40 @@ statpup
 respup
 statpup
 bubup
+source ~/.bashrc
+sudo vi ~/.bashrc
+source ~/.bashrc
+statpup
+respup
+statpup
+bubup
+git add .
+git commit -m "backup: new aliases added" -m "for common tasks" -m "backup-db puppet service was down, restarted"
+git push
+exit
+statpup
+exit
+statpup
+exit
+statpup
+sudo reboot
+respup
+statpup
+exit
+statpup
+exit
+statpup
+exit
+statpup
+respup
+statpup
+stat nagios-nrpe-server
+exit
+bubup
+cd /etc
+ls
+sudo vi ~/.bashrc
+bubup
+git status
+source ~/.bashrc
+bubup
