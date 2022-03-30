@@ -998,3 +998,59 @@ cd OE2-Group-Project/
 cd ~
 ls
 bumgmt
+sudo vi ~/.bashrc
+cd /etc
+ls
+cd puppet/
+ls
+cd ..
+sudo vi ~/.bashrc
+ls
+sudo vi ~/.bashrc
+source ~/.bashrc
+bumgmt
+git status
+cd ~/OE2-Group-Project && git pull
+cd ~
+cd ~/OE2-Group-Project && git pull
+cd ~/OE2-Group-Project/
+git status
+git pull
+sudo rm -r ~/OE2-Group-Project/
+ls 
+git clone https://github.com/leggant/OE2-Group-Project.git
+ls
+pwd
+cd ..
+ls
+cd ~
+pwd
+ls
+git clone https://github.com/leggant/OE2-Group-Project.git
+cd OE2-Group-Project/
+cd ~
+ls
+bumgmt
+ls
+cd Mgmt-VM/
+ls
+rm bash_aliases.txt 
+rm bashrc.txt 
+rm -r Bash_History/
+ls
+cd ..
+ls
+git status
+git add .
+git commit -m "mgmt: updated nagios install" -m "removed duplicate files" -m "mgmt-b"
+git push
+ls
+cd Scripts/mgmt/
+ls
+nano backup.sh 
+cd ../..
+ls
+git status
+git add .
+git commit -m "mgmt: updated backup script for mgmt" -m "this includes the nagios install files" -m "mgmt-b"
+git push
