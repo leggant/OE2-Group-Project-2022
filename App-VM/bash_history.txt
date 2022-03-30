@@ -340,3 +340,31 @@ cd ~
 sudo vi ~/.bashrc
 source ~/.bashrc
 buapp
+cd ~/OE2-Group-Project && git pull
+cd ~
+sudo vi ~/.bashrc
+source ~/.bashrc
+buapp
+git add .
+git commit -m "app: nagios install backup" -m "app-b vm"
+git push
+exit
+cd ~/OE2-Group-Project && git pull
+buapp
+cd ~/OE2-Group-Project && git pull
+buapp
+exit
+sudo vi ~/.bashrc
+source ~/.bashrc
+buapp
+sudo mv /App-VM/bashrc.txt /App-VM/bashrc
+ls
+cd App-VM/
+ls
+mv bashrc.txt bashrc
+ls
+mv hosts.txt hosts
+ls
+sudo vi ~/.bashrc
+source ~/.bashrc
+buapp
