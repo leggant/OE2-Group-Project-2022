@@ -12,8 +12,8 @@ class nrpe::service
 
 
      	nagios_service {"disk-check":
-        service_description => "Remote servers",
-        hostgroup_name => "Remote-disks",
+        service_description => "Remote disk servers",
+        hostgroup_name => "disk-servers",
         target => "/etc/nagios3/conf.d/ppt_services.cfg",
         check_command => "check_nrpe!check_hd",
         max_check_attempts => 3,
@@ -24,7 +24,7 @@ class nrpe::service
         notification_period => "24x7",
         notification_options => "w,u,c",
         contact_groups => "admins",
-        mode => '0444',
+        mode => '0555',
        }
 
 }
