@@ -313,3 +313,30 @@ statpup
 respup
 statpup
 buapp
+sudo vi ~/.bashrc
+source ~/.bashrc
+statpup
+respup
+statpup
+buapp
+git add .
+git commit -m "app: new aliases added" -m "puppet service also down. new aliases for common task completion" -m "app-b vm"
+git push
+exit
+statpup
+exit
+statpup
+sudo reboot
+statpup
+respup
+statpup
+exit
+statpup
+exit
+statpup
+exit
+cd ~/OE2-Group-Project && git pull
+cd ~
+sudo vi ~/.bashrc
+source ~/.bashrc
+buapp
