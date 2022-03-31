@@ -1054,3 +1054,223 @@ git status
 git add .
 git commit -m "mgmt: updated backup script for mgmt" -m "this includes the nagios install files" -m "mgmt-b"
 git push
+cd /etc/default/
+ls
+cd puppet-master
+sudo vi puppet-master 
+cd /etc/init.d/
+ls
+sudo vi puppet
+mod
+ls
+site
+mod
+ls
+cd sudo
+;s
+ls
+cd manifests/
+ls
+sudo vi init.pp 
+cd ../templates/
+ls
+cd ..
+cd mariadb/
+ls
+cd manifests/
+ls
+cd..
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+cd /etc/puppet/
+ls
+cd code/
+ls
+cd modules/
+ls
+cd ..
+ls
+cd environments/
+ls
+cd production/
+ls
+cd manifests/
+ls
+cd /etc/puppet/
+ls
+sudo vi puppet.conf 
+mod
+ls
+sudo mkdir puppet
+cd puppet
+sudo mkdir manifests
+cd manifests/
+sudo touch init.pp
+sudo touch service.pp
+ls
+sudo nano service.pp 
+sudo nano init.pp 
+sudo nano service.pp 
+site
+agentupdate
+reload
+sudo reboot
+statmas
+resmas
+statmas
+respup
+statpup
+stat nagios3
+stat nagios-server-plugins
+stat nagios-server-plugin
+stat nagios-server
+stat nagios-server-plugin
+site
+agentupdate
+respup
+statpup
+mod
+ls
+site
+exit
+sudo systemctl status nagios-plugins
+sudo systemctl status nagios-nrpe-server
+sudo vi ~/.bashrc
+source ~/.bashrc
+nrst
+sudo vi ~/.bashrc
+source ~/.bashrc
+statnr
+exit
+mod
+ls
+cd puppet/
+ls
+cd manifests/
+ls
+cd ..
+ls
+cd puppet
+cd ../nagiospup/
+ls
+sudo vi service.pp 
+sudo vi init.pp 
+site
+mod
+ls
+cd puppet/
+ls
+cd manifests/
+ls
+sudo vi service.pp 
+sudo vi init.pp 
+site
+agentupdate
+mod
+cd puppet/
+ls
+cd manifests/
+ls
+sudo vi service.pp 
+agentupdate
+sudo vi service.pp 
+agentupdate
+cd ..
+ls
+cd manifests/
+ls
+sudo vi service.pp 
+cd /etc/default/
+ls
+cd puppet-master
+sudo vi puppet-master 
+mod
+ls
+cd puppet/manifests/
+sudo vi service.pp 
+agentupdate
+sudo vi service.pp 
+statmas
+resmas
+statmas
+site
+agentupdate
+statmas
+statpup
+mod
+cd puppet/manifests/
+ls
+sudo vi service.pp 
+site
+agentupdate
+cd puppet/manifests/
+mod
+cd puppet/manifests/
+sudo vi service.pp 
+agentupdate
+sudo vi service.pp 
+agentupdate
+sudo puppet apply -e 'service { "puppet": enable => true, }'
+chkconfig --list puppet
+statmas
+resmas
+statmas
+statpup
+sudo vi service.pp 
+sudo vi init.pp 
+site
+agentupdate
+statmas
+resmas
+statmas
+site
+agentupdate
+statmas
+site
+agentupdate
+statmas
+site
+agentupdate
+statmas
+sudo reboot
+sudo nagios3 -v /etc/nagios3/nagios.cfg
+mod
+ls
+site
+resmas
+statmas
+sudo reboot
+statmas
+sudo reboot
+site
+agentupdate
+sudo reboot
+statmas
+statpup
+site
+agentupdate
+statmas
+site
+agentupdate
+statmas
+site
+agentupdate
+site
+agentupdate
+sudo reboot
+statpup
+statmas
+statpup
+site
+mod
+cd puppet/
+ls
+cd ..
+sudo rm -r puppet/
+ls
+sudo rm -r nagiospup/
+ls
