@@ -1274,3 +1274,45 @@ sudo rm -r puppet/
 ls
 sudo rm -r nagiospup/
 ls
+cron -e
+crontab -e
+cd OE2-Group-Project/
+cd Mgmt-VM/
+ls
+vi crontab.txt 
+pwd
+/home/bitstudent/OE2-Group-Project/cd /etc/cron
+cd /etc/
+ls
+sudo vi crontab
+cd ~/OE2-Group-Project && git pull
+cd ~/OE2-Group-Project && git status
+cd Mgmt-VM/
+cat crontab.txt 
+exit
+ls
+cd ..
+cd ~
+ls
+exit
+jobs
+sudo service cron reload
+jobs
+sudo service crontab reload
+sudo service crontab restart
+sudo service cron restart
+sudo service cron status
+jobs
+crontab -e
+jobs
+exit
+sudo crontab -e
+crontab -e
+jobs
+exit
+statmas
+statpup
+stat nagios3
+stat nagios-server-plugins
+statnr
+exit
