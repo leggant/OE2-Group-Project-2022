@@ -8,7 +8,14 @@ class nagios::config {
 		require => Class['nagios::install'],
 		notify => Class['nagios::service'],
 	}
-
+        file { '/etc/nagios3/conf.d/ppt_contacts.cfg':
+		ensure => present,
+		mode => '0444',
+	}
+        file { '/etc/nagios3/conf.d/ppt_contactgroups.cfg':
+                ensure => present,
+                mode => '0444',
+        }	
 	file { '/etc/nagios3/htpasswd.users':
 	source => 'puppet:///modules/nagios/htpasswd.users',
 	ensure => present,
@@ -22,6 +29,44 @@ class nagios::config {
 	group => 'puppet',
 	}
 
+	nagios_contact { 'slack-anthony':
+		target => '/etc/nagios3/conf.d/ppt_contacts.cfg',
+		alias => 'Slack Anthony',
+		service_notification_period => '24x7',
+		host_notification_period => '24x7',
+		service_notification_options => 'w,u,c,r',
+		host_notification_options => 'd,r',
+		service_notification_commands => 'notify-service-by-slack',
+		host_notification_commands => 'notify-host-by-slack',
+		email => 'leggtc1@student.op.ac.nz',
+	}
+        nagios_contact { 'slack-mohammed':
+                target => '/etc/nagios3/conf.d/ppt_contacts.cfg',
+                alias => 'Slack Mohammed',
+                service_notification_period => '24x7',
+                host_notification_period => '24x7',
+                service_notification_options => 'w,u,c,r',
+                host_notification_options => 'd,r',
+                service_notification_commands => 'notify-service-by-slack',
+                host_notification_commands => 'notify-host-by-slack',
+                email => 'alhama2@student.op.ac.nz',
+        }
+	nagios_contact { 'slack':
+                target => '/etc/nagios3/conf.d/ppt_contacts.cfg',
+                alias => 'Slack',
+                service_notification_period => '24x7',
+                host_notification_period => '24x7',
+                service_notification_options => 'w,u,c,r',
+                host_notification_options => 'd,r',
+                service_notification_commands => 'notify-service-by-slack',
+                host_notification_commands => 'notify-host-by-slack',
+        }
+
+	nagios_contactgroup { 'slackgroup':
+		target => '/etc/nagios3/conf.d/ppt_contactgroups.cfg',
+		alias => 'Slack channel',
+		members => 'slack-anthony, slack-mohammed, slack',
+	}
 
 	nagios_host { 'db-b.foo.org.nz':
 	target => '/etc/nagios3/conf.d/ppt_hosts.cfg',
