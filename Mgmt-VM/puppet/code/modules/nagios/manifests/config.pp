@@ -78,6 +78,7 @@ class nagios::config {
 	notification_period => '24x7',
 	notification_options => 'd,u,r',
 	mode => '0444',
+	contact_groups => 'slackgroup',
 	}	
 
 	nagios_host { 'app-b.foo.org.nz':
@@ -90,6 +91,7 @@ class nagios::config {
         notification_period => '24x7',
         notification_options => 'd,u,r',
         mode => '0444',
+	contact_groups => 'slackgroup',
 	}
 	nagios_host { 'backup-b.foo.org.nz':
         target => '/etc/nagios3/conf.d/ppt_hosts.cfg',
@@ -101,7 +103,7 @@ class nagios::config {
         notification_period => '24x7',
         notification_options => 'd,u,r',
         mode => '0444',
-
+	contact_groups => 'slackgroup',
 	}
 
 	nagios_host { 'mgmt-b.foo.org.nz':
@@ -114,10 +116,9 @@ class nagios::config {
         notification_period => '24x7',
         notification_options => 'd,u,r',
         mode => '0444',
-
+	contact_groups => 'slackgroup',
 	}
 
- 
 	nagios_hostgroup {"my-ssh-servers":
 	target => "/etc/nagios3/conf.d/ppt_hostgroups.cfg",
 	mode => "0444",
@@ -130,7 +131,5 @@ class nagios::config {
         mode => "0444",
         alias => 'My DB servers',
         members => 'db-b.foo.org.nz'
-        }
-
-	
+        }	
 }

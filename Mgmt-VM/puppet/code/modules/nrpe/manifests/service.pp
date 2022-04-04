@@ -8,7 +8,7 @@ class nrpe::service
                 require => Class["nrpe::config"],
         }
 
-   	nagios_service {"disk-check":
+nagios_service {"disk-check":
         service_description => "Remote disk servers",
         hostgroup_name => "disk-servers",
         target => "/etc/nagios3/conf.d/ppt_services.cfg",
@@ -20,7 +20,7 @@ class nrpe::service
         notification_interval => 30,
         notification_period => "24x7",
         notification_options => "w,u,c",
-        contact_groups => "admins",
-        mode => '0555',
+        contact_groups => "slackgroup",
+        mode => '0644',
        }
 }

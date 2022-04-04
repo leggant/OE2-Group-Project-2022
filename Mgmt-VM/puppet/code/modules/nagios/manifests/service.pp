@@ -18,7 +18,7 @@ class nagios::service {
 	notification_interval => 30,
 	notification_period => "24x7",
 	notification_options => "w,u,c",
-	contact_groups => "admins",
+	contact_groups => "slackgroup",
 	mode => '0444',
 	}
 
@@ -34,8 +34,7 @@ class nagios::service {
         notification_interval => 30,
         notification_period => "24x7",
         notification_options => "w,u,c",
-        contact_groups => "admins",
+        contact_groups => "slackgroup",
 	mode => '0444',
         }
-
 }
