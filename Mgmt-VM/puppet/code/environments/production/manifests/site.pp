@@ -21,6 +21,5 @@ node 'mgmt-b.foo.org.nz' {
     include sudo
     include ntp_service
     include nagios
-    include nrpe
     package { 'vim': ensure => present }
 }

@@ -1,108 +1,3 @@
-sudo vi crontab
-cd cron.daily
-ls
-cd /tmp
-ls
-cd ..
-ls
-cd usr
-ls
-cd ..
-cd etc/
-ls
-cd cron.d
-ls
-cd ..
-cd OE2-Group-Project && git pull
-cd ~/
-ls 
-cd ~/OE2-Group-Project && git pull
-cat /etc/crontab
-sudo vi /tmp/crontab.F3vLqM/crontab
-sudo vi /tmp/crontab.F3vLqM
-sudo vi /var/spool/cron/crontabs/root
-cd /var/spool/cron/crontabs
-sudo cd /var/spool/cron/crontabs
-sudo vi /var/spool/cron/crontabs
-cd /var
-ls
-cd tmp
-ls
-cd ..
-cd spool/
-ls
-cd cron
-ls
-sudo vi crontabs
-cd ~
-ls
-cd /etc
-ls
-sudo crontab
-sudo vi crontab
-cron -e
-crontab -e
-sudo cp /tmp/crontab.F3vLqM/crontab ~/OE2-Group-Project/Mgmt-VM/
-sudo cp /tmp/crontab.F3vLqM/crontab ~/OE2-Group-Project/Mgmt-VM
-sudo cat crontab -e ~/OE2-Group-Project/Mgmt-VM/crontab
-sudo cat crontab -e > ~/OE2-Group-Project/Mgmt-VM/crontab
-cd ~/OE2-Group-Project/Mgmt-VM/
-ls
-cat crontab 
-sudo cat crontab -e
-cat crontab -e > ~/OE2-Group-Project/Mgmt-VM/crontab
-ls
-cat crontab 
-crontab -e > ~/OE2-Group-Project/Mgmt-VM/crontab
-cat crontab 
-crontab -e
-cat crontab
-rm crontab 
-ls
-cron -e
-crontab -e
-nano crontab.txt
-cd ..
-git status
-git add .
-git commit -m "mgmt: backup crontab script" -m "runs automated backup script in script directory, twice daily" -m "mgmt-vm"
-git push
-reboot
-reload
-sudo reboot
-crontab -e
-crontab -l
-cat crontab -l > ~/OE2-Group-Project/Mgmt-VM/crontab.txt
-echo crontab -l > ~/OE2-Group-Project/Mgmt-VM/crontab.txt
-cat ~/OE2-Group-Project/Mgmt-VM/crontab.txt
-vim ~/OE2-Group-Project/Mgmt-VM/crontab.txt
-cd ~/OE2-Group-Project/
-cd ~/OE2-Group-Project && git status
-time
-timezone
-date
-crontab -e
-crontab -l
-# utc time converted using: https://savvytime.com/converter/utc-to-nzst 
-# m h  dom mon dow   command
-# 10pm utc converts to 11am nzst
-0 22 * * * bash ~/OE2-Group-Project/Scripts/mgmt/backup.sh
-# 1am utc converts to 2pm nzst
-0 1 * * * bash ~/OE2-Group-Project/Scripts/mgmt/backup.sh
-# 8am utc converts to 9pm nzst
-vim ~/OE2-Group-Project/Mgmt-VM/crontab.txt
-cd ~/OE2-Group-Project && git status
-bumgmt
-crontab -e
-crontab -l
-cat crontab -l > ~/OE2-Group-Project/Mgmt-VM/crontab.txt
-echo crontab -l > ~/OE2-Group-Project/Mgmt-VM/crontab.txt
-cat ~/OE2-Group-Project/Mgmt-VM/crontab.txt
-vim ~/OE2-Group-Project/Mgmt-VM/crontab.txt
-cd ~/OE2-Group-Project/
-cd ~/OE2-Group-Project && git status
-time
-timezone
 date
 crontab -e
 crontab -l
@@ -1957,4 +1852,149 @@ resmas
 respup
 statpup
 exit
+sudo reboot
+ls
+cd /etc/nagios3/
+cd ..
+cd nagios
+ls
+ls -la
+statpup
+puppet agent -t
+ls
+puppet agent --configprint server
+statpup
+puppet agent --test
+statpup
+puppet agent --test
+sudo puppet cert --sign -all
+statpup
+resmas
+respup
+statmas
+statpup
+mod
+ls
+cd nrpe/
+ls
+cd manifests/
+ls
+sudo vim service.pp 
+sudo vim config.pp 
+nag
+ls
+cd manifests/
+ls
+vim config.pp
+ls
+vim config.pp
+mod
+ls
+cd nrpe/
+ls
+cd manifests/
+ls
+vim config.pp 
+ls
+site
+ls
+statpup
+cd /etc/nagios3/
+ls
+cd conf.d/
+ls
+vim ppt_services.cfg 
+ls -la
+cd ..
+ls l-la
+ls -la
+vim nrpe.cfg 
+sudo puppet cert --sign -all
+puppet agent --test
+ping app-b.foo.org.nz
+vim /etc/hosts
+puppet agent --test
+statpup
+puppet cert list --all
+vim /etc/puppet/puppet.conf
+statpup
+statmas
+respup
+statpup
+puppet master --no-daemonize --verbse --debug
+sudo systemctl stop puppetmaster
+puppet master --no-daemonize --verbse --debug
+statpup
+agentupdate
+resmas
+agentupdate
+statpup
+ls
+vim nrpe.cfg 
+puppet master --no-daemonize --verbose --debug
+statpup
+vim nrpe.cfg 
+statpup
+ls
+cd ..
+ls
+cd nagios
+ls
+mod 
+cd nrpe/
+ls
+cd manifests/
+ls
+sudo vim service.pp 
+ls
+sudo vim config.pp 
+agentupdate 
+statpup
+sudo vim config.pp 
+agentupdate 
+statpup
+respup
+statpup
+sudo vim config.pp 
+sudo vims service.pp 
+sudo vim service.pp 
+agentupdate 
+statpup
+ls
+statpup
+nag
+ls
+cd manifests/
+ls
+sudo rm config.pp.save 
+ls
+sudo vim service.pp 
+sudo vim config.pp 
+mod
+cd nrpe/
+ls
+cd manifests/
+ls
+sudo vin config.pp 
+sudo vim config.pp 
+agentupdate 
+respup
+agentupdate 
+resmas
+statpup
+site
+resmas
+agentupdate 
+statpup
+sudo systemctl stop puppetmaster
+sudo systemctl stop puppet
+sudo systemctl stop puppet-nrpe-service
+sudo systemctl status puppet-nrpe-service
+sudo systemctl status nagios-nrpe-service
+sudo systemctl status nagios-nrpe-servicesudo systemctl status nagios-nrpe-server
+sudo systemctl status nagios-nrpe-server
+sudo systemctl stop nagios-nrpe-server
+ls
+statpup
+agentupdate
 sudo reboot
