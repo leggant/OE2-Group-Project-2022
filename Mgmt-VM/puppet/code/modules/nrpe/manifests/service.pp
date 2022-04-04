@@ -1,14 +1,14 @@
 class nrpe::service
 {
-	service { 'nagios-nrpe-server' :
+
+	   service { 'nagios-nrpe-server' :
                 ensure => running,
                 hasstatus => true,
                 hasrestart => true,
                 enable => true,
                 require => Class["nrpe::config"],
-        }
-
-nagios_service {"disk-check":
+ }
+     	nagios_service {"disk-check":
         service_description => "Remote disk servers",
         hostgroup_name => "disk-servers",
         target => "/etc/nagios3/conf.d/ppt_services.cfg",
@@ -21,6 +21,6 @@ nagios_service {"disk-check":
         notification_period => "24x7",
         notification_options => "w,u,c",
         contact_groups => "slackgroup",
-        mode => '0644',
+        mode => '0555',
        }
 }

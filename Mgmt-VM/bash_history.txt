@@ -1316,3 +1316,645 @@ stat nagios3
 stat nagios-server-plugins
 statnr
 exit
+statnr
+sudo vim /etc/puppet/code/modules/nrpe/files/nrpe.cfg
+/usr/lib/nagios/plugins/check_disk -w 98% -c 98% -p /dev/sda1
+/usr/lib/nagios/plugins/check_all-disk -w 98% -c 98% -p /dev/sda1
+/usr/lib/nagios/plugins/check_all_disk -w 98% -c 98% -p /dev/sda1
+/usr/lib/nagios/plugins/
+cd /usr/lib/nagios/plugins/
+ls
+/usr/lib/nagios/plugins/check_disk -w 20% -c 98% -p /dev/sda1
+/usr/lib/nagios/plugins/check_disk -w 20% -c 99% -p /dev/sda1
+sudo vim /etc/puppet/code/modules/nrpe/files/nrpe.cfg
+agentupdate 
+statnr
+resnat
+resnr
+sudo vim /etc/puppet/code/modules/nrpe/files/nrpe.cfg
+resnat
+resnr
+agentupdate 
+resnr
+statmas
+sudo vim /etc/puppet/code/modules/nrpe/files/nrpe.cfgresmas
+resmas
+respup
+sudo vim /etc/puppet/code/modules/nrpe/files/nrpe.cfg
+agentupdate 
+resmas
+respup
+resnr
+resnag
+respup /usr/lib/nagios/plugins/check_disk -w 10% -c 99% -p /dev/sda1
+/usr/lib/nagios/plugins/check_disk -w 10% -c 99% -p /dev/sda1
+check_nrpe -H backup-b.foo.org.nz -c check_hd
+/usr/lib/nagios/plugins/check_nrpe -H localhost
+/usr/lib/nagios/plugins/check_nrpe -H backup-b.foo.org.nz
+/usr/lib/nagios/plugins/check_nrpe -H backup-b.foo.org.nz -c check_disk
+/usr/lib/nagios/plugins/check_nrpe -H backup-b.foo.org.nz -c /usr/lib/nagios/plugins/check_disk -w 10% -c 99% -p /dev/sda1
+cd /etc/nagios
+ls
+vim nagios_service.cfg 
+cd nrpe.d/
+ls
+cd ..
+vim nrpe.cfg 
+nag
+site
+nag
+cd manifests/
+ls
+cat config.pp 
+cd ..
+ls
+cd ..
+ls
+cd nrpe
+ls
+cd manifests/
+ls
+vim config.pp 
+ls
+vim service.pp 
+ls
+vim service.pp 
+vim /etc/nagios3/conf.d/ppt_services.cfg"
+:Q
+vim /etc/nagios3/conf.d/ppt_services.cfg
+/usr/local/nagios/libexec/check_nrpe -H localhost -c check_users
+/usr/local/nagios/libexec/check_nrpe -H localhost 
+/usr/local/nagios/libexec/check_nrpe -H localhost l
+ls
+cd /etc/nagios
+la
+vim nrpe.cfg 
+site
+vim nrpe.cfg 
+sudo vim nrpe.cfg 
+cd /etc/nagios/
+ls
+mod
+ls
+cd ntp_service/
+ls
+cd manifests/
+ls
+vim init.pp 
+ls
+cd nrpe
+cd ..
+ls
+cd .
+cd ..
+l
+cd nrpe/
+ls
+cd manifests/
+ls
+sudo vim service.pp 
+sudo vim config.pp 
+agentupdate
+sudo vim config.pp 
+agentupdate
+resmas
+statmas
+ls
+vim config.pp 
+statmas
+agentupdate 
+ls
+vim config.pp 
+vim init.pp 
+ls
+vim service.pp 
+site
+vim service.pp 
+ls
+cd ..
+ls
+cd ..
+ls
+cd nagios/
+ls
+cd manifests/
+ls
+vim nagios.pl 
+vim config.pp 
+ls
+cd ..
+ls
+cd ..
+ls
+cd nrpe/
+ls
+cd files/
+ls
+vim nrpe.cfg 
+cd .
+ls
+cd ..
+ls 
+cd manifests/
+ls
+vim config.pp 
+sudo vim config.pp 
+site
+ls
+vim config.pp 
+vim install.pp 
+vim config.pp 
+sudo vim config.pp 
+ls
+vim config.pp 
+sudo vim config.pp 
+respup
+resmas
+
+ls
+cd ..
+ls
+pwd
+cd manifests/
+ls
+vim config.pp 
+vim install.pp 
+vim config.pp 
+agentupdate 
+respup
+resnag
+sudo systemctl status nagios-nrpe-server
+ls
+sudo systemctl status nagios-nrpe-server
+agentupdate 
+resmas
+resnag
+site
+agentupdate 
+resmas
+statpup
+site
+resmas
+agentupdate 
+statpup
+agentupdate 
+respup
+statpup
+sudo nagios3 -v /etc/nagios3/nagios.cfg
+statpup
+sudo vim /etc/nagios3/conf.d/ppt_services.cfg
+mod
+ls
+cd nrpe/
+ls
+cd manifests/
+ls
+sudo vim service.pp 
+sudo vim config.pp 
+nag
+ls
+cd manifests/
+ls
+sudo vim config.pp
+statpup
+site
+resmas
+respup
+agentupdate 
+statpup
+sudo vim /etc/nagios3/conf.d/ppt_services.cfg
+agentupdate 
+sudo vim /etc/nagios3/conf.d/ppt_services.cfg
+statpup
+sudo vim /etc/nagios3/
+ls
+statpup
+sudo vim /etc/nagios/nrpe.cfg
+agentupdate 
+sudo vim /etc/nagios/nrpe.cfg
+statpup
+mod
+ls
+cd nrpe/
+ls
+cd manifests/
+ls
+vim service.pp 
+sudo vim service.pp 
+agentupdate 
+statpup
+agentupdate 
+resmas
+sudo vim service.pp 
+sudo vim config
+sudo vim config.pp 
+sudo vim service.pp 
+nag
+ls
+cd manifests/
+ls
+vim service.pp 
+mod
+cd nrpe/
+ls
+cd manifests/
+sudo vim service.pp 
+agentupdate 
+resmas
+statpup
+ls
+cd /etc/nagios3/
+ls
+ls -la
+ls
+cd conf.d/
+;s
+ls
+sudo vim ppt_services.cfg 
+sudo rm ppt_services.cfg 
+agentupdate 
+ls
+sudo vim ppt_services.cfg 
+ls
+vim ppt_contactgroups.cfg 
+vim ppt_contact
+vim ppt_contacts.cfg 
+agentupdate 
+statpup
+cd mod
+mod
+ls
+site
+resmas
+agentupdate 
+statpup
+respup
+statpup
+ls
+ls -la
+ls
+cd nrpe/
+ls
+cd manifests/
+ls
+cd /etc/nagios
+ls
+vim nrpe.cfg 
+sudo vim nrpe.cfg 
+ls
+cd ..
+ls
+cd nagios3/
+ls
+cd conf.d/
+ls
+vim ppt_services.cfg 
+sudo vim ppt_services.cfg 
+agentupdate 
+statpup
+nag'
+nag
+ls
+cd manifests/
+ls
+sudo vim config.pp
+agentupdate 
+statpup
+ls
+sudo vim service.pp 
+agentupdate 
+statpup
+resmas
+statpup
+sudo vim service.pp 
+agentupdate 
+statpup
+ls
+vim config.pp.save 
+ls
+vim config.pp.save 
+sudo rm config.pp.save 
+ls
+agentupdate 
+statpup
+statmas
+statpup
+sudo vim /etc/nagios3/nagios.cfg
+sudo vim /etc/nagios3/conf.d/ppt_services.cfg
+cd  /etc/nagios3/conf.d/
+ls
+sudo rm ppt_services.cfg 
+agentupdate 
+ls
+statpup
+ls
+nag
+ls
+cd files/
+ls
+vim htpasswd.users 
+vim nagios.cfg 
+cd ..
+ls
+cd manifests/
+ls
+vim service.pp 
+sudo vim config.pp 
+agentupdate 
+statpup 
+sudo vim /etc/nagios3/conf.d/ppt_services.cfg
+nag
+cd manifests/
+sudo vim service.pp 
+agentupdate 
+resmas
+statpup
+sudo nagios3 -v /etc/nagios3/nagios.cfg
+ls
+cd /etc/nagios3/
+ls
+cd conf.d/
+ls
+sudo rm ppt_services.cfg 
+agentupdate 
+
+statpup
+agentupdate 
+statpup
+/etc/nagios3/nagios.cfg
+vim /etc/nagios3/nagios.cfg
+site
+agentupdate
+statpup
+agentupdate
+statpup
+ls
+vim ppt_services.cfg 
+ls -la
+:q
+ls
+site
+ls
+agentupdate
+statpup
+nag
+ls
+cd manifests/
+ls
+vim service.pp 
+statnag
+vim service.pp 
+vim config.pp 
+sudo vim config.pp 
+statpup
+ls
+vim config.pp 
+sudo vim config.pp 
+sudo vim init.pp 
+sudo vim install.pp 
+ls
+sudo vim nagios.pl 
+sudo vim service.pp 
+site
+cd /etc/nagios3/conf.d/
+ls
+sudo rm ppt_services.cfg 
+sudo rm ppt_contactgroups.cfg 
+sudo rm ppt_contacts.cfg 
+ls
+agentupdate
+ls
+sudo vim ppt_services.cfg 
+statpup
+ls
+ls la
+ls -la
+vim :q
+ls
+statpup
+ls
+nag
+ls
+cd manifests/
+ls
+sudo vim service.pp 
+ls
+sudo systemctl status puppet
+sudo systemctl stop puppet
+sudo systemctl status puppet
+sudo systemctl restart puppet
+sudo systemctl status puppet
+site
+sudo systemctl status puppet
+site
+agentupdate
+sudo systemctl status puppet
+site
+agentupdate
+resmas
+sudo systemctl status puppet
+/etc/nagios3/nagios.cfg
+vim /etc/nagios3/nagios.cfg
+sudo systemctl nagios-nrpe-server
+sudo systemctl restart nagios-nrpe-server
+sudo systemctl status nagios-nrpe-server
+sudo systemctl status puppet
+cd /etc/nagios3/
+ls
+vim nagios.cfg 
+vim /var/log/nagios3/nagios.debug
+/var/log/nagios3/nagios.debug
+nag
+ls
+cd manifests/
+ls
+vim install.pp 
+cd /etc/nagios3/
+ls
+vim htpasswd.users 
+site
+nag
+ls
+vim files/
+cd manifests/
+ls
+vim config.pp 
+sudo vim config.pp 
+agentupdate 
+sudo vim config.pp 
+ls
+sudo rm nagios.pl 
+ls
+age
+agentupdate 
+vim service.pp 
+agentupdate
+statpup
+agentupdate
+sudo systemctl stop  puppet
+statpup
+agentupdate 
+statpup
+agentupdate 
+ls
+statpup
+ls
+statpup
+nag
+ls
+cd manifests/
+ls
+sudo vim config.pp 
+cd /etc/nagios
+ls
+cd ..
+ls
+cd nagios3/
+ls
+cd conf.d/
+ls
+sudo rm ppt_services.cfg 
+vim hostgroups_nagios2.cfg 
+vim ppt_hostgroups.cfg 
+sudo rm ppt_hostgroups.cfg 
+sudo rm :\:
+sudo rm :
+sudo rm :q
+ls
+vim hostgroups_nagios2.cfg 
+vim services_nagios2.cfg 
+agentupdate 
+statpup
+ls
+vim ppt_services.cfg 
+statpup
+respup
+agentupdate 
+statpup
+ping localhost
+ping backup-b.foo.org.nz
+statpup
+ls
+cd ..
+ls -la
+ls
+nag
+ls
+cd files/
+ls
+ls -la
+ls
+vim nagios.cfg 
+ls
+statpup
+ls
+cd ..
+ls
+cd manifests/
+ls
+vim config.pp 
+site
+agentupdate
+site
+agentupdate
+statnag
+statnr
+ssh bitstudent@20.211.185.153
+mod
+cd nrpe/
+cd files/
+sudo nano nrpe.cfg 
+cd /etc/nagios
+ls
+cd nrpe.d/
+ls
+cd ..
+sudo nano nrpe_local.cfg 
+resnag
+sudo nagios3 -v /etc/nagios3/nagios.cfg
+mod
+nag
+ls
+cd manifests/
+ls
+sudo nano config.pp 
+sudo nano config.pp
+agentupdate
+sudo nagios3 -v /etc/nagios3/nagios.cfg
+sudo nano config.pp
+agentupdate
+statmas
+sudo nagios3 -v /etc/nagios3/nagios.cfg
+agentupdate
+sudo systemctl restart nagios-nrpe-server
+sudo systemctl status nagios-nrpe-server
+sudo systemctl restart nagios-nrpe-server
+sudo systemctl status nagios-nrpe-server
+statpup
+respup
+statpup
+mod
+cd nrpe
+cd man
+cd manifests/
+ls
+sudo nano config.pp 
+agentupdate
+sudo systemctl restart nagios-nrpe-server
+sudo systemctl status nagios-nrpe-server
+resmas
+respup
+statpup
+statmas
+statnr
+statnag
+mod
+cd nrpe
+cd files/
+ls
+ls -al
+sudo nano nrpe.cfg 
+cd ../manifests/con
+cd ../manifests/
+ls
+sudo nano config.pp 
+cd ../
+ls
+cd files/
+ls -al
+sudo chgrp nagios nrpe.cfg 
+ls -al
+sudo chmod g+w nrpe.cfg 
+ls -al
+agentupdate
+exit
+jobs
+exit
+ls
+statpup
+ls
+nag
+cd manifests/
+ls
+sudo vim service.pp 
+ls
+vim service.pp 
+statpup
+resnr
+resup
+resmas
+respup
+statpup
+resmas
+respup
+sudo systemctl restart nagios-nrpe-server
+sudo systemctl restart nagios3
+statpup
+sudo systemctl restart nagios3
+resmas
+statpup
+resmas
+respup
+statpup
+exit
+sudo reboot
