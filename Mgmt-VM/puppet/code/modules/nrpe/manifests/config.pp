@@ -1,9 +1,8 @@
 class nrpe::config {
 file { '/etc/nagios3/nrpe.cfg':
-        ensure => present,
-	owner => 'root',
+        ensure => file,
 	source => 'puppet:///modules/nrpe/nrpe.cfg',
-	group => 'root',
+	group => 'nagios',
 	mode => '0777',
 }
 nagios_hostgroup {"disk-servers":

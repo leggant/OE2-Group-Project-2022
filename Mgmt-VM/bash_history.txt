@@ -1,290 +1,3 @@
-date
-crontab -e
-crontab -l
-# utc time converted using: https://savvytime.com/converter/utc-to-nzst 
-# m h  dom mon dow   command
-# 10pm utc converts to 11am nzst
-0 22 * * * bash ~/OE2-Group-Project/Scripts/mgmt/backup.sh
-# 1am utc converts to 2pm nzst
-0 1 * * * bash ~/OE2-Group-Project/Scripts/mgmt/backup.sh
-# 8am utc converts to 9pm nzst
-vim ~/OE2-Group-Project/Mgmt-VM/crontab.txt
-cd ~/OE2-Group-Project && git status
-bumgmt
-git add .
-git commit -m "mgmt: updated crontab github repo update" -m "script needs to be altered to check for file changes before running" -m "mgmt-b vm"
-git push
-cd ~/OE2-Group-Project && git pull
-bash ~/OE2-Group-Project/Scripts/mgmt/backup.sh
-ls -al ~/OE2-Group-Project/Scripts/mgmt/backup.sh
-sudo chown ~/OE2-Group-Project/Scripts/mgmt/backup.sh root
-sudo chown root ~/OE2-Group-Project/Scripts/mgmt/backup.sh
-sudo chgrp root ~/OE2-Group-Project/Scripts/mgmt/backup.sh
-ls -al ~/OE2-Group-Project/Scripts/mgmt/backup.sh
-sudo chmod u+x ~/OE2-Group-Project/Scripts/mgmt/backup.sh
-ls -al
-sudo chgrp bitstudent ~/OE2-Group-Project/Scripts/mgmt/backup.sh
-sudo chown bitstudent ~/OE2-Group-Project/Scripts/mgmt/backup.sh
-sudo chmod o+x ~/OE2-Group-Project/Scripts/mgmt/backup.sh
-ls -al
-ls -al ~/OE2-Group-Project/Scripts/mgmt/backup.sh
-sudo bash ~/OE2-Group-Project/Scripts/mgmt/backup.sh
-crontab -e
-crontab -l
-sudo vim ~/OE2-Group-Project/Scripts/mgmt/backup.sh
-sudo vim ~/OE2-Group-Project/Mgmt-VM/crontab.txt 
-cd ../..
-git status
-cd ~/OE2-Group-Project/
-git status
-statpup
-respup
-statpup
-statmas
-respup
-statpup
-sudo reboot
-statpup
-respup
-statpup
-statmas
-exit
-statpup
-statmas
-exit
-cd /etc/nagios3/
-ls
-cd conf.d
-ls
-sudo nano ppt_services.cfg
-sudo nano ppt_hostgroups.cfg
-pwd
-sudo nano ppt_hostgroups.cfg
-cd /etc/nagios-plugins/
-ls
-cat cd config/
-cat config
-cd config/
-ls
-cat mysql.cfg 
-/usr/lib/nagios/plugins/check_mysql -H db-b.foo.org.nz
-/usr/lib/nagios/plugins/check_mysql -H db-b.foo.org.nz -u nagios -p Oe2b2022
-exit
-nag
-ls
-cd manifests/
-ls
-vim config.pp 
-pwd
-vim config.pp 
-ls
-vim service.pp 
-ls
-cd ..
-ls
-cd files/
-ls
-cd ..
-ls
-cd manifests/
-ls
-vim service.pp 
-sudo vim service.pp 
-agentupdate 
-vim /etc/nagios3/conf.d/ppt_services.cfg
-sudo vim /etc/nagios3/conf.d/ppt_services.cfg
-ls
-sudo vim service.pp 
-agentupdate
-sudo systemctl restart nagios3
-sudo nagios3 -v /etc/nagios3/nagios.cfg
-ls
-vim config.pp 
-sudo vim service.pp 
-agentupdate 
-sudo nagios3 -v /etc/nagios3/nagios.cfg
-sudo systemctl restart nagios3
-sudo vim service.pp 
-pw
-pwf
-pwd
-vim service.pp 
-ls
-cd ..
-ls
-cd templates/
-ls
-cd .
-cd ..
-ls
-cd ..
-ls
-cd mariadb/
-ls
-cd manifests/
-ls
-vim service.pp 
-vim config.pp 
-site
-sudo systemctl status nagios3
-ls
-vim service.pp 
-nag
-ls
-cd manifests/
-ls
-vim service.pp 
-cd /etc/nagios
-cd /etc/nagios3
-ls
-cd conf.d/
-ls
-sudo vim ppt_host
-sudo vim ppt_hosts.cfg 
-sudo vim ppt_hostgroups.cfg 
-sudo vim services_nagios2.cfg 
-sudo vim localhost_nagios2.cfg 
-ls
-sudo vim generic-host_nagios2.cfg 
-sudo vim generic-service_nagios2.cfg 
-sudo vim extinfo_nagios2.cfg 
-sudo vim localhost_nagios2.cfg 
-sudo vim services_nagios2.cfg 
-sudo vim ppt_services.cfg 
-sudo vim services_nagios2.cfg 
-vim contacts_nagios2.cfg 
-sudo vim services_nagios2.cfg 
-vim contacts_nagios2.cfg 
-sudo vim localhost_nagios2.cfg 
-clear
-ls
-vim generic-
-vim generic-host_nagios2.cfg 
-sudo vim hostgroups_nagios2.cfg 
-gentupdate
-agentupdate
-sudo systemctl status nagios3
-sudo systemctl restart nagios3
-sudo vim hostgroups_nagios2.cfg 
-agentupdate
-sudo systemctl status nagios3
-sudo vim hostgroups_nagios2.cfg 
-ls
-clear
-ls
-sudo vim hostgroups_nagios2.cfg 
-agentupdate
-sudo systemctl restart nagios3
-sudo vim hostgroups_nagios2.cfg 
-sudo systemctl restart nagios3
-ls
-vim services_nagios2.cfg 
-ls
-cd ..
-ls
-sudo vim nagios.cfg 
-ls
-vim cgi.cfg 
-vim resource.cfg 
-ls
-vim conf.d/
-cd conf.d/
-ls
-vim hostgroups_nagios2.cfg 
-vim hosts
-vim generic-host_nagios2.cfg 
-vim ppt_services.cfg 
-nag
-cd ..
-ls
-cd sudo/
-ls
-cd files/
-ls
-cd etc/
-ls
-vim sudoers 
-cd s
-sudo vim sudoers 
-cd ..
-ls
-cd ..
-ls
-cd ma
-cd manifests/
-lks
-ls
-vim init.pp 
-lsl
-cd ..
-ls
-cd /etc/nagios3/
-ls
-cd conf.d/
-ls
-celar
-clear
-ls
-vim generic-service_nagios2.cfg 
-ls
-sudo vim localhost_nagios2.cfg 
-vim generic-host_nagios2.cfg 
-ls
-vim hostgroups_nagios2.cfg 
-sudo vim hostgroups_nagios2.cfg 
-agentupdate 
-res nagios3
-sudo nagios3 -v /etc/nagios3/nagios.cfg
-sudo vim /etc/nagios3/conf.d/services_nagios2.cfg
-cd etc/nagios3
-ls
-cd /etc/nagios3
-cd conf.d/
-sudo vim hostgroups_nagios2.cfg 
-agentupdate
-sudo vim hostgroups_nagios2.cfg 
-agentupdate 
-sudo vim hostgroups_nagios2.cfg 
-agentupdate 
-sudo vim hostgroups_nagios2.cfg 
-ls
-vim services_nagios2.cfg 
-ls
-l
-cd ..
-ls
-cd ..
-ls
-cd nagios-plugins/
-ls
-cd config/
-ls
-vim users.cfg 
-ls
-cd ..
-ls
-cd ..
-ls
-cd nagios3/
-ls
-vim cgi.cfg 
-vim nagios.cfg 
-cd conf.d/
-ls
-vim hostgroups_nagios2.cfg 
-sudo vim hostgroups_nagios2.cfg 
-agentupdate 
-res nagios3
-sudo vim hostgroups_nagios2.cfg 
-agentupdate 
-cd /usr/local/nagios/etc
-cd /usr/local/nagios3
-ls
-vim hostgroups_nagios2.cfg 
-sudo vim hostgroups_nagios2.cfg 
-sudo vim services_nagios2.cfg 
-sudo vim hostgroups_nagios2.cfg 
-vim hostgroups_nagios2.cfg
 vim ppt_hostgroups.cfg 
 vim ppt_host
 vim ppt_hosts.cfg 
@@ -1998,3 +1711,290 @@ ls
 statpup
 agentupdate
 sudo reboot
+agentupdate
+statpup
+sudo systemctl restart nagios-nrpe-server
+sudo systemctl status nagios-nrpe-server
+statpup
+puppet agent --test 
+resmas
+respup
+puppet agent --test 
+statmas
+statpup
+puppet agent --test 
+puppet agent --test --debug
+sudo -i
+respup
+agentupdate 
+puppet agent --test 
+vim /home/bitstudent/.puppet/cache/facts.d
+puppet cert list --all
+resmas
+puppet cert list --all
+puppet agent --test 
+agentupdate
+sudo puppet cert sign  --all
+sudo puppet cert --sign --all
+sudo puppet agent --server=mgmt-x.foo.org.nz --no-daemonize --verbose --onetime
+resmas
+sudo puppet cert sign  --all
+sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetime
+sudo puppet agent --server=db-b.foo.org.nz --no-daemonize --verbose --onetime
+sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetime
+clear
+ls
+sudo rm 'udo systemctl restart nagios-nrpe-server' 
+ls
+sudo puppet cert –sign –all.
+sudo puppet cert –-sign –-all.
+sudo puppet cert list -all
+sudo service puppetmaster status
+sudo puppet cert --sign -all
+sudo -i
+sudo puppet cert --sign -all
+respup
+resmas
+statpup
+ls
+puppet agent --test
+statpup
+resmas
+statpup
+respup
+statpup
+site
+respup
+agentupdate 
+respup
+resmas
+statpup
+ls
+sudo rm :q
+ls
+sudo apt-get nagios-nrpe-plugin
+sudo apt-get install nagios-nrpe-plugin
+sudo apt-get remove -purege nagios-nrpe-plugin
+sudo apt-get remove --purege nagios-nrpe-plugin
+sudo apt-get remove --purge nagios-nrpe-plugin
+sudo apt-get install nagios-nrpe-plugin
+respup
+resmas
+statpup
+agentupdate 
+statpup
+agentupdate 
+resmas
+ls
+cd /etc
+ls
+sudo rm -r nagios
+ls
+cd ..
+agentupdate
+ls
+suro rm 'udo puppet cert --sign -all' 
+sudo rm 'udo puppet cert --sign -all' 
+ls
+cd ~
+cd /etc/
+ls
+agentupdate 
+cd nagios3/
+ls
+cd conf.d/
+ls
+sudo rm ppt_services.cfg 
+sudo rm ppt_hostgroups.cfg 
+sudo rm ppt_contactgroups.cfg 
+sudo rm ppt_contacts.cfg 
+sudo rm ppt_hosts.cfg 
+ls
+agentupdate 
+resmas
+respup
+statpup
+q
+sudo nagios3 -v /etc/nagios3/nagios.cfg
+:q
+sudo nagios3 -v /etc/nagios3/nagios.cfg
+statpup
+apt-get update
+sudo apt-get update
+ls
+cd ..
+ls
+sudo vim nrpe.cfg 
+agentupdate 
+respup
+statpup
+puppet agent --test
+sudo /etc/hosts
+sudo vim  /etc/hosts
+sudo vim /etc/puppet/puppet.conf
+puppet agent -t
+sudo -i
+telnet puppet-server 8140
+sudo lsof -i -P -n | grep LISTEN
+netstat -tulpn | grep LISTEN
+sudo 0.0.0.0:8140
+sudo netstat -tulpn | grep LISTEN
+sudo vim /etc/hosts
+agentupdate 
+respup
+resmaster
+resmas
+statpup
+ls
+statpup
+ls
+respup
+agentupdate 
+ls
+statpup
+ls
+statpup 
+site
+agentupdate 
+statpup
+ls
+sudo vim nrpe.cfg 
+agentupdate 
+statpup
+ls
+sudo vim /etc/hosts
+agentupdate 
+respup
+statpup
+sudo vim /etc/hosts
+agentupdate 
+respup 
+statpup
+sudo vim /etc/hosts
+statpup
+ls
+vim nrpe.cfg 
+mod
+cd nrpe/
+ls
+cd manifests/
+ls
+sudo vim config.pp 
+agentupdate 
+sudo vim config.pp 
+agentupdate 
+sudo vim config.pp 
+agentupdate 
+ls
+cd /etc/
+ls
+mod
+ls
+cd nrpe/
+ls
+cd manifests/
+sudo vim config.pp 
+ls
+vim service.pp 
+ls
+sudo vim config.pp 
+site
+nag
+cd manifests/
+ls
+sudo vim config.pp 
+site
+ls
+sudo vim config.pp 
+ls
+cd ..
+ls
+cd ..
+ls
+sudo mkdir nrpe_nagios
+cd nrpe_nagios/
+ls
+sudo touch config.pp
+sudo touch init.pp
+sudo vim config.pp 
+sudo vim init.pp 
+site
+agentupdate 
+ls
+cd /etc/nagios3/
+ls
+sudo vim nrpe.cfg 
+agentupdate 
+ls
+vim nrpe.cfg 
+mod
+cd nrpe
+ls
+cd files/
+ls
+sudo vim nrpe.cfg 
+agentupdate 
+cd /etc/nagios3/
+vim nrpe.cfg 
+site
+mod
+cd nrpe_nagios/
+ls
+vim config.pp 
+sudo vim config.pp 
+agentupdate 
+respup 
+statpu
+statpup
+:q
+statpup
+sudo vim config.pp 
+agentupdate 
+sudo vim config.pp 
+ls
+vim init.pp 
+vim config.pp 
+site
+sudo vim config.pp 
+agentupdate 
+resmas
+respup
+resnr
+resnag
+ls
+cd ..
+ls
+cd n
+cd nagios/
+ls
+cd manifests/
+sudo vim config.pp 
+cd ..
+ls
+cd ..
+cd ntp_service/
+ls
+cd manifests/
+ls
+vim init.pp 
+sudo vim init.pp 
+cls
+ls
+cd ..
+ls
+cd manifests/
+ls
+vim init.pp 
+nag
+mod
+cd nrpe_nagios/
+ls
+sudo vim init.pp 
+agentupdate 
+sudo vim init.pp 
+respup
+resmas
+cd /etc/
+ls
+statmas
+statpup
