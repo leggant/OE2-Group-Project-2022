@@ -7,6 +7,14 @@ class install {
   }
 }
 class config {
+
+file { '/etc/test1':
+                ensure => directory,
+                owner => 'root',
+                group => 'root',
+                mode => '0444',
+        }
+
 if $hostname == 'mgmt-b' {
 	$restrict = 'restrict 10.6.0.0 mask 255.255.255.0 nomodify notrap'
 	$server = 'server 127.127.1.0'

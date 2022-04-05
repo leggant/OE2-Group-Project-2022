@@ -1,11 +1,6 @@
 class nrpe::config {
-file { '/etc/nagios/':
-        ensure => directory,
-	group => 'nagios',
-	mode => '0777',
-}
 
-file { '/etc/nagios/nrpe.cfg':
+file { '/etc/nagios3/nrpe.cfg':
         ensure => present,
         group => 'nagios',
 	source => 'puppet:///modules/nrpe/nrpe.cfg',

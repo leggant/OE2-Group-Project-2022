@@ -1,3 +1,3 @@
 class nagios {
-	include nagios::install, nagios::service , nagios::config 
+	include nagios::install, nagios::config , nagios::service
 }
