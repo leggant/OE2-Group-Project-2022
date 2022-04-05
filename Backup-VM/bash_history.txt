@@ -458,3 +458,127 @@ bubup
 git status
 source ~/.bashrc
 bubup
+bubup
+cd /etc
+ls
+sudo vi ~/.bashrc
+bubup
+git status
+source ~/.bashrc
+bubup
+git add .
+git commit -m "backup: nagios install files" -m "backup-b vm"
+git push
+exit
+ls
+sudo systemctl status puppet
+sudo syst
+chkconfig --list puppet
+puppet resource service puppet ensure=running enable=true
+statpup
+respup
+statpup
+sudo reboot
+statpup
+cd ~/OE2-Group-Project && git status
+git pull
+sudo vi ~/.bashrc
+git status
+bubup
+cd ~/OE2-Group-Project && git status
+git pull
+sudo vi ~/.bashrc
+git status
+bubup
+cd Backup-VM/
+ls
+sudo rm bashrc.txt 
+cd ..
+git status
+git add .
+git status
+git pull
+cd ~
+statpup
+bubup
+bubup
+exit
+cd /etc/nagios
+ls -al
+sudo reboot
+ls -al
+cd /etc/nagios
+ls -al
+respup
+statpup
+respup
+statpup
+puppet cert list --all
+sudo puppet cert sign --all
+puppet cert sign --all
+puppet cert list --all
+sudo cert sign --all
+sudo puppet cert sign
+sudo puppet cert sign mgmt-b.foo.org.nz
+sudo puppet cert sign -all
+statpup
+respup
+statpup
+sudo puppet cert list -all
+sudo puppet cert list --all
+puppet cert list --all
+statpup
+respup
+statpup
+ls -al
+sudo nano nrpe.cfg
+respup
+statpup
+sudo systemctl restart nagios-nrpe-server
+sudo systemctl status nagios-nrpe-server
+ls -al
+sudo chgrp root nrpe.cfg 
+ls -al
+respup
+statpup
+ls -al
+sudo chmod u+x nrpe.cfg 
+ls -al
+sudo systemctl status nagios-nrpe-server
+sudo systemctl restart nagios-nrpe-server
+sudo systemctl status nagios-nrpe-server
+respup
+statpup
+puppet cert
+puppet cert list
+sudo puppet cert list
+sudo puppet cert list -all
+sudo puppet cert generate 
+sudo /var/lib/puppet/ssl -name backup-b.foo.org.nz.pem -delete
+puppet cert sign -all
+puppet cert list -all
+sudo puppet cert list -all
+statpup
+respup
+statpup
+statnr
+statnag
+sudo vi ~/.bashrc
+source ~/.bashrc
+statnr
+cd /etc
+ls
+sudo vi ~/.bashrc
+sudo nagios3 -v /etc/nagios3/nagios.cfg
+sudo nagios -v /etc/nagios/nagios.cfg
+cd puppet/
+ls
+cd code/
+ls
+cd ..
+cd //
+cd ~
+ls
+cd ~/OE2-Group-Project && git pull
+sudo vi ~/.bashrc
+bubup
