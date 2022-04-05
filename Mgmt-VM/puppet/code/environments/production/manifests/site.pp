@@ -2,6 +2,7 @@ node 'db-b.foo.org.nz' {
     include sudo
     include ntp_service
     include mariadb
+    include nrpe_nagios
     service { 'puppet': ensure => 'running', enable => true }
     package { 'vim': ensure => present }
 }
