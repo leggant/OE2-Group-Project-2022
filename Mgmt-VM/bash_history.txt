@@ -1,102 +1,3 @@
-cd nrpe/
-ls
-cd manifests/
-ls
-sudo vim service.pp 
-sudo vim config.pp 
-nag
-ls
-cd manifests/
-ls
-sudo vim config.pp
-statpup
-site
-resmas
-respup
-agentupdate 
-statpup
-sudo vim /etc/nagios3/conf.d/ppt_services.cfg
-agentupdate 
-sudo vim /etc/nagios3/conf.d/ppt_services.cfg
-statpup
-sudo vim /etc/nagios3/
-ls
-statpup
-sudo vim /etc/nagios/nrpe.cfg
-agentupdate 
-sudo vim /etc/nagios/nrpe.cfg
-statpup
-mod
-ls
-cd nrpe/
-ls
-cd manifests/
-ls
-vim service.pp 
-sudo vim service.pp 
-agentupdate 
-statpup
-agentupdate 
-resmas
-sudo vim service.pp 
-sudo vim config
-sudo vim config.pp 
-sudo vim service.pp 
-nag
-ls
-cd manifests/
-ls
-vim service.pp 
-mod
-cd nrpe/
-ls
-cd manifests/
-sudo vim service.pp 
-agentupdate 
-resmas
-statpup
-ls
-cd /etc/nagios3/
-ls
-ls -la
-ls
-cd conf.d/
-;s
-ls
-sudo vim ppt_services.cfg 
-sudo rm ppt_services.cfg 
-agentupdate 
-ls
-sudo vim ppt_services.cfg 
-ls
-vim ppt_contactgroups.cfg 
-vim ppt_contact
-vim ppt_contacts.cfg 
-agentupdate 
-statpup
-cd mod
-mod
-ls
-site
-resmas
-agentupdate 
-statpup
-respup
-statpup
-ls
-ls -la
-ls
-cd nrpe/
-ls
-cd manifests/
-ls
-cd /etc/nagios
-ls
-vim nrpe.cfg 
-sudo vim nrpe.cfg 
-ls
-cd ..
-ls
 cd nagios3/
 ls
 cd conf.d/
@@ -1998,3 +1899,102 @@ sudo systemctl restart nagios-nrpe-server.service
 respup
 sudo systemctl restart nagios-nrpe-server.service 
 resnag
+sudo vim /etc/puppet/puppet.conf
+agentupdate 
+statpup
+respup
+statpup
+sudo vim /etc/puppet/puppet.conf
+cd /etc/nagios3
+ls -la
+sudo rm -aux
+sudo rm '-aux' 
+sudo rm -f '-aux' 
+sudo rm '-aux' 
+sudo rm '-aux' -f
+sudo mv -aux aux
+sudo mv '-aux' aux
+cd /etc/nagios-plugins/
+ls
+cd config/
+ls
+sudo nano slack.cfg 
+cd ..
+ls
+cd ..
+ls
+cd nagios3
+ls
+rm -aux
+sudo rm ./-aux
+ls
+statnag
+statnr
+statpup
+statmas
+bumgmt
+git pull
+cd ~/OE2-Group-Project/
+git pull
+ls -la
+cd ..
+ls -al
+cd OE2-Group-Project/
+sudo git pull
+cd ..
+ls -la
+sudo vi ~/.bashrc
+source ~/.bashrc
+cd ~/OE2-Group-Project && sudo git pull
+cd ~/OE2-Group-Project && git status
+respup
+ls
+agentupdate 
+statpup
+sudo vim /etc/puppet/puppet.conf
+agentupdate 
+sudo vim /etc/puppet/puppet.conf
+ls
+mo
+mod
+ls
+cd nrpe_nagios/
+ls
+cd manifests/
+ls
+vim config.pp 
+site
+vim config.pp 
+sudo vim /etc/puppet/puppet.conf
+nag
+ls
+cd manifests/
+ls
+vim install.pp 
+ls
+vim /etc/nagios-plugins/config/slack.cfg
+ls
+vim config.pp 
+pwd
+vim config.pp 
+vim service.pp 
+mod
+ls
+nrpe 
+cd nrpe
+cd manifests/
+ls
+vim config.pp 
+vim service.pp 
+mod
+ls
+cd nrpe_nagios/
+ls
+cd ma
+cd manifests/
+ls
+vim config.pp 
+nag
+cd manifests/
+ls
+vim config.pp 
