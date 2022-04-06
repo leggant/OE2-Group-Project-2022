@@ -954,3 +954,44 @@ statpup
 respup
 statpup
 buapp
+statpup
+respup
+statpup
+buapp
+git add .
+git commit -m "app-b: backup of app vm" -m "apps puppet service continues to error out" -m "app-b"
+git push
+git add .
+statpup
+exit
+statpup
+statpup:q
+statpup
+respup
+statpup
+respup
+statpup
+respup
+statpup
+ls
+statpup
+respup
+statpup
+respup
+statpup
+rrspup
+respup
+statpup
+respup
+statpup
+respup
+statpup
+respup
+statpup
+cd /etc/puppet
+ls
+cd code/
+ls
+sudo touch .gitinclude
+cd ~
+buapp
