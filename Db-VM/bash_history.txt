@@ -1,412 +1,3 @@
-sudo service puppet restart
-sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetim
-sudo service puppet restart
-sudo -i
-sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetim
-sudo -i
-sudo service puppet restart
-sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetim
-puppet cert clean db-b.foo.org.nz
-sudo -i
-sudo service puppet restart
-sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetim
-sudo service puppet restart
-sudo service puppet stop
-sudo -i
-sudo service puppet start
-sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetim
-sudo service puppet restart
-sudo service puppet status
-sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetim
-sudo service puppet status
-sugo puppet agent -t
-sudo puppet agent -t
-sudo service puppet status
-sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetim
-sudo service puppet status
-sudo service puppet stop
-sudo -i
-sudo service puppet start
-sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetim
-exit
-sudo cat /etc/hosts
-hostname
-exit
-sudo service puppet status
-sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetim
-sudo service puppet status
-sudo service puppet stop
-sudo nano /etc/puppet/puppet.conf
-sudo service puppet status
-sudo -i
-sudo service puppet start
-sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetim
-sudo service puppet stop
-sudo -i
-sudo puppet cert clean --all
-sudo puppet cert clean -all
-sudo service puppet start
-sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetim
-puppet agent -t
-sudo remove puppet
-sudo apt remove puppet
-sudo -i
-sudo apt-get install puppet
-sudo service puppet status
-sudo puppet cert clean -all
-sudo puppet cert clear -all
-sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetim
-sudo puppet cert clear -all
-sudo puppet cert clean -all
-sudo puppet agent --test
-sudo service puppet restart
-sudo puppet cert clear -all
-sudo puppet cert clean -all
-sudo service puppet status
-sudo service puppet restart
-sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetim
-sudo service puppet status
-sudo puppet cert clean -all
-sudo puppet cert clear -all
-sudo -i
-sudo service puppet status
-sudo service puppet restart
-sudo service puppet agent --test
-sudo puppet agent --test
-sudo service puppet stop
-sudo service puppet start
-sudo service puppet agent --test
-sudo puppet agent --test
-sudo nano /etc/puppet/puppet.conf
-sudo puppet agent --test
-sudo nano /etc/puppet/puppet.conf
-sudo puppet agent --test
-sudo service puppet restart
-sudo service puppet status
-sudo service puppet stop
-sudo -i
-sudo service puppet restart
-sudo service puppet status
-sudo puppet agent --test
-sudo service puppet status
-sudo puppet agent --test
-sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetim
-sudo service puppet restart
-sudo nano /etc/puppet/puppet.conf
-sudo service puppet restart
-sudo -i
-sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetim
-sudo -i
-sudo service puppet restart
-sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetim
-puppet agent -t
-sudo service puppet restart
-puppet agent -t
-sudo nano /etc/puppet/puppet.conf
-sudo service puppet restart
-puppet agent -t
-vim
-sudo puppet cert clear -all
-puppet agent -t
-puppet agent --test
-sudo puppet agent --test
-sudo puppet agent -t
-sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetim
-sudo puppet cert clear -all
-sudo puppet cert clean -all
-sudo -i
-sudo service puppet restart
-sudo puppet agent -t
-sudo nano /etc/puppet/puppet.conf
-sudo service puppet restart
-sudo -i
-sudo service puppet restart
-sudo puppet agent -t
-sudo -i
-sudo puppet cert clear -all
-sudo service puppet restart
-sudo puppet agent -t
-sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetim
-sudo service puppet restart
-sudo service puppet status
-sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetim
-sudo service puppet restart
-sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetim
-sudo service puppet stop
-sudo puppet cert clear -all
-sudo -i
-sudo service puppet status
-sudo service puppet restart
-sudo service puppet status
-sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetim
-sudo puppet agent -t
-sudo service puppet status
-sudo puppet cert clear -all
-sudo puppet cert -sign -all
-sudo puppet cert -sign --all
-sudo puppet cert --sign -all
-sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetim
-sudo service puppet status
-sudo puppet agent -t
-exit
-sudo service puppet status
-sudo puppet cert clear -all
-sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetim
-sudo service puppet stop
-sudo puppet cert clear -all
-sudo -i
-sudo service puppet status
-sudo service puppet start
-sudo puppet agent -t
-sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetim
-sudo puppet cert clear -all
-sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetim
-exit
-sudo nano /etc/puppet/puppet.conf
-sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetim
-sudo service puppet restart
-sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetim
-exi
-t
-exit
-sudo service puppet restart
-sudo service puppet stop
-exit
-sudo service puppet sto
-sudo -i
-sudo service puppet restart
-sudo nano /etc/puppet/puppet.conf
-sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetim
-sudo service puppet restart
-sudo service puppet stop
-sudo puppet cert clear -all
-sudo -i
-sudo service puppet start
-sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetim
-sudo service puppet 
-sudo -i
-sudo service puppet start
-sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetim
-sudo puppet cert clear -all
-sudo service puppet stop
-sudo -i
-sudo service puppet start
-sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetim
-sudo puppet agent --test
-sudo nano /etc/puppet/puppet.conf
-sudo puppet cert clear -all
-sudo -i
-sudo service puppet restart
-sudo puppet agent -t
-sudo service puppet stop
-sudo -i
-sudo service puppet start
-sudo puppet agent -t
-sudo puppet agent --test
-sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetim
-sudo -i
-sudo service puppet restart
-sudo puppet agent -t
-sudo service puppet restart
-sudo puppet agent -t
-sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetim
-sudo -i
-sudo puppet agent -t
-sudo -i
-sudo service puppet restart
-sudo puppet agent -t
-sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetim
-sudo service puppet stop
-sudo service puppet restart
-sudo -i
-sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetim
-sudo service puppet stop
-sudo service puppet restart
-sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetim
-sudo service puppet restart
-sudo systemctl restart puppet
-sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetim
-sudo systemctl restart puppet
-systemctl status puppet.service
-systemctl stop puppet
-systemctl status puppet.service
-sudo systemctl restart puppet
-systemctl restart puppet
-sudo i
-sudo -i
-sudo systemctl restart puppet
-sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetim
-exit
-sudo systemctl restart puppet
-sudo service puppet status
-sudo nano /etc/hosts
-sudo service puppet status
-sudo nano /etc/hosts
-sudo service puppet status
-sudo service puppet restart
-sudo service puppet status
-sudo nano /etc/puppet/puppet.conf
-sudo service puppet status
-sudo service puppet restart
-sudo service puppet status
-sudo service puppet stop
-sudo service puppet restart
-sudo service puppet status
-sudo -i
-sudo service puppet restart
-sudo service puppet status
-sudo puppet agent -t
-sudo puppet agent --test
-sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetim
-sudo nano etc/hosts
-sudo nano /etc/hosts
-sudo puppet agent --test
-sudo service puppet restart
-sudo puppet agent --test
-sudo puppet agent -t
-sudo service puppet status
-sudo puppet agent -t
-sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetim
-sudo puppet agent --server= mgmt-b.foo.org.nz --no-daemonize --verbose --onetim
-sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetime
-sudo service puppet restart
-sudo service puppet status
-sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetime
-sudo service puppet status
-sudo nano /etc/hosts
-sudo service puppet restart
-sudo -i
-sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetime
-sudo service puppet restart
-sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetime
-sudo service puppet status
-sudo -i
-sudo service puppet status
-sudo service puppet restart
-sudo service puppet status
-sudo -i
-sudo service puppet status
-puppet cert clean db-b.foo.org.nz
-puppet cert clean -all
-sudo service puppet status
-sudo service puppet stop
-sudo -i
-sudo service puppet start
-sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetime
-puppet cert clear -all
-sudo -i
-sudo -i
-sudo puppet agent -t
-sudo service puppet restart
-sudo service puppet status
-sudo -i
-sudo service puppet restart
-sudo puppet agent -t
-sudo service puppet restart
-sudo puppet agent -t
-puppet cert clear -all
-puppet cert clean -all
-sudo service puppet stop
-sudo nano /etc/hosts
-sudo service puppet restart
-sudo -i
-sudo puppet agent -t
-sudo puppet agent -test
-sudo puppet agent --test
-sudo -i
-sudo puppet agent --test
-sudo -i
-puppet cert clean -all
-sudo service puppet restart
-sudo puppet agent --test
-puppet cert clean -all
-sudo puppet agent --test
-sudo service puppet restart
-puppet cert clean -all
-sudo -i
-sudo service puppet restart
-sudo puppet agent --test
-rm -rf /var/lib/puppet/ssl
-sudo rm -rf /var/lib/puppet/ssl
-sudo service puppet restart
-sudo puppet agent --test
-sudo service puppet restart
-sudo rm -rf /var/lib/puppet/ssl
-sudo service puppet restart
-sudo puppet agent --test
-sudo rm -rf /var/lib/puppet/ssl
-sudo -i
-sudo service puppet restart
-sudo puppet agent --test
-sudo -i
-sudo rm -rf /var/lib/puppet/ssl
-sudo service puppet restart
-puppet config print certname
-sudo rm -rf /var/lib/puppet/ssl
-sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetime
-sudo rm -rf /var/lib/puppet/ssl
-sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetime
-sudo rm -rf /var/lib/puppet/ssl
-sudo service puppet restart
-sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetime
-rm -rf /var/lib/puppet/ssl
-sudo rm -rf /var/lib/puppet/ssl
-sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetime
-sudo rm -rf /var/lib/puppet/ssl
-sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetime
-sudo rm -rf /var/lib/puppet/ssl
-sudo service puppet restart
-sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetime
-sudo nano /etc/puppet/puppet.conf
-sudo rm -rf /var/lib/puppet/ssl
-sudo service puppet restart
-sudo rm -rf /var/lib/puppet/ssl
-sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetime
-sudo nano /etc/hosts
-sudo -i
-hostname
-sudo rm -rf /var/lib/puppet/ssl
-sudo service puppet restart
-sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetime
-sudo service puppet restart
-sudo rm -rf /var/lib/puppet/ssl
-sudo agent -t
-sudo pupet agent -t
-sudo puppet agent -t
-sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetime
-sudo rm -rf /var/lib/puppet/ssl
-sudo puppet agent -t
-sudo puppet agent status
-sudo service puppet status
-sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetime
-sudo puppet agent -t
-sudo puppet agent --test
-vim
-exit
-vim
-sudo puppet agent --test
-sudo rm -rf /var/lib/puppet/ssl
-sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetime
-sudo puppet agent --test
-vim
-exit
-vim
-sudo puppet agent --test
-sudo puppet agent -t
-exit
-cat /etc/hosts
-sudo vim /etc/hosts
-ping mgmt-b.foo.org.nz
-sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetime
-sudo su
-sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetime
-exit
-sudo cat /etc/puppet/puppet.conf
-[main]
-ssldir = /var/lib/puppet/ssl
-server = mgmt-b.foo.org.nz
-[master]
-vardir = /var/lib/puppet
 cadir  = /var/lib/puppet/ssl/ca
 dns_alt_names = puppet
 [agent]
@@ -997,4 +588,413 @@ budb
 source ~/.bashrc
 sudo vi ~/.bashrc
 source ~/.bashrc
+budb
+cd ~/OE2-Group-Project && git pull
+budb
+sudo vi ~/.bashrc
+budb
+source ~/.bashrc
+budb
+git add .
+git commit -m "db: add nagios install files" -m "db-b vm"
+git push
+cd /etc
+ls
+sudo vi ~/.bashrc
+cd nagios-plugins/
+ls
+cd config/
+ls
+cd ..
+ls
+source ~/.bashrc
+cd ~/OE2-Group-Project && git pull
+cd ~/OE2-Group-Project && git status
+budb
+source ~/.bashrc
+sudo vi ~/.bashrc
+source ~/.bashrc
+budb
+git add .
+git commit -m "db: backup nagios-plugins" -m "db-b vm"
+git push
+exit
+budb
+budb
+exit
+respup
+statpup
+sudo reboot
+statpup
+respup
+statpup
+sudo reboot
+statpup
+budb
+cd /etc
+ls
+source ~/.bashrc
+budb
+budb
+cd /etc
+ls
+source ~/.bashrc
+budb
+cd ~/OE2-Group-Project/Db-VM/
+ls
+cat bashrc
+ls
+cd ..
+ls
+cd App-VM/
+ls
+cd ../Backup-VM/
+ls
+exit
+res nagios-nrpe-server
+stat nagios-nrpe-server
+res nagios-nrpe-server
+respup
+statpup
+stat nagios-nrpe-server
+statpuprespup && stat puppet
+respup && stat puppet
+resnr
+resnag
+respup
+statpup
+sudo nagios3 -v /etc/nagios3/nagios.cfg
+statnag
+respup
+statpup
+sudo systemctl restart nagios-nrpe-server
+sudo systemctl status nagios-nrpe-server
+mod
+cd /etc/nagios
+ls
+sudo nano nrpe.cfg 
+sudo systemctl restart nagios-nrpe-server
+sudo systemctl status nagios-nrpe-server
+sudo vi ~/.bashrc
+sudo puppet cert list --all
+sudo systemctl status nagios-nrpe-server
+sudo systemctl status nagios
+sudo systemctl status nagios3
+sudo systemctl status puppet
+sudo systemctl status nagios-nrpe-server
+sudo systemctl status puppet
+sudo systemctl status nagios-nrpe-server
+sudo -i
+respup
+sudo puppet cert --sign -all
+respup
+statpup
+respup
+statpup
+cd /etc
+ls
+respup
+ls
+sudo puppetd --test
+sudo puppetca --list
+ls
+respup 
+ls
+cd nagios
+ls
+cd ..
+ls
+/usr/sbin/nrpe -c /etc/nagios/nrpe.cfg -f
+ls
+respup
+ls
+sudo systemctl status nagios-nrpe-server
+sudo systemctl restart nagios-nrpe-server
+sudo systemctl status nagios-nrpe-server
+sudo systemctl restart nagios-nrpe-server
+sudo systemctl status nagios-nrpe-server
+:q
+ls
+sudo vim na
+cd nagios
+ls
+vim nrpe.cfg 
+ls
+ls -l
+asudo systemctl status nagios-nrpe-server
+sudo systemctl status nagios-nrpe-server
+cd /etc/nagios
+ls
+vim nrpe.cfg 
+ls
+res pup
+respup
+ls
+cd ..
+ls
+respup
+ls
+cd nagios
+ls
+vim nrpe.cfg 
+puppet agent --test --server=puppetmaster.domain.com
+telnet puppetmaster 8140
+statpup
+statnr
+cd ~/OE2-Group-Project && git pull
+sudo vi ~/.bashrc
+source ~/.bashrc
+statnr
+statpup
+puppet cert sign -all
+statpup
+sudo puppet cert sign -all
+statpup
+sudo puppet cert
+sudo puppet cert --allow-dns-alt-names:mgmt-b.foo.org.nz
+sudo puppet cert --allow-dns-alt-names=mgmt-b.foo.org.nz
+sudo puppet cert --digest mgmt-b.foo.org.nz
+sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetime
+puppet cert clean -all
+statpup
+respup
+statpup\
+sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetime
+statpup
+respup && stat puppet
+statpup
+sudo rm -rf /etc/puppetlabs/puppet/ssl
+sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetime
+sudo rm -rf /etc/puppetlabs/puppet/ssl
+sudo puppet cert clean 
+sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetime
+respup
+statpup
+resnr
+statnr
+sudo vi ~/.bashrc
+source ~/.bashrc
+resnr
+statnr
+puppet cert sign -all
+statpup
+cd ~/OE2-Group-Project && git pull
+sudo systemctl status mysql
+sudo systemctl restart mysql
+sudo systemctl status mysql
+dbudb
+cd ~/OE2-Group-Project && git pull
+statpup
+puppet cert sign -all
+puppet agent --test
+netstat -ntlp
+ls
+sudi -i
+sudo -i
+puppet agent -t
+respup
+statpup
+puppet agent -t
+sudo -i
+respup
+puppet agent -t
+pupstat
+statpup
+sudo puppet cert --sign -all
+respup
+statpup
+:q
+netstat -ntlp
+puppet agent -t
+ping mgmt-b.foo.org.nz
+ping puppet
+nc -v puppet 8140
+lsof -i :8140
+mtr puppet
+sudo vim /etc/puppet/puppet.conf
+respup
+sudo puppet agent -t
+puppet agent -t
+sudo puppet agent -t
+sudo puppet cert clean -all
+sudo -i
+respup
+sudo puppet cert --sign -all
+sudo puppet agent -t
+sudo puppet cert -list -all
+sudo puppet cert --list -all
+puppet agent -t
+netstat -tap
+sudo netstat -tap
+sudo -i
+respup
+puppet agent -t
+sudo puppet agent -t
+sudo vim /etc/hosts
+sudo puppet agent -t
+sudo puppet cert sign -all
+sudo puppet agent -t
+sudo -i
+respup
+sudo puppet agent -t
+puppet agent -t
+nc -v puppet 8140
+sudo -i
+respup
+puppet agent -t
+sudo -i
+respup
+sudo puppet cert list -all
+sudo puppet cert --sign -all
+puppet agent -t
+sudo vim /etc/host
+sudo vim /etc/hosts
+puppet agent -t
+sudo  netstat -a | grep 8140
+nc -v puppet 8140
+sudo systemctl status nagios-nrpe-server.service 
+sudo -i
+sudo vim /etc/host
+sudo vim /etc/hosts
+cd /etc/
+sudo vim puppet/
+sudo vim puppet/puppet.conf 
+respup
+sudo puppet cert --sign -all
+respup
+sudo puppet cert --sign -all
+sudo -i
+respup
+sudo puppet cert --sign -all
+puppet agent -t
+respup
+puppet agent -t
+respup
+ls
+statpup
+sudo systemctl restart nagios-nrpe-server
+respup
+statpup
+sudo systemctl restart nagios-nrpe-server.service
+ls
+cd nagios-plugins/
+ls
+cd config/
+ls
+sudo vim check_nrpe.cfg 
+respup
+ls
+cd /etc
+ls
+clear
+ls
+puppet agent -t
+respup
+puppet agent -t
+telnet mgmt-b.foo.org.nz
+sudo telnet mgmt-b.foo.org.nz
+puppet cert list
+puppet agent --configprint server 
+date
+sudo telnet mgmt-b.foo.org.nz
+puppet agent --test
+vim /etc/puppet/puppet.conf
+sudo agent -t
+puppet agent --test
+sudo puppet agent --test
+respup
+sudo puppet agent --test
+sudo -i
+respup
+sudo puppet cert --sign -all
+sudo puppet agent --test
+respup
+sudo puppet agent --test
+telnet mgmt-b.foo.org.nz
+clear
+cd /etc
+respup
+ls
+respup
+ls
+sudo vim /etc/puppet/puppet.conf
+sudo -i
+sudo puppet agent --test
+respup
+statpup
+ls
+respup
+ls
+respup
+ls
+sudo puppet agent -t 
+sudo vim /etc/puppet/puppet.conf
+ls
+sudo puppet agent -t
+respup
+cd /etc
+ls
+cd /etc
+ls
+cd nagios
+ls
+mod
+respup
+ls
+vim nrpe.cfg 
+respup
+vim nrpe.cfg 
+respup
+vim nrpe.cfg 
+respup
+ls
+vim nrpe.cfg 
+respup
+vim nrpe.cfg 
+site
+ls
+cd ..
+ls
+sudo rm -r test1
+sudo rm -r test2
+respup
+ls
+sudo rm -r test1
+ls
+respup
+ls
+cd nagios
+ls
+vim nrpe.cfg
+respup
+vim nrpe.cfg
+ls
+vim nrpe.cfg 
+respup
+ls
+vim nrpe.cfg 
+respup
+vim nrpe.cfg 
+respup
+vim nrpe.cfg 
+resnr
+ls
+vim nrpe.cfg 
+resnag
+sudo systemctl restart nagios-nrpe-server.service 
+resnag
+sudo systemctl restart nagios-nrpe-server.service 
+ls
+vim nrpe.cfg 
+respup
+vim nrpe.cfg 
+respup
+vim nrpe.cfg 
+sudo systemctl restart nagios-nrpe-server.service 
+ls
+vim nrpe.cfg 
+resnr
+statpup
+sudo reboot
+statpup
 budb
