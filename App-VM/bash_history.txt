@@ -995,3 +995,43 @@ ls
 sudo touch .gitinclude
 cd ~
 buapp
+cd /etc/puppet
+ls
+cd code/
+ls
+sudo touch .gitinclude
+cd ~
+buapp
+git add .
+git commit -m "app-b: updated app-b backup" -m "app-b"
+git push
+exit
+cd ~/OE2-Group-Project/
+cd Scripts/app
+cd /Scripts/app
+cd Scripts/
+ls
+cd ..
+sudo git pull
+cd Scripts/
+cd app
+ls -la
+sudo chmod u+x backup.sh 
+ls -la
+cd ..
+la -la
+crontab -e
+git pull
+exit
+cd ~/OE2-Group-Project/
+cd Scripts/
+cd app/
+ls -la
+sudo chgrp bitstudent backup.sh 
+sudo chown bitstudent backup.sh 
+ls -la
+sudo chmod g+wx backup.sh 
+ls -la
+sudo chmod o+wx backup.sh 
+ls -la
+exit
