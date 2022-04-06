@@ -680,3 +680,25 @@ sudo nano crontab.txt
 ls -la
 cd ~
 exit
+cd ~/OE2-Group-Project/
+git pull
+sudo git pull
+sudo vi ~/.bashrc
+source ~/.bashrc
+git pull
+crontab -e
+cd Scripts/
+cd backup/
+ls -la
+cd /etc
+ls -al
+cd sudoers.d/
+sudo cd sudoers.d/
+cd ~/OE2-Group-Project/
+git status
+exit
+cd ~/OE2-Group-Project/
+cd Scripts/
+cd mgmt/
+ls -la
+exit
