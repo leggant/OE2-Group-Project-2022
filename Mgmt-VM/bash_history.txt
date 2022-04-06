@@ -1,25 +1,3 @@
-cd nagios3/
-ls
-cd conf.d/
-ls
-vim ppt_services.cfg 
-sudo vim ppt_services.cfg 
-agentupdate 
-statpup
-nag'
-nag
-ls
-cd manifests/
-ls
-sudo vim config.pp
-agentupdate 
-statpup
-ls
-sudo vim service.pp 
-agentupdate 
-statpup
-resmas
-statpup
 sudo vim service.pp 
 agentupdate 
 statpup
@@ -1998,3 +1976,25 @@ nag
 cd manifests/
 ls
 vim config.pp 
+cd ~/OE2-Group-Project/
+ls
+git pull
+sudo git pull
+cd Scripts/
+ls
+cd mgmt/
+ls
+ls -la
+cd ..
+ls
+cd ..
+ls
+crontab -e
+exit
+git pull
+cd ~/OE2-Group-Project/
+git pull
+cd Scripts/mgmt
+ls -al
+sudo vi ~/.bashrc
+exit
