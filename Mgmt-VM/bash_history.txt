@@ -1,145 +1,3 @@
-cd manifests/
-ls
-cat config.pp 
-cd ..
-ls
-cd ..
-ls
-cd nrpe
-ls
-cd manifests/
-ls
-vim config.pp 
-ls
-vim service.pp 
-ls
-vim service.pp 
-vim /etc/nagios3/conf.d/ppt_services.cfg"
-:Q
-vim /etc/nagios3/conf.d/ppt_services.cfg
-/usr/local/nagios/libexec/check_nrpe -H localhost -c check_users
-/usr/local/nagios/libexec/check_nrpe -H localhost 
-/usr/local/nagios/libexec/check_nrpe -H localhost l
-ls
-cd /etc/nagios
-la
-vim nrpe.cfg 
-site
-vim nrpe.cfg 
-sudo vim nrpe.cfg 
-cd /etc/nagios/
-ls
-mod
-ls
-cd ntp_service/
-ls
-cd manifests/
-ls
-vim init.pp 
-ls
-cd nrpe
-cd ..
-ls
-cd .
-cd ..
-l
-cd nrpe/
-ls
-cd manifests/
-ls
-sudo vim service.pp 
-sudo vim config.pp 
-agentupdate
-sudo vim config.pp 
-agentupdate
-resmas
-statmas
-ls
-vim config.pp 
-statmas
-agentupdate 
-ls
-vim config.pp 
-vim init.pp 
-ls
-vim service.pp 
-site
-vim service.pp 
-ls
-cd ..
-ls
-cd ..
-ls
-cd nagios/
-ls
-cd manifests/
-ls
-vim nagios.pl 
-vim config.pp 
-ls
-cd ..
-ls
-cd ..
-ls
-cd nrpe/
-ls
-cd files/
-ls
-vim nrpe.cfg 
-cd .
-ls
-cd ..
-ls 
-cd manifests/
-ls
-vim config.pp 
-sudo vim config.pp 
-site
-ls
-vim config.pp 
-vim install.pp 
-vim config.pp 
-sudo vim config.pp 
-ls
-vim config.pp 
-sudo vim config.pp 
-respup
-resmas
-
-ls
-cd ..
-ls
-pwd
-cd manifests/
-ls
-vim config.pp 
-vim install.pp 
-vim config.pp 
-agentupdate 
-respup
-resnag
-sudo systemctl status nagios-nrpe-server
-ls
-sudo systemctl status nagios-nrpe-server
-agentupdate 
-resmas
-resnag
-site
-agentupdate 
-resmas
-statpup
-site
-resmas
-agentupdate 
-statpup
-agentupdate 
-respup
-statpup
-sudo nagios3 -v /etc/nagios3/nagios.cfg
-statpup
-sudo vim /etc/nagios3/conf.d/ppt_services.cfg
-mod
-ls
 cd nrpe/
 ls
 cd manifests/
@@ -1998,3 +1856,145 @@ sudo puppet sudo puppet cert list -allcert list
 sudo puppet cert list -all
 sudo puppet cert list
 statpup
+ls
+cd /etc
+ls
+cd nagios
+ls
+mod
+ls
+cd nrpe/
+ls
+cd manifests/
+ls
+sudo vim cpn
+sudo vim config.pp 
+ls
+cd /etc
+cd nagios
+ls
+sudo vim nrpe.cfg 
+agentupdate 
+ls
+mod
+cd nrpe/
+ls
+cd manifests/
+ls
+sudo vim config.pp 
+cd c..
+cd .
+cd ..
+ls
+cd files/
+ls
+agentupdate 
+ls
+sudo vim nrpe.cfg 
+agentupdate 
+site
+ls
+cd /etc/nagios
+agentupdate 
+ls
+vim nrpe.cfg 
+nag
+ls
+cd manifests/
+ls
+sudo vim config.pp 
+mod
+cd nrpe/
+ls
+cd manifests/
+ls
+vim service.pp 
+sudo vim config.pp 
+agentupdate 
+respup
+resnr
+statpup
+ls
+mod
+ls
+sudo mkdir nrpe_nagios
+ls
+cd nrpe_nagios/
+nag
+ks
+ls
+cd..
+cd ..
+ls
+cd nrpe_nagios/
+ls
+sudo mkdir manifests
+ls
+cd manifests/
+ls
+sudo touch init.pp
+sudo touch config.pp
+sudo vim config.pp 
+mod
+nrpe
+cd nrpe
+ls
+cd manifests/
+vim config.pp 
+ls
+mod
+cd nrpe_nagios/
+ls
+cd manifests/
+ls
+sudo vim config.pp 
+sudo vim init.pp 
+nag
+ls
+cd manifests/
+vim init.pp 
+cd nrpe
+ls
+cd ..
+mod
+cd nrpe
+ls
+cd manifests/
+ls
+sudo vim config.pp 
+agentupdate 
+site
+agentupdate 
+ls
+cd ..
+ls
+cd ..
+cd nrpe_nagios/
+ls
+cd manifests/
+ls
+vim config.pp 
+site
+cd 
+cd mod
+mo
+ls
+mod
+ls
+cd nrpe
+ls
+cd files/
+ls
+sudo vim nrpe.cfg 
+agentupdate 
+resnr
+resnag
+resnr
+sudo systemctl status nagios-nrpe-server.service 
+sudo systemctl restart nagios-nrpe-server.service 
+sudo vim nrpe.cfg 
+agentupdate 
+sudo systemctl restart nagios-nrpe-server.service 
+respup
+sudo systemctl restart nagios-nrpe-server.service 
+resnag
