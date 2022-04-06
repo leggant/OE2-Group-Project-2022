@@ -368,3 +368,589 @@ ls
 sudo vi ~/.bashrc
 source ~/.bashrc
 buapp
+sudo vi ~/.bashrc
+source ~/.bashrc
+buapp
+sudo mv /App-VM/bashrc.txt /App-VM/bashrc
+ls
+cd App-VM/
+ls
+mv bashrc.txt bashrc
+ls
+mv hosts.txt hosts
+ls
+sudo vi ~/.bashrc
+source ~/.bashrc
+buapp
+ls
+git add .
+git commit -m "app: backup nagios install files"
+git push
+exit
+statpup
+respup
+statpup
+statpup:q
+statpup
+sudo systemctl status nagios-nrpe-server
+sudo systemctl restart nagios-nrpe-server
+sudo systemctl status nagios-nrpe-server
+sudo systemctl start nagios-nrpe-server
+sudo systemctl status nagios-nrpe-server
+sudo systemctl restart nagios-nrpe-server
+repup
+respup
+sudo nano /etc/default/puppet
+cd /etc/default/
+ls
+exit
+statpup
+respup
+statpup
+respup
+statpup
+respup
+statpup
+respup
+statpup
+respup
+statpup
+respup
+statpup
+respup
+statpup
+sudo service puppet stop
+sudo service puppet status
+sudo service puppet start
+sudo service puppet status
+respup
+sudo service puppet status
+statpup
+cd /etc/puppet/
+ls
+cd /etc/default
+ls
+cd ~
+puppet resource service puppet ensure=running enable=true
+respup
+statpup
+sudo -i
+sudo systemctl disable mask puppet
+respup
+statpup
+puppet resource service puppet ensure=running enable=true
+sudo puppet resource service puppet ensure=running enable=true
+sudo systemctl stop puppet
+statpup
+respup
+sudo systemctl stop puppet
+statpup
+sudo systemctl stop puppet
+statpup
+exit
+statpup
+respup
+statpup
+respup
+statpup
+respup
+statpup
+respup
+statpup
+respup
+statpup
+resmas
+respup
+statpup
+sudo systemctl stop puppet
+statpup
+exit
+statpup
+respup
+statpup
+sudo service stop puppet
+systemctl list-units --type=service | grep puppet
+sudo service stop puppet.service
+sudo service puppet.service stop
+sudo service puppet stop
+sudo service puppet status
+exit
+statpup
+sudo systemctl stop puppetsystemctl 
+systemctl 
+sudo service puppet status
+sudo service puppet start
+sudo service puppet status
+sudo service puppet stop
+sudo service puppet status
+sudo service puppet start
+sudo service puppet status
+respup
+statpup
+sudo puppet agent --disable
+statpup
+sudo puppet agent --disable "test mgmt restart"
+statpup
+sudo systemctl stop puppet
+statpup
+sudo puppet agent --disable "test mgmt restart"
+statpup
+respup
+sudo puppet agent --stop
+sudo puppet agent --disable "test mgmt restart"
+statpup
+sudo puppet agent --disable "test mgmt restart"
+statpup
+sudo systemctl stop puppet
+sudo puppet agent --disable "test mgmt restart"
+statpup
+exit
+sudo puppet agent
+statpup
+sudo puppet agent --enable
+statpup
+respup
+statpup
+sudo systemctl disable puppet
+statpup
+sudo systemctl disable puppet
+statpup
+sudo systemctl stop puppet
+statpup
+sudo systemctl start puppet
+statpup
+sudo systemctl stop puppet
+statpup
+sudo systemctl start puppet
+sudo service puppet stop
+statpup
+respup
+statpup
+sudo reboot
+statpup
+statmas
+statpup
+respup
+statpup
+resmas
+respup
+statpup
+sudo reboot
+statpup
+respup
+statpup
+sudo reboot
+statpup
+buapp
+buapp
+exit
+buapp
+buapp
+respup
+statpup
+sudo systemctl restart nagios-nrpe-server
+sudo systemctl status nagios-nrpe-server
+sudo systemctl restart nagios-nrpe-server
+sudo systemctl status nagios-nrpe-server
+respup
+sudo systemctl status nagios-nrpe-server
+respup
+statpup
+sudo systemctl status nagios-nrpe-server
+cd /etc/nagios
+sudo nanon nrpe.cfg 
+sudo nano nrpe.cfg 
+respup
+cd /etc/nagios
+sudo nano nrpe.cfg 
+sudo systemctl status nagios-nrpe-server
+respup
+sudo systemctl restart nagios-nrpe-server
+sudo systemctl status nagios-nrpe-server
+respup
+statpup
+sudo systemctl status nagios-nrpe-server
+statpup
+/usr/lib/nagios/plugins/check_disk -w 10% -c 99% -p /dev/sda1
+sudo systemctl restart nagios-nrpe-server
+sudo systemctl restart puppet
+ls
+sudo vi nrpe.cfg 
+sudo systemctl restart puppet
+sudo vi nrpe.cfg 
+sudo systemctl restart nagios-nrpe-server
+sudo vi nrpe.cfg 
+respup
+statpup
+sudo vi nrpe.cfg 
+respup
+sudo vi nrpe.cfg 
+exit
+sudo vi nrpe.cfg 
+sudo systemctl restart nagios-nrpe-server
+cd /etc/nagios
+ls
+sudo vi nrpe.cfg 
+respup
+sudo vi nrpe.cfg 
+ls -al
+respup
+ls -al
+sudo systemctl restart nagios-nrpe-server
+ls -al
+sudo systemctl restart nagios-nrpe-server
+respup
+sudo systemctl restart nagios-nrpe-server
+ls -al
+respup
+sudo systemctl restart nagios-nrpe-server
+ls -al
+respup
+ls -al
+respup
+sudo vi nrpe.cfg 
+sudo reboot
+sudo vi nrpe.cfg 
+cd /etc/nagios
+ls
+ls -al
+sudo vi nrpe.cfg 
+sudo systemctl restart nagios-nrpe-server
+respup
+sudo vi nrpe.cfg 
+sudo rm nrpe.cfg
+respup
+ls -al
+statpup
+ls -al
+respup
+statpup
+ls -al
+respup
+statpup
+ls -al
+respup
+statpup
+ls -al
+stop nag
+sudo systemctl stop nagios3
+sudo systemctl stop nagios
+ls -al
+sudo systemctl stop nagios-nrpe-server
+sudo systemctl start nagios-nrpe-server
+sudo systemctl status nagios-nrpe-server
+sudo systemctl restart nagios-nrpe-server
+sudo systemctl status nagios-nrpe-server
+sudo nagios3 -v /etc/nagios3/nagios.cfg
+ls -al
+sudo systemctl restart nagios-nrpe-server
+respup
+ls -al
+sudo systemctl restart nagios-nrpe-server
+ls -al
+sudo systemctl restart nagios-nrpe-server
+ls -al
+respup
+ls -al
+respup
+ls -al
+respup
+sudo systemctl restart nagios-nrpe-server
+ls -al
+logout
+ls -al
+cd /etc/
+ls
+cd nagios-plugins/
+ls
+cd config/
+ls
+sudo nano check_nrpe.cfg 
+cd ../..
+ls
+cd /nagios
+ls
+cd nagios
+;s
+ls
+sudo vi nrpe.cfg 
+ls
+cd /etc/nagios
+ls
+respup
+sudo systemctl status puppet
+ls
+sudo systemctl status puppet
+respup
+sudo systemctl status puppet
+ls
+res
+respup
+ls
+cd ..
+ls
+cd nagios
+ls
+vim nrpe_local.cfg 
+ls
+respup
+ls
+statpup
+respup
+statpup
+cd /etc/nagios
+ls
+sudo touch nrpe.cfg
+respup
+statpup
+ls
+sudo nanp nrpe.cfg 
+sudo nano nrpe.cfg 
+ls -al
+res nrpe
+res nagios
+respup
+statpup
+sudo vi ~/.bashrc
+sr
+resnr
+sudo systemctl restart nagios-nrpe-server
+sudo systemctl status nagios-nrpe-server
+sudo systemctl restart nagios-nrpe-server
+sudo systemctl status nagios-nrpe-server
+respup
+sudo systemctl status nagios-nrpe-server
+cd /etc/nagios
+sudo nano nrpe.cfg 
+sudo systemctl restart nagios-nrpe-server
+sudo systemctl status nagios-nrpe-server
+ls
+ls -al
+respup
+statpup
+ls -al
+sudo systemctl restart nagios-nrpe-server
+sudo systemctl status nagios-nrpe-server
+ls -al
+exit
+sudo systemctl status nagios-nrpe-server
+cd /etc/nagios
+ls
+sudo nano nrpe.cfg 
+sudo systemctl status nagios-nrpe-server
+puppet agent --test puppet agent --test 
+puppet agent --test 
+sudo -i
+respup
+agentupdate
+puppet agent --test 
+exit
+sudo puppet cert --list --all
+sudo puppet cert sign  --all
+sudo puppet cert --sign --all
+sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetime
+sudo puppet cert --sign --all
+sudo puppet agent --server=mgmt-x.foo.org.nz --no-daemonize --verbose --onetime
+sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetime
+clear
+sudo puppet cert –sign –all
+sudo puppet cert -–sign –all
+sudo puppet cert --sign –all
+sudo puppet cert -sign -–all
+sudo puppet cert -sign --all
+sudo puppet cert --sign --all
+sudo puppet cert list -all
+sudo puppet cert --sign -all
+sudo -i
+respup
+sudo puppet cert --sign -all
+respup
+statpup
+sudo -i
+respup
+sudo puppet cert --sign -all
+respup
+statpup
+respup
+statpup
+ls
+cd /etc/nagios
+ls
+vim nrpe.cfg 
+respup
+ls
+vim nrpe.cfg 
+:q
+ls
+cd ..
+ls
+cd nagios
+ls
+sudo vim nrpe
+sudo vim nrpe.cfg 
+ls
+cd ..
+ls
+cd nagios
+ls
+vim nrpe
+vim nrpe.cfg 
+ls
+respup
+vim nrpe.cfg 
+cd ..
+ls
+cd nagios
+ls
+vim nrpe.cfg 
+respup 
+ls
+vim nrpe.cfg 
+site
+ls
+respup
+ls
+cd ..
+ls
+cd nagios
+ls
+cd ..
+ls
+respup 
+ls
+respup
+ls
+cd nagios
+l
+ls
+cd nrpe.d/
+ls
+cd ..
+ls
+cd ..
+respup
+ls
+cd nagios
+ls
+respup
+ls
+cd ..
+ls
+cd nagios-plugins/
+ls
+cd config/
+ls
+statpup
+sudo puppet sign -all
+sudo puppet cert sign -all
+statpup
+sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetime
+sudo puppet cert clean -all
+sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetime
+statpup
+sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetime
+puppet cert sign -all
+statpup
+respup
+statpup
+statnr
+cd ~/OE2-Group-Project && git pull
+buapp
+statpup
+sudo puppet sign -all
+sudo puppet cert sign -all
+statpup
+sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetime
+sudo puppet cert clean -all
+sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetime
+statpup
+sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetime
+puppet cert sign -all
+statpup
+respup
+statpup
+statnr
+cd ~/OE2-Group-Project && git pull
+buapp
+cd /etc
+ls
+sudo vi ~/.bashrc
+source ~/.bashrc
+statnr
+cd nagios/
+ls
+sudo nano nrpe.cfg 
+statnr
+resnr
+statnr
+statpup
+puppet cert sign -all
+statpup
+respup
+statpup
+statnag
+statnr
+statnag
+statpup
+sudo -i
+puppet agent -t
+respup
+puppet agent -t
+sudo -i
+respup
+sudo puppet cert sign -all
+nc -v puppet 8140
+sudo systemctl status nagios-nrpe-server.service 
+sudo -i
+sudo puppet cert sign -all
+respup
+sudo vim /etc/puppet/puppet.conf
+sudo systemctl restart nagios-nrpe-server
+sudo systemctl status nagios-nrpe-server
+cd /etc/nagios
+ls
+sudo vim nrpe.cfg 
+respup
+resnat
+sudo systemctl restart nagios-nrpe-server.service 
+sudo vim nrpe.cfg 
+ls
+cd ..
+ls
+mod
+sudo vim nrpe.cfg 
+ls
+cd nagios
+ls
+sudo vim nrpe.cfg 
+sudo systemctl restart nagios-nrpe-server.service 
+respup
+sudo systemctl restart nagios-nrpe-server.service 
+vim /etc/puppet/puppet.conf
+sudo vim /etc/puppet/puppet.conf
+respup 
+statpup
+agent puppet -t
+puppet agent -t
+sudo puppet agent -t
+puppet agent -t
+ls
+sudo vim /etc/puppet/puppet.conf
+sudo puppet cert --sign -all
+puppet agent -t
+sudo vim /etc/puppet/puppet.conf
+cd ..
+ls
+cd ..
+ls
+cd /home/
+l
+sudo -i
+puppet agent -t
+sudo puppet agent -t
+date
+sudo puppet agent -t
+statpup
+respup
+statpup
+buapp
