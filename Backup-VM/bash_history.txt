@@ -641,3 +641,42 @@ ls
 sudo vi ~/.bashrc
 source ~/.bashrc
 bubup
+bubup
+cd /etc
+ls
+cd puppet/
+ls
+sudo vi ~/.bashrc
+source ~/.bashrc
+bubup
+cd Backup-VM/
+ls
+cd puppet/
+ls
+cd code/
+ls
+sudo touch .gitinclude
+cd ../../../
+ls
+git status
+git add .
+git commit -m "backup-b: backup of backup vm" -m "backup-b"
+git push
+exit
+crontab -e
+cd /etc
+ls
+cd ~/OE2-Group-Project/Scripts/backup/
+ls -la
+sudo chmod u+x backup.sh 
+ls -la
+sudo vim backup.sh 
+ls -la
+sudo vim backup.sh cd ~
+cd ~
+ls -la
+cd ~/OE2-Group-Project/Backup-VM/
+sudo nano crontab.txt
+ls -la
+cd ~
+exit
