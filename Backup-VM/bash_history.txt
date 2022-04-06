@@ -582,3 +582,62 @@ ls
 cd ~/OE2-Group-Project && git pull
 sudo vi ~/.bashrc
 bubup
+puppet cert
+puppet cert list
+sudo puppet cert list
+sudo puppet cert list -all
+sudo puppet cert generate 
+sudo /var/lib/puppet/ssl -name backup-b.foo.org.nz.pem -delete
+puppet cert sign -all
+puppet cert list -all
+sudo puppet cert list -all
+statpup
+respup
+statpup
+statnr
+statnag
+sudo vi ~/.bashrc
+source ~/.bashrc
+statnr
+cd /etc
+ls
+sudo vi ~/.bashrc
+sudo nagios3 -v /etc/nagios3/nagios.cfg
+sudo nagios -v /etc/nagios/nagios.cfg
+cd puppet/
+ls
+cd code/
+ls
+cd ..
+cd //
+cd ~
+ls
+cd ~/OE2-Group-Project && git pull
+sudo vi ~/.bashrc
+bubup
+git add .
+git com "backup-b: updated backup of backup vm" -m "backup-b"
+git commit "backup-b: updated backup of backup vm" -m "backup-b"
+git commit -m  "backup-b: updated backup of backup vm" -m "backup-b"
+git push
+statnr
+exit
+respup
+sudo puppet agent -t
+/etc
+ls
+cd /etc
+ls
+,s
+ls
+respup
+ls
+statpup
+bubup
+cd /etc
+ls
+cd puppet/
+ls
+sudo vi ~/.bashrc
+source ~/.bashrc
+bubup
