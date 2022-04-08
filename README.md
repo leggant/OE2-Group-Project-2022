@@ -2,7 +2,7 @@
 
 # OE2-Group-Project
 
-## VM Setup
+## VM Aliases 
 
 To add an alias, run `sudo vi ~/.bashrc` at the end of the file under `# Custom Aliases` add `alias name='commands'` save and close. Then, run `sudo source=~/bashrc`
 
