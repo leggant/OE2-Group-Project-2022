@@ -1,11 +1,3 @@
-sudo vim /etc/nagios3/nagios.cfg
-sudo vim /etc/nagios3/conf.d/ppt_services.cfg
-cd  /etc/nagios3/conf.d/
-ls
-sudo rm ppt_services.cfg 
-agentupdate 
-ls
-statpup
 ls
 nag
 ls
@@ -1997,4 +1989,12 @@ statnr
 statnag
 statpup
 statmas
+exit
+mod
+ls
+sudo mkdir owncloud
+cd owncloud
+sudo mkdir files
+sudo mkdir manifests
+cd manifests/
 exit
