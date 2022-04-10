@@ -1,12 +1,3 @@
-ls
-nag
-ls
-cd files/
-ls
-vim htpasswd.users 
-vim nagios.cfg 
-cd ..
-ls
 cd manifests/
 ls
 vim service.pp 
@@ -1998,3 +1989,12 @@ sudo mkdir files
 sudo mkdir manifests
 cd manifests/
 exit
+site
+mod
+ls
+cd mariadb/
+ls
+cd manifests/
+ls
+vim config.pp 
+ls
