@@ -9,7 +9,7 @@ class mariadb::config {
       notify => Class['mariadb::service'],
 	}
 	exec { 'create-owncloud-db': 
-		command => 'sudo mysql --user=root --password=P@ssw0rd -e "Create database if not exists testdb;GRANT ALL ON testdb.* to 'testdb'@'app-b.foo.org.nz' IDENTIFIED BY 'P@ssw0rd';"',
+		command => 'sudo mysql --user=root --password=P@ssw0rd -e "Create database if not exists testdb;"',
 		provider => 'shell',
 	}
 }
