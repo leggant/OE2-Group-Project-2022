@@ -1039,3 +1039,127 @@ statpup
 statnr
 statnag
 exit
+php -v
+sudo mysql -u owncloud -h db-b.foo.org.nz -p
+sudo apt install mysql-client
+sudo mysql -u owncloud -h db-b.foo.org.nz -p
+sudo apt install mysql-server
+sudo add-apt-repository ppa:ondrej/php
+sudo apt-get update
+sudo apt install php7.3 libapache2-mod-php7.3 php7.3-common
+php -v
+sudo apt install php7.3 libapache2-mod-php7.3 php7.3-common
+sudo apt install php7.3-mbstring php7.3-xmlrpc php7.3-soap php7.3-apcu
+sudo apt install  php7.3-
+sudo apt install php7.3-
+sudo apt install php7.3-smbclinent php7.3-ldap php7.3-redis php7.3-gd php7.3-xml
+sudo apt install php7.3-smbclient php7.3-ldap php7.3-redis php7.3-gd php7.3-xml
+sudo apt install php7.3-intl php7.3-json php7.3-imagick php7.3-zip php7.3-mysql
+sudo apt install php7.3-intl php7.3-json php7.3-imagick php7.3-zip php7.3-mysql php7.3-curl
+php -v
+sudo apt install apache2
+sudo ufw app list
+sudo ufw app info "Apache Full"
+Restart apache
+sudo systemctl restart apache
+sudo systemctl restart apache2
+sudo systemctl status apache2
+echo 'deb
+http://download.opensuse.org/repositories/isv:/ownCloud:/serve
+r:/10/Ubuntu_18.04/ /' | sudo tee
+/etc/apt/sources.list.d/isv:ownCloud:server:10.list
+echo 'deb
+http://download.opensuse.org/repositories/isv:/ownCloud:/serve
+r:/10/Ubuntu_18.04/ /' | sudo tee
+echo 'deb
+http://download.opensuse.org/repositories/isv:/ownCloud:/server:/10/ubuntu_18.4/ /' | sudo tee /etc/apt/sources.list.d/isv:ownCloud:server:10.list
+echo 'deb
+http://download.opensuse.org/repositories/isv:/ownCloud:/server:/10/ubuntu_18.4/' | sudo tee /etc/apt/sources.list.d/isv:ownCloud:server:10.list
+echo 'deb
+http://download.opensuse.org/repositories/isv:/ownCloud:/server:/10/ubuntu_18.4/ /' | sudo tee /etc/apt/sources.list.d/isv:ownCloud:server:10.list
+echo 'deb http://download.owncloud.org/download/repositories/10.0/Ubuntu_18.04/ /' | sudo tee /etc/apt/sources.list.d/owncloud.list
+cd /etc/apt/sources.list.d/
+ls
+vim owncloud.list 
+curl -fsSL
+https://download.opensuse.org/repositories/isv:ownCloud:server
+:10/Ubuntu_18.04/Release.key | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/isv_ownCloud_server_10.gpg >
+clear
+cd ~
+curl -fsSL https://download.opensuse.org/repositories/isv:ownCloud:server :10/Ubuntu_18.04/Release.key | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/isv_ownCloud_server_10.gpg > /dev/null
+curl -fsSL https://download.opensuse.org/repositories/isv:ownCloud:server :10/Ubuntu_18.04/Release.key | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/isv_ownCloud_server_10.gpg > /dev/null 
+curl -fsSL https://download.opensuse.org/repositories/isv:ownCloud:server:10/Ubuntu_18.04/Release.key | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/isv_ownCloud_server_10.gpg >/dev/null
+sudo apt update
+sudo vim /etc/apt/sources.list.d/isv:ownCloud:server:10.list
+sudo apt update
+sudo vim /etc/apt/sources.list.d/isv:ownCloud:server:10.list
+sudo apt update
+curl -fsSL https://download.opensuse.org/repositories/isv:ownCloud:server:10/Ubuntu_18.04/Release.key | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/isv_ownCloud_server_10.gpg >/dev/null
+sudo vim /etc/apt/sources.list.d/isv:ownCloud:server:10.list
+echo 'deb http://download.opensuse.org/repositories/isv:/ownCloud:/server:/10/Ubuntu_18.04/ /' | sudo tee /etc/apt/sources.list.d/isv:ownCloud:server:10.list
+sudo apt update
+sudo apt install owncloud-complete-files
+sudo vim /etc/apache2/sites-available/owncloud.conf
+sudo sed -i "s#html#owncloud#"/etc/apache2/sites-available/000-default.conf
+sudo sed -i "#html#owncloud#"/etc/apache2/sites-available/000-default.conf
+sudo sed -i "s#html#owncloud#" /etc/apache2/sites-available/000-default.conf
+sudo a2ensite owncloud
+sudo a2enmod dir env headers mime rewrite setenvif
+Restart apache
+sudo systemctl restart apache2
+cd /etc/apache2/sites-enabled/
+ls
+vim 000-default.conf 
+vim owncloud.conf 
+cd /var/www/owncloud/
+ls
+cd etc/
+ls
+cd ..
+sudo systemctl restart apache2
+sudo systemctl status apache2
+sudo a2ensite owncloud
+sudo a2enmod dir env headers mime rewrite setenvif
+sudo systemctl status owncloud
+sudo systemctl status owncloud.service
+sudo ufw app info "Apache Full"
+sudo systemctl status owncloud.service
+sudo systemctl restart apache2
+sudo update-alternatives --config php
+php -v
+sudo systemctl restart apache2
+vim /etc/apache2/sites-available/owncloud.conf
+sudo vim /etc/apache2/sites-available/owncloud.conf
+vim /var/www/owncloud
+cd /var/www/owncloud
+ls
+sudo apt install mysql-server
+sudo systemctl status  mysql-server
+sudo systemctl status  mysql
+sudo systemctl restart mysql
+sudo systemctl status  mysql
+cd /etc/apache2/sites-enabled/
+ls
+sudo vim owncloud.conf 
+vim 000-default.conf 
+sudo apache2ctl configtest
+sudo systemctl reload apache2
+ls
+cd ..
+cd /var/www/owncloud/data
+ls
+sudo ls
+sudo vim avatars
+cd ..
+ls
+cd data/
+sudo cd data/
+sudo -i
+ls
+cd data/
+ls
+cd data/
+sudo cd data/
+ls
+sudo -i
+exit
