@@ -1,184 +1,3 @@
-sudo vim /etc/nagios3/conf.d/ppt_services.cfg
-nag
-cd manifests/
-sudo vim service.pp 
-agentupdate 
-resmas
-statpup
-sudo nagios3 -v /etc/nagios3/nagios.cfg
-ls
-cd /etc/nagios3/
-ls
-cd conf.d/
-ls
-sudo rm ppt_services.cfg 
-agentupdate 
-
-statpup
-agentupdate 
-statpup
-/etc/nagios3/nagios.cfg
-vim /etc/nagios3/nagios.cfg
-site
-agentupdate
-statpup
-agentupdate
-statpup
-ls
-vim ppt_services.cfg 
-ls -la
-:q
-ls
-site
-ls
-agentupdate
-statpup
-nag
-ls
-cd manifests/
-ls
-vim service.pp 
-statnag
-vim service.pp 
-vim config.pp 
-sudo vim config.pp 
-statpup
-ls
-vim config.pp 
-sudo vim config.pp 
-sudo vim init.pp 
-sudo vim install.pp 
-ls
-sudo vim nagios.pl 
-sudo vim service.pp 
-site
-cd /etc/nagios3/conf.d/
-ls
-sudo rm ppt_services.cfg 
-sudo rm ppt_contactgroups.cfg 
-sudo rm ppt_contacts.cfg 
-ls
-agentupdate
-ls
-sudo vim ppt_services.cfg 
-statpup
-ls
-ls la
-ls -la
-vim :q
-ls
-statpup
-ls
-nag
-ls
-cd manifests/
-ls
-sudo vim service.pp 
-ls
-sudo systemctl status puppet
-sudo systemctl stop puppet
-sudo systemctl status puppet
-sudo systemctl restart puppet
-sudo systemctl status puppet
-site
-sudo systemctl status puppet
-site
-agentupdate
-sudo systemctl status puppet
-site
-agentupdate
-resmas
-sudo systemctl status puppet
-/etc/nagios3/nagios.cfg
-vim /etc/nagios3/nagios.cfg
-sudo systemctl nagios-nrpe-server
-sudo systemctl restart nagios-nrpe-server
-sudo systemctl status nagios-nrpe-server
-sudo systemctl status puppet
-cd /etc/nagios3/
-ls
-vim nagios.cfg 
-vim /var/log/nagios3/nagios.debug
-/var/log/nagios3/nagios.debug
-nag
-ls
-cd manifests/
-ls
-vim install.pp 
-cd /etc/nagios3/
-ls
-vim htpasswd.users 
-site
-nag
-ls
-vim files/
-cd manifests/
-ls
-vim config.pp 
-sudo vim config.pp 
-agentupdate 
-sudo vim config.pp 
-ls
-sudo rm nagios.pl 
-ls
-age
-agentupdate 
-vim service.pp 
-agentupdate
-statpup
-agentupdate
-sudo systemctl stop  puppet
-statpup
-agentupdate 
-statpup
-agentupdate 
-ls
-statpup
-ls
-statpup
-nag
-ls
-cd manifests/
-ls
-sudo vim config.pp 
-cd /etc/nagios
-ls
-cd ..
-ls
-cd nagios3/
-ls
-cd conf.d/
-ls
-sudo rm ppt_services.cfg 
-vim hostgroups_nagios2.cfg 
-vim ppt_hostgroups.cfg 
-sudo rm ppt_hostgroups.cfg 
-sudo rm :\:
-sudo rm :
-sudo rm :q
-ls
-vim hostgroups_nagios2.cfg 
-vim services_nagios2.cfg 
-agentupdate 
-statpup
-ls
-vim ppt_services.cfg 
-statpup
-respup
-agentupdate 
-statpup
-ping localhost
-ping backup-b.foo.org.nz
-statpup
-ls
-cd ..
-ls -la
-ls
-nag
-ls
-cd files/
-ls
-ls -la
 ls
 vim nagios.cfg 
 ls
@@ -1998,3 +1817,184 @@ ls
 sudo git pull
 git status
 git pull
+mod
+ls
+cd owncloud
+cd manifests/
+ls
+cd ../..
+ls
+sudo mkdir mysql_client
+cd mysql_client/
+cd ..
+ls
+cd mariadb/manifests/
+ls
+sudo nano install.pp 
+sudo nano config.pp 
+agentupdate
+sudo nano config.pp 
+agentupdate
+sudo nano config.pp 
+agentupdate
+sudo nano config.pp 
+agentupdate
+sudo nano config.pp 
+agentupdate
+sudo nano config.pp 
+agentupdate
+sudo nano config.pp 
+agentupdate
+sudo nano config.pp 
+sudo nano install.pp 
+agentupdate
+sudo nano install.pp 
+sudo nano config.pp 
+sudo nano install.pp 
+sudo nano config.pp 
+sudo nano install.pp 
+sudo nano config.pp 
+agentupdate
+statmas
+resmas
+statmas
+sudo nano config.pp 
+agentupdate
+statmas
+sudo nano install.pp 
+sudo nano config.pp 
+agentupdate
+statmas
+sudo nano config.pp 
+agentupdate
+sudo nano service.pp 
+sudo nano config.pp 
+agentupdate
+sudo nano config.pp 
+agentupdate
+sudo nano config.pp 
+agentupdate
+sudo nano config.pp 
+agentupdate
+sudo nano config.pp 
+sudo nano install.pp 
+sudo nano config.pp 
+agentupdate
+sudo nano install.pp 
+agentupdate
+sudo nano service.pp 
+sudo nano install.pp 
+sudo nano config.pp 
+sudo nano install.pp 
+agentupdate
+sudo nano install.pp 
+sudo nano config.pp 
+agentupdate
+sudo nano config.pp 
+agentupdate
+sudo nano config.pp 
+agentupdate
+sudo nano config.pp 
+agentupdate
+statmas
+resmas
+statmas
+sudo nano config.pp 
+sudo nano install.pp 
+agentupdate
+resmas
+statmas
+sudo nano config.pp 
+agentupdate
+resmas
+statmas
+sudo nano config.pp 
+agentupdate
+resmas
+sudo nano config.pp 
+agentupdate
+resmas
+sudo nano config.pp 
+agentupdate
+sudo nano config.pp 
+agentupdate
+resmas
+sudo nano config.pp 
+agentupdate
+resmas
+sudo nano config.pp 
+agentupdate
+statmas
+resmas
+statmas
+sudo nano config.pp 
+agentupdate
+resmas
+statmas
+sudo nano config.pp 
+agentupdate
+sudo nano config.pp 
+agentupdate
+statmas
+resmas
+statmas
+statpup
+statmas
+sudo nano config.pp 
+agentupdate
+statmas
+sudo nano config.pp 
+agentupdate
+statmas
+resmas
+statmas
+sudo nano config.pp 
+agentupdate
+statmas
+resmas
+statmas
+resmas
+statmas
+agentupdate
+statmas
+sudo nano config.pp 
+agentupdate
+statmas
+sudo nano config.pp 
+agentupdate
+resmas
+statmas
+sudo nano config.pp 
+agentupdate
+statmas
+sudo nano config.pp 
+agentupdate
+statmas
+resmas
+statmas
+sudo nano config.pp 
+statmas
+sudo nano config.pp 
+agentupdate
+resmas
+statmas
+sudo nano config.pp 
+agentupdate
+statmas
+resmas
+statmas
+statpup
+statmas
+agentupdate
+statmas
+sudo nano config.pp 
+agentupdate
+statmas
+resmas
+statmas
+sudo nano config.pp 
+resmas
+agentupdate
+statmas
+sudo nano config.pp 
+statmas
