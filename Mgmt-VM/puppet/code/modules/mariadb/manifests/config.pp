@@ -9,6 +9,6 @@ class mariadb::config {
       notify => Class['mariadb::service'],
 	}
 	exec { 'create-owncloud-db': 
-		command => 'sudo mysql --user=root --password=P@ssw0rd -e "Create database testdb2;"' 
+		command => '/usr/bin/sudo mysql --user=root --password=P@ssw0rd -e "Create database testdb2;"' 
 	} 
 }
