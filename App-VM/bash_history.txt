@@ -1013,3 +1013,21 @@ cd app/
 ls -al
 sudo nano backup.sh 
 exit
+statpup
+stat mysql
+sudo mysql -u testdb -h db-b.foo.org.nz
+sudo mysql -u root -h db-b.foo.org.nz
+respup
+sudo mysql -u root -h db-b.foo.org.nz
+sudo mysql -u testdb -h db-b.foo.org.nz
+sudo mysql -u root -h db-b.foo.org.nz
+respup
+res mysql
+sudo mysql -u root -h db-b.foo.org.nz
+sudo mysql -u root -h -p db-b.foo.org.nz
+sudo mysql -u testdb -h db-b.foo.org.nz
+sudo mysql -u root -h db-b.foo.org.nz -p
+res mysql
+respup
+statpup
+stat mysql
