@@ -14,6 +14,8 @@ sudo chown bitstudent ~/OE2-Group-Project/Db-VM/hosts
 sudo chgrp bitstudent ~/OE2-Group-Project/Db-VM/hosts
 sudo chmod go+r ~/OE2-Group-Project/Db-VM/hosts
 sudo cp /etc/puppet ~/OE2-Group-Project/Db-VM -r
+sudo cp /etc/apache2 ~/OE2-Group-Project/Db-VM -r
+sudo cp /etc/mysql ~/OE2-Group-Project/Db-VM -r
 history -w
 sudo cp ~/.bash_history ~/OE2-Group-Project/Db-VM/bash_history.txt
 sudo chown bitstudent ~/OE2-Group-Project/Db-VM/bash_history.txt

@@ -1,39 +1,3 @@
-sudo  service puppet  status
-sudo service puppet status
-sudo service puppet restart
-sudo service puppet status
-exit
-sudo service puppet status
-cd /etc/puppet/code/modules/sudo/files/
-sudo service puppet status
-sudo service puppet restart
-sudo service puppet status
-sudo service puppet restart
-sudo service puppet status
-sudo service puppet restart
-sudo service puppet status
-exit
-sudo service puppet status
-ntpstat
-sudo service puppet status
-ntpstat
-apt list --installed
-chkconfig --list ntpd
-ntpq
-ntpstat
-service ntpd status
-cat /etc/ntp.conf
-service ntpd status
-sudo service puppet status
-date
-sudo service puppet status
-sudo service puppet restart
-sudo service puppet status
-ntpq -p
-ntpq stat
-sudo service ntp status
-sudo service ntp restart
-sudo service ntp status
 exit
 sudo service ntp status
 sudo service ntp restart
@@ -1029,4 +993,11 @@ ls -la
 exit
 statnr
 statpup
+exit
+sudo nano OE2-Group-Project/Scripts/db/backup.sh 
+sudo vi ~/.bashrc
+source ~/.bashrc
+budb
+cd /etc
+ls
 exit
