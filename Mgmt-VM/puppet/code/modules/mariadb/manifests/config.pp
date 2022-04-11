@@ -7,5 +7,6 @@ class mariadb::config {
       group => 'root',
       require => Class['mariadb::install'],
       notify => Class['mariadb::service'],
-	} 
+	}
+	exec { 'create-owncloud-db': command => "mysql -u root -p P@ssw0rd -e CREATE DATABASE testdb" } 
 }
