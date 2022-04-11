@@ -1,22 +1,3 @@
-exit
-sudo service ntp status
-sudo service ntp restart
-sudo service ntp status
-date
-ntpq -p
-date
-sudo service ntp status
-sudo service ntp restart
-sudo service ntp status
-date
-sudo service ntp status
-sudo reboot
-sudo service puppet start
-sudo service puppet status
-sudo service ntp status
-date
-sudo service puppet status
-sudo service puppet restart
 sudo service puppet status
 mysql
 sudo mysql
@@ -1001,3 +982,35 @@ budb
 cd /etc
 ls
 exit
+budb
+cd ~/OE2-Group-Project/Scripts/db
+ls -al
+sudo nano backup.sh 
+sudo vi ~/.bashrc
+budb
+cd /etc
+ls
+cd apache2/
+ls
+sudo nano backup.sh 
+sudo vi ~/.bashrc
+sudo nano backup.sh 
+cd ~/OE2-Group-Project/Scripts/db
+sudo nano backup.sh 
+budb
+budb
+cd ~/OE2-Group-Project/Scripts/db
+ls -al
+sudo nano backup.sh 
+sudo vi ~/.bashrc
+budb
+cd /etc
+ls
+cd apache2/
+ls
+sudo nano backup.sh 
+sudo vi ~/.bashrc
+sudo nano backup.sh 
+cd ~/OE2-Group-Project/Scripts/db
+sudo nano backup.sh 
+budb
