@@ -4,6 +4,7 @@ class mariadb::install {
               require => User['mysql'],
     }
     package {'mysql-client':
+	require => Exec['create-owncloud-db'],
 	ensure => installed,
     }
     user { 'mysql':
