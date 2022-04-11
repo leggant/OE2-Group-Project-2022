@@ -998,3 +998,18 @@ exit
 sudo vi ~/.bashrc
 source ~/.bashrc
 buapp
+sudo vi ~/.bashrc
+source ~/.bashrc
+buapp
+git add .
+sudo git add .
+git status
+git commit -m "app: backup of apache2" -m "app-b"
+sudo git commit -m "app: backup of apache2" -m "app-b"
+git push
+sudo vi ~/.bashrc
+cd Scripts/
+cd app/
+ls -al
+sudo nano backup.sh 
+exit
