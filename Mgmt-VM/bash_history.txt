@@ -1,9 +1,3 @@
-cd manifests/
-ls
-vim service.pp 
-sudo vim config.pp 
-agentupdate 
-statpup 
 sudo vim /etc/nagios3/conf.d/ppt_services.cfg
 nag
 cd manifests/
@@ -1998,3 +1992,9 @@ cd manifests/
 ls
 vim config.pp 
 ls
+statnag
+cd ~/OE2-Group-Project && sudo git pull
+ls
+sudo git pull
+git status
+git pull
