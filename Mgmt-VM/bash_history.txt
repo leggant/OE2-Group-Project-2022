@@ -998,3 +998,143 @@ sudo nano recovery.sh
 cd ~
 cd ~/OE2-Group-Project && sudo git pull
 bumgmt
+mod
+ls
+cd owncloud/
+cd manifests/
+ls
+mod
+cd mariadb/
+ls
+mod
+cd owncloud/
+mod
+cd mariadb/
+ls
+cd manifests/
+ls
+sudo nano config.pp 
+sudo nano install.pp 
+mod
+ls
+site
+agentupdate
+mod
+ls
+cd mysql_client/
+ls
+cd ..
+sudo rm mysql_client/
+sudo rm mysql_client/ -r
+cd owncloud/
+ls
+cd manifests/
+ls
+cd ..
+ls
+sudo mkdir php
+cd php/
+sudo mkdir manifests
+cd manifests/
+sudo touch init.pp
+sudo touch install.pp
+sudo touch config.pp
+sudo nano install.pp
+sudo nano config.pp
+sudo touch install.pp
+ls
+sudo nano install.pp 
+site
+sudo nano init.pp 
+sudo nano config.pp 
+sudo nano install.pp 
+agentupdate
+sudo vi ~/.bashrc
+sudo nano install.pp 
+agentupdate
+sudo nano install.pp 
+agentupdate
+resmas
+statmas
+sudo nano install.pp 
+sudo nano init.pp 
+agentupdate
+statmas
+resmas
+statmas
+statpup
+statmas
+sudo nano install.pp 
+agentupdate
+resmas
+statmas
+sudo nano install.pp 
+sudo nano config.pp 
+agentupdate
+resmas
+statmas
+sudo nano config.pp 
+agentupdate
+statmas
+resmas
+statmas
+sudo nano config.pp 
+agentupdate
+resmas
+statmas
+resap
+res apache2
+sudo nano config.pp 
+agentupdate
+resmas
+statmas
+sudo nano config.pp 
+agentupdate
+resmas
+statmas
+sudo nano config.pp 
+mod
+cd php
+cd manifests/
+ls
+sudo nano config.pp 
+agentupdate
+site
+agentupdate
+resmas
+statmas
+site
+sudo nano config.pp 
+sudo nano install.pp 
+cd ~/OE2-Group-Project/Scripts/
+ls
+cd mgmt
+ls
+sudo nano recovery.sh
+sudo cp backup.sh recovery.sh
+ls
+sudo nano recovery.sh 
+cd ~
+cd ~/OE2-Group-Project && sudo git pull
+bumgmt
+git add .
+sudo git add .
+sudo git commit -m "mgmt: backup recovery script test" -m "mgmt-b"
+git push
+cd ~/OE2-Group-Project && sudo git pull
+sudo git pull
+cd Scripts/
+cd mgmt/
+cat backup.sh 
+cd ../../Mgmt-VM/
+ls
+cat crontab.txt '
+;
+cat crontab.txt
+ls
+cd ../..
+ls
+cd OE2-Group-Project/
+ls
+git status
+git pull
