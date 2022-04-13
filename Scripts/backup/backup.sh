@@ -3,7 +3,7 @@
 # pull down changes from the remote repo
 
 cd ~/OE2-Group-Project
-sudo git pull
+git pull
 cd ~/
 
 # backup and set permissions on files
