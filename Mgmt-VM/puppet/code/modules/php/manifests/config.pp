@@ -3,8 +3,8 @@ class php::config {
 	#	command => 'sudo add-apt-repository ppa:ondrej/php -y',
 	#	provider => 'shell',
 	#}
-	Exec { 'update':
-		command => '/usr/bin/ sudo apt-get update',
+	exec { 'update':
+		command => '/usr/bin/bash sudo apt-get update',
                 #provider => shell,
 	}
 }
