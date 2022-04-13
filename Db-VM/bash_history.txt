@@ -1298,3 +1298,36 @@ sudo git add .
 sudo git commit -m "db: add owncloud recovery script" -m "db-b"
 git push
 cd ~/OE2-Group-Project && sudo git pull
+/bin/bash OE2-Group-Project/Scripts/db/backup.sh
+cd OE2-Group-Project/
+git status
+ls -al
+git status
+git pull
+sudo git pull
+git status
+cd ..
+ls 
+sudo rm -r OE2-Group-Project/
+ls
+gh repo clone leggant/OE2-Group-Project
+export ghtoken=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
+cd OE2-Group-Project/Scripts/mgmt/
+ls 
+sudo nano github.sh 
+cd ~
+/bin/bash OE2-Group-Project/Scripts/mgmt/github.sh
+cd OE2-Group-Project/Scripts/mgmt/
+ls -al
+sudo dpkg --configure -a
+cd OE2-Group-Project/Scripts/mgmt/
+cd ..
+ls
+cd ..
+ls
+stat mysql
+statpup
+ls
+git status
+cd ..
+/bin/bash OE2-Group-Project/Scripts/mgmt/github.sh
