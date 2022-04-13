@@ -1239,3 +1239,62 @@ statpup
 stat mysql
 sudo mysql -u root -p
 exit
+cd ~/OE2-Group-Project && sudo git pull
+cd Scripts/mgmt/
+ls
+ls -al
+/bin/bash recovery.sh 
+sudo nano recovery.sh 
+/bin/bash recovery.sh 
+sudo nano recovery.sh 
+/bin/bash recovery.sh 
+sudo nano recovery.sh 
+/bin/bash recovery.sh 
+sudo nano recovery.sh 
+/bin/bash recovery.sh 
+sudo nano recovery.sh 
+sudo /bin/bash recovery.sh 
+sudo mysql -u root -p P@ssw0rd
+sudo mysql -u root -p
+sudo nano recovery.sh 
+sudo /bin/bash recovery.sh 
+sudo mysql -u root -p
+sudo nano recovery.sh 
+sudo /bin/bash recovery.sh 
+sudo mysql -u root -p
+sudo nano recovery.sh 
+sudo /bin/bash recovery.sh 
+sudo nano recovery.sh 
+sudo mv recovery.sh ../db/recovery.sh
+ls
+cd ..
+cd db
+ls
+sudo cp recovery.sh ../app/
+cd ../app/
+ls
+sudo nano recovery.sh 
+sudo mv recovery.sh owncloud_recovery.sh
+ls
+sudo nano owncloud_recovery.sh 
+ls
+ls -al
+sudo nano owncloud_recovery.sh 
+/bin/bash owncloud_recovery.sh 
+sudo nano owncloud_recovery.sh 
+/bin/bash owncloud_recovery.sh 
+sudo nano owncloud_recovery.sh 
+/bin/bash owncloud_recovery.sh 
+sudo nano owncloud_recovery.sh 
+sudo update-alternatives /
+sudo update-alternatives /h
+sudo update-alternatives --help
+inst php
+php -v
+cd ../../
+git status
+git add .
+sudo git add .
+sudo git commit -m "db: add owncloud recovery script" -m "db-b"
+git push
+cd ~/OE2-Group-Project && sudo git pull
