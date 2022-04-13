@@ -1,17 +1,22 @@
 #!/bin/sh
 
+sudo apt update
+sudo apt install mysql-client
+sudo mysql --user=root --password=P@ssw0rd -e "create database if not exists testcloud; grant all on testcloud.* to 'testcloud'@'app-b.foo.org.nz' identified by 'P@ssw0rd';flush privileges;exit;"
+
+
 # pull down changes from the remote repo
 
-cd ~/OE2-Group-Project
-sudo git pull
-cd ~/
+#cd ~/OE2-Group-Project
+#sudo git pull
+#cd ~/
 
 # backup and set permissions on files
 
-sudo cp /etc/puppet/ -r ~/OE2-Group-Project/Mgmt-VM/ -r
-sudo rm -r ~/OE2-Group-Project/Mgmt-VM/puppet/ssl
-sudo cp /etc/puppet/code/environments/production/manifests/site.pp ~/OE2-Group-Project/Mgmt-VM/puppet/
-sudo chown bitstudent ~/OE2-Group-Project/Mgmt-VM/puppet/code
+#sudo cp /etc/puppet/ -r ~/OE2-Group-Project/Mgmt-VM/ -r
+#sudo rm -r ~/OE2-Group-Project/Mgmt-VM/puppet/ssl
+#sudo cp /etc/puppet/code/environments/production/manifests/site.pp ~/OE2-Group-Project/Mgmt-VM/puppet/
+#sudo chown bitstudent ~/OE2-Group-Project/Mgmt-VM/puppet/code
 sudo chgrp bitstudent ~/OE2-Group-Project/Mgmt-VM/puppet
 sudo chown bitstudent ~/OE2-Group-Project/Mgmt-VM/puppet/* 
 sudo chgrp bitstudent ~/OE2-Group-Project/Mgmt-VM/puppet/*
