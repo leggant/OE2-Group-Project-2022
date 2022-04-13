@@ -1,5 +1,6 @@
 class php::install {
-	package { 'php7.3' : ensure => present}
+	require => Class["nagios::config"],
+	package { 'php7.3' : ensure => present }
 	package { 'libapache2-mod-php7.3' : ensure => present}
 	package { 'php7.3-common' : ensure => present}
 	package { 'php7.3-mbstring' : ensure => present}
