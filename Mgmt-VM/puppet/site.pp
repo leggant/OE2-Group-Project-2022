@@ -17,6 +17,8 @@ node 'app-b.foo.org.nz' {
     include ntp_service
     service { 'puppet': ensure => 'running', enable => true }
     package { 'vim': ensure => present }
+    package { 'mysql-server': ensure => present }
+    service { 'mysql': ensure => 'running' }
 }
 node 'mgmt-b.foo.org.nz' {
     include sudo
