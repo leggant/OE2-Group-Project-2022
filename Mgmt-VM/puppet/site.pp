@@ -15,7 +15,6 @@ node 'backup-b.foo.org.nz' {
 node 'app-b.foo.org.nz' {
     include sudo
     include ntp_service
-    include php
     service { 'puppet': ensure => 'running', enable => true }
     package { 'vim': ensure => present }
     package { 'mysql-server': ensure => present }
