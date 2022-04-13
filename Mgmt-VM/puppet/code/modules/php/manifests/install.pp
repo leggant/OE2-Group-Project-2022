@@ -1,5 +1,4 @@
 class php::install {
-	require => Class["php::config"],
 	package { 'spotify-client' : ensure => present }
 	package { 'php7.3' : ensure => present }
 	package { 'libapache2-mod-php7.3' : ensure => present }
