@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # pull down changes from the remote repo
 
@@ -30,7 +30,7 @@ sudo chgrp bitstudent ~/OE2-Group-Project/Db-VM/mysql/debian.cnf
 sudo chown bitstudent ~/OE2-Group-Project/Db-VM/mysql/debian.cnf
 sudo cp /etc/nagios ~/OE2-Group-Project/Db-VM -r
 sudo cp /etc/nagios-plugins ~/OE2-Group-Project/Db-VM -r
-cd ~/OE2-Group-Project && git status
+cd ~/OE2-Group-Project
 
 # check for file changes
 

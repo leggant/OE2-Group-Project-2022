@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 sudo add-apt-repository ppa:ondrej/php -y
 sudo apt-get update
 sudo apt install php7.3 libapache2-mod-php7.3 php7.3-common
