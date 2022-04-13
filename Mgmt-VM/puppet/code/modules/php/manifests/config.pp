@@ -4,7 +4,7 @@ class php::config {
 	#	provider => 'shell',
 	#}
 	Exec { 'update':
-		command => '/usr/bin/sudo apt-get update',
-                #provider => '/usr/bin',
+		command => 'sudo apt-get update',
+                provider => shell,
 	}
 }
