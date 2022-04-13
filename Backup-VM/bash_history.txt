@@ -724,3 +724,22 @@ git pull
 git status
 git pull
 bubup
+ls
+cd OE2-Group-Project/
+git pull
+cd ..
+sudo rm -r OE2-Group-Project/
+ls
+export ghtoken=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
+gh repo clone leggant/OE2-Group-Project
+ls
+cd OE2-Group-Project/
+ls
+cd ..
+/bin/bash OE2-Group-Project/Scripts/mgmt/github.sh
+ls
+cd OE2-Group-Project/
+git pull
+git status
+git pull
+bubup
