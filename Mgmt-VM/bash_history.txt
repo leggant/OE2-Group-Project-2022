@@ -1546,3 +1546,33 @@ exit
 ls
 vim puppet-master-install.sh 
 vim /etc/hosts
+ls
+last
+/ -5
+last | head -5
+w
+finger root
+finger bitstudent
+ls
+cat puppet-agent-install.sh 
+cat puppet-master-install.sh 
+sudo cp puppet-agent-install.sh OE2-Group-Project/Scripts/mgmt/
+sudo cp puppet-master-install.sh OE2-Group-Project/Scripts/mgmt/
+ls
+cd OE2-Group-Project/Scripts/mgmt/
+ls
+cd ../..
+ls
+git status
+git add .
+git status
+cd Scripts/
+ls
+cd mgmt/
+ls
+git status
+cd ../../
+ls
+git status
+cd ..
+ls
