@@ -25,3 +25,5 @@ fi
 dir=/etc/puppet/code/environments/production/manifests/
 mkdir -p $dir && touch $dir/site.pp
 #systemctl restart puppetmaster
+service puppet-master start
+service puppet-master status
