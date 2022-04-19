@@ -4,7 +4,7 @@ RUN mkdir team_b_scripts
 RUN cd team_b_scripts
 COPY /testscripts ./team_b_scripts
 RUN chmod +x team_b_scripts/*
+VOLUME [ "/team_b_scripts" ]
 RUN apt-get update
-VOLUME [ "/testscripts", "/home/team_b_scripts" ]
-RUN /bin/bash ./team_b_scripts/test.sh
+RUN /bin/bash ./team_b_scripts/puppetmaster.sh
 CMD [ "bash" ]
