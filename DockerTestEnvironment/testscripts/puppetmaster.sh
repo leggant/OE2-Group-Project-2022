@@ -1,6 +1,6 @@
 #!/bin/bash
 apt-get update
-apt-get install puppetmaster
+apt-get install puppetmaster -y
 
 LINE=certname=mgmt-b.foo.org.nz
 LINE2=server=mgmt-b.foo.org.nz

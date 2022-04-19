@@ -13,5 +13,7 @@ docker build -t leggant/teamb:1.0 .
 
 run a single disposible container:
 ```bash
-docker run -it --rm -p 8080:8080 leggant/teamb:1.0
+docker run -it --rm leggant/teamb:1.0
 ```
+
+## Docker Compose To Come........
