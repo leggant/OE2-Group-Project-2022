@@ -26,5 +26,5 @@ fi
 puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetime
 
 #sudo systemctl status puppet
-service puppet restart
+service puppet start
 service puppet status

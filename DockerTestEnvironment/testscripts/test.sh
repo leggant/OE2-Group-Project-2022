@@ -14,7 +14,6 @@ sed -i "/^\[master]/a $LINE" "$FILE"
 echo "done"
 fi
 
-
 if
 grep -qF "$LINE2" "$FILE"; then
 echo "already exists"
