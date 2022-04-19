@@ -1,5 +1,6 @@
 #!/bin/bash
-sudo apt-get update
+
+apt-get update
 sudo apt-get install puppet
 
 LINE=[agent]

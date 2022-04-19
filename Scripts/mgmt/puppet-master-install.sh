@@ -1,5 +1,9 @@
 #!/bin/bash
 
+## When testing this in docker it failed because fresh install OS
+## cannot do much without running an update first.
+sudo apt-get update
+## Then run followup installs
 sudo apt-get install puppetmaster -y
 
 
