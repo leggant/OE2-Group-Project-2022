@@ -1,7 +1,7 @@
-#!/bin/bash
+#!/bin/sh
 
 apt-get update
-sudo apt-get install puppet
+apt-get install puppet -y
 
 LINE=[agent]
 LINE1=server=mgmt-b.foo.org.nz
@@ -19,10 +19,12 @@ if
 grep -qF "$LINE1" "$FILE"; then
 echo "already exists"
 else
-sudo sed -i "/^\[agent]/a $LINE1" "$FILE"
+sed -i "/^\[agent]/a $LINE1" "$FILE"
 echo "done"
 fi
 
-sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetime
+puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetime
 
-sudo systemctl status puppet
+#sudo systemctl status puppet
+service puppet restart
+service puppet status

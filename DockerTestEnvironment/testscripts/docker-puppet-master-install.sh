@@ -1,5 +1,7 @@
 #!/bin/sh
+
 apt-get update
+
 apt-get install puppetmaster -y
 
 LINE=certname=mgmt-b.foo.org.nz
@@ -25,4 +27,7 @@ fi
 
 dir=/etc/puppet/code/environments/production/manifests/
 mkdir -p $dir && touch $dir/site.pp
-#systemctl restart puppetmaster
+#sudo systemctl restart puppetmaster
+service puppet-master restart 
+service puppet restart
+# note sudo and systemctl are not present in this container
