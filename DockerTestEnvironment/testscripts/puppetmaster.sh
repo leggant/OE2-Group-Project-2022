@@ -1,6 +1,6 @@
-#!/bin/sh
+#!/bin/bash
 apt-get update
-apt-get install puppetmaster -y
+apt-get install puppetmaster
 
 LINE=certname=mgmt-b.foo.org.nz
 LINE2=server=mgmt-b.foo.org.nz
@@ -13,7 +13,6 @@ else
 sed -i "/^\[master]/a $LINE" "$FILE"
 echo "done"
 fi
-
 
 if
 grep -qF "$LINE2" "$FILE"; then

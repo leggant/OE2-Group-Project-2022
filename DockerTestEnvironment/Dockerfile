@@ -6,5 +6,4 @@ COPY /testscripts ./team_b_scripts
 RUN chmod +x team_b_scripts/*
 VOLUME [ "/team_b_scripts" ]
 RUN apt-get update
-RUN /bin/bash ./team_b_scripts/puppetmaster.sh
 CMD [ "bash" ]
