@@ -1,7 +1,5 @@
 #!/bin/sh
-
 apt-get update
-
 apt-get install puppetmaster -y
 
 LINE=certname=mgmt-b.foo.org.nz
@@ -16,7 +14,6 @@ sed -i "/^\[master]/a $LINE" "$FILE"
 echo "done"
 fi
 
-
 if
 grep -qF "$LINE2" "$FILE"; then
 echo "already exists"
@@ -27,7 +24,4 @@ fi
 
 dir=/etc/puppet/code/environments/production/manifests/
 mkdir -p $dir && touch $dir/site.pp
-#sudo systemctl restart puppetmaster
-service puppet-master restart 
-service puppet restart
-# note sudo and systemctl are not present in this container
+#systemctl restart puppetmaster
