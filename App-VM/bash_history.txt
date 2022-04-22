@@ -1072,3 +1072,8 @@ respup
 statpup
 sudo update-alternatives --config php
 exit
+cd /var/www/owncloud/data
+cd /var/www/owncloud
+ls
+cd ..
+ls
