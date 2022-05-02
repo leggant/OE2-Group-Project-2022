@@ -1,400 +1,3 @@
-sudo service puppet status
-mysql
-sudo mysql
-sudo systemctl status puppet
-sudo systemctl restart puppet
-sudo systemctl status puppet
-sudo systemctl restart puppet
-sudo systemctl status puppet
-mysql
-sudo mysql
-sudo service puppet status
-cd /etc/mysql
-ls
-vim mariadb.conf.d/
-sudo service puppet status
-sudo mysql
-sudo service puppet status
-sudo systemctl restart puppet
-sudo service puppet status
-sudo systemctl restart puppet
-sudo service puppet status
-sudo service puppetmaster status
-sudo service puppet status
-sudo systemctl restart puppet
-sudo service puppet status
-sudo mysql
-l
-ls
-cd mariadb.conf.d/
-ls
-cd 
-cd ~
-ls
-sudo service puppet status
-sudo service puppet restart
-sudo service puppet status
-sudo rm -rf /var/lib/puppet/ssl
-sudo service puppet restart
-sudo service puppet status
-sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetime
-sudo service puppet status
-sudo service puppet restart
-sudo service puppet status
-sudo rm -rf /var/lib/puppet/ssl
-sudo service puppet status
-sudo service puppet restart
-sudo service puppet status
-sudo rm -rf /var/lib/puppet/ssl
-sudo service puppet status
-sudo service puppet restart
-sudo service puppet status
-sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetime
-sudo service puppet status
-sudo service puppet restart
-sudo service puppet status
-sudo puppet cert list -all
-sudo puppet cert --sign -all
-sudo service puppet status
-sudo aptlist
-sudo apt list
-sudo apt list | grep mariadb
-ls
-sudo service puppet status
-sudo puppet cert list -all
-sudo service puppet status
-sudo service puppet restart
-sudo service puppet status
-sudo service puppet restart
-sudo service puppet status
-sudo service puppet restart
-sudo service puppet status
-:q
-sudo service puppet status
-sudo service puppet restart
-sudo service puppet status
-sudo apt remove mysql
-sudo apt remove mariadb
-sudo service puppet status
-sudo apt remove Mariadb
-sudo apt list | grep mariadb
-sudo apt remove mariadb-server
-sudo apt remove mariadb-plugin
-sudo apt remove mariadb-plugin -r
-sudo service puppet restart
-exit
-mysql
-sudo service puppet restart
-sudo service puppet status
-sudo apt remove MariaDB-server MariaDB-client
-sudo apt remove mariadb-server mariadb-client
-sudo service puppet restart
-sudo service puppet status
-sudo service puppet restart
-sudo service puppet status
-mysql
-sudo mysql
-sudo service puppet status
-sudo service puppet restart
-sudo service puppet status
-exit
-sudo service puppet status
-exit
-sudo service puppet status
-sudo service nagios3 status
-sudo service puppet restart
-sudo service puppet status
-sudo systemctl restart puppet
-sudo service puppet status
-sudo service nagios3 status
-sudo apt list | nagios
-sudo service puppet status
-sudo apt list | nagios
-sudo apt list | nagios3
-sudo vi ~/.bashrc
-cd /etc
-ls
-cd puppet
-ls
-cd code
-ls
-cd ..
-sudo vi ~/.bashrc
-source ~/.bashrc
-budb
-ls
-cd ~/OE2-Group-Project/Db-VM/
-ls
-sudo vi ~/.bashrc
-source ~/.bashrc
-budb
-git add .
-git status
-git commit -m "db: backup of puppet config, bash history/rc" -m "alias added to run backup to gh repo" -m "db-b vm"
-git push
-git pull
-git push
-git status
-sudo vi ~/.bashrc
-source ~/.bashrc
-budb
-cd /etc/puppet
-ls
-cd code
-touch .gitinclude
-sudo touch .gitinclude
-cd !
-cd ~
-cd OE2-Group-Project/
-sudo vi ~/.bashrc
-source ~/.bashrc
-budb
-sudo apt list | nagios
-sudo apt list | nagios3
-sudo vi ~/.bashrc
-cd /etc
-ls
-cd puppet
-ls
-cd code
-ls
-cd ..
-sudo vi ~/.bashrc
-source ~/.bashrc
-budb
-ls
-cd ~/OE2-Group-Project/Db-VM/
-ls
-sudo vi ~/.bashrc
-source ~/.bashrc
-budb
-git add .
-git status
-git commit -m "db: backup of puppet config, bash history/rc" -m "alias added to run backup to gh repo" -m "db-b vm"
-git push
-git pull
-git push
-git status
-sudo vi ~/.bashrc
-source ~/.bashrc
-budb
-cd /etc/puppet
-ls
-cd code
-touch .gitinclude
-sudo touch .gitinclude
-cd !
-cd ~
-cd OE2-Group-Project/
-sudo vi ~/.bashrc
-source ~/.bashrc
-budb
-git add .
-git commit -m "db: update bashhistory" -m "include /puppet/code directory" -m "db-b vm"
-git push
-cd OE2-Group-Project && git pull
-sudo reboot
-sudo vi ~/.bashrc
-source ~/.bashrc
-budb
-sudo vi ~/.bashrc
-source ~/.bashrc
-budb
-git add .
-git commit -m "db: updated vm backup alias" -m "changes are pulled from the repo before files are backed up on this vm" -m "db-b vm"
-git push
-exit
-cd OE2-Group-Project && git pull
-exit
-sudo vi ~/.bashrc
-source ~/.bashrc
-mod
-cd /etc/
-ls
-cd puppet/
-ls
-cd code/
-ls
-source ~/.bashrc
-cd code/sudo vi ~/.bashrc
-sudo vi ~/.bashrc
-source ~/.bashrc
-mod
-ls
-sudo vi ~/.bashrc
-source ~/.bashrc
-pup
-ls
-statpup
-sudo service puppet start
-statpup
-budb
-sudo vi ~/.bashrc
-source ~/.bashrc
-mod
-cd /etc/
-ls
-cd puppet/
-ls
-cd code/
-ls
-source ~/.bashrc
-cd code/sudo vi ~/.bashrc
-sudo vi ~/.bashrc
-source ~/.bashrc
-mod
-ls
-sudo vi ~/.bashrc
-source ~/.bashrc
-pup
-ls
-statpup
-sudo service puppet start
-statpup
-budb
-git add .
-git commit -m "db: aliases updated" -m "new scripts added to complete common tasks" -m "db-b vm"
-git push
-exit
-statpup
-exit
-statpup
-exit
-statpup
-respup
-statpup
-exit
-statpup
-sudo reboot
-respup
-statpup
-exit
-statpup
-exit
-cd /etc
-ls 
-cd mysql
-ls
-exit
-sudo systemctl status mariadb
-sudo vi ~/.bashrc
-stat mariadb
-exit
-mysql
-sudo mysql
-sudo nano /etc/mysql/mariadb.conf.d/50-server.cnf 
-source ~/.bashrc
-sudo vi ~/.bashrc
-res mariadb
-stat mariadb
-statpup
-stat mariadb
-res mariadb
-stat mariadb
-pwd
-cd /etc/mysql
-ls
-cd mariadb.conf.d/
-ls
-cat 50-server.cnf 
-cat 50-client.cnf 
-stat mariadb
-statpup
-respup
-statpup
-respup
-statpup
-sudo vi ~/.bashrc
-cd /etc/mysql
-ls
-cd mariadb.conf.d/
-ls
-cd ../conf.d/
-ls
-cd ..
-ls
-cd ..
-ls
-sudo cp mysql/ ~/OE2-Group-Project/Db-VM/
-sudo cp mysql/ ~/OE2-Group-Project/Db-VM/ -r
-cd ~/OE2-Group-Project/Db-VM/
-ls
-cd ~/OE2-Group-Project && git pull
-git status
-git add .
-ls
-cd Db-VM/mysql/
-ls
-sudo chgrp debian.cnf bitstudent
-sudo chgrp bitstudent debian.cnf 
-sudo chown bitstudent debian.cnf 
-cd ~/OE2-Group-Project/
-ls
-git status
-git add .
-git commit -m "db: backup of mysql config changes" -m "db-b vm"
-git push
-sudo vi ~/.bashrc
-ls
-cd Db-VM/
-ls
-sudo mv bashrc.txt bashrc
-sudo vi ~/.bashrc
-source ~/.bashrc
-cd ~/OE2-Group-Project && git pull
-budb
-sudo vi ~/.bashrc
-source ~/.bashrc
-budb
-sudo vi ~/.bashrc
-source ~/.bashrc
-budb
-mysql
-sudo mysql
-sudo nano /etc/mysql/mariadb.conf.d/50-server.cnf 
-source ~/.bashrc
-sudo vi ~/.bashrc
-res mariadb
-stat mariadb
-statpup
-stat mariadb
-res mariadb
-stat mariadb
-pwd
-cd /etc/mysql
-ls
-cd mariadb.conf.d/
-ls
-cat 50-server.cnf 
-cat 50-client.cnf 
-stat mariadb
-statpup
-respup
-statpup
-respup
-statpup
-sudo vi ~/.bashrc
-cd /etc/mysql
-ls
-cd mariadb.conf.d/
-ls
-cd ../conf.d/
-ls
-cd ..
-ls
-cd ..
-ls
-sudo cp mysql/ ~/OE2-Group-Project/Db-VM/
-sudo cp mysql/ ~/OE2-Group-Project/Db-VM/ -r
-cd ~/OE2-Group-Project/Db-VM/
-ls
-cd ~/OE2-Group-Project && git pull
-git status
-git add .
-ls
-cd Db-VM/mysql/
-ls
-sudo chgrp debian.cnf bitstudent
 sudo chgrp bitstudent debian.cnf 
 sudo chown bitstudent debian.cnf 
 cd ~/OE2-Group-Project/
@@ -1331,3 +934,67 @@ ls
 git status
 cd ..
 /bin/bash OE2-Group-Project/Scripts/mgmt/github.sh
+exit
+ls
+cd /etc
+ls
+cd etc
+cd /etc
+ls
+cd node_exporter/
+./node_exporter -h
+./node_exporter -h --version
+./node_exporter -h  --collector.ntp.server-is-local
+./node_exporter -h --collector.ntp.server-is-local
+./node_exporter --collector.ntp.server-is-local
+./node_exporter -h
+./node_exporter --collector.systemd.enable-restarts-metrics
+./node_exporter -h
+./node_exporter --web.listen-address=":9100"
+./node_exporter --web.listen-address=":9110"
+./node_exporter -h
+top
+reboot
+sudo reboot
+statpup
+res mysql
+res owncloud
+respup
+statpup
+May 02 09:25:08 db-b.foo.org.nz systemd[1]: Started Puppet agent.
+May 02 09:25:16 db-b.foo.org.nz mysqld_safe[10458]: 2022-05-02  9:25:16 140034580376704 [Note] /usr/sbin/mysqld (mysqld 10.1.48-MariaDB-0ubuntu0.18.04.1) starting as process 10488 ...
+May 02 09:25:19 db-b.foo.org.nz mysqld_safe[10458]: 2022-05-02  9:25:19 139745248033920 [Note] /usr/sbin/mysqld (mysqld 10.1.48-MariaDB-0ubuntu0.18.04.1) starting as process 10529 ...
+May 02 09:25:22 db-b.foo.org.nz mysqld_safe[10458]: 2022-05-02  9:25:22 140613647772800 [Note] /usr/sbin/mysqld (mysqld 10.1.48-MariaDB-0ubuntu0.18.04.1) starting as process 10561 ...
+May 02 09:25:25 db-b.foo.org.nz mysqld_safe[10599]: 2022-05-02  9:25:25 140529249184896 [Note] /usr/sbin/mysqld (mysqld 10.1.48-MariaDB-0ubuntu0.18.04.1) starting as process 10598 ...
+respup
+statpup
+stat mysql
+res apache2
+cd /etc
+ls
+sudo vi ~/.bashrc
+resnr
+statnr
+statpup
+respup
+statpup
+reboot
+sudo reboot
+statpup
+mysql
+sudo mysql
+mysql -u root -p
+mysql -u bitstudent -p
+mysql -u root -p
+statpup
+sudo mysql -u root -p
+sudo mysql --user=root --password=P@ssw0rd
+sudo mysql --user=root --password
+res mysqld
+sudo systemctl restart mysqld
+sudo systemctl restart mysql
+respup
+statpup
+cd OE2-Group-Project/
+bumgmt
+budb
