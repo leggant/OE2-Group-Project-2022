@@ -19,7 +19,7 @@ node 'app-b.foo.org.nz' {
     package { 'vim': ensure => present }
     package { 'mysql-server': ensure => present }
     service { 'mysql': ensure => 'running' }
-
+    include php
 }
 node 'mgmt-b.foo.org.nz' {
     include sudo

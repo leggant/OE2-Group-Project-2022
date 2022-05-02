@@ -1,3 +1,2 @@
 class php {
-	include php::install, php::config,
-}
+	include php::install, php::config }
