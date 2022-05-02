@@ -4,7 +4,7 @@ class mariadb::install {
               require => User['mysql'],
     }
     package {'mysql-client':
-	ensure => installed,
+	ensure => present,
     }
     user { 'mysql':
            ensure => present,
