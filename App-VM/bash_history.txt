@@ -1024,3 +1024,47 @@ git com "app: update of backup script." -m "attempting to resolve the automated 
 git commit -m "app: update of backup script." -m "attempting to resolve the automated backup which has stopped working" -m "app-b"
 git push
 exit
+cd ~/OE2-Group-Project
+sudo chmod 774 ./.git
+sudo chmod 774 .gitignore
+cd .git/
+sudo chown bitstudent FETCH_HEAD
+sudo chgrp bitstudent FETCH_HEAD
+sudo chown bitstudent ORIG_HEAD
+sudo chgrp bitstudent ORIG_HEAD
+sudo chmod 774 ./**
+cd objects
+sudo chgrp bitstudent ./**
+sudo chown bitstudent ./**
+sudo chmod 774 ./**
+cd ~/OE2-Group-Project
+git pull
+git stash .gitignore
+git status
+cat .gitignore
+git add .
+git commit -m "app: change in .gitignore" -m "app-b"
+git push
+git pull
+git status
+git pull
+git merge --abort
+git status
+git pull
+git merge --abort
+cd ..
+ls
+cd OE2-Group-Project/Scripts/app
+sudo nano backup.sh 
+cd ../../
+ls
+git add .
+git status
+git push
+git status
+git add .
+git status
+git commit -m "app: updated vm gh backup script" -m "fix the recurring permission issues" -m "app-b"
+git push
+cd ~
+exit
