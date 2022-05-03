@@ -1,181 +1,3 @@
-cp ~/.bashrc ~/.bashrc.bak
-sudo vi ~/.bashrc
-exit
-sudo vim /etc/hosts
-sudo hostnamectl set-hostname backup-b.foo.org.nz
-hostname
-ping backup-b.foo.org.nz
-hostname
-exit
-hostname
-:q
-exit
-sudo cat /etc/hosts
-hostname
-ping mgmt-b.foo.org.nz
-sudo vi /etc/hosts
-ping backup-b.foo.org.nz
-ping mgmt-b.foo.org.nz
-sudo -i
-sudo service puppet restart
-sudo service puppet status
-sudo service agent --test
-sudo puppet agent --test
-sudo puppet agent -t
-sudo nano /etc/puppet/puppet.conf
-sudo service puppet restart
-sudo service puppet status
-sudo puppet agent -t
-sudo puppet agent --test
-sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetime
-sudo nano /etc/puppet/puppet.conf
-sudo vi /etc/hosts
-sudo nano /etc/puppet/puppet.conf
-sudo service puppet restart
-sudo service puppet status
-sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetime
-sudo puppet cert clean --all
-sudo -i
-sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetime
-sudo apt remove vim
-sudo vim /etc/hosts
-exit
-sudo vi /etc/puppet/puppet.conf
-sudo apt remove puppet
-sudo apt autoremove puppet
-cd etc
-cd /etc
-ls
-rm -r puppet
-ls
-sudo rm -r puppet
-ls
-cd ..
-cd ~
-ls
-sudo vi /etc/hosts
-sudo apt-get install puppet
-sudo vi /etc/puppet/puppet.conf
-sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetime
-sudo puppet cert --sign -all
-sudo apt remove vim
-exit
-sudo apt remove vim
-sudo puppet cert --sign -all
-sudo rm -rf /var/lib/puppet/ssl
-sudo service puppet restart
-sudo service puppet status
-sudo puppet ca destroy backup-b.foo.org.nz
-sudo rm -rf /var/lib/puppet/ssl
-sudo service puppet restart
-sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetime
-sudo service puppet status
-sudo vi /etc/puppet/puppet.conf
-sudo service puppet restart
-sudo service puppet status
-sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetime
-sudo puppet cert --sign -mgmt-b.foo.org.nz
-sudo puppet cert --sign --mgmt-b.foo.org.nz
-sudo puppet cert --sign mgmt-b.foo.org.nz
-sudo service puppet status
-sudo apt remove vim
-exit
-sudo apt remove vim
-sudo puppet cert --sign -all
-sudo apt remove vim
-exit
-sudo apt remove vim
-sudo service puppet restart
-exit
-sudo apt remove vim
-exit
-sudo apt remove vim
-exit
-sudo apt remove vim
-exit
-sudo apt remove vim
-exit
-sudo apt remove vim
-sudo systemctl restart puppet
-sudo apt remove vim
-exit
-sudo service puppet status
-sudo service puppet restart
-sudo service puppet status
-ntpq -p
-top
-top | grep ntp
-sudo systemctl restart ntpd
-sudo systemctl restart ntp
-top | grep ntp
-top | grep ntpd
-sudo service ntp restart
-sudo service ntp status
-sudo service puppet status
-sudo service ntp status
-sudo service puppet status
-date
-sudo service puppet status
-sudo service ntp status
-sudo reboot
-sudo service puppet start
-sudo service puppet status
-curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo dd of=/usr/share/keyrings/githubcli-archive-keyring.gpg
-echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" | sudo tee /etc/apt/sources.list.d/github-cli.list > /dev/null
-sudo apt update
-sudo apt install gh
-gh auth login
-ls
-git clone https://github.com/leggant/OE2-Group-Project.git
-cd OE2-Group-Project/
-mkdir Backup-VM
-cd Backup-VM/
-cp /etc/hosts .
-ls
-cd ..
-git add Backup-VM/
-git --global --edit
-git config --global --edit
-git add Backup-VM/
-git commit -m "Backup VM hosts"
-ls
-git push
-cd Backup-VM/
-ls
-cd ..
-git add .
-git status
-rm Backup-VM/hosts 
-git add .
-git status
-git pull
-cd Backup-VM/
-ls
-sudo cp /etc/hosts .
-ls
-cd ..
-git status
-git add Backup-VM/hosts
-git add Backup-VM/hosts -f
-git status
-git commit -m "Backup VM hosts"
-git push
-ls
-ls -al
-rm -r .github
-ls
-ls -al
-git status
-git add .
-git commit -m "removed Issue Templates" -m "these wont be used" -m "Ant"
-git push
-sudo service puppet status
-sudo service puppet restart
-sudo service puppet status
-cd OE2-Group-Project && git pull
-ls
-cd OE2-Group-Project && git pull
-sudo reboot
 sudo vi ~/.bashrc
 source ~/.bashrc
 bubup
@@ -998,3 +820,210 @@ ls -al
 cd ~
 cd OE2-Group-Project/
 bubup
+cd Backup-VM/
+ls -al
+cd prometheus-plugins/
+ls
+sudo rm grafana-enterprise_8.5.1_amd64.deb 
+ls 0al
+ls -al
+cd ..
+ls -al
+git add .
+git status
+git commit "backup: removed deb file from backup" -m "exceeds file size limit for github" -m "backup-b"
+git commit -m "backup: removed deb file from backup" -m "exceeds file size limit for github" -m "backup-b"
+git push
+cd Scripts/backup/
+ls
+sudo nano backup.sh 
+cd ..
+cd ~
+bubup
+cd /etc
+ls
+cd ~/OE2-Group-Project/Scripts/backup/
+ls
+sudo nano backup.sh 
+sudo vi ~/.bashrc
+source ~/.bashrc
+cd ~
+bubup
+ls
+cd Backup-VM/
+ls
+cd prometheus
+ls
+cd ..
+ls
+git status
+sudo vi ~/.bashrc
+source ~/.bashrc
+cd ~
+bubup
+la
+git status
+git add .
+ls -al
+sudo chmod u+rwx ./*
+ls -al
+git add .
+sudo chmod u+x .git -r
+sudo chmod u+x .git/ -r
+sudo chmod u+x .git/*
+cd .git
+ls -al
+cd ..\
+ls -al
+cd ..
+ls -al
+sudo chmod u+x OE2-Group-Project/ -r
+chmod u+x  OE2-Group-Project/ -r
+chmod +x  OE2-Group-Project/ -r
+chmod u+x OE2-Group-Project/ -r
+chmod u+x OE2-Group-Project/*
+chmod u+x ./OE2-Group-Project -r
+cd OE2-Group-Project/
+ls -al
+cd ..
+ls
+ls -al
+sudo chmod 777 OE2-Group-Project/
+ls -al
+cd OE2-Group-Project/
+ls -al
+sudo chmod 744 ./*
+ls -al
+sudo chmod 774 ./*
+ls -al
+sudo chmod 774 ./.git/*
+sudo chmod 774 ./.git
+ls -al
+sudo chmod 774 .gitignore 
+ls -al
+git add .
+ls -al
+sudo chmod 774 ./.git -r
+sudo chmod 774 -r ./.git 
+sudo chmod 774 ./.git 
+cd .git/
+ls
+sudo chmod 774 **/*
+ls -al
+sudo chmod 774 ./* -r
+sudo chown bitstudent FETCH_HEAD 
+sudo chgrp bitstudent FETCH_HEAD 
+sudo chgrp bitstudent ORIG_HEAD 
+sudo chown bitstudent ORIG_HEAD 
+ls -al
+cd ..
+ls -al
+git add .
+ls -al
+cd .git/
+ls -al
+sudo chmod 774 ./** 
+ls -al
+cd ..
+git add .
+ls -al
+cd .git
+cd objects/
+ls -al
+sudo chgrp bitstudent ./** 
+sudo chown bitstudent ./** 
+ls -al
+cd ../..
+ls -al
+git add .
+ls -al
+git status
+git commit -m "backup: backup of prometheus install and plugins" -m "backup-b"
+git push
+cd ../etc/
+cd /etc/prometheus-plugins/
+ls -al
+sudo rm grafana-enterprise_8.5.1_amd64.deb 
+ls -al
+cd ~
+cd OE2-Group-Project/
+bubup
+cd Backup-VM/
+ls -al
+cd prometheus-plugins/
+ls
+sudo rm grafana-enterprise_8.5.1_amd64.deb 
+ls 0al
+ls -al
+cd ..
+ls -al
+git add .
+git status
+git commit "backup: removed deb file from backup" -m "exceeds file size limit for github" -m "backup-b"
+git commit -m "backup: removed deb file from backup" -m "exceeds file size limit for github" -m "backup-b"
+git push
+cd Scripts/backup/
+ls
+sudo nano backup.sh 
+cd ..
+cd ~
+bubup
+git add .
+exit
+cd OE2-Group-Project/
+git pull
+cd ~/OE2-Group-Project
+sudo chmod 774 ./.git
+sudo chmod 774 .gitignore
+cd .git/
+sudo chown bitstudent FETCH_HEAD
+sudo chgrp bitstudent FETCH_HEAD
+sudo chown bitstudent ORIG_HEAD
+sudo chgrp bitstudent ORIG_HEAD
+sudo chmod 774 ./**
+cd objects
+sudo chgrp bitstudent ./**
+sudo chown bitstudent ./**
+sudo chmod 774 ./**
+cd ~/OE2-Group-Project
+git pull
+cd ~/
+ls
+cd OE2-Group-Project/
+ls -al
+cd .git/objects/
+ls -al
+cd ~
+cd OE2-Group-Project/Scripts/backup/
+sudo nano backup.sh 
+cd ../../../
+bubup
+cd OE2-Group-Project/
+git pull
+cd ~/OE2-Group-Project
+sudo chmod 774 ./.git
+sudo chmod 774 .gitignore
+cd .git/
+sudo chown bitstudent FETCH_HEAD
+sudo chgrp bitstudent FETCH_HEAD
+sudo chown bitstudent ORIG_HEAD
+sudo chgrp bitstudent ORIG_HEAD
+sudo chmod 774 ./**
+cd objects
+sudo chgrp bitstudent ./**
+sudo chown bitstudent ./**
+sudo chmod 774 ./**
+cd ~/OE2-Group-Project
+git pull
+cd ~/
+ls
+cd OE2-Group-Project/
+ls -al
+cd .git/objects/
+ls -al
+cd ~
+cd OE2-Group-Project/Scripts/backup/
+sudo nano backup.sh 
+cd ../../../
+bubup
+exit
