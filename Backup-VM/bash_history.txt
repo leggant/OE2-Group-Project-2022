@@ -1,9 +1,3 @@
-sudo useradd -d /home/manager -m -s /bin/bash manager
-sudo passwd manager
-sudo usermod -aG sudo manager
-clear
-exit
-hostname
 cp ~/.bashrc ~/.bashrc.bak
 sudo vi ~/.bashrc
 exit
@@ -896,3 +890,111 @@ git commit -m "backup: fix added to backup script" -m "backup-b"
 git push
 exi
 exit
+cd /etc
+ls
+cd ~/OE2-Group-Project/Scripts/backup/
+ls
+sudo nano backup.sh 
+sudo vi ~/.bashrc
+source ~/.bashrc
+cd ~
+bubup
+ls
+cd Backup-VM/
+ls
+cd prometheus
+ls
+cd ..
+ls
+git status
+sudo vi ~/.bashrc
+source ~/.bashrc
+cd ~
+bubup
+la
+git status
+git add .
+ls -al
+sudo chmod u+rwx ./*
+ls -al
+git add .
+sudo chmod u+x .git -r
+sudo chmod u+x .git/ -r
+sudo chmod u+x .git/*
+cd .git
+ls -al
+cd ..\
+ls -al
+cd ..
+ls -al
+sudo chmod u+x OE2-Group-Project/ -r
+chmod u+x  OE2-Group-Project/ -r
+chmod +x  OE2-Group-Project/ -r
+chmod u+x OE2-Group-Project/ -r
+chmod u+x OE2-Group-Project/*
+chmod u+x ./OE2-Group-Project -r
+cd OE2-Group-Project/
+ls -al
+cd ..
+ls
+ls -al
+sudo chmod 777 OE2-Group-Project/
+ls -al
+cd OE2-Group-Project/
+ls -al
+sudo chmod 744 ./*
+ls -al
+sudo chmod 774 ./*
+ls -al
+sudo chmod 774 ./.git/*
+sudo chmod 774 ./.git
+ls -al
+sudo chmod 774 .gitignore 
+ls -al
+git add .
+ls -al
+sudo chmod 774 ./.git -r
+sudo chmod 774 -r ./.git 
+sudo chmod 774 ./.git 
+cd .git/
+ls
+sudo chmod 774 **/*
+ls -al
+sudo chmod 774 ./* -r
+sudo chown bitstudent FETCH_HEAD 
+sudo chgrp bitstudent FETCH_HEAD 
+sudo chgrp bitstudent ORIG_HEAD 
+sudo chown bitstudent ORIG_HEAD 
+ls -al
+cd ..
+ls -al
+git add .
+ls -al
+cd .git/
+ls -al
+sudo chmod 774 ./** 
+ls -al
+cd ..
+git add .
+ls -al
+cd .git
+cd objects/
+ls -al
+sudo chgrp bitstudent ./** 
+sudo chown bitstudent ./** 
+ls -al
+cd ../..
+ls -al
+git add .
+ls -al
+git status
+git commit -m "backup: backup of prometheus install and plugins" -m "backup-b"
+git push
+cd ../etc/
+cd /etc/prometheus-plugins/
+ls -al
+sudo rm grafana-enterprise_8.5.1_amd64.deb 
+ls -al
+cd ~
+cd OE2-Group-Project/
+bubup
