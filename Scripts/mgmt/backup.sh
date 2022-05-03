@@ -26,8 +26,7 @@ sudo chown bitstudent ~/OE2-Group-Project/Mgmt-VM/nagios3/*
 sudo chgrp bitstudent ~/OE2-Group-Project/Mgmt-VM/nagios3/*
 sudo cp /etc/php/7.2/cgi/php.ini ~/OE2-Group-Project/Mgmt-VM/php.ini
 sudo chown bitstudent ~/OE2-Group-Project/Mgmt-VM/php.ini
-sudo chgrp bitstudent ~/OE2-Group-Project/Mgmt-VM/php.ini
-history -w 
+sudo chgrp bitstudent ~/OE2-Group-Project/Mgmt-VM/php.ini 
 sudo cp ~/.bash_history ~/OE2-Group-Project/Mgmt-VM/bash_history.txt
 sudo chown bitstudent ~/OE2-Group-Project/Mgmt-VM/bash_history.txt
 sudo chgrp bitstudent ~/OE2-Group-Project/Mgmt-VM/bash_history.txt
@@ -36,9 +35,10 @@ sudo cp ~/.bashrc ~/OE2-Group-Project/Mgmt-VM/bashrc
 sudo chown bitstudent ~/OE2-Group-Project/Mgmt-VM/bashrc
 sudo chgrp bitstudent ~/OE2-Group-Project/Mgmt-VM/bashrc
 sudo chmod go+r ~/OE2-Group-Project/Mgmt-VM/bashrc
-sudo cp /etc/nagios ~/OE2-Group-Project/Mgmt-VM/ -r
-sudo cp /etc/nagios-plugins ~/OE2-Group-Project/Mgmt-VM/ -r
+sudo cp /etc/nagios ~/OE2-Group-Project/Mgmt-VM -r
+sudo cp /etc/nagios-plugins ~/OE2-Group-Project/Mgmt-VM -r
 cd ~/OE2-Group-Project
+
 # check for file changes
 
 if [ -z "$(git status --porcelain)" ]; then 
@@ -46,6 +46,7 @@ if [ -z "$(git status --porcelain)" ]; then
   cd ~/
 else 
   COMMIT_TIMESTAMP=`date +'%d-%m-%Y %H:%M:%S %Z'`
+  history -w
   git add .
   git commit -m "mgmt: automated system backup" -m "completed: $COMMIT_TIMESTAMP" -m "mgmt-b"
   git push
