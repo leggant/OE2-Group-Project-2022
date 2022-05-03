@@ -871,3 +871,28 @@ bubup
 git config --global --add safe.directory /home/bitstudent/OE2-Group-Project
 cd ..
 bubup
+statpup
+cd OE2-Group-Project/Scripts/backup/
+ls
+sudo nano backup.sh 
+crontab -e
+ls -al
+bubup
+cd ..
+ls
+bubup
+cd ..
+export ghtoken=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
+bubup
+cd ..
+sudo rm -r OE2-Group-Project/
+gh repo clone leggant/OE2-Group-Project
+bubup
+git config --global --add safe.directory /home/bitstudent/OE2-Group-Project
+cd ..
+bubup
+git add .
+git commit -m "backup: fix added to backup script" -m "backup-b"
+git push
+exi
+exit
