@@ -1004,3 +1004,69 @@ crontab -e
 statpup
 statmas
 exit
+cd OE2-Group-Project
+ls 
+sudo chmod 774 ./.git
+sudo chmod 774 .gitignore
+cd .git/
+sudo chown bitstudent FETCH_HEAD
+cd ~/OE2-Group-Project
+sudo chmod 774 ./.git
+sudo chmod 774 .gitignore
+cd .git/
+sudo chown bitstudent FETCH_HEAD
+sudo chgrp bitstudent FETCH_HEAD
+sudo chown bitstudent ORIG_HEAD
+sudo chgrp bitstudent ORIG_HEAD
+sudo chmod 774 ./**
+cd objects
+sudo chgrp bitstudent ./**
+sudo chown bitstudent ./**
+cd ~/OE2-Group-Project
+cd Scripts/mgmt/
+ls
+sudo nano backup.sh 
+cd ../../
+ls
+bumgmt
+git stash
+cd ~/OE2-Group-Project
+sudo chmod 774 ./.git
+sudo chmod 774 .gitignore
+cd .git/
+sudo chown bitstudent FETCH_HEAD
+sudo chgrp bitstudent FETCH_HEAD
+sudo chown bitstudent ORIG_HEAD
+sudo chgrp bitstudent ORIG_HEAD
+sudo chmod 774 ./**
+cd objects
+sudo chgrp bitstudent ./**
+sudo chown bitstudent ./**
+cd ~/OE2-Group-Project
+git status
+git statsh .gitignore
+git stash .gitignore
+git pull
+cd .git
+ls -al
+cd objects/
+ls
+ls -al
+cd ~/OE2-Group-Project
+sudo chmod 774 ./.git
+sudo chmod 774 .gitignore
+cd .git/
+sudo chown bitstudent FETCH_HEAD
+sudo chgrp bitstudent FETCH_HEAD
+sudo chown bitstudent ORIG_HEAD
+sudo chgrp bitstudent ORIG_HEAD
+sudo chmod 774 ./**
+cd objects
+sudo chgrp bitstudent ./**
+sudo chown bitstudent ./**
+sudo chmod 774 ./**
+cd ~/OE2-Group-Project
+git add .
+git status
+git pull
+exit

@@ -25,6 +25,8 @@ sudo chgrp bitstudent ~/OE2-Group-Project/Backup-VM/bashrc
 sudo chmod go+r ~/OE2-Group-Project/Backup-VM/bashrc
 sudo cp /etc/nagios ~/OE2-Group-Project/Backup-VM -r
 sudo cp /etc/nagios-plugins ~/OE2-Group-Project/Backup-VM -r
+sudo cp /etc/prometheus ~/OE2-Group-Project/Backup-VM -r
+sudo cp /etc/prometheus-plugins ~/OE2-Group-Project/Backup-VM -r
 cd ~/OE2-Group-Project
 
 # check for file changes
