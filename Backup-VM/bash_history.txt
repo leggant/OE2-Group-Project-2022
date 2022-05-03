@@ -743,3 +743,131 @@ git pull
 git status
 git pull
 bubup
+ls
+sudo systemctl status prometheus
+sudo systemctl status prometheus.service
+systemctl start prometheus
+sudo systemctl start prometheus
+systemctl daemon-reload
+suodo systemctl daemon-reload
+sudo systemctl daemon-reload
+ls
+cd /etc/
+ls
+cd prometheus
+ls
+sudo vim prometheus.yml 
+ls
+sudo vim prometheus.yml 
+./prometheus --config.file=./prometheus.yml
+sudo ./prometheus --config.file=./prometheus.yml
+ls
+sudo vim prometheus.yml 
+sudo ./prometheus --config.file=./prometheus.yml
+sudo vim prometheus.yml 
+sudo ./prometheus --config.file=./prometheus.yml
+sudo vim prometheus.yml 
+sudo ./prometheus --config.file=./prometheus.yml
+sudo vim prometheus.yml 
+sudo ./prometheus --config.file=./prometheus.yml
+sudo vim prometheus.yml 
+sudo ./prometheus --config.file=./prometheus.yml
+clear
+sudo ./prometheus --config.file=./prometheus.yml
+sudo systemctl start prometheus.service
+sudo vim prometheus.yml 
+sudo ./prometheus --config.file=./prometheus.yml
+cd /etc
+ls
+cd prometheus-plugins/
+ls
+cd node_exporter/
+ls
+cd ../../prometheus
+ls
+sudo nano prometheus.yml 
+cd console_libraries/
+ls
+cd ..
+cat promtool
+curl -X POST http://localhost:9090/-/reload
+curl -X POST http://20.211.185.153:9090/-/reload
+cd /etc/prometheus
+ls
+curl -X POST http://20.211.185.153:9090/-/reload
+./prometheus --web.enable-lifecycle
+curl -X POST http://20.211.185.153:9090/-/reload
+./prometheus --web.enable-lifecycle
+curl -X POST http://20.211.185.153:9090/-/start
+./prometheus --web.enable-lifecycle
+kill -HUP 1234
+top
+kill -HUP 26893
+top
+kill -HUP 26893
+top
+ls
+l
+ls
+systemctl status prometheus-node-exporter
+ls
+cd /etc
+ls
+cd prometheus
+ls
+vim prometheus.yml 
+sudo ./prometheus --config.file=./prometheus.yml
+systemctl restart prometheus
+sudo systemctl restart prometheus
+sudo ./prometheus --config.file=./prometheus.yml
+vim prometheus.yml 
+sudo ./prometheus --config.file=./prometheus.yml
+vim prometheus.yml 
+sudo ./prometheus --config.file=./prometheus.yml
+vim prometheus.yml 
+sudo ./prometheus --config.file=./prometheus.yml
+clear
+sudo ./prometheus --config.file=./prometheus.yml
+apt -y install prometheus-node-exporter
+sudo apt -y install prometheus-node-exporter
+systemctl status prometheus-node-exporter
+systemctl start prometheus-node-exporter
+sudo systemctl start prometheus-node-exporter
+systemctl status prometheus-node-exporter
+systemctl restart prometheus-node-exporter
+sudo systemctl restart prometheus-node-exporter
+systemctl status prometheus-node-exporter
+curl http://localhost:9100/metrics
+curl http://localhost:9100/metrics | grep "node_"
+systemctl status prometheus-node-exporter
+sudo ./prometheus --config.file=./prometheus.yml
+vim prometheus.yml 
+sudo ./prometheus --config.file=./prometheus.yml
+promtool
+vim prometheus.yml 
+sudo ./prometheus --config.file=./prometheus.yml
+prometheus --version
+vim prometheus.yml 
+promtool check config prometheus.yml
+ssh bitstudent@20.53.250.68 
+sudo reboot
+statpup
+cd OE2-Group-Project/Scripts/backup/
+ls
+sudo nano backup.sh 
+crontab -e
+ls -al
+bubup
+cd ..
+ls
+bubup
+cd ..
+export ghtoken=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
+bubup
+cd ..
+sudo rm -r OE2-Group-Project/
+gh repo clone leggant/OE2-Group-Project
+bubup
+git config --global --add safe.directory /home/bitstudent/OE2-Group-Project
+cd ..
+bubup
