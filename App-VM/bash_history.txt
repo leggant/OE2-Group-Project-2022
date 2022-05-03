@@ -998,3 +998,29 @@ cd OE2-Group-Project/Scripts/app
 sudo nano backup.sh 
 cd ~
 buapp
+statpup
+cd OE2-Group-Project/Scripts/app/
+ls
+ls -al
+sudo nano backup.sh 
+crontab -e
+buapp
+cd ..
+ls
+buapp
+cd ..
+ls
+sudo rm OE2-Group-Project/
+sudo rm OE2-Group-Project/ -r
+ls
+export ghtoken=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
+gh repo clone leggant/OE2-Group-Project
+cd OE2-Group-Project/Scripts/app
+sudo nano backup.sh 
+cd ~
+buapp
+git add .
+git com "app: update of backup script." -m "attempting to resolve the automated backup which has stopped working" -m "app-b"
+git commit -m "app: update of backup script." -m "attempting to resolve the automated backup which has stopped working" -m "app-b"
+git push
+exit
