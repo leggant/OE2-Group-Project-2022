@@ -1,109 +1,3 @@
-ls
-mkdir App-VM
-cd App-VM/
-sudo cp /etc/hosts .
-la
-ls
-cd ..
-ls
-git add Mgmt-VM/
-git status
-git commit -m "Edited Puppetmaster directory name"
-git config --global user.name "Anthony Legg"
-git config --global user.email leggtc1@student.op.ac.nz
-git commit --amend --reset-author
-git push
-git status
-git add/rm .
-git rm .
-git add .
-git status
-git commit -m "add App VM Hosts" -m "removed old PuppetMaster Directory" -m "Ant"
-git push
-ls -al
-cd ..
-ls -al
-sudo cp .bash_history OE2-Group-Project/App-VM/bash_history_14_03_2022.txt
-cat OE2-Group-Project/App-VM/bash_history_14_03_2022.txt 
-sudo cat OE2-Group-Project/App-VM/bash_history_14_03_2022.txt 
-history -w
-sudo cp .bash_history OE2-Group-Project/App-VM/bash_history_14_03_2022.txt
-sudo cat OE2-Group-Project/App-VM/bash_history_14_03_2022.txt 
-cd OE2-Group-Project/App-VM/
-ls
-vm bash_history_14_03_2022.txt bash_history.txt
-mv bash_history_14_03_2022.txt bash_history.txt
-ls
-sudo vi ~./bashrc
-sudo vi ~./.bashrc
-sudo vi ~./.bash_rc
-sudo vi ~/.bash_rc
-sudo vi ~/.bashrc
-source source ~/.bashrc
-source ~/.bashrc
-sudo vi ~/.bashrc
-cphis
-sudo vi ~/.bashrc
-source ~/.bash_aliases
-sudo vi ~/.bashrc
-ls
-cp ~/.bash_rc .
-cp ~/.bashrc .
-ls
-ls -al
-mv .bashrc bashrc.txt
-ls
-mv hosts hosts.txt
-ls
-cd ..
-ls
-git add .
-git add . -f
-cd App-VM/
-ls -al
-sudo chmod ug+r
-sudo chmod u+r
-sudo chmod ug+r bash_history.txt 
-ls -al
-sudo chmod 444 bash_history.txt 
-ls -al
-sudo chmod 644 bash_history.txt 
-ls -al
-cd ..
-git add .
-git status
-git commit -m "add file ext to hosts" -m "made backup of history and bashrc files" -m "Ant"
-git push
-sudo systemctl status puppet
-sudo service puppet restart
-sudo systemctl status puppet
-cd OE2-Group-Project && git pull
-sudo reboot
-sudo vi ~/.bashrc
-source ~/.bashrc
-buapp
-sudo vi ~/.bashrc
-source ~/.bashrc
-buapp
-git add .
-git commit -m "app: backup alias app vm" -m "alias and backup run on the app vm" -m "app-b vm"
-git push
-exit
-cd OE2-Group-Project && git pull
-exit
-sudo vi ~/.bashrc
-source ~/.bashrc
-statpup
-respup
-statpup
-buapp
-sudo vi ~/.bashrc
-source ~/.bashrc
-statpup
-respup
-statpup
-buapp
-git add .
 git commit -m "app: new aliases added" -m "puppet service also down. new aliases for common task completion" -m "app-b vm"
 git push
 exit
@@ -1083,3 +977,24 @@ respup
 statpup
 respup
 sudo reboot
+statpup
+cd OE2-Group-Project/Scripts/app/
+ls
+ls -al
+sudo nano backup.sh 
+crontab -e
+buapp
+cd ..
+ls
+buapp
+cd ..
+ls
+sudo rm OE2-Group-Project/
+sudo rm OE2-Group-Project/ -r
+ls
+export ghtoken=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
+gh repo clone leggant/OE2-Group-Project
+cd OE2-Group-Project/Scripts/app
+sudo nano backup.sh 
+cd ~
+buapp
