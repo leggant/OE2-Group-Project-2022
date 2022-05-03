@@ -896,3 +896,24 @@ git commit -m "backup: fix added to backup script" -m "backup-b"
 git push
 exi
 exit
+cd /etc
+ls
+cd ~/OE2-Group-Project/Scripts/backup/
+ls
+sudo nano backup.sh 
+sudo vi ~/.bashrc
+source ~/.bashrc
+cd ~
+bubup
+ls
+cd Backup-VM/
+ls
+cd prometheus
+ls
+cd ..
+ls
+git status
+sudo vi ~/.bashrc
+source ~/.bashrc
+cd ~
+bubup
