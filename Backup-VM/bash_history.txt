@@ -1027,3 +1027,20 @@ sudo nano backup.sh
 cd ../../../
 bubup
 exit
+cd /etc/prometheus
+sudo vim prometheus.yml 
+journalctl -t prometheus
+curl -i -XPOST localhost:9090/-/reload
+killall -HUP prometheus
+sudo vim prometheus.yml 
+./promtool check config prometheus.yml
+ls
+./promtool check config prometheus.yml
+journalctl
+sudo journalctl -u prometheus
+ps -eaf | grep prom
+clear
+ps -eaf | grep prom
+kil -HUP 9825
+kill -HUP 9825
+kill -HUP 9685
