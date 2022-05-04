@@ -1044,3 +1044,213 @@ ps -eaf | grep prom
 kil -HUP 9825
 kill -HUP 9825
 kill -HUP 9685
+ps -eaf | grep prom
+kill -HUP 8305
+sudo kill -HUP 8305
+ps -eaf | grep prom
+sudo kill -HUP 4796
+ps -eaf | grep gra
+sudo kill -HUP 1109
+clear
+How to reload Prometheus config file?
+ps -eaf | grep gr
+./promtool check config prometheus.yml
+ls
+cd /etc/prometheus
+./promtool check config prometheus.yml
+sudo vim prometheus.yml 
+./promtool check config prometheus.yml
+sudo kill -HUP 4796
+ps -eaf | grep gr
+ps -eaf | grep prom
+sudo kill -HUP 9978
+./prometheus --config.file=prometheus.yml &
+sudo vim prometheus.yml 
+sudo kill -HUP 9978
+ps -eaf | grep prom
+sudo kill -HUP 10192
+sudo kill -HUP 4796
+./prometheus --config.file=prometheus.yml &
+./prometheus --config.file=prometheus.yml 
+./promtool check config prometheus.yml
+./prometheus --config.file=prometheus.yml 
+sudo vim prometheus.yml 
+./promtool check config prometheus.yml
+./prometheus --config.file=prometheus.yml 
+sudo kill -HUP 4796
+sudo vim prometheus.yml 
+sudo kill -HUP 4796
+./prometheus --config.file=prometheus.yml 
+sudo vim prometheus.yml 
+sudo kill -HUP 4796
+./prometheus --config.file=prometheus.yml 
+sudo kill -HUP 4796
+sudo vim prometheus.yml 
+sudo kill -HUP 4796
+./prometheus --config.file=prometheus.yml 
+sudo kill -HUP 4796
+./promtool check config prometheus.yml
+sudo vim prometheus.yml 
+./promtool check config prometheus.yml
+sudo kill -HUP 4796
+./prometheus --config.file=prometheus.yml 
+sudo kill -HUP 4796
+sudo vim prometheus.yml 
+sudo kill -HUP 4796
+./prometheus --config.file=prometheus.yml 
+sudo kill -HUP 4796
+./promtool check config prometheus.yml
+sudo vim prometheus.yml 
+./promtool check config prometheus.yml
+sudo kill -HUP 4796
+./promtool check config prometheus.yml
+./prometheus --config.file=prometheus.yml 
+sudo kill -HUP 4796
+sudo vim prometheus.yml 
+sudo kill -HUP 4796
+./prometheus --config.file=prometheus.yml 
+sudo kill -HUP 4796
+sudo vim prometheus.yml 
+./prometheus --config.file=prometheus.yml 
+sudo kill -HUP 4796
+./promtool check config prometheus.yml
+sudo vim prometheus.yml 
+./promtool check config prometheus.yml
+./prometheus --config.file=prometheus.yml 
+sudo kill -HUP 4796
+sudo vim prometheus.yml 
+sudo kill -HUP 4796
+./prometheus --config.file=prometheus.yml 
+./prometheus --config.file=prometheus.yml &
+sudo vim prometheus.yml 
+./prometheus --config.file=prometheus.yml 
+sudo kill -HUP 4796
+sudo vim prometheus.yml 
+./prometheus --config.file=prometheus.yml 
+sudo kill -HUP 4796
+sudo vim prometheus.yml 
+./prometheus --config.file=prometheus.yml 
+sudo kill -HUP 4796
+./prometheus --config.file=prometheus.yml 
+sudo vim prometheus.yml 
+sudo kill -HUP 4796
+sudo vim prometheus.yml 
+sudo kill -HUP 4796
+./prometheus --config.file=prometheus.yml 
+sudo kill -HUP 4796
+sudo vim prometheus.yml 
+sudo kill -HUP 4796
+sudo vim prometheus.yml 
+sudo kill -HUP 4796
+./prometheus --config.file=prometheus.yml 
+sudo vim prometheus.yml 
+./prometheus --config.file=prometheus.yml 
+sudo kill -HUP 4796
+sudo vim prometheus.yml 
+sudo kill -HUP 4796
+./prometheus --config.file=prometheus.yml 
+sudo kill -HUP 4796
+sudo vim prometheus.yml 
+sudo kill -HUP 4796
+date
+sudo vim prometheus.yml 
+sudo kill -HUP 4796
+./prometheus --config.file=prometheus.yml 
+sudo kill -HUP 4796
+sudo vim prometheus.yml 
+./prometheus --config.file=prometheus.yml 
+sudo kill -HUP 4796
+sudo vim prometheus.yml 
+sudo kill -HUP 4796
+sudo vim prometheus.yml 
+sudo kill -HUP 4796
+sudo vim prometheus.yml 
+sudo kill -HUP 4796
+sudo vim prometheus.yml 
+sudo kill -HUP 4796
+sudo vim prometheus.yml 
+sudo kill -HUP 4796
+sudo vim prometheus.yml 
+sudo kill -HUP 4796
+sudo vim prometheus.yml 
+sudo kill -HUP 4796
+sudo vim prometheus.yml 
+sudo kill -HUP 4796
+curl http://localhost:<new port>/metrics
+curl http://localhost:9500/metrics
+curl http://localhost:9100/metrics
+sudo vim prometheus.yml 
+sudo kill -HUP 4796
+sudo vim prometheus.yml 
+sudo kill -HUP 4796
+./prometheus --config.file=prometheus.yml 
+sudo kill -HUP 4796
+sudo vim prometheus.yml 
+./prometheus --config.file=prometheus.yml 
+sudo kill -HUP 4796
+sudo vim prometheus.yml 
+killall -HUP prometheus
+journalctl -eu prometheus
+sudo vim prometheus.yml 
+killall -HUP prometheus
+journalctl -eu prometheus
+./prometheus --config.file=prometheus.yml 
+killall -HUP prometheus
+ps -eaf | grep
+ps -eaf | grep no
+killall -term prometheus
+killall -Term prometheus
+kill -Term prometheus
+kill -Term 10270
+sudo kill -Term 10270
+ps -eaf | grep no
+sudo kill -Term 13719
+sudo systemctl daemon-reload
+ps -eaf | grep no
+sudo kill -Term 13786
+ps -eaf | grep no
+systemctl restart node_exporter
+sudo systemctl restart node_exporter
+netstat -tulpn | grep :9100
+netstat -tulpn
+sudo netstat -tulpn
+curl http://localhost:9100/metrics
+sudo ufw app list
+sudo systemctl restart node_exporter
+ps -eaf | grep no
+killall -HUP prometheus
+ls
+vim prometheus.yml 
+sudo ufw status
+./node_exporter -log.level debug -web.listen-address ":9101"
+ls
+cd ..
+ls
+killall -HUP prometheus
+journalctl -eu prometheus
+killall -HUP prometheus
+vim prometheus.yml 
+ls
+cd prometheus
+ls
+vim prometheus.yml 
+killall -HUP prometheus
+vim prometheus.yml 
+killall -HUP prometheus
+vim prometheus.yml 
+killall -HUP prometheus
+vim prometheus.yml 
+killall -HUP prometheus
+http://20.211.185.153/curl http://20.211.185.153:9100/metrics
+curl http://20.58.164.44:9100/metrics
+ping 20.58.164.44
+vim /etc/hosts
+ping mgmt-b.foo.org.nz
+curl http://mgmt-b.foo.org.nz:9100/metrics
+vim prometheus.yml 
+killall -HUP prometheus
+vim prometheus.yml 
+killall -HUP prometheus
+vim prometheus.yml 
+killall -HUP prometheus
+vim prometheus.yml 

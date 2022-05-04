@@ -2,6 +2,7 @@
 global:
   scrape_interval:     15s # Set the scrape interval to every 15 seconds. Default is every 1 minute.
   evaluation_interval: 15s # Evaluate rules every 15 seconds. The default is every 1 minute.
+  scrape_timeout: 10s
   # scrape_timeout is set to the global default (10s).
 
 # Alertmanager configuration
@@ -29,5 +30,5 @@ scrape_configs:
 
   - job_name: 'node'
     static_configs:
-    - targets: ['20.211.185.153:9100', '20.58.164.44:9100']
+    - targets: ['backup-b.foo.org.nz:9100', 'mgmt-b.foo.org.nz:9100', 'app-b.foo.org.nz:9100', 'db-b.foo.org.nz:9100']
 
