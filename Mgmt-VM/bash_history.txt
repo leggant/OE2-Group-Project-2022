@@ -1070,3 +1070,151 @@ git add .
 git status
 git pull
 exit
+wget https://github.com/prometheus/node_exporter/releases/download/v1.0.0-rc.0/node_exporter-1.0.0-rc.0.linux-amd64.tar.gz
+ls
+tar -xvf node_exporter-1.0.0-rc.0.linux-amd64.tar.gz 
+ls
+cd node_exporter-1.0.0-rc.0.linux-amd64/
+ls
+./node_exporter 
+ps -eaf | no
+ps -eaf | grep no
+kill -HUB 5019
+sudo kill -HUB 5019
+sudo kill -HUP 5019
+ls
+cd ..
+ls
+./node_exporter &
+cd node_exporter-1.0.0-rc.0.linux-amd64/
+./node_exporter &
+wget https://github.com/prometheus/prometheus/releases/download/v2.18.0-rc.1/prometheus-2.18.0-rc.1.linux-amd64.tar.gz
+ls
+tar -xvf prometheus-2.18.0-rc.1.linux-amd64.tar.gz 
+ls
+cd prometheus-2.18.0-rc.1.linux-amd64/
+ls
+vim prometheus.yml 
+ls./prometheus --config.file=prometheus.yml
+ls
+./prometheus --config.file=prometheus.yml
+vim prometheus.yml 
+./prometheus --config.file=prometheus.yml 
+./node_exporter &
+ls
+cd ..
+ls
+./node_exporter &
+./prometheus --config.file=prometheus.yml 
+cd ..
+cd node_exporter-1.0.0-rc.0.linux-amd64/
+./prometheus --config.file=prometheus.yml 
+ls
+cd prometheus-2.18.0-rc.1.linux-amd64/
+./prometheus --config.file=prometheus.yml 
+ls
+cd ..
+ls
+cd ..
+ls
+sudo rm -r node_exporter-1.0.0-rc.0.linux-amd64
+sudo rm node_exporter-1.0.0-rc.0.linux-amd64.tar.gz 
+ls
+ps -eaf | grep nod
+kill -HUP 2962
+sudo ufw allow 9090
+statmas
+ps -eaf | grep nod
+ls
+cd /etc
+ls
+date
+ls
+cd ..
+ps -eaf | grep nod
+ls
+cd ~
+wget https://github.com/prometheus/node_exporter/releases/download/v1.0.0-rc.0/node_exporter-1.0.0-rc.0.linux-amd64.tar.gz
+ls
+tar -xvf node_exporter-1.0.0-rc.0.linux-amd64.tar.gz 
+cd node_exporter-1.0.0-rc.0.linux-amd64/
+ls
+./node_exporter 
+ls
+cd ..
+ls
+sudo rm node_exporter-1.0.0-rc.0.linux-amd64
+sudo rm node_exporter-1.0.0-rc.0.linux-amd64 -er
+sudo rm node_exporter-1.0.0-rc.0.linux-amd64 -r
+sudo rm node_exporter-1.0.0-rc.0.linux-amd64 
+sudo rm node_exporter-1.0.0-rc.0.linux-amd64.tar.gz 
+ls
+wget https://github.com/prometheus/node_exporter/releases/download/v*/node_exporter-*.*-amd64.tar.gz
+sudo wget node_exporter-1.3.1.linux-amd64.tar.gz
+sudo wget https://github.com/prometheus/node_exporter/releases/download/v1.3.1/node_exporter-1.3.1.linux-amd64.tar.gz
+tar xvfz node_exporter-*.*-amd64.tar.gz
+cd node_exporter-*.*-amd64
+./node_exporter
+sudo ./node_exporter
+curl http://localhost:9100/metrics
+./node_exporter &
+curl http://localhost:9100/metrics
+./node_exporter &
+ps -eaf | grep no
+kill -HUP 9269
+ps -eaf | grep no
+./node_exporter &
+sudo ./node_exporter
+sudo ./node_exporter -p 9200
+sudo ./node_exporter --help
+sudo ./node_exporter --web.listen-address=:9500
+ls
+cd ..
+ls
+mv node_exporter-1.3.1.linux-amd64 node-exporter
+ls
+cd node-exporter/
+ls
+cd /etc/systemd/system/
+sudo vim node-exporter.service
+systemctl daemon-reload
+sudo systemctl daemon-reload
+statmas
+udo systemctl status node-exporter
+sudo systemctl status node-exporter
+sudo systemctl start node-exporter
+sudo systemctl status node-exporter
+sudo vim node-exporter.service
+pwd
+ls
+sudo vim node-exporter.service
+pwd
+sudo vim node-exporter.service
+sudo systemctl restart node-exporter
+systemctl daemon-reload
+sudo systemctl daemon-reload
+sudo systemctl restart node-exporter
+sudo systemctl status node-exporter
+cd ~
+ls
+pwd
+sudo vim node-exporter.service
+cd /etc/systemd/system/
+sudo vim node-exporter.service
+sudo systemctl daemon-reload
+sudo systemctl restart node-exporter
+sudo systemctl status node-exporter
+cd ~
+cd node-exporter/
+pwd
+ls
+cd /etc/systemd/system
+sudo vim node-exporter.service
+sudo systemctl daemon-reload
+sudo systemctl restart node-exporter
+sudo systemctl status node-exporter
+cd /etc/systemd/system/
+sudo vim node-exporter.service
+ps -eaf | grep node-exporter
+kill -HUP 14095
+kill -HUP 2820
