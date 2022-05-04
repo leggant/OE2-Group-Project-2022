@@ -26,6 +26,7 @@ scrape_configs:
     # scheme defaults to 'http'.
     static_configs:
     - targets: ['20.211.185.153:9090']
+
   - job_name: 'node'
     static_configs:
     - targets: ['20.211.185.153:9100', '20.58.164.44:9100']
