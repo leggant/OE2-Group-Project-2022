@@ -9,9 +9,9 @@ global:
 alerting:
   alertmanagers:
   - static_configs:
-    - targets: ['backup-b.foo.org.nz:9093']
+    - targets: ['20.211.185.153:9093']
 
-# Load rules once and periodically evaluate them according to the global 'evaluation_interval'.
+      # Load rules once and periodically evaluate them according to the global 'evaluation_interval'.
 rule_files:
   - "rules.yml"
   # - "second_rules.yml"
@@ -32,4 +32,4 @@ scrape_configs:
     - targets: ['backup-b.foo.org.nz:9100', 'mgmt-b.foo.org.nz:9100', 'app-b.foo.org.nz:9100', 'db-b.foo.org.nz:9100']
   - job_name: 'alertmanager'
     static_configs:
-    - targets: ['backup-b.foo.org.nz:9093']
+            - targets: ['20.211.185.153:9100']
