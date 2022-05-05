@@ -1104,3 +1104,6 @@ sudo systemctl restart node-exporter
 sudo systemctl enable node-exporter
 sudo systemctl status node-exporter
 sudo reboot
+sudo systemctl status node-exporter
+sudo systemctl daemon-reload
+sudo reboot
