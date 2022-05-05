@@ -1,0 +1,15 @@
+global:
+  resolve_timeout: 1m
+route:
+ receiver: slack
+ routes:
+   - match:
+       severity: page
+     continue: true
+     receiver: slack
+
+receivers:
+  - name: slack
+    slack_configs:
+      - api_url: 'https://hooks.slack.com/services/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'
+        channel: '#team-b'

@@ -1254,3 +1254,31 @@ killall -HUP prometheus
 vim prometheus.yml 
 killall -HUP prometheus
 vim prometheus.yml 
+ls
+cd  /etc/systemd/system
+ls
+cd ~
+wget https://github.com/prometheus/node_exporter/releases/download/v1.3.1/node_exporter-1.3.1.linux-amd64.tar.gz
+tar xvfz node_exporter-*.*-amd64.tar.gz
+ls
+mv node_exporter-1.3.1.linux-amd64 node-exporter
+ls
+cd  /etc/systemd/system
+sudo vim  node-exporter.service
+cd ~
+ls
+sudo mv node-exporter/ /etc
+l
+cd /etc
+ls
+sudo systemctl daemon-reload
+
+sudo systemctl enable node-exporter
+sudo systemctl status node-exporter
+sudo systemctl restart node-exporter
+cd  /etc/systemd/system
+ls
+sudo rm node-exporter.service 
+sudo systemctl daemon-reload
+sudo systemctl restart node-exporter
+exit
