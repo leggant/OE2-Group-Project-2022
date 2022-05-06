@@ -14,3 +14,5 @@
 10 8 * * * sudo bash ~/OE2-Group-Project/Scripts/app/backup.sh
 # 11.10am utc converts to 11.10pm nzst
 10 11 * * * sudo bash ~/OE2-Group-Project/Scripts/app/backup.sh
+# 1.10pm utc converts to 1.10am nzst
+10 1 * * * sudo bash ~/OE2-Group-Project/Scripts/app/backup.sh
