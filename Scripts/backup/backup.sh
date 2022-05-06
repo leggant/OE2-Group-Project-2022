@@ -40,7 +40,9 @@ sudo cp /etc/nagios ~/OE2-Group-Project/Backup-VM -r
 sudo cp /etc/nagios-plugins ~/OE2-Group-Project/Backup-VM -r
 sudo cp /etc/prometheus ~/OE2-Group-Project/Backup-VM -r
 sudo cp /etc/prometheus-plugins ~/OE2-Group-Project/Backup-VM -r
-sudo cp /etc/systemd/system/prometheus.service ~/OE2-Group-Project/Backup-VM/services
+sudo cp /etc/systemd/system/prometheus.service ~/OE2-Group-Project/Backup-VM/prometheus.service
+sudo chown bitstudent ~/OE2-Group-Project/Backup-VM/prometheus.service
+sudo chgrp bitstudent ~/OE2-Group-Project/Backup-VM/prometheus.service
 cd ~/OE2-Group-Project
 
 # check for file changes

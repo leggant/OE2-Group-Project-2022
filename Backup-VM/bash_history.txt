@@ -1296,3 +1296,11 @@ sudo rm node_exporter-1.3.1.linux-amd64.tar.gz
 sudo rm alertmanager-0.24.0.linux-amd64.tar.gz 
 ls
 exit
+sudo apt install sysdig
+sudo csysdig 
+exit
+cd OE2-Group-Project/Scripts/backup/
+sudo nano backup.sh 
+exit
+statpup
+statnag
