@@ -14,6 +14,7 @@ sudo chmod 774 ./**
 cd objects
 sudo chgrp bitstudent ./**
 sudo chown bitstudent ./**
+sudo chmod 774 ./**
 cd ~/OE2-Group-Project
 git pull
 cd ~/
@@ -28,7 +29,6 @@ sudo chmod go+r ~/OE2-Group-Project/Db-VM/hosts
 sudo cp /etc/puppet ~/OE2-Group-Project/Db-VM -r
 sudo cp /etc/apache2 ~/OE2-Group-Project/Db-VM -r
 sudo cp /etc/mysql ~/OE2-Group-Project/Db-VM -r
-history -w
 sudo cp ~/.bash_history ~/OE2-Group-Project/Db-VM/bash_history.txt
 sudo chown bitstudent ~/OE2-Group-Project/Db-VM/bash_history.txt
 sudo chgrp bitstudent ~/OE2-Group-Project/Db-VM/bash_history.txt
@@ -42,6 +42,9 @@ sudo chgrp bitstudent ~/OE2-Group-Project/Db-VM/mysql/debian.cnf
 sudo chown bitstudent ~/OE2-Group-Project/Db-VM/mysql/debian.cnf
 sudo cp /etc/nagios ~/OE2-Group-Project/Db-VM -r
 sudo cp /etc/nagios-plugins ~/OE2-Group-Project/Db-VM -r
+sudo cp /etc/systemd/system/node-exporter.service ~/OE2-Group-Project/Db-VM/node-exporter.service
+sudo chown bitstudent ~/OE2-Group-Project/Db-VM/node-exporter.service
+sudo chgrp bitstudent ~/OE2-Group-Project/Db-VM/node-exporter.service
 cd ~/OE2-Group-Project
 
 # check for file changes
@@ -51,7 +54,7 @@ if [ -z "$(git status --porcelain)" ]; then
   cd ~/
 else 
   COMMIT_TIMESTAMP=`date +'%d-%m-%Y %H:%M:%S %Z'`
-  git status
+  history -w
   git add .
   git commit -m "db: automated system backup" -m "completed: $COMMIT_TIMESTAMP" -m "db-b"
   git push
