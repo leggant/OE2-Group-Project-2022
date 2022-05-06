@@ -49,6 +49,7 @@ sudo chgrp bitstudent ~/OE2-Group-Project/Mgmt-VM/bashrc
 sudo chmod go+r ~/OE2-Group-Project/Mgmt-VM/bashrc
 sudo cp /etc/nagios ~/OE2-Group-Project/Mgmt-VM -r
 sudo cp /etc/nagios-plugins ~/OE2-Group-Project/Mgmt-VM -r
+sudo cp /etc/systemd/system/node-exporter.service ~/OE2-Group-Project/Mgmt-VM/services
 cd ~/OE2-Group-Project
 
 # check for file changes

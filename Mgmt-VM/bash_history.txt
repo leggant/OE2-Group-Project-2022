@@ -1218,3 +1218,7 @@ sudo vim node-exporter.service
 ps -eaf | grep node-exporter
 kill -HUP 14095
 kill -HUP 2820
+cd /etc/systemd/system/
+ls
+sudo nano ~/OE2-Group-Project/Scripts/mgmt/backup.sh
+exit
