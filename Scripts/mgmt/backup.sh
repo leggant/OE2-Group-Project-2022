@@ -51,8 +51,9 @@ sudo cp /etc/nagios ~/OE2-Group-Project/Mgmt-VM -r
 sudo cp /etc/nagios-plugins ~/OE2-Group-Project/Mgmt-VM -r
 sudo cp /etc/node-exporter ~/OE2-Group-Project/Mgmt-VM/node-exporter -r
 sudo cp /etc/systemd/system/node-exporter.service ~/OE2-Group-Project/Mgmt-VM/node-exporter/node-exporter.service
-sudo chown -R bitstudent ~/OE2-Group-Project/Mgmt-VM
-sudo chgrp -R bitstudent ~/OE2-Group-Project/Mgmt-VM
+sudo chown -R bitstudent ~/OE2-Group-Project
+sudo chgrp -R bitstudent ~/OE2-Group-Project
+sudo chmod -R 775 ~/OE2-Group-Project 
 cd ~/OE2-Group-Project
 
 # check for file changes
