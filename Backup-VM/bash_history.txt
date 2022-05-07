@@ -1366,3 +1366,12 @@ cd Scripts/backup/
 cd ~/OE2-Group-Project/
 git pull
 exit
+cd OE2-Group-Project/
+bash Scripts/backup/backup.sh 
+cd .git
+ls -al
+cd ..
+cd Scripts/
+ls -al
+cd backup/
+ls -al
