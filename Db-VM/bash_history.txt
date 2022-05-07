@@ -1153,3 +1153,13 @@ sudo kill 27678
 sudo sysdig -r dumpfile.scap
 cd OE2-Group-Project/Scripts/db/
 sudo nano backup.sh 
+cd /etc/
+ls
+cd ~
+ls
+sudo chown -R bitstudent ~/OE2-Group-Project/Db-VM
+cd /etc/systemd/system
+ls
+cd ~/OE2-Group-Project/
+git pull
+exit
