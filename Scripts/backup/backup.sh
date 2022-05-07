@@ -37,8 +37,8 @@ sudo chgrp bitstudent ~/OE2-Group-Project/Backup-VM/bashrc
 sudo chmod go+r ~/OE2-Group-Project/Backup-VM/bashrc
 sudo cp /etc/nagios ~/OE2-Group-Project/Backup-VM -r
 sudo cp /etc/nagios-plugins ~/OE2-Group-Project/Backup-VM -r
-sudo cp /etc/prometheus/console_libraries/ ~/OE2-Group-Project/Backup-VM/prometheus/console_libraries/ -r
-sudo cp /etc/prometheus/consoles/ ~/OE2-Group-Project/Backup-VM/prometheus/consoles/ -r
+sudo cp /etc/prometheus/console_libraries/ ~/OE2-Group-Project/Backup-VM/prometheus/ -r
+sudo cp /etc/prometheus/consoles/ ~/OE2-Group-Project/Backup-VM/prometheus/ -r
 sudo cp /etc/prometheus/prometheus ~/OE2-Group-Project/Backup-VM/prometheus/prometheus
 sudo cp /etc/prometheus/prometheus.yml ~/OE2-Group-Project/Backup-VM/prometheus/prometheus.yml
 sudo cp /etc/prometheus/rules.yml ~/OE2-Group-Project/Backup-VM/prometheus/rules.yml
