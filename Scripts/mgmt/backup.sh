@@ -33,8 +33,8 @@ sudo cp ~/.bashrc ~/OE2-Group-Project/Mgmt-VM/bashrc
 sudo chmod go+r ~/OE2-Group-Project/Mgmt-VM/bashrc
 sudo cp /etc/nagios ~/OE2-Group-Project/Mgmt-VM -r
 sudo cp /etc/nagios-plugins ~/OE2-Group-Project/Mgmt-VM -r
-sudo cp /etc/node-exporter ~/OE2-Group-Project/Mgmt-VM/node-exporter -r
-sudo cp /etc/systemd/system/node-exporter.service ~/OE2-Group-Project/Mgmt-VM/node-exporter/node-exporter.service
+sudo cp /etc/prometheus-plugins ~/OE2-Group-Project/Mgmt-VM/prometheus-plugins -r
+sudo cp /etc/systemd/system/node-exporter.service ~/OE2-Group-Project/Mgmt-VM/prometheus-plugins/node-exporter.service
 sudo chown -R bitstudent ~/OE2-Group-Project/Mgmt-VM
 sudo chgrp -R bitstudent ~/OE2-Group-Project/Mgmt-VM
 sudo chmod -R 775 ~/OE2-Group-Project/Scripts
