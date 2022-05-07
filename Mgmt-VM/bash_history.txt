@@ -1218,3 +1218,144 @@ sudo vim node-exporter.service
 ps -eaf | grep node-exporter
 kill -HUP 14095
 kill -HUP 2820
+cd /etc/systemd/system/
+ls
+sudo nano ~/OE2-Group-Project/Scripts/mgmt/backup.sh
+exit
+ls
+cd /etc
+ls
+cd nagios3/
+ls
+vim nagios.cfg 
+cd nagios
+ls
+cd ..
+cd nagios
+ls
+cd ..
+l
+ls
+exit
+cd OE2-Group-Project/
+git pull
+cd Mgmt-VM/
+ls
+sudo rm services 
+cd ..
+ls
+git status
+git add .
+cd Mgmt-VM/node_exporter/
+ls
+cd ..
+ls
+git pull
+cd ..
+ls
+git pull
+git fetch
+ls
+git pull
+git status
+git fetch
+git status
+git pull
+git status
+cd Mgmt-VM/
+ls
+cd node_exporter/
+ls
+ls -al
+cd ..
+ls
+cd ..
+ls
+cd Scripts/
+ls -al
+cd mgmt/
+ls -al
+exit
+cd OE2-Group-Project/Scripts/
+ls -al
+cd mgmt/
+ls -al
+cd ..
+ls 
+cd ..
+ls
+sudo chown -R bitstudent Scripts/
+sudo chgrp -R bitstudent Scripts/
+chmod 774 -R Scripts/
+cd Scripts/
+ls
+ls -al
+cd mgmt/
+ls -al
+cd ..
+ls
+cd mgmt/
+ls
+sudo nano backup.sh 
+sudo chmod -R 775 ~/OE2-Group-Project 
+ls
+cd ~/OE2-Group-Project/
+ls -al
+cd .git
+ls -al
+cd ..
+ls
+git pull
+git status
+git add .
+git status
+ls
+cd Scripts/mgmt/
+ls -al
+sudo nano backup.sh 
+git pull
+ls -al
+cd ..
+ls
+cd Scripts/
+cd app/
+ls -al
+cd ..
+ls
+cd mgmt/
+sudo nano backup.sh 
+ls
+cd ..
+ls
+git add .
+git status
+git commit -m "mgmt: updated backup script"
+git push
+git pull
+exit
+cd OE2-Group-Project/
+sudo nano Scripts/mgmt/backup.sh 
+bash Scripts/mgmt/backup.sh 
+cd /etc/
+ls
+cd prometheus-plugins/
+ls 
+cd ~/OE2-Group-Project/
+sudo nano Scripts/mgmt/backup.sh 
+bash Scripts/mgmt/backup.sh 
+sudo nano Scripts/mgmt/backup.sh 
+cd Mgmt-VM/
+ls
+sudo rm node_exporter/ -r
+cd ..
+bash Scripts/mgmt/backup.sh 
+cd //
+cd ..
+ls
+cd ~/OE2-Group-Project/
+bash Scripts/mgmt/backup.sh 
+cd Mgmt-VM/
+ls
+cd ..
+ls
+exit

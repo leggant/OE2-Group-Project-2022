@@ -23,22 +23,21 @@ cd ~/
 
 sudo cp /etc/puppet/ ~/OE2-Group-Project/App-VM/ -r
 sudo cp /etc/hosts ~/OE2-Group-Project/App-VM/hosts
-sudo chown bitstudent ~/OE2-Group-Project/App-VM/hosts
-sudo chgrp bitstudent ~/OE2-Group-Project/App-VM/hosts
 sudo chmod go+r ~/OE2-Group-Project/App-VM/hosts
 sudo cp /etc/puppet/ ~/OE2-Group-Project/App-VM/ -r
 sudo cp /etc/apache2/ ~/OE2-Group-Project/App-VM/ -r
 sudo cp /etc/mysql/ ~/OE2-Group-Project/App-VM/ -r
 sudo cp ~/.bash_history ~/OE2-Group-Project/App-VM/bash_history.txt
-sudo chown bitstudent ~/OE2-Group-Project/App-VM/bash_history.txt
-sudo chgrp bitstudent ~/OE2-Group-Project/App-VM/bash_history.txt
 sudo chmod go+r ~/OE2-Group-Project/App-VM/bash_history.txt
 sudo cp ~/.bashrc ~/OE2-Group-Project/App-VM/bashrc
-sudo chown bitstudent ~/OE2-Group-Project/App-VM/bashrc
-sudo chgrp bitstudent ~/OE2-Group-Project/App-VM/bashrc
 sudo chmod go+r ~/OE2-Group-Project/App-VM/bashrc
 sudo cp /etc/nagios ~/OE2-Group-Project/App-VM -r
 sudo cp /etc/nagios-plugins ~/OE2-Group-Project/App-VM -r
+sudo cp /etc/node-exporter ~/OE2-Group-Project/App-VM/node-exporter -r
+sudo cp /etc/systemd/system/node-exporter.service ~/OE2-Group-Project/App-VM/node-exporter/node-exporter.service
+sudo chown -R bitstudent ~/OE2-Group-Project/App-VM
+sudo chgrp -R bitstudent ~/OE2-Group-Project/App-VM
+sudo chmod -R 775 ~/OE2-Group-Project/Scripts
 cd ~/OE2-Group-Project
 
 # check for file changes

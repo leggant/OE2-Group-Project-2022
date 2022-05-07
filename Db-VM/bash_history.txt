@@ -998,3 +998,168 @@ cd Scripts/db
 ls
 sudo nano backup.sh 
 budb
+cd OE2-Group-Project/
+git pull
+sudo chmod 774 ./.git
+sudo chmod 774 .gitignore
+cd .git/
+sudo chown bitstudent FETCH_HEAD
+sudo chgrp bitstudent FETCH_HEAD
+sudo chown bitstudent ORIG_HEAD
+sudo chgrp bitstudent ORIG_HEAD
+sudo chmod 774 ./**
+cd objects
+sudo chgrp bitstudent ./**
+sudo chown bitstudent ./**
+cd ~/OE2-Group-Project
+git pull
+git stash
+git pull
+ls
+cd Scripts/db
+ls
+sudo nano backup.sh 
+budb
+git add .
+ls
+git commit -m "db: update of gh backup script." -m "add permissions at the start of the script to ensure it has the ability to run" -m "db-b"
+git push
+exit
+cd OE2-Group-Project/Scripts/db
+sudo nano backup.sh 
+cd ~/OE2-Group-Project
+sudo chmod 774 ./.git
+sudo chmod 774 .gitignore
+cd .git/
+sudo chown bitstudent FETCH_HEAD
+sudo chgrp bitstudent FETCH_HEAD
+sudo chown bitstudent ORIG_HEAD
+sudo chgrp bitstudent ORIG_HEAD
+sudo chmod 774 ./**
+cd objects
+sudo chgrp bitstudent ./**
+sudo chown bitstudent ./**
+sudo chmod 774 ./**
+cd ~/OE2-Group-Project
+ls
+git pull
+exit
+wget https://github.com/prometheus/node_exporter/releases/download/v1.3.1/node_exporter-1.3.1.linux-amd64.tar.gz
+tar xvfz node_exporter-*.*-amd64.tar.gz
+cd node_exporter-*.*-amd64
+./node_exporter
+./node_exporter &
+sudo reboot
+sudo systemctl status node-exporter
+ps -eaf | grep no
+ls
+git pull
+sudo mv node_exporter-1.3.1.linux-amd64 /etc/prometheus-plugins/node_exporter -p
+sudo mv node_exporter-1.3.1.linux-amd64 /etc/prometheus-plugins/node_exporter
+sudo mv node_exporter-1.3.1.linux-amd64 node_exporter
+sudo mv node_exporter /etc/
+cd /etc
+ls
+cd node_exporter/
+ls
+./node_exporter
+cd systemd/
+ls
+cd ..
+ls
+cd systemd/system/
+ls
+sudo nano node-exporter.service
+sudo systemctl daemon-reload
+sudo systemctl restart node-exporter
+sudo systemctl status node-exporter
+sudo systemctl enable node_exporter
+sudo systemctl enable node-exporter
+sudo reboot
+cd OE2-Group-Project/Scripts/db/
+ls
+sudo nano backup.sh 
+cd /etc/systemd/system/
+ls
+cd ~/OE2-Group-Project/Scripts/db/
+sudo nano backup.sh 
+exit
+sudo apt install sysdig
+sudo csysdig
+sudo csysdig -h
+sudo csysdig --logfile=~/csysdig.txt
+ls
+sudo rm node_exporter-1.3.1.linux-amd64.tar.gz 
+touch csysdig.txt
+ls
+sudo csysdig --logfile=~/csysdig.txt
+sudo csysdig --logfile=csysdig.txt
+ls
+cat csysdig.txt 
+sudo csysdig -h
+sudo csysdig -l
+sudo csysdig syslog.severity.str
+sudo csysdig -l
+sudo csysdig -h
+sudo csysdig -A syslog.severity.str
+sudo csysdig -l
+sudo sysdig -c echo_fds
+sudo sysdig -w extime.scap -c proc_exec_time
+sudo sysdig -c spy_logs
+sudo sysdig -c list_login_shells 
+sudo sysdig -c spy_users
+sudo sysdig -c spy_users -s 3000 -w trace.scap
+sudo sysdig -c spy_users -s 3000 -w trace.scap &
+sudo sysdig -r trace.scap
+to
+sudo kill 27176
+sudo csysdig
+ls /usr/share/sysdig/chisels
+sudo sysdig -h
+sudo sysdig -lv
+sudo sysdig -h
+sudo sysdig process.name=prometheus evt.failed=true
+sudo sysdig process.name=puppet evt.failed=true
+sudo sysdig evt.failed=true
+sudo sysdig process.name=mysqld evt.failed=true
+sudo sysdig process.name=ntpd evt.failed=true
+sudo sysdig proc.name=ntpd evt.failed=true
+sudo sysdig proc.name=ntpd and evt.failed=true
+sudo sysdig -cl
+sudo sysdig spy_users
+sudo sysdig -c spy_users
+sudo sysdig -c spy_users -h
+sudo sysdig -c spy_users -L
+sudo sysdig -c spy_users -h
+sudo sysdig -c spy_users -S
+sudo sysdig spy_users -S -w
+sudo sysdig -S spy_users
+sudo sysdig -c spy_users 
+sudo sysdig -c spy_users -S and evt.failed=true -w dumpfile.scap
+sudo sysdig -c spy_users -w dumpfile.scap evt.failed=true
+ls -al
+cat dumpfile.scap 
+sudo sysdig -c spy_users -w dumpfile.scap evt.failed=true -S
+sudo sysdig -c spy_users -w dumpfile.scap evt.failed=true &
+sudo sysdig -r dumpfile.scap
+sudo sysdig spy_users -w dumpfile.scap evt.failed=true &
+sudo sysdig -c spy_users -w dumpfile.scap evt.failed=true &
+top
+sudo kill 27621
+sudo kill 27660
+sudo sysdig -c spy_users -w dumpfile.scap evt.failed=true &
+top
+sudo kill 27678
+sudo sysdig -r dumpfile.scap
+cd OE2-Group-Project/Scripts/db/
+sudo nano backup.sh 
+cd /etc/
+ls
+cd ~
+ls
+sudo chown -R bitstudent ~/OE2-Group-Project/Db-VM
+cd /etc/systemd/system
+ls
+cd ~/OE2-Group-Project/
+git pull
+exit

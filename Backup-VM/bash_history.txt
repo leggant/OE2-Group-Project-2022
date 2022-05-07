@@ -1282,3 +1282,96 @@ sudo rm node-exporter.service
 sudo systemctl daemon-reload
 sudo systemctl restart node-exporter
 exit
+cd OE2-Group-Project/Scripts/backup/
+ls
+sudo nano backup.sh 
+cd /etc/systemd/system/
+ls
+cd ~
+ls
+cd OE2-Group-Project/Scripts/backup/
+sudo nano backup.sh 
+cd ~
+sudo rm node_exporter-1.3.1.linux-amd64.tar.gz 
+sudo rm alertmanager-0.24.0.linux-amd64.tar.gz 
+ls
+exit
+sudo apt install sysdig
+sudo csysdig 
+exit
+cd OE2-Group-Project/Scripts/backup/
+sudo nano backup.sh 
+exit
+statpup
+statnag
+cd OE2-Group-Project/
+git pull
+cd Mgmt-VM/
+ls
+cd node_exporter/
+ls
+cd ..
+sudo rm -r prometheus-plugins/
+sudo rm services 
+cd ..
+git pull
+cd Mgmt-VM/
+ls -al
+cd ..
+exit
+cd OE2-Group-Project/Scripts/
+ls -al
+cd backup/
+ls -al
+sudo nano backup.sh 
+exit
+cd OE2-Group-Project/
+git pull
+cd ..
+sudo rm OE2-Group-Project/
+sudo rm OE2-Group-Project/ -r
+git clone https://github.com/leggant/OE2-Group-Project.git
+ls -al
+cd OE2-Group-Project/
+ls -al
+cd .git
+ls -al
+cd ..
+cd Scripts/
+ls -ak
+ls -al
+cd backup/
+ls -al
+sudo nano backup.sh 
+cd ..
+cd..
+cd ..
+ls 
+git add ,
+git add .
+git status
+git commit -m "backup: correct script path" -m "backup-b"
+git push
+cd Scripts/backup/
+sudo nano backup.sh 
+cd ~/OE2-Group-Project/
+git add .
+git commit -m "backup: correct script path" -m "backup-b"
+git push
+ls -al
+cd .git
+ls -al
+cd ..
+cd Scripts/backup/
+cd ~/OE2-Group-Project/
+git pull
+exit
+cd OE2-Group-Project/
+bash Scripts/backup/backup.sh 
+cd .git
+ls -al
+cd ..
+cd Scripts/
+ls -al
+cd backup/
+ls -al
