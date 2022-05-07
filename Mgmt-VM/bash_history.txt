@@ -1333,3 +1333,29 @@ git commit -m "mgmt: updated backup script"
 git push
 git pull
 exit
+cd OE2-Group-Project/
+sudo nano Scripts/mgmt/backup.sh 
+bash Scripts/mgmt/backup.sh 
+cd /etc/
+ls
+cd prometheus-plugins/
+ls 
+cd ~/OE2-Group-Project/
+sudo nano Scripts/mgmt/backup.sh 
+bash Scripts/mgmt/backup.sh 
+sudo nano Scripts/mgmt/backup.sh 
+cd Mgmt-VM/
+ls
+sudo rm node_exporter/ -r
+cd ..
+bash Scripts/mgmt/backup.sh 
+cd //
+cd ..
+ls
+cd ~/OE2-Group-Project/
+bash Scripts/mgmt/backup.sh 
+cd Mgmt-VM/
+ls
+cd ..
+ls
+exit
