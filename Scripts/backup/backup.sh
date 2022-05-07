@@ -48,8 +48,8 @@ sudo cp /etc/prometheus/lock ~/OE2-Group-Project/Backup-VM/prometheus/lock
 sudo cp /etc/prometheus/NOTICE ~/OE2-Group-Project/Backup-VM/prometheus/NOTICE
 sudo cp /etc/prometheus-plugins ~/OE2-Group-Project/Backup-VM -r
 sudo cp /etc/systemd/system/prometheus.service ~/OE2-Group-Project/Backup-VM/prometheus-plugins/prometheus.service
-sudo chown bitstudent ~/OE2-Group-Project/Backup-VM/prometheus-plugins/prometheus.service
-sudo chgrp bitstudent ~/OE2-Group-Project/Backup-VM/prometheus-plugins/prometheus.service
+sudo chown -R bitstudent ~/OE2-Group-Project/Backup-VM
+sudo chgrp -R bitstudent ~/OE2-Group-Project/Backup-VM
 cd ~/OE2-Group-Project
 
 # check for file changes
