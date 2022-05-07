@@ -1237,3 +1237,42 @@ cd ..
 l
 ls
 exit
+cd OE2-Group-Project/
+git pull
+cd Mgmt-VM/
+ls
+sudo rm services 
+cd ..
+ls
+git status
+git add .
+cd Mgmt-VM/node_exporter/
+ls
+cd ..
+ls
+git pull
+cd ..
+ls
+git pull
+git fetch
+ls
+git pull
+git status
+git fetch
+git status
+git pull
+git status
+cd Mgmt-VM/
+ls
+cd node_exporter/
+ls
+ls -al
+cd ..
+ls
+cd ..
+ls
+cd Scripts/
+ls -al
+cd mgmt/
+ls -al
+exit
