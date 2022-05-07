@@ -1304,3 +1304,18 @@ sudo nano backup.sh
 exit
 statpup
 statnag
+cd OE2-Group-Project/
+git pull
+cd Mgmt-VM/
+ls
+cd node_exporter/
+ls
+cd ..
+sudo rm -r prometheus-plugins/
+sudo rm services 
+cd ..
+git pull
+cd Mgmt-VM/
+ls -al
+cd ..
+exit
