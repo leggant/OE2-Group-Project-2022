@@ -1319,3 +1319,50 @@ cd Mgmt-VM/
 ls -al
 cd ..
 exit
+cd OE2-Group-Project/Scripts/
+ls -al
+cd backup/
+ls -al
+sudo nano backup.sh 
+exit
+cd OE2-Group-Project/
+git pull
+cd ..
+sudo rm OE2-Group-Project/
+sudo rm OE2-Group-Project/ -r
+git clone https://github.com/leggant/OE2-Group-Project.git
+ls -al
+cd OE2-Group-Project/
+ls -al
+cd .git
+ls -al
+cd ..
+cd Scripts/
+ls -ak
+ls -al
+cd backup/
+ls -al
+sudo nano backup.sh 
+cd ..
+cd..
+cd ..
+ls 
+git add ,
+git add .
+git status
+git commit -m "backup: correct script path" -m "backup-b"
+git push
+cd Scripts/backup/
+sudo nano backup.sh 
+cd ~/OE2-Group-Project/
+git add .
+git commit -m "backup: correct script path" -m "backup-b"
+git push
+ls -al
+cd .git
+ls -al
+cd ..
+cd Scripts/backup/
+cd ~/OE2-Group-Project/
+git pull
+exit
