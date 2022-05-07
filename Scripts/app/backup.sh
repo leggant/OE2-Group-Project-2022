@@ -39,9 +39,10 @@ sudo chgrp bitstudent ~/OE2-Group-Project/App-VM/bashrc
 sudo chmod go+r ~/OE2-Group-Project/App-VM/bashrc
 sudo cp /etc/nagios ~/OE2-Group-Project/App-VM -r
 sudo cp /etc/nagios-plugins ~/OE2-Group-Project/App-VM -r
-sudo cp /etc/systemd/system/node-exporter.service ~/OE2-Group-Project/App-VM/node-exporter.service
-sudo chown -R bitstudent ~/OE2-Group-Project/App-VM/node-exporter.service
-sudo chgrp bitstudent ~/OE2-Group-Project/App-VM/node-exporter.service
+sudo cp /etc/node-exporter ~/OE2-Group-Project/App-VM/node-exporter -r
+sudo cp /etc/systemd/system/node-exporter.service ~/OE2-Group-Project/App-VM/node-exporter/node-exporter.service
+sudo chown -R bitstudent ~/OE2-Group-Project/App-VM
+sudo chgrp -R bitstudent ~/OE2-Group-Project/App-VM
 cd ~/OE2-Group-Project
 
 # check for file changes

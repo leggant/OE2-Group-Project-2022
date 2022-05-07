@@ -27,7 +27,6 @@ sudo chown bitstudent ~/OE2-Group-Project/Backup-VM/hosts
 sudo chgrp bitstudent ~/OE2-Group-Project/Backup-VM/hosts
 sudo chmod go+r ~/OE2-Group-Project/Backup-VM/hosts
 sudo cp /etc/puppet/ ~/OE2-Group-Project/Backup-VM/ -r
-history -w
 sudo cp ~/.bash_history ~/OE2-Group-Project/Backup-VM/bash_history.txt
 sudo chown bitstudent ~/OE2-Group-Project/Backup-VM/bash_history.txt
 sudo chgrp bitstudent ~/OE2-Group-Project/Backup-VM/bash_history.txt
@@ -48,9 +47,9 @@ sudo cp /etc/prometheus/promtool ~/OE2-Group-Project/Backup-VM/prometheus/promto
 sudo cp /etc/prometheus/lock ~/OE2-Group-Project/Backup-VM/prometheus/lock
 sudo cp /etc/prometheus/NOTICE ~/OE2-Group-Project/Backup-VM/prometheus/NOTICE
 sudo cp /etc/prometheus-plugins ~/OE2-Group-Project/Backup-VM -r
-sudo cp /etc/systemd/system/prometheus.service ~/OE2-Group-Project/Backup-VM/prometheus.service
-sudo chown bitstudent ~/OE2-Group-Project/Backup-VM/prometheus.service
-sudo chgrp bitstudent ~/OE2-Group-Project/Backup-VM/prometheus.service
+sudo cp /etc/systemd/system/prometheus.service ~/OE2-Group-Project/Backup-VM/prometheus-plugins/prometheus.service
+sudo chown bitstudent ~/OE2-Group-Project/Backup-VM/prometheus-plugins/prometheus.service
+sudo chgrp bitstudent ~/OE2-Group-Project/Backup-VM/prometheus-plugins/prometheus.service
 cd ~/OE2-Group-Project
 
 # check for file changes
@@ -60,7 +59,7 @@ if [ -z "$(git status --porcelain)" ]; then
   cd ~/
 else 
   COMMIT_TIMESTAMP=`date +'%d-%m-%Y %H:%M:%S %Z'`
-  git status
+  history -w
   git add .
   git commit -m "backup: automated system backup" -m "completed: $COMMIT_TIMESTAMP" -m "backup-b"
   git push
