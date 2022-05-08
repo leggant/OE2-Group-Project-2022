@@ -1,7 +1,3 @@
-132569 04:17:27.598497952 0 sysdig (25722) < stat res=0 path=/etc/localtime 
-132570 04:17:27.598503252 0 sysdig (25722) > write fd=1 size=92 
-132571 04:17:27.598505552 0 sysdig (25722) > switch next=25194 pgft_maj=0 pgft_min=1465 vm_size=136228 vm_rss=16096 vm_swap=0 
-132572 04:17:27.598507052 0 <NA> (25194) > switch next=17906(sshd) pgft_maj=0 pgft_min=0 vm_size=0 vm_rss=0 vm_swap=0 
 132573 04:17:27.598509453 0 sshd (17906) < select res=1 
 132574 04:17:27.598510453 0 sshd (17906) > clock_gettime 
 132575 04:17:27.598510753 0 sshd (17906) < clock_gettime 
@@ -1998,3 +1994,7 @@ ls
 exit
 cd OE2-Group-Project/
 git pull
+sudo vi ~/.bashrc
+source ~/.bashrc
+buapp
+exit
