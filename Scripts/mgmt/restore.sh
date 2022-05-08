@@ -11,15 +11,12 @@ app=app-b.foo.org.nz
 host=$(hostname)
 if [ $host == $mgmt ]
 then
-echo "This is db"
+
 # This script does personal backups to a rsync backup server. You will end up
 # with a 7 day rotating incremental backup. The incrementals will go
 # into subdirectories named after the day of the week, and the current
 # full backup goes into a directory called "current"
-# tridge@linuxcare.com
-
-# directory to backup
-BDIR=/home/$USER/test
+BDIR=(/home/$USER/test /home/$USER/)
 
 # excludes file - this contains a wildcard pattern per line of files to exclude
 EXCLUDES=$HOME/cron/excludes
