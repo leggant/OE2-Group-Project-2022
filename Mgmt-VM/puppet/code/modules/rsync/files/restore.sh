@@ -42,11 +42,11 @@ export PATH=$PATH:/bin:/usr/bin:/usr/local/bin
 
 # the following line clears the last weeks incremental directory
 [ -d $HOME/emptydir ] || mkdir $HOME/emptydir
-rsync --delete -a $HOME/emptydir/ $BSERVER::$Hostx/backup/mgmt/$BACKUPDIR/
+rsync --delete -a $HOME/emptydir/ $BSERVER@$Hostx/backup/mgmt/$BACKUPDIR/
 rmdir $HOME/emptydir
 
 # now the actual transfer
-rsync $OPTS  $BSERVER::$Hostx/backup/mgmt
+rsync $OPTS $BSERVER@$Hostx/backup/mgmt
 
 
 else
