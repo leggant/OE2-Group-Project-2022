@@ -50,5 +50,5 @@ rsync $OPTS  $BSERVER::$Hostx/backup/mgmt
 
 
 else
-# another vm
+echo "another vm"
 fi
