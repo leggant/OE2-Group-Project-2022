@@ -28,27 +28,38 @@ EXCLUDES=$HOME/cron/excludes
 # the name of the backup machine
 BSERVER=groupb
 Hostx=restore-b.foo.org.nz
-# your password on the backup server
-#export RSYNC_PASSWORD=XXXXXX
 
 
-########################################################################
+#!/bin/bash
 
-BACKUPDIR=`date +%d-%m-%Y`
-OPTS="--force --ignore-errors --include="$BDIR"  --delete-excluded --exclude-from=$EXCLUDES
-      --delete --backup --backup-dir=/$BACKUPDIR -a"
+readonly BACKUP_DIRS=(/home/$USER/test)
 
-export PATH=$PATH:/bin:/usr/bin:/usr/local/bin
+readonly RSYNC_PROFILE="groupb@$Hostx"
+readonly RSYNC_DEFAULTS="-avz"
 
-# the following line clears the last weeks incremental directory
-[ -d $HOME/emptydir ] || mkdir $HOME/emptydir
-rsync --delete -a $HOME/emptydir/ $BSERVER@$Hostx/backup/mgmt/$BACKUPDIR/
-rmdir $HOME/emptydir
+backup_folders() {
+  local DIR TARGET
+
+  for DIR in ${BACKUP_DIRS[@]}; do
+    TARGET=${DIR/#\//}
+    TARGET=${TARGET//\//_}
+    rsync $RSYNC_DEFAULTS $DIR/ $RSYNC_PROFILE/$TARGET
+  done
+}
+
+main() {
+  backup_folders
+}
+
+main
+
+
+
+
+
+
 
 # now the actual transfer
-rsync $OPTS $BSERVER@$Hostx/backup/mgmt/$BACKUPDIR
-
-
 else
 echo "another vm"
 fi
