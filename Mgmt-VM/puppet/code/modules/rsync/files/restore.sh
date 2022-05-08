@@ -38,7 +38,7 @@ backup_folders() {
   local DIR TARGET
 
   for d in $LIST; do
-    rsync $RSYNC_DEFAULTS $d $RSYNC_PROFILE/backup/mgmt
+    rsync $RSYNC_DEFAULTS $d $RSYNC_PROFILE:~/backup/mgmt
   done
 }
 
