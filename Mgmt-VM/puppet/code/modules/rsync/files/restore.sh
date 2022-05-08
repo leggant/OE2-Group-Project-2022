@@ -28,7 +28,6 @@ BSERVER=groupb
 Hostx=restore-b.foo.org.nz
 
 
-#!/bin/bash
 
 readonly BACKUP_DIRS=(/home/$USER/test)
   
@@ -38,7 +37,7 @@ LIST="/home/$USER/test"
 backup_folders() {
   local DIR TARGET
 
-  for DIR in $LIST; do
+  for d in $LIST; do
     rsync $RSYNC_DEFAULTS $d $RSYNC_PROFILE/backup/mgmt
   done
 }
