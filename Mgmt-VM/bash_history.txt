@@ -1379,3 +1379,42 @@ cd ../..
 git status
 git pull
 exit
+ifconfig
+ssh groupb@restore-b.foo.org.nz
+w
+ssh-keygen -t rsa -b 4096 -C "comment" -P "examplePassphrase" -f "desired pathAndName" -q 
+ls .ssh
+cd ..sh
+cd .ssh
+ls
+rm id_rsa
+rm id_rsa.pub 
+ssh-keygen -t rsa -b 4096 -C "comment"  -q 
+ssh-keygen -t rsa -b 4096 -C "mgmgt key" -P "" -f "default" -q 
+ls
+rm default
+rm default.pub 
+l
+ssh-keygen -t rsa -b 4096 -C "comment" -P "examplePassphrase" -f "desired pathAndName" -q 
+ls
+ssh-keygen -t rsa -b 4096 -C "comment" -P "examplePassphrase" -f "id_rsa" -q 
+rm desired\ pathAndName
+rm desired\ pathAndName.pub 
+ls
+scp ~/.ssh/id_rsa.pub groupb@restore-b.foo.org.nz:/home/groupb/.ssh/mgmt.key.pub
+ls
+vim id_rsa.pub 
+pwd
+ssh-keygen -f /home/$user/.ssh/id_rsa -t rsa -N '' -q
+ssh-keygen -f /home/bitstudent/.ssh/id_rsa -t rsa -N '' -q
+ls
+vim id_rsa
+vim id_rsa.pub 
+ls
+rm id_rsa
+rm id_rsa.pub 
+ssh-keygen -f /home/bitstudent/.ssh/id_rsa -t rsa -N '' -q
+ls
+vim id_rsa
+vim id_rsa.pub 
+scp ~/.ssh/id_rsa.pub groupb@restore-b.foo.org.nz:/home/groupb/.ssh/mgmt.key.pub
