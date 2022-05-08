@@ -117,7 +117,7 @@ if ! shopt -oq posix; then
 fi
 
 # Add Custom Aliases Here
-alias buapp='cd ~/OE2-Group-Project && git pull && sudo cp /etc/puppet/ ~/OE2-Group-Project/App-VM/ -r && sudo cp /etc/hosts ~/OE2-Group-Project/App-VM/hosts && sudo chown bitstudent ~/OE2-Group-Project/App-VM/hosts && sudo chgrp bitstudent ~/OE2-Group-Project/App-VM/hosts && sudo chmod go+r ~/OE2-Group-Project/App-VM/hosts && sudo cp /etc/puppet/ ~/OE2-Group-Project/App-VM/ -r && history -w && sudo cp ~/.bash_history ~/OE2-Group-Project/App-VM/bash_history.txt && sudo chown bitstudent ~/OE2-Group-Project/App-VM/bash_history.txt && sudo chgrp bitstudent ~/OE2-Group-Project/App-VM/bash_history.txt && sudo chmod go+r ~/OE2-Group-Project/App-VM/bash_history.txt && sudo cp ~/.bashrc ~/OE2-Group-Project/App-VM/bashrc && sudo chown bitstudent ~/OE2-Group-Project/App-VM/bashrc && sudo chgrp bitstudent ~/OE2-Group-Project/App-VM/bashrc && sudo chmod go+r ~/OE2-Group-Project/App-VM/bashrc && sudo cp /etc/nagios ~/OE2-Group-Project/App-VM -r && sudo cp /etc/apache2 ~/OE2-Group-Project/App-VM -r && sudo cp /etc/mysql ~/OE2-Group-Project/App-VM -r && sudo cp /etc/nagios-plugins ~/OE2-Group-Project/App-VM -r && cd ~/OE2-Group-Project && git status'
+alias buapp='bash ~/OE2-Group-Project/Scripts/app/backup.sh'
 alias pup='cd /etc/puppet'
 alias mod='cd /etc/puppet/code/module'
 alias res='sudo systemctl restart'
