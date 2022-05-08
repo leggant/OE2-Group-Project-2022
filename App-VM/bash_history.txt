@@ -1,9 +1,3 @@
-132573 04:17:27.598509453 0 sshd (17906) < select res=1 
-132574 04:17:27.598510453 0 sshd (17906) > clock_gettime 
-132575 04:17:27.598510753 0 sshd (17906) < clock_gettime 
-132576 04:17:27.598511653 0 sshd (17906) > rt_sigprocmask 
-132577 04:17:27.598511953 0 sshd (17906) < rt_sigprocmask 
-132578 04:17:27.598512653 0 sshd (17906) > rt_sigprocmask 
 132579 04:17:27.598512853 0 sshd (17906) < rt_sigprocmask 
 132580 04:17:27.598513953 0 sshd (17906) > clock_gettime 
 132581 04:17:27.598514153 0 sshd (17906) < clock_gettime 
@@ -1997,4 +1991,10 @@ git pull
 sudo vi ~/.bashrc
 source ~/.bashrc
 buapp
+exit
+cd OE2-Group-Project/
+cd App-VM/
+ls
+cd ..
+ls
 exit
