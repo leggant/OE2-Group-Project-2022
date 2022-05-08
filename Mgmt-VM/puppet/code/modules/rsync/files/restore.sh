@@ -46,7 +46,7 @@ rsync --delete -a $HOME/emptydir/ $BSERVER@$Hostx/backup/mgmt/$BACKUPDIR/
 rmdir $HOME/emptydir
 
 # now the actual transfer
-rsync $OPTS $BSERVER@$Hostx/backup/mgmt
+rsync $OPTS $BSERVER@$Hostx/backup/mgmt/BACKUPDIR
 
 
 else
