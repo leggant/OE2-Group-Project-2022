@@ -16,7 +16,7 @@ then
 # with a 7 day rotating incremental backup. The incrementals will go
 # into subdirectories named after the day of the week, and the current
 # full backup goes into a directory called "current"
-BDIR=(/home/$USER/test /home/$USER/s)
+BDIR="/home/$USER/test /home/$USER/s"
 
 # excludes file - this contains a wildcard pattern per line of files to exclude
 EXCLUDES=$HOME/cron/excludes
