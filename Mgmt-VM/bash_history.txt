@@ -1365,3 +1365,17 @@ bumgmt
 exit
 vim /etc/hosts
 sudo reboot
+cd OE2-Group-Project/
+ls
+cd Mgmt-VM/
+ls
+cd prometheus-plugins/
+ls
+cd ../../Scripts/
+cd mgmt/
+sudo nano backup.sh 
+bash backup.sh 
+cd ../..
+git status
+git pull
+exit
