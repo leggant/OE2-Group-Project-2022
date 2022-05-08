@@ -20,10 +20,8 @@ echo "This is db"
 # tridge@linuxcare.com
 
 # directory to backup
-BDIR=/home/$USER/test
 
 # excludes file - this contains a wildcard pattern per line of files to exclude
-EXCLUDES=$HOME/cron/excludes
 
 # the name of the backup machine
 BSERVER=groupb
