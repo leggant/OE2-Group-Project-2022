@@ -1359,3 +1359,9 @@ ls
 cd ..
 ls
 exit
+sudo vi ~/.bashrc
+source ~/.bashrc
+bumgmt
+exit
+vim /etc/hosts
+sudo reboot
