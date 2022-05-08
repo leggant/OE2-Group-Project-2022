@@ -33,7 +33,8 @@ Hostx=restore-b.foo.org.nz
 #!/bin/bash
 
 readonly BACKUP_DIRS=(/home/$USER/test)
-
+include_paths=("${HOME}/$USER/test")
+  
 readonly RSYNC_PROFILE="groupb@$Hostx"
 readonly RSYNC_DEFAULTS="-avz"
 
@@ -43,7 +44,7 @@ backup_folders() {
   for DIR in ${BACKUP_DIRS[@]}; do
     TARGET=${DIR/#\//}
     TARGET=${TARGET//\//_}
-    rsync $RSYNC_DEFAULTS $DIR/ $RSYNC_PROFILE/$TARGET
+    rsync $RSYNC_DEFAULTS / $RSYNC_PROFILE/$TARGET
   done
 }
 
