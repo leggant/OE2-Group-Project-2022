@@ -16,7 +16,7 @@ then
 # with a 7 day rotating incremental backup. The incrementals will go
 # into subdirectories named after the day of the week, and the current
 # full backup goes into a directory called "current"
-BDIR=(/home/$USER/test /home/$USER/)
+BDIR=(/home/$USER/test /home/$USER/s)
 
 # excludes file - this contains a wildcard pattern per line of files to exclude
 EXCLUDES=$HOME/cron/excludes
@@ -42,8 +42,9 @@ rsync --delete -a $HOME/emptydir/ $BSERVER@$USERX:~/backup/mgmt/$BACKUPDIR/
 rmdir $HOME/emptydir
 
 # now the actual transfer
-rsync $OPTS $BDIR $BSERVER@$USERX:~/backup/mgmt
-
+for d in $BDIR;do
+rsync $OPTS $d $BSERVER@$USERX:~/backup/mgmt
+done
 
 else
 echo " another vm"
