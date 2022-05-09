@@ -10,7 +10,7 @@ host=$(hostname)
 if [ $host == $mgmt ]
 then
 
-BDIR="/home/$USER/test/* /home/$USER/s/*"
+BDIR="/home/$USER/test/ /home/$USER/s/"
 
 # excludes file - this contains a wildcard pattern per line of files to exclude
 EXCLUDES="$HOME/cron/excludes"
@@ -19,7 +19,7 @@ INCLUDE="$HOME/test/*.txt"
 BSERVER=groupb
 USERX=restore-b.foo.org.nz
 BACKUPDIR=`date +%d-%m-%Y-%H-%M-%S`
-OPTS="--ignore-errors --backup --ignore-existing  -v" 
+OPTS=" -v" 
 
 for d in $BDIR;do
 rsync $OPTS $d $BSERVER@$USERX:~/backup/mgmt
