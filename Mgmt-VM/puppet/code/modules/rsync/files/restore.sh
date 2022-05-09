@@ -33,13 +33,13 @@ done
 
 
 
-elif[$host == $db]
+elif [$host == $db]
 then
 echo " db vm"
-elif[$host == $app]
+elif [$host == $app]
 then
 echo " app vm"
-else[$host == $backup]
+else [$host == $backup]
 
 echo " backup vm"
 
