@@ -14,7 +14,7 @@ BDIR="/home/$USER/test /home/$USER/s"
 
 # excludes file - this contains a wildcard pattern per line of files to exclude
 EXCLUDES="$HOME/cron/excludes"
-INCLUDE="$HOME/newfolder/testFile"
+INCLUDE="$HOME/test/*"
 # the name of the backup machine
 BSERVER=groupb
 USERX=restore-b.foo.org.nz
