@@ -1,6 +1,5 @@
 #!/bin/bash
 
-# Include
 
 #Hosts
 db=db-b.foo.org.nz
@@ -12,49 +11,23 @@ app=app-b.foo.org.nz
 host=$(hostname)
 if [ $host == $mgmt ]
 then
-echo "This is db"
-# This script does personal backups to a rsync backup server. You will end up
-# with a 7 day rotating incremental backup. The incrementals will go
-# into subdirectories named after the day of the week, and the current
-# full backup goes into a directory called "current"
-# tridge@linuxcare.com
 
-# directory to backup
+BDIR="/home/$USER/test /home/$USER/s"
 
 # excludes file - this contains a wildcard pattern per line of files to exclude
-
+EXCLUDES=$HOME/cron/excludes
+INCLUDE='/home/bitstudent/newfolder/***'
 # the name of the backup machine
 BSERVER=groupb
-Hostx=restore-b.foo.org.nz
+USERX=restore-b.foo.org.nz
+BACKUPDIR=`date +%d-%m-%Y-%H-%M-%S`
+OPTS="--force --ignore-errors --delete-excluded --exclude-from=$EXCLUDES
+      --delete --backup  --backup-dir=~/backup/mgmt/changed-$BACKUPDIR -a"
 
+for d in $BDIR;do
+rsync $OPTS $d $BSERVER@$USERX:~/backup/mgmt
+done
 
-
-readonly BACKUP_DIRS=(/home/$USER/test)
-  
-readonly RSYNC_PROFILE="groupb@$Hostx"
-readonly RSYNC_DEFAULTS="-avz"
-LIST="/home/$USER/test"
-backup_folders() {
-  local DIR TARGET
-
-  for d in $LIST; do
-    rsync $RSYNC_DEFAULTS $d $RSYNC_PROFILE:~/backup/mgmt
-  done
-}
-
-main() {
-  backup_folders
-}
-
-main
-
-
-
-
-
-
-
-# now the actual transfer
 else
-echo "another vm"
+echo " another vm"
 fi
