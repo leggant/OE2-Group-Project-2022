@@ -19,8 +19,7 @@ INCLUDE="$HOME/test/*.txt"
 BSERVER=groupb
 USERX=restore-b.foo.org.nz
 BACKUPDIR=`date +%d-%m-%Y-%H-%M-%S`
-OPTS="--force --delete-excluded --exclude-from=$EXCLUDES
-      --delete --backup --include-from $INCLUDE --backup-dir=~/backup/mgmt/changed-$BACKUPDIR -a"
+OPTS=" --backup --backup-dir=~/backup/mgmt/changed-$BACKUPDIR -a"
 
 for d in $BDIR;do
 rsync $OPTS $d $BSERVER@$USERX:~/backup/mgmt
