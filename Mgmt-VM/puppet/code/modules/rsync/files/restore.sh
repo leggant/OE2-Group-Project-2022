@@ -10,7 +10,7 @@ host=$(hostname)
 if [ $host == $mgmt ]
 then
 
-BDIR="/home/$USER/test /home/$USER/s"
+BDIR="/home/$USER/test/* /home/$USER/s/*"
 
 # excludes file - this contains a wildcard pattern per line of files to exclude
 EXCLUDES="$HOME/cron/excludes"
