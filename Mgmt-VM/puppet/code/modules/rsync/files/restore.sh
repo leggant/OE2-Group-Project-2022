@@ -1,12 +1,10 @@
 #!/bin/bash
 
-
 #Hosts
 db=db-b.foo.org.nz
 mgmt=mgmt-b.foo.org.nz
 backup=backup-b.foo.org.nz
 app=app-b.foo.org.nz
-
 
 host=$(hostname)
 if [ $host == $mgmt ]
@@ -22,7 +20,7 @@ BSERVER=groupb
 USERX=restore-b.foo.org.nz
 BACKUPDIR=`date +%d-%m-%Y-%H-%M-%S`
 OPTS="--force --ignore-errors --delete-excluded --exclude-from=$EXCLUDES
-      --delete --backup  --backup-dir=~/backup/mgmt/changed-$BACKUPDIR -a"
+      --delete --backup --backup-dir=~/backup/mgmt/changed-$BACKUPDIR -a"
 
 for d in $BDIR;do
 rsync $OPTS $d $BSERVER@$USERX:~/backup/mgmt
