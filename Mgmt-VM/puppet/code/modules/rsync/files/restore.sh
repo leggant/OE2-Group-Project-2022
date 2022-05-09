@@ -19,7 +19,7 @@ INCLUDE="$HOME/test/*.txt"
 BSERVER=groupb
 USERX=restore-b.foo.org.nz
 BACKUPDIR=`date +%d-%m-%Y-%H-%M-%S`
-OPTS=" --backup --delete -v --backup-dir=~/backup/mgmt/changed-$BACKUPDIR -a"
+OPTS=" --backup --delete -v --dry-run  --backup-dir=~/backup/mgmt/changed-$BACKUPDIR -a"
 
 for d in $BDIR;do
 rsync $OPTS $d $BSERVER@$USERX:~/backup/mgmt
