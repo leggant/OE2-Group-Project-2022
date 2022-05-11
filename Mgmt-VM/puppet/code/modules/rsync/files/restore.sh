@@ -5,15 +5,29 @@ db=db-b.foo.org.nz
 mgmt=mgmt-b.foo.org.nz
 backup=backup-b.foo.org.nz
 app=app-b.foo.org.nz
-
-host=$(hostname)
 if [ $host == $mgmt ]
 then
-SUFFIX=$(date +%j)
-remote_backup=restore-b.foo.org.nz
-#ssh groupb@$remote_backup ls Backups/my_work/backup_'$SUFFIX' && rm -r Backups/my_work/backup_'$SUFFIX'
-OPTS="-ab --recursive --files-from='to_backup.txt' --backup-dir='backup_$SUFFIX' --delete "
-rsync $OPTS groupb@$remote_backup:~/Backups/my_work
+BDIR="
+/etc/node-exporter
+/etc/nagios
+/etc/nagios3
+/etc/nagios-plugins
+/etc/puppet/code
+/etc/puppet/puppet.conf
+"
+
+# excludes file - this contains a wildcard pattern per line of files to exclude
+EXCLUDES="$HOME/cron/excludes"
+INCLUDE="$HOME/test/*.txt"
+# the name of the backup machine
+BSERVER=groupb
+USERX=restore-b.foo.org.nz
+BACKUPDIR=`date +%d-%m-%Y-%H-%M-%S`
+OPTS="-haAXuv -v --progress --log-file=/home/$USER/log.log --files-from='to_backup.txt' --backup-dir=~/backup/mgmt/backup-$BACKUPDIR" 
+
+for d in $BDIR;do
+rsync $OPTS $d $BSERVER@$USERX:~/backup/mgmt
+done
 elif [ $host == $db]	
 then
 echo " db vm"
