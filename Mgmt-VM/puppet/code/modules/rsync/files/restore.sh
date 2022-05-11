@@ -28,7 +28,7 @@ for d in $BDIR;do
 rsync $OPTS $d $BSERVER@$USERX:~/backup/mgmt
 done
 #=====================================================================================================
-elif [ $host == $db]	
+elif [ $host == $db ]	
 then
 echo " db vm"
 #~bash throw errer
