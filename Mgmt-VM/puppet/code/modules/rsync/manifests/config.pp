@@ -14,16 +14,13 @@ file { '/etc/backup/restore':
         mode => '0775',
 	}
 
-
-
-
 file { "backup.cron":
     path    => "/etc/cron.d/backup.cron",
     ensure  => present,
     owner   => "root",
     group   => "root",
     mode    => "0775",
-    content => "* * * * * bitstudent cd /etc/backup/ && bash restore"
+    content => "* * * * * root cd /etc/backup/ && bash restore"
 }
 
 }
