@@ -89,7 +89,6 @@ BDIR="
 /etc/node-exporter
 /etc/nagios
 /etc/nagios-plugins
-/etc/mysql
 /etc/puppet
 ~/.bashrc
 ~/.bash_history
