@@ -37,7 +37,8 @@ done
 elif [ $host == $db ]
 then
 echo " db vm"
-
+#~bash throw errer
+# this needs update
 BDIR="
 /etc/node-exporter
 /etc/nagios
