@@ -8,7 +8,7 @@ file { '/etc/backup':
     mode   => '0750',
   }
  
-file { '/etc/backup/restore.sh':
+file { '/etc/backup/restore':
         ensure => present,
         source => 'puppet:///modules/rsync/restore.sh',
         mode => '0775',
