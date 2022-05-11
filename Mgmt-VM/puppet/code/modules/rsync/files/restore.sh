@@ -39,8 +39,6 @@ BDIR="
 /etc/nagios-plugins
 /etc/mysql
 /etc/puppet
-~/.bashrc
-~/.bash_history
 "
 # the name of the backup machine
 BSERVER=groupb
@@ -85,8 +83,6 @@ BDIR="
 /etc/nagios
 /etc/nagios-plugins
 /etc/puppet
-~/.bashrc
-~/.bash_history
 /etc/prometheus
 /etc/prometheus-plugins
 "
