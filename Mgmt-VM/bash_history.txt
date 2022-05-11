@@ -1,235 +1,3 @@
-sudo touch install.pp
-ls
-sudo nano install.pp 
-site
-sudo nano init.pp 
-sudo nano config.pp 
-sudo nano install.pp 
-agentupdate
-sudo vi ~/.bashrc
-sudo nano install.pp 
-agentupdate
-sudo nano install.pp 
-agentupdate
-resmas
-statmas
-sudo nano install.pp 
-sudo nano init.pp 
-agentupdate
-statmas
-resmas
-statmas
-statpup
-statmas
-sudo nano install.pp 
-agentupdate
-resmas
-statmas
-sudo nano install.pp 
-sudo nano config.pp 
-agentupdate
-resmas
-statmas
-sudo nano config.pp 
-agentupdate
-statmas
-resmas
-statmas
-sudo nano config.pp 
-agentupdate
-resmas
-statmas
-resap
-res apache2
-sudo nano config.pp 
-agentupdate
-resmas
-statmas
-sudo nano config.pp 
-agentupdate
-resmas
-statmas
-sudo nano config.pp 
-mod
-cd php
-cd manifests/
-ls
-sudo nano config.pp 
-agentupdate
-site
-agentupdate
-resmas
-statmas
-site
-sudo nano config.pp 
-sudo nano install.pp 
-cd ~/OE2-Group-Project/Scripts/
-ls
-cd mgmt
-ls
-sudo nano recovery.sh
-sudo cp backup.sh recovery.sh
-ls
-sudo nano recovery.sh 
-cd ~
-cd ~/OE2-Group-Project && sudo git pull
-bumgmt
-mod
-ls
-cd owncloud/
-cd manifests/
-ls
-mod
-cd mariadb/
-ls
-mod
-cd owncloud/
-mod
-cd mariadb/
-ls
-cd manifests/
-ls
-sudo nano config.pp 
-sudo nano install.pp 
-mod
-ls
-site
-agentupdate
-mod
-ls
-cd mysql_client/
-ls
-cd ..
-sudo rm mysql_client/
-sudo rm mysql_client/ -r
-cd owncloud/
-ls
-cd manifests/
-ls
-cd ..
-ls
-sudo mkdir php
-cd php/
-sudo mkdir manifests
-cd manifests/
-sudo touch init.pp
-sudo touch install.pp
-sudo touch config.pp
-sudo nano install.pp
-sudo nano config.pp
-sudo touch install.pp
-ls
-sudo nano install.pp 
-site
-sudo nano init.pp 
-sudo nano config.pp 
-sudo nano install.pp 
-agentupdate
-sudo vi ~/.bashrc
-sudo nano install.pp 
-agentupdate
-sudo nano install.pp 
-agentupdate
-resmas
-statmas
-sudo nano install.pp 
-sudo nano init.pp 
-agentupdate
-statmas
-resmas
-statmas
-statpup
-statmas
-sudo nano install.pp 
-agentupdate
-resmas
-statmas
-sudo nano install.pp 
-sudo nano config.pp 
-agentupdate
-resmas
-statmas
-sudo nano config.pp 
-agentupdate
-statmas
-resmas
-statmas
-sudo nano config.pp 
-agentupdate
-resmas
-statmas
-resap
-res apache2
-sudo nano config.pp 
-agentupdate
-resmas
-statmas
-sudo nano config.pp 
-agentupdate
-resmas
-statmas
-sudo nano config.pp 
-mod
-cd php
-cd manifests/
-ls
-sudo nano config.pp 
-agentupdate
-site
-agentupdate
-resmas
-statmas
-site
-sudo nano config.pp 
-sudo nano install.pp 
-cd ~/OE2-Group-Project/Scripts/
-ls
-cd mgmt
-ls
-sudo nano recovery.sh
-sudo cp backup.sh recovery.sh
-ls
-sudo nano recovery.sh 
-cd ~
-cd ~/OE2-Group-Project && sudo git pull
-bumgmt
-git add .
-sudo git add .
-sudo git commit -m "mgmt: backup recovery script test" -m "mgmt-b"
-git push
-cd ~/OE2-Group-Project && sudo git pull
-sudo git pull
-cd Scripts/
-cd mgmt/
-cat backup.sh 
-cd ../../Mgmt-VM/
-ls
-cat crontab.txt '
-;
-cat crontab.txt
-ls
-cd ../..
-ls
-cd OE2-Group-Project/
-ls
-git status
-git pull
-ls
-touch puppet-install
-sudo vim puppet-install 
-chmod +x puppet-install 
-sudo vim puppet-install 
-./puppet-install 
-sudo vim puppet-install 
-vim /etc/puppet/puppet.conf 
-ls
-vim test
-sudo vim puppet-install 
-ls
-vim test 
-./puppet-install 
-sudo vim puppet-install 
-./puppet-install 
 vim test 
 sudo vim puppet-install 
 ./puppet-install 
@@ -1998,3 +1766,235 @@ pwd
 sudo vim restore.sh 
 bumgmt
 sudo vim restore.sh 
+ls
+cd OE2-Group-Project/
+bumgmt
+git status
+mod
+ls
+cd rsync/
+ls
+cd files/
+ls
+sudo vim restore.sh 
+bumgmt
+git status
+ls
+pwd
+cd ~/OE2-Group-Project/
+ls
+git status
+bumgmt
+ls
+sudo vim restore.sh 
+mod
+ls
+cd rsync/
+ls
+cd files/
+ls
+vim restore.sh 
+sudo vim restore.sh 
+./restore.sh 
+sudo vim restore.sh 
+./restore.sh 
+sudo vim restore.sh 
+sudo touch to_backup.txt
+sudo vim to_backup.txt
+sudo vim restore.sh 
+sudo vim to_backup.txt
+./restore.sh 
+sudo vim restore.sh 
+./restore.sh 
+sudo vim restore.sh 
+./restore.sh 
+sudo vim restore.sh 
+./restore.sh 
+sudo vim restore.sh 
+./restore.sh 
+sudo vim restore.sh 
+ls
+bash restore.sh 
+sudo vim restore.sh 
+bash restore.sh 
+sudo vim restore.sh 
+bash restore.sh 
+sudo vim restore.sh 
+bash restore.sh 
+sudo vim restore.sh 
+bash restore.sh 
+sudo vim restore.sh 
+bash restore.sh 
+sudo vim restore.sh 
+bash restore.sh 
+sudo vim restore.sh 
+ls
+pwd
+sudo vim restore.sh 
+bash restore.sh 
+sudo vim restore.sh 
+bash restore.sh 
+ls
+sudo vim restore.sh 
+bash restore.sh 
+sudo vim restore.sh 
+bash restore.sh 
+sudo vim restore.sh 
+bash restore.sh 
+sudo vim restore.sh 
+bash restore.sh 
+sudo vim restore.sh 
+bash restore.sh 
+ls
+sudo vim restore.sh 
+bash restore.sh 
+sudo vim restore.sh 
+bash restore.sh 
+sudo vim restore.sh 
+bash restore.sh 
+sudo vim restore.sh 
+bash restore.sh 
+sudo vim restore.sh 
+bash restore.sh 
+sudo vim restore.sh 
+bash restore.sh 
+sudo vim restore.sh 
+bash restore.sh 
+sudo vim restore.sh 
+pwd
+sudo vim restore.sh 
+bash restore.sh 
+ls
+ls -l
+chmod o+rx to_backup.txt 
+sudo chmod o+rx to_backup.txt 
+ls -la
+sudo chmod u+rx to_backup.txt 
+bash restore.sh 
+sudo vim restore.sh 
+bash restore.sh 
+sudo vim restore.sh 
+ls
+bash restore.sh 
+sudo vim restore.sh 
+bash restore.sh 
+sudo vim restore.sh 
+bash restore.sh 
+sudo vim restore.sh 
+ls
+ls -la
+sudo chmod g+rx to_backup.txt 
+bash restore.sh 
+sudo vim restore.sh 
+bash restore.sh 
+sudo vim restore.sh 
+bash restore.sh 
+sudo vim restore.sh 
+bash restore.sh 
+sudo vim restore.sh 
+bash restore.sh 
+sudo vim restore.sh 
+bash restore.sh 
+sudo vim restore.sh 
+bash restore.sh 
+sudo vim restore.sh 
+bash restore.sh 
+sudo vim restore.sh 
+sudo vim to_backup.txt 
+sudo vim restore.sh 
+bash restore.sh 
+sudo vim restore.sh 
+ls
+sudo mv backup
+sudo mv to_backup.txt backup
+ls
+ls -la
+cd backup/
+ls
+cd ..
+ls
+sudo mv backup/backup ../backupfile 
+sudo mv backup/to_backup.txt ../backupfile 
+ls
+ls backup/
+ls
+sudo touch backup
+ls
+sudo touch backupfile
+ls
+vim backupfile 
+sudo vim backupfile 
+sudo vim restore.sh 
+./restore.sh 
+sudo vim restore.sh 
+./restore.sh 
+cler
+sudo vim restore.sh 
+ls
+vim backupfile 
+sudo vim backupfile 
+./restore.sh 
+sudo vim backupfile 
+sudo vim restore.sh 
+./restore.sh 
+sudo vim restore.sh 
+ls
+sudo mv backupfile backupfile.txt
+ls
+sudo vim restore.sh 
+./restore.sh 
+sudo vim restore.sh 
+./restore.sh 
+sudo vim restore.sh 
+./restore.sh 
+sudo vim restore.sh 
+./restore.sh 
+sudo vim restore.sh 
+./restore.sh 
+sudo vim restore.sh 
+./restore.sh 
+sudo vim restore.sh 
+./restore.sh 
+sudo vim restore.sh 
+./restore.sh 
+sudo vim restore.sh 
+./restore.sh 
+sudo vim restore.sh 
+./restore.sh 
+sudo vim restore.sh 
+./restore.sh 
+sudo vim restore.sh 
+./restore.sh 
+sudo vim restore.sh 
+cd ~
+cd OE2-Group-Project/
+ls
+git pull
+bumgmt
+ls
+mod
+cd rsync/files/
+sudo vim restore.sh 
+cd ~/OE2-Group-Project/
+bumgmt
+ls
+mod
+ls
+mod
+cd rsync/files/
+sudo vim restore.sh 
+cd ~/OE2-Group-Project/
+ls
+bumgmt
+mod 
+cd rsync/files/
+ls
+sudo vim restore.sh 
+cd ~/OE2-Group-Project/
+bumgmt
+ls
+mod
+cd rsync/files/
+sudo vim restore.sh 
+cd ~/OE2-Group-Project/
+bumgmt
