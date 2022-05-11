@@ -15,7 +15,8 @@ BDIR="
 /etc/nagios
 /etc/nagios3
 /etc/nagios-plugins
-/etc/puppet
+/etc/puppet/code
+/etc/puppet/puppet.conf
 "
 
 # excludes file - this contains a wildcard pattern per line of files to exclude
@@ -25,7 +26,7 @@ INCLUDE="$HOME/test/*.txt"
 BSERVER=groupb
 USERX=restore-b.foo.org.nz
 BACKUPDIR=`date +%d-%m-%Y-%H-%M-%S`
-OPTS="-haAXuv -v --exclude --log-file=/home/$USER/log.log --backup-dir=~/backup/mgmt/backup-$BACKUPDIR" 
+OPTS="-haAXuv -v  --log-file=/home/$USER/log.log --backup-dir=~/backup/mgmt/backup-$BACKUPDIR" 
 
 for d in $BDIR;do
 rsync $OPTS $d $BSERVER@$USERX:~/backup/mgmt
