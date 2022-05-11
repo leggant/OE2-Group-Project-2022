@@ -12,7 +12,7 @@ then
 SUFFIX=$(date +%j)
 remote_backup=restore-b.foo.org.nz
 #ssh groupb@$remote_backup ls Backups/my_work/backup_'$SUFFIX' && rm -r Backups/my_work/backup_'$SUFFIX'
-OPTS="-ab --recursive --files-from='to_backup.txt' --backup-dir='backup_$SUFFIX' --delete --filter 'protect backup_*'"
+OPTS="-ab --recursive --files-from='to_backup.txt' --backup-dir='backup_$SUFFIX' --delete "
 rsync $OPTS /etc/puppet/code/modules/rsync/files/to_backup.txt groupb@$remote_backup:~/Backups/my_work
 elif [ $host == $db]	
 then
