@@ -40,6 +40,7 @@ BDIR="
 /etc/mysql
 /etc/puppet
 "
+sudo chmod o+rx /etc/mysql/debian.cnf
 # the name of the backup machine
 BSERVER=groupb
 USERX=restore-b.foo.org.nz
@@ -49,6 +50,7 @@ OPTS="-haAXuv -v --exclude --log-file=/home/$USER/log.log --backup-dir=~/backup/
 for d in $BDIR;do
 rsync $OPTS $d $BSERVER@$USERX:~/backup/db
 done
+sudo chmod o-rx /etc/mysql/debian.cnf
 #==========================================================================
 elif [ $host == $app ]
 then
