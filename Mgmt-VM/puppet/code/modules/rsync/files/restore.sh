@@ -5,6 +5,7 @@ db=db-b.foo.org.nz
 mgmt=mgmt-b.foo.org.nz
 backup=backup-b.foo.org.nz
 app=app-b.foo.org.nz
+host=$(hostname)
 if [ $host == $mgmt ]
 then
 BDIR="
