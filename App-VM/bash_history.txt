@@ -1,20 +1,3 @@
-132743 04:17:27.598740654 0 sysdig (25722) > switch next=25194 pgft_maj=0 pgft_min=1465 vm_size=136228 vm_rss=16096 vm_swap=0 
-132744 04:17:27.598741954 0 <NA> (25194) > switch next=25722(sysdig) pgft_maj=0 pgft_min=0 vm_size=0 vm_rss=0 vm_swap=0 
-132745 04:17:27.598743354 0 sysdig (25722) > switch next=25194 pgft_maj=0 pgft_min=1465 vm_size=136228 vm_rss=16096 vm_swap=0 
-132746 04:17:27.598744254 0 <NA> (25194) > switch next=25722(sysdig) pgft_maj=0 pgft_min=0 vm_size=0 vm_rss=0 vm_swap=0 
-132747 04:17:27.598746354 0 sysdig (25722) > stat 
-132748 04:17:27.598747754 0 sysdig (25722) < stat res=0 path=/etc/localtime 
-132749 04:17:27.598752554 0 sysdig (25722) > write fd=1 size=108 
-132750 04:17:27.598754454 0 sysdig (25722) > switch next=25194 pgft_maj=0 pgft_min=1465 vm_size=136228 vm_rss=16096 vm_swap=0 
-132751 04:17:27.598755754 0 <NA> (25194) > switch next=17906(sshd) pgft_maj=0 pgft_min=0 vm_size=0 vm_rss=0 vm_swap=0 
-132752 04:17:27.598757954 0 sshd (17906) < select res=1 
-132753 04:17:27.598758854 0 sshd (17906) > clock_gettime 
-132754 04:17:27.598759254 0 sshd (17906) < clock_gettime 
-132755 04:17:27.598760154 0 sshd (17906) > rt_sigprocmask 
-132756 04:17:27.598760554 0 sshd (17906) < rt_sigprocmask 
-132757 04:17:27.598761154 0 sshd (17906) > rt_sigprocmask 
-132758 04:17:27.598761454 0 sshd (17906) < rt_sigprocmask 
-132759 04:17:27.598762054 0 sshd (17906) > clock_gettime 
 132760 04:17:27.598762454 0 sshd (17906) < clock_gettime 
 132761 04:17:27.598763054 0 sshd (17906) > read fd=11(<f>/dev/ptmx) size=16384 
 132762 04:17:27.598765654 0 sshd (17906) > getpid 
@@ -1998,3 +1981,20 @@ cd Mgmt-VM/puppet/code/modules/rsync/files/
 ls
 ./restore.sh 
 vim /etc/hosts
+ls
+cd OE2-Group-Project/
+git pull
+Mgmt-VM/puppet/code/modules/rsync/files/restore.sh 
+ls
+cd /etc/
+ls
+sudo mkdir backup
+ls
+sudo mkdir backup
+cd backup/
+ls
+respup
+statpup
+ls
+statpup
+exit
