@@ -85,8 +85,16 @@ BDIR="
 /etc/nagios
 /etc/nagios-plugins
 /etc/puppet
-/etc/prometheus
 /etc/prometheus-plugins
+/etc/prometheus/prometheus
+/etc/prometheus/prometheus.yml
+/etc/prometheus/rules.yml
+/etc/prometheus/tsdb
+/etc/prometheus/promtool
+/etc/prometheus/consoles
+/etc/prometheus/console_libraries
+/etc/prometheus/NOTICE
+/etc/prometheus/queries.active
 "
 # the name of the backup machine
 BSERVER=groupb
