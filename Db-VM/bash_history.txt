@@ -1,0 +1,1188 @@
+ls
+source ~/.bashrc
+cd ~/OE2-Group-Project && git pull
+cd ~/OE2-Group-Project && git status
+budb
+source ~/.bashrc
+sudo vi ~/.bashrc
+source ~/.bashrc
+budb
+git add .
+git commit -m "db: backup nagios-plugins" -m "db-b vm"
+git push
+exit
+budb
+budb
+exit
+respup
+statpup
+sudo reboot
+statpup
+respup
+statpup
+sudo reboot
+statpup
+budb
+cd /etc
+ls
+source ~/.bashrc
+budb
+budb
+cd /etc
+ls
+source ~/.bashrc
+budb
+cd ~/OE2-Group-Project/Db-VM/
+ls
+cat bashrc
+ls
+cd ..
+ls
+cd App-VM/
+ls
+cd ../Backup-VM/
+ls
+exit
+res nagios-nrpe-server
+stat nagios-nrpe-server
+res nagios-nrpe-server
+respup
+statpup
+stat nagios-nrpe-server
+statpuprespup && stat puppet
+respup && stat puppet
+resnr
+resnag
+respup
+statpup
+sudo nagios3 -v /etc/nagios3/nagios.cfg
+statnag
+respup
+statpup
+sudo systemctl restart nagios-nrpe-server
+sudo systemctl status nagios-nrpe-server
+mod
+cd /etc/nagios
+ls
+sudo nano nrpe.cfg 
+sudo systemctl restart nagios-nrpe-server
+sudo systemctl status nagios-nrpe-server
+sudo vi ~/.bashrc
+sudo puppet cert list --all
+sudo systemctl status nagios-nrpe-server
+sudo systemctl status nagios
+sudo systemctl status nagios3
+sudo systemctl status puppet
+sudo systemctl status nagios-nrpe-server
+sudo systemctl status puppet
+sudo systemctl status nagios-nrpe-server
+sudo -i
+respup
+sudo puppet cert --sign -all
+respup
+statpup
+respup
+statpup
+cd /etc
+ls
+respup
+ls
+sudo puppetd --test
+sudo puppetca --list
+ls
+respup 
+ls
+cd nagios
+ls
+cd ..
+ls
+/usr/sbin/nrpe -c /etc/nagios/nrpe.cfg -f
+ls
+respup
+ls
+sudo systemctl status nagios-nrpe-server
+sudo systemctl restart nagios-nrpe-server
+sudo systemctl status nagios-nrpe-server
+sudo systemctl restart nagios-nrpe-server
+sudo systemctl status nagios-nrpe-server
+:q
+ls
+sudo vim na
+cd nagios
+ls
+vim nrpe.cfg 
+ls
+ls -l
+asudo systemctl status nagios-nrpe-server
+sudo systemctl status nagios-nrpe-server
+cd /etc/nagios
+ls
+vim nrpe.cfg 
+ls
+res pup
+respup
+ls
+cd ..
+ls
+respup
+ls
+cd nagios
+ls
+vim nrpe.cfg 
+puppet agent --test --server=puppetmaster.domain.com
+telnet puppetmaster 8140
+statpup
+statnr
+cd ~/OE2-Group-Project && git pull
+sudo vi ~/.bashrc
+source ~/.bashrc
+statnr
+statpup
+puppet cert sign -all
+statpup
+sudo puppet cert sign -all
+statpup
+sudo puppet cert
+sudo puppet cert --allow-dns-alt-names:mgmt-b.foo.org.nz
+sudo puppet cert --allow-dns-alt-names=mgmt-b.foo.org.nz
+sudo puppet cert --digest mgmt-b.foo.org.nz
+sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetime
+puppet cert clean -all
+statpup
+respup
+statpup\
+sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetime
+statpup
+respup && stat puppet
+statpup
+sudo rm -rf /etc/puppetlabs/puppet/ssl
+sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetime
+sudo rm -rf /etc/puppetlabs/puppet/ssl
+sudo puppet cert clean 
+sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetime
+respup
+statpup
+resnr
+statnr
+sudo vi ~/.bashrc
+source ~/.bashrc
+resnr
+statnr
+puppet cert sign -all
+statpup
+cd ~/OE2-Group-Project && git pull
+sudo systemctl status mysql
+sudo systemctl restart mysql
+sudo systemctl status mysql
+dbudb
+cd ~/OE2-Group-Project && git pull
+statpup
+puppet cert sign -all
+puppet agent --test
+netstat -ntlp
+ls
+sudi -i
+sudo -i
+puppet agent -t
+respup
+statpup
+puppet agent -t
+sudo -i
+respup
+puppet agent -t
+pupstat
+statpup
+sudo puppet cert --sign -all
+respup
+statpup
+:q
+netstat -ntlp
+puppet agent -t
+ping mgmt-b.foo.org.nz
+ping puppet
+nc -v puppet 8140
+lsof -i :8140
+mtr puppet
+sudo vim /etc/puppet/puppet.conf
+respup
+sudo puppet agent -t
+puppet agent -t
+sudo puppet agent -t
+sudo puppet cert clean -all
+sudo -i
+respup
+sudo puppet cert --sign -all
+sudo puppet agent -t
+sudo puppet cert -list -all
+sudo puppet cert --list -all
+puppet agent -t
+netstat -tap
+sudo netstat -tap
+sudo -i
+respup
+puppet agent -t
+sudo puppet agent -t
+sudo vim /etc/hosts
+sudo puppet agent -t
+sudo puppet cert sign -all
+sudo puppet agent -t
+sudo -i
+respup
+sudo puppet agent -t
+puppet agent -t
+nc -v puppet 8140
+sudo -i
+respup
+puppet agent -t
+sudo -i
+respup
+sudo puppet cert list -all
+sudo puppet cert --sign -all
+puppet agent -t
+sudo vim /etc/host
+sudo vim /etc/hosts
+puppet agent -t
+sudo  netstat -a | grep 8140
+nc -v puppet 8140
+sudo systemctl status nagios-nrpe-server.service 
+sudo -i
+sudo vim /etc/host
+sudo vim /etc/hosts
+cd /etc/
+sudo vim puppet/
+sudo vim puppet/puppet.conf 
+respup
+sudo puppet cert --sign -all
+respup
+sudo puppet cert --sign -all
+sudo -i
+respup
+sudo puppet cert --sign -all
+puppet agent -t
+respup
+puppet agent -t
+respup
+ls
+statpup
+sudo systemctl restart nagios-nrpe-server
+respup
+statpup
+sudo systemctl restart nagios-nrpe-server.service
+ls
+cd nagios-plugins/
+ls
+cd config/
+ls
+sudo vim check_nrpe.cfg 
+respup
+ls
+cd /etc
+ls
+clear
+ls
+puppet agent -t
+respup
+puppet agent -t
+telnet mgmt-b.foo.org.nz
+sudo telnet mgmt-b.foo.org.nz
+puppet cert list
+puppet agent --configprint server 
+date
+sudo telnet mgmt-b.foo.org.nz
+puppet agent --test
+vim /etc/puppet/puppet.conf
+sudo agent -t
+puppet agent --test
+sudo puppet agent --test
+respup
+sudo puppet agent --test
+sudo -i
+respup
+sudo puppet cert --sign -all
+sudo puppet agent --test
+respup
+sudo puppet agent --test
+telnet mgmt-b.foo.org.nz
+clear
+cd /etc
+respup
+ls
+respup
+ls
+sudo vim /etc/puppet/puppet.conf
+sudo -i
+sudo puppet agent --test
+respup
+statpup
+ls
+respup
+ls
+respup
+ls
+sudo puppet agent -t 
+sudo vim /etc/puppet/puppet.conf
+ls
+sudo puppet agent -t
+respup
+cd /etc
+ls
+cd /etc
+ls
+cd nagios
+ls
+mod
+respup
+ls
+vim nrpe.cfg 
+respup
+vim nrpe.cfg 
+respup
+vim nrpe.cfg 
+respup
+ls
+vim nrpe.cfg 
+respup
+vim nrpe.cfg 
+site
+ls
+cd ..
+ls
+sudo rm -r test1
+sudo rm -r test2
+respup
+ls
+sudo rm -r test1
+ls
+respup
+ls
+cd nagios
+ls
+vim nrpe.cfg
+respup
+vim nrpe.cfg
+ls
+vim nrpe.cfg 
+respup
+ls
+vim nrpe.cfg 
+respup
+vim nrpe.cfg 
+respup
+vim nrpe.cfg 
+resnr
+ls
+vim nrpe.cfg 
+resnag
+sudo systemctl restart nagios-nrpe-server.service 
+resnag
+sudo systemctl restart nagios-nrpe-server.service 
+ls
+vim nrpe.cfg 
+respup
+vim nrpe.cfg 
+respup
+vim nrpe.cfg 
+sudo systemctl restart nagios-nrpe-server.service 
+ls
+vim nrpe.cfg 
+resnr
+statpup
+sudo reboot
+statpup
+budb
+statpup
+budb
+git add .
+git commit -m "db-b: backup db-b vm" -m "db-b"
+git push
+cd /etc
+ls
+exit
+cd /etc/puppet/code
+ls 
+sudo touch .gitinclude
+cd ~
+budb
+cd /etc/puppet/code
+ls 
+sudo touch .gitinclude
+cd ~
+budb
+exit
+cd ~/OE2-Group-Project/
+git pull
+cd Scripts/
+cd db
+ls
+ls -la
+sudo chmod u+x backup.sh 
+ls -al
+cd ..
+ls
+cd Scripts/
+cd ..
+ls
+crontab -e
+cd ~/O
+cd ~/OE2-Group-Project/
+git pull
+exit
+cd ~/OE2-Group-Project/
+git pull
+cd Scripts/db
+ls -la
+exit
+statnr
+statpup
+exit
+sudo nano OE2-Group-Project/Scripts/db/backup.sh 
+sudo vi ~/.bashrc
+source ~/.bashrc
+budb
+cd /etc
+ls
+exit
+budb
+cd ~/OE2-Group-Project/Scripts/db
+ls -al
+sudo nano backup.sh 
+sudo vi ~/.bashrc
+budb
+cd /etc
+ls
+cd apache2/
+ls
+sudo nano backup.sh 
+sudo vi ~/.bashrc
+sudo nano backup.sh 
+cd ~/OE2-Group-Project/Scripts/db
+sudo nano backup.sh 
+budb
+budb
+cd ~/OE2-Group-Project/Scripts/db
+ls -al
+sudo nano backup.sh 
+sudo vi ~/.bashrc
+budb
+cd /etc
+ls
+cd apache2/
+ls
+sudo nano backup.sh 
+sudo vi ~/.bashrc
+sudo nano backup.sh 
+cd ~/OE2-Group-Project/Scripts/db
+sudo nano backup.sh 
+budb
+mysql -u root -p P@ssw0rd
+mysql -u root -p
+sudo mysql -u root -p
+respup
+sudo mysql -u root -p
+sudo mysql -u root -p P@ssw0rd
+sudo mysql -u root -p 
+sudo mysql -u root -p ?
+sudo mysql -u root -p /h
+sudo mysql --user=root --password=P@ssw0rd
+respup
+sudo mysql --user=root --password=P@ssw0rd
+statpup
+respup
+statpup
+respup
+statpup
+sudo mysql --user=root --password=P@ssw0rd -e "select count(*) from owncloud;"
+sudo mysql owncloud --user=root --password=P@ssw0rd -e "select count(*) from owncloud;"
+sudo mysql owncloud --user=root --password=P@ssw0rd -e "select count(*);"
+sudo mysql owncloud --user=root --password=P@ssw0rd
+sudo mysql --user=root --password=P@ssw0rd -e "Create database testdb;"
+sudo mysql --user=root --password=P@ssw0rd
+respup
+statpup
+respup
+statpup
+sudo mysql --user=root --password=P@ssw0rd
+respup
+statpup
+respup
+statpup
+respup
+statpup
+respup
+statpup
+respup
+statpup
+respup
+statpup
+sudo mysql --user=root --password=P@ssw0rd
+sudo mysql --user=root -p
+respup
+sudo systemctl restart mysql-service
+sudo systemctl restart mysql
+sudo systemctl status mysql
+sudo mysql --user=root -p
+respup
+statpup
+sudo mysql --user=root -p
+sudo systemctl restart mysql
+respup
+statpup
+sudo systemctl status mysql
+sudo systemctl start mysql
+sudo systemctl status mysql
+sudo mysql --user=root -p
+respup
+statpup
+respup
+statpup
+respup
+statpup
+respup
+statpup
+sudo systemctl restart mysql
+statpup
+respup
+statpup
+respup
+statpup
+respup
+stat mysql
+sudo systemctl start mysql
+stat mysql
+respup
+statpup
+stat mysql
+respup
+statpup
+stat mysql-client
+respup
+statpup
+sudo systemctl start mysql
+statpup
+sudo systemctl restart mysql
+statpup
+sudo systemctl status mysql
+statpup
+respup
+statpup
+res mysql
+stat mysql
+statpup
+respup
+statpup
+respup
+statpup
+respup
+statpup
+respup
+statpup
+respup
+res mysql
+statpup
+sudo systemctl start mysql
+stat mysql
+statpup
+respup
+statpup
+respup
+statpup
+respup
+statpup
+respup
+statpup
+res mysql
+statpup
+respup
+statpup
+res mysql
+stat mysql
+sudo mysql -u root -p
+res mysql
+resmas
+respup
+statpup
+stat mysql
+sudo mysql -u root -p
+respup
+statpup
+stat mysql
+sudo mysql -u root -p
+respup
+statpup
+sudo mysql -u root -p
+respup
+statpup
+sudo mysql -u root -p
+respup
+statpup
+sudo mysql -u root -p
+respup
+sudo mysql -u root -p
+statpup
+stat mysql
+sudo mysql -u root -p
+statpup
+respup
+sudo mysql -u root -p
+respup
+sudo mysq
+sudo mysql -u root -p
+respup
+statpup
+sudo mysql -u root -p
+respup
+statpup
+sudo mysql -u root -p
+respup
+statpup
+sudo mysql -u root -p
+respup
+statpup
+sudo mysql -u root -p
+statpup
+stat mysql
+res mysql
+sudo mysql -u root -p
+res mysql
+sudo mysql -u root -p
+respup
+statpup
+res mysql
+sudo mysql -u root -p
+res mysql
+respup
+statpup
+sudo mysql -u root -p
+respup
+res mysql
+sudo mysql -u root -p
+statpup
+stat mysql
+statpup
+sudo mysql -u root -p
+respup
+statpup
+sudo mysql -u root -p
+statpup
+sudo mysql -u root -p
+statpup
+stat mysql
+res mysql
+stat mysql
+sudo mysql -u root -p
+respup
+statpup
+respup
+statpup
+res mysql
+statpup
+respup
+statpup
+stat mysql
+sudo mysql -u root -p
+respup
+res mysql
+sudo mysql -u root -p
+respup
+res mysql
+sudo mysql -u root -p
+res mysql
+sudo mysql -u root -p
+res mysql
+stat mysql
+respup
+statpup
+respup
+statpup
+respup
+statpup
+stat mysql
+sudo mysql -u root -p
+exit
+cd ~/OE2-Group-Project && sudo git pull
+cd Scripts/mgmt/
+ls
+ls -al
+/bin/bash recovery.sh 
+sudo nano recovery.sh 
+/bin/bash recovery.sh 
+sudo nano recovery.sh 
+/bin/bash recovery.sh 
+sudo nano recovery.sh 
+/bin/bash recovery.sh 
+sudo nano recovery.sh 
+/bin/bash recovery.sh 
+sudo nano recovery.sh 
+sudo /bin/bash recovery.sh 
+sudo mysql -u root -p P@ssw0rd
+sudo mysql -u root -p
+sudo nano recovery.sh 
+sudo /bin/bash recovery.sh 
+sudo mysql -u root -p
+sudo nano recovery.sh 
+sudo /bin/bash recovery.sh 
+sudo mysql -u root -p
+sudo nano recovery.sh 
+sudo /bin/bash recovery.sh 
+sudo nano recovery.sh 
+sudo mv recovery.sh ../db/recovery.sh
+ls
+cd ..
+cd db
+ls
+sudo cp recovery.sh ../app/
+cd ../app/
+ls
+sudo nano recovery.sh 
+sudo mv recovery.sh owncloud_recovery.sh
+ls
+sudo nano owncloud_recovery.sh 
+ls
+ls -al
+sudo nano owncloud_recovery.sh 
+/bin/bash owncloud_recovery.sh 
+sudo nano owncloud_recovery.sh 
+/bin/bash owncloud_recovery.sh 
+sudo nano owncloud_recovery.sh 
+/bin/bash owncloud_recovery.sh 
+sudo nano owncloud_recovery.sh 
+sudo update-alternatives /
+sudo update-alternatives /h
+sudo update-alternatives --help
+inst php
+php -v
+cd ../../
+git status
+git add .
+sudo git add .
+sudo git commit -m "db: add owncloud recovery script" -m "db-b"
+git push
+cd ~/OE2-Group-Project && sudo git pull
+/bin/bash OE2-Group-Project/Scripts/db/backup.sh
+cd OE2-Group-Project/
+git status
+ls -al
+git status
+git pull
+sudo git pull
+git status
+cd ..
+ls 
+sudo rm -r OE2-Group-Project/
+ls
+gh repo clone leggant/OE2-Group-Project
+export ghtoken=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
+cd OE2-Group-Project/Scripts/mgmt/
+ls 
+sudo nano github.sh 
+cd ~
+/bin/bash OE2-Group-Project/Scripts/mgmt/github.sh
+cd OE2-Group-Project/Scripts/mgmt/
+ls -al
+sudo dpkg --configure -a
+cd OE2-Group-Project/Scripts/mgmt/
+cd ..
+ls
+cd ..
+ls
+stat mysql
+statpup
+ls
+git status
+cd ..
+/bin/bash OE2-Group-Project/Scripts/mgmt/github.sh
+exit
+ls
+cd /etc
+ls
+cd etc
+cd /etc
+ls
+cd node_exporter/
+./node_exporter -h
+./node_exporter -h --version
+./node_exporter -h  --collector.ntp.server-is-local
+./node_exporter -h --collector.ntp.server-is-local
+./node_exporter --collector.ntp.server-is-local
+./node_exporter -h
+./node_exporter --collector.systemd.enable-restarts-metrics
+./node_exporter -h
+./node_exporter --web.listen-address=":9100"
+./node_exporter --web.listen-address=":9110"
+./node_exporter -h
+top
+reboot
+sudo reboot
+statpup
+res mysql
+res owncloud
+respup
+statpup
+May 02 09:25:08 db-b.foo.org.nz systemd[1]: Started Puppet agent.
+May 02 09:25:16 db-b.foo.org.nz mysqld_safe[10458]: 2022-05-02  9:25:16 140034580376704 [Note] /usr/sbin/mysqld (mysqld 10.1.48-MariaDB-0ubuntu0.18.04.1) starting as process 10488 ...
+May 02 09:25:19 db-b.foo.org.nz mysqld_safe[10458]: 2022-05-02  9:25:19 139745248033920 [Note] /usr/sbin/mysqld (mysqld 10.1.48-MariaDB-0ubuntu0.18.04.1) starting as process 10529 ...
+May 02 09:25:22 db-b.foo.org.nz mysqld_safe[10458]: 2022-05-02  9:25:22 140613647772800 [Note] /usr/sbin/mysqld (mysqld 10.1.48-MariaDB-0ubuntu0.18.04.1) starting as process 10561 ...
+May 02 09:25:25 db-b.foo.org.nz mysqld_safe[10599]: 2022-05-02  9:25:25 140529249184896 [Note] /usr/sbin/mysqld (mysqld 10.1.48-MariaDB-0ubuntu0.18.04.1) starting as process 10598 ...
+respup
+statpup
+stat mysql
+res apache2
+cd /etc
+ls
+sudo vi ~/.bashrc
+resnr
+statnr
+statpup
+respup
+statpup
+reboot
+sudo reboot
+statpup
+mysql
+sudo mysql
+mysql -u root -p
+mysql -u bitstudent -p
+mysql -u root -p
+statpup
+sudo mysql -u root -p
+sudo mysql --user=root --password=P@ssw0rd
+sudo mysql --user=root --password
+res mysqld
+sudo systemctl restart mysqld
+sudo systemctl restart mysql
+respup
+statpup
+cd OE2-Group-Project/
+bumgmt
+budb
+statpup
+mysql
+sudo mysql
+mysql -u root -p
+mysql -u bitstudent -p
+mysql -u root -p
+statpup
+sudo mysql -u root -p
+sudo mysql --user=root --password=P@ssw0rd
+sudo mysql --user=root --password
+res mysqld
+sudo systemctl restart mysqld
+sudo systemctl restart mysql
+respup
+statpup
+cd OE2-Group-Project/
+bumgmt
+budb
+git add .
+git commit -m "db: update history"
+git push
+statpup
+mysql
+sudo mysql
+statpup
+sudo reboot
+statpup
+sudo nagios3 -v /etc/nagios3/nagios.cfg
+cd /etc/php/7.4/apache2/conf.d/20-mysql.ini
+cd /etc/php/7.4/apache2/conf.d/
+cd /etc/php/7.4/apache2/
+cd /etc/php/
+cd /etc/php
+ls
+sudo rm 'sh bitstudent@20.53.250.76' 
+ls
+statpup
+ls
+cd 
+ls
+statpup
+sudo /etc/init.d/mysql stop
+statpup
+sudo systemctl stop mysql
+sudo systemctl status  mysql
+sudo systemctl status mysql
+sudo systemctl status mysql.service
+sudo systemctl stop mysql-server
+sudo systemctl status mysql-server
+resmysql
+mysql
+mysql -u root
+sudo mysql -u root
+ls
+sudo systemctl status mysql-server
+sy
+systemctl list-units --type=service
+sudo systemctl start mysql-server
+systemctl
+systemctl list-units --type=service
+sudo systemctl start mysql-server
+sudo systemctl start mysql
+sudo systemctl status mysql
+respup
+statpup
+respup
+statpup
+respup
+statpup
+respup
+statpup
+:q
+statpup
+respup
+statpup
+resmas
+respup
+resmas
+statpup
+resmas
+respup
+statpup
+respup
+statpup
+respup
+statpup
+respup
+statpup
+respup
+statpup
+respup
+statpup
+respup
+statpup
+respup
+statpup
+dpkg --configure -a
+sudo dpkg --configure -a
+respup
+statpup
+respup
+statpup
+budb
+ls
+cd Scripts/db
+ls
+ls -al
+crontab -e
+sudo nano backup.sh 
+crontab -e
+budb
+budb
+ls
+cd Scripts/db
+ls
+ls -al
+crontab -e
+sudo nano backup.sh 
+crontab -e
+budb
+exit
+cd OE2-Group-Project/
+git pull
+sudo chmod 774 ./.git
+sudo chmod 774 .gitignore
+cd .git/
+sudo chown bitstudent FETCH_HEAD
+sudo chgrp bitstudent FETCH_HEAD
+sudo chown bitstudent ORIG_HEAD
+sudo chgrp bitstudent ORIG_HEAD
+sudo chmod 774 ./**
+cd objects
+sudo chgrp bitstudent ./**
+sudo chown bitstudent ./**
+cd ~/OE2-Group-Project
+git pull
+git stash
+git pull
+ls
+cd Scripts/db
+ls
+sudo nano backup.sh 
+budb
+cd OE2-Group-Project/
+git pull
+sudo chmod 774 ./.git
+sudo chmod 774 .gitignore
+cd .git/
+sudo chown bitstudent FETCH_HEAD
+sudo chgrp bitstudent FETCH_HEAD
+sudo chown bitstudent ORIG_HEAD
+sudo chgrp bitstudent ORIG_HEAD
+sudo chmod 774 ./**
+cd objects
+sudo chgrp bitstudent ./**
+sudo chown bitstudent ./**
+cd ~/OE2-Group-Project
+git pull
+git stash
+git pull
+ls
+cd Scripts/db
+ls
+sudo nano backup.sh 
+budb
+git add .
+ls
+git commit -m "db: update of gh backup script." -m "add permissions at the start of the script to ensure it has the ability to run" -m "db-b"
+git push
+exit
+cd OE2-Group-Project/Scripts/db
+sudo nano backup.sh 
+cd ~/OE2-Group-Project
+sudo chmod 774 ./.git
+sudo chmod 774 .gitignore
+cd .git/
+sudo chown bitstudent FETCH_HEAD
+sudo chgrp bitstudent FETCH_HEAD
+sudo chown bitstudent ORIG_HEAD
+sudo chgrp bitstudent ORIG_HEAD
+sudo chmod 774 ./**
+cd objects
+sudo chgrp bitstudent ./**
+sudo chown bitstudent ./**
+sudo chmod 774 ./**
+cd ~/OE2-Group-Project
+ls
+git pull
+exit
+wget https://github.com/prometheus/node_exporter/releases/download/v1.3.1/node_exporter-1.3.1.linux-amd64.tar.gz
+tar xvfz node_exporter-*.*-amd64.tar.gz
+cd node_exporter-*.*-amd64
+./node_exporter
+./node_exporter &
+sudo reboot
+sudo systemctl status node-exporter
+ps -eaf | grep no
+ls
+git pull
+sudo mv node_exporter-1.3.1.linux-amd64 /etc/prometheus-plugins/node_exporter -p
+sudo mv node_exporter-1.3.1.linux-amd64 /etc/prometheus-plugins/node_exporter
+sudo mv node_exporter-1.3.1.linux-amd64 node_exporter
+sudo mv node_exporter /etc/
+cd /etc
+ls
+cd node_exporter/
+ls
+./node_exporter
+cd systemd/
+ls
+cd ..
+ls
+cd systemd/system/
+ls
+sudo nano node-exporter.service
+sudo systemctl daemon-reload
+sudo systemctl restart node-exporter
+sudo systemctl status node-exporter
+sudo systemctl enable node_exporter
+sudo systemctl enable node-exporter
+sudo reboot
+cd OE2-Group-Project/Scripts/db/
+ls
+sudo nano backup.sh 
+cd /etc/systemd/system/
+ls
+cd ~/OE2-Group-Project/Scripts/db/
+sudo nano backup.sh 
+exit
+sudo apt install sysdig
+sudo csysdig
+sudo csysdig -h
+sudo csysdig --logfile=~/csysdig.txt
+ls
+sudo rm node_exporter-1.3.1.linux-amd64.tar.gz 
+touch csysdig.txt
+ls
+sudo csysdig --logfile=~/csysdig.txt
+sudo csysdig --logfile=csysdig.txt
+ls
+cat csysdig.txt 
+sudo csysdig -h
+sudo csysdig -l
+sudo csysdig syslog.severity.str
+sudo csysdig -l
+sudo csysdig -h
+sudo csysdig -A syslog.severity.str
+sudo csysdig -l
+sudo sysdig -c echo_fds
+sudo sysdig -w extime.scap -c proc_exec_time
+sudo sysdig -c spy_logs
+sudo sysdig -c list_login_shells 
+sudo sysdig -c spy_users
+sudo sysdig -c spy_users -s 3000 -w trace.scap
+sudo sysdig -c spy_users -s 3000 -w trace.scap &
+sudo sysdig -r trace.scap
+to
+sudo kill 27176
+sudo csysdig
+ls /usr/share/sysdig/chisels
+sudo sysdig -h
+sudo sysdig -lv
+sudo sysdig -h
+sudo sysdig process.name=prometheus evt.failed=true
+sudo sysdig process.name=puppet evt.failed=true
+sudo sysdig evt.failed=true
+sudo sysdig process.name=mysqld evt.failed=true
+sudo sysdig process.name=ntpd evt.failed=true
+sudo sysdig proc.name=ntpd evt.failed=true
+sudo sysdig proc.name=ntpd and evt.failed=true
+sudo sysdig -cl
+sudo sysdig spy_users
+sudo sysdig -c spy_users
+sudo sysdig -c spy_users -h
+sudo sysdig -c spy_users -L
+sudo sysdig -c spy_users -h
+sudo sysdig -c spy_users -S
+sudo sysdig spy_users -S -w
+sudo sysdig -S spy_users
+sudo sysdig -c spy_users 
+sudo sysdig -c spy_users -S and evt.failed=true -w dumpfile.scap
+sudo sysdig -c spy_users -w dumpfile.scap evt.failed=true
+ls -al
+cat dumpfile.scap 
+sudo sysdig -c spy_users -w dumpfile.scap evt.failed=true -S
+sudo sysdig -c spy_users -w dumpfile.scap evt.failed=true &
+sudo sysdig -r dumpfile.scap
+sudo sysdig spy_users -w dumpfile.scap evt.failed=true &
+sudo sysdig -c spy_users -w dumpfile.scap evt.failed=true &
+top
+sudo kill 27621
+sudo kill 27660
+sudo sysdig -c spy_users -w dumpfile.scap evt.failed=true &
+top
+sudo kill 27678
+sudo sysdig -r dumpfile.scap
+cd OE2-Group-Project/Scripts/db/
+sudo nano backup.sh 
+cd /etc/
+ls
+cd ~
+ls
+sudo chown -R bitstudent ~/OE2-Group-Project/Db-VM
+cd /etc/systemd/system
+ls
+cd ~/OE2-Group-Project/
+git pull
+exit
+cd OE2-Group-Project/
+git pull
+ls -al
+cd .git/
+ls -al
+cd ..
+ls 
+git pull
+cd .git/
+ls -al
+cd ..
+ls 
+sudo nano Scripts/db/backup.sh 
+bash Scripts/db/backup.sh 
+cd /etc/
+ls -al
+ls
+sudo mv node_exporter/ node-exporter
+ls
+cd ~
+cd OE2-Group-Project/
+bash Scripts/db/backup.sh 
+exit

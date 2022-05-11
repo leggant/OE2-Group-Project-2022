@@ -1,0 +1,2000 @@
+sudo touch install.pp
+ls
+sudo nano install.pp 
+site
+sudo nano init.pp 
+sudo nano config.pp 
+sudo nano install.pp 
+agentupdate
+sudo vi ~/.bashrc
+sudo nano install.pp 
+agentupdate
+sudo nano install.pp 
+agentupdate
+resmas
+statmas
+sudo nano install.pp 
+sudo nano init.pp 
+agentupdate
+statmas
+resmas
+statmas
+statpup
+statmas
+sudo nano install.pp 
+agentupdate
+resmas
+statmas
+sudo nano install.pp 
+sudo nano config.pp 
+agentupdate
+resmas
+statmas
+sudo nano config.pp 
+agentupdate
+statmas
+resmas
+statmas
+sudo nano config.pp 
+agentupdate
+resmas
+statmas
+resap
+res apache2
+sudo nano config.pp 
+agentupdate
+resmas
+statmas
+sudo nano config.pp 
+agentupdate
+resmas
+statmas
+sudo nano config.pp 
+mod
+cd php
+cd manifests/
+ls
+sudo nano config.pp 
+agentupdate
+site
+agentupdate
+resmas
+statmas
+site
+sudo nano config.pp 
+sudo nano install.pp 
+cd ~/OE2-Group-Project/Scripts/
+ls
+cd mgmt
+ls
+sudo nano recovery.sh
+sudo cp backup.sh recovery.sh
+ls
+sudo nano recovery.sh 
+cd ~
+cd ~/OE2-Group-Project && sudo git pull
+bumgmt
+mod
+ls
+cd owncloud/
+cd manifests/
+ls
+mod
+cd mariadb/
+ls
+mod
+cd owncloud/
+mod
+cd mariadb/
+ls
+cd manifests/
+ls
+sudo nano config.pp 
+sudo nano install.pp 
+mod
+ls
+site
+agentupdate
+mod
+ls
+cd mysql_client/
+ls
+cd ..
+sudo rm mysql_client/
+sudo rm mysql_client/ -r
+cd owncloud/
+ls
+cd manifests/
+ls
+cd ..
+ls
+sudo mkdir php
+cd php/
+sudo mkdir manifests
+cd manifests/
+sudo touch init.pp
+sudo touch install.pp
+sudo touch config.pp
+sudo nano install.pp
+sudo nano config.pp
+sudo touch install.pp
+ls
+sudo nano install.pp 
+site
+sudo nano init.pp 
+sudo nano config.pp 
+sudo nano install.pp 
+agentupdate
+sudo vi ~/.bashrc
+sudo nano install.pp 
+agentupdate
+sudo nano install.pp 
+agentupdate
+resmas
+statmas
+sudo nano install.pp 
+sudo nano init.pp 
+agentupdate
+statmas
+resmas
+statmas
+statpup
+statmas
+sudo nano install.pp 
+agentupdate
+resmas
+statmas
+sudo nano install.pp 
+sudo nano config.pp 
+agentupdate
+resmas
+statmas
+sudo nano config.pp 
+agentupdate
+statmas
+resmas
+statmas
+sudo nano config.pp 
+agentupdate
+resmas
+statmas
+resap
+res apache2
+sudo nano config.pp 
+agentupdate
+resmas
+statmas
+sudo nano config.pp 
+agentupdate
+resmas
+statmas
+sudo nano config.pp 
+mod
+cd php
+cd manifests/
+ls
+sudo nano config.pp 
+agentupdate
+site
+agentupdate
+resmas
+statmas
+site
+sudo nano config.pp 
+sudo nano install.pp 
+cd ~/OE2-Group-Project/Scripts/
+ls
+cd mgmt
+ls
+sudo nano recovery.sh
+sudo cp backup.sh recovery.sh
+ls
+sudo nano recovery.sh 
+cd ~
+cd ~/OE2-Group-Project && sudo git pull
+bumgmt
+git add .
+sudo git add .
+sudo git commit -m "mgmt: backup recovery script test" -m "mgmt-b"
+git push
+cd ~/OE2-Group-Project && sudo git pull
+sudo git pull
+cd Scripts/
+cd mgmt/
+cat backup.sh 
+cd ../../Mgmt-VM/
+ls
+cat crontab.txt '
+;
+cat crontab.txt
+ls
+cd ../..
+ls
+cd OE2-Group-Project/
+ls
+git status
+git pull
+ls
+touch puppet-install
+sudo vim puppet-install 
+chmod +x puppet-install 
+sudo vim puppet-install 
+./puppet-install 
+sudo vim puppet-install 
+vim /etc/puppet/puppet.conf 
+ls
+vim test
+sudo vim puppet-install 
+ls
+vim test 
+./puppet-install 
+sudo vim puppet-install 
+./puppet-install 
+vim test 
+sudo vim puppet-install 
+./puppet-install 
+sudo vim puppet-install 
+vim test 
+sudo vim puppet-install 
+pwd
+sudo vim puppet-install 
+./puppet-install 
+vim test 
+sudo vim puppet-install 
+./puppet-install 
+vim test 
+sudo vim puppet-install 
+./puppet-install 
+vim test 
+./puppet-install 
+sudo vim puppet-install 
+./puppet-install 
+sudo vim puppet-install 
+./puppet-install 
+vim test 
+sudo vim puppet-install 
+./puppet-install 
+vim test 
+sudo vim puppet-install 
+./puppet-install 
+vim test 
+sudo vim puppet-install 
+./puppet-install 
+sudo vim puppet-install 
+./puppet-install 
+sudo vim puppet-install 
+./puppet-install 
+sudo vim puppet-install 
+./puppet-install 
+vim test 
+sudo vim puppet-install 
+vim test 
+./puppet-install 
+vim test 
+sudo vim puppet-install 
+./puppet-install 
+vim test 
+sudo vim puppet-install 
+./puppet-install 
+sudo vim puppet-install 
+./puppet-install 
+ls
+./puppet-install 
+sudo vim puppet-install 
+./puppet-install 
+ls
+sudo rm testx -r
+ls
+sudo vim puppet-install 
+./puppet-install 
+ls
+cd testx/
+ls
+cd ..
+ls
+sudo vim puppet-install 
+./puppet-install 
+ls
+sudo rm site.pp 
+ls
+cd testx/
+ls
+cd ..
+ls
+sudo rm testx -r
+ls
+sudo vim puppet-install 
+./puppet-install 
+ls
+cd testx/
+ls
+cd ..
+ls
+sudo rm -r testx/
+ls
+./puppet-install 
+ls
+sudo rm -r testx/
+ls
+vim puppet-install 
+ls
+rm test 
+ls
+cd OE2-Group-Project/
+ls
+cd Scripts/
+ls
+cd mgmt/
+ls
+cd ~
+ls
+mv puppet-install puppet-install.sh
+ls
+./puppet-install.sh 
+ls
+vim puppet-install.sh 
+vim /etc/puppet/puppet.config
+vim /etc/puppet/puppet.conf
+vim puppet-install.sh 
+ls
+vim test
+vim puppet-install.sh 
+pwd
+vim puppet-install.sh 
+./puppet-install.sh 
+ls
+vim test 
+./puppet-install.sh 
+vim test 
+./puppet-install.sh 
+vim test 
+./puppet-install.sh 
+vim puppet-install.sh 
+./puppet-install.sh 
+vim puppet-install.sh 
+./puppet-install.sh 
+vim puppet-install.sh 
+./puppet-install.sh 
+ls
+vim test 
+vim puppet-install.sh 
+./puppet-install.sh 
+vim test 
+vim puppet-install.sh 
+./puppet-install.sh 
+vim puppet-install.sh 
+./puppet-install.sh 
+vim puppet-install.sh 
+./puppet-install.sh 
+vim puppet-install.sh 
+./puppet-install.sh 
+vim puppet-install.sh 
+./puppet-install.sh 
+vim puppet-install.sh 
+./puppet-install.sh 
+vim puppet-install.sh 
+./puppet-install.sh 
+vim puppet-install.sh 
+./puppet-install.sh 
+vim puppet-install.sh 
+./puppet-install.sh 
+vim puppet-install.sh 
+./puppet-install.sh 
+vim puppet-install.sh 
+./puppet-install.sh 
+vim puppet-install.sh 
+vim test 
+vim puppet-install.sh 
+vim test 
+./puppet-install.sh 
+vim test 
+vim puppet-install.sh 
+./puppet-install.sh 
+vim test 
+./puppet-install.sh 
+vim test 
+vim puppet-install.sh 
+./puppet-install.sh 
+vim test 
+./puppet-install.sh 
+vim test 
+./puppet-install.sh 
+vim test 
+vim puppet-install.sh 
+./puppet-install.sh 
+vim test 
+./puppet-install.sh 
+vim test 
+./puppet-install.sh 
+vim test 
+./puppet-install.sh 
+vim puppet-install.sh 
+./puppet-install.sh 
+vim puppet-install.sh 
+vim test 
+vim puppet-install.sh 
+./puppet-install.sh 
+vim puppet-install.sh 
+vim test 
+./puppet-install.sh 
+vim test 
+vim puppet-install.sh 
+vim /etc/puppet/puppet.conf
+vim puppet-install.sh 
+./puppet-install.sh 
+vim /etc/puppet/puppet.conf
+sudo vim /etc/puppet/puppet.conf 
+respup
+pupstat
+statpup
+ls
+vim test 
+vim puppet-install.sh 
+pwd
+vim puppet-install.sh 
+./puppet-install.sh 
+vim test 
+./puppet-install.sh 
+vim test 
+./puppet-install.sh 
+vim test 
+vim puppet-install.sh 
+./puppet-install.sh 
+vim test 
+./puppet-install.sh 
+vim test 
+vim puppet-install.sh 
+./puppet-install.sh 
+vim test 
+./puppet-install.sh 
+vim test 
+./puppet-install.sh 
+vim test 
+vim puppet-install.sh 
+./puppet-install.sh 
+vim test 
+vim puppet-install.sh 
+./puppet-install.sh 
+vim test 
+./puppet-install.sh 
+vim test 
+./puppet-install.sh 
+vim puppet-install.sh 
+./puppet-install.sh 
+vim test 
+vim puppet-install.sh 
+./puppet-install.sh 
+vim test 
+vim puppet-install.sh 
+vim test 
+./puppet-install.sh 
+vim test 
+vim puppet-install.sh 
+./puppet-install.sh 
+vim test 
+./puppet-install.sh 
+vim test 
+vim puppet-install.sh 
+./puppet-install.sh 
+vim puppet-install.sh 
+vim test 
+vim puppet-install.sh 
+vim test 
+vim puppet-install.sh 
+./puppet-install.sh 
+vim test 
+vim puppet-install.sh 
+vim test 
+./puppet-install.sh 
+vim test 
+./puppet-install.sh 
+vim puppet-install.sh 
+./puppet-install.sh 
+vim test 
+./puppet-install.sh 
+vim test 
+vim puppet-install.sh 
+./puppet-install.sh 
+vim test 
+./puppet-install.sh 
+vim test 
+vim puppet-install.sh 
+ls
+vim test 
+./puppet-install.sh 
+vim test 
+vim puppet-install.sh 
+vim test 
+./puppet-install.sh 
+vim test 
+./puppet-install.sh 
+vim test 
+./puppet-install.sh 
+vim test 
+vim puppet-install.sh 
+./puppet-install.sh 
+vim test 
+./puppet-install.sh 
+vim test 
+vim puppet-install.sh 
+vim test 
+./puppet-install.sh 
+vim test 
+./puppet-install.sh 
+vim test 
+./puppet-install.sh 
+vim test 
+./puppet-install.sh 
+vim test 
+vim puppet-install.sh 
+./puppet-install.sh 
+vim test 
+./puppet-install.sh 
+vim test 
+vim puppet-install.sh 
+./puppet-install.sh 
+vim test 
+./puppet-install.sh 
+vim test 
+vim puppet-install.sh 
+./puppet-install.sh 
+vim test 
+./puppet-install.sh 
+vim test 
+./puppet-install.sh 
+vim test 
+vim puppet-install.sh 
+./puppet-install.sh 
+vim test 
+./puppet-install.sh 
+vim test 
+./puppet-install.sh 
+vim test 
+./puppet-install.sh 
+vim puppet-install.sh 
+./puppet-install.sh 
+vim test 
+./puppet-install.sh 
+vim test 
+vim puppet-install.sh 
+./puppet-install.sh 
+vim puppet-install.sh 
+./puppet-install.sh 
+vim test 
+./puppet-install.sh 
+vim test 
+vim puppet-install.sh 
+./puppet-install.sh 
+vim puppet-install.sh 
+vim test 
+vim puppet-install.sh 
+./puppet-install.sh 
+vim test 
+./puppet-install.sh 
+vim test 
+vim puppet-install.sh 
+./puppet-install.sh 
+vim test 
+./puppet-install.sh 
+vim test 
+./puppet-install.sh 
+vim test 
+vim puppet-install.sh 
+./puppet-install.sh 
+vim /etc/puppet/puppet.conf
+vim puppet-install.sh 
+vim /etc/puppet/puppet.conf
+vim puppet-install.sh 
+./puppet-install.sh 
+vim test 
+vim /etc/puppet/puppet.conf
+./puppet-install.sh 
+vim puppet-install.sh 
+./puppet-install.sh 
+vim /etc/puppet/puppet.conf
+sudo vim /etc/puppet/puppet.conf
+ls
+mv puppet-install.sh puppet-master-install.sh
+ls
+./puppet-master-install.sh 
+sudo vim /etc/puppet/puppet.conf
+ls
+sudo rm test 
+la
+sudo vim /etc/puppet/puppet.conf
+vim puppet-master-install.sh 
+eit
+exit
+ls
+statpup
+sudo vim /etc/puppet/puppet.conf
+exit
+ls
+vim puppet-master-install.sh 
+ls
+exit
+ls
+clear
+ls
+vim puppet
+vim puppet-master-install.sh 
+exit
+ls
+vim puppet-master-install.sh 
+vim /etc/hosts
+ls
+last
+/ -5
+last | head -5
+w
+finger root
+finger bitstudent
+ls
+cat puppet-agent-install.sh 
+cat puppet-master-install.sh 
+sudo cp puppet-agent-install.sh OE2-Group-Project/Scripts/mgmt/
+sudo cp puppet-master-install.sh OE2-Group-Project/Scripts/mgmt/
+ls
+cd OE2-Group-Project/Scripts/mgmt/
+ls
+cd ../..
+ls
+git status
+git add .
+git status
+cd Scripts/
+ls
+cd mgmt/
+ls
+git status
+cd ../../
+ls
+git status
+cd ..
+ls
+ls
+vim puppet-agent-install.sh
+ls
+touch test
+vim test 
+vim puppet-agent-install.sh 
+pwd
+vim puppet-agent-install.sh 
+chmod +x puppet-agent-install.sh 
+ls
+./puppet-agent-install.sh 
+ls
+vim test 
+vim puppet-agent-install.sh 
+vim test 
+./puppet-agent-install.sh 
+vim test 
+./puppet-agent-install.sh 
+vim test 
+vim puppet-agent-install.sh 
+sudo systemctl status puppet
+vim puppet-agent-install.sh 
+vim /etc/puppet/puppet.conf
+vim puppet-agent-install.sh 
+ls
+rm test 
+ls
+mod
+ls
+pwd
+cd etc
+cd /etc
+ls
+cd nagios
+ls
+cd ..
+cd puppet/
+ls
+cd code/
+ls
+cd ..
+ls
+vim puppet.conf 
+ls
+cd ..
+ls
+cd nagios
+ls
+cd ..
+ls
+cd nagios3/
+ls
+mod
+ls
+cd ..
+ls
+cd environments/
+ls
+cd production/
+ls
+cd manifests/
+ls
+vim site.pp 
+mod
+ls
+finger
+sudo apt-get install finger
+finger
+login sudo
+finger sudo
+less /etc/passwd
+finger root
+w
+w -f
+less /etc/passwd
+w
+finger root
+finger bitstudent
+clear
+finger bitstudent
+w
+w user
+grep "New session" /var/log/auth.log | awk '{print $1,$2,$3,$11}' | tail -5
+last | head -5
+ps -ef | grep
+ps -ef | grep ^root
+ps -ef | grep ^bitstudent
+ps -ef | grep ^root
+master -w
+ps -ef | grep ^root
+vim /.HISTORY
+ps -ef | grep ^root
+last | head -5
+master -w
+finger bitstudent
+grep "New session" /var/log/auth.log | awk '{print $1,$2,$3,$11}' | tail -5
+last | head -5
+w
+grep "New session" /var/log/auth.log | awk '{print $1,$2,$3,$11}' | tail -5
+last | head -5
+finger root
+finger bitstudent
+finger
+ls
+cd /etc
+ls
+cd use
+cd /usr
+ls
+cd var
+cd bin/
+ls
+cd /var/www/owncloud/data
+exit
+statmas
+resmas
+statmas
+resmas
+statmas
+bumgmt
+statmas
+statmas
+resmas
+statmas
+resmas
+statmas
+bumgmt
+statmas
+respup
+statpup
+statmas
+resmas
+statmas
+statnag
+statmas
+stat nagios3
+sudo reboot
+statmas
+resmas
+cd /etc/
+ls
+cd puppet
+ls
+cd cpde
+cd code
+ls
+cd modules/
+ls
+cd php
+ls
+cd manifests/
+ls
+sudo nano init.pp
+sudo nano install.pp 
+sudo nano config.pp 
+statmas
+ls
+sudo nano config.pp 
+cd ..
+ls
+cd ..
+ls
+site
+cd owncloud/
+ls
+sudo nagios3 -v /etc/nagios3/nagios.cfg
+ls
+cd manifests/
+ls
+cd ..
+cd files/
+ls
+cd ..
+ls
+cd ..
+ls
+cd php
+ls
+cd manifests/
+ls
+sudo nano install.pp 
+cd ..
+ls
+site
+statmas
+ls
+cd ..
+ls
+cd php
+cd manifests/
+ls
+sudo nano install.pp 
+sudo systemctl puppet ?
+sudo systemctl puppet cert -all
+site
+sudo puppet cert list
+sudo puppet cert list --all
+site
+resmas
+statmas
+respup
+statmas
+statpup
+statmas
+site
+resmas
+statmas
+sudo puppet cert verify --all
+sudo puppet cert verify
+sudo puppet cert verify --all
+sudo puppet cert list --all
+sudo puppet cert sign --all
+sudo puppet cert list --all
+hosts
+cat /etc/hosts
+statmas
+sudo lsof -i -P -n | grep LISTEN
+statmas
+statpup
+statmas
+resmas
+statmas
+sudo nagios3 -v /etc/nagios3/nagios.cfg
+statmas
+cd /etc/puppet/code/modules/php/manifests/init.pp
+sudo vim /etc/puppet/code/modules/php/manifests/init.pp
+statmas
+puppet apply test.pp --debug --trace
+sudo nagios3 -v /etc/nagios3/nagios.cfg
+:q
+statmas
+cd /etc/puppet/code/modules/php/manifests/init.pp
+cd /etc/puppet/code/modules/php/manifests
+vim init.pp 
+site
+resmas
+statmas
+resmas
+statmas
+site
+ls
+vim config.pp 
+vim install.pp 
+vim config.pp 
+vim install.pp 
+vim init.pp 
+sudo vim init.pp 
+site
+respup
+statmas
+respup
+statmas
+ls
+resmas
+ls
+statmas
+ssh bitstudent@20.58.164.44
+statmas
+respup
+resmas
+statmas
+ls
+vim config.pp 
+sudo apt-get update
+statmas
+respup
+statmas
+resmas 
+statmas
+vim config.pp 
+sudo vim config.pp 
+resmas 
+respup
+statmas
+statpup
+sudo vim config.pp 
+respup
+resmas 
+statpup
+statmas
+statpup
+statmas
+site
+mod
+cd mariadb/
+ls
+cd manifests/
+ls
+vim config.pp 
+sudo vim config.pp 
+respup
+ls
+vim install.pp 
+vim config.pp 
+ls
+sudo vim init.pp 
+sudo vim service.pp 
+sudo vim install.pp 
+respup
+statmas
+respup
+statmas
+sudo vim install.pp 
+respup
+sudo vim install.pp 
+sudo vim config.pp 
+vim service.pp 
+ls
+sudo vim install.pp 
+respup
+statmas
+respup
+statmas
+site
+ls
+cd ..
+ls
+cd ..
+ls
+cd mariadb/
+cd manifests/
+ls
+vim config.pp 
+vim service.pp 
+vim install.pp 
+statmas
+bumgmt
+bumgmt
+sudo nano ~/OE2-Group-Project/Scripts/mgmt/backup.sh 
+crontab -e
+statpup
+statmas
+exit
+cd OE2-Group-Project
+ls 
+sudo chmod 774 ./.git
+sudo chmod 774 .gitignore
+cd .git/
+sudo chown bitstudent FETCH_HEAD
+cd ~/OE2-Group-Project
+sudo chmod 774 ./.git
+sudo chmod 774 .gitignore
+cd .git/
+sudo chown bitstudent FETCH_HEAD
+sudo chgrp bitstudent FETCH_HEAD
+sudo chown bitstudent ORIG_HEAD
+sudo chgrp bitstudent ORIG_HEAD
+sudo chmod 774 ./**
+cd objects
+sudo chgrp bitstudent ./**
+sudo chown bitstudent ./**
+cd ~/OE2-Group-Project
+cd Scripts/mgmt/
+ls
+sudo nano backup.sh 
+cd ../../
+ls
+bumgmt
+git stash
+cd ~/OE2-Group-Project
+sudo chmod 774 ./.git
+sudo chmod 774 .gitignore
+cd .git/
+sudo chown bitstudent FETCH_HEAD
+sudo chgrp bitstudent FETCH_HEAD
+sudo chown bitstudent ORIG_HEAD
+sudo chgrp bitstudent ORIG_HEAD
+sudo chmod 774 ./**
+cd objects
+sudo chgrp bitstudent ./**
+sudo chown bitstudent ./**
+cd ~/OE2-Group-Project
+git status
+git statsh .gitignore
+git stash .gitignore
+git pull
+cd .git
+ls -al
+cd objects/
+ls
+ls -al
+cd ~/OE2-Group-Project
+sudo chmod 774 ./.git
+sudo chmod 774 .gitignore
+cd .git/
+sudo chown bitstudent FETCH_HEAD
+sudo chgrp bitstudent FETCH_HEAD
+sudo chown bitstudent ORIG_HEAD
+sudo chgrp bitstudent ORIG_HEAD
+sudo chmod 774 ./**
+cd objects
+sudo chgrp bitstudent ./**
+sudo chown bitstudent ./**
+sudo chmod 774 ./**
+cd ~/OE2-Group-Project
+git add .
+git status
+git pull
+exit
+wget https://github.com/prometheus/node_exporter/releases/download/v1.0.0-rc.0/node_exporter-1.0.0-rc.0.linux-amd64.tar.gz
+ls
+tar -xvf node_exporter-1.0.0-rc.0.linux-amd64.tar.gz 
+ls
+cd node_exporter-1.0.0-rc.0.linux-amd64/
+ls
+./node_exporter 
+ps -eaf | no
+ps -eaf | grep no
+kill -HUB 5019
+sudo kill -HUB 5019
+sudo kill -HUP 5019
+ls
+cd ..
+ls
+./node_exporter &
+cd node_exporter-1.0.0-rc.0.linux-amd64/
+./node_exporter &
+wget https://github.com/prometheus/prometheus/releases/download/v2.18.0-rc.1/prometheus-2.18.0-rc.1.linux-amd64.tar.gz
+ls
+tar -xvf prometheus-2.18.0-rc.1.linux-amd64.tar.gz 
+ls
+cd prometheus-2.18.0-rc.1.linux-amd64/
+ls
+vim prometheus.yml 
+ls./prometheus --config.file=prometheus.yml
+ls
+./prometheus --config.file=prometheus.yml
+vim prometheus.yml 
+./prometheus --config.file=prometheus.yml 
+./node_exporter &
+ls
+cd ..
+ls
+./node_exporter &
+./prometheus --config.file=prometheus.yml 
+cd ..
+cd node_exporter-1.0.0-rc.0.linux-amd64/
+./prometheus --config.file=prometheus.yml 
+ls
+cd prometheus-2.18.0-rc.1.linux-amd64/
+./prometheus --config.file=prometheus.yml 
+ls
+cd ..
+ls
+cd ..
+ls
+sudo rm -r node_exporter-1.0.0-rc.0.linux-amd64
+sudo rm node_exporter-1.0.0-rc.0.linux-amd64.tar.gz 
+ls
+ps -eaf | grep nod
+kill -HUP 2962
+sudo ufw allow 9090
+statmas
+ps -eaf | grep nod
+ls
+cd /etc
+ls
+date
+ls
+cd ..
+ps -eaf | grep nod
+ls
+cd ~
+wget https://github.com/prometheus/node_exporter/releases/download/v1.0.0-rc.0/node_exporter-1.0.0-rc.0.linux-amd64.tar.gz
+ls
+tar -xvf node_exporter-1.0.0-rc.0.linux-amd64.tar.gz 
+cd node_exporter-1.0.0-rc.0.linux-amd64/
+ls
+./node_exporter 
+ls
+cd ..
+ls
+sudo rm node_exporter-1.0.0-rc.0.linux-amd64
+sudo rm node_exporter-1.0.0-rc.0.linux-amd64 -er
+sudo rm node_exporter-1.0.0-rc.0.linux-amd64 -r
+sudo rm node_exporter-1.0.0-rc.0.linux-amd64 
+sudo rm node_exporter-1.0.0-rc.0.linux-amd64.tar.gz 
+ls
+wget https://github.com/prometheus/node_exporter/releases/download/v*/node_exporter-*.*-amd64.tar.gz
+sudo wget node_exporter-1.3.1.linux-amd64.tar.gz
+sudo wget https://github.com/prometheus/node_exporter/releases/download/v1.3.1/node_exporter-1.3.1.linux-amd64.tar.gz
+tar xvfz node_exporter-*.*-amd64.tar.gz
+cd node_exporter-*.*-amd64
+./node_exporter
+sudo ./node_exporter
+curl http://localhost:9100/metrics
+./node_exporter &
+curl http://localhost:9100/metrics
+./node_exporter &
+ps -eaf | grep no
+kill -HUP 9269
+ps -eaf | grep no
+./node_exporter &
+sudo ./node_exporter
+sudo ./node_exporter -p 9200
+sudo ./node_exporter --help
+sudo ./node_exporter --web.listen-address=:9500
+ls
+cd ..
+ls
+mv node_exporter-1.3.1.linux-amd64 node-exporter
+ls
+cd node-exporter/
+ls
+cd /etc/systemd/system/
+sudo vim node-exporter.service
+systemctl daemon-reload
+sudo systemctl daemon-reload
+statmas
+udo systemctl status node-exporter
+sudo systemctl status node-exporter
+sudo systemctl start node-exporter
+sudo systemctl status node-exporter
+sudo vim node-exporter.service
+pwd
+ls
+sudo vim node-exporter.service
+pwd
+sudo vim node-exporter.service
+sudo systemctl restart node-exporter
+systemctl daemon-reload
+sudo systemctl daemon-reload
+sudo systemctl restart node-exporter
+sudo systemctl status node-exporter
+cd ~
+ls
+pwd
+sudo vim node-exporter.service
+cd /etc/systemd/system/
+sudo vim node-exporter.service
+sudo systemctl daemon-reload
+sudo systemctl restart node-exporter
+sudo systemctl status node-exporter
+cd ~
+cd node-exporter/
+pwd
+ls
+cd /etc/systemd/system
+sudo vim node-exporter.service
+sudo systemctl daemon-reload
+sudo systemctl restart node-exporter
+sudo systemctl status node-exporter
+cd /etc/systemd/system/
+sudo vim node-exporter.service
+ps -eaf | grep node-exporter
+kill -HUP 14095
+kill -HUP 2820
+cd /etc/systemd/system/
+ls
+sudo nano ~/OE2-Group-Project/Scripts/mgmt/backup.sh
+exit
+ls
+cd /etc
+ls
+cd nagios3/
+ls
+vim nagios.cfg 
+cd nagios
+ls
+cd ..
+cd nagios
+ls
+cd ..
+l
+ls
+exit
+cd OE2-Group-Project/
+git pull
+cd Mgmt-VM/
+ls
+sudo rm services 
+cd ..
+ls
+git status
+git add .
+cd Mgmt-VM/node_exporter/
+ls
+cd ..
+ls
+git pull
+cd ..
+ls
+git pull
+git fetch
+ls
+git pull
+git status
+git fetch
+git status
+git pull
+git status
+cd Mgmt-VM/
+ls
+cd node_exporter/
+ls
+ls -al
+cd ..
+ls
+cd ..
+ls
+cd Scripts/
+ls -al
+cd mgmt/
+ls -al
+exit
+cd OE2-Group-Project/Scripts/
+ls -al
+cd mgmt/
+ls -al
+cd ..
+ls 
+cd ..
+ls
+sudo chown -R bitstudent Scripts/
+sudo chgrp -R bitstudent Scripts/
+chmod 774 -R Scripts/
+cd Scripts/
+ls
+ls -al
+cd mgmt/
+ls -al
+cd ..
+ls
+cd mgmt/
+ls
+sudo nano backup.sh 
+sudo chmod -R 775 ~/OE2-Group-Project 
+ls
+cd ~/OE2-Group-Project/
+ls -al
+cd .git
+ls -al
+cd ..
+ls
+git pull
+git status
+git add .
+git status
+ls
+cd Scripts/mgmt/
+ls -al
+sudo nano backup.sh 
+git pull
+ls -al
+cd ..
+ls
+cd Scripts/
+cd app/
+ls -al
+cd ..
+ls
+cd mgmt/
+sudo nano backup.sh 
+ls
+cd ..
+ls
+git add .
+git status
+git commit -m "mgmt: updated backup script"
+git push
+git pull
+exit
+cd OE2-Group-Project/
+sudo nano Scripts/mgmt/backup.sh 
+bash Scripts/mgmt/backup.sh 
+cd /etc/
+ls
+cd prometheus-plugins/
+ls 
+cd ~/OE2-Group-Project/
+sudo nano Scripts/mgmt/backup.sh 
+bash Scripts/mgmt/backup.sh 
+sudo nano Scripts/mgmt/backup.sh 
+cd Mgmt-VM/
+ls
+sudo rm node_exporter/ -r
+cd ..
+bash Scripts/mgmt/backup.sh 
+cd //
+cd ..
+ls
+cd ~/OE2-Group-Project/
+bash Scripts/mgmt/backup.sh 
+cd Mgmt-VM/
+ls
+cd ..
+ls
+exit
+sudo vi ~/.bashrc
+source ~/.bashrc
+bumgmt
+exit
+vim /etc/hosts
+sudo reboot
+cd OE2-Group-Project/
+ls
+cd Mgmt-VM/
+ls
+cd prometheus-plugins/
+ls
+cd ../../Scripts/
+cd mgmt/
+sudo nano backup.sh 
+bash backup.sh 
+cd ../..
+git status
+git pull
+exit
+ifconfig
+ssh groupb@restore-b.foo.org.nz
+w
+ssh-keygen -t rsa -b 4096 -C "comment" -P "examplePassphrase" -f "desired pathAndName" -q 
+ls .ssh
+cd ..sh
+cd .ssh
+ls
+rm id_rsa
+rm id_rsa.pub 
+ssh-keygen -t rsa -b 4096 -C "comment"  -q 
+ssh-keygen -t rsa -b 4096 -C "mgmgt key" -P "" -f "default" -q 
+ls
+rm default
+rm default.pub 
+l
+ssh-keygen -t rsa -b 4096 -C "comment" -P "examplePassphrase" -f "desired pathAndName" -q 
+ls
+ssh-keygen -t rsa -b 4096 -C "comment" -P "examplePassphrase" -f "id_rsa" -q 
+rm desired\ pathAndName
+rm desired\ pathAndName.pub 
+ls
+scp ~/.ssh/id_rsa.pub groupb@restore-b.foo.org.nz:/home/groupb/.ssh/mgmt.key.pub
+ls
+vim id_rsa.pub 
+pwd
+ssh-keygen -f /home/$user/.ssh/id_rsa -t rsa -N '' -q
+ssh-keygen -f /home/bitstudent/.ssh/id_rsa -t rsa -N '' -q
+ls
+vim id_rsa
+vim id_rsa.pub 
+ls
+rm id_rsa
+rm id_rsa.pub 
+ssh-keygen -f /home/bitstudent/.ssh/id_rsa -t rsa -N '' -q
+ls
+vim id_rsa
+vim id_rsa.pub 
+scp ~/.ssh/id_rsa.pub groupb@restore-b.foo.org.nz:/home/groupb/.ssh/mgmt.key.pub
+ls
+cd /etc/
+ls
+cd ..
+ls
+cd ~
+ls
+sudo mv node-exporter/ /etc
+ls
+rm node_exporter-1.3.1.linux-amd64.tar.gz 
+ls
+clear
+ls
+rm desired\ pathAndName
+rm desired\ pathAndName.pub 
+ls
+rm node_exporter-1.3.1.linux-amd64.tar.gz 
+ls
+rm node_exporter-1.3.1.linux-amd64.tar.gz 
+ls
+rm puppet-agent-install.sh 
+rm puppet-master-install.sh 
+ls
+cd OE2-Group-Project/
+ls
+cd Scripts/
+ls
+cd mgmt/
+ls
+sudo vim restore.sh 
+pwd
+ls
+sudo cp restore.sh /etc/puppet/code/modules/rsync/files/
+sudo vim /etc/puppet/code/modules/rsync/files/
+pwd
+sudo vim /etc/puppet/code/modules/rsync/files/
+chmod +x restore.sh 
+sudo chmod +x restore.sh 
+./restore.sh 
+sudo vim /etc/puppet/code/modules/rsync/files/
+./restore.sh 
+sudo vim /etc/puppet/code/modules/rsync/files/
+ls
+bash restore.sh 
+pwd
+sudo vim /etc/puppet/code/modules/rsync/files/
+pwd
+sudo vim /etc/puppet/code/modules/rsync/files/
+bash /etc/puppet/code/modules/rsync/files/restore.sh
+sudo vim /etc/puppet/code/modules/rsync/files/
+bash /etc/puppet/code/modules/rsync/files/restore.sh
+sudo vim /etc/puppet/code/modules/rsync/files/
+bash /etc/puppet/code/modules/rsync/files/restore.sh
+sudo vim /etc/puppet/code/modules/rsync/files/
+pwd
+ls
+vim restore.sh 
+mod
+ls
+cd rsync/
+ls
+cd files/
+ls
+bash restore.sh 
+sudo vim restore.sh 
+bash restore.sh 
+ls
+sudo vim restore.sh 
+dir
+target
+dir target
+dir mgmt
+sudo vim restore.sh 
+$home
+homw
+home
+sudo vim restore.sh 
+bash restore.sh 
+sudo vim restore.sh 
+bash restore.sh 
+ls
+pwd
+ls
+sudo vim restore.sh 
+bash restore.sh 
+sudo vim restore.sh 
+bash restore.sh 
+cd ~
+ls
+mkdir s
+cd mod
+mod
+cd rsync/
+cd files/
+ls
+sudo vim restore.sh 
+cd ~
+l
+cd OE2-Group-Project/
+ls
+cd Scripts/
+cd mgmt/
+ls
+sudo vim restore.sh 
+ls
+bash restore.sh 
+sudo vim restore.sh 
+bash restore.sh 
+sudo vim restore.sh 
+ls
+ls ~
+sudo vim restore.sh 
+bash restore.sh 
+sudo vim restore.sh 
+bash restore.sh 
+sudo vim restore.sh 
+bash restore.sh 
+sudo vim restore.sh 
+bash restore.sh 
+sudo vim restore.sh 
+bash restore.sh 
+sudo vim restore.sh 
+bash restore.sh 
+sudo vim restore.sh 
+bash restore.sh 
+sudo vim restore.sh 
+bash restore.sh 
+sudo vim restore.sh 
+bash restore.sh 
+ls
+sudo vim restore.sh 
+bash restore.sh 
+sudo vim restore.sh 
+bash restore.sh 
+sudo vim restore.sh 
+bash restore.sh 
+cd ~
+ls
+cd test/
+ls
+touch fff
+sudo touch ss
+mod
+cd rsync/
+ls
+cd manifests/
+cd ..
+cd files/
+ls
+bash restore.sh 
+sudo vim restore.sh 
+bash restore.sh 
+sudo vim restore.sh 
+bash restore.sh 
+sudo vim restore.sh 
+bash restore.sh 
+sudo vim restore.sh 
+bash restore.sh 
+sudo vim restore.sh 
+bash restore.sh 
+sudo vim restore.sh 
+ls
+cd 
+cd ~
+ls
+cd OE2-Group-Project/
+ls
+cd Scripts/
+ls
+cd mgmt/
+ls
+sudo vim restore.sh 
+bash restore.sh 
+sudo vim restore.sh 
+bash restore.sh 
+sudo vim restore.sh 
+bash restore.sh 
+sudo vim restore.sh 
+bash restore.sh 
+sudo vim restore.sh 
+bash restore.sh 
+sudo vim restore.sh 
+bash restore.sh 
+sudo vim restore.sh 
+bash restore.sh 
+sudo vim restore.sh 
+bash restore.sh 
+cd ~
+ls
+cd test/
+ls
+rm ss 
+rm ss -r
+ls
+sudo rm ss
+ls
+cd ~
+ls
+cd OE2-Group-Project/
+ls
+cd Scripts/
+ls
+cd mgmt/
+ls
+bash restore.sh 
+sudo vim restore.sh 
+cd ~
+ls
+cd test/
+ls
+rm filetest
+sudo rm filetest2.txt 
+cd ..
+cd OE2-Group-Project/
+cd Scripts/
+ls
+cd mgmt/
+bash restore.sh 
+sudo vim restore.sh 
+bash restore.sh 
+sudo vim restore.sh 
+bash restore.sh 
+sudo vim restore.sh 
+bash restore.sh 
+sudo vim restore.sh 
+ls
+sudo cp restore.sh /etc/puppet/code/modules/rsync/files
+exit
+ls
+cd test/
+ls
+touch test new
+sudo touch test new
+ls
+rm -r test 
+sudo rm test 
+mod
+ls
+cd rsync/
+ls
+cd files/
+ls
+sudo rm restore.sh 
+ls
+pwd
+ls
+vim restore.sh 
+ls
+pwd
+sudo vim restore.sh 
+ls
+bash restore.sh 
+sudo vim restore.sh 
+bash restore.sh 
+ls
+bash restore.sh 
+vim restore.sh 
+ls
+sudo vim restore.sh 
+bash restore.sh 
+sudo vim restore.sh 
+bash restore.sh 
+sudo vim restore.sh 
+bash restore.sh 
+sudo vim restore.sh 
+bash restore.sh 
+sudo vim restore.sh 
+bash restore.sh 
+sudo vim restore.sh 
+bash restore.sh 
+sudo vim restore.sh 
+bash restore.sh 
+sudo vim restore.sh 
+bash restore.sh 
+sudo vim restore.sh 
+cd /etc/systemd/
+ls
+cd system/
+ls
+sudo vim node-exporter.service 
+sudo systemctl restart node-exporter.service 
+sudo systemctl status node-exporter.service 
+ls
+ls /etc
+sudo vim node-exporter.service 
+cd /etc/node-exporter/
+ls
+pwd
+cd /etc/systemd/
+cd system/
+sudo vim node-exporter.service 
+sudo systemctl restart node-exporter.service 
+sudo systemctl daemon-reload
+sudo systemctl restart node-exporter.service 
+sudo systemctl status node-exporter.service 
+ls
+mod
+cd rsync/
+ls
+cd files/
+ls
+sudo vim restore.sh 
+bash restore.sh 
+ls
+sudo vim restore.sh 
+bash restore.sh 
+sudo vim restore.sh 
+bash restore.sh 
+sudo vim restore.sh 
+bash restore.sh 
+sudo vim restore.sh 
+bash restore.sh 
+sudo vim restore.sh 
+bash restore.sh 
+sudo vim restore.sh 
+bash restore.sh 
+sudo vim restore.sh 
+bash restore.sh 
+sudo vim restore.sh 
+bash restore.sh 
+sudo vim restore.sh 
+bash restore.sh 
+sudo vim restore.sh 
+bash restore.sh 
+sudo vim restore.sh 
+bash restore.sh 
+sudo vim restore.sh 
+bash restore.sh 
+sudo vim restore.sh 
+bash restore.sh 
+sudo vim restore.sh 
+bash restore.sh 
+sudo vim restore.sh 
+bash restore.sh 
+sudo vim restore.sh 
+bash restore.sh 
+sudo vim restore.sh 
+bash restore.sh 
+sudo vim restore.sh 
+bash restore.sh 
+sudo vim restore.sh 
+bash restore.sh 
+sudo vim restore.sh 
+bash restore.sh 
+sudo vim restore.sh 
+bash restore.sh 
+sudo vim restore.sh 
+bash restore.sh 
+sudo vim restore.sh 
+bash restore.sh 
+sudo vim restore.sh 
+bash restore.sh 
+clear
+bash restore.sh 
+ls
+sudo vim restore.sh 
+bash restore.sh 
+sudo vim restore.sh 
+bash restore.sh 
+sudo vim restore.sh 
+bash restore.sh 
+sudo vim restore.sh 
+bash restore.sh 
+sudo vim restore.sh 
+bash restore.sh 
+sudo vim restore.sh 
+bash restore.sh 
+sudo vim restore.sh 
+bash restore.sh 
+sudo vim restore.sh 
+bash restore.sh 
+sudo vim restore.sh 
+bash restore.sh 
+sudo vim restore.sh 
+ls
+ls ~
+ls
+sudo vim restore.sh 
+bash restore.sh 
+sudo vim restore.sh 
+bash restore.sh 
+sudo vim restore.sh 
+bash restore.sh 
+sudo vim restore.sh 
+bash restore.sh 
+sudo vim restore.sh 
+bash restore.sh 
+ls
+sudo vim restore.sh 
+ls -la
+sudo vim restore.sh 
+bash restore.sh 
+sudo vim restore.sh 
+bash restore.sh 
+sudo vim restore.sh 
+bash restore.sh 
+sudo vim restore.sh 
+bash restore.sh 
+sudo vim restore.sh 
+bash restore.sh 
+sudo vim restore.sh 
+bash restore.sh 
+ls
+bash restore.sh 
+sudo vim restore.sh 
+bash restore.sh 
+sudo vim restore.sh 
+bash restore.sh 
+clear
+sudo vim restore.sh 
+bash restore.sh 
+sudo vim restore.sh 
+bash restore.sh 
+sudo vim restore.sh 
+bash restore.sh 
+sudo vim restore.sh 
+bash restore.sh 
+sudo vim restore.sh 
+bash restore.sh 
+sudo vim restore.sh 
+bash restore.sh 
+sudo vim restore.sh 
+bash restore.sh 
+sudo vim restore.sh 
+bash restore.sh 
+sudo vim restore.sh 
+bash restore.sh 
+sudo vim restore.sh 
+bash restore.sh 
+sudo vim restore.sh 
+bash restore.sh 
+sudo vim restore.sh 
+bash restore.sh 
+sudo vim restore.sh 
+mod
+cd pu
+cd /etc/puppet/
+ls
+ls -la
+mod
+ls
+cd rsync/
+ls
+cd files/
+ls
+sudo vim restore.sh 
+bash restore.sh 
+cd ~
+ls
+vim log.log 
+mod
+cd rsync/
+cd files/
+sudo vim restore.sh 
+cd /etc
+ls
+cd ca-certificates/
+ls
+cd update.d/
+ls
+cd ..
+ls
+cd ..
+ls
+cd puppet/
+ls -a
+ls -la
+pwd
+cd ..
+ls
+cd /usr/lib/
+cd /etc/puppet/
+ls
+vim puppet.conf 
+ls
+cd ~
+ls
+vim log.log 
+ls
+cd ~
+ls
+vim log.log 
+ls
+cd /etc/puppet/
+ls
+sls
+ls
+cd ~
+ls
+cd OE2-Group-Project/
+ls
+cd Scripts/
+ls
+cd mgmt/
+ls
+vim restore.sh 
+sudo rm restore.sh 
+ls
+bumgmt
+l
+ls
+mod
+ls
+cd rsync/
+ls
+ls -la
+ls
+mod
+cd rsync/
+cd files/
+sudo vim restore.sh 
+bash restore.sh 
+sudo vim restore.sh 
+bash restore.sh 
+sudo vim restore.sh 
+clear
+./restore.sh 
+sudo vim restore.sh 
+./restore.sh 
+sudo vim restore.sh 
+./restore.sh 
+sudo vim restore.sh 
+./restore.sh 
+sudo vim restore.sh 
+./restore.sh 
+sudo vim restore.sh 
+./restore.sh 
+sudo vim restore.sh 
+./restore.sh 
+sudo vim restore.sh 
+./restore.sh 
+clear
+./restore.sh 
+sudo vim restore.sh 
+./restore.sh 
+sudo vim restore.sh 
+mod
+ls
+cd rsync/
+ls
+cd files/
+ls
+ls -la
+ls
+cd ~
+ls
+cd OE2-Group-Project/
+bumgmt
+ls
+cd Sa
+cd Scripts/
+ls
+sudo vim restore.sh 
+ls
+cd ..
+ls
+cd App-VM/
+ls
+cd ..
+ls
+cd Mgmt-VM/
+ls
+cd puppet/code/modules/rsync/files/
+ls
+cp restore.sh ~/OE2-Group-Project/Scripts/
+ls
+cd ~/OE2-Group-Project/Scripts/
+ls
+sudo vim restore.sh 
+ls
+cd ~
+ls
+cd OE2-Group-Project/
+ls
+cd Mgmt-VM/
+ls
+git status
+cd puppet/code/modules/rsync/files/
+vim restore.sh 
+pwd
+mod
+ls
+cd rsync/
+ls
+cd files/
+sudo vim restore.sh 
+ls
+sudo vim restore.sh 
+bash restore.sh 
+bumgmt
+ls
+sudo vim restore.sh 
+pwd
+ls
+pw
+pwd
+sudo vim restore.sh 
+bumgmt
+sudo vim restore.sh 

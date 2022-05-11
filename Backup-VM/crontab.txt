@@ -1,0 +1,16 @@
+# utc time converted using: https://savvytime.com/converter/utc-to-nzst 
+# m h  dom mon dow   command
+# 7.15pm utc converts to 7.15am nzst
+15 19 * * * sudo bash ~/OE2-Group-Project/Scripts/backup/backup.sh
+# 10.15pm utc converts to 10.15am nzst
+15 22 * * * sudo bash ~/OE2-Group-Project/Scripts/backup/backup.sh
+# 2.15am utc converts to 2.15pm nzst
+15 2 * * * sudo bash ~/OE2-Group-Project/Scripts/backup/backup.sh
+# 4.15am utc converts to 4.15pm nzst
+15 4 * * * sudo bash ~/OE2-Group-Project/Scripts/backup/backup.sh
+# 6.15am utc converts to 6.15pm nzst
+15 6 * * * sudo bash ~/OE2-Group-Project/Scripts/backup/backup.sh
+# 8.15am utc converts to 8.15pm nzst
+15 8 * * * sudo bash ~/OE2-Group-Project/Scripts/backup/backup.sh
+# 11.15am utc converts to 11.15pm nzst
+15 11 * * * sudo bash ~/OE2-Group-Project/Scripts/backup/backup.sh
