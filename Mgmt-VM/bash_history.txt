@@ -1,22 +1,3 @@
-ls
-cd ..
-sudo rm mysql_client/
-sudo rm mysql_client/ -r
-cd owncloud/
-ls
-cd manifests/
-ls
-cd ..
-ls
-sudo mkdir php
-cd php/
-sudo mkdir manifests
-cd manifests/
-sudo touch init.pp
-sudo touch install.pp
-sudo touch config.pp
-sudo nano install.pp
-sudo nano config.pp
 sudo touch install.pp
 ls
 sudo nano install.pp 
@@ -1925,3 +1906,95 @@ cd rsync/
 ls
 ls -la
 ls
+mod
+cd rsync/
+cd files/
+sudo vim restore.sh 
+bash restore.sh 
+sudo vim restore.sh 
+bash restore.sh 
+sudo vim restore.sh 
+clear
+./restore.sh 
+sudo vim restore.sh 
+./restore.sh 
+sudo vim restore.sh 
+./restore.sh 
+sudo vim restore.sh 
+./restore.sh 
+sudo vim restore.sh 
+./restore.sh 
+sudo vim restore.sh 
+./restore.sh 
+sudo vim restore.sh 
+./restore.sh 
+sudo vim restore.sh 
+./restore.sh 
+clear
+./restore.sh 
+sudo vim restore.sh 
+./restore.sh 
+sudo vim restore.sh 
+mod
+ls
+cd rsync/
+ls
+cd files/
+ls
+ls -la
+ls
+cd ~
+ls
+cd OE2-Group-Project/
+bumgmt
+ls
+cd Sa
+cd Scripts/
+ls
+sudo vim restore.sh 
+ls
+cd ..
+ls
+cd App-VM/
+ls
+cd ..
+ls
+cd Mgmt-VM/
+ls
+cd puppet/code/modules/rsync/files/
+ls
+cp restore.sh ~/OE2-Group-Project/Scripts/
+ls
+cd ~/OE2-Group-Project/Scripts/
+ls
+sudo vim restore.sh 
+ls
+cd ~
+ls
+cd OE2-Group-Project/
+ls
+cd Mgmt-VM/
+ls
+git status
+cd puppet/code/modules/rsync/files/
+vim restore.sh 
+pwd
+mod
+ls
+cd rsync/
+ls
+cd files/
+sudo vim restore.sh 
+ls
+sudo vim restore.sh 
+bash restore.sh 
+bumgmt
+ls
+sudo vim restore.sh 
+pwd
+ls
+pw
+pwd
+sudo vim restore.sh 
+bumgmt
+sudo vim restore.sh 
