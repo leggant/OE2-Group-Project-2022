@@ -49,8 +49,7 @@ for d in $BDIR;do
 rsync $OPTS $d $BSERVER@$USERX:~/backup/db
 done
 #==========================================================================
-elif [$host == $app]
-then
+elif [ $host == $app ]
 then
 echo " app vm"
 
@@ -58,7 +57,7 @@ BDIR="
 /etc/apache2
 /var/www/owncloud/data
 "
-
+sudo chmod o+rx /var/www/owncloud/data -R
 # excludes file - this contains a wildcard pattern per line of files to exclude
 #EXCLUDES="$HOME/cron/excludes"
 #INCLUDE="$HOME/test/*.txt"
@@ -71,8 +70,10 @@ OPTS="-haAXuv -v --exclude --log-file=/home/$USER/log.log --backup-dir=~/backup/
 for d in $BDIR;do
 rsync $OPTS $d $BSERVER@$USERX:~/backup/app
 done
+
+sudo chmod o-rx /var/www/owncloud/data -R
 echo " app vm"
-else [$host == $backup]
+else [ $host == $backup ]
 
 echo " backup vm"
 
