@@ -24,7 +24,7 @@ INCLUDE="$HOME/test/*.txt"
 BSERVER=groupb
 USERX=restore-b.foo.org.nz
 BACKUPDIR=`date +%d-%m-%Y-%H-%M-%S`
-OPTS="-haAXuv -v --progress --log-file=/home/$USER/log.log --files-from='to_backup.txt' --backup-dir=~/backup/mgmt/backup-$BACKUPDIR" 
+OPTS="-haAXuv -v --progress --log-file=/home/$USER/log.log --files-from='./to_backup.txt' --backup-dir=~/backup/mgmt/backup-$BACKUPDIR" 
 
 for d in $BDIR;do
 rsync $OPTS $d $BSERVER@$USERX:~/backup/mgmt
