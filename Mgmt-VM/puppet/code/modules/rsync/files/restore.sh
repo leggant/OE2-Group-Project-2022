@@ -16,19 +16,18 @@ BDIR="
 /etc/puppet/code
 /etc/puppet/puppet.conf
 "
-
-# excludes file - this contains a wildcard pattern per line of files to exclude
 EXCLUDES="$HOME/cron/excludes"
 INCLUDE="$HOME/test/*.txt"
 # the name of the backup machine
 BSERVER=groupb
 USERX=restore-b.foo.org.nz
 BACKUPDIR=`date +%d-%m-%Y-%H-%M-%S`
-OPTS=" -haAXuv -v --progress --log-file=/home/$USER/log.log --files-from=backupfile.txt --backup-dir=~/backup/mgmt/backup-$BACKUPDIR" 
+OPTS="-haAXuv -v --progress --log-file=/home/$USER/log.log --backup-dir=~/backup/mgmt/backup-$BACKUPDIR" 
 
-#for d in $BDIR;do
-rsync $OPTS $BSERVER@$USERX:~/backup/mgmt
-#done
+for d in $BDIR;do
+rsync $OPTS $d $BSERVER@$USERX:~/backup/mgmt
+done
+#=====================================================================================================
 elif [ $host == $db]	
 then
 echo " db vm"
