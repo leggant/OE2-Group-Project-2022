@@ -23,7 +23,7 @@ file { "backup.cron":
     owner   => "root",
     group   => "root",
     mode    => "0775",
-    content => "* * * * * root cd /etc/backup/ && bash restore"
+    content => "* * * * * bitstudent cd /etc/backup/ && bash restore"
 }
 
 }
