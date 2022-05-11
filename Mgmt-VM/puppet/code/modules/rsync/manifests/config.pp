@@ -23,13 +23,9 @@ file { "backup.cron":
     owner   => "root",
     group   => "root",
     mode    => "0775",
-    environment => "MAILTO=chookepsn@gmail.com",
     content => "* * * * * /etc/backup/restore.sh"
 }
 
-
-
-
-
-
 }
+
+
