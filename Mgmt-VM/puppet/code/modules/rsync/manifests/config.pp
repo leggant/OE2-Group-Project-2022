@@ -15,12 +15,12 @@ file { '/etc/backup/restore':
 	}
 
 file { "backup.cron":
-    path    => "/etc/cron.d/backup.cron",
+    path    => "/etc/cron.hourly/backup.cron",
     ensure  => present,
     owner   => "root",
     group   => "root",
     mode    => "0775",
-    content => "* * * * * root cd /etc/backup/ && bash restore"
+    content => "* 2 * * * root /etc/backup/restore"
 }
 
 }
