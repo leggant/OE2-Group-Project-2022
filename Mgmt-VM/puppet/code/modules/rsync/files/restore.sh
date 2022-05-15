@@ -31,8 +31,6 @@ then
 echo " db vm"
 #~bash throw errer
 # this needs update
-MYSQLFOLDER=`date +%d%m%Y`
-[ ! -d "/home/bitstudent/mysql-backup/$MYSQLFOLDER" ] && sudo mkdir "~/mysql-backup/$MYSQLFOLDER" 
 sudo chown -R bitstudent ~/mysql-backup
 sudo chgrp -R bitstudent ~/mysql-backup
 sudo chmod 770 -R ~/mysql-backup/
@@ -42,14 +40,13 @@ BUDIR="
 /etc/nagios-plugins
 /etc/mysql
 /etc/puppet
-/home/bitstudent/mysql-backup/$MYSQLFOLDER
+/home/bitstudent/mysql-backup
 "
 sudo chmod o+rx /etc/mysql/debian.cnf
 
 # MYSQL BACKUP
 MYSQLDATE=`date +%d%m%Y%H%M%S`
-cd ~/mysql-backup/$MYSQLFOLDER
-sudo mysqldump --skip-extended-insert --all-databases --add-drop-table > mysql.sql
+sudo mysqldump --skip-extended-insert --all-databases --add-drop-table > "~/mysql-backup/sql-backup-$MYSQLDATE.sql"
 cd ~
 sudo chown -R bitstudent ~/mysql-backup
 sudo chgrp -R bitstudent ~/mysql-backup
