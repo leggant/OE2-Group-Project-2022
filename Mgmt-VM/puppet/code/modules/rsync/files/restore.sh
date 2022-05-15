@@ -50,7 +50,7 @@ OPTS="-haAXuv -v --exclude --log-file=/home/$USER/log.log --backup-dir=~/backup/
 
 ## MYSQL BACKUP
 SQLDATE=`date +%d%m%Y%H%M%S`
-sudo mysqldump --all-databases --add-drop-table > "~/mysql-backup/$SQLDATE.sql"
+sudo mysqldump --skip-extended-insert --all-databases --add-drop-table > "~/mysql-backup/$SQLDATE.sql"
 sudo chown -R bitstudent ~/mysql-backup
 sudo chgrp -R bitstudent ~/mysql-backup
 sudo chmod 770 -R ~/mysql-backup/
