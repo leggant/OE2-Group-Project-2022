@@ -39,7 +39,7 @@ BUDIR="
 /etc/nagios-plugins
 /etc/mysql
 /etc/puppet
-/home/bitstudent/mysql-backup/$MYSQLFOLDER
+/home/bitstudent/mysql-backup
 "
 sudo chmod o+rx /etc/mysql/debian.cnf
 
