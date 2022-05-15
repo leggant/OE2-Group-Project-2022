@@ -59,6 +59,8 @@ for d in $BDIR;do
 rsync $OPTS $d $BSERVER@$USERX:~/backup/db
 done
 sudo chmod o-rx /etc/mysql/debian.cnf
+unset SQLDATE
+unset BACKUPDIR
 #==========================================================================
 elif [ $host == $app ]
 then
