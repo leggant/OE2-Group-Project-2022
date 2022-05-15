@@ -40,11 +40,6 @@ BDIR="
 /home/bitstudent/mysql-backup
 "
 sudo chmod o+rx /etc/mysql/debian.cnf
-# the name of the backup machine
-BSERVER=groupb
-USERX=restore-b.foo.org.nz
-DBBACKUPDIR=`date +%d-%m-%Y-%H-%M-%S`
-OPTS="-haAXuv -v --exclude --log-file=/home/$USER/log.log --backup-dir=~/backup/db/backup-$DBBACKUPDIR"
 
 # MYSQL BACKUP
 MYSQLDATE=`date +%d%m%Y%H%M%S`
@@ -52,6 +47,12 @@ sudo mysqldump --skip-extended-insert --all-databases --add-drop-table > "~/mysq
 sudo chown -R bitstudent ~/mysql-backup
 sudo chgrp -R bitstudent ~/mysql-backup
 sudo chmod 770 -R ~/mysql-backup/
+
+# the name of the backup machine
+BSERVER=groupb
+USERX=restore-b.foo.org.nz
+DBBACKUPDIR=`date +%d-%m-%Y-%H-%M-%S`
+OPTS="-haAXuv -v --exclude --log-file=/home/$USER/log.log --backup-dir=~/backup/db/backup-$DBBACKUPDIR"
 
 for d in $BDIR;do
 rsync $OPTS $d $BSERVER@$USERX:~/backup/db
