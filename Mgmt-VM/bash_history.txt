@@ -1,51 +1,4 @@
 ./puppet-install.sh 
-vim puppet-install.sh 
-vim test 
-./puppet-install.sh 
-vim test 
-vim puppet-install.sh 
-vim /etc/puppet/puppet.conf
-vim puppet-install.sh 
-./puppet-install.sh 
-vim /etc/puppet/puppet.conf
-sudo vim /etc/puppet/puppet.conf 
-respup
-pupstat
-statpup
-ls
-vim test 
-vim puppet-install.sh 
-pwd
-vim puppet-install.sh 
-./puppet-install.sh 
-vim test 
-./puppet-install.sh 
-vim test 
-./puppet-install.sh 
-vim test 
-vim puppet-install.sh 
-./puppet-install.sh 
-vim test 
-./puppet-install.sh 
-vim test 
-vim puppet-install.sh 
-./puppet-install.sh 
-vim test 
-./puppet-install.sh 
-vim test 
-./puppet-install.sh 
-vim test 
-vim puppet-install.sh 
-./puppet-install.sh 
-vim test 
-vim puppet-install.sh 
-./puppet-install.sh 
-vim test 
-./puppet-install.sh 
-vim test 
-./puppet-install.sh 
-vim puppet-install.sh 
-./puppet-install.sh 
 vim test 
 vim puppet-install.sh 
 ./puppet-install.sh 
@@ -1998,3 +1951,50 @@ ls
 cd manifests/
 vim config.pp 
 sudo reboot
+mod
+ls
+cd rsync/
+cd files/
+ls
+cd app
+la
+cd ..
+sudo rm app
+sudo rm -r app
+sudo rm -r backup
+sudo rm -r db
+sudo rm -r mgmt
+ls 
+sudo nano restore.sh 
+bumgmt
+ls
+cd ~/OE2-Group-Project/
+git status
+git pull
+cd Mgmt-VM/
+ls
+cd puppet/
+ls
+cd code/
+ls
+cd modules/
+ls
+cd rsync/
+ls
+cd files/
+ls
+git rm -r app
+git rm -r backup
+git rm -r db
+git rm -r mgmt
+git status
+cd ~/OE2-Group-Project/
+ls
+git add .
+git status
+git commit -m "mgmt: removed includes/excludes txt files" -m "from rsync module" -m "mgmt-b"
+git push
+ls
+git pull
+cd Mgmt-VM/puppet/code/modules/rsync/files/
+ls
