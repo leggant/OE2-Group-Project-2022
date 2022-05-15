@@ -1,4 +1,3 @@
-vim puppet-install.sh 
 ./puppet-install.sh 
 vim puppet-install.sh 
 vim test 
@@ -1998,3 +1997,4 @@ cd rsync/
 ls
 cd manifests/
 vim config.pp 
+sudo reboot
