@@ -33,13 +33,16 @@ echo " db vm"
 # this needs update
 MYSQLFOLDER=`date +%d%m%Y`
 [ ! -d "/home/bitstudent/mysql-backup/$MYSQLFOLDER" ] && cd ~/mysql-backup && sudo mkdir $MYSQLFOLDER 
+sudo chown -R bitstudent ~/mysql-backup
+sudo chgrp -R bitstudent ~/mysql-backup
+sudo chmod 770 -R ~/mysql-backup/
 BUDIR="
 /etc/node-exporter
 /etc/nagios
 /etc/nagios-plugins
 /etc/mysql
 /etc/puppet
-/home/bitstudent/mysql-backup
+/home/bitstudent/mysql-backup/$MYSQLFOLDER
 "
 sudo chmod o+rx /etc/mysql/debian.cnf
 
