@@ -39,6 +39,7 @@ BDIR="
 /etc/nagios-plugins
 /etc/mysql
 /etc/puppet
+/home/bitstudent/mysql-backup
 "
 sudo chmod o+rx /etc/mysql/debian.cnf
 # the name of the backup machine
@@ -46,6 +47,13 @@ BSERVER=groupb
 USERX=restore-b.foo.org.nz
 BACKUPDIR=`date +%d-%m-%Y-%H-%M-%S`
 OPTS="-haAXuv -v --exclude --log-file=/home/$USER/log.log --backup-dir=~/backup/db/backup-$BACKUPDIR"
+
+## MYSQL BACKUP
+SQLDATE=`date +%d%m%Y%H%M%S`
+sudo mysqldump --all-databases --add-drop-table > "~/mysql-backup/$SQLDATE.sql"
+sudo chown -R bitstudent ~/mysql-backup
+sudo chgrp -R bitstudent ~/mysql-backup
+sudo chmod 770 -R ~/mysql-backup/
 
 for d in $BDIR;do
 rsync $OPTS $d $BSERVER@$USERX:~/backup/db
