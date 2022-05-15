@@ -33,7 +33,7 @@ echo " db vm"
 # this needs update
 MYSQLFOLDER=`date +%d%m%Y`
 [ ! -d "/home/bitstudent/mysql-backup/$MYSQLFOLDER" ] && cd ~/mysql-backup && sudo mkdir $MYSQLFOLDER 
-BDIR="
+BUDIR="
 /etc/node-exporter
 /etc/nagios
 /etc/nagios-plugins
@@ -56,7 +56,7 @@ USERX=restore-b.foo.org.nz
 DBBACKUPDIR=`date +%d-%m-%Y-%H-%M-%S`
 OPTS="-haAXuv -v --progress --log-file=/home/$USER/log.log --backup-dir=~/backup/db/backup-$DBBACKUPDIR"
 
-for d in $BDIR;do
+for d in $BUDIR;do
 rsync $OPTS $d $BSERVER@$USERX:~/backup/db/
 done
 sudo chmod o-rx /etc/mysql/debian.cnf
