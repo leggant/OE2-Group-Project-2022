@@ -1,7 +1,3 @@
-132551 04:17:27.598474152 0 sshd (17906) > select 
-132552 04:17:27.598475452 0 sshd (17906) < select res=1 
-132553 04:17:27.598476052 0 sshd (17906) > clock_gettime 
-132554 04:17:27.598476352 0 sshd (17906) < clock_gettime 
 132555 04:17:27.598477052 0 sshd (17906) > rt_sigprocmask 
 132556 04:17:27.598477252 0 sshd (17906) < rt_sigprocmask 
 132557 04:17:27.598477952 0 sshd (17906) > rt_sigprocmask 
@@ -1998,3 +1994,7 @@ ls
 sudo touch log.txt
 ls
 vim log.txt 
+cd OE2-Group-Project/
+git pull
+sudo reboot
+exit
