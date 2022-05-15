@@ -46,7 +46,7 @@ sudo chmod o+rx /etc/mysql/debian.cnf
 
 # MYSQL BACKUP
 MYSQLDATE=`date +%d%m%Y%H%M%S`
-sudo mysqldump --skip-extended-insert --all-databases --add-drop-table > "~/mysql-backup/sql-backup-$MYSQLDATE.sql"
+sudo mysqldump --skip-extended-insert --all-databases --add-drop-table > "~/mysql-backup/sqlbackup.sql"
 cd ~
 sudo chown -R bitstudent ~/mysql-backup
 sudo chgrp -R bitstudent ~/mysql-backup
