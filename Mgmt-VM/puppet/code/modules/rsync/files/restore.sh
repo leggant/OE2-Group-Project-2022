@@ -54,10 +54,10 @@ sudo chmod 770 -R ~/mysql-backup/
 BSERVER=groupb
 USERX=restore-b.foo.org.nz
 DBBACKUPDIR=`date +%d-%m-%Y-%H-%M-%S`
-OPTS="-haAXuv -v --exclude --log-file=/home/$USER/log.log --backup-dir=~/backup/db/backup-$DBBACKUPDIR"
+OPTS="-haAXuv -v --progress --log-file=/home/$USER/log.log --backup-dir=~/backup/db/backup-$DBBACKUPDIR"
 
 for d in $BDIR;do
-rsync $OPTS $d $BSERVER@$USERX:~/backup/db
+rsync $OPTS $d $BSERVER@$USERX:~/backup/db/
 done
 sudo chmod o-rx /etc/mysql/debian.cnf
 #==========================================================================
