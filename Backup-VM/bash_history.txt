@@ -1421,3 +1421,7 @@ ls
 exit
 ls
 exit
+cd /etc/backup/
+ls
+crontab -e
+sudo reboot
