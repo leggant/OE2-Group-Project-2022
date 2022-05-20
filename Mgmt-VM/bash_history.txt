@@ -1,399 +1,3 @@
-mv puppet-install.sh puppet-master-install.sh
-ls
-./puppet-master-install.sh 
-sudo vim /etc/puppet/puppet.conf
-ls
-sudo rm test 
-la
-sudo vim /etc/puppet/puppet.conf
-vim puppet-master-install.sh 
-eit
-exit
-ls
-statpup
-sudo vim /etc/puppet/puppet.conf
-exit
-ls
-vim puppet-master-install.sh 
-ls
-exit
-ls
-clear
-ls
-vim puppet
-vim puppet-master-install.sh 
-exit
-ls
-vim puppet-master-install.sh 
-vim /etc/hosts
-ls
-last
-/ -5
-last | head -5
-w
-finger root
-finger bitstudent
-ls
-cat puppet-agent-install.sh 
-cat puppet-master-install.sh 
-sudo cp puppet-agent-install.sh OE2-Group-Project/Scripts/mgmt/
-sudo cp puppet-master-install.sh OE2-Group-Project/Scripts/mgmt/
-ls
-cd OE2-Group-Project/Scripts/mgmt/
-ls
-cd ../..
-ls
-git status
-git add .
-git status
-cd Scripts/
-ls
-cd mgmt/
-ls
-git status
-cd ../../
-ls
-git status
-cd ..
-ls
-ls
-vim puppet-agent-install.sh
-ls
-touch test
-vim test 
-vim puppet-agent-install.sh 
-pwd
-vim puppet-agent-install.sh 
-chmod +x puppet-agent-install.sh 
-ls
-./puppet-agent-install.sh 
-ls
-vim test 
-vim puppet-agent-install.sh 
-vim test 
-./puppet-agent-install.sh 
-vim test 
-./puppet-agent-install.sh 
-vim test 
-vim puppet-agent-install.sh 
-sudo systemctl status puppet
-vim puppet-agent-install.sh 
-vim /etc/puppet/puppet.conf
-vim puppet-agent-install.sh 
-ls
-rm test 
-ls
-mod
-ls
-pwd
-cd etc
-cd /etc
-ls
-cd nagios
-ls
-cd ..
-cd puppet/
-ls
-cd code/
-ls
-cd ..
-ls
-vim puppet.conf 
-ls
-cd ..
-ls
-cd nagios
-ls
-cd ..
-ls
-cd nagios3/
-ls
-mod
-ls
-cd ..
-ls
-cd environments/
-ls
-cd production/
-ls
-cd manifests/
-ls
-vim site.pp 
-mod
-ls
-finger
-sudo apt-get install finger
-finger
-login sudo
-finger sudo
-less /etc/passwd
-finger root
-w
-w -f
-less /etc/passwd
-w
-finger root
-finger bitstudent
-clear
-finger bitstudent
-w
-w user
-grep "New session" /var/log/auth.log | awk '{print $1,$2,$3,$11}' | tail -5
-last | head -5
-ps -ef | grep
-ps -ef | grep ^root
-ps -ef | grep ^bitstudent
-ps -ef | grep ^root
-master -w
-ps -ef | grep ^root
-vim /.HISTORY
-ps -ef | grep ^root
-last | head -5
-master -w
-finger bitstudent
-grep "New session" /var/log/auth.log | awk '{print $1,$2,$3,$11}' | tail -5
-last | head -5
-w
-grep "New session" /var/log/auth.log | awk '{print $1,$2,$3,$11}' | tail -5
-last | head -5
-finger root
-finger bitstudent
-finger
-ls
-cd /etc
-ls
-cd use
-cd /usr
-ls
-cd var
-cd bin/
-ls
-cd /var/www/owncloud/data
-exit
-statmas
-resmas
-statmas
-resmas
-statmas
-bumgmt
-statmas
-statmas
-resmas
-statmas
-resmas
-statmas
-bumgmt
-statmas
-respup
-statpup
-statmas
-resmas
-statmas
-statnag
-statmas
-stat nagios3
-sudo reboot
-statmas
-resmas
-cd /etc/
-ls
-cd puppet
-ls
-cd cpde
-cd code
-ls
-cd modules/
-ls
-cd php
-ls
-cd manifests/
-ls
-sudo nano init.pp
-sudo nano install.pp 
-sudo nano config.pp 
-statmas
-ls
-sudo nano config.pp 
-cd ..
-ls
-cd ..
-ls
-site
-cd owncloud/
-ls
-sudo nagios3 -v /etc/nagios3/nagios.cfg
-ls
-cd manifests/
-ls
-cd ..
-cd files/
-ls
-cd ..
-ls
-cd ..
-ls
-cd php
-ls
-cd manifests/
-ls
-sudo nano install.pp 
-cd ..
-ls
-site
-statmas
-ls
-cd ..
-ls
-cd php
-cd manifests/
-ls
-sudo nano install.pp 
-sudo systemctl puppet ?
-sudo systemctl puppet cert -all
-site
-sudo puppet cert list
-sudo puppet cert list --all
-site
-resmas
-statmas
-respup
-statmas
-statpup
-statmas
-site
-resmas
-statmas
-sudo puppet cert verify --all
-sudo puppet cert verify
-sudo puppet cert verify --all
-sudo puppet cert list --all
-sudo puppet cert sign --all
-sudo puppet cert list --all
-hosts
-cat /etc/hosts
-statmas
-sudo lsof -i -P -n | grep LISTEN
-statmas
-statpup
-statmas
-resmas
-statmas
-sudo nagios3 -v /etc/nagios3/nagios.cfg
-statmas
-cd /etc/puppet/code/modules/php/manifests/init.pp
-sudo vim /etc/puppet/code/modules/php/manifests/init.pp
-statmas
-puppet apply test.pp --debug --trace
-sudo nagios3 -v /etc/nagios3/nagios.cfg
-:q
-statmas
-cd /etc/puppet/code/modules/php/manifests/init.pp
-cd /etc/puppet/code/modules/php/manifests
-vim init.pp 
-site
-resmas
-statmas
-resmas
-statmas
-site
-ls
-vim config.pp 
-vim install.pp 
-vim config.pp 
-vim install.pp 
-vim init.pp 
-sudo vim init.pp 
-site
-respup
-statmas
-respup
-statmas
-ls
-resmas
-ls
-statmas
-ssh bitstudent@20.58.164.44
-statmas
-respup
-resmas
-statmas
-ls
-vim config.pp 
-sudo apt-get update
-statmas
-respup
-statmas
-resmas 
-statmas
-vim config.pp 
-sudo vim config.pp 
-resmas 
-respup
-statmas
-statpup
-sudo vim config.pp 
-respup
-resmas 
-statpup
-statmas
-statpup
-statmas
-site
-mod
-cd mariadb/
-ls
-cd manifests/
-ls
-vim config.pp 
-sudo vim config.pp 
-respup
-ls
-vim install.pp 
-vim config.pp 
-ls
-sudo vim init.pp 
-sudo vim service.pp 
-sudo vim install.pp 
-respup
-statmas
-respup
-statmas
-sudo vim install.pp 
-respup
-sudo vim install.pp 
-sudo vim config.pp 
-vim service.pp 
-ls
-sudo vim install.pp 
-respup
-statmas
-respup
-statmas
-site
-ls
-cd ..
-ls
-cd ..
-ls
-cd mariadb/
-cd manifests/
-ls
-vim config.pp 
-vim service.pp 
-vim install.pp 
-statmas
-bumgmt
-bumgmt
-sudo nano ~/OE2-Group-Project/Scripts/mgmt/backup.sh 
-crontab -e
-statpup
-statmas
-exit
-cd OE2-Group-Project
-ls 
-sudo chmod 774 ./.git
-sudo chmod 774 .gitignore
-cd .git/
 sudo chown bitstudent FETCH_HEAD
 cd ~/OE2-Group-Project
 sudo chmod 774 ./.git
@@ -1998,3 +1602,399 @@ sudo nano /etc/rsyslog.d/50-default.conf
 sudo systemctl restart rsyslog
 sudo systemctl status rsyslog
 exit
+sudo apt install -y monit
+sudo vim /etc/monit/monitrc
+sudo monit
+sudo monit status
+sudo monit
+sudo monit status
+sudo vim /etc/monit/monitrc
+sudo monit
+sudo monit status
+sudo vim /etc/monit/monitrc
+systemctl restart monit.service
+sudo systemctl restart monit.service
+sudo systemctl status monit.service
+sudo monit status
+sudo vim /etc/monit/monitrc
+sudo monit status
+sudo systemctl restart monit.service
+sudo monit status
+sudo systemctl status monit.service
+sudo vim /etc/monit/monitrc
+sudo systemctl restart monit.service
+sudo vim /etc/monit/monitrc
+sudo monit summary
+sudo monit -t
+sudo lsof -i -P -n | grep LISTEN
+sudo vim /etc/monit/monitrc
+sudo systemctl restart monit.service
+sudo monit summary
+sudo lsof -i -P -n | grep LISTEN
+sudo systemctl status monit.service
+sudo lsof -i -P -n | grep LISTEN
+sudo vim /etc/monit/monitrc
+sudo systemctl restart monit.service
+sudo vim /etc/monit/monitrc
+sudo systemctl restart monit.service
+sudo vim /etc/monit/monitrc
+sudo systemctl restart monit.service
+sudo systemctl status monit.service
+sudo lsof -i -P -n | grep LISTEN
+sudo vim /etc/monit/monitrc
+sudo systemctl restart monit.service
+sudo vim /etc/monit/monitrc
+sudo systemctl restart monit.service
+sudo systemctl status monit.service
+sudo vim /etc/monit/monitrc
+sudo lsof -i -P -n | grep LISTEN
+hostname
+sudo systemctl status monit.service
+ls
+sudo vim /etc/monit/monitrc
+sudo systemctl status nginx
+sudo vim /etc/monit/monitrc
+sudo monit summary
+sudo monit status
+sudo systemctl restart apache2
+sudo monit status
+sudo systemctl stop apache2
+sudo monit status
+sudo systemctl restart apache2
+sudo monit status
+vim /etc/monit/monitrc
+sudo vim /etc/monit/monitrc
+monit start all
+sudo monit start all
+sudo vim /etc/monit/monitrc
+sudo monit start all
+sudo vim /etc/monit/monitrc
+sudo monit start all
+sudo vim /etc/monit/monitrc
+sudo monit start all
+sudo monit status
+sudo vim /etc/monit/monitrc
+sudo service monit restart
+sudo monit status
+sudo vim /etc/monit/monitrc
+sudo monit status
+sudo monit start all
+sudo monit status
+sudo systemctl restart monit.service
+sudo systemctl status monit.service
+sudo monit status
+sudo vim /etc/monit/monitrc
+sudo systemctl restart monit.service
+sudo monit status
+sudo systemctl status monit.service
+sudo vim /etc/monit/monitrc
+sudo systemctl restart monit.service
+sudo vim /etc/monit/monitrc
+hostname
+sudo vim /etc/monit/monitrc
+sudo systemctl restart monit.service
+sudo systemctl status monit.service
+sudo vim /etc/monit/monitrc
+sudo systemctl status monit.service
+sudo systemctl restart monit.service
+sudo vim /etc/monit/monitrc
+sudo systemctl restart monit.service
+sudo vim /etc/monit/monitrc
+sudo systemctl restart monit.service
+sudo systemctl status monit.service
+ssh -L 1234:localhost:2812 bitstudent@20.58.164.44
+ssh -L 8383:localhost:2812 bitstudent@20.58.164.44
+ls
+sudo vim /etc/monit/monitrc
+vim /var/log/monit.log
+sudo vim /etc/monit/monitrc
+sudo systemctl restart monit.service
+sudo systemctl status monit.service
+sudo vim /etc/monit/monitrc
+vim /var/log/monit.log
+sudo vim /etc/monit/monitrc
+sudo systemctl restart monit.service
+sudo vim /etc/monit/monitrc
+vim /var/log/monit.log
+sudo systemctl restart monit.service
+sudo vim /etc/monit/monitrc
+sudo systemctl restart monit.service
+vim /var/log/monit.log
+sudo vim /etc/monit/monitrc
+getaddrinfo
+sudo vim /etc/monit/monitrc
+vim /var/log/monit.log
+sudo apt-get install monit
+monit
+sudo chmod 777 /etc/monit/monitrc’.
+sudo chmod 777 /etc/monit/monitrc
+monit
+sudo chmod 777 /etc/monit/monitrc
+monit
+sudo chown bitstudent /etc/monit/monitrc
+monit
+sudo chmod 0777 /etc/monit/monitrc
+monit
+sudo chmod 666 /etc/monit/monitrc
+monit
+sudo chmod 0777 /etc/monit/monitrc
+monit
+sudo chmod 0700 /etc/monit/monitrc
+monit
+sudo chmod 0732 /etc/monit/monitrc
+monit
+sudo chmod 0700 /etc/monit/monitrc
+monit
+sudo moni
+sudo monit
+sudo chown root /etc/monit/monitrc
+sudo monit
+sudo vim /etc/monit/monitrc
+sudo systemctl restart monit.service
+sudo systemctl status monit.service
+monit start all
+sudo monit start all
+monit status
+sudo monit status
+sudo netstat -tulpn | grep LISTEN
+sudo lsof -i -P -n | grep LISTEN
+sudo vim /etc/monit/monitrc
+sudo ufw allow 2812
+
+monit status
+sudo systemctl status monit.service
+sudo vim /etc/monit/monitrc
+sudo systemctl restart monit.service
+sudo systemctl status monit.service
+sudo vim /etc/monit/monitrc
+sudo chown root /etc/monit/monitrc
+sudo systemctl restart monit.service
+sudo monit -t
+sudo monit status
+sudo monit reload
+grep "socket" /etc/mysql/my.cnf
+sudo vim /etc/monit/monitrc
+sudo monit reload
+cd /etc/
+ls
+cd mysql/
+ls
+sudo vim /etc/monit/monitrc
+ls
+cd conf.d/
+ls
+cd ..
+ls
+cd ..
+ls
+sudo systemctl status mariadb
+sudo systemctl status mysql
+sudo systemctl status mysqld
+sudo systemctl status mysql
+sudo systemctl status mysqld
+sudo vim /etc/monit/monitrc
+sudo systemctl stop puppetmaster.service 
+statmas
+resmas
+statmas
+sudo systemctl stop monit
+sudo apt install netdata
+nano /etc/netdata/netdata.conf
+systemctl restart netdata
+sudo systemctl restart netdata
+nano /etc/netdata/netdata.conf
+sudo vim /etc/netdata/netdata.conf 
+sudo systemctl restart netdata
+sudo vim /etc/netdata/netdata.conf 
+netstat
+curl --o info.csv http://localhost:19999/api/v1/info
+sudo iptables -L
+sudo ufw 1999
+sudo vim /etc/netdata/netdata.conf 
+sudo ufw 1999
+firewall-cmd --list-ports
+sudo iptables -S 
+sudo iptables -L
+sudo ufw allow 19999
+curl --o info.csv http://localhost:19999/api/v1/info
+curl -o info.csv http://localhost:19999/api/v1/info
+sudo vim /etc/netdata/netdata.conf 
+sudo systemctl restart netdata
+curl -o info.csv http://localhost:19999/api/v1/info
+sudo lsof -i -P -n | grep LISTEN
+sudo systemctl status netdata
+sudo vim /etc/netdata/netdata.conf 
+vim /etc/hosts
+sudo vim /etc/netdata/netdata.conf 
+sudo systemctl restart netdata
+sudo systemctl status netdata
+sudo lsof -i -P -n | grep LISTEN
+sudo vim /etc/netdata/netdata.conf 
+sudo vim netdata.conf
+sudo vim /etc/netdata/netdata.conf 
+sudo systemctl restart netdata
+sudo systemctl status netdata
+sudo vim /etc/netdata/netdata.conf 
+sudo systemctl restart netdata
+sudo systemctl status netdata
+sudo lsof -i -P -n | grep LISTEN
+wget -O /tmp/netdata-kickstart.sh https://my-netdata.io/kickstart.sh && sh /tmp/netdata-kickstart.sh
+sudo apt-get remove monit
+sudo apt-get remove netdata
+wget -O /tmp/netdata-kickstart.sh https://my-netdata.io/kickstart.sh && sh /tmp/netdata-kickstart.sh
+sudo vim /etc/netdata/netdata.conf 
+sudo lsof -i -P -n | grep LISTEN
+cd /etc/netdata/
+ls
+vim netdata.conf 
+cd /etc/netdata
+sudo ./edit-config go.d/apache.conf
+$ sudo ./edit-config netdata.conf
+ls
+sudo vim netdata.conf 
+cd /etc/apache2/
+ls
+cd sites-available/
+ls
+vim 000-default.conf 
+vim default-ssl.conf 
+sudo vim  default-ssl.conf 
+sudo systemctl restart apache2
+sudo vim  default-ssl.conf 
+ls
+vim 000-default.conf 
+cd ..
+ls
+vim apache2.conf 
+vim ports.conf 
+cd sites-enabled/
+ls
+vim 000-default.conf 
+ls
+cd ..
+ls
+cd sites-available/
+ls
+sudo vim default-ssl.conf 
+sudo systemctl restart apache2
+sudo vim default-ssl.conf 
+sudo systemctl restart apache2
+sudo service netdata restart && sudo service apache2 restart
+sudo systemctl restart apache2
+sudo systemctl restart netdata
+sudo systemctl status netdata
+sudo systemctl start netdata
+systemctl unmask netdata
+sudo systemctl unmask netdata
+sudo systemctl start netdata
+sudo systemctl status netdata
+sudo systemctl enable netdata
+sudo systemctl status netdata
+sudo systemctl start netdata
+sudo systemctl status netdata
+sudo apt-get remove netdata 
+cd /etc
+cd/netdata
+ls
+cd netdata/
+cd ..
+sudo rm -r netdata/
+wget -O /tmp/netdata-kickstart.sh https://my-netdata.io/kickstart.sh && sh /tmp/netdata-kickstart.sh --disable-telemetry
+ls
+wget -O /tmp/netdata-kickstart.sh https://my-netdata.io/kickstart.sh && sh /tmp/netdata-kickstart.sh --disable-telemetry
+wget -O /tmp/netdata-kickstart.sh https://my-netdata.io/kickstart.sh && sh /tmp/netdata-kickstart.sh --reinstall
+sudo systemctl status netdata
+ls
+cd netplan/
+ls
+cd ..
+ls
+sudo systemctl status netdata
+vim /opt/netdata/etc/netdata/
+sudo vim /opt/netdata/etc/netdata/netdata.conf 
+sudo systemctl restart netdata
+sudo systemctl status netdata
+sudo vim /opt/netdata/etc/netdata/netdata.conf 
+sudo systemctl restart netdata
+sudo vim /opt/netdata/etc/netdata/netdata.conf 
+sudo systemctl status netdata
+sudo ss -ntlp | grep 19999
+ps faxu | grep "[n]etdata"
+sudo ss -ntlp | grep 19999
+curl 'http://localhost:19999/'
+netstat -tnlp
+sudo netstat -tnlp
+sudo lsof -i -P -n | grep LISTEN
+sudo ufw allow 19999
+sudo vim /opt/netdata/etc/netdata/netdata.conf 
+sudo systemctl status netdata
+sudo lsof -i -P -n | grep LISTEN
+sudo systemctl status netdata
+cd /opt/netdata/etc/netdata/
+ls
+ls -la
+sudo vim .environment 
+netdata-uninstaller.sh
+ls -la
+wget https://raw.githubusercontent.com/netdata/netdata/master/packaging/installer/netdata-uninstaller.sh
+chmod +x ./netdata-uninstaller.sh
+sudo vim .environment 
+sudo wget -O /tmp/netdata-kickstart.sh https://my-netdata.io/kickstart.sh && sh /tmp/netdata-kickstart.sh --reinstall
+sudo systemctl status netdata
+sudo systemctl restart netdata
+sudo systemctl status netdata
+sudo lsof -i -P -n | grep LISTEN
+ip add
+netstat
+curl --o info.csv http://localhost:19999/api/v1/info
+netstat -avntp| grep 19999
+curl -o info.csv http://localhost:19999/api/v1/info
+sudo curl -o info.csv http://localhost:19999/api/v1/info
+ls
+cd ~
+sudo systemctl status netdata
+dnsdomainname
+cd /etc/apache2/
+cd sites-available/
+ls
+sudo vim 000-default.conf 
+sudo vim default-ssl.conf 
+sudo systemctl restart apache2
+sudo vim default-ssl.conf 
+sudo systemctl status apache2
+sudo vim 000-default.conf 
+sudo systemctl status apache2
+sudo systemctl restart apache2
+sudo systemctl status apache2
+sudo vim 000-default.conf 
+sudo systemctl restart apache2
+sudo vim 000-default.conf 
+sudo systemctl status apache2
+sudo a2enmod proxy
+sudo systemctl status apache2
+sudo a2enmod proxy_http
+sudo a2enmod rewrite
+sudo systemctl restart apache2
+sudo systemctl status apache2
+sudo vim 000-default.conf 
+sudo systemctl restart apache2
+sudo vim 000-default.conf 
+sudo systemctl status apache2
+ls
+cd /etc/netdata
+ls
+cd /etc
+cd /opt/netdata/etc/netdata/
+ls
+/opt/netdata/etc/netdata/ health_alarm_notify.conf
+sudo vim /opt/netdata/etc/netdata/ health_alarm_notify.conf
+cd  /opt/netdata/etc/netdata/
+ls
+cd health.d/
+ls
+wget -O /tmp/netdata-kickstart.sh https://my-netdata.io/kickstart.sh && sh /tmp/netdata-kickstart.sh --claim-token UKa3XCJhRcC9l1j4Zy2yZ1tG0QQ4cWYl1ShYADL-Y8xv2QVlnGcbnUjNvz3VScwYQukNDqGPGtEoEkEfzlk-zGpq47yQgNYFUvSP3uN0cWVXG8JYiINEtalylbo14Xx0d8CgeYo --claim-url https://app.netdata.cloud
+ls
+cd /etc/apache2/
+cd sites-available/
+ls
+sudo vim 000-default.conf 
