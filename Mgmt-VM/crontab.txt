@@ -1,16 +1,16 @@
-# utc time converted using: https://savvytime.com/converter/utc-to-nzst 
-# m h  dom mon dow   command
-# 7pm utc converts to 7am nzst
-* 19 * * * sudo bash ~/OE2-Group-Project/Scripts/mgmt/backup.sh
-# 10pm utc converts to 10am nzst
-* 22 * * * sudo bash ~/OE2-Group-Project/Scripts/mgmt/backup.sh
-# 2am utc converts to 2pm nzst
-* 2 * * * sudo bash ~/OE2-Group-Project/Scripts/mgmt/backup.sh
-# 4am utc converts to 4pm nzst
-* 4 * * * sudo bash ~/OE2-Group-Project/Scripts/mgmt/backup.sh
-# 6am utc converts to 6pm nzst
-* 6 * * * sudo bash ~/OE2-Group-Project/Scripts/mgmt/backup.sh
-# 8am utc converts to 8pm nzst
-* 8 * * * sudo bash ~/OE2-Group-Project/Scripts/mgmt/backup.sh
-# 11am utc converts to 11pm nzst
-* 11 * * * sudo bash ~/OE2-Group-Project/Scripts/mgmt/backup.sh
+# 730pm utc converts to 730am nzst
+30 7 * * * sudo bash ~/OE2-Group-Project/Scripts/mgmt/backup.sh
+# 1030pm utc converts to 1030am nzst
+30 22 * * * sudo bash ~/OE2-Group-Project/Scripts/mgmt/backup.sh
+# 230am utc converts to 230pm nzst
+30 2 * * * sudo bash ~/OE2-Group-Project/Scripts/mgmt/backup.sh
+# 430am utc converts to 430pm nzst
+30 4 * * * sudo bash ~/OE2-Group-Project/Scripts/mgmt/backup.sh
+# 630am utc converts to 630pm nzst
+30 6 * * * sudo bash ~/OE2-Group-Project/Scripts/mgmt/backup.sh
+# 8.30am utc converts to 830pm nzst
+30 8 * * * sudo bash ~/OE2-Group-Project/Scripts/mgmt/backup.sh
+# 11.30am utc converts to 1130pm nzst
+30 11 * * * sudo bash ~/OE2-Group-Project/Scripts/mgmt/backup.sh
+10 */2 * * * /etc/backup/restore.sh
+
