@@ -1,24 +1,5 @@
 ./puppet-install.sh 
 vim test 
-vim puppet-install.sh 
-vim test 
-./puppet-install.sh 
-vim test 
-./puppet-install.sh 
-vim test 
-./puppet-install.sh 
-vim test 
-vim puppet-install.sh 
-./puppet-install.sh 
-vim test 
-./puppet-install.sh 
-vim test 
-vim puppet-install.sh 
-vim test 
-./puppet-install.sh 
-vim test 
-./puppet-install.sh 
-vim test 
 ./puppet-install.sh 
 vim test 
 ./puppet-install.sh 
@@ -1998,3 +1979,22 @@ bumgmt
 sudo nano restore.sh 
 #
 sudo nano restore.sh 
+cd OE2-Group-Project/
+ls
+cd Scripts/mgmt/
+ls
+ls -al
+./backup.sh 
+cat backup.sh 
+crontab -e
+cd ~
+ls
+cd cron/
+ls
+cd ..
+ls
+sudo rm puppet_old 
+sudo rm cron/ -r
+ls
+ssh bitstudent@20.211.185.153
+exit
