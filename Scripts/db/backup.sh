@@ -36,6 +36,7 @@ sudo cp /etc/nagios ~/OE2-Group-Project/Db-VM -r
 sudo cp /etc/nagios-plugins ~/OE2-Group-Project/Db-VM -r
 sudo cp /etc/node-exporter ~/OE2-Group-Project/Db-VM/node-exporter -r
 sudo cp /etc/systemd/system/node-exporter.service ~/OE2-Group-Project/Db-VM/node-exporter/node-exporter.service
+sudo cp /var/log/cron.log ~/OE2-Group-Project/Db-VM
 sudo chown -R bitstudent ~/OE2-Group-Project/Db-VM
 sudo chgrp -R bitstudent ~/OE2-Group-Project/Db-VM
 cd ~/OE2-Group-Project
