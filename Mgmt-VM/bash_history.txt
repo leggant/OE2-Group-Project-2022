@@ -2,25 +2,6 @@
 vim test 
 ./puppet-install.sh 
 vim test 
-./puppet-install.sh 
-vim test 
-vim puppet-install.sh 
-./puppet-install.sh 
-vim test 
-./puppet-install.sh 
-vim test 
-vim puppet-install.sh 
-./puppet-install.sh 
-vim test 
-./puppet-install.sh 
-vim test 
-vim puppet-install.sh 
-./puppet-install.sh 
-vim test 
-./puppet-install.sh 
-vim test 
-./puppet-install.sh 
-vim test 
 vim puppet-install.sh 
 ./puppet-install.sh 
 vim test 
@@ -1997,4 +1978,23 @@ sudo rm puppet_old
 sudo rm cron/ -r
 ls
 ssh bitstudent@20.211.185.153
+exit
+crontab -e
+cd ../
+ls
+cd ~
+ls
+cd OE2-Group-Project/Mgmt-VM/
+ls
+sudo nano crontab.txt 
+cd ..
+ls
+sudo nano /etc/rsyslog.d/50-default.conf
+sudo vi /var/log/cron.log
+sudo systemctl restart rsyslog
+sudo systemctl status rsyslog
+cat /var/log/cron.log
+cd ~/OE2-Group-Project/Scripts/mgmt/
+sudo nano backup.sh 
+./backup.sh 
 exit
