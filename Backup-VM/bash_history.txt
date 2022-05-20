@@ -1425,3 +1425,74 @@ cd /etc/backup/
 ls
 crontab -e
 sudo reboot
+crontab -e
+cd ~/OE2-Group-Project/Scripts/backup/
+ls
+ls -al
+./backup.sh 
+cd ..
+le
+cd ~
+ls
+statpup
+exit
+crontab -e
+sudo nano /etc/rsyslog.d/50-default.conf
+sudo nano /var/log/cron.log
+sudo nano /var/log/user.log
+sudo systemctl restart rsyslog
+sudo systemctl status rsyslog
+sudo cat /var/log/user.log
+cat /var/log/user.log
+grep 'cron|CRON' /var/log/syslog | less
+sudo systemctl status rsyslog
+cat /var/log/cron.log
+cat /var/log/user.log
+cd /var/log
+ls -al
+sudo chmod 755 user.log
+ls -al
+sudo chmod 755 cron.log
+ls -al
+sudo systemctl restart rsyslog
+sudo systemctl status rsyslog
+ls -al
+sudo -i
+exit
+cat /var/log/user.log
+sudo cat /var/log/user.log
+ls
+cd /var/log/
+ls
+ls -al
+sudo vi /etc/rsyslog.d/50-default.conf
+rsyslogd -v
+sudo nano /etc/rsyslog.conf
+sudo chgrp adm /var/log/cron.log
+sudo chown syslog /var/log/cron.log
+sudo chown syslog /var/log/user.log
+sudo chgrp adm /var/log/user.log
+sudo systemctl restart rsyslog
+sudo systemctl status rsyslog
+cd ~
+ls
+sudo cat /var/log/cron.log
+sudo cat /var/log/user.log
+ls -al /var/log
+sudo chmod 766 cron.log
+sudo chmod 766 /var/log/cron.log
+sudo chmod 766 /var/log/user.log
+ls -al /var/log
+sudo chmod 777 /var/log/user.log
+sudo chmod 777 /var/log/cron.log
+sudo chmod 775 /var/log/cron.log
+sudo chmod 775 /var/log/user.log
+ls -al /var/log
+sudo systemctl restart rsyslog
+sudo systemctl status rsyslog
+sudo cat /var/log/cron.log
+sudo cat /var/log/user.log
+exit
+sudo cat /var/log/user.log
+sudo cat /var/log/cron.log
+exit
