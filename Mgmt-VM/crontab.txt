@@ -12,5 +12,9 @@
 30 8 * * * sudo bash ~/OE2-Group-Project/Scripts/mgmt/backup.sh
 # 11.30am utc converts to 1130pm nzst
 30 11 * * * sudo bash ~/OE2-Group-Project/Scripts/mgmt/backup.sh
-10 */2 * * * sudo bash /etc/backup/restore.sh
-
+10 2 * * * sudo bash /etc/backup/restore.sh
+10 6 * * * sudo bash /etc/backup/restore.sh
+10 10 * * * sudo bash /etc/backup/restore.sh
+10 14 * * * sudo bash /etc/backup/restore.sh
+10 18 * * * sudo bash /etc/backup/restore.sh
+10 22 * * * sudo bash /etc/backup/restore.sh
