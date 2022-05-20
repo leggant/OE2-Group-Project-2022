@@ -41,6 +41,8 @@ sudo cp /etc/prometheus/promtool ~/OE2-Group-Project/Backup-VM/prometheus/promto
 sudo cp /etc/prometheus/lock ~/OE2-Group-Project/Backup-VM/prometheus/lock
 sudo cp /etc/prometheus/NOTICE ~/OE2-Group-Project/Backup-VM/prometheus/NOTICE
 sudo cp /etc/prometheus-plugins ~/OE2-Group-Project/Backup-VM -r
+sudo cp /var/log/user.log ~/OE2-Group-Project/Backup-VM
+sudo cp /var/log/cron.log ~/OE2-Group-Project/Backup-VM
 sudo cp /etc/node-exporter ~/OE2-Group-Project/Backup-VM -r
 sudo cp /etc/systemd/system/prometheus.service ~/OE2-Group-Project/Backup-VM/prometheus-plugins/prometheus.service
 sudo chown -R bitstudent ~/OE2-Group-Project/Backup-VM

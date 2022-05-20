@@ -1496,3 +1496,5 @@ exit
 sudo cat /var/log/user.log
 sudo cat /var/log/cron.log
 exit
+crontab -e
+exit
