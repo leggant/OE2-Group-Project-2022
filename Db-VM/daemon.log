@@ -1,0 +1,40 @@
+May 20 09:28:13 db-b systemd[1]: Stopping System Logging Service...
+May 20 09:28:13 db-b systemd[1]: Stopped System Logging Service.
+May 20 09:28:13 db-b systemd[1]: Starting System Logging Service...
+May 20 09:28:13 db-b systemd[1]: Started System Logging Service.
+May 20 09:29:36 db-b nrpe[21143]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 25783
+May 20 09:29:36 db-b nrpe[21143]: Connection from 10.6.0.6 port 25783
+May 20 09:29:36 db-b nrpe[21143]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
+May 20 09:29:36 db-b nrpe[21143]: is_an_allowed_host (AF_INET): host is in allowed host list!
+May 20 09:29:36 db-b nrpe[21143]: Host address is in allowed_hosts
+May 20 09:29:36 db-b nrpe[21143]: Host 10.6.0.6 is asking for command 'check_hd' to be run...
+May 20 09:29:36 db-b nrpe[21143]: Running command: /usr/lib/nagios/plugins/check_disk -w 20% -c 10% -p /dev/sda1
+May 20 09:29:36 db-b nrpe[21144]: WARNING: my_system() seteuid(0): Operation not permitted
+May 20 09:29:36 db-b nrpe[21143]: Command completed with return code 0 and output: DISK OK - free space: /var/tmp 25470 MB (86% inode=95%);| /var/tmp=4112MB;23678;26638;0;29598
+May 20 09:29:36 db-b nrpe[21143]: Return Code: 0, Output: DISK OK - free space: /var/tmp 25470 MB (86% inode=95%);| /var/tmp=4112MB;23678;26638;0;29598
+May 20 09:29:36 db-b nrpe[21143]: Connection from 10.6.0.6 closed.
+May 20 09:34:36 db-b nrpe[21201]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 18617
+May 20 09:34:36 db-b nrpe[21201]: Connection from 10.6.0.6 port 18617
+May 20 09:34:36 db-b nrpe[21201]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
+May 20 09:34:36 db-b nrpe[21201]: is_an_allowed_host (AF_INET): host is in allowed host list!
+May 20 09:34:36 db-b nrpe[21201]: Host address is in allowed_hosts
+May 20 09:34:36 db-b nrpe[21201]: Host 10.6.0.6 is asking for command 'check_hd' to be run...
+May 20 09:34:36 db-b nrpe[21201]: Running command: /usr/lib/nagios/plugins/check_disk -w 20% -c 10% -p /dev/sda1
+May 20 09:34:36 db-b nrpe[21202]: WARNING: my_system() seteuid(0): Operation not permitted
+May 20 09:34:36 db-b nrpe[21201]: Command completed with return code 0 and output: DISK OK - free space: /var/tmp 25470 MB (86% inode=95%);| /var/tmp=4112MB;23678;26638;0;29598
+May 20 09:34:36 db-b nrpe[21201]: Return Code: 0, Output: DISK OK - free space: /var/tmp 25470 MB (86% inode=95%);| /var/tmp=4112MB;23678;26638;0;29598
+May 20 09:34:36 db-b nrpe[21201]: Connection from 10.6.0.6 closed.
+May 20 09:35:24 db-b puppet-agent[21212]: Applied catalog in 0.28 seconds
+May 20 09:37:37 db-b python3[1053]: 2022-05-20T09:37:37.120261Z INFO ExtHandler ExtHandler Checking for agent updates (family: Prod)
+May 20 09:37:37 db-b python3[1053]: 2022-05-20T09:37:37.169701Z INFO ExtHandler ExtHandler [HEARTBEAT] Agent WALinuxAgent-2.7.1.0 is running as the goal state agent [DEBUG HeartbeatCounter: 242;HeartbeatId: 9AD3C8BD-EEDD-4A24-AA36-24B08CF6B04A;DroppedPackets: 0;UpdateGSErrors: 0;AutoUpdate: 1]
+May 20 09:39:36 db-b nrpe[21304]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 10939
+May 20 09:39:36 db-b nrpe[21304]: Connection from 10.6.0.6 port 10939
+May 20 09:39:36 db-b nrpe[21304]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
+May 20 09:39:36 db-b nrpe[21304]: is_an_allowed_host (AF_INET): host is in allowed host list!
+May 20 09:39:36 db-b nrpe[21304]: Host address is in allowed_hosts
+May 20 09:39:36 db-b nrpe[21304]: Host 10.6.0.6 is asking for command 'check_hd' to be run...
+May 20 09:39:36 db-b nrpe[21304]: Running command: /usr/lib/nagios/plugins/check_disk -w 20% -c 10% -p /dev/sda1
+May 20 09:39:36 db-b nrpe[21305]: WARNING: my_system() seteuid(0): Operation not permitted
+May 20 09:39:36 db-b nrpe[21304]: Command completed with return code 0 and output: DISK OK - free space: /var/tmp 25470 MB (86% inode=95%);| /var/tmp=4112MB;23678;26638;0;29598
+May 20 09:39:36 db-b nrpe[21304]: Return Code: 0, Output: DISK OK - free space: /var/tmp 25470 MB (86% inode=95%);| /var/tmp=4112MB;23678;26638;0;29598
+May 20 09:39:36 db-b nrpe[21304]: Connection from 10.6.0.6 closed.
