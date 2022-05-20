@@ -1,97 +1,3 @@
-ls
-source ~/.bashrc
-cd ~/OE2-Group-Project && git pull
-cd ~/OE2-Group-Project && git status
-budb
-source ~/.bashrc
-sudo vi ~/.bashrc
-source ~/.bashrc
-budb
-git add .
-git commit -m "db: backup nagios-plugins" -m "db-b vm"
-git push
-exit
-budb
-budb
-exit
-respup
-statpup
-sudo reboot
-statpup
-respup
-statpup
-sudo reboot
-statpup
-budb
-cd /etc
-ls
-source ~/.bashrc
-budb
-budb
-cd /etc
-ls
-source ~/.bashrc
-budb
-cd ~/OE2-Group-Project/Db-VM/
-ls
-cat bashrc
-ls
-cd ..
-ls
-cd App-VM/
-ls
-cd ../Backup-VM/
-ls
-exit
-res nagios-nrpe-server
-stat nagios-nrpe-server
-res nagios-nrpe-server
-respup
-statpup
-stat nagios-nrpe-server
-statpuprespup && stat puppet
-respup && stat puppet
-resnr
-resnag
-respup
-statpup
-sudo nagios3 -v /etc/nagios3/nagios.cfg
-statnag
-respup
-statpup
-sudo systemctl restart nagios-nrpe-server
-sudo systemctl status nagios-nrpe-server
-mod
-cd /etc/nagios
-ls
-sudo nano nrpe.cfg 
-sudo systemctl restart nagios-nrpe-server
-sudo systemctl status nagios-nrpe-server
-sudo vi ~/.bashrc
-sudo puppet cert list --all
-sudo systemctl status nagios-nrpe-server
-sudo systemctl status nagios
-sudo systemctl status nagios3
-sudo systemctl status puppet
-sudo systemctl status nagios-nrpe-server
-sudo systemctl status puppet
-sudo systemctl status nagios-nrpe-server
-sudo -i
-respup
-sudo puppet cert --sign -all
-respup
-statpup
-respup
-statpup
-cd /etc
-ls
-respup
-ls
-sudo puppetd --test
-sudo puppetca --list
-ls
-respup 
-ls
 cd nagios
 ls
 cd ..
@@ -1329,3 +1235,766 @@ ls
 cd cron.d
 ls
 sudo reboot
+sudo mysqldump --all-databases --add-drop-table > /home/bitstudent/backup-file.sql
+ls
+ls -al
+sudo mkdir mysql-backup
+ls -al
+sudo chown bitstudent mysql-backup/
+sudo chgrp bitstudent mysql-backup/
+sudo chmod mysql-backup 770 -R
+sudo chmod 770 -R mysql-backup/
+ls -al
+sudo rm csysdig.txt 
+sudo rm extime.scap 
+sudo rm trace.scap 
+sudo rm test.2022-05-08 
+sudo rm test
+ls -al
+sudo rm backup-file.sql 
+sudo rm dumpfile.scap 
+ls -al
+sudo rm hostConf 
+sudo rm rsync 
+ls -al
+SQLDATE=`date +%d%m%Y%H%M%S`
+sudo mysqldump --all-databases --add-drop-table > "~/mysql-backup/$SQLDATE.sql"
+sudo mysqldump --all-databases --add-drop-table > ~/mysql-backup/$SQLDATE.sql
+ls -al
+cd mysql-backup/
+ls -al
+sudo chown -R bitstudent mysql-backup
+sudo chgrp -R bitstudent mysql-backup
+sudo chown -R bitstudent ~/mysql-backup
+sudo chgrp -R bitstudent ~/mysql-backup
+sudo chmod ~/mysql-backup 770 -R
+sudo chmod mysql-backup 770 -R
+ls -al
+cd ..
+ls
+ls -al
+sudo chmod mysql-backup 770 -R
+sudo chmod mysql-backup/ 770 -R
+sudo chmod 770 -R ~/mysql-backup/
+code
+ls
+cd OE2-Group-Project/Mgmt-VM/
+ls
+cd puppet/
+ls
+cd code/
+ls
+cd modules/rsync/
+ls
+cd files/
+ls
+git rm -r app/
+git rm -r backup/
+git rm -r db/
+git rm -r mgmt/
+ls
+bash restore.sh 
+budb
+ls
+exit
+ls
+cd OE2-Group-Project/
+ls
+cd Db-VM/
+ls
+cd ..
+ls
+cd Mgmt-VM/
+ls
+cd puppet/code/modules/
+ls
+cd rsync/
+cd files/
+ls
+./restore.sh 
+mysql
+sudo mysql
+ls
+mysql
+sudo mysqldump --skip-extended-insert --all-databases --add-drop-table > /home/bitstudent/mysql-backup/$MYSQLFOLDER/mysql.sql
+ls
+cd mysql-backup/
+ls
+cd ..
+sudo rm -r mysql-backup/
+sudo mysqldump --skip-extended-insert --all-databases --add-drop-table > /home/bitstudent/mysql-backup/$MYSQLFOLDER/mysql.sql
+sudo mkdir mysql-backup
+sudo chgrp bitstudent mysql-backup/
+sudo chown bitstudent mysql-backup/
+sudo mysqldump --skip-extended-insert --all-databases --add-drop-table > /home/bitstudent/mysql-backup/$MYSQLFOLDER/mysql.sql
+ls
+cd mysql-backup/
+ls
+ls
+cd mysql-backup/
+ls
+rm test 
+ls
+cd ~/OE2-Group-Project/
+git pull
+ls
+cd ~
+ls
+cd mysql-backup/
+ls
+l
+ls
+pwd
+ls
+touch test
+ls
+rm test 
+ls
+sudo touch test2
+ls
+rm test2 
+ls
+pwd
+ls
+cd ~/OE2-Group-Project/
+ls
+git pull
+cd ~
+ls
+cd mysql-backup/
+ls
+pwd
+ls
+sudo touch test1
+ls
+rm test1 
+ls
+cd ~/OE2-Group-Project/
+ls
+git pull
+cd ~
+ls
+cd mysql-backup/
+ls
+rm -r 15052022
+ls
+cd ~/OE2-Group-Project/
+ls
+git pull
+ls
+cd ~
+ls
+cd mysql-backup/
+ls
+cd ~/OE2-Group-Project/
+git pull
+ls
+cd ~
+ls
+cd mysql-backup/
+ls
+cd 15052022/
+ls
+touch mysql.sql
+;s
+ls
+rm mysql.sql 
+ls
+cd ~/OE2-Group-Project/
+git pull
+cd ~
+ls
+cd mysql-backup/
+ls
+cd 15052022/
+ls
+cd ~
+cd OE2-Group-Project/
+git pull
+ls
+git pull
+cd ~
+ls
+cd mysql-backup/
+ls
+cd ..
+ls
+cd OE2-Group-Project/
+git pull
+cd 
+cd ~
+ls
+ls -la
+ls
+cd mysql-backup/
+ls
+rm mysql.sql 
+ls
+touch test
+ls
+rm test 
+ls
+lsls
+ls
+touch test2 
+ls
+la
+touch test1
+ls
+ls -la
+ls
+rm test1 
+l
+ls
+sudo mv sqlbackup.sql backup.sql
+l
+ls
+rm sqlbackup.sql 
+ls
+rm sqlbackup.sql 
+rm backup.sql 
+ls
+rm test2 
+ls
+sudo vim 15052022222929.sql 
+ls
+ls
+cd OE2-Group-Project/
+ls
+cd ..
+ls
+cd OE2-Group-Project/
+git pull
+cd Mgmt-VM/
+ls
+cd puppet/code/modules/rsync/files/
+./restore.sh 
+ls
+ls ~/
+cd ~
+cd mysql-backup/
+ls
+vim 15052022085325.sql 
+ls
+touch test
+ls
+cd ~/OE2-Group-Project/
+cd Mgmt-VM/
+ls
+cd puppet/code/modules/rsync/files/
+./restore.sh 
+ls
+./restore.sh 
+ls
+./restore.sh 
+cd ~/OE2-Group-Project/
+git pull
+cd ~/OE2-Group-Project/Mgmt-VM/puppet/code/modules/rsync/files
+./restore.sh 
+ls
+vim restore.sh 
+./restore.sh 
+ls
+./restore.sh 
+cd ~/home/bitstudent/mysql-backup
+cd ~
+;s
+ls
+cd mysql-backup/
+ls
+cd ~/OE2-Group-Project/Mgmt-VM/puppet/code/modules/rsync/files
+./restore.sh 
+ls
+vim restore.sh 
+ls
+cd ~/home/bitstudent/mysql-backup
+cd /home/bitstudent/mysql-backup
+ls
+cd ~/OE2-Group-Project/Mgmt-VM/puppet/code/modules/rsync/files
+ls
+./restore.sh 
+vim restore.sh 
+./restore.sh 
+ls
+./restore.sh 
+ls
+./restore.sh 
+ls
+./restore.sh 
+ls
+./restore.sh 
+vim restore.sh 
+./restore.sh 
+ls
+./restore.sh 
+vim restore.sh 
+./restore.sh 
+vim restore.sh 
+./restore.sh 
+vim restore.sh 
+./restore.sh 
+ls
+vim restore.sh 
+cd OE2-Group-Project/
+ls
+cd Mgmt-VM/
+ls
+cd puppet/code/modules/rsync/ls
+cd puppet/code/modules/rsync/files/
+ls
+sudo vim restore.sh 
+vim restore.sh 
+grep -ic cron /var/log/* | grep -v :0
+sudo grep -ic cron /var/log/* | grep -v :0
+grep -ic cron /var/log/* | grep -v :0
+grep cron /etc/rsyslog.conf
+systemctl status cron
+sudo grep –a “Cron.sh” /var/log/syslog
+sudo grep –a “restore.sh” /var/log/syslog
+sudo grep –a “backup.sh” /var/log/syslog
+sudo grep -i certbot /var/log/syslog
+sudo ag certbot /var/log/syslog
+syslog
+sudo grep -i certbot /var/log/syslog
+ls
+sudo sysdig
+sudo csysdig
+ls
+exit
+vim log.log 
+ls
+cd /etc/backup/
+ls
+vim restore.sh 
+ls
+cd ~
+ls
+vim log.log 
+ls 
+cd /etc/backup/
+./restore.sh 
+cd ~
+ls
+vim log.log 
+ls
+vim log.log 
+crontab -e
+cd /etc/backup/
+ls
+rm restore
+sudo rm restore
+ls -ls
+ls -la
+ls
+cd ~
+ls
+crontab -e 
+ls
+vim log.log 
+crontab -e 
+ls
+pwd
+ls
+cd .ssh
+ls
+cat ~/.ssh/db_key.pub >> ~/.ssh/authorized_keys
+ls
+cat ~/.ssh/restore.key.pub >> ~/.ssh/authorized_keys
+ls
+cd ~
+ls
+la
+ls
+mkdir db
+ls
+cd db/
+ks
+ls
+cd .
+ls
+cd ..
+ls
+cd /etc/
+ls
+cd mysql/
+ls
+ls -la
+cd ..
+ls l-a
+ls -la
+cd ~
+ls
+cd db/
+ls
+cd ..
+ls
+ls -la
+ls
+chmod o+w db/
+ls
+ls -la
+ls
+cd db/
+ls
+rsync -avzhe ssh groupb@restore-b.foo.org.nz:/home/bitstudent/db /backup/db
+rsync -avzhe ssh groupb@restore-b.foo.org.nz:db /backup/db
+rsync -avzhe ssh groupb@restore-b.foo.org.nz:backup /backup/db
+rsync -avzhe ssh groupb@restore-b.foo.org.nz:backup /home/bitstudent/db
+ls
+cd ..
+ls
+cd db
+ls
+cd backup/
+ls
+rsync -avzhe ssh groupb@restore-b.foo.org.nz:backup/db /home/bitstudent/db
+ls
+cd ..
+ls
+rsync -avzhe ssh groupb@restore-b.foo.org.nz:backup/db /home/bitstudent/dbls
+ls
+cd db
+ls
+ls -la
+ls
+rsync -hvrPt ssh groupb@restore-b.foo.org.nz:backup/db /home/bitstudent/dbls
+rsync -tP ssh groupb@restore-b.foo.org.nz:backup/db /home/bitstudent/dbls
+rsync -avzhe ssh groupb@restore-b.foo.org.nz:backup/db /home/bitstudent/dbls
+ls
+cd ..
+s
+l
+ls
+rsync -avzhe ssh groupb@restore-b.foo.org.nz:backup/db /home/bitstudent/dbls
+cd db
+ls
+rm -r *
+sudo rm -r *
+cd ..
+rsync -avzhe ssh groupb@restore-b.foo.org.nz:backup/db /home/bitstudent/dbls
+ls
+cd db/
+ls
+cd ..
+ls
+l
+ls
+rsync -avzhe ssh groupb@restore-b.foo.org.nz:backup/db /home/bitstudent/db
+ls
+cd db/
+ls
+rsync -avzhe ssh groupb@restore-b.foo.org.nz:backup/db /home/bitstudent/db
+ls
+sudo rm -r *
+rsync -avzhe ssh groupb@restore-b.foo.org.nz:backup/db /home/bitstudent/db
+ls
+rsync -avzhe ssh groupb@restore-b.foo.org.nz:backup/db /home/bitstudent/db
+ls
+rsync -avzhe ssh groupb@restore-b.foo.org.nz:backup/db /home/bitstudent/db
+vim xxx 
+ls
+cd /etc/backup/
+vim restore.sh 
+sudo vim restore.sh 
+ls
+cd ~
+ls
+mkdir test
+ls
+cd test/
+ls
+touch test 1
+touch test 2
+ls
+touch test2
+ls
+cd /etc/backup/
+./restore.sh 
+ls
+cd ~
+ls
+cd test/
+ls
+rm test
+ls
+cd /etc/ba
+cd /etc/backup/
+./restore.sh 
+ls
+cd ~
+ls
+cd test/
+ls
+vim test2 
+cd /etc/backup/
+./restore.sh 
+ls
+cd ..
+ls
+cd ~
+ls
+cd mysql-backup/
+ls
+rsync -avzhe ssh groupb@restore-b.foo.org.nz:backup/db /home/bitstudent/dbls
+cd ~
+ls
+cd test/
+ls
+vim test2 
+rsync -avzhe ssh groupb@restore-b.foo.org.nz:backup/db /home/bitstudent/dbls
+ls
+cd /etc/backup/
+./restore.sh 
+cd ~
+ls
+cd test/
+ls
+vim test2 
+cd /etc/backup/
+./restore.sh 
+ls
+cd ~
+l
+cd test/
+vim test2 
+cd /etc/backup/
+./restore.sh 
+ls
+cd ~
+ls
+cd test/
+ls
+rm 1
+rm 2
+ls
+./etc/backup/restore.sh
+bash ./etc/backup/restore.sh
+ls
+touch test1
+ls
+cd /etc/backup
+./restore.sh 
+ls
+cd ~
+sl
+ls
+cd db
+l
+cd ..
+,s
+ls
+cd test/
+ls
+rm * 
+ls
+touch testA testB
+ls
+cd /etc/backup/
+./restore.sh 
+vim restore.sh 
+sudo bim restore.sh 
+sudo vim restore.sh 
+./restore.sh 
+cd ~
+ls
+cd test/
+ls
+sudo vim testA 
+cd /etc/backup/
+./restore.sh 
+cd ~
+ls
+cd test/
+ls
+vim testA
+cd /etc/backup/
+sudo vim restore.sh 
+ssh groupb@20.211.191.46
+cd /etc/mysql/debian.cnf
+cd /etc/mysql/
+ls
+vim debian.cnf 
+sudo vim debian.cnf 
+cd /etc/backup/
+sudo vim restore.sh 
+./restore.sh 
+sudo vim restore.sh 
+./restore.sh 
+sudo vim restore.sh 
+./restore.sh 
+sudo vim restore.sh 
+./restore.sh 
+sudo vim restore.sh 
+ls
+cd !
+cd ~
+tar -zcf /home/bitstudent/test/backup-$(date +%Y%m%d).tar.gz -C /etc/mysql
+cd /etc/mysql
+tar -zcf /home/bitstudent/test/backup-$(date +%Y%m%d).tar.gz -C /etc/mysql
+tar -zcf /home/bitstudent/test/backup-$(date +%Y%m%d).tar.gz -C /etc/mysql/
+tar -zcf /home/bitstudent/test/backup-$(date +%Y%m%d).tar.gz -C /etc/mysql
+cd ~
+ls
+cd test/
+ls
+pwd
+tar -zcf /home/bitstudent/test/backup-$(date +%Y%m%d).tar.gz -C /etc/mysql
+sudo tar -zcf /home/bitstudent/test/backup-$(date +%Y%m%d).tar.gz -C /etc/mysql
+sudo tar -zcf /home/bitstudent/test/backup-$(date +%Y%m%d).tar.gz -C /etc/mysql .
+ls
+tar -xvf backup-20220518.tar.gz 
+ls
+rm -r *
+sudo rm -r *
+ls
+sudo tar -zcf /home/bitstudent/test/backup-$(date +%Y%m%d).tar.gz -C /etc/mysql .
+ls
+tar -tvf backup-20220518.tar.gz 
+ls
+sudo tar -zcf /home/bitstudent/test/backup-$(date +%Y%m%d).tar.gz -C /etc/mysql 
+sudo tar -zcf /home/bitstudent/test/backup-$(date +%Y%m%d).tar.gz -C /etc/mysql
+sudo tar -zcf /home/bitstudent/test/backup-$(date +%Y%m%d).tar.gz -C /etc/mysql .
+ls
+sudo tar -zcf /home/bitstudent/test/backup-$(date +%Y%m%d).tar.gz  /etc/mysql .
+ls
+rm backup-20220518.tar.gz 
+sudo rm backup-20220518.tar.gz 
+sudo tar -zcf /home/bitstudent/test/backup-$(date +%Y%m%d).tar.gz  /etc/mysql
+sudo tar -zcf /home/bitstudent/test/backup-$(date +%Y%m%d).tar.gz  /etc/mysql .
+ls
+tar -tvf backup-20220518.tar.gz 
+ls
+rm backup-20220518.tar.gz 
+ls
+sudo rm backup-20220518.tar.gz 
+ls
+tar -zcf /home/bitstudent/test/backup-$(date +%Y%m%d).tar.gz  ./etc/mysql .
+ls
+tar -tvf backup-20220518.tar.gz 
+tar -zcf /home/bitstudent/test/backup-$(date +%Y%m%d).tar.gz /etc/mysql
+sudo tar -zcf /home/bitstudent/test/backup-$(date +%Y%m%d).tar.gz /etc/mysql
+ls
+tar -tvf backup-20220518.tar.gz 
+ls
+tar -xvf backup-20220518.tar.gz 
+ls
+cd etc/
+ls
+cd mysql/
+ls
+cd ..
+ls
+rm -r 
+sudo rm -r  *
+sudo tar -zcf /home/bitstudent/test/backup-$(date +%Y%m%d).tar.gz /mysql
+sudo tar -zcf /home/bitstudent/test/backup-$(date +%Y%m%d).tar.gz etc/mysql
+sudo tar -zcf /home/bitstudent/test/backup-$(date +%Y%m%d).tar.gz /etc/mysql
+ls
+tar -xvf backup-20220518.tar.gz 
+ls
+sudo tar -zcf /home/bitstudent/test/backup-$(date +%Y%m%d).tar.gz --directory=/etc/mysql
+sudo tar -zcf /home/bitstudent/test/backup-$(date +%Y%m%d).tar.gz --directory=/etc/mysql .
+ls
+sudo rm -r *
+sudo tar -zcf /home/bitstudent/test/backup-$(date +%Y%m%d).tar.gz --directory=/etc/mysql .
+ls
+tar -xvf backup-20220518.tar.gz 
+ls
+sudo rm -r *
+sudo tar -zcf /home/bitstudent/test/backup-$(date +%Y%m%d).tar.gz --directory=/etc /mysql .
+ls
+tar -xvf backup-20220518.tar.gz 
+ls
+sudo rm -r *
+ls
+sudo tar -zcf /home/bitstudent/test/backup-$(date +%Y%m%d).tar.gz --directory=/etc/mysql
+sudo tar -zcf /home/bitstudent/test/backup-$(date +%Y%m%d).tar.gz -C /etc/mysql .
+ls
+tar -xvzf backup-20220518.tar.gz 
+ls
+tar -xvzf tgz backup-20220518.tar.gz 
+sudo rm -r *
+tar -xvzf backup-20220518.tar.gz --strip=1
+ls
+sudo tar -zcf /home/bitstudent/test/backup-$(date +%Y%m%d).tar.gz --directory=/etc/mysql
+sudo tar -zcf /home/bitstudent/test/backup-$(date +%Y%m%d).tar.gz --directory=/etc/mysql .
+tar -xvzf backup-20220518.tar.gz --strip=1
+ls
+sudo rm -r *
+ls
+sudo tar -zcf /home/bitstudent/test/backup-$(date +%Y%m%d).tar.gz --directory=/etc/mysql/
+sudo tar -zcf /home/bitstudent/test/backup-$(date +%Y%m%d).tar.gz --directory=/etc/mysql/ .
+ls
+tar -xvzf backup-20220518.tar.gz --strip=1
+ls
+sudo rm -r *
+ls
+lsls
+ls
+touch test3 test4
+ls
+cd /etc/backup/
+ls
+vim restore.sh 
+sudo vim restore.sh 
+./restore.sh 
+ls
+cd ~
+ls
+touch test.sh
+vim test.sh 
+chmod +x test.sh 
+./test
+./test.sh 
+vim test.sh 
+./test.sh 
+ls
+vim test.sh 
+./test.sh 
+vim test.sh 
+rm test.sh 
+ls
+cd dbls/
+ls
+cd ..
+ls
+rm dbls/
+rm dbls/ -r
+sudo rm dbls/ -r
+touch test
+vim test/
+l
+vim backup.sh
+chmod +x backup.sh 
+./backup.sh 
+vim backup.sh
+./backup.sh 
+vim backup.sh
+./backup.sh 
+vim backup.sh
+./backup.sh 
+ls
+vim backup.sh
+./backup.sh 
+vim backup.sh
+./backup.sh 
+vim backup.sh
+./backup.sh 
+vim backup.sh
+./backup.sh 
+ls
+vim backup.sh
+./backup.sh 
+ls
+cd mysql-backup/
+ls
+cd ..
+ls
+vim backup.sh
+./backup.sh 
+vim backup.sh
+./backup.sh 
+vim backup.sh
+ls
+rm backup.sh 
+ls

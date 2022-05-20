@@ -31,9 +31,9 @@ then
 echo " db vm"
 #~bash throw errer
 # this needs update
-sudo chown -R bitstudent ~/mysql-backup
-sudo chgrp -R bitstudent ~/mysql-backup
-sudo chmod 770 -R ~/mysql-backup/
+#sudo chown -R bitstudent ~/mysql-backup
+#sudo chgrp -R bitstudent ~/mysql-backup
+#sudo chmod 770 -R ~/mysql-backup/
 BUDIR="
 /etc/node-exporter
 /etc/nagios
@@ -47,7 +47,7 @@ sudo chmod o+rx /etc/mysql/debian.cnf
 # MYSQL BACKUP
 MYSQLDATE=`date +%d%m%Y%H%M%S`
 cd ~/mysql-backup
-sudo mysqldump --skip-extended-insert --all-databases --add-drop-table > sqlbackup.sql
+sudo mysqldump --skip-extended-insert --all-databases --add-drop-table > $MYSQLDATE.sql
 sudo chown -R bitstudent ~/mysql-backup
 sudo chgrp -R bitstudent ~/mysql-backup
 sudo chmod 770 -R ~/mysql-backup/
