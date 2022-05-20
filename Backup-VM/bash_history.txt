@@ -1498,3 +1498,90 @@ sudo cat /var/log/cron.log
 exit
 crontab -e
 exit
+crontab -e
+sudo cat /var/log/user.log
+sudo cat /var/log/cron.log
+sudo cat /var/log/user.log
+sudo nano ~/OE2-Group-Project/Scripts/backup/backup.sh 
+bash ~/OE2-Group-Project/Scripts/backup/backup.sh 
+sudo cat /var/log/user.log
+cd /var/log
+ls
+ls -al
+cd ~
+ls
+sudo vi /etc/rsyslog.d/50-default.conf
+sudo systemctl restart rsyslog
+sudo systemctl status rsyslog
+sudo vi /etc/rsyslog.d/50-default.conf
+sudo nano /etc/rsyslog.d/50-default.conf
+sudo systemctl restart rsyslog
+sudo systemctl status rsyslog
+sudo cat /var/log/user.log
+sudo cat /var/log/cron.log
+sudo systemctl stop cron.d
+sudo systemctl stop cron
+sudo cat /var/log/cron.log
+sudo systemctl restart cron
+sudo cat /var/log/cron.log
+sudo nano /etc/rsyslog.d/50-default.conf
+sudo systemctl restart rsyslog
+sudo systemctl status rsyslog
+sudo cat /var/log/cron.log
+sudo systemctl stop cron
+sudo cat /var/log/cron.log
+sudo systemctl restart rsyslog
+sudo systemctl restart cron
+sudo cat /var/log/cron.log
+crontab -e
+sudo cat /var/log/cron.log
+sudo nano /etc/rsyslog.d/50-default.conf
+crontab -e
+sudo cat /var/log/cron.log
+crontab -e
+sudo cat /var/log/cron.log
+crontab -e
+sudo cat /var/log/cron.log
+crontab -e
+sudo nano /etc/rsyslog.d/50-default.conf
+sudo nano /var/log/daemon.log
+cd /var/log
+ls
+sudo chgrp adm /var/log/daemon.log 
+sudo chown syslog /var/log/daemon.log 
+sudo chmod 775 /var/log/daemon.log 
+sudo systemctl restart rsyslog
+sudo systemctl status rsyslog
+sudo nano /etc/rsyslog.d/50-default.conf
+sudo systemctl restart rsyslog
+sudo systemctl status rsyslog
+sudo cat /var/log/cron.log
+crontab -e
+sudo nano /etc/rsyslog.d/50-default.conf
+sudo systemctl restart rsyslog
+sudo systemctl status rsyslog
+sudo cat /var/log/cron.log
+sudo cat /var/log/user.log
+sudo cat /var/log/daemon.log
+sudo cat /var/log/user.log
+ls -al
+sudo chown root /var/log/user.log 
+sudo chgrp root /var/log/user.log 
+sudo systemctl restart rsyslog
+sudo systemctl status rsyslog
+sudo cat /var/log/user.log
+sudo systemctl status rsyslog
+sudo cat /var/log/user.log
+sudo nano /etc/rsyslog.d/50-default.conf
+sudo systemctl restart rsyslog
+sudo systemctl status rsyslog
+sudo cat /var/log/user.log
+
+sudo cat /var/log/user.log
+sudo systemctl status rsyslog
+sudo cat /var/log/user.log
+sudo cat /var/log/cron.log
+sudo cat /var/log/user.log
+sudo cat /var/log/daemon.log
+exit
+logout

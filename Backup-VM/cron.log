@@ -23,3 +23,86 @@ May 20 08:10:54 backup-b crontab[30964]: (bitstudent) REPLACE (bitstudent)
 May 20 08:10:54 backup-b crontab[30964]: (bitstudent) END EDIT (bitstudent)
 May 20 08:11:01 backup-b cron[1098]: (bitstudent) RELOAD (crontabs/bitstudent)
 May 20 08:15:01 backup-b CRON[31281]: (bitstudent) CMD (sudo bash ~/OE2-Group-Project/Scripts/backup/backup.sh)
+May 20 08:15:13 backup-b CRON[31280]: (CRON) info (No MTA installed, discarding output)
+May 20 08:17:01 backup-b CRON[31426]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+May 20 08:26:24 backup-b cron[31629]: (CRON) INFO (pidfile fd = 3)
+May 20 08:26:24 backup-b cron[31629]: (CRON) INFO (Skipping @reboot jobs -- not system startup)
+May 20 08:31:11 backup-b cron[31783]: (CRON) INFO (pidfile fd = 3)
+May 20 08:31:11 backup-b cron[31783]: (CRON) INFO (Skipping @reboot jobs -- not system startup)
+May 20 08:31:43 backup-b crontab[31802]: (bitstudent) BEGIN EDIT (bitstudent)
+May 20 08:32:15 backup-b nrpe[31827]: Connection from 10.6.0.6 port 12472
+May 20 08:32:15 backup-b nrpe[31827]: Host address is in allowed_hosts
+May 20 08:32:15 backup-b nrpe[31827]: Host 10.6.0.6 is asking for command 'check_hd' to be run...
+May 20 08:32:15 backup-b nrpe[31827]: Running command: /usr/lib/nagios/plugins/check_disk -w 20% -c 10% -p /dev/sda1
+May 20 08:32:15 backup-b nrpe[31827]: Command completed with return code 0 and output: DISK OK - free space: /var/tmp 24742 MB (83% inode=94%);| /var/tmp=4840MB;23678;26638;0;29598
+May 20 08:32:15 backup-b nrpe[31827]: Return Code: 0, Output: DISK OK - free space: /var/tmp 24742 MB (83% inode=94%);| /var/tmp=4840MB;23678;26638;0;29598
+May 20 08:32:15 backup-b nrpe[31827]: Connection from 10.6.0.6 closed.
+May 20 08:32:19 backup-b crontab[31802]: (bitstudent) REPLACE (bitstudent)
+May 20 08:32:19 backup-b crontab[31802]: (bitstudent) END EDIT (bitstudent)
+May 20 08:33:01 backup-b cron[31783]: (bitstudent) RELOAD (crontabs/bitstudent)
+May 20 08:34:30 backup-b crontab[31869]: (bitstudent) BEGIN EDIT (bitstudent)
+May 20 08:34:37 backup-b crontab[31869]: (bitstudent) REPLACE (bitstudent)
+May 20 08:34:37 backup-b crontab[31869]: (bitstudent) END EDIT (bitstudent)
+May 20 08:35:01 backup-b cron[31783]: (bitstudent) RELOAD (crontabs/bitstudent)
+May 20 08:35:07 backup-b crontab[31895]: (bitstudent) BEGIN EDIT (bitstudent)
+May 20 08:35:31 backup-b crontab[31895]: (bitstudent) REPLACE (bitstudent)
+May 20 08:35:31 backup-b crontab[31895]: (bitstudent) END EDIT (bitstudent)
+May 20 08:36:01 backup-b cron[31783]: (bitstudent) RELOAD (crontabs/bitstudent)
+May 20 08:36:01 backup-b CRON[31933]: (bitstudent) CMD (/etc/backup/restore.sh)
+May 20 08:36:07 backup-b CRON[31924]: (CRON) info (No MTA installed, discarding output)
+May 20 08:37:01 backup-b CRON[32030]: (bitstudent) CMD (/etc/backup/restore.sh)
+May 20 08:37:08 backup-b CRON[32029]: (CRON) info (No MTA installed, discarding output)
+May 20 08:37:15 backup-b nrpe[32067]: Connection from 10.6.0.6 port 4794
+May 20 08:37:15 backup-b nrpe[32067]: Host address is in allowed_hosts
+May 20 08:37:15 backup-b nrpe[32067]: Host 10.6.0.6 is asking for command 'check_hd' to be run...
+May 20 08:37:15 backup-b nrpe[32067]: Running command: /usr/lib/nagios/plugins/check_disk -w 20% -c 10% -p /dev/sda1
+May 20 08:37:15 backup-b nrpe[32067]: Command completed with return code 0 and output: DISK OK - free space: /var/tmp 24741 MB (83% inode=94%);| /var/tmp=4841MB;23678;26638;0;29598
+May 20 08:37:15 backup-b nrpe[32067]: Return Code: 0, Output: DISK OK - free space: /var/tmp 24741 MB (83% inode=94%);| /var/tmp=4841MB;23678;26638;0;29598
+May 20 08:37:15 backup-b nrpe[32067]: Connection from 10.6.0.6 closed.
+May 20 08:37:24 backup-b crontab[32078]: (bitstudent) BEGIN EDIT (bitstudent)
+May 20 08:37:43 backup-b crontab[32078]: (bitstudent) REPLACE (bitstudent)
+May 20 08:37:43 backup-b crontab[32078]: (bitstudent) END EDIT (bitstudent)
+May 20 08:38:01 backup-b cron[31783]: (bitstudent) RELOAD (crontabs/bitstudent)
+May 20 08:38:01 backup-b CRON[32100]: (bitstudent) CMD (/etc/bkup/restore.sh)
+May 20 08:38:01 backup-b CRON[32099]: (CRON) info (No MTA installed, discarding output)
+May 20 08:38:13 backup-b crontab[32112]: (bitstudent) BEGIN EDIT (bitstudent)
+May 20 08:38:21 backup-b crontab[32112]: (bitstudent) REPLACE (bitstudent)
+May 20 08:38:21 backup-b crontab[32112]: (bitstudent) END EDIT (bitstudent)
+May 20 08:39:01 backup-b cron[31783]: (bitstudent) RELOAD (crontabs/bitstudent)
+May 20 08:42:15 backup-b nrpe[32205]: Connection from 10.6.0.6 port 60603
+May 20 08:42:15 backup-b nrpe[32205]: Host address is in allowed_hosts
+May 20 08:42:15 backup-b nrpe[32205]: Host 10.6.0.6 is asking for command 'check_hd' to be run...
+May 20 08:42:15 backup-b nrpe[32205]: Running command: /usr/lib/nagios/plugins/check_disk -w 20% -c 10% -p /dev/sda1
+May 20 08:42:15 backup-b nrpe[32205]: Command completed with return code 0 and output: DISK OK - free space: /var/tmp 24740 MB (83% inode=94%);| /var/tmp=4841MB;23678;26638;0;29598
+May 20 08:42:15 backup-b nrpe[32205]: Return Code: 0, Output: DISK OK - free space: /var/tmp 24740 MB (83% inode=94%);| /var/tmp=4841MB;23678;26638;0;29598
+May 20 08:42:15 backup-b nrpe[32205]: Connection from 10.6.0.6 closed.
+May 20 08:47:15 backup-b nrpe[32266]: Connection from 10.6.0.6 port 53949
+May 20 08:47:15 backup-b nrpe[32266]: Host address is in allowed_hosts
+May 20 08:47:15 backup-b nrpe[32266]: Host 10.6.0.6 is asking for command 'check_hd' to be run...
+May 20 08:47:15 backup-b nrpe[32266]: Running command: /usr/lib/nagios/plugins/check_disk -w 20% -c 10% -p /dev/sda1
+May 20 08:47:15 backup-b nrpe[32266]: Command completed with return code 0 and output: DISK OK - free space: /var/tmp 24740 MB (83% inode=94%);| /var/tmp=4842MB;23678;26638;0;29598
+May 20 08:47:15 backup-b nrpe[32266]: Return Code: 0, Output: DISK OK - free space: /var/tmp 24740 MB (83% inode=94%);| /var/tmp=4842MB;23678;26638;0;29598
+May 20 08:47:15 backup-b nrpe[32266]: Connection from 10.6.0.6 closed.
+May 20 08:52:15 backup-b nrpe[32386]: Connection from 10.6.0.6 port 47295
+May 20 08:52:15 backup-b nrpe[32386]: Host address is in allowed_hosts
+May 20 08:52:15 backup-b nrpe[32386]: Host 10.6.0.6 is asking for command 'check_hd' to be run...
+May 20 08:52:15 backup-b nrpe[32386]: Running command: /usr/lib/nagios/plugins/check_disk -w 20% -c 10% -p /dev/sda1
+May 20 08:52:15 backup-b nrpe[32386]: Command completed with return code 0 and output: DISK OK - free space: /var/tmp 24739 MB (83% inode=94%);| /var/tmp=4843MB;23678;26638;0;29598
+May 20 08:52:15 backup-b nrpe[32386]: Return Code: 0, Output: DISK OK - free space: /var/tmp 24739 MB (83% inode=94%);| /var/tmp=4843MB;23678;26638;0;29598
+May 20 08:52:15 backup-b nrpe[32386]: Connection from 10.6.0.6 closed.
+May 20 08:57:15 backup-b nrpe[32440]: Connection from 10.6.0.6 port 40129
+May 20 08:57:15 backup-b nrpe[32440]: Host address is in allowed_hosts
+May 20 08:57:15 backup-b nrpe[32440]: Host 10.6.0.6 is asking for command 'check_hd' to be run...
+May 20 08:57:15 backup-b nrpe[32440]: Running command: /usr/lib/nagios/plugins/check_disk -w 20% -c 10% -p /dev/sda1
+May 20 08:57:15 backup-b nrpe[32440]: Command completed with return code 0 and output: DISK OK - free space: /var/tmp 24739 MB (83% inode=94%);| /var/tmp=4843MB;23678;26638;0;29598
+May 20 08:57:15 backup-b nrpe[32440]: Return Code: 0, Output: DISK OK - free space: /var/tmp 24739 MB (83% inode=94%);| /var/tmp=4843MB;23678;26638;0;29598
+May 20 08:57:15 backup-b nrpe[32440]: Connection from 10.6.0.6 closed.
+May 20 09:03:46 backup-b crontab[32607]: (bitstudent) BEGIN EDIT (bitstudent)
+May 20 09:03:57 backup-b crontab[32607]: (bitstudent) REPLACE (bitstudent)
+May 20 09:03:57 backup-b crontab[32607]: (bitstudent) END EDIT (bitstudent)
+May 20 09:04:01 backup-b cron[31783]: (bitstudent) RELOAD (crontabs/bitstudent)
+May 20 09:17:01 backup-b CRON[562]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+May 20 10:17:01 backup-b CRON[1400]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+May 20 10:20:01 backup-b CRON[1446]: (bitstudent) CMD (sudo bash /etc/backup/restore.sh)
+May 20 10:20:01 backup-b CRON[1445]: (CRON) info (No MTA installed, discarding output)
+May 20 11:15:01 backup-b CRON[2224]: (bitstudent) CMD (sudo bash ~/OE2-Group-Project/Scripts/backup/backup.sh)
