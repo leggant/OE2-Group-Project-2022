@@ -1,0 +1,17 @@
+May 21 07:27:34 app-b systemd[1]: Stopping System Logging Service...
+May 21 07:27:34 app-b systemd[1]: Stopped System Logging Service.
+May 21 07:27:34 app-b systemd[1]: Starting System Logging Service...
+May 21 07:27:34 app-b systemd[1]: Started System Logging Service.
+May 21 07:28:48 app-b python3[1108]: 2022-05-21T07:28:48.974562Z INFO ExtHandler ExtHandler Checking for agent updates (family: Prod)
+May 21 07:28:49 app-b python3[1108]: 2022-05-21T07:28:49.028475Z INFO ExtHandler ExtHandler [HEARTBEAT] Agent WALinuxAgent-2.7.1.0 is running as the goal state agent [DEBUG HeartbeatCounter: 284;HeartbeatId: 16D3D0B7-B037-43FB-A9BF-85479E8F13C7;DroppedPackets: 0;UpdateGSErrors: 0;AutoUpdate: 1]
+May 21 07:30:41 app-b nrpe[4990]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 52423
+May 21 07:30:41 app-b nrpe[4990]: Connection from 10.6.0.6 port 52423
+May 21 07:30:41 app-b nrpe[4990]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
+May 21 07:30:41 app-b nrpe[4990]: is_an_allowed_host (AF_INET): host is in allowed host list!
+May 21 07:30:41 app-b nrpe[4990]: Host address is in allowed_hosts
+May 21 07:30:41 app-b nrpe[4990]: Host 10.6.0.6 is asking for command 'check_hd' to be run...
+May 21 07:30:41 app-b nrpe[4990]: Running command: /usr/lib/nagios/plugins/check_disk -w 10% -c 20% -p /dev/sda1
+May 21 07:30:41 app-b nrpe[4991]: WARNING: my_system() seteuid(0): Operation not permitted
+May 21 07:30:41 app-b nrpe[4990]: Command completed with return code 0 and output: DISK OK - free space: /var/tmp 24908 MB (84% inode=93%);| /var/tmp=4674MB;26638;23678;0;29598
+May 21 07:30:41 app-b nrpe[4990]: Return Code: 0, Output: DISK OK - free space: /var/tmp 24908 MB (84% inode=93%);| /var/tmp=4674MB;26638;23678;0;29598
+May 21 07:30:41 app-b nrpe[4990]: Connection from 10.6.0.6 closed.

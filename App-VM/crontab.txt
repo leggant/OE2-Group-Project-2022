@@ -16,3 +16,9 @@
 10 11 * * * sudo bash ~/OE2-Group-Project/Scripts/app/backup.sh
 # 1.10pm utc converts to 1.10am nzst
 10 1 * * * sudo bash ~/OE2-Group-Project/Scripts/app/backup.sh
+10 2 * * * sudo bash /etc/backup/restore.sh
+10 6 * * * sudo bash /etc/backup/restore.sh
+10 10 * * * sudo bash /etc/backup/restore.sh
+10 14 * * * sudo bash /etc/backup/restore.sh
+10 18 * * * sudo bash /etc/backup/restore.sh
+10 22 * * * sudo bash /etc/backup/restore.sh

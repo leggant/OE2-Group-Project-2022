@@ -35,6 +35,10 @@ sudo cp /etc/nagios ~/OE2-Group-Project/App-VM -r
 sudo cp /etc/nagios-plugins ~/OE2-Group-Project/App-VM -r
 sudo cp /etc/node-exporter ~/OE2-Group-Project/App-VM/node-exporter -r
 sudo cp /etc/systemd/system/node-exporter.service ~/OE2-Group-Project/App-VM/node-exporter/node-exporter.service
+sudo cp /etc/rsyslog.d/50-default.conf ~/OE2-Group-Project/App-VM/Logs
+sudo cp /var/log/user.log ~/OE2-Group-Project/App-VM/Logs
+sudo cp /var/log/cron.log ~/OE2-Group-Project/App-VM/Logs
+sudo cp /var/log/daemon.log ~/OE2-Group-Project/App-VM/Logs
 sudo chown -R bitstudent ~/OE2-Group-Project/App-VM
 sudo chgrp -R bitstudent ~/OE2-Group-Project/App-VM
 sudo chmod -R 775 ~/OE2-Group-Project/Scripts
