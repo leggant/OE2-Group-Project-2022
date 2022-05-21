@@ -1619,3 +1619,21 @@ cat user.log
 sudo systemctl status rsyslog
 cat user.log 
 exit
+cat user.log 
+sudo nano /etc/rsyslog.d/50-default.conf
+cd ~/OE2-Group-Project/Scripts/backup/
+sudo nano backup.sh 
+crontab -e
+cd ../../Backup-VM/
+ls
+mkdir Logs
+sudo mv user.log Logs/
+sudo mv daemon.log Logs/
+sudo mv cron Logs/
+sudo mv cron.log Logs/
+ls
+cd ../Scripts/backup/
+ls
+sudo nano backup.sh 
+bubup
+exit
