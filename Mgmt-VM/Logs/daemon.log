@@ -5,3 +5,39 @@ May 21 07:36:50 mgmt-b systemd[1]: Started System Logging Service.
 May 21 07:39:36 mgmt-b systemd[1]: Starting Clean php session files...
 May 21 07:39:36 mgmt-b systemd[1]: Started Clean php session files.
 May 21 07:40:04 mgmt-b puppet-master[31013]: Compiled catalog for app-b.foo.org.nz in environment production in 0.05 seconds
+May 21 07:40:25 mgmt-b python3[1116]: 2022-05-21T07:40:25.742291Z INFO CollectLogsHandler ExtHandler Starting log collection...
+May 21 07:40:25 mgmt-b systemd[1]: Started /usr/bin/python3 -u bin/WALinuxAgent-2.7.1.0-py2.7.egg -collect-logs.
+May 21 07:40:51 mgmt-b python3[1116]: 2022-05-21T07:40:51.307847Z INFO CollectLogsHandler ExtHandler Successfully collected logs. Archive size: 2206796 b, elapsed time: 25565 ms.
+May 21 07:40:51 mgmt-b python3[1116]: 2022-05-21T07:40:51.356082Z INFO CollectLogsHandler ExtHandler Successfully uploaded logs.
+May 21 07:41:41 mgmt-b puppet-master[31013]: Compiled catalog for backup-b.foo.org.nz in environment production in 0.05 seconds
+May 21 07:45:11 mgmt-b python3[1116]: 2022-05-21T07:45:11.724190Z INFO ExtHandler ExtHandler Checking for agent updates (family: Prod)
+May 21 07:45:11 mgmt-b python3[1116]: 2022-05-21T07:45:11.769773Z INFO ExtHandler ExtHandler [HEARTBEAT] Agent WALinuxAgent-2.7.1.0 is running as the goal state agent [DEBUG HeartbeatCounter: 286;HeartbeatId: DCBE2863-8E20-4127-9AE3-D90CC23C1DF8;DroppedPackets: 0;UpdateGSErrors: 0;AutoUpdate: 1]
+May 21 07:54:44 mgmt-b systemd[1]: Stopping User Manager for UID 1000...
+May 21 07:54:44 mgmt-b systemd[21987]: Stopped target Default.
+May 21 07:54:44 mgmt-b systemd[21987]: Stopped target Basic System.
+May 21 07:54:44 mgmt-b systemd[21987]: Stopped target Paths.
+May 21 07:54:44 mgmt-b systemd[21987]: Stopped target Timers.
+May 21 07:54:44 mgmt-b systemd[21987]: Stopped target Sockets.
+May 21 07:54:44 mgmt-b systemd[21987]: Closed D-Bus User Message Bus Socket.
+May 21 07:54:44 mgmt-b systemd[21987]: Closed GnuPG cryptographic agent (ssh-agent emulation).
+May 21 07:54:44 mgmt-b systemd[21987]: Closed GnuPG cryptographic agent and passphrase cache.
+May 21 07:54:44 mgmt-b systemd[21987]: Closed REST API socket for snapd user session agent.
+May 21 07:54:44 mgmt-b systemd[21987]: Closed GnuPG cryptographic agent and passphrase cache (access for web browsers).
+May 21 07:54:44 mgmt-b systemd[21987]: Closed GnuPG cryptographic agent and passphrase cache (restricted).
+May 21 07:54:44 mgmt-b systemd[21987]: Closed GnuPG network certificate management daemon.
+May 21 07:54:44 mgmt-b systemd[21987]: Reached target Shutdown.
+May 21 07:54:44 mgmt-b systemd[21987]: Starting Exit the Session...
+May 21 07:54:44 mgmt-b systemd[21987]: Received SIGRTMIN+24 from PID 24334 (kill).
+May 21 07:54:44 mgmt-b systemd[1]: user@1000.service: Killing process 24334 (kill) with signal SIGKILL.
+May 21 07:54:44 mgmt-b systemd[1]: Stopped User Manager for UID 1000.
+May 21 07:54:44 mgmt-b systemd[1]: Removed slice User Slice of bitstudent.
+May 21 07:58:29 mgmt-b puppet-master[31013]: Compiled catalog for mgmt-b.foo.org.nz in environment production in 0.08 seconds
+May 21 07:58:30 mgmt-b puppet-agent[24674]: Applied catalog in 0.38 seconds
+May 21 08:05:24 mgmt-b puppet-master[31013]: Compiled catalog for db-b.foo.org.nz in environment production in 0.06 seconds
+May 21 08:09:04 mgmt-b systemd[1]: Starting Clean php session files...
+May 21 08:09:04 mgmt-b systemd[1]: Started Clean php session files.
+May 21 08:10:05 mgmt-b puppet-master[31013]: Compiled catalog for app-b.foo.org.nz in environment production in 0.06 seconds
+May 21 08:11:41 mgmt-b puppet-master[31013]: Compiled catalog for backup-b.foo.org.nz in environment production in 0.05 seconds
+May 21 08:15:12 mgmt-b python3[1116]: 2022-05-21T08:15:12.619338Z INFO ExtHandler ExtHandler [HEARTBEAT] Agent WALinuxAgent-2.7.1.0 is running as the goal state agent [DEBUG HeartbeatCounter: 287;HeartbeatId: DCBE2863-8E20-4127-9AE3-D90CC23C1DF8;DroppedPackets: 0;UpdateGSErrors: 0;AutoUpdate: 1]
+May 21 08:28:29 mgmt-b puppet-master[31013]: Compiled catalog for mgmt-b.foo.org.nz in environment production in 0.08 seconds
+May 21 08:28:30 mgmt-b puppet-agent[27618]: Applied catalog in 0.37 seconds
