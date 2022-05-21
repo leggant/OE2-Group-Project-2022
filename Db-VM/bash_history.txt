@@ -1,42 +1,3 @@
-respup
-ls
-cd ..
-ls
-respup
-ls
-cd nagios
-ls
-vim nrpe.cfg 
-puppet agent --test --server=puppetmaster.domain.com
-telnet puppetmaster 8140
-statpup
-statnr
-cd ~/OE2-Group-Project && git pull
-sudo vi ~/.bashrc
-source ~/.bashrc
-statnr
-statpup
-puppet cert sign -all
-statpup
-sudo puppet cert sign -all
-statpup
-sudo puppet cert
-sudo puppet cert --allow-dns-alt-names:mgmt-b.foo.org.nz
-sudo puppet cert --allow-dns-alt-names=mgmt-b.foo.org.nz
-sudo puppet cert --digest mgmt-b.foo.org.nz
-sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetime
-puppet cert clean -all
-statpup
-respup
-statpup\
-sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetime
-statpup
-respup && stat puppet
-statpup
-sudo rm -rf /etc/puppetlabs/puppet/ssl
-sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetime
-sudo rm -rf /etc/puppetlabs/puppet/ssl
-sudo puppet cert clean 
 sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetime
 respup
 statpup
@@ -1997,4 +1958,43 @@ cd ~/OE2-Group-Project/Scripts/db
 ls
 sudo nano backup.sh 
 ./backup.sh 
+exit
+sudo cat /var/log/user.log
+cd ~/OE2-Group-Project/
+ls
+cd ls
+ls
+cd Db-VM/
+cd ../Scripts/db
+ls
+sudo nano backup.sh 
+budb
+crontab -e
+ls
+cd ../
+ls
+cd ..
+ls
+cd Db-VM/
+ls
+sudo nano crontab.txt 
+budb
+cd /var/log
+ls
+ls -al
+sudo nano /etc/rsyslog.d/50-default.conf
+cd /var/log
+sudo nano touch daemon.log
+ls -al
+sudo chgrp adm /var/log/daemon.log
+sudo chown syslog /var/log/daemon.log
+sudo chmod 775 /var/log/daemon.log
+sudo systemctl restart rsyslog
+sudo systemctl status rsyslog
+sudo cat /var/log/daemon.log
+sudo cat /var/log/cron.log
+sudo cat /var/log/daemon.log
+cd ~/OE2-Group-Project/Scripts/db
+sudo nano backup.sh 
+budb
 exit

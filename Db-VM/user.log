@@ -277,3 +277,166 @@ May 20 08:20:04 db-b rsyncd[19766]: backed up mysql-backup/sqlbackup.sql to /hom
 May 20 08:20:04 db-b rsyncd[19766]: total: matches=850  hash_hits=850  false_alarms=0 data=718
 May 20 08:20:04 db-b rsyncd[19766]: sent 4.42K bytes  received 5.58K bytes  6.67K bytes/sec
 May 20 08:20:04 db-b rsyncd[19766]: total size is 3.57M  speedup is 357.36
+May 20 10:40:01 db-b rsyncd[22245]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
+May 20 10:40:01 db-b rsyncd[22245]: Ignoring "log file" setting.
+May 20 10:40:01 db-b rsyncd[22245]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+May 20 10:40:01 db-b rsyncd[22245]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
+May 20 10:40:01 db-b rsyncd[22247]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
+May 20 10:40:01 db-b rsyncd[22247]: Ignoring "log file" setting.
+May 20 10:40:01 db-b rsyncd[22247]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+May 20 10:40:01 db-b rsyncd[22247]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
+May 20 10:40:01 db-b rsyncd[22249]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
+May 20 10:40:01 db-b rsyncd[22249]: Ignoring "log file" setting.
+May 20 10:40:01 db-b rsyncd[22249]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+May 20 10:40:01 db-b rsyncd[22249]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
+May 20 10:40:01 db-b rsyncd[22251]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
+May 20 10:40:01 db-b rsyncd[22251]: Ignoring "log file" setting.
+May 20 10:40:01 db-b rsyncd[22251]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+May 20 10:40:01 db-b rsyncd[22251]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
+May 20 10:40:01 db-b rsyncd[22253]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
+May 20 10:40:01 db-b rsyncd[22253]: Ignoring "log file" setting.
+May 20 10:40:01 db-b rsyncd[22253]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+May 20 10:40:01 db-b rsyncd[22253]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
+May 20 10:40:01 db-b rsyncd[22255]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
+May 20 10:40:01 db-b rsyncd[22255]: Ignoring "log file" setting.
+May 20 10:40:01 db-b rsyncd[22255]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+May 20 10:40:01 db-b rsyncd[22255]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
+May 20 14:40:01 db-b rsyncd[29889]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
+May 20 14:40:01 db-b rsyncd[29889]: Ignoring "log file" setting.
+May 20 14:40:01 db-b rsyncd[29889]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+May 20 14:40:01 db-b rsyncd[29889]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
+May 20 14:40:01 db-b rsyncd[29891]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
+May 20 14:40:01 db-b rsyncd[29891]: Ignoring "log file" setting.
+May 20 14:40:01 db-b rsyncd[29891]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+May 20 14:40:01 db-b rsyncd[29891]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
+May 20 14:40:01 db-b rsyncd[29893]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
+May 20 14:40:01 db-b rsyncd[29893]: Ignoring "log file" setting.
+May 20 14:40:01 db-b rsyncd[29893]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+May 20 14:40:01 db-b rsyncd[29893]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
+May 20 14:40:01 db-b rsyncd[29895]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
+May 20 14:40:01 db-b rsyncd[29895]: Ignoring "log file" setting.
+May 20 14:40:01 db-b rsyncd[29895]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+May 20 14:40:01 db-b rsyncd[29895]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
+May 20 14:40:01 db-b rsyncd[29897]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
+May 20 14:40:01 db-b rsyncd[29897]: Ignoring "log file" setting.
+May 20 14:40:01 db-b rsyncd[29897]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+May 20 14:40:01 db-b rsyncd[29897]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
+May 20 14:40:01 db-b rsyncd[29899]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
+May 20 14:40:01 db-b rsyncd[29899]: Ignoring "log file" setting.
+May 20 14:40:01 db-b rsyncd[29899]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+May 20 14:40:01 db-b rsyncd[29899]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
+May 20 15:54:36 db-b netdata: CONFIG: cannot load cloud config '/var/lib/netdata/cloud.d/cloud.conf'. Running with internal defaults.
+May 20 15:54:36 db-b netdata: Found 0 legacy dbengines, setting multidb diskspace to 256MB
+May 20 15:54:36 db-b netdata: Created file '/var/lib/netdata/dbengine_multihost_size' to store the computed value
+May 20 15:54:39 db-b ebpf.plugin: Does not have a configuration file inside `/etc/netdata/ebpf.d.conf. It will try to load stock file.
+May 20 15:54:39 db-b ebpf.plugin: Name resolution is disabled, collector will not parser "hostnames" list.
+May 20 15:54:39 db-b ebpf.plugin: The network value of CIDR 127.0.0.1/8 was updated for 127.0.0.0 .
+May 20 15:54:39 db-b ebpf.plugin: Cannot read process groups configuration file '/etc/netdata/apps_groups.conf'. Will try '/usr/lib/netdata/conf.d/apps_groups.conf'
+May 20 16:07:37 db-b ebpf.plugin: Does not have a configuration file inside `/etc/netdata/ebpf.d.conf. It will try to load stock file.
+May 20 16:07:37 db-b ebpf.plugin: Name resolution is disabled, collector will not parser "hostnames" list.
+May 20 16:07:37 db-b ebpf.plugin: The network value of CIDR 127.0.0.1/8 was updated for 127.0.0.0 .
+May 20 16:07:37 db-b ebpf.plugin: Cannot read process groups configuration file '/etc/netdata/apps_groups.conf'. Will try '/usr/lib/netdata/conf.d/apps_groups.conf'
+May 20 18:40:02 db-b rsyncd[15250]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
+May 20 18:40:02 db-b rsyncd[15250]: Ignoring "log file" setting.
+May 20 18:40:02 db-b rsyncd[15250]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+May 20 18:40:02 db-b rsyncd[15250]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
+May 20 18:40:02 db-b rsyncd[15252]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
+May 20 18:40:02 db-b rsyncd[15252]: Ignoring "log file" setting.
+May 20 18:40:02 db-b rsyncd[15252]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+May 20 18:40:02 db-b rsyncd[15252]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
+May 20 18:40:02 db-b rsyncd[15254]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
+May 20 18:40:02 db-b rsyncd[15254]: Ignoring "log file" setting.
+May 20 18:40:02 db-b rsyncd[15254]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+May 20 18:40:02 db-b rsyncd[15254]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
+May 20 18:40:02 db-b rsyncd[15256]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
+May 20 18:40:02 db-b rsyncd[15256]: Ignoring "log file" setting.
+May 20 18:40:02 db-b rsyncd[15256]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+May 20 18:40:02 db-b rsyncd[15256]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
+May 20 18:40:02 db-b rsyncd[15258]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
+May 20 18:40:02 db-b rsyncd[15258]: Ignoring "log file" setting.
+May 20 18:40:02 db-b rsyncd[15258]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+May 20 18:40:02 db-b rsyncd[15258]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
+May 20 18:40:02 db-b rsyncd[15260]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
+May 20 18:40:02 db-b rsyncd[15260]: Ignoring "log file" setting.
+May 20 18:40:02 db-b rsyncd[15260]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+May 20 18:40:02 db-b rsyncd[15260]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
+May 20 22:40:01 db-b rsyncd[2067]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
+May 20 22:40:01 db-b rsyncd[2067]: Ignoring "log file" setting.
+May 20 22:40:01 db-b rsyncd[2067]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+May 20 22:40:01 db-b rsyncd[2067]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
+May 20 22:40:01 db-b rsyncd[2069]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
+May 20 22:40:01 db-b rsyncd[2069]: Ignoring "log file" setting.
+May 20 22:40:01 db-b rsyncd[2069]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+May 20 22:40:01 db-b rsyncd[2069]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
+May 20 22:40:01 db-b rsyncd[2071]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
+May 20 22:40:01 db-b rsyncd[2071]: Ignoring "log file" setting.
+May 20 22:40:01 db-b rsyncd[2071]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+May 20 22:40:01 db-b rsyncd[2071]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
+May 20 22:40:01 db-b rsyncd[2073]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
+May 20 22:40:01 db-b rsyncd[2073]: Ignoring "log file" setting.
+May 20 22:40:01 db-b rsyncd[2073]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+May 20 22:40:01 db-b rsyncd[2073]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
+May 20 22:40:01 db-b rsyncd[2075]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
+May 20 22:40:01 db-b rsyncd[2075]: Ignoring "log file" setting.
+May 20 22:40:01 db-b rsyncd[2075]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+May 20 22:40:01 db-b rsyncd[2075]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
+May 20 22:40:01 db-b rsyncd[2077]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
+May 20 22:40:01 db-b rsyncd[2077]: Ignoring "log file" setting.
+May 20 22:40:01 db-b rsyncd[2077]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+May 20 22:40:01 db-b rsyncd[2077]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
+May 20 23:02:39 db-b ebpf.plugin: Does not have a configuration file inside `/etc/netdata/ebpf.d.conf. It will try to load stock file.
+May 20 23:02:39 db-b ebpf.plugin: Name resolution is disabled, collector will not parser "hostnames" list.
+May 20 23:02:39 db-b ebpf.plugin: The network value of CIDR 127.0.0.1/8 was updated for 127.0.0.0 .
+May 20 23:02:39 db-b ebpf.plugin: Cannot read process groups configuration file '/etc/netdata/apps_groups.conf'. Will try '/usr/lib/netdata/conf.d/apps_groups.conf'
+May 21 02:40:01 db-b rsyncd[22065]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
+May 21 02:40:01 db-b rsyncd[22065]: Ignoring "log file" setting.
+May 21 02:40:01 db-b rsyncd[22065]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+May 21 02:40:01 db-b rsyncd[22065]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
+May 21 02:40:01 db-b rsyncd[22067]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
+May 21 02:40:01 db-b rsyncd[22067]: Ignoring "log file" setting.
+May 21 02:40:01 db-b rsyncd[22067]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+May 21 02:40:01 db-b rsyncd[22067]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
+May 21 02:40:01 db-b rsyncd[22069]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
+May 21 02:40:01 db-b rsyncd[22069]: Ignoring "log file" setting.
+May 21 02:40:01 db-b rsyncd[22069]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+May 21 02:40:01 db-b rsyncd[22069]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
+May 21 02:40:01 db-b rsyncd[22071]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
+May 21 02:40:01 db-b rsyncd[22071]: Ignoring "log file" setting.
+May 21 02:40:01 db-b rsyncd[22071]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+May 21 02:40:01 db-b rsyncd[22071]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
+May 21 02:40:01 db-b rsyncd[22073]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
+May 21 02:40:01 db-b rsyncd[22073]: Ignoring "log file" setting.
+May 21 02:40:01 db-b rsyncd[22073]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+May 21 02:40:01 db-b rsyncd[22073]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
+May 21 02:40:01 db-b rsyncd[22075]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
+May 21 02:40:01 db-b rsyncd[22075]: Ignoring "log file" setting.
+May 21 02:40:01 db-b rsyncd[22075]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+May 21 02:40:01 db-b rsyncd[22075]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
+May 21 06:36:38 db-b ebpf.plugin: Does not have a configuration file inside `/etc/netdata/ebpf.d.conf. It will try to load stock file.
+May 21 06:36:38 db-b ebpf.plugin: Name resolution is disabled, collector will not parser "hostnames" list.
+May 21 06:36:38 db-b ebpf.plugin: The network value of CIDR 127.0.0.1/8 was updated for 127.0.0.0 .
+May 21 06:36:38 db-b ebpf.plugin: Cannot read process groups configuration file '/etc/netdata/apps_groups.conf'. Will try '/usr/lib/netdata/conf.d/apps_groups.conf'
+May 21 06:40:02 db-b rsyncd[10217]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
+May 21 06:40:02 db-b rsyncd[10217]: Ignoring "log file" setting.
+May 21 06:40:02 db-b rsyncd[10217]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+May 21 06:40:02 db-b rsyncd[10217]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
+May 21 06:40:02 db-b rsyncd[10219]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
+May 21 06:40:02 db-b rsyncd[10219]: Ignoring "log file" setting.
+May 21 06:40:02 db-b rsyncd[10219]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+May 21 06:40:02 db-b rsyncd[10219]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
+May 21 06:40:02 db-b rsyncd[10221]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
+May 21 06:40:02 db-b rsyncd[10221]: Ignoring "log file" setting.
+May 21 06:40:02 db-b rsyncd[10221]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+May 21 06:40:02 db-b rsyncd[10221]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
+May 21 06:40:02 db-b rsyncd[10223]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
+May 21 06:40:02 db-b rsyncd[10223]: Ignoring "log file" setting.
+May 21 06:40:02 db-b rsyncd[10223]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+May 21 06:40:02 db-b rsyncd[10223]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
+May 21 06:40:02 db-b rsyncd[10225]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
+May 21 06:40:02 db-b rsyncd[10225]: Ignoring "log file" setting.
+May 21 06:40:02 db-b rsyncd[10225]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+May 21 06:40:02 db-b rsyncd[10225]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
+May 21 06:40:02 db-b rsyncd[10227]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
+May 21 06:40:02 db-b rsyncd[10227]: Ignoring "log file" setting.
+May 21 06:40:02 db-b rsyncd[10227]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+May 21 06:40:02 db-b rsyncd[10227]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
