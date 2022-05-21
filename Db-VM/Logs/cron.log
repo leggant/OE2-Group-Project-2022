@@ -71,3 +71,6 @@ May 21 06:25:01 db-b CRON[6923]: (root) CMD (test -x /usr/sbin/anacron || ( cd /
 May 21 06:36:40 db-b CRON[6922]: (CRON) info (No MTA installed, discarding output)
 May 21 06:40:01 db-b CRON[10194]: (bitstudent) CMD (sudo bash /etc/backup/restore.sh)
 May 21 06:40:02 db-b CRON[10193]: (CRON) info (No MTA installed, discarding output)
+May 21 06:53:59 db-b crontab[11564]: (bitstudent) BEGIN EDIT (bitstudent)
+May 21 06:54:11 db-b crontab[11564]: (bitstudent) END EDIT (bitstudent)
+May 21 07:14:01 db-b CRON[13427]: (root) CMD (   test -x /etc/cron.daily/popularity-contest && /etc/cron.daily/popularity-contest --crond)
