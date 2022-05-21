@@ -35,7 +35,11 @@ sudo cp /etc/nagios ~/OE2-Group-Project/Mgmt-VM -r
 sudo cp /etc/nagios-plugins ~/OE2-Group-Project/Mgmt-VM -r
 sudo cp /etc/prometheus-plugins ~/OE2-Group-Project/Mgmt-VM/prometheus-plugins -r
 sudo cp /etc/systemd/system/node-exporter.service ~/OE2-Group-Project/Mgmt-VM/prometheus-plugins/node-exporter.service
-sudo cp /var/log/cron.log ~/OE2-Group-Project/Mgmt-VM
+sudo cp /etc/rsyslog.d/50-default.conf ~/OE2-Group-Project/Mgmt-VM/Logs
+sudo cp /var/log/cron.log ~/OE2-Group-Project/Mgmt-VM/Logs
+sudo cp /var/log/daemon.log ~/OE2-Group-Project/Mgmt-VM/Logs
+sudo cp /var/log/user.log ~/OE2-Group-Project/Mgmt-VM/Logs
+sudo cp /var/log/auth.log ~/OE2-Group-Project/Mgmt-VM/Logs
 sudo chown -R bitstudent ~/OE2-Group-Project/Mgmt-VM
 sudo chgrp -R bitstudent ~/OE2-Group-Project/Mgmt-VM
 sudo chmod -R 775 ~/OE2-Group-Project/Scripts
