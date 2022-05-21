@@ -151,3 +151,7 @@ May 21 06:25:01 backup-b CRON[17735]: (root) CMD (test -x /usr/sbin/anacron || (
 May 21 06:35:36 backup-b crontab[18806]: (bitstudent) BEGIN EDIT (bitstudent)
 May 21 06:35:43 backup-b crontab[18806]: (bitstudent) END EDIT (bitstudent)
 May 21 06:36:24 backup-b CRON[17734]: (CRON) info (No MTA installed, discarding output)
+May 21 07:14:01 backup-b CRON[22995]: (root) CMD (   test -x /etc/cron.daily/popularity-contest && /etc/cron.daily/popularity-contest --crond)
+May 21 07:17:01 backup-b CRON[23320]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+May 21 07:20:45 backup-b crontab[23622]: (bitstudent) BEGIN EDIT (bitstudent)
+May 21 07:20:49 backup-b crontab[23622]: (bitstudent) END EDIT (bitstudent)

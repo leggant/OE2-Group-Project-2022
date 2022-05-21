@@ -14886,3 +14886,608 @@ May 21 06:37:26 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:37:
 May 21 06:37:26 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:37:26Z" level=error msg="ERROR: diskstats collector failed after 0.000176s: invalid line for /proc/diskstats for loop7" source="collector.go:123"
 May 21 06:37:41 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:37:41Z" level=error msg="ERROR: diskstats collector failed after 0.000121s: invalid line for /proc/diskstats for loop4" source="collector.go:123"
 May 21 06:37:41 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:37:41Z" level=error msg="ERROR: diskstats collector failed after 0.000133s: invalid line for /proc/diskstats for loop4" source="collector.go:123"
+May 21 06:37:56 backup-b prometheus[1111]: level=error ts=2022-05-21T06:37:56.362Z caller=notifier.go:527 component=notifier alertmanager=http://20.211.185.153:9093/api/v1/alerts count=2 msg="Error sending alert" err="Post \"http://20.211.185.153:9093/api/v1/alerts\": dial tcp 20.211.185.153:9093: i/o timeout"
+May 21 06:37:56 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:37:56Z" level=error msg="ERROR: diskstats collector failed after 0.000151s: invalid line for /proc/diskstats for loop1" source="collector.go:123"
+May 21 06:37:56 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:37:56Z" level=error msg="ERROR: diskstats collector failed after 0.000114s: invalid line for /proc/diskstats for loop5" source="collector.go:123"
+May 21 06:38:11 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:38:11Z" level=error msg="ERROR: diskstats collector failed after 0.000194s: invalid line for /proc/diskstats for loop5" source="collector.go:123"
+May 21 06:38:11 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:38:11Z" level=error msg="ERROR: diskstats collector failed after 0.000162s: invalid line for /proc/diskstats for loop4" source="collector.go:123"
+May 21 06:38:26 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:38:26Z" level=error msg="ERROR: diskstats collector failed after 0.000153s: invalid line for /proc/diskstats for sdb1" source="collector.go:123"
+May 21 06:38:26 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:38:26Z" level=error msg="ERROR: diskstats collector failed after 0.000140s: invalid line for /proc/diskstats for loop1" source="collector.go:123"
+May 21 06:38:41 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:38:41Z" level=error msg="ERROR: diskstats collector failed after 0.000160s: invalid line for /proc/diskstats for loop6" source="collector.go:123"
+May 21 06:38:41 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:38:41Z" level=error msg="ERROR: diskstats collector failed after 0.000152s: invalid line for /proc/diskstats for loop0" source="collector.go:123"
+May 21 06:38:56 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:38:56Z" level=error msg="ERROR: diskstats collector failed after 0.000205s: invalid line for /proc/diskstats for loop4" source="collector.go:123"
+May 21 06:38:56 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:38:56Z" level=error msg="ERROR: diskstats collector failed after 0.000165s: invalid line for /proc/diskstats for sda" source="collector.go:123"
+May 21 06:39:11 backup-b prometheus[1111]: level=error ts=2022-05-21T06:39:11.363Z caller=notifier.go:527 component=notifier alertmanager=http://20.211.185.153:9093/api/v1/alerts count=2 msg="Error sending alert" err="Post \"http://20.211.185.153:9093/api/v1/alerts\": dial tcp 20.211.185.153:9093: i/o timeout"
+May 21 06:39:11 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:39:11Z" level=error msg="ERROR: diskstats collector failed after 0.000192s: invalid line for /proc/diskstats for loop0" source="collector.go:123"
+May 21 06:39:11 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:39:11Z" level=error msg="ERROR: diskstats collector failed after 0.000168s: invalid line for /proc/diskstats for loop4" source="collector.go:123"
+May 21 06:39:26 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:39:26Z" level=error msg="ERROR: diskstats collector failed after 0.000209s: invalid line for /proc/diskstats for loop0" source="collector.go:123"
+May 21 06:39:26 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:39:26Z" level=error msg="ERROR: diskstats collector failed after 0.000185s: invalid line for /proc/diskstats for sda15" source="collector.go:123"
+May 21 06:39:41 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:39:41Z" level=error msg="ERROR: diskstats collector failed after 0.000212s: invalid line for /proc/diskstats for loop1" source="collector.go:123"
+May 21 06:39:41 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:39:41Z" level=error msg="ERROR: diskstats collector failed after 0.000122s: invalid line for /proc/diskstats for sda" source="collector.go:123"
+May 21 06:39:56 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:39:56Z" level=error msg="ERROR: diskstats collector failed after 0.000250s: invalid line for /proc/diskstats for loop4" source="collector.go:123"
+May 21 06:39:56 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:39:56Z" level=error msg="ERROR: diskstats collector failed after 0.000172s: invalid line for /proc/diskstats for loop1" source="collector.go:123"
+May 21 06:40:05 backup-b systemd[1]: Stopping System Logging Service...
+May 21 06:40:05 backup-b systemd[1]: Stopped System Logging Service.
+May 21 06:40:05 backup-b systemd[1]: Starting System Logging Service...
+May 21 06:40:05 backup-b systemd[1]: Started System Logging Service.
+May 21 06:40:11 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:40:11Z" level=error msg="ERROR: diskstats collector failed after 0.000157s: invalid line for /proc/diskstats for sda14" source="collector.go:123"
+May 21 06:40:11 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:40:11Z" level=error msg="ERROR: diskstats collector failed after 0.000165s: invalid line for /proc/diskstats for loop0" source="collector.go:123"
+May 21 06:40:26 backup-b prometheus[1111]: level=error ts=2022-05-21T06:40:26.360Z caller=notifier.go:527 component=notifier alertmanager=http://20.211.185.153:9093/api/v1/alerts count=2 msg="Error sending alert" err="Post \"http://20.211.185.153:9093/api/v1/alerts\": dial tcp 20.211.185.153:9093: i/o timeout"
+May 21 06:40:26 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:40:26Z" level=error msg="ERROR: diskstats collector failed after 0.000197s: invalid line for /proc/diskstats for sda1" source="collector.go:123"
+May 21 06:40:26 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:40:26Z" level=error msg="ERROR: diskstats collector failed after 0.000176s: invalid line for /proc/diskstats for sda14" source="collector.go:123"
+May 21 06:40:40 backup-b systemd[1]: Stopping User Manager for UID 1000...
+May 21 06:40:40 backup-b systemd[18456]: Stopped target Default.
+May 21 06:40:40 backup-b systemd[18456]: Stopped target Basic System.
+May 21 06:40:40 backup-b systemd[18456]: Stopped target Timers.
+May 21 06:40:40 backup-b systemd[18456]: Stopped target Paths.
+May 21 06:40:40 backup-b systemd[18456]: Stopped target Sockets.
+May 21 06:40:40 backup-b systemd[18456]: Closed D-Bus User Message Bus Socket.
+May 21 06:40:40 backup-b systemd[18456]: Closed REST API socket for snapd user session agent.
+May 21 06:40:40 backup-b systemd[18456]: Closed GnuPG cryptographic agent and passphrase cache.
+May 21 06:40:40 backup-b systemd[18456]: Closed GnuPG network certificate management daemon.
+May 21 06:40:40 backup-b systemd[18456]: Closed GnuPG cryptographic agent and passphrase cache (restricted).
+May 21 06:40:40 backup-b systemd[18456]: Closed GnuPG cryptographic agent (ssh-agent emulation).
+May 21 06:40:40 backup-b systemd[18456]: Closed GnuPG cryptographic agent and passphrase cache (access for web browsers).
+May 21 06:40:40 backup-b systemd[18456]: Reached target Shutdown.
+May 21 06:40:40 backup-b systemd[18456]: Starting Exit the Session...
+May 21 06:40:40 backup-b systemd[18456]: Received SIGRTMIN+24 from PID 20322 (kill).
+May 21 06:40:40 backup-b systemd[1]: Stopped User Manager for UID 1000.
+May 21 06:40:40 backup-b systemd[1]: Removed slice User Slice of bitstudent.
+May 21 06:40:41 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:40:41Z" level=error msg="ERROR: diskstats collector failed after 0.000147s: invalid line for /proc/diskstats for loop3" source="collector.go:123"
+May 21 06:40:41 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:40:41Z" level=error msg="ERROR: diskstats collector failed after 0.000199s: invalid line for /proc/diskstats for sda" source="collector.go:123"
+May 21 06:40:52 backup-b systemd[1]: Created slice User Slice of bitstudent.
+May 21 06:40:52 backup-b systemd[1]: Starting User Manager for UID 1000...
+May 21 06:40:52 backup-b systemd[1]: Started Session 234 of user bitstudent.
+May 21 06:40:52 backup-b systemd[20339]: Starting D-Bus User Message Bus Socket.
+May 21 06:40:52 backup-b systemd[20339]: Reached target Timers.
+May 21 06:40:52 backup-b systemd[20339]: Listening on GnuPG network certificate management daemon.
+May 21 06:40:52 backup-b systemd[20339]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+May 21 06:40:52 backup-b systemd[20339]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+May 21 06:40:52 backup-b systemd[20339]: Listening on GnuPG cryptographic agent and passphrase cache.
+May 21 06:40:52 backup-b systemd[20339]: Listening on REST API socket for snapd user session agent.
+May 21 06:40:52 backup-b systemd[20339]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+May 21 06:40:52 backup-b systemd[20339]: Reached target Paths.
+May 21 06:40:52 backup-b systemd[20339]: Listening on D-Bus User Message Bus Socket.
+May 21 06:40:52 backup-b systemd[20339]: Reached target Sockets.
+May 21 06:40:52 backup-b systemd[20339]: Reached target Basic System.
+May 21 06:40:52 backup-b systemd[1]: Started User Manager for UID 1000.
+May 21 06:40:52 backup-b systemd[20339]: Reached target Default.
+May 21 06:40:52 backup-b systemd[20339]: Startup finished in 77ms.
+May 21 06:40:56 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:40:56Z" level=error msg="ERROR: diskstats collector failed after 0.000146s: invalid line for /proc/diskstats for sda1" source="collector.go:123"
+May 21 06:40:56 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:40:56Z" level=error msg="ERROR: diskstats collector failed after 0.000176s: invalid line for /proc/diskstats for sdb" source="collector.go:123"
+May 21 06:41:11 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:41:11Z" level=error msg="ERROR: diskstats collector failed after 0.000241s: invalid line for /proc/diskstats for sda14" source="collector.go:123"
+May 21 06:41:11 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:41:11Z" level=error msg="ERROR: diskstats collector failed after 0.000149s: invalid line for /proc/diskstats for loop7" source="collector.go:123"
+May 21 06:41:26 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:41:26Z" level=error msg="ERROR: diskstats collector failed after 0.000207s: invalid line for /proc/diskstats for loop0" source="collector.go:123"
+May 21 06:41:26 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:41:26Z" level=error msg="ERROR: diskstats collector failed after 0.000217s: invalid line for /proc/diskstats for sda" source="collector.go:123"
+May 21 06:41:36 backup-b alertmanager[1122]: ts=2022-05-21T06:41:36.557Z caller=nflog.go:378 level=error component=nflog msg="Running maintenance failed" err="open /etc/prometheus-plugins/alertmanager/data/nflog.cf57094e453e2d4: permission denied"
+May 21 06:41:36 backup-b alertmanager[1122]: ts=2022-05-21T06:41:36.567Z caller=silence.go:402 level=info component=silences msg="Running maintenance failed" err="open /etc/prometheus-plugins/alertmanager/data/silences.537f7f9fd6c8be75: permission denied"
+May 21 06:41:39 backup-b grafana-server[1120]: logger=licensing t=2022-05-21T06:41:39.62+0000 lvl=info msg="Validated license token" appURL=http://localhost:3000/ source=disk status=NotFound
+May 21 06:41:39 backup-b grafana-server[1120]: logger=licensing.renewal t=2022-05-21T06:41:39.64+0000 lvl=warn msg="failed to load or validate token" err="license token file not found: /var/lib/grafana/license.jwt"
+May 21 06:41:41 backup-b prometheus[1111]: level=error ts=2022-05-21T06:41:41.360Z caller=notifier.go:527 component=notifier alertmanager=http://20.211.185.153:9093/api/v1/alerts count=2 msg="Error sending alert" err="Post \"http://20.211.185.153:9093/api/v1/alerts\": dial tcp 20.211.185.153:9093: i/o timeout"
+May 21 06:41:41 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:41:41Z" level=error msg="ERROR: diskstats collector failed after 0.000182s: invalid line for /proc/diskstats for loop1" source="collector.go:123"
+May 21 06:41:41 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:41:41Z" level=error msg="ERROR: diskstats collector failed after 0.000145s: invalid line for /proc/diskstats for loop0" source="collector.go:123"
+May 21 06:41:42 backup-b puppet-agent[20488]: Applied catalog in 0.20 seconds
+May 21 06:41:56 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:41:56Z" level=error msg="ERROR: diskstats collector failed after 0.000194s: invalid line for /proc/diskstats for loop0" source="collector.go:123"
+May 21 06:41:56 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:41:56Z" level=error msg="ERROR: diskstats collector failed after 0.000176s: invalid line for /proc/diskstats for sda15" source="collector.go:123"
+May 21 06:42:11 backup-b systemd[1]: Stopping System Logging Service...
+May 21 06:42:11 backup-b systemd[1]: Stopped System Logging Service.
+May 21 06:42:11 backup-b systemd[1]: Starting System Logging Service...
+May 21 06:42:11 backup-b systemd[1]: Started System Logging Service.
+May 21 06:42:11 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:42:11Z" level=error msg="ERROR: diskstats collector failed after 0.000138s: invalid line for /proc/diskstats for sda1" source="collector.go:123"
+May 21 06:42:11 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:42:11Z" level=error msg="ERROR: diskstats collector failed after 0.000182s: invalid line for /proc/diskstats for loop1" source="collector.go:123"
+May 21 06:42:15 backup-b nrpe[20589]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 28339
+May 21 06:42:15 backup-b nrpe[20589]: Connection from 10.6.0.6 port 28339
+May 21 06:42:15 backup-b nrpe[20589]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
+May 21 06:42:15 backup-b nrpe[20589]: is_an_allowed_host (AF_INET): host is in allowed host list!
+May 21 06:42:15 backup-b nrpe[20589]: Host address is in allowed_hosts
+May 21 06:42:15 backup-b nrpe[20589]: Host 10.6.0.6 is asking for command 'check_hd' to be run...
+May 21 06:42:15 backup-b nrpe[20589]: Running command: /usr/lib/nagios/plugins/check_disk -w 20% -c 10% -p /dev/sda1
+May 21 06:42:15 backup-b nrpe[20593]: WARNING: my_system() seteuid(0): Operation not permitted
+May 21 06:42:15 backup-b nrpe[20589]: Command completed with return code 0 and output: DISK OK - free space: /var/tmp 24547 MB (82% inode=94%);| /var/tmp=5035MB;23678;26638;0;29598
+May 21 06:42:15 backup-b nrpe[20589]: Return Code: 0, Output: DISK OK - free space: /var/tmp 24547 MB (82% inode=94%);| /var/tmp=5035MB;23678;26638;0;29598
+May 21 06:42:15 backup-b nrpe[20589]: Connection from 10.6.0.6 closed.
+May 21 06:42:26 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:42:26Z" level=error msg="ERROR: diskstats collector failed after 0.000236s: invalid line for /proc/diskstats for loop1" source="collector.go:123"
+May 21 06:42:26 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:42:26Z" level=error msg="ERROR: diskstats collector failed after 0.000200s: invalid line for /proc/diskstats for loop0" source="collector.go:123"
+May 21 06:42:41 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:42:41Z" level=error msg="ERROR: diskstats collector failed after 0.000175s: invalid line for /proc/diskstats for loop5" source="collector.go:123"
+May 21 06:42:41 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:42:41Z" level=error msg="ERROR: diskstats collector failed after 0.000183s: invalid line for /proc/diskstats for loop0" source="collector.go:123"
+May 21 06:42:53 backup-b systemd[1]: Stopping User Manager for UID 1000...
+May 21 06:42:53 backup-b systemd[20339]: Stopped target Default.
+May 21 06:42:53 backup-b systemd[20339]: Stopped target Basic System.
+May 21 06:42:53 backup-b systemd[20339]: Stopped target Timers.
+May 21 06:42:53 backup-b systemd[20339]: Stopped target Sockets.
+May 21 06:42:53 backup-b systemd[20339]: Closed D-Bus User Message Bus Socket.
+May 21 06:42:53 backup-b systemd[20339]: Closed GnuPG cryptographic agent and passphrase cache (access for web browsers).
+May 21 06:42:53 backup-b systemd[20339]: Stopped target Paths.
+May 21 06:42:53 backup-b systemd[20339]: Closed GnuPG network certificate management daemon.
+May 21 06:42:53 backup-b systemd[20339]: Closed GnuPG cryptographic agent and passphrase cache.
+May 21 06:42:53 backup-b systemd[20339]: Closed GnuPG cryptographic agent (ssh-agent emulation).
+May 21 06:42:53 backup-b systemd[20339]: Closed REST API socket for snapd user session agent.
+May 21 06:42:53 backup-b systemd[20339]: Closed GnuPG cryptographic agent and passphrase cache (restricted).
+May 21 06:42:53 backup-b systemd[20339]: Reached target Shutdown.
+May 21 06:42:53 backup-b systemd[20339]: Starting Exit the Session...
+May 21 06:42:53 backup-b systemd[20339]: Received SIGRTMIN+24 from PID 20659 (kill).
+May 21 06:42:53 backup-b systemd[1]: user@1000.service: Killing process 20659 (kill) with signal SIGKILL.
+May 21 06:42:53 backup-b systemd[1]: Stopped User Manager for UID 1000.
+May 21 06:42:53 backup-b systemd[1]: Removed slice User Slice of bitstudent.
+May 21 06:42:56 backup-b prometheus[1111]: level=error ts=2022-05-21T06:42:56.360Z caller=notifier.go:527 component=notifier alertmanager=http://20.211.185.153:9093/api/v1/alerts count=2 msg="Error sending alert" err="Post \"http://20.211.185.153:9093/api/v1/alerts\": dial tcp 20.211.185.153:9093: i/o timeout"
+May 21 06:42:56 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:42:56Z" level=error msg="ERROR: diskstats collector failed after 0.000190s: invalid line for /proc/diskstats for loop3" source="collector.go:123"
+May 21 06:42:56 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:42:56Z" level=error msg="ERROR: diskstats collector failed after 0.000190s: invalid line for /proc/diskstats for loop6" source="collector.go:123"
+May 21 06:43:11 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:43:11Z" level=error msg="ERROR: diskstats collector failed after 0.000149s: invalid line for /proc/diskstats for sda14" source="collector.go:123"
+May 21 06:43:11 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:43:11Z" level=error msg="ERROR: diskstats collector failed after 0.000164s: invalid line for /proc/diskstats for loop1" source="collector.go:123"
+May 21 06:43:26 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:43:26Z" level=error msg="ERROR: diskstats collector failed after 0.000169s: invalid line for /proc/diskstats for loop3" source="collector.go:123"
+May 21 06:43:26 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:43:26Z" level=error msg="ERROR: diskstats collector failed after 0.000164s: invalid line for /proc/diskstats for loop0" source="collector.go:123"
+May 21 06:43:41 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:43:41Z" level=error msg="ERROR: diskstats collector failed after 0.000206s: invalid line for /proc/diskstats for loop5" source="collector.go:123"
+May 21 06:43:41 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:43:41Z" level=error msg="ERROR: diskstats collector failed after 0.000152s: invalid line for /proc/diskstats for loop1" source="collector.go:123"
+May 21 06:43:56 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:43:56Z" level=error msg="ERROR: diskstats collector failed after 0.000185s: invalid line for /proc/diskstats for loop6" source="collector.go:123"
+May 21 06:43:56 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:43:56Z" level=error msg="ERROR: diskstats collector failed after 0.000228s: invalid line for /proc/diskstats for loop6" source="collector.go:123"
+May 21 06:44:06 backup-b python3[1115]: 2022-05-21T06:44:06.738448Z INFO ExtHandler ExtHandler Checking for agent updates (family: Prod)
+May 21 06:44:06 backup-b python3[1115]: 2022-05-21T06:44:06.787033Z INFO ExtHandler ExtHandler [HEARTBEAT] Agent WALinuxAgent-2.7.1.0 is running as the goal state agent [DEBUG HeartbeatCounter: 254;HeartbeatId: D20BD179-C2B0-49FB-8172-67A8233C1861;DroppedPackets: 0;UpdateGSErrors: 0;AutoUpdate: 1]
+May 21 06:44:11 backup-b prometheus[1111]: level=error ts=2022-05-21T06:44:11.361Z caller=notifier.go:527 component=notifier alertmanager=http://20.211.185.153:9093/api/v1/alerts count=2 msg="Error sending alert" err="Post \"http://20.211.185.153:9093/api/v1/alerts\": dial tcp 20.211.185.153:9093: i/o timeout"
+May 21 06:44:11 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:44:11Z" level=error msg="ERROR: diskstats collector failed after 0.000173s: invalid line for /proc/diskstats for loop3" source="collector.go:123"
+May 21 06:44:11 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:44:11Z" level=error msg="ERROR: diskstats collector failed after 0.000156s: invalid line for /proc/diskstats for loop1" source="collector.go:123"
+May 21 06:44:26 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:44:26Z" level=error msg="ERROR: diskstats collector failed after 0.000203s: invalid line for /proc/diskstats for loop6" source="collector.go:123"
+May 21 06:44:26 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:44:26Z" level=error msg="ERROR: diskstats collector failed after 0.000211s: invalid line for /proc/diskstats for loop4" source="collector.go:123"
+May 21 06:44:41 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:44:41Z" level=error msg="ERROR: diskstats collector failed after 0.000172s: invalid line for /proc/diskstats for loop3" source="collector.go:123"
+May 21 06:44:41 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:44:41Z" level=error msg="ERROR: diskstats collector failed after 0.000215s: invalid line for /proc/diskstats for loop0" source="collector.go:123"
+May 21 06:44:56 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:44:56Z" level=error msg="ERROR: diskstats collector failed after 0.000248s: invalid line for /proc/diskstats for loop4" source="collector.go:123"
+May 21 06:44:56 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:44:56Z" level=error msg="ERROR: diskstats collector failed after 0.000266s: invalid line for /proc/diskstats for loop1" source="collector.go:123"
+May 21 06:45:11 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:45:11Z" level=error msg="ERROR: diskstats collector failed after 0.000208s: invalid line for /proc/diskstats for loop1" source="collector.go:123"
+May 21 06:45:11 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:45:11Z" level=error msg="ERROR: diskstats collector failed after 0.000159s: invalid line for /proc/diskstats for loop6" source="collector.go:123"
+May 21 06:45:26 backup-b prometheus[1111]: level=error ts=2022-05-21T06:45:26.360Z caller=notifier.go:527 component=notifier alertmanager=http://20.211.185.153:9093/api/v1/alerts count=2 msg="Error sending alert" err="Post \"http://20.211.185.153:9093/api/v1/alerts\": context deadline exceeded"
+May 21 06:45:26 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:45:26Z" level=error msg="ERROR: diskstats collector failed after 0.000172s: invalid line for /proc/diskstats for loop3" source="collector.go:123"
+May 21 06:45:26 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:45:26Z" level=error msg="ERROR: diskstats collector failed after 0.000145s: invalid line for /proc/diskstats for loop2" source="collector.go:123"
+May 21 06:45:41 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:45:41Z" level=error msg="ERROR: diskstats collector failed after 0.000147s: invalid line for /proc/diskstats for loop5" source="collector.go:123"
+May 21 06:45:41 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:45:41Z" level=error msg="ERROR: diskstats collector failed after 0.000195s: invalid line for /proc/diskstats for sda1" source="collector.go:123"
+May 21 06:45:56 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:45:56Z" level=error msg="ERROR: diskstats collector failed after 0.000162s: invalid line for /proc/diskstats for sda14" source="collector.go:123"
+May 21 06:45:56 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:45:56Z" level=error msg="ERROR: diskstats collector failed after 0.000179s: invalid line for /proc/diskstats for loop1" source="collector.go:123"
+May 21 06:46:11 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:46:11Z" level=error msg="ERROR: diskstats collector failed after 0.000292s: invalid line for /proc/diskstats for loop2" source="collector.go:123"
+May 21 06:46:11 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:46:11Z" level=error msg="ERROR: diskstats collector failed after 0.000125s: invalid line for /proc/diskstats for loop5" source="collector.go:123"
+May 21 06:46:26 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:46:26Z" level=error msg="ERROR: diskstats collector failed after 0.000163s: invalid line for /proc/diskstats for loop2" source="collector.go:123"
+May 21 06:46:26 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:46:26Z" level=error msg="ERROR: diskstats collector failed after 0.000146s: invalid line for /proc/diskstats for sdb1" source="collector.go:123"
+May 21 06:46:41 backup-b prometheus[1111]: level=error ts=2022-05-21T06:46:41.361Z caller=notifier.go:527 component=notifier alertmanager=http://20.211.185.153:9093/api/v1/alerts count=2 msg="Error sending alert" err="Post \"http://20.211.185.153:9093/api/v1/alerts\": context deadline exceeded"
+May 21 06:46:41 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:46:41Z" level=error msg="ERROR: diskstats collector failed after 0.000219s: invalid line for /proc/diskstats for loop0" source="collector.go:123"
+May 21 06:46:41 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:46:41Z" level=error msg="ERROR: diskstats collector failed after 0.000202s: invalid line for /proc/diskstats for loop5" source="collector.go:123"
+May 21 06:46:56 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:46:56Z" level=error msg="ERROR: diskstats collector failed after 0.000166s: invalid line for /proc/diskstats for loop6" source="collector.go:123"
+May 21 06:46:56 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:46:56Z" level=error msg="ERROR: diskstats collector failed after 0.000126s: invalid line for /proc/diskstats for loop1" source="collector.go:123"
+May 21 06:47:11 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:47:11Z" level=error msg="ERROR: diskstats collector failed after 0.000167s: invalid line for /proc/diskstats for loop2" source="collector.go:123"
+May 21 06:47:11 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:47:11Z" level=error msg="ERROR: diskstats collector failed after 0.000176s: invalid line for /proc/diskstats for loop5" source="collector.go:123"
+May 21 06:47:15 backup-b nrpe[20983]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 23221
+May 21 06:47:15 backup-b nrpe[20983]: Connection from 10.6.0.6 port 23221
+May 21 06:47:15 backup-b nrpe[20983]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
+May 21 06:47:15 backup-b nrpe[20983]: is_an_allowed_host (AF_INET): host is in allowed host list!
+May 21 06:47:15 backup-b nrpe[20983]: Host address is in allowed_hosts
+May 21 06:47:15 backup-b nrpe[20983]: Host 10.6.0.6 is asking for command 'check_hd' to be run...
+May 21 06:47:15 backup-b nrpe[20983]: Running command: /usr/lib/nagios/plugins/check_disk -w 20% -c 10% -p /dev/sda1
+May 21 06:47:15 backup-b nrpe[20986]: WARNING: my_system() seteuid(0): Operation not permitted
+May 21 06:47:15 backup-b nrpe[20983]: Command completed with return code 0 and output: DISK OK - free space: /var/tmp 24546 MB (82% inode=94%);| /var/tmp=5036MB;23678;26638;0;29598
+May 21 06:47:15 backup-b nrpe[20983]: Return Code: 0, Output: DISK OK - free space: /var/tmp 24546 MB (82% inode=94%);| /var/tmp=5036MB;23678;26638;0;29598
+May 21 06:47:15 backup-b nrpe[20983]: Connection from 10.6.0.6 closed.
+May 21 06:47:26 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:47:26Z" level=error msg="ERROR: diskstats collector failed after 0.000159s: invalid line for /proc/diskstats for loop5" source="collector.go:123"
+May 21 06:47:26 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:47:26Z" level=error msg="ERROR: diskstats collector failed after 0.000168s: invalid line for /proc/diskstats for loop1" source="collector.go:123"
+May 21 06:47:41 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:47:41Z" level=error msg="ERROR: diskstats collector failed after 0.000272s: invalid line for /proc/diskstats for sdb1" source="collector.go:123"
+May 21 06:47:41 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:47:41Z" level=error msg="ERROR: diskstats collector failed after 0.000168s: invalid line for /proc/diskstats for loop0" source="collector.go:123"
+May 21 06:47:56 backup-b prometheus[1111]: level=error ts=2022-05-21T06:47:56.360Z caller=notifier.go:527 component=notifier alertmanager=http://20.211.185.153:9093/api/v1/alerts count=2 msg="Error sending alert" err="Post \"http://20.211.185.153:9093/api/v1/alerts\": dial tcp 20.211.185.153:9093: i/o timeout"
+May 21 06:47:56 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:47:56Z" level=error msg="ERROR: diskstats collector failed after 0.000189s: invalid line for /proc/diskstats for loop2" source="collector.go:123"
+May 21 06:47:56 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:47:56Z" level=error msg="ERROR: diskstats collector failed after 0.000347s: invalid line for /proc/diskstats for loop2" source="collector.go:123"
+May 21 06:48:11 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:48:11Z" level=error msg="ERROR: diskstats collector failed after 0.000134s: invalid line for /proc/diskstats for loop3" source="collector.go:123"
+May 21 06:48:11 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:48:11Z" level=error msg="ERROR: diskstats collector failed after 0.000620s: invalid line for /proc/diskstats for loop0" source="collector.go:123"
+May 21 06:48:26 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:48:26Z" level=error msg="ERROR: diskstats collector failed after 0.000157s: invalid line for /proc/diskstats for loop0" source="collector.go:123"
+May 21 06:48:26 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:48:26Z" level=error msg="ERROR: diskstats collector failed after 0.000179s: invalid line for /proc/diskstats for loop7" source="collector.go:123"
+May 21 06:48:41 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:48:41Z" level=error msg="ERROR: diskstats collector failed after 0.000192s: invalid line for /proc/diskstats for loop3" source="collector.go:123"
+May 21 06:48:41 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:48:41Z" level=error msg="ERROR: diskstats collector failed after 0.000148s: invalid line for /proc/diskstats for loop7" source="collector.go:123"
+May 21 06:48:56 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:48:56Z" level=error msg="ERROR: diskstats collector failed after 0.000184s: invalid line for /proc/diskstats for sdb1" source="collector.go:123"
+May 21 06:48:56 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:48:56Z" level=error msg="ERROR: diskstats collector failed after 0.000179s: invalid line for /proc/diskstats for loop2" source="collector.go:123"
+May 21 06:49:11 backup-b prometheus[1111]: level=error ts=2022-05-21T06:49:11.360Z caller=notifier.go:527 component=notifier alertmanager=http://20.211.185.153:9093/api/v1/alerts count=2 msg="Error sending alert" err="Post \"http://20.211.185.153:9093/api/v1/alerts\": dial tcp 20.211.185.153:9093: i/o timeout"
+May 21 06:49:11 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:49:11Z" level=error msg="ERROR: diskstats collector failed after 0.000184s: invalid line for /proc/diskstats for loop0" source="collector.go:123"
+May 21 06:49:11 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:49:11Z" level=error msg="ERROR: diskstats collector failed after 0.000151s: invalid line for /proc/diskstats for loop2" source="collector.go:123"
+May 21 06:49:26 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:49:26Z" level=error msg="ERROR: diskstats collector failed after 0.000218s: invalid line for /proc/diskstats for loop5" source="collector.go:123"
+May 21 06:49:26 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:49:26Z" level=error msg="ERROR: diskstats collector failed after 0.000138s: invalid line for /proc/diskstats for loop7" source="collector.go:123"
+May 21 06:49:41 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:49:41Z" level=error msg="ERROR: diskstats collector failed after 0.000171s: invalid line for /proc/diskstats for loop5" source="collector.go:123"
+May 21 06:49:41 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:49:41Z" level=error msg="ERROR: diskstats collector failed after 0.000172s: invalid line for /proc/diskstats for loop3" source="collector.go:123"
+May 21 06:49:56 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:49:56Z" level=error msg="ERROR: diskstats collector failed after 0.000273s: invalid line for /proc/diskstats for loop0" source="collector.go:123"
+May 21 06:49:56 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:49:56Z" level=error msg="ERROR: diskstats collector failed after 0.000158s: invalid line for /proc/diskstats for sda14" source="collector.go:123"
+May 21 06:50:11 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:50:11Z" level=error msg="ERROR: diskstats collector failed after 0.000172s: invalid line for /proc/diskstats for loop3" source="collector.go:123"
+May 21 06:50:11 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:50:11Z" level=error msg="ERROR: diskstats collector failed after 0.000220s: invalid line for /proc/diskstats for loop3" source="collector.go:123"
+May 21 06:50:26 backup-b prometheus[1111]: level=error ts=2022-05-21T06:50:26.361Z caller=notifier.go:527 component=notifier alertmanager=http://20.211.185.153:9093/api/v1/alerts count=2 msg="Error sending alert" err="Post \"http://20.211.185.153:9093/api/v1/alerts\": dial tcp 20.211.185.153:9093: i/o timeout"
+May 21 06:50:26 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:50:26Z" level=error msg="ERROR: diskstats collector failed after 0.000242s: invalid line for /proc/diskstats for loop2" source="collector.go:123"
+May 21 06:50:26 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:50:26Z" level=error msg="ERROR: diskstats collector failed after 0.000175s: invalid line for /proc/diskstats for loop1" source="collector.go:123"
+May 21 06:50:41 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:50:41Z" level=error msg="ERROR: diskstats collector failed after 0.000167s: invalid line for /proc/diskstats for loop1" source="collector.go:123"
+May 21 06:50:41 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:50:41Z" level=error msg="ERROR: diskstats collector failed after 0.000162s: invalid line for /proc/diskstats for loop0" source="collector.go:123"
+May 21 06:50:56 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:50:56Z" level=error msg="ERROR: diskstats collector failed after 0.000185s: invalid line for /proc/diskstats for loop0" source="collector.go:123"
+May 21 06:50:56 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:50:56Z" level=error msg="ERROR: diskstats collector failed after 0.000209s: invalid line for /proc/diskstats for loop2" source="collector.go:123"
+May 21 06:51:11 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:51:11Z" level=error msg="ERROR: diskstats collector failed after 0.000194s: invalid line for /proc/diskstats for loop6" source="collector.go:123"
+May 21 06:51:11 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:51:11Z" level=error msg="ERROR: diskstats collector failed after 0.000265s: invalid line for /proc/diskstats for loop1" source="collector.go:123"
+May 21 06:51:26 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:51:26Z" level=error msg="ERROR: diskstats collector failed after 0.000136s: invalid line for /proc/diskstats for loop1" source="collector.go:123"
+May 21 06:51:26 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:51:26Z" level=error msg="ERROR: diskstats collector failed after 0.000133s: invalid line for /proc/diskstats for loop6" source="collector.go:123"
+May 21 06:51:41 backup-b prometheus[1111]: level=error ts=2022-05-21T06:51:41.360Z caller=notifier.go:527 component=notifier alertmanager=http://20.211.185.153:9093/api/v1/alerts count=2 msg="Error sending alert" err="Post \"http://20.211.185.153:9093/api/v1/alerts\": dial tcp 20.211.185.153:9093: i/o timeout"
+May 21 06:51:41 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:51:41Z" level=error msg="ERROR: diskstats collector failed after 0.000219s: invalid line for /proc/diskstats for sda14" source="collector.go:123"
+May 21 06:51:41 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:51:41Z" level=error msg="ERROR: diskstats collector failed after 0.000158s: invalid line for /proc/diskstats for loop2" source="collector.go:123"
+May 21 06:51:56 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:51:56Z" level=error msg="ERROR: diskstats collector failed after 0.000188s: invalid line for /proc/diskstats for loop0" source="collector.go:123"
+May 21 06:51:56 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:51:56Z" level=error msg="ERROR: diskstats collector failed after 0.000193s: invalid line for /proc/diskstats for loop2" source="collector.go:123"
+May 21 06:52:11 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:52:11Z" level=error msg="ERROR: diskstats collector failed after 0.000171s: invalid line for /proc/diskstats for loop1" source="collector.go:123"
+May 21 06:52:11 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:52:11Z" level=error msg="ERROR: diskstats collector failed after 0.000195s: invalid line for /proc/diskstats for loop1" source="collector.go:123"
+May 21 06:52:15 backup-b nrpe[21354]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 17591
+May 21 06:52:15 backup-b nrpe[21354]: Connection from 10.6.0.6 port 17591
+May 21 06:52:15 backup-b nrpe[21354]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
+May 21 06:52:15 backup-b nrpe[21354]: is_an_allowed_host (AF_INET): host is in allowed host list!
+May 21 06:52:15 backup-b nrpe[21354]: Host address is in allowed_hosts
+May 21 06:52:15 backup-b nrpe[21354]: Host 10.6.0.6 is asking for command 'check_hd' to be run...
+May 21 06:52:15 backup-b nrpe[21354]: Running command: /usr/lib/nagios/plugins/check_disk -w 20% -c 10% -p /dev/sda1
+May 21 06:52:15 backup-b nrpe[21356]: WARNING: my_system() seteuid(0): Operation not permitted
+May 21 06:52:15 backup-b nrpe[21354]: Command completed with return code 0 and output: DISK OK - free space: /var/tmp 24545 MB (82% inode=94%);| /var/tmp=5036MB;23678;26638;0;29598
+May 21 06:52:15 backup-b nrpe[21354]: Return Code: 0, Output: DISK OK - free space: /var/tmp 24545 MB (82% inode=94%);| /var/tmp=5036MB;23678;26638;0;29598
+May 21 06:52:15 backup-b nrpe[21354]: Connection from 10.6.0.6 closed.
+May 21 06:52:26 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:52:26Z" level=error msg="ERROR: diskstats collector failed after 0.000184s: invalid line for /proc/diskstats for sda1" source="collector.go:123"
+May 21 06:52:26 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:52:26Z" level=error msg="ERROR: diskstats collector failed after 0.000265s: invalid line for /proc/diskstats for loop0" source="collector.go:123"
+May 21 06:52:41 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:52:41Z" level=error msg="ERROR: diskstats collector failed after 0.000169s: invalid line for /proc/diskstats for loop3" source="collector.go:123"
+May 21 06:52:41 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:52:41Z" level=error msg="ERROR: diskstats collector failed after 0.000125s: invalid line for /proc/diskstats for loop0" source="collector.go:123"
+May 21 06:52:56 backup-b prometheus[1111]: level=error ts=2022-05-21T06:52:56.360Z caller=notifier.go:527 component=notifier alertmanager=http://20.211.185.153:9093/api/v1/alerts count=2 msg="Error sending alert" err="Post \"http://20.211.185.153:9093/api/v1/alerts\": dial tcp 20.211.185.153:9093: i/o timeout"
+May 21 06:52:56 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:52:56Z" level=error msg="ERROR: diskstats collector failed after 0.000170s: invalid line for /proc/diskstats for sda14" source="collector.go:123"
+May 21 06:52:56 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:52:56Z" level=error msg="ERROR: diskstats collector failed after 0.000240s: invalid line for /proc/diskstats for loop5" source="collector.go:123"
+May 21 06:53:11 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:53:11Z" level=error msg="ERROR: diskstats collector failed after 0.000186s: invalid line for /proc/diskstats for loop2" source="collector.go:123"
+May 21 06:53:11 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:53:11Z" level=error msg="ERROR: diskstats collector failed after 0.000221s: invalid line for /proc/diskstats for sdb1" source="collector.go:123"
+May 21 06:53:26 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:53:26Z" level=error msg="ERROR: diskstats collector failed after 0.000174s: invalid line for /proc/diskstats for loop3" source="collector.go:123"
+May 21 06:53:26 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:53:26Z" level=error msg="ERROR: diskstats collector failed after 0.000172s: invalid line for /proc/diskstats for sda" source="collector.go:123"
+May 21 06:53:41 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:53:41Z" level=error msg="ERROR: diskstats collector failed after 0.000152s: invalid line for /proc/diskstats for loop4" source="collector.go:123"
+May 21 06:53:41 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:53:41Z" level=error msg="ERROR: diskstats collector failed after 0.000115s: invalid line for /proc/diskstats for loop0" source="collector.go:123"
+May 21 06:53:56 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:53:56Z" level=error msg="ERROR: diskstats collector failed after 0.000231s: invalid line for /proc/diskstats for loop1" source="collector.go:123"
+May 21 06:53:56 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:53:56Z" level=error msg="ERROR: diskstats collector failed after 0.000228s: invalid line for /proc/diskstats for loop7" source="collector.go:123"
+May 21 06:54:11 backup-b prometheus[1111]: level=error ts=2022-05-21T06:54:11.360Z caller=notifier.go:527 component=notifier alertmanager=http://20.211.185.153:9093/api/v1/alerts count=2 msg="Error sending alert" err="Post \"http://20.211.185.153:9093/api/v1/alerts\": dial tcp 20.211.185.153:9093: i/o timeout"
+May 21 06:54:11 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:54:11Z" level=error msg="ERROR: diskstats collector failed after 0.000159s: invalid line for /proc/diskstats for loop7" source="collector.go:123"
+May 21 06:54:11 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:54:11Z" level=error msg="ERROR: diskstats collector failed after 0.000165s: invalid line for /proc/diskstats for loop1" source="collector.go:123"
+May 21 06:54:26 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:54:26Z" level=error msg="ERROR: diskstats collector failed after 0.000186s: invalid line for /proc/diskstats for loop7" source="collector.go:123"
+May 21 06:54:26 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:54:26Z" level=error msg="ERROR: diskstats collector failed after 0.000154s: invalid line for /proc/diskstats for loop3" source="collector.go:123"
+May 21 06:54:41 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:54:41Z" level=error msg="ERROR: diskstats collector failed after 0.000246s: invalid line for /proc/diskstats for loop2" source="collector.go:123"
+May 21 06:54:41 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:54:41Z" level=error msg="ERROR: diskstats collector failed after 0.000116s: invalid line for /proc/diskstats for loop0" source="collector.go:123"
+May 21 06:54:56 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:54:56Z" level=error msg="ERROR: diskstats collector failed after 0.000163s: invalid line for /proc/diskstats for loop5" source="collector.go:123"
+May 21 06:54:56 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:54:56Z" level=error msg="ERROR: diskstats collector failed after 0.000194s: invalid line for /proc/diskstats for loop0" source="collector.go:123"
+May 21 06:55:11 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:55:11Z" level=error msg="ERROR: diskstats collector failed after 0.000156s: invalid line for /proc/diskstats for sdb" source="collector.go:123"
+May 21 06:55:11 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:55:11Z" level=error msg="ERROR: diskstats collector failed after 0.000262s: invalid line for /proc/diskstats for loop0" source="collector.go:123"
+May 21 06:55:26 backup-b prometheus[1111]: level=error ts=2022-05-21T06:55:26.360Z caller=notifier.go:527 component=notifier alertmanager=http://20.211.185.153:9093/api/v1/alerts count=2 msg="Error sending alert" err="Post \"http://20.211.185.153:9093/api/v1/alerts\": context deadline exceeded"
+May 21 06:55:26 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:55:26Z" level=error msg="ERROR: diskstats collector failed after 0.000141s: invalid line for /proc/diskstats for loop2" source="collector.go:123"
+May 21 06:55:26 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:55:26Z" level=error msg="ERROR: diskstats collector failed after 0.000174s: invalid line for /proc/diskstats for sda15" source="collector.go:123"
+May 21 06:55:41 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:55:41Z" level=error msg="ERROR: diskstats collector failed after 0.000173s: invalid line for /proc/diskstats for sda1" source="collector.go:123"
+May 21 06:55:41 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:55:41Z" level=error msg="ERROR: diskstats collector failed after 0.000145s: invalid line for /proc/diskstats for loop2" source="collector.go:123"
+May 21 06:55:56 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:55:56Z" level=error msg="ERROR: diskstats collector failed after 0.000143s: invalid line for /proc/diskstats for loop0" source="collector.go:123"
+May 21 06:55:56 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:55:56Z" level=error msg="ERROR: diskstats collector failed after 0.000169s: invalid line for /proc/diskstats for sda14" source="collector.go:123"
+May 21 06:56:11 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:56:11Z" level=error msg="ERROR: diskstats collector failed after 0.000183s: invalid line for /proc/diskstats for loop2" source="collector.go:123"
+May 21 06:56:11 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:56:11Z" level=error msg="ERROR: diskstats collector failed after 0.000160s: invalid line for /proc/diskstats for sda15" source="collector.go:123"
+May 21 06:56:26 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:56:26Z" level=error msg="ERROR: diskstats collector failed after 0.000159s: invalid line for /proc/diskstats for sdb1" source="collector.go:123"
+May 21 06:56:26 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:56:26Z" level=error msg="ERROR: diskstats collector failed after 0.000263s: invalid line for /proc/diskstats for loop3" source="collector.go:123"
+May 21 06:56:36 backup-b alertmanager[1122]: ts=2022-05-21T06:56:36.548Z caller=nflog.go:378 level=error component=nflog msg="Running maintenance failed" err="open /etc/prometheus-plugins/alertmanager/data/nflog.59ec8dc20256844e: permission denied"
+May 21 06:56:36 backup-b alertmanager[1122]: ts=2022-05-21T06:56:36.548Z caller=silence.go:402 level=info component=silences msg="Running maintenance failed" err="open /etc/prometheus-plugins/alertmanager/data/silences.35dbecb0c86e016e: permission denied"
+May 21 06:56:41 backup-b prometheus[1111]: level=error ts=2022-05-21T06:56:41.360Z caller=notifier.go:527 component=notifier alertmanager=http://20.211.185.153:9093/api/v1/alerts count=2 msg="Error sending alert" err="Post \"http://20.211.185.153:9093/api/v1/alerts\": dial tcp 20.211.185.153:9093: i/o timeout"
+May 21 06:56:41 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:56:41Z" level=error msg="ERROR: diskstats collector failed after 0.000159s: invalid line for /proc/diskstats for loop6" source="collector.go:123"
+May 21 06:56:41 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:56:41Z" level=error msg="ERROR: diskstats collector failed after 0.000124s: invalid line for /proc/diskstats for loop1" source="collector.go:123"
+May 21 06:56:56 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:56:56Z" level=error msg="ERROR: diskstats collector failed after 0.000257s: invalid line for /proc/diskstats for loop6" source="collector.go:123"
+May 21 06:56:56 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:56:56Z" level=error msg="ERROR: diskstats collector failed after 0.000178s: invalid line for /proc/diskstats for sda15" source="collector.go:123"
+May 21 06:57:11 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:57:11Z" level=error msg="ERROR: diskstats collector failed after 0.000159s: invalid line for /proc/diskstats for sda14" source="collector.go:123"
+May 21 06:57:11 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:57:11Z" level=error msg="ERROR: diskstats collector failed after 0.000129s: invalid line for /proc/diskstats for loop0" source="collector.go:123"
+May 21 06:57:15 backup-b nrpe[21725]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 11449
+May 21 06:57:15 backup-b nrpe[21725]: Connection from 10.6.0.6 port 11449
+May 21 06:57:15 backup-b nrpe[21725]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
+May 21 06:57:15 backup-b nrpe[21725]: is_an_allowed_host (AF_INET): host is in allowed host list!
+May 21 06:57:15 backup-b nrpe[21725]: Host address is in allowed_hosts
+May 21 06:57:15 backup-b nrpe[21725]: Host 10.6.0.6 is asking for command 'check_hd' to be run...
+May 21 06:57:15 backup-b nrpe[21725]: Running command: /usr/lib/nagios/plugins/check_disk -w 20% -c 10% -p /dev/sda1
+May 21 06:57:15 backup-b nrpe[21726]: WARNING: my_system() seteuid(0): Operation not permitted
+May 21 06:57:15 backup-b nrpe[21725]: Command completed with return code 0 and output: DISK OK - free space: /var/tmp 24544 MB (82% inode=94%);| /var/tmp=5038MB;23678;26638;0;29598
+May 21 06:57:15 backup-b nrpe[21725]: Return Code: 0, Output: DISK OK - free space: /var/tmp 24544 MB (82% inode=94%);| /var/tmp=5038MB;23678;26638;0;29598
+May 21 06:57:15 backup-b nrpe[21725]: Connection from 10.6.0.6 closed.
+May 21 06:57:26 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:57:26Z" level=error msg="ERROR: diskstats collector failed after 0.000171s: invalid line for /proc/diskstats for loop1" source="collector.go:123"
+May 21 06:57:26 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:57:26Z" level=error msg="ERROR: diskstats collector failed after 0.000254s: invalid line for /proc/diskstats for loop4" source="collector.go:123"
+May 21 06:57:41 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:57:41Z" level=error msg="ERROR: diskstats collector failed after 0.000182s: invalid line for /proc/diskstats for loop4" source="collector.go:123"
+May 21 06:57:41 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:57:41Z" level=error msg="ERROR: diskstats collector failed after 0.000192s: invalid line for /proc/diskstats for sda" source="collector.go:123"
+May 21 06:57:56 backup-b prometheus[1111]: level=error ts=2022-05-21T06:57:56.360Z caller=notifier.go:527 component=notifier alertmanager=http://20.211.185.153:9093/api/v1/alerts count=2 msg="Error sending alert" err="Post \"http://20.211.185.153:9093/api/v1/alerts\": dial tcp 20.211.185.153:9093: i/o timeout"
+May 21 06:57:56 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:57:56Z" level=error msg="ERROR: diskstats collector failed after 0.000249s: invalid line for /proc/diskstats for sda14" source="collector.go:123"
+May 21 06:57:56 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:57:56Z" level=error msg="ERROR: diskstats collector failed after 0.000205s: invalid line for /proc/diskstats for loop0" source="collector.go:123"
+May 21 06:58:11 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:58:11Z" level=error msg="ERROR: diskstats collector failed after 0.000253s: invalid line for /proc/diskstats for loop7" source="collector.go:123"
+May 21 06:58:11 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:58:11Z" level=error msg="ERROR: diskstats collector failed after 0.000192s: invalid line for /proc/diskstats for loop5" source="collector.go:123"
+May 21 06:58:26 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:58:26Z" level=error msg="ERROR: diskstats collector failed after 0.000151s: invalid line for /proc/diskstats for loop0" source="collector.go:123"
+May 21 06:58:26 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:58:26Z" level=error msg="ERROR: diskstats collector failed after 0.000132s: invalid line for /proc/diskstats for sda15" source="collector.go:123"
+May 21 06:58:41 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:58:41Z" level=error msg="ERROR: diskstats collector failed after 0.000169s: invalid line for /proc/diskstats for loop3" source="collector.go:123"
+May 21 06:58:41 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:58:41Z" level=error msg="ERROR: diskstats collector failed after 0.000243s: invalid line for /proc/diskstats for loop4" source="collector.go:123"
+May 21 06:58:56 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:58:56Z" level=error msg="ERROR: diskstats collector failed after 0.000209s: invalid line for /proc/diskstats for loop0" source="collector.go:123"
+May 21 06:58:56 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:58:56Z" level=error msg="ERROR: diskstats collector failed after 0.000183s: invalid line for /proc/diskstats for loop7" source="collector.go:123"
+May 21 06:59:11 backup-b prometheus[1111]: level=error ts=2022-05-21T06:59:11.360Z caller=notifier.go:527 component=notifier alertmanager=http://20.211.185.153:9093/api/v1/alerts count=2 msg="Error sending alert" err="Post \"http://20.211.185.153:9093/api/v1/alerts\": dial tcp 20.211.185.153:9093: i/o timeout"
+May 21 06:59:11 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:59:11Z" level=error msg="ERROR: diskstats collector failed after 0.000164s: invalid line for /proc/diskstats for loop3" source="collector.go:123"
+May 21 06:59:11 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:59:11Z" level=error msg="ERROR: diskstats collector failed after 0.000126s: invalid line for /proc/diskstats for loop1" source="collector.go:123"
+May 21 06:59:26 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:59:26Z" level=error msg="ERROR: diskstats collector failed after 0.000153s: invalid line for /proc/diskstats for sda" source="collector.go:123"
+May 21 06:59:26 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:59:26Z" level=error msg="ERROR: diskstats collector failed after 0.000155s: invalid line for /proc/diskstats for sdb1" source="collector.go:123"
+May 21 06:59:41 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:59:41Z" level=error msg="ERROR: diskstats collector failed after 0.000190s: invalid line for /proc/diskstats for loop5" source="collector.go:123"
+May 21 06:59:41 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:59:41Z" level=error msg="ERROR: diskstats collector failed after 0.000115s: invalid line for /proc/diskstats for loop3" source="collector.go:123"
+May 21 06:59:56 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:59:56Z" level=error msg="ERROR: diskstats collector failed after 0.000199s: invalid line for /proc/diskstats for sda1" source="collector.go:123"
+May 21 06:59:56 backup-b prometheus-node-exporter[1094]: time="2022-05-21T06:59:56Z" level=error msg="ERROR: diskstats collector failed after 0.000147s: invalid line for /proc/diskstats for sdb1" source="collector.go:123"
+May 21 07:00:01 backup-b prometheus[1111]: level=info ts=2022-05-21T07:00:01.566Z caller=compact.go:495 component=tsdb msg="write block" mint=1653105600000 maxt=1653112800000 ulid=01G3JPMXPG9FSK22Z7ZPN23CEN duration=206.540157ms
+May 21 07:00:01 backup-b prometheus[1111]: level=info ts=2022-05-21T07:00:01.598Z caller=head.go:662 component=tsdb msg="Head GC completed" duration=5.209032ms
+May 21 07:00:11 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:00:11Z" level=error msg="ERROR: diskstats collector failed after 0.000176s: invalid line for /proc/diskstats for loop5" source="collector.go:123"
+May 21 07:00:11 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:00:11Z" level=error msg="ERROR: diskstats collector failed after 0.000210s: invalid line for /proc/diskstats for loop3" source="collector.go:123"
+May 21 07:00:26 backup-b prometheus[1111]: level=error ts=2022-05-21T07:00:26.361Z caller=notifier.go:527 component=notifier alertmanager=http://20.211.185.153:9093/api/v1/alerts count=2 msg="Error sending alert" err="Post \"http://20.211.185.153:9093/api/v1/alerts\": dial tcp 20.211.185.153:9093: i/o timeout"
+May 21 07:00:26 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:00:26Z" level=error msg="ERROR: diskstats collector failed after 0.000134s: invalid line for /proc/diskstats for loop0" source="collector.go:123"
+May 21 07:00:26 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:00:26Z" level=error msg="ERROR: diskstats collector failed after 0.000203s: invalid line for /proc/diskstats for loop6" source="collector.go:123"
+May 21 07:00:41 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:00:41Z" level=error msg="ERROR: diskstats collector failed after 0.000153s: invalid line for /proc/diskstats for loop3" source="collector.go:123"
+May 21 07:00:41 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:00:41Z" level=error msg="ERROR: diskstats collector failed after 0.000215s: invalid line for /proc/diskstats for loop4" source="collector.go:123"
+May 21 07:00:56 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:00:56Z" level=error msg="ERROR: diskstats collector failed after 0.000147s: invalid line for /proc/diskstats for loop0" source="collector.go:123"
+May 21 07:00:56 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:00:56Z" level=error msg="ERROR: diskstats collector failed after 0.000163s: invalid line for /proc/diskstats for loop4" source="collector.go:123"
+May 21 07:01:11 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:01:11Z" level=error msg="ERROR: diskstats collector failed after 0.000235s: invalid line for /proc/diskstats for sdb1" source="collector.go:123"
+May 21 07:01:11 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:01:11Z" level=error msg="ERROR: diskstats collector failed after 0.000134s: invalid line for /proc/diskstats for sda14" source="collector.go:123"
+May 21 07:01:26 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:01:26Z" level=error msg="ERROR: diskstats collector failed after 0.000136s: invalid line for /proc/diskstats for loop0" source="collector.go:123"
+May 21 07:01:26 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:01:26Z" level=error msg="ERROR: diskstats collector failed after 0.000195s: invalid line for /proc/diskstats for loop4" source="collector.go:123"
+May 21 07:01:41 backup-b prometheus[1111]: level=error ts=2022-05-21T07:01:41.360Z caller=notifier.go:527 component=notifier alertmanager=http://20.211.185.153:9093/api/v1/alerts count=2 msg="Error sending alert" err="Post \"http://20.211.185.153:9093/api/v1/alerts\": dial tcp 20.211.185.153:9093: i/o timeout"
+May 21 07:01:41 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:01:41Z" level=error msg="ERROR: diskstats collector failed after 0.000178s: invalid line for /proc/diskstats for loop1" source="collector.go:123"
+May 21 07:01:41 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:01:41Z" level=error msg="ERROR: diskstats collector failed after 0.000169s: invalid line for /proc/diskstats for sdb" source="collector.go:123"
+May 21 07:01:56 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:01:56Z" level=error msg="ERROR: diskstats collector failed after 0.000210s: invalid line for /proc/diskstats for loop0" source="collector.go:123"
+May 21 07:01:56 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:01:56Z" level=error msg="ERROR: diskstats collector failed after 0.000163s: invalid line for /proc/diskstats for loop5" source="collector.go:123"
+May 21 07:02:11 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:02:11Z" level=error msg="ERROR: diskstats collector failed after 0.000244s: invalid line for /proc/diskstats for loop7" source="collector.go:123"
+May 21 07:02:11 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:02:11Z" level=error msg="ERROR: diskstats collector failed after 0.000128s: invalid line for /proc/diskstats for loop2" source="collector.go:123"
+May 21 07:02:15 backup-b nrpe[22096]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 5819
+May 21 07:02:15 backup-b nrpe[22096]: Connection from 10.6.0.6 port 5819
+May 21 07:02:15 backup-b nrpe[22096]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
+May 21 07:02:15 backup-b nrpe[22096]: is_an_allowed_host (AF_INET): host is in allowed host list!
+May 21 07:02:15 backup-b nrpe[22096]: Host address is in allowed_hosts
+May 21 07:02:15 backup-b nrpe[22096]: Host 10.6.0.6 is asking for command 'check_hd' to be run...
+May 21 07:02:15 backup-b nrpe[22096]: Running command: /usr/lib/nagios/plugins/check_disk -w 20% -c 10% -p /dev/sda1
+May 21 07:02:15 backup-b nrpe[22097]: WARNING: my_system() seteuid(0): Operation not permitted
+May 21 07:02:15 backup-b nrpe[22096]: Command completed with return code 0 and output: DISK OK - free space: /var/tmp 24542 MB (82% inode=94%);| /var/tmp=5040MB;23678;26638;0;29598
+May 21 07:02:15 backup-b nrpe[22096]: Return Code: 0, Output: DISK OK - free space: /var/tmp 24542 MB (82% inode=94%);| /var/tmp=5040MB;23678;26638;0;29598
+May 21 07:02:15 backup-b nrpe[22096]: Connection from 10.6.0.6 closed.
+May 21 07:02:26 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:02:26Z" level=error msg="ERROR: diskstats collector failed after 0.000178s: invalid line for /proc/diskstats for loop2" source="collector.go:123"
+May 21 07:02:26 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:02:26Z" level=error msg="ERROR: diskstats collector failed after 0.000190s: invalid line for /proc/diskstats for loop1" source="collector.go:123"
+May 21 07:02:41 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:02:41Z" level=error msg="ERROR: diskstats collector failed after 0.000175s: invalid line for /proc/diskstats for sda14" source="collector.go:123"
+May 21 07:02:41 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:02:41Z" level=error msg="ERROR: diskstats collector failed after 0.000226s: invalid line for /proc/diskstats for loop5" source="collector.go:123"
+May 21 07:02:56 backup-b prometheus[1111]: level=error ts=2022-05-21T07:02:56.360Z caller=notifier.go:527 component=notifier alertmanager=http://20.211.185.153:9093/api/v1/alerts count=2 msg="Error sending alert" err="Post \"http://20.211.185.153:9093/api/v1/alerts\": dial tcp 20.211.185.153:9093: i/o timeout"
+May 21 07:02:56 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:02:56Z" level=error msg="ERROR: diskstats collector failed after 0.000147s: invalid line for /proc/diskstats for loop7" source="collector.go:123"
+May 21 07:02:56 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:02:56Z" level=error msg="ERROR: diskstats collector failed after 0.000222s: invalid line for /proc/diskstats for sda14" source="collector.go:123"
+May 21 07:03:11 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:03:11Z" level=error msg="ERROR: diskstats collector failed after 0.000156s: invalid line for /proc/diskstats for loop7" source="collector.go:123"
+May 21 07:03:11 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:03:11Z" level=error msg="ERROR: diskstats collector failed after 0.000139s: invalid line for /proc/diskstats for sdb" source="collector.go:123"
+May 21 07:03:26 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:03:26Z" level=error msg="ERROR: diskstats collector failed after 0.000196s: invalid line for /proc/diskstats for loop0" source="collector.go:123"
+May 21 07:03:26 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:03:26Z" level=error msg="ERROR: diskstats collector failed after 0.000240s: invalid line for /proc/diskstats for loop0" source="collector.go:123"
+May 21 07:03:41 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:03:41Z" level=error msg="ERROR: diskstats collector failed after 0.000181s: invalid line for /proc/diskstats for loop1" source="collector.go:123"
+May 21 07:03:41 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:03:41Z" level=error msg="ERROR: diskstats collector failed after 0.000171s: invalid line for /proc/diskstats for loop4" source="collector.go:123"
+May 21 07:03:56 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:03:56Z" level=error msg="ERROR: diskstats collector failed after 0.000195s: invalid line for /proc/diskstats for loop3" source="collector.go:123"
+May 21 07:03:56 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:03:56Z" level=error msg="ERROR: diskstats collector failed after 0.000201s: invalid line for /proc/diskstats for sda15" source="collector.go:123"
+May 21 07:04:11 backup-b prometheus[1111]: level=error ts=2022-05-21T07:04:11.360Z caller=notifier.go:527 component=notifier alertmanager=http://20.211.185.153:9093/api/v1/alerts count=2 msg="Error sending alert" err="Post \"http://20.211.185.153:9093/api/v1/alerts\": dial tcp 20.211.185.153:9093: i/o timeout"
+May 21 07:04:11 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:04:11Z" level=error msg="ERROR: diskstats collector failed after 0.000162s: invalid line for /proc/diskstats for sdb" source="collector.go:123"
+May 21 07:04:11 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:04:11Z" level=error msg="ERROR: diskstats collector failed after 0.000155s: invalid line for /proc/diskstats for loop5" source="collector.go:123"
+May 21 07:04:26 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:04:26Z" level=error msg="ERROR: diskstats collector failed after 0.000131s: invalid line for /proc/diskstats for sdb1" source="collector.go:123"
+May 21 07:04:26 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:04:26Z" level=error msg="ERROR: diskstats collector failed after 0.000173s: invalid line for /proc/diskstats for sda1" source="collector.go:123"
+May 21 07:04:41 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:04:41Z" level=error msg="ERROR: diskstats collector failed after 0.000157s: invalid line for /proc/diskstats for sda1" source="collector.go:123"
+May 21 07:04:41 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:04:41Z" level=error msg="ERROR: diskstats collector failed after 0.000165s: invalid line for /proc/diskstats for loop0" source="collector.go:123"
+May 21 07:04:56 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:04:56Z" level=error msg="ERROR: diskstats collector failed after 0.000171s: invalid line for /proc/diskstats for sdb" source="collector.go:123"
+May 21 07:04:56 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:04:56Z" level=error msg="ERROR: diskstats collector failed after 0.000175s: invalid line for /proc/diskstats for loop7" source="collector.go:123"
+May 21 07:05:11 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:05:11Z" level=error msg="ERROR: diskstats collector failed after 0.000178s: invalid line for /proc/diskstats for loop3" source="collector.go:123"
+May 21 07:05:11 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:05:11Z" level=error msg="ERROR: diskstats collector failed after 0.000193s: invalid line for /proc/diskstats for sda" source="collector.go:123"
+May 21 07:05:26 backup-b prometheus[1111]: level=error ts=2022-05-21T07:05:26.360Z caller=notifier.go:527 component=notifier alertmanager=http://20.211.185.153:9093/api/v1/alerts count=2 msg="Error sending alert" err="Post \"http://20.211.185.153:9093/api/v1/alerts\": dial tcp 20.211.185.153:9093: i/o timeout"
+May 21 07:05:26 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:05:26Z" level=error msg="ERROR: diskstats collector failed after 0.000246s: invalid line for /proc/diskstats for sda14" source="collector.go:123"
+May 21 07:05:26 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:05:26Z" level=error msg="ERROR: diskstats collector failed after 0.000190s: invalid line for /proc/diskstats for sdb" source="collector.go:123"
+May 21 07:05:41 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:05:41Z" level=error msg="ERROR: diskstats collector failed after 0.000203s: invalid line for /proc/diskstats for sda1" source="collector.go:123"
+May 21 07:05:41 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:05:41Z" level=error msg="ERROR: diskstats collector failed after 0.000182s: invalid line for /proc/diskstats for sdb" source="collector.go:123"
+May 21 07:05:56 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:05:56Z" level=error msg="ERROR: diskstats collector failed after 0.000232s: invalid line for /proc/diskstats for loop6" source="collector.go:123"
+May 21 07:05:56 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:05:56Z" level=error msg="ERROR: diskstats collector failed after 0.000239s: invalid line for /proc/diskstats for sda1" source="collector.go:123"
+May 21 07:06:11 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:06:11Z" level=error msg="ERROR: diskstats collector failed after 0.000142s: invalid line for /proc/diskstats for loop2" source="collector.go:123"
+May 21 07:06:11 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:06:11Z" level=error msg="ERROR: diskstats collector failed after 0.000181s: invalid line for /proc/diskstats for loop3" source="collector.go:123"
+May 21 07:06:26 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:06:26Z" level=error msg="ERROR: diskstats collector failed after 0.000186s: invalid line for /proc/diskstats for loop6" source="collector.go:123"
+May 21 07:06:26 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:06:26Z" level=error msg="ERROR: diskstats collector failed after 0.000146s: invalid line for /proc/diskstats for loop6" source="collector.go:123"
+May 21 07:06:41 backup-b prometheus[1111]: level=error ts=2022-05-21T07:06:41.360Z caller=notifier.go:527 component=notifier alertmanager=http://20.211.185.153:9093/api/v1/alerts count=2 msg="Error sending alert" err="Post \"http://20.211.185.153:9093/api/v1/alerts\": dial tcp 20.211.185.153:9093: i/o timeout"
+May 21 07:06:41 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:06:41Z" level=error msg="ERROR: diskstats collector failed after 0.000173s: invalid line for /proc/diskstats for loop0" source="collector.go:123"
+May 21 07:06:41 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:06:41Z" level=error msg="ERROR: diskstats collector failed after 0.000137s: invalid line for /proc/diskstats for sda1" source="collector.go:123"
+May 21 07:06:56 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:06:56Z" level=error msg="ERROR: diskstats collector failed after 0.000306s: invalid line for /proc/diskstats for loop7" source="collector.go:123"
+May 21 07:06:56 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:06:56Z" level=error msg="ERROR: diskstats collector failed after 0.000134s: invalid line for /proc/diskstats for loop1" source="collector.go:123"
+May 21 07:07:11 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:07:11Z" level=error msg="ERROR: diskstats collector failed after 0.000168s: invalid line for /proc/diskstats for loop4" source="collector.go:123"
+May 21 07:07:11 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:07:11Z" level=error msg="ERROR: diskstats collector failed after 0.000180s: invalid line for /proc/diskstats for loop2" source="collector.go:123"
+May 21 07:07:15 backup-b nrpe[22463]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 63164
+May 21 07:07:15 backup-b nrpe[22463]: Connection from 10.6.0.6 port 63164
+May 21 07:07:15 backup-b nrpe[22463]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
+May 21 07:07:15 backup-b nrpe[22463]: is_an_allowed_host (AF_INET): host is in allowed host list!
+May 21 07:07:15 backup-b nrpe[22463]: Host address is in allowed_hosts
+May 21 07:07:15 backup-b nrpe[22463]: Host 10.6.0.6 is asking for command 'check_hd' to be run...
+May 21 07:07:15 backup-b nrpe[22463]: Running command: /usr/lib/nagios/plugins/check_disk -w 20% -c 10% -p /dev/sda1
+May 21 07:07:15 backup-b nrpe[22464]: WARNING: my_system() seteuid(0): Operation not permitted
+May 21 07:07:15 backup-b nrpe[22463]: Command completed with return code 0 and output: DISK OK - free space: /var/tmp 24541 MB (82% inode=94%);| /var/tmp=5041MB;23678;26638;0;29598
+May 21 07:07:15 backup-b nrpe[22463]: Return Code: 0, Output: DISK OK - free space: /var/tmp 24541 MB (82% inode=94%);| /var/tmp=5041MB;23678;26638;0;29598
+May 21 07:07:15 backup-b nrpe[22463]: Connection from 10.6.0.6 closed.
+May 21 07:07:26 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:07:26Z" level=error msg="ERROR: diskstats collector failed after 0.000185s: invalid line for /proc/diskstats for sda14" source="collector.go:123"
+May 21 07:07:26 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:07:26Z" level=error msg="ERROR: diskstats collector failed after 0.000202s: invalid line for /proc/diskstats for loop7" source="collector.go:123"
+May 21 07:07:41 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:07:41Z" level=error msg="ERROR: diskstats collector failed after 0.000138s: invalid line for /proc/diskstats for loop3" source="collector.go:123"
+May 21 07:07:41 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:07:41Z" level=error msg="ERROR: diskstats collector failed after 0.000200s: invalid line for /proc/diskstats for loop7" source="collector.go:123"
+May 21 07:07:56 backup-b prometheus[1111]: level=error ts=2022-05-21T07:07:56.360Z caller=notifier.go:527 component=notifier alertmanager=http://20.211.185.153:9093/api/v1/alerts count=2 msg="Error sending alert" err="Post \"http://20.211.185.153:9093/api/v1/alerts\": dial tcp 20.211.185.153:9093: i/o timeout"
+May 21 07:07:56 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:07:56Z" level=error msg="ERROR: diskstats collector failed after 0.000256s: invalid line for /proc/diskstats for loop2" source="collector.go:123"
+May 21 07:07:56 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:07:56Z" level=error msg="ERROR: diskstats collector failed after 0.000190s: invalid line for /proc/diskstats for loop4" source="collector.go:123"
+May 21 07:08:11 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:08:11Z" level=error msg="ERROR: diskstats collector failed after 0.000214s: invalid line for /proc/diskstats for loop2" source="collector.go:123"
+May 21 07:08:11 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:08:11Z" level=error msg="ERROR: diskstats collector failed after 0.000147s: invalid line for /proc/diskstats for loop6" source="collector.go:123"
+May 21 07:08:26 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:08:26Z" level=error msg="ERROR: diskstats collector failed after 0.000231s: invalid line for /proc/diskstats for sda14" source="collector.go:123"
+May 21 07:08:26 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:08:26Z" level=error msg="ERROR: diskstats collector failed after 0.000162s: invalid line for /proc/diskstats for loop0" source="collector.go:123"
+May 21 07:08:41 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:08:41Z" level=error msg="ERROR: diskstats collector failed after 0.000157s: invalid line for /proc/diskstats for sda15" source="collector.go:123"
+May 21 07:08:41 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:08:41Z" level=error msg="ERROR: diskstats collector failed after 0.000199s: invalid line for /proc/diskstats for loop5" source="collector.go:123"
+May 21 07:08:56 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:08:56Z" level=error msg="ERROR: diskstats collector failed after 0.000178s: invalid line for /proc/diskstats for sda15" source="collector.go:123"
+May 21 07:08:56 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:08:56Z" level=error msg="ERROR: diskstats collector failed after 0.000153s: invalid line for /proc/diskstats for sdb" source="collector.go:123"
+May 21 07:09:11 backup-b prometheus[1111]: level=error ts=2022-05-21T07:09:11.360Z caller=notifier.go:527 component=notifier alertmanager=http://20.211.185.153:9093/api/v1/alerts count=2 msg="Error sending alert" err="Post \"http://20.211.185.153:9093/api/v1/alerts\": dial tcp 20.211.185.153:9093: i/o timeout"
+May 21 07:09:11 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:09:11Z" level=error msg="ERROR: diskstats collector failed after 0.000239s: invalid line for /proc/diskstats for sda14" source="collector.go:123"
+May 21 07:09:11 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:09:11Z" level=error msg="ERROR: diskstats collector failed after 0.000257s: invalid line for /proc/diskstats for loop0" source="collector.go:123"
+May 21 07:09:26 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:09:26Z" level=error msg="ERROR: diskstats collector failed after 0.000142s: invalid line for /proc/diskstats for loop0" source="collector.go:123"
+May 21 07:09:26 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:09:26Z" level=error msg="ERROR: diskstats collector failed after 0.000493s: invalid line for /proc/diskstats for loop1" source="collector.go:123"
+May 21 07:09:41 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:09:41Z" level=error msg="ERROR: diskstats collector failed after 0.000173s: invalid line for /proc/diskstats for loop0" source="collector.go:123"
+May 21 07:09:41 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:09:41Z" level=error msg="ERROR: diskstats collector failed after 0.000235s: invalid line for /proc/diskstats for loop1" source="collector.go:123"
+May 21 07:09:56 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:09:56Z" level=error msg="ERROR: diskstats collector failed after 0.000193s: invalid line for /proc/diskstats for loop2" source="collector.go:123"
+May 21 07:09:56 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:09:56Z" level=error msg="ERROR: diskstats collector failed after 0.000149s: invalid line for /proc/diskstats for sda" source="collector.go:123"
+May 21 07:10:11 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:10:11Z" level=error msg="ERROR: diskstats collector failed after 0.000172s: invalid line for /proc/diskstats for sda14" source="collector.go:123"
+May 21 07:10:11 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:10:11Z" level=error msg="ERROR: diskstats collector failed after 0.000143s: invalid line for /proc/diskstats for loop0" source="collector.go:123"
+May 21 07:10:26 backup-b prometheus[1111]: level=error ts=2022-05-21T07:10:26.360Z caller=notifier.go:527 component=notifier alertmanager=http://20.211.185.153:9093/api/v1/alerts count=2 msg="Error sending alert" err="Post \"http://20.211.185.153:9093/api/v1/alerts\": dial tcp 20.211.185.153:9093: i/o timeout"
+May 21 07:10:26 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:10:26Z" level=error msg="ERROR: diskstats collector failed after 0.000207s: invalid line for /proc/diskstats for loop0" source="collector.go:123"
+May 21 07:10:26 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:10:26Z" level=error msg="ERROR: diskstats collector failed after 0.000155s: invalid line for /proc/diskstats for loop3" source="collector.go:123"
+May 21 07:10:41 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:10:41Z" level=error msg="ERROR: diskstats collector failed after 0.000167s: invalid line for /proc/diskstats for sdb1" source="collector.go:123"
+May 21 07:10:41 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:10:41Z" level=error msg="ERROR: diskstats collector failed after 0.000273s: invalid line for /proc/diskstats for loop5" source="collector.go:123"
+May 21 07:10:56 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:10:56Z" level=error msg="ERROR: diskstats collector failed after 0.000176s: invalid line for /proc/diskstats for loop3" source="collector.go:123"
+May 21 07:10:56 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:10:56Z" level=error msg="ERROR: diskstats collector failed after 0.000169s: invalid line for /proc/diskstats for loop4" source="collector.go:123"
+May 21 07:11:11 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:11:11Z" level=error msg="ERROR: diskstats collector failed after 0.000152s: invalid line for /proc/diskstats for loop3" source="collector.go:123"
+May 21 07:11:11 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:11:11Z" level=error msg="ERROR: diskstats collector failed after 0.000184s: invalid line for /proc/diskstats for sda15" source="collector.go:123"
+May 21 07:11:26 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:11:26Z" level=error msg="ERROR: diskstats collector failed after 0.000198s: invalid line for /proc/diskstats for loop1" source="collector.go:123"
+May 21 07:11:26 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:11:26Z" level=error msg="ERROR: diskstats collector failed after 0.000260s: invalid line for /proc/diskstats for loop1" source="collector.go:123"
+May 21 07:11:36 backup-b alertmanager[1122]: ts=2022-05-21T07:11:36.548Z caller=nflog.go:378 level=error component=nflog msg="Running maintenance failed" err="open /etc/prometheus-plugins/alertmanager/data/nflog.4931a1716b70cee3: permission denied"
+May 21 07:11:36 backup-b alertmanager[1122]: ts=2022-05-21T07:11:36.548Z caller=silence.go:402 level=info component=silences msg="Running maintenance failed" err="open /etc/prometheus-plugins/alertmanager/data/silences.7d8af8a9579d7d6a: permission denied"
+May 21 07:11:41 backup-b prometheus[1111]: level=error ts=2022-05-21T07:11:41.360Z caller=notifier.go:527 component=notifier alertmanager=http://20.211.185.153:9093/api/v1/alerts count=2 msg="Error sending alert" err="Post \"http://20.211.185.153:9093/api/v1/alerts\": dial tcp 20.211.185.153:9093: i/o timeout"
+May 21 07:11:41 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:11:41Z" level=error msg="ERROR: diskstats collector failed after 0.000161s: invalid line for /proc/diskstats for loop4" source="collector.go:123"
+May 21 07:11:41 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:11:41Z" level=error msg="ERROR: diskstats collector failed after 0.000181s: invalid line for /proc/diskstats for loop3" source="collector.go:123"
+May 21 07:11:42 backup-b puppet-agent[22782]: Applied catalog in 0.19 seconds
+May 21 07:11:56 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:11:56Z" level=error msg="ERROR: diskstats collector failed after 0.000213s: invalid line for /proc/diskstats for loop1" source="collector.go:123"
+May 21 07:11:56 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:11:56Z" level=error msg="ERROR: diskstats collector failed after 0.000176s: invalid line for /proc/diskstats for loop1" source="collector.go:123"
+May 21 07:12:11 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:12:11Z" level=error msg="ERROR: diskstats collector failed after 0.000212s: invalid line for /proc/diskstats for sda15" source="collector.go:123"
+May 21 07:12:11 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:12:11Z" level=error msg="ERROR: diskstats collector failed after 0.000163s: invalid line for /proc/diskstats for sda15" source="collector.go:123"
+May 21 07:12:15 backup-b nrpe[22862]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 57022
+May 21 07:12:15 backup-b nrpe[22862]: Connection from 10.6.0.6 port 57022
+May 21 07:12:15 backup-b nrpe[22862]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
+May 21 07:12:15 backup-b nrpe[22862]: is_an_allowed_host (AF_INET): host is in allowed host list!
+May 21 07:12:15 backup-b nrpe[22862]: Host address is in allowed_hosts
+May 21 07:12:15 backup-b nrpe[22862]: Host 10.6.0.6 is asking for command 'check_hd' to be run...
+May 21 07:12:15 backup-b nrpe[22862]: Running command: /usr/lib/nagios/plugins/check_disk -w 20% -c 10% -p /dev/sda1
+May 21 07:12:15 backup-b nrpe[22863]: WARNING: my_system() seteuid(0): Operation not permitted
+May 21 07:12:15 backup-b nrpe[22862]: Command completed with return code 0 and output: DISK OK - free space: /var/tmp 24540 MB (82% inode=94%);| /var/tmp=5042MB;23678;26638;0;29598
+May 21 07:12:15 backup-b nrpe[22862]: Return Code: 0, Output: DISK OK - free space: /var/tmp 24540 MB (82% inode=94%);| /var/tmp=5042MB;23678;26638;0;29598
+May 21 07:12:15 backup-b nrpe[22862]: Connection from 10.6.0.6 closed.
+May 21 07:12:26 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:12:26Z" level=error msg="ERROR: diskstats collector failed after 0.000336s: invalid line for /proc/diskstats for loop2" source="collector.go:123"
+May 21 07:12:26 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:12:26Z" level=error msg="ERROR: diskstats collector failed after 0.000146s: invalid line for /proc/diskstats for loop6" source="collector.go:123"
+May 21 07:12:41 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:12:41Z" level=error msg="ERROR: diskstats collector failed after 0.000148s: invalid line for /proc/diskstats for loop3" source="collector.go:123"
+May 21 07:12:41 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:12:41Z" level=error msg="ERROR: diskstats collector failed after 0.000198s: invalid line for /proc/diskstats for loop5" source="collector.go:123"
+May 21 07:12:56 backup-b prometheus[1111]: level=error ts=2022-05-21T07:12:56.360Z caller=notifier.go:527 component=notifier alertmanager=http://20.211.185.153:9093/api/v1/alerts count=2 msg="Error sending alert" err="Post \"http://20.211.185.153:9093/api/v1/alerts\": dial tcp 20.211.185.153:9093: i/o timeout"
+May 21 07:12:56 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:12:56Z" level=error msg="ERROR: diskstats collector failed after 0.000204s: invalid line for /proc/diskstats for loop0" source="collector.go:123"
+May 21 07:12:56 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:12:56Z" level=error msg="ERROR: diskstats collector failed after 0.000206s: invalid line for /proc/diskstats for sda14" source="collector.go:123"
+May 21 07:12:57 backup-b python3[1115]: 2022-05-21T07:12:57.491281Z INFO CollectLogsHandler ExtHandler Starting log collection...
+May 21 07:12:57 backup-b systemd[1]: Started /usr/bin/python3 -u bin/WALinuxAgent-2.7.1.0-py2.7.egg -collect-logs.
+May 21 07:13:10 backup-b python3[1115]: 2022-05-21T07:13:10.149897Z INFO CollectLogsHandler ExtHandler Successfully collected logs. Archive size: 1640250 b, elapsed time: 12658 ms.
+May 21 07:13:10 backup-b python3[1115]: 2022-05-21T07:13:10.186505Z INFO CollectLogsHandler ExtHandler Successfully uploaded logs.
+May 21 07:13:11 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:13:11Z" level=error msg="ERROR: diskstats collector failed after 0.000178s: invalid line for /proc/diskstats for sdb1" source="collector.go:123"
+May 21 07:13:11 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:13:11Z" level=error msg="ERROR: diskstats collector failed after 0.000157s: invalid line for /proc/diskstats for loop6" source="collector.go:123"
+May 21 07:13:26 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:13:26Z" level=error msg="ERROR: diskstats collector failed after 0.000219s: invalid line for /proc/diskstats for loop0" source="collector.go:123"
+May 21 07:13:26 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:13:26Z" level=error msg="ERROR: diskstats collector failed after 0.000187s: invalid line for /proc/diskstats for loop3" source="collector.go:123"
+May 21 07:13:41 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:13:41Z" level=error msg="ERROR: diskstats collector failed after 0.000133s: invalid line for /proc/diskstats for loop0" source="collector.go:123"
+May 21 07:13:41 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:13:41Z" level=error msg="ERROR: diskstats collector failed after 0.000167s: invalid line for /proc/diskstats for loop0" source="collector.go:123"
+May 21 07:13:56 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:13:56Z" level=error msg="ERROR: diskstats collector failed after 0.000215s: invalid line for /proc/diskstats for loop6" source="collector.go:123"
+May 21 07:13:56 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:13:56Z" level=error msg="ERROR: diskstats collector failed after 0.000191s: invalid line for /proc/diskstats for sda14" source="collector.go:123"
+May 21 07:14:07 backup-b python3[1115]: 2022-05-21T07:14:07.107746Z INFO ExtHandler ExtHandler [HEARTBEAT] Agent WALinuxAgent-2.7.1.0 is running as the goal state agent [DEBUG HeartbeatCounter: 255;HeartbeatId: D20BD179-C2B0-49FB-8172-67A8233C1861;DroppedPackets: 0;UpdateGSErrors: 0;AutoUpdate: 1]
+May 21 07:14:11 backup-b prometheus[1111]: level=error ts=2022-05-21T07:14:11.360Z caller=notifier.go:527 component=notifier alertmanager=http://20.211.185.153:9093/api/v1/alerts count=2 msg="Error sending alert" err="Post \"http://20.211.185.153:9093/api/v1/alerts\": dial tcp 20.211.185.153:9093: i/o timeout"
+May 21 07:14:11 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:14:11Z" level=error msg="ERROR: diskstats collector failed after 0.000157s: invalid line for /proc/diskstats for sda1" source="collector.go:123"
+May 21 07:14:11 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:14:11Z" level=error msg="ERROR: diskstats collector failed after 0.000163s: invalid line for /proc/diskstats for loop5" source="collector.go:123"
+May 21 07:14:26 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:14:26Z" level=error msg="ERROR: diskstats collector failed after 0.000269s: invalid line for /proc/diskstats for sdb1" source="collector.go:123"
+May 21 07:14:26 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:14:26Z" level=error msg="ERROR: diskstats collector failed after 0.000184s: invalid line for /proc/diskstats for loop2" source="collector.go:123"
+May 21 07:14:41 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:14:41Z" level=error msg="ERROR: diskstats collector failed after 0.000161s: invalid line for /proc/diskstats for sda" source="collector.go:123"
+May 21 07:14:41 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:14:41Z" level=error msg="ERROR: diskstats collector failed after 0.000174s: invalid line for /proc/diskstats for loop1" source="collector.go:123"
+May 21 07:14:56 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:14:56Z" level=error msg="ERROR: diskstats collector failed after 0.000174s: invalid line for /proc/diskstats for sda14" source="collector.go:123"
+May 21 07:14:56 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:14:56Z" level=error msg="ERROR: diskstats collector failed after 0.000130s: invalid line for /proc/diskstats for loop2" source="collector.go:123"
+May 21 07:15:11 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:15:11Z" level=error msg="ERROR: diskstats collector failed after 0.000175s: invalid line for /proc/diskstats for loop6" source="collector.go:123"
+May 21 07:15:11 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:15:11Z" level=error msg="ERROR: diskstats collector failed after 0.000124s: invalid line for /proc/diskstats for loop0" source="collector.go:123"
+May 21 07:15:26 backup-b prometheus[1111]: level=error ts=2022-05-21T07:15:26.361Z caller=notifier.go:527 component=notifier alertmanager=http://20.211.185.153:9093/api/v1/alerts count=2 msg="Error sending alert" err="Post \"http://20.211.185.153:9093/api/v1/alerts\": dial tcp 20.211.185.153:9093: i/o timeout"
+May 21 07:15:26 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:15:26Z" level=error msg="ERROR: diskstats collector failed after 0.000157s: invalid line for /proc/diskstats for loop7" source="collector.go:123"
+May 21 07:15:26 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:15:26Z" level=error msg="ERROR: diskstats collector failed after 0.000154s: invalid line for /proc/diskstats for sda15" source="collector.go:123"
+May 21 07:15:41 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:15:41Z" level=error msg="ERROR: diskstats collector failed after 0.000161s: invalid line for /proc/diskstats for loop7" source="collector.go:123"
+May 21 07:15:41 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:15:41Z" level=error msg="ERROR: diskstats collector failed after 0.000162s: invalid line for /proc/diskstats for sda14" source="collector.go:123"
+May 21 07:15:56 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:15:56Z" level=error msg="ERROR: diskstats collector failed after 0.000148s: invalid line for /proc/diskstats for sdb1" source="collector.go:123"
+May 21 07:15:56 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:15:56Z" level=error msg="ERROR: diskstats collector failed after 0.000213s: invalid line for /proc/diskstats for sdb" source="collector.go:123"
+May 21 07:16:11 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:16:11Z" level=error msg="ERROR: diskstats collector failed after 0.000220s: invalid line for /proc/diskstats for loop7" source="collector.go:123"
+May 21 07:16:11 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:16:11Z" level=error msg="ERROR: diskstats collector failed after 0.000130s: invalid line for /proc/diskstats for sda" source="collector.go:123"
+May 21 07:16:26 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:16:26Z" level=error msg="ERROR: diskstats collector failed after 0.000152s: invalid line for /proc/diskstats for loop1" source="collector.go:123"
+May 21 07:16:26 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:16:26Z" level=error msg="ERROR: diskstats collector failed after 0.000180s: invalid line for /proc/diskstats for loop0" source="collector.go:123"
+May 21 07:16:41 backup-b prometheus[1111]: level=error ts=2022-05-21T07:16:41.360Z caller=notifier.go:527 component=notifier alertmanager=http://20.211.185.153:9093/api/v1/alerts count=2 msg="Error sending alert" err="Post \"http://20.211.185.153:9093/api/v1/alerts\": dial tcp 20.211.185.153:9093: i/o timeout"
+May 21 07:16:41 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:16:41Z" level=error msg="ERROR: diskstats collector failed after 0.000209s: invalid line for /proc/diskstats for loop3" source="collector.go:123"
+May 21 07:16:41 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:16:41Z" level=error msg="ERROR: diskstats collector failed after 0.000149s: invalid line for /proc/diskstats for loop0" source="collector.go:123"
+May 21 07:16:56 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:16:56Z" level=error msg="ERROR: diskstats collector failed after 0.000156s: invalid line for /proc/diskstats for loop1" source="collector.go:123"
+May 21 07:16:56 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:16:56Z" level=error msg="ERROR: diskstats collector failed after 0.000198s: invalid line for /proc/diskstats for sda15" source="collector.go:123"
+May 21 07:16:58 backup-b systemd[1]: Created slice User Slice of bitstudent.
+May 21 07:16:58 backup-b systemd[1]: Starting User Manager for UID 1000...
+May 21 07:16:58 backup-b systemd[1]: Started Session 237 of user bitstudent.
+May 21 07:16:58 backup-b systemd[23227]: Starting D-Bus User Message Bus Socket.
+May 21 07:16:58 backup-b systemd[23227]: Reached target Paths.
+May 21 07:16:58 backup-b systemd[23227]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+May 21 07:16:58 backup-b systemd[23227]: Listening on REST API socket for snapd user session agent.
+May 21 07:16:58 backup-b systemd[23227]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+May 21 07:16:58 backup-b systemd[23227]: Listening on GnuPG cryptographic agent and passphrase cache.
+May 21 07:16:58 backup-b systemd[23227]: Listening on GnuPG network certificate management daemon.
+May 21 07:16:58 backup-b systemd[23227]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+May 21 07:16:58 backup-b systemd[23227]: Reached target Timers.
+May 21 07:16:58 backup-b systemd[23227]: Listening on D-Bus User Message Bus Socket.
+May 21 07:16:58 backup-b systemd[23227]: Reached target Sockets.
+May 21 07:16:58 backup-b systemd[23227]: Reached target Basic System.
+May 21 07:16:58 backup-b systemd[1]: Started User Manager for UID 1000.
+May 21 07:16:58 backup-b systemd[23227]: Reached target Default.
+May 21 07:16:58 backup-b systemd[23227]: Startup finished in 42ms.
+May 21 07:17:11 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:17:11Z" level=error msg="ERROR: diskstats collector failed after 0.000213s: invalid line for /proc/diskstats for loop3" source="collector.go:123"
+May 21 07:17:11 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:17:11Z" level=error msg="ERROR: diskstats collector failed after 0.000218s: invalid line for /proc/diskstats for loop3" source="collector.go:123"
+May 21 07:17:15 backup-b nrpe[23340]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 37575
+May 21 07:17:15 backup-b nrpe[23340]: Connection from 10.6.0.6 port 37575
+May 21 07:17:15 backup-b nrpe[23340]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
+May 21 07:17:15 backup-b nrpe[23340]: is_an_allowed_host (AF_INET): host is in allowed host list!
+May 21 07:17:15 backup-b nrpe[23340]: Host address is in allowed_hosts
+May 21 07:17:15 backup-b nrpe[23340]: Host 10.6.0.6 is asking for command 'check_hd' to be run...
+May 21 07:17:15 backup-b nrpe[23340]: Running command: /usr/lib/nagios/plugins/check_disk -w 20% -c 10% -p /dev/sda1
+May 21 07:17:15 backup-b nrpe[23341]: WARNING: my_system() seteuid(0): Operation not permitted
+May 21 07:17:15 backup-b nrpe[23340]: Command completed with return code 0 and output: DISK OK - free space: /var/tmp 24539 MB (82% inode=94%);| /var/tmp=5043MB;23678;26638;0;29598
+May 21 07:17:15 backup-b nrpe[23340]: Return Code: 0, Output: DISK OK - free space: /var/tmp 24539 MB (82% inode=94%);| /var/tmp=5043MB;23678;26638;0;29598
+May 21 07:17:15 backup-b nrpe[23340]: Connection from 10.6.0.6 closed.
+May 21 07:17:26 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:17:26Z" level=error msg="ERROR: diskstats collector failed after 0.000139s: invalid line for /proc/diskstats for loop2" source="collector.go:123"
+May 21 07:17:26 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:17:26Z" level=error msg="ERROR: diskstats collector failed after 0.000150s: invalid line for /proc/diskstats for sdb1" source="collector.go:123"
+May 21 07:17:41 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:17:41Z" level=error msg="ERROR: diskstats collector failed after 0.000212s: invalid line for /proc/diskstats for loop3" source="collector.go:123"
+May 21 07:17:41 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:17:41Z" level=error msg="ERROR: diskstats collector failed after 0.000190s: invalid line for /proc/diskstats for sda14" source="collector.go:123"
+May 21 07:17:56 backup-b prometheus[1111]: level=error ts=2022-05-21T07:17:56.360Z caller=notifier.go:527 component=notifier alertmanager=http://20.211.185.153:9093/api/v1/alerts count=2 msg="Error sending alert" err="Post \"http://20.211.185.153:9093/api/v1/alerts\": dial tcp 20.211.185.153:9093: i/o timeout"
+May 21 07:17:56 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:17:56Z" level=error msg="ERROR: diskstats collector failed after 0.000191s: invalid line for /proc/diskstats for sda15" source="collector.go:123"
+May 21 07:17:56 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:17:56Z" level=error msg="ERROR: diskstats collector failed after 0.000190s: invalid line for /proc/diskstats for loop2" source="collector.go:123"
+May 21 07:18:11 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:18:11Z" level=error msg="ERROR: diskstats collector failed after 0.000174s: invalid line for /proc/diskstats for loop5" source="collector.go:123"
+May 21 07:18:11 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:18:11Z" level=error msg="ERROR: diskstats collector failed after 0.000154s: invalid line for /proc/diskstats for sda" source="collector.go:123"
+May 21 07:18:26 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:18:26Z" level=error msg="ERROR: diskstats collector failed after 0.000149s: invalid line for /proc/diskstats for loop6" source="collector.go:123"
+May 21 07:18:26 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:18:26Z" level=error msg="ERROR: diskstats collector failed after 0.000103s: invalid line for /proc/diskstats for loop0" source="collector.go:123"
+May 21 07:18:41 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:18:41Z" level=error msg="ERROR: diskstats collector failed after 0.000220s: invalid line for /proc/diskstats for loop5" source="collector.go:123"
+May 21 07:18:41 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:18:41Z" level=error msg="ERROR: diskstats collector failed after 0.000187s: invalid line for /proc/diskstats for loop0" source="collector.go:123"
+May 21 07:18:56 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:18:56Z" level=error msg="ERROR: diskstats collector failed after 0.000126s: invalid line for /proc/diskstats for loop0" source="collector.go:123"
+May 21 07:18:56 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:18:56Z" level=error msg="ERROR: diskstats collector failed after 0.000215s: invalid line for /proc/diskstats for loop5" source="collector.go:123"
+May 21 07:19:11 backup-b prometheus[1111]: level=error ts=2022-05-21T07:19:11.360Z caller=notifier.go:527 component=notifier alertmanager=http://20.211.185.153:9093/api/v1/alerts count=2 msg="Error sending alert" err="Post \"http://20.211.185.153:9093/api/v1/alerts\": dial tcp 20.211.185.153:9093: i/o timeout"
+May 21 07:19:11 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:19:11Z" level=error msg="ERROR: diskstats collector failed after 0.000173s: invalid line for /proc/diskstats for loop5" source="collector.go:123"
+May 21 07:19:11 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:19:11Z" level=error msg="ERROR: diskstats collector failed after 0.000133s: invalid line for /proc/diskstats for loop0" source="collector.go:123"
+May 21 07:19:26 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:19:26Z" level=error msg="ERROR: diskstats collector failed after 0.000158s: invalid line for /proc/diskstats for loop4" source="collector.go:123"
+May 21 07:19:26 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:19:26Z" level=error msg="ERROR: diskstats collector failed after 0.000155s: invalid line for /proc/diskstats for sda1" source="collector.go:123"
+May 21 07:19:41 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:19:41Z" level=error msg="ERROR: diskstats collector failed after 0.000226s: invalid line for /proc/diskstats for sda15" source="collector.go:123"
+May 21 07:19:41 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:19:41Z" level=error msg="ERROR: diskstats collector failed after 0.000191s: invalid line for /proc/diskstats for loop7" source="collector.go:123"
+May 21 07:19:56 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:19:56Z" level=error msg="ERROR: diskstats collector failed after 0.000177s: invalid line for /proc/diskstats for loop2" source="collector.go:123"
+May 21 07:19:56 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:19:56Z" level=error msg="ERROR: diskstats collector failed after 0.000236s: invalid line for /proc/diskstats for sda1" source="collector.go:123"
+May 21 07:20:11 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:20:11Z" level=error msg="ERROR: diskstats collector failed after 0.000161s: invalid line for /proc/diskstats for sda1" source="collector.go:123"
+May 21 07:20:11 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:20:11Z" level=error msg="ERROR: diskstats collector failed after 0.000144s: invalid line for /proc/diskstats for loop2" source="collector.go:123"
+May 21 07:20:25 backup-b grafana-server[1120]: logger=context traceID=00000000000000000000000000000000 userId=0 orgId=0 uname= t=2022-05-21T07:20:25.45+0000 lvl=info msg="Request Completed" method=GET path=/ status=302 remote_addr=223.71.167.166 time_ms=7 duration=7.561046ms size=29 referer= traceID=00000000000000000000000000000000
+May 21 07:20:26 backup-b prometheus[1111]: level=error ts=2022-05-21T07:20:26.361Z caller=notifier.go:527 component=notifier alertmanager=http://20.211.185.153:9093/api/v1/alerts count=2 msg="Error sending alert" err="Post \"http://20.211.185.153:9093/api/v1/alerts\": context deadline exceeded"
+May 21 07:20:26 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:20:26Z" level=error msg="ERROR: diskstats collector failed after 0.000224s: invalid line for /proc/diskstats for sda" source="collector.go:123"
+May 21 07:20:26 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:20:26Z" level=error msg="ERROR: diskstats collector failed after 0.000156s: invalid line for /proc/diskstats for loop4" source="collector.go:123"
+May 21 07:20:41 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:20:41Z" level=error msg="ERROR: diskstats collector failed after 0.000344s: invalid line for /proc/diskstats for loop2" source="collector.go:123"
+May 21 07:20:41 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:20:41Z" level=error msg="ERROR: diskstats collector failed after 0.000172s: invalid line for /proc/diskstats for loop1" source="collector.go:123"
+May 21 07:20:56 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:20:56Z" level=error msg="ERROR: diskstats collector failed after 0.000246s: invalid line for /proc/diskstats for loop0" source="collector.go:123"
+May 21 07:20:56 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:20:56Z" level=error msg="ERROR: diskstats collector failed after 0.000151s: invalid line for /proc/diskstats for sda14" source="collector.go:123"
+May 21 07:21:11 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:21:11Z" level=error msg="ERROR: diskstats collector failed after 0.000196s: invalid line for /proc/diskstats for loop0" source="collector.go:123"
+May 21 07:21:11 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:21:11Z" level=error msg="ERROR: diskstats collector failed after 0.000161s: invalid line for /proc/diskstats for loop2" source="collector.go:123"
+May 21 07:21:26 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:21:26Z" level=error msg="ERROR: diskstats collector failed after 0.000168s: invalid line for /proc/diskstats for sda" source="collector.go:123"
+May 21 07:21:26 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:21:26Z" level=error msg="ERROR: diskstats collector failed after 0.000228s: invalid line for /proc/diskstats for loop0" source="collector.go:123"
+May 21 07:21:41 backup-b prometheus[1111]: level=error ts=2022-05-21T07:21:41.360Z caller=notifier.go:527 component=notifier alertmanager=http://20.211.185.153:9093/api/v1/alerts count=2 msg="Error sending alert" err="Post \"http://20.211.185.153:9093/api/v1/alerts\": dial tcp 20.211.185.153:9093: i/o timeout"
+May 21 07:21:41 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:21:41Z" level=error msg="ERROR: diskstats collector failed after 0.000156s: invalid line for /proc/diskstats for sda" source="collector.go:123"
+May 21 07:21:41 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:21:41Z" level=error msg="ERROR: diskstats collector failed after 0.000111s: invalid line for /proc/diskstats for loop0" source="collector.go:123"
+May 21 07:21:56 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:21:56Z" level=error msg="ERROR: diskstats collector failed after 0.000200s: invalid line for /proc/diskstats for loop4" source="collector.go:123"
+May 21 07:21:56 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:21:56Z" level=error msg="ERROR: diskstats collector failed after 0.000170s: invalid line for /proc/diskstats for sda14" source="collector.go:123"
+May 21 07:22:11 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:22:11Z" level=error msg="ERROR: diskstats collector failed after 0.000290s: invalid line for /proc/diskstats for loop1" source="collector.go:123"
+May 21 07:22:11 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:22:11Z" level=error msg="ERROR: diskstats collector failed after 0.000175s: invalid line for /proc/diskstats for loop3" source="collector.go:123"
+May 21 07:22:15 backup-b nrpe[23764]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 47305
+May 21 07:22:15 backup-b nrpe[23764]: Connection from 10.6.0.6 port 47305
+May 21 07:22:15 backup-b nrpe[23764]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
+May 21 07:22:15 backup-b nrpe[23764]: is_an_allowed_host (AF_INET): host is in allowed host list!
+May 21 07:22:15 backup-b nrpe[23764]: Host address is in allowed_hosts
+May 21 07:22:15 backup-b nrpe[23764]: Host 10.6.0.6 is asking for command 'check_hd' to be run...
+May 21 07:22:15 backup-b nrpe[23764]: Running command: /usr/lib/nagios/plugins/check_disk -w 20% -c 10% -p /dev/sda1
+May 21 07:22:15 backup-b nrpe[23765]: WARNING: my_system() seteuid(0): Operation not permitted
+May 21 07:22:15 backup-b nrpe[23764]: Command completed with return code 0 and output: DISK OK - free space: /var/tmp 24539 MB (82% inode=94%);| /var/tmp=5043MB;23678;26638;0;29598
+May 21 07:22:15 backup-b nrpe[23764]: Return Code: 0, Output: DISK OK - free space: /var/tmp 24539 MB (82% inode=94%);| /var/tmp=5043MB;23678;26638;0;29598
+May 21 07:22:15 backup-b nrpe[23764]: Connection from 10.6.0.6 closed.
+May 21 07:22:26 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:22:26Z" level=error msg="ERROR: diskstats collector failed after 0.000174s: invalid line for /proc/diskstats for loop1" source="collector.go:123"
+May 21 07:22:26 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:22:26Z" level=error msg="ERROR: diskstats collector failed after 0.000176s: invalid line for /proc/diskstats for loop5" source="collector.go:123"
+May 21 07:22:41 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:22:41Z" level=error msg="ERROR: diskstats collector failed after 0.000150s: invalid line for /proc/diskstats for loop7" source="collector.go:123"
+May 21 07:22:41 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:22:41Z" level=error msg="ERROR: diskstats collector failed after 0.000119s: invalid line for /proc/diskstats for loop1" source="collector.go:123"
+May 21 07:22:56 backup-b prometheus[1111]: level=error ts=2022-05-21T07:22:56.360Z caller=notifier.go:527 component=notifier alertmanager=http://20.211.185.153:9093/api/v1/alerts count=2 msg="Error sending alert" err="Post \"http://20.211.185.153:9093/api/v1/alerts\": context deadline exceeded"
+May 21 07:22:56 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:22:56Z" level=error msg="ERROR: diskstats collector failed after 0.000170s: invalid line for /proc/diskstats for sdb" source="collector.go:123"
+May 21 07:22:56 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:22:56Z" level=error msg="ERROR: diskstats collector failed after 0.000173s: invalid line for /proc/diskstats for sda14" source="collector.go:123"
+May 21 07:23:11 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:23:11Z" level=error msg="ERROR: diskstats collector failed after 0.000171s: invalid line for /proc/diskstats for loop2" source="collector.go:123"
+May 21 07:23:11 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:23:11Z" level=error msg="ERROR: diskstats collector failed after 0.000185s: invalid line for /proc/diskstats for sdb" source="collector.go:123"
+May 21 07:23:26 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:23:26Z" level=error msg="ERROR: diskstats collector failed after 0.000135s: invalid line for /proc/diskstats for loop2" source="collector.go:123"
+May 21 07:23:26 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:23:26Z" level=error msg="ERROR: diskstats collector failed after 0.000230s: invalid line for /proc/diskstats for loop0" source="collector.go:123"
+May 21 07:23:41 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:23:41Z" level=error msg="ERROR: diskstats collector failed after 0.000174s: invalid line for /proc/diskstats for loop1" source="collector.go:123"
+May 21 07:23:41 backup-b prometheus-node-exporter[1094]: time="2022-05-21T07:23:41Z" level=error msg="ERROR: diskstats collector failed after 0.000142s: invalid line for /proc/diskstats for loop1" source="collector.go:123"

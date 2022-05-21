@@ -1585,3 +1585,37 @@ sudo cat /var/log/user.log
 sudo cat /var/log/daemon.log
 exit
 logout
+sudo nano /etc/rsyslog.d/50-default.conf
+cd /var/log
+ls
+ls -al
+crontab -e
+cd ~/OE2-Group-Project/Backup-VM/
+cd ../Scripts/backup/
+ls
+sudo nano backup.sh 
+cat /var/log/cron.log 
+bubup
+cd /var/log
+ls
+ls -al
+sudo chown syslog user.log 
+sudo chgrp adm user.log 
+sudo systemctl restart rsyslog
+sudo systemctl status rsyslog
+ls -al
+cat user.log 
+exit
+sudo systemctl status rsyslog
+cd /var/log
+cat user.log 
+ls -al
+sudo nano /etc/rsyslog.d/50-default.conf
+sudo systemctl restart rsyslog
+sudo systemctl status rsyslog
+cat user.log 
+sudo systemctl status rsyslog
+cat user.log 
+sudo systemctl status rsyslog
+cat user.log 
+exit
