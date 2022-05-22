@@ -82,18 +82,18 @@ class nagios::config {
 	contact_groups => 'slackgroup',
 	}	
 
-	nagios_host { 'app-b.foo.org.nz':
-        target => '/etc/nagios3/conf.d/ppt_hosts.cfg',
-        alias => 'app',
-        check_period => '24x7',
-        max_check_attempts => 3,
-        check_command => 'check-host-alive',
-        notification_interval => 10,
-        notification_period => '24x7',
-        notification_options => 'd,u,r',
-        mode => '0444',
-	contact_groups => 'slackgroup',
-	}
+#	nagios_host { 'app-b.foo.org.nz':
+#        target => '/etc/nagios3/conf.d/ppt_hosts.cfg',
+#        alias => 'app',
+#        check_period => '24x7',
+#        max_check_attempts => 3,
+#        check_command => 'check-host-alive',
+#        notification_interval => 10,
+ #       notification_period => '24x7',
+ #       notification_options => 'd,u,r',
+ #       mode => '0444',
+#	contact_groups => 'slackgroup',
+#	}
 	nagios_host { 'backup-b.foo.org.nz':
         target => '/etc/nagios3/conf.d/ppt_hosts.cfg',
         alias => 'backup',
