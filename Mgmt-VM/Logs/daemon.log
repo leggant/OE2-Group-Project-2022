@@ -1,2 +1,23 @@
 May 22 06:28:29 mgmt-b puppet-master[31013]: Compiled catalog for mgmt-b.foo.org.nz in environment production in 0.07 seconds
 May 22 06:28:30 mgmt-b puppet-agent[29154]: Applied catalog in 0.34 seconds
+May 22 06:35:24 mgmt-b puppet-master[31013]: Compiled catalog for db-b.foo.org.nz in environment production in 0.06 seconds
+May 22 06:39:36 mgmt-b systemd[1]: Starting Clean php session files...
+May 22 06:39:36 mgmt-b systemd[1]: Started Clean php session files.
+May 22 06:40:04 mgmt-b puppet-master[31013]: Compiled catalog for app-b.foo.org.nz in environment production in 0.06 seconds
+May 22 06:41:41 mgmt-b puppet-master[31013]: Compiled catalog for backup-b.foo.org.nz in environment production in 0.04 seconds
+May 22 06:45:54 mgmt-b python3[1116]: 2022-05-22T06:45:54.132282Z INFO ExtHandler ExtHandler Checking for agent updates (family: Prod)
+May 22 06:45:54 mgmt-b python3[1116]: 2022-05-22T06:45:54.185627Z INFO ExtHandler ExtHandler [HEARTBEAT] Agent WALinuxAgent-2.7.1.0 is running as the goal state agent [DEBUG HeartbeatCounter: 332;HeartbeatId: DCBE2863-8E20-4127-9AE3-D90CC23C1DF8;DroppedPackets: 0;UpdateGSErrors: 0;AutoUpdate: 1]
+May 22 06:50:11 mgmt-b python3[1116]: 2022-05-22T06:50:11.130062Z INFO CollectLogsHandler ExtHandler Starting log collection...
+May 22 06:50:11 mgmt-b systemd[1]: Started /usr/bin/python3 -u bin/WALinuxAgent-2.7.1.0-py2.7.egg -collect-logs.
+May 22 06:50:36 mgmt-b python3[1116]: 2022-05-22T06:50:36.707384Z INFO CollectLogsHandler ExtHandler Successfully collected logs. Archive size: 2197698 b, elapsed time: 25576 ms.
+May 22 06:50:36 mgmt-b python3[1116]: 2022-05-22T06:50:36.755365Z INFO CollectLogsHandler ExtHandler Successfully uploaded logs.
+May 22 06:58:29 mgmt-b puppet-master[31013]: Compiled catalog for mgmt-b.foo.org.nz in environment production in 0.09 seconds
+May 22 06:58:30 mgmt-b puppet-agent[32222]: Applied catalog in 0.31 seconds
+May 22 07:05:24 mgmt-b puppet-master[31013]: Compiled catalog for db-b.foo.org.nz in environment production in 0.06 seconds
+May 22 07:09:36 mgmt-b systemd[1]: Starting Clean php session files...
+May 22 07:09:36 mgmt-b systemd[1]: Started Clean php session files.
+May 22 07:10:04 mgmt-b puppet-master[31013]: Compiled catalog for app-b.foo.org.nz in environment production in 0.05 seconds
+May 22 07:11:41 mgmt-b puppet-master[31013]: Compiled catalog for backup-b.foo.org.nz in environment production in 0.04 seconds
+May 22 07:15:55 mgmt-b python3[1116]: 2022-05-22T07:15:55.162126Z INFO ExtHandler ExtHandler [HEARTBEAT] Agent WALinuxAgent-2.7.1.0 is running as the goal state agent [DEBUG HeartbeatCounter: 333;HeartbeatId: DCBE2863-8E20-4127-9AE3-D90CC23C1DF8;DroppedPackets: 0;UpdateGSErrors: 0;AutoUpdate: 1]
+May 22 07:28:29 mgmt-b puppet-master[31013]: Compiled catalog for mgmt-b.foo.org.nz in environment production in 0.07 seconds
+May 22 07:28:30 mgmt-b puppet-agent[2752]: Applied catalog in 0.41 seconds
