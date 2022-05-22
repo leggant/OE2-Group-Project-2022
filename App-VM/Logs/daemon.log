@@ -3124,3 +3124,303 @@ May 22 04:09:22 app-b systemd[1]: Starting Clean php session files...
 May 22 04:09:22 app-b sessionclean[7386]: PHP Warning:  Module 'pdo_mysql' already loaded in Unknown on line 0
 May 22 04:09:23 app-b sessionclean[7386]: PHP Warning:  Module 'pdo_mysql' already loaded in Unknown on line 0
 May 22 04:09:23 app-b systemd[1]: Started Clean php session files.
+May 22 04:10:06 app-b puppet-agent[7616]: Applied catalog in 0.29 seconds
+May 22 04:10:41 app-b nrpe[7709]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 25319
+May 22 04:10:41 app-b nrpe[7709]: Connection from 10.6.0.6 port 25319
+May 22 04:10:41 app-b nrpe[7709]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
+May 22 04:10:41 app-b nrpe[7709]: is_an_allowed_host (AF_INET): host is in allowed host list!
+May 22 04:10:41 app-b nrpe[7709]: Host address is in allowed_hosts
+May 22 04:10:41 app-b nrpe[7709]: Host 10.6.0.6 is asking for command 'check_hd' to be run...
+May 22 04:10:41 app-b nrpe[7709]: Running command: /usr/lib/nagios/plugins/check_disk -w 10% -c 20% -p /dev/sda1
+May 22 04:10:41 app-b nrpe[7711]: WARNING: my_system() seteuid(0): Operation not permitted
+May 22 04:10:41 app-b nrpe[7709]: Command completed with return code 0 and output: DISK OK - free space: /var/tmp 24802 MB (83% inode=93%);| /var/tmp=4780MB;26638;23678;0;29598
+May 22 04:10:41 app-b nrpe[7709]: Return Code: 0, Output: DISK OK - free space: /var/tmp 24802 MB (83% inode=93%);| /var/tmp=4780MB;26638;23678;0;29598
+May 22 04:10:41 app-b nrpe[7709]: Connection from 10.6.0.6 closed.
+May 22 04:15:41 app-b nrpe[8075]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 19177
+May 22 04:15:41 app-b nrpe[8075]: Connection from 10.6.0.6 port 19177
+May 22 04:15:41 app-b nrpe[8075]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
+May 22 04:15:41 app-b nrpe[8075]: is_an_allowed_host (AF_INET): host is in allowed host list!
+May 22 04:15:41 app-b nrpe[8075]: Host address is in allowed_hosts
+May 22 04:15:41 app-b nrpe[8075]: Host 10.6.0.6 is asking for command 'check_hd' to be run...
+May 22 04:15:41 app-b nrpe[8075]: Running command: /usr/lib/nagios/plugins/check_disk -w 10% -c 20% -p /dev/sda1
+May 22 04:15:41 app-b nrpe[8077]: WARNING: my_system() seteuid(0): Operation not permitted
+May 22 04:15:41 app-b nrpe[8075]: Command completed with return code 0 and output: DISK OK - free space: /var/tmp 24801 MB (83% inode=93%);| /var/tmp=4781MB;26638;23678;0;29598
+May 22 04:15:41 app-b nrpe[8075]: Return Code: 0, Output: DISK OK - free space: /var/tmp 24801 MB (83% inode=93%);| /var/tmp=4781MB;26638;23678;0;29598
+May 22 04:15:41 app-b nrpe[8075]: Connection from 10.6.0.6 closed.
+May 22 04:20:41 app-b nrpe[8454]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 13035
+May 22 04:20:41 app-b nrpe[8454]: Connection from 10.6.0.6 port 13035
+May 22 04:20:41 app-b nrpe[8454]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
+May 22 04:20:41 app-b nrpe[8454]: is_an_allowed_host (AF_INET): host is in allowed host list!
+May 22 04:20:41 app-b nrpe[8454]: Host address is in allowed_hosts
+May 22 04:20:41 app-b nrpe[8454]: Host 10.6.0.6 is asking for command 'check_hd' to be run...
+May 22 04:20:41 app-b nrpe[8454]: Running command: /usr/lib/nagios/plugins/check_disk -w 10% -c 20% -p /dev/sda1
+May 22 04:20:41 app-b nrpe[8455]: WARNING: my_system() seteuid(0): Operation not permitted
+May 22 04:20:41 app-b nrpe[8454]: Command completed with return code 0 and output: DISK OK - free space: /var/tmp 24801 MB (83% inode=93%);| /var/tmp=4781MB;26638;23678;0;29598
+May 22 04:20:41 app-b nrpe[8454]: Return Code: 0, Output: DISK OK - free space: /var/tmp 24801 MB (83% inode=93%);| /var/tmp=4781MB;26638;23678;0;29598
+May 22 04:20:41 app-b nrpe[8454]: Connection from 10.6.0.6 closed.
+May 22 04:25:41 app-b nrpe[8829]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 6893
+May 22 04:25:41 app-b nrpe[8829]: Connection from 10.6.0.6 port 6893
+May 22 04:25:41 app-b nrpe[8829]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
+May 22 04:25:41 app-b nrpe[8829]: is_an_allowed_host (AF_INET): host is in allowed host list!
+May 22 04:25:41 app-b nrpe[8829]: Host address is in allowed_hosts
+May 22 04:25:41 app-b nrpe[8829]: Host 10.6.0.6 is asking for command 'check_hd' to be run...
+May 22 04:25:41 app-b nrpe[8829]: Running command: /usr/lib/nagios/plugins/check_disk -w 10% -c 20% -p /dev/sda1
+May 22 04:25:41 app-b nrpe[8830]: WARNING: my_system() seteuid(0): Operation not permitted
+May 22 04:25:41 app-b nrpe[8829]: Command completed with return code 0 and output: DISK OK - free space: /var/tmp 24801 MB (83% inode=93%);| /var/tmp=4781MB;26638;23678;0;29598
+May 22 04:25:41 app-b nrpe[8829]: Return Code: 0, Output: DISK OK - free space: /var/tmp 24801 MB (83% inode=93%);| /var/tmp=4781MB;26638;23678;0;29598
+May 22 04:25:41 app-b nrpe[8829]: Connection from 10.6.0.6 closed.
+May 22 04:29:35 app-b python3[1108]: 2022-05-22T04:29:35.923995Z INFO ExtHandler ExtHandler Checking for agent updates (family: Prod)
+May 22 04:29:35 app-b python3[1108]: 2022-05-22T04:29:35.973083Z INFO ExtHandler ExtHandler [HEARTBEAT] Agent WALinuxAgent-2.7.1.0 is running as the goal state agent [DEBUG HeartbeatCounter: 326;HeartbeatId: 16D3D0B7-B037-43FB-A9BF-85479E8F13C7;DroppedPackets: 0;UpdateGSErrors: 0;AutoUpdate: 1]
+May 22 04:30:41 app-b nrpe[9198]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 49280
+May 22 04:30:41 app-b nrpe[9198]: Connection from 10.6.0.6 port 49280
+May 22 04:30:41 app-b nrpe[9198]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
+May 22 04:30:41 app-b nrpe[9198]: is_an_allowed_host (AF_INET): host is in allowed host list!
+May 22 04:30:41 app-b nrpe[9198]: Host address is in allowed_hosts
+May 22 04:30:41 app-b nrpe[9198]: Host 10.6.0.6 is asking for command 'check_hd' to be run...
+May 22 04:30:41 app-b nrpe[9198]: Running command: /usr/lib/nagios/plugins/check_disk -w 10% -c 20% -p /dev/sda1
+May 22 04:30:41 app-b nrpe[9199]: WARNING: my_system() seteuid(0): Operation not permitted
+May 22 04:30:41 app-b nrpe[9198]: Command completed with return code 0 and output: DISK OK - free space: /var/tmp 24801 MB (83% inode=93%);| /var/tmp=4781MB;26638;23678;0;29598
+May 22 04:30:41 app-b nrpe[9198]: Return Code: 0, Output: DISK OK - free space: /var/tmp 24801 MB (83% inode=93%);| /var/tmp=4781MB;26638;23678;0;29598
+May 22 04:30:41 app-b nrpe[9198]: Connection from 10.6.0.6 closed.
+May 22 04:35:41 app-b nrpe[9573]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 41090
+May 22 04:35:41 app-b nrpe[9573]: Connection from 10.6.0.6 port 41090
+May 22 04:35:41 app-b nrpe[9573]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
+May 22 04:35:41 app-b nrpe[9573]: is_an_allowed_host (AF_INET): host is in allowed host list!
+May 22 04:35:41 app-b nrpe[9573]: Host address is in allowed_hosts
+May 22 04:35:41 app-b nrpe[9573]: Host 10.6.0.6 is asking for command 'check_hd' to be run...
+May 22 04:35:41 app-b nrpe[9573]: Running command: /usr/lib/nagios/plugins/check_disk -w 10% -c 20% -p /dev/sda1
+May 22 04:35:41 app-b nrpe[9574]: WARNING: my_system() seteuid(0): Operation not permitted
+May 22 04:35:41 app-b nrpe[9573]: Command completed with return code 0 and output: DISK OK - free space: /var/tmp 24800 MB (83% inode=93%);| /var/tmp=4782MB;26638;23678;0;29598
+May 22 04:35:41 app-b nrpe[9573]: Return Code: 0, Output: DISK OK - free space: /var/tmp 24800 MB (83% inode=93%);| /var/tmp=4782MB;26638;23678;0;29598
+May 22 04:35:41 app-b nrpe[9573]: Connection from 10.6.0.6 closed.
+May 22 04:39:22 app-b systemd[1]: Starting Clean php session files...
+May 22 04:39:22 app-b sessionclean[9848]: PHP Warning:  Module 'pdo_mysql' already loaded in Unknown on line 0
+May 22 04:39:22 app-b sessionclean[9848]: PHP Warning:  Module 'pdo_mysql' already loaded in Unknown on line 0
+May 22 04:39:22 app-b systemd[1]: Started Clean php session files.
+May 22 04:40:05 app-b puppet-agent[9987]: Applied catalog in 0.26 seconds
+May 22 04:40:41 app-b nrpe[10063]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 34948
+May 22 04:40:41 app-b nrpe[10063]: Connection from 10.6.0.6 port 34948
+May 22 04:40:41 app-b nrpe[10063]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
+May 22 04:40:41 app-b nrpe[10063]: is_an_allowed_host (AF_INET): host is in allowed host list!
+May 22 04:40:41 app-b nrpe[10063]: Host address is in allowed_hosts
+May 22 04:40:41 app-b nrpe[10063]: Host 10.6.0.6 is asking for command 'check_hd' to be run...
+May 22 04:40:41 app-b nrpe[10063]: Running command: /usr/lib/nagios/plugins/check_disk -w 10% -c 20% -p /dev/sda1
+May 22 04:40:41 app-b nrpe[10064]: WARNING: my_system() seteuid(0): Operation not permitted
+May 22 04:40:41 app-b nrpe[10063]: Command completed with return code 0 and output: DISK OK - free space: /var/tmp 24800 MB (83% inode=93%);| /var/tmp=4782MB;26638;23678;0;29598
+May 22 04:40:41 app-b nrpe[10063]: Return Code: 0, Output: DISK OK - free space: /var/tmp 24800 MB (83% inode=93%);| /var/tmp=4782MB;26638;23678;0;29598
+May 22 04:40:41 app-b nrpe[10063]: Connection from 10.6.0.6 closed.
+May 22 04:45:41 app-b nrpe[10433]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 28806
+May 22 04:45:41 app-b nrpe[10433]: Connection from 10.6.0.6 port 28806
+May 22 04:45:41 app-b nrpe[10433]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
+May 22 04:45:41 app-b nrpe[10433]: is_an_allowed_host (AF_INET): host is in allowed host list!
+May 22 04:45:41 app-b nrpe[10433]: Host address is in allowed_hosts
+May 22 04:45:41 app-b nrpe[10433]: Host 10.6.0.6 is asking for command 'check_hd' to be run...
+May 22 04:45:41 app-b nrpe[10433]: Running command: /usr/lib/nagios/plugins/check_disk -w 10% -c 20% -p /dev/sda1
+May 22 04:45:41 app-b nrpe[10434]: WARNING: my_system() seteuid(0): Operation not permitted
+May 22 04:45:41 app-b nrpe[10433]: Command completed with return code 0 and output: DISK OK - free space: /var/tmp 24800 MB (83% inode=93%);| /var/tmp=4782MB;26638;23678;0;29598
+May 22 04:45:41 app-b nrpe[10433]: Return Code: 0, Output: DISK OK - free space: /var/tmp 24800 MB (83% inode=93%);| /var/tmp=4782MB;26638;23678;0;29598
+May 22 04:45:41 app-b nrpe[10433]: Connection from 10.6.0.6 closed.
+May 22 04:50:41 app-b nrpe[10794]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 24712
+May 22 04:50:41 app-b nrpe[10794]: Connection from 10.6.0.6 port 24712
+May 22 04:50:41 app-b nrpe[10794]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
+May 22 04:50:41 app-b nrpe[10794]: is_an_allowed_host (AF_INET): host is in allowed host list!
+May 22 04:50:41 app-b nrpe[10794]: Host address is in allowed_hosts
+May 22 04:50:41 app-b nrpe[10794]: Host 10.6.0.6 is asking for command 'check_hd' to be run...
+May 22 04:50:41 app-b nrpe[10794]: Running command: /usr/lib/nagios/plugins/check_disk -w 10% -c 20% -p /dev/sda1
+May 22 04:50:41 app-b nrpe[10795]: WARNING: my_system() seteuid(0): Operation not permitted
+May 22 04:50:41 app-b nrpe[10794]: Command completed with return code 0 and output: DISK OK - free space: /var/tmp 24798 MB (83% inode=93%);| /var/tmp=4783MB;26638;23678;0;29598
+May 22 04:50:41 app-b nrpe[10794]: Return Code: 0, Output: DISK OK - free space: /var/tmp 24798 MB (83% inode=93%);| /var/tmp=4783MB;26638;23678;0;29598
+May 22 04:50:41 app-b nrpe[10794]: Connection from 10.6.0.6 closed.
+May 22 04:55:41 app-b nrpe[11175]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 18570
+May 22 04:55:41 app-b nrpe[11175]: Connection from 10.6.0.6 port 18570
+May 22 04:55:41 app-b nrpe[11175]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
+May 22 04:55:41 app-b nrpe[11175]: is_an_allowed_host (AF_INET): host is in allowed host list!
+May 22 04:55:41 app-b nrpe[11175]: Host address is in allowed_hosts
+May 22 04:55:41 app-b nrpe[11175]: Host 10.6.0.6 is asking for command 'check_hd' to be run...
+May 22 04:55:41 app-b nrpe[11175]: Running command: /usr/lib/nagios/plugins/check_disk -w 10% -c 20% -p /dev/sda1
+May 22 04:55:41 app-b nrpe[11176]: WARNING: my_system() seteuid(0): Operation not permitted
+May 22 04:55:41 app-b nrpe[11175]: Command completed with return code 0 and output: DISK OK - free space: /var/tmp 24798 MB (83% inode=93%);| /var/tmp=4783MB;26638;23678;0;29598
+May 22 04:55:41 app-b nrpe[11175]: Return Code: 0, Output: DISK OK - free space: /var/tmp 24798 MB (83% inode=93%);| /var/tmp=4783MB;26638;23678;0;29598
+May 22 04:55:41 app-b nrpe[11175]: Connection from 10.6.0.6 closed.
+May 22 04:57:52 app-b python3[1108]: 2022-05-22T04:57:52.015266Z INFO CollectLogsHandler ExtHandler Starting log collection...
+May 22 04:57:52 app-b systemd[1]: Started /usr/bin/python3 -u bin/WALinuxAgent-2.7.1.0-py2.7.egg -collect-logs.
+May 22 04:58:03 app-b python3[1108]: 2022-05-22T04:58:03.907588Z INFO CollectLogsHandler ExtHandler Successfully collected logs. Archive size: 693507 b, elapsed time: 11891 ms.
+May 22 04:58:03 app-b python3[1108]: 2022-05-22T04:58:03.925490Z INFO CollectLogsHandler ExtHandler Successfully uploaded logs.
+May 22 04:59:37 app-b python3[1108]: 2022-05-22T04:59:37.021080Z INFO ExtHandler ExtHandler [HEARTBEAT] Agent WALinuxAgent-2.7.1.0 is running as the goal state agent [DEBUG HeartbeatCounter: 327;HeartbeatId: 16D3D0B7-B037-43FB-A9BF-85479E8F13C7;DroppedPackets: 0;UpdateGSErrors: 0;AutoUpdate: 1]
+May 22 05:00:41 app-b nrpe[11571]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 10892
+May 22 05:00:41 app-b nrpe[11571]: Connection from 10.6.0.6 port 10892
+May 22 05:00:41 app-b nrpe[11571]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
+May 22 05:00:41 app-b nrpe[11571]: is_an_allowed_host (AF_INET): host is in allowed host list!
+May 22 05:00:41 app-b nrpe[11571]: Host address is in allowed_hosts
+May 22 05:00:41 app-b nrpe[11571]: Host 10.6.0.6 is asking for command 'check_hd' to be run...
+May 22 05:00:41 app-b nrpe[11571]: Running command: /usr/lib/nagios/plugins/check_disk -w 10% -c 20% -p /dev/sda1
+May 22 05:00:41 app-b nrpe[11572]: WARNING: my_system() seteuid(0): Operation not permitted
+May 22 05:00:41 app-b nrpe[11571]: Command completed with return code 0 and output: DISK OK - free space: /var/tmp 24798 MB (83% inode=93%);| /var/tmp=4783MB;26638;23678;0;29598
+May 22 05:00:41 app-b nrpe[11571]: Return Code: 0, Output: DISK OK - free space: /var/tmp 24798 MB (83% inode=93%);| /var/tmp=4783MB;26638;23678;0;29598
+May 22 05:00:41 app-b nrpe[11571]: Connection from 10.6.0.6 closed.
+May 22 05:05:41 app-b nrpe[11932]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 4750
+May 22 05:05:41 app-b nrpe[11932]: Connection from 10.6.0.6 port 4750
+May 22 05:05:41 app-b nrpe[11932]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
+May 22 05:05:41 app-b nrpe[11932]: is_an_allowed_host (AF_INET): host is in allowed host list!
+May 22 05:05:41 app-b nrpe[11932]: Host address is in allowed_hosts
+May 22 05:05:41 app-b nrpe[11932]: Host 10.6.0.6 is asking for command 'check_hd' to be run...
+May 22 05:05:41 app-b nrpe[11932]: Running command: /usr/lib/nagios/plugins/check_disk -w 10% -c 20% -p /dev/sda1
+May 22 05:05:41 app-b nrpe[11933]: WARNING: my_system() seteuid(0): Operation not permitted
+May 22 05:05:41 app-b nrpe[11932]: Command completed with return code 0 and output: DISK OK - free space: /var/tmp 24798 MB (83% inode=93%);| /var/tmp=4784MB;26638;23678;0;29598
+May 22 05:05:41 app-b nrpe[11932]: Return Code: 0, Output: DISK OK - free space: /var/tmp 24798 MB (83% inode=93%);| /var/tmp=4784MB;26638;23678;0;29598
+May 22 05:05:41 app-b nrpe[11932]: Connection from 10.6.0.6 closed.
+May 22 05:09:22 app-b systemd[1]: Starting Clean php session files...
+May 22 05:09:22 app-b sessionclean[12215]: PHP Warning:  Module 'pdo_mysql' already loaded in Unknown on line 0
+May 22 05:09:22 app-b sessionclean[12215]: PHP Warning:  Module 'pdo_mysql' already loaded in Unknown on line 0
+May 22 05:09:22 app-b systemd[1]: Started Clean php session files.
+May 22 05:10:05 app-b puppet-agent[12354]: Applied catalog in 0.26 seconds
+May 22 05:10:41 app-b nrpe[12434]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 64143
+May 22 05:10:41 app-b nrpe[12434]: Connection from 10.6.0.6 port 64143
+May 22 05:10:41 app-b nrpe[12434]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
+May 22 05:10:41 app-b nrpe[12434]: is_an_allowed_host (AF_INET): host is in allowed host list!
+May 22 05:10:41 app-b nrpe[12434]: Host address is in allowed_hosts
+May 22 05:10:41 app-b nrpe[12434]: Host 10.6.0.6 is asking for command 'check_hd' to be run...
+May 22 05:10:41 app-b nrpe[12434]: Running command: /usr/lib/nagios/plugins/check_disk -w 10% -c 20% -p /dev/sda1
+May 22 05:10:41 app-b nrpe[12436]: WARNING: my_system() seteuid(0): Operation not permitted
+May 22 05:10:41 app-b nrpe[12434]: Command completed with return code 0 and output: DISK OK - free space: /var/tmp 24797 MB (83% inode=93%);| /var/tmp=4785MB;26638;23678;0;29598
+May 22 05:10:41 app-b nrpe[12434]: Return Code: 0, Output: DISK OK - free space: /var/tmp 24797 MB (83% inode=93%);| /var/tmp=4785MB;26638;23678;0;29598
+May 22 05:10:41 app-b nrpe[12434]: Connection from 10.6.0.6 closed.
+May 22 05:15:41 app-b nrpe[12800]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 58001
+May 22 05:15:41 app-b nrpe[12800]: Connection from 10.6.0.6 port 58001
+May 22 05:15:41 app-b nrpe[12800]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
+May 22 05:15:41 app-b nrpe[12800]: is_an_allowed_host (AF_INET): host is in allowed host list!
+May 22 05:15:41 app-b nrpe[12800]: Host address is in allowed_hosts
+May 22 05:15:41 app-b nrpe[12800]: Host 10.6.0.6 is asking for command 'check_hd' to be run...
+May 22 05:15:41 app-b nrpe[12800]: Running command: /usr/lib/nagios/plugins/check_disk -w 10% -c 20% -p /dev/sda1
+May 22 05:15:41 app-b nrpe[12802]: WARNING: my_system() seteuid(0): Operation not permitted
+May 22 05:15:41 app-b nrpe[12800]: Command completed with return code 0 and output: DISK OK - free space: /var/tmp 24797 MB (83% inode=93%);| /var/tmp=4785MB;26638;23678;0;29598
+May 22 05:15:41 app-b nrpe[12800]: Return Code: 0, Output: DISK OK - free space: /var/tmp 24797 MB (83% inode=93%);| /var/tmp=4785MB;26638;23678;0;29598
+May 22 05:15:41 app-b nrpe[12800]: Connection from 10.6.0.6 closed.
+May 22 05:20:41 app-b nrpe[13169]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 52371
+May 22 05:20:41 app-b nrpe[13169]: Connection from 10.6.0.6 port 52371
+May 22 05:20:41 app-b nrpe[13169]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
+May 22 05:20:41 app-b nrpe[13169]: is_an_allowed_host (AF_INET): host is in allowed host list!
+May 22 05:20:41 app-b nrpe[13169]: Host address is in allowed_hosts
+May 22 05:20:41 app-b nrpe[13169]: Host 10.6.0.6 is asking for command 'check_hd' to be run...
+May 22 05:20:41 app-b nrpe[13169]: Running command: /usr/lib/nagios/plugins/check_disk -w 10% -c 20% -p /dev/sda1
+May 22 05:20:41 app-b nrpe[13171]: WARNING: my_system() seteuid(0): Operation not permitted
+May 22 05:20:41 app-b nrpe[13169]: Command completed with return code 0 and output: DISK OK - free space: /var/tmp 24797 MB (83% inode=93%);| /var/tmp=4785MB;26638;23678;0;29598
+May 22 05:20:41 app-b nrpe[13169]: Return Code: 0, Output: DISK OK - free space: /var/tmp 24797 MB (83% inode=93%);| /var/tmp=4785MB;26638;23678;0;29598
+May 22 05:20:41 app-b nrpe[13169]: Connection from 10.6.0.6 closed.
+May 22 05:25:41 app-b nrpe[13541]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 44181
+May 22 05:25:41 app-b nrpe[13541]: Connection from 10.6.0.6 port 44181
+May 22 05:25:41 app-b nrpe[13541]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
+May 22 05:25:41 app-b nrpe[13541]: is_an_allowed_host (AF_INET): host is in allowed host list!
+May 22 05:25:41 app-b nrpe[13541]: Host address is in allowed_hosts
+May 22 05:25:41 app-b nrpe[13541]: Host 10.6.0.6 is asking for command 'check_hd' to be run...
+May 22 05:25:41 app-b nrpe[13541]: Running command: /usr/lib/nagios/plugins/check_disk -w 10% -c 20% -p /dev/sda1
+May 22 05:25:41 app-b nrpe[13542]: WARNING: my_system() seteuid(0): Operation not permitted
+May 22 05:25:41 app-b nrpe[13541]: Command completed with return code 0 and output: DISK OK - free space: /var/tmp 24796 MB (83% inode=93%);| /var/tmp=4786MB;26638;23678;0;29598
+May 22 05:25:41 app-b nrpe[13541]: Return Code: 0, Output: DISK OK - free space: /var/tmp 24796 MB (83% inode=93%);| /var/tmp=4786MB;26638;23678;0;29598
+May 22 05:25:41 app-b nrpe[13541]: Connection from 10.6.0.6 closed.
+May 22 05:29:38 app-b python3[1108]: 2022-05-22T05:29:38.231065Z INFO ExtHandler ExtHandler Checking for agent updates (family: Prod)
+May 22 05:29:38 app-b python3[1108]: 2022-05-22T05:29:38.283259Z INFO ExtHandler ExtHandler [HEARTBEAT] Agent WALinuxAgent-2.7.1.0 is running as the goal state agent [DEBUG HeartbeatCounter: 328;HeartbeatId: 16D3D0B7-B037-43FB-A9BF-85479E8F13C7;DroppedPackets: 0;UpdateGSErrors: 0;AutoUpdate: 1]
+May 22 05:30:41 app-b nrpe[13919]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 38551
+May 22 05:30:41 app-b nrpe[13919]: Connection from 10.6.0.6 port 38551
+May 22 05:30:41 app-b nrpe[13919]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
+May 22 05:30:41 app-b nrpe[13919]: is_an_allowed_host (AF_INET): host is in allowed host list!
+May 22 05:30:41 app-b nrpe[13919]: Host address is in allowed_hosts
+May 22 05:30:41 app-b nrpe[13919]: Host 10.6.0.6 is asking for command 'check_hd' to be run...
+May 22 05:30:41 app-b nrpe[13919]: Running command: /usr/lib/nagios/plugins/check_disk -w 10% -c 20% -p /dev/sda1
+May 22 05:30:41 app-b nrpe[13921]: WARNING: my_system() seteuid(0): Operation not permitted
+May 22 05:30:41 app-b nrpe[13919]: Command completed with return code 0 and output: DISK OK - free space: /var/tmp 24796 MB (83% inode=93%);| /var/tmp=4786MB;26638;23678;0;29598
+May 22 05:30:41 app-b nrpe[13919]: Return Code: 0, Output: DISK OK - free space: /var/tmp 24796 MB (83% inode=93%);| /var/tmp=4786MB;26638;23678;0;29598
+May 22 05:30:41 app-b nrpe[13919]: Connection from 10.6.0.6 closed.
+May 22 05:35:41 app-b nrpe[14294]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 32409
+May 22 05:35:41 app-b nrpe[14294]: Connection from 10.6.0.6 port 32409
+May 22 05:35:41 app-b nrpe[14294]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
+May 22 05:35:41 app-b nrpe[14294]: is_an_allowed_host (AF_INET): host is in allowed host list!
+May 22 05:35:41 app-b nrpe[14294]: Host address is in allowed_hosts
+May 22 05:35:41 app-b nrpe[14294]: Host 10.6.0.6 is asking for command 'check_hd' to be run...
+May 22 05:35:41 app-b nrpe[14294]: Running command: /usr/lib/nagios/plugins/check_disk -w 10% -c 20% -p /dev/sda1
+May 22 05:35:41 app-b nrpe[14296]: WARNING: my_system() seteuid(0): Operation not permitted
+May 22 05:35:41 app-b nrpe[14294]: Command completed with return code 0 and output: DISK OK - free space: /var/tmp 24796 MB (83% inode=93%);| /var/tmp=4786MB;26638;23678;0;29598
+May 22 05:35:41 app-b nrpe[14294]: Return Code: 0, Output: DISK OK - free space: /var/tmp 24796 MB (83% inode=93%);| /var/tmp=4786MB;26638;23678;0;29598
+May 22 05:35:41 app-b nrpe[14294]: Connection from 10.6.0.6 closed.
+May 22 05:39:22 app-b systemd[1]: Starting Clean php session files...
+May 22 05:39:22 app-b sessionclean[14564]: PHP Warning:  Module 'pdo_mysql' already loaded in Unknown on line 0
+May 22 05:39:22 app-b sessionclean[14564]: PHP Warning:  Module 'pdo_mysql' already loaded in Unknown on line 0
+May 22 05:39:22 app-b systemd[1]: Started Clean php session files.
+May 22 05:40:05 app-b puppet-agent[14710]: Applied catalog in 0.27 seconds
+May 22 05:40:41 app-b nrpe[14783]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 26267
+May 22 05:40:41 app-b nrpe[14783]: Connection from 10.6.0.6 port 26267
+May 22 05:40:41 app-b nrpe[14783]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
+May 22 05:40:41 app-b nrpe[14783]: is_an_allowed_host (AF_INET): host is in allowed host list!
+May 22 05:40:41 app-b nrpe[14783]: Host address is in allowed_hosts
+May 22 05:40:41 app-b nrpe[14783]: Host 10.6.0.6 is asking for command 'check_hd' to be run...
+May 22 05:40:41 app-b nrpe[14783]: Running command: /usr/lib/nagios/plugins/check_disk -w 10% -c 20% -p /dev/sda1
+May 22 05:40:41 app-b nrpe[14785]: WARNING: my_system() seteuid(0): Operation not permitted
+May 22 05:40:41 app-b nrpe[14783]: Command completed with return code 0 and output: DISK OK - free space: /var/tmp 24795 MB (83% inode=93%);| /var/tmp=4787MB;26638;23678;0;29598
+May 22 05:40:41 app-b nrpe[14783]: Return Code: 0, Output: DISK OK - free space: /var/tmp 24795 MB (83% inode=93%);| /var/tmp=4787MB;26638;23678;0;29598
+May 22 05:40:41 app-b nrpe[14783]: Connection from 10.6.0.6 closed.
+May 22 05:45:41 app-b nrpe[15163]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 20125
+May 22 05:45:41 app-b nrpe[15163]: Connection from 10.6.0.6 port 20125
+May 22 05:45:41 app-b nrpe[15163]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
+May 22 05:45:41 app-b nrpe[15163]: is_an_allowed_host (AF_INET): host is in allowed host list!
+May 22 05:45:41 app-b nrpe[15163]: Host address is in allowed_hosts
+May 22 05:45:41 app-b nrpe[15163]: Host 10.6.0.6 is asking for command 'check_hd' to be run...
+May 22 05:45:41 app-b nrpe[15163]: Running command: /usr/lib/nagios/plugins/check_disk -w 10% -c 20% -p /dev/sda1
+May 22 05:45:41 app-b nrpe[15164]: WARNING: my_system() seteuid(0): Operation not permitted
+May 22 05:45:41 app-b nrpe[15163]: Command completed with return code 0 and output: DISK OK - free space: /var/tmp 24795 MB (83% inode=93%);| /var/tmp=4787MB;26638;23678;0;29598
+May 22 05:45:41 app-b nrpe[15163]: Return Code: 0, Output: DISK OK - free space: /var/tmp 24795 MB (83% inode=93%);| /var/tmp=4787MB;26638;23678;0;29598
+May 22 05:45:41 app-b nrpe[15163]: Connection from 10.6.0.6 closed.
+May 22 05:50:41 app-b nrpe[15535]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 13983
+May 22 05:50:41 app-b nrpe[15535]: Connection from 10.6.0.6 port 13983
+May 22 05:50:41 app-b nrpe[15535]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
+May 22 05:50:41 app-b nrpe[15535]: is_an_allowed_host (AF_INET): host is in allowed host list!
+May 22 05:50:41 app-b nrpe[15535]: Host address is in allowed_hosts
+May 22 05:50:41 app-b nrpe[15535]: Host 10.6.0.6 is asking for command 'check_hd' to be run...
+May 22 05:50:41 app-b nrpe[15535]: Running command: /usr/lib/nagios/plugins/check_disk -w 10% -c 20% -p /dev/sda1
+May 22 05:50:41 app-b nrpe[15536]: WARNING: my_system() seteuid(0): Operation not permitted
+May 22 05:50:41 app-b nrpe[15535]: Command completed with return code 0 and output: DISK OK - free space: /var/tmp 24795 MB (83% inode=93%);| /var/tmp=4787MB;26638;23678;0;29598
+May 22 05:50:41 app-b nrpe[15535]: Return Code: 0, Output: DISK OK - free space: /var/tmp 24795 MB (83% inode=93%);| /var/tmp=4787MB;26638;23678;0;29598
+May 22 05:50:41 app-b nrpe[15535]: Connection from 10.6.0.6 closed.
+May 22 05:55:41 app-b nrpe[15900]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 7329
+May 22 05:55:41 app-b nrpe[15900]: Connection from 10.6.0.6 port 7329
+May 22 05:55:41 app-b nrpe[15900]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
+May 22 05:55:41 app-b nrpe[15900]: is_an_allowed_host (AF_INET): host is in allowed host list!
+May 22 05:55:41 app-b nrpe[15900]: Host address is in allowed_hosts
+May 22 05:55:41 app-b nrpe[15900]: Host 10.6.0.6 is asking for command 'check_hd' to be run...
+May 22 05:55:41 app-b nrpe[15900]: Running command: /usr/lib/nagios/plugins/check_disk -w 10% -c 20% -p /dev/sda1
+May 22 05:55:41 app-b nrpe[15901]: WARNING: my_system() seteuid(0): Operation not permitted
+May 22 05:55:41 app-b nrpe[15900]: Command completed with return code 0 and output: DISK OK - free space: /var/tmp 24795 MB (83% inode=93%);| /var/tmp=4787MB;26638;23678;0;29598
+May 22 05:55:41 app-b nrpe[15900]: Return Code: 0, Output: DISK OK - free space: /var/tmp 24795 MB (83% inode=93%);| /var/tmp=4787MB;26638;23678;0;29598
+May 22 05:55:41 app-b nrpe[15900]: Connection from 10.6.0.6 closed.
+May 22 05:58:04 app-b python3[1108]: 2022-05-22T05:58:04.024652Z INFO CollectLogsHandler ExtHandler Starting log collection...
+May 22 05:58:04 app-b systemd[1]: Started /usr/bin/python3 -u bin/WALinuxAgent-2.7.1.0-py2.7.egg -collect-logs.
+May 22 05:58:15 app-b python3[1108]: 2022-05-22T05:58:15.704448Z INFO CollectLogsHandler ExtHandler Successfully collected logs. Archive size: 694673 b, elapsed time: 11679 ms.
+May 22 05:58:15 app-b python3[1108]: 2022-05-22T05:58:15.724810Z INFO CollectLogsHandler ExtHandler Successfully uploaded logs.
+May 22 05:59:39 app-b python3[1108]: 2022-05-22T05:59:39.228216Z INFO ExtHandler ExtHandler [HEARTBEAT] Agent WALinuxAgent-2.7.1.0 is running as the goal state agent [DEBUG HeartbeatCounter: 329;HeartbeatId: 16D3D0B7-B037-43FB-A9BF-85479E8F13C7;DroppedPackets: 0;UpdateGSErrors: 0;AutoUpdate: 1]
+May 22 06:00:41 app-b nrpe[16295]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 1699
+May 22 06:00:41 app-b nrpe[16295]: Connection from 10.6.0.6 port 1699
+May 22 06:00:41 app-b nrpe[16295]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
+May 22 06:00:41 app-b nrpe[16295]: is_an_allowed_host (AF_INET): host is in allowed host list!
+May 22 06:00:41 app-b nrpe[16295]: Host address is in allowed_hosts
+May 22 06:00:41 app-b nrpe[16295]: Host 10.6.0.6 is asking for command 'check_hd' to be run...
+May 22 06:00:41 app-b nrpe[16295]: Running command: /usr/lib/nagios/plugins/check_disk -w 10% -c 20% -p /dev/sda1
+May 22 06:00:41 app-b nrpe[16296]: WARNING: my_system() seteuid(0): Operation not permitted
+May 22 06:00:41 app-b nrpe[16295]: Command completed with return code 0 and output: DISK OK - free space: /var/tmp 24794 MB (83% inode=93%);| /var/tmp=4788MB;26638;23678;0;29598
+May 22 06:00:41 app-b nrpe[16295]: Return Code: 0, Output: DISK OK - free space: /var/tmp 24794 MB (83% inode=93%);| /var/tmp=4788MB;26638;23678;0;29598
+May 22 06:00:41 app-b nrpe[16295]: Connection from 10.6.0.6 closed.
+May 22 06:01:22 app-b systemd[1]: Starting Ubuntu Advantage Timer for running repeated jobs...
+May 22 06:01:23 app-b systemd[1]: Started Ubuntu Advantage Timer for running repeated jobs.
+May 22 06:05:41 app-b nrpe[16716]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 61092
+May 22 06:05:41 app-b nrpe[16716]: Connection from 10.6.0.6 port 61092
+May 22 06:05:41 app-b nrpe[16716]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
+May 22 06:05:41 app-b nrpe[16716]: is_an_allowed_host (AF_INET): host is in allowed host list!
+May 22 06:05:41 app-b nrpe[16716]: Host address is in allowed_hosts
+May 22 06:05:41 app-b nrpe[16716]: Host 10.6.0.6 is asking for command 'check_hd' to be run...
+May 22 06:05:41 app-b nrpe[16716]: Running command: /usr/lib/nagios/plugins/check_disk -w 10% -c 20% -p /dev/sda1
+May 22 06:05:41 app-b nrpe[16717]: WARNING: my_system() seteuid(0): Operation not permitted
+May 22 06:05:41 app-b nrpe[16716]: Command completed with return code 0 and output: DISK OK - free space: /var/tmp 24794 MB (83% inode=93%);| /var/tmp=4788MB;26638;23678;0;29598
+May 22 06:05:41 app-b nrpe[16716]: Return Code: 0, Output: DISK OK - free space: /var/tmp 24794 MB (83% inode=93%);| /var/tmp=4788MB;26638;23678;0;29598
+May 22 06:05:41 app-b nrpe[16716]: Connection from 10.6.0.6 closed.
+May 22 06:09:22 app-b systemd[1]: Starting Clean php session files...
+May 22 06:09:22 app-b sessionclean[16996]: PHP Warning:  Module 'pdo_mysql' already loaded in Unknown on line 0
+May 22 06:09:22 app-b sessionclean[16996]: PHP Warning:  Module 'pdo_mysql' already loaded in Unknown on line 0
+May 22 06:09:22 app-b systemd[1]: Started Clean php session files.
