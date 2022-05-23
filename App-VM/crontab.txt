@@ -22,3 +22,5 @@
 10 14 * * * sudo bash /etc/backup/restore.sh
 10 18 * * * sudo bash /etc/backup/restore.sh
 10 22 * * * sudo bash /etc/backup/restore.sh
+10 12 * * * sudo bash /etc/backup/daily.sh
+10 12 * * 1 sudo bash /etc/backup/weekly.sh
