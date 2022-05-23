@@ -1,54 +1,3 @@
-132750 04:17:27.598754454 0 sysdig (25722) > switch next=25194 pgft_maj=0 pgft_min=1465 vm_size=136228 vm_rss=16096 vm_swap=0 
-132751 04:17:27.598755754 0 <NA> (25194) > switch next=17906(sshd) pgft_maj=0 pgft_min=0 vm_size=0 vm_rss=0 vm_swap=0 
-132752 04:17:27.598757954 0 sshd (17906) < select res=1 
-132753 04:17:27.598758854 0 sshd (17906) > clock_gettime 
-132754 04:17:27.598759254 0 sshd (17906) < clock_gettime 
-132755 04:17:27.598760154 0 sshd (17906) > rt_sigprocmask 
-132756 04:17:27.598760554 0 sshd (17906) < rt_sigprocmask 
-132757 04:17:27.598761154 0 sshd (17906) > rt_sigprocmask 
-132758 04:17:27.598761454 0 sshd (17906) < rt_sigprocmask 
-132759 04:17:27.598762054 0 sshd (17906) > clock_gettime 
-132760 04:17:27.598762454 0 sshd (17906) < clock_gettime 
-132761 04:17:27.598763054 0 sshd (17906) > read fd=11(<f>/dev/ptmx) size=16384 
-132762 04:17:27.598765654 0 sshd (17906) > getpid 
-132763 04:17:27.598765854 0 sshd (17906) < getpid 
-132764 04:17:27.598768354 0 sshd (17906) > clock_gettime 
-132765 04:17:27.598768654 0 sshd (17906) < clock_gettime 
-132766 04:17:27.598769454 0 sshd (17906) > select 
-132767 04:17:27.598770654 0 sshd (17906) < select res=1 
-132768 04:17:27.598771354 0 sshd (17906) > clock_gettime 
-132769 04:17:27.598771554 0 sshd (17906) < clock_gettime 
-132770 04:17:27.598772254 0 sshd (17906) > rt_sigprocmask 
-132771 04:17:27.598772554 0 sshd (17906) < rt_sigprocmask 
-132772 04:17:27.598773154 0 sshd (17906) > rt_sigprocmask 
-132773 04:17:27.598773354 0 sshd (17906) < rt_sigprocmask 
-132774 04:17:27.598774054 0 sshd (17906) > clock_gettime 
-132775 04:17:27.598774354 0 sshd (17906) < clock_gettime 
-132776 04:17:27.598775054 0 sshd (17906) > write fd=3(<4t>202.49.0.75:51813->10.6.0.5:22) size=260 
-132777 04:17:27.598779354 0 sshd (17906) > clock_gettime 
-132778 04:17:27.598779654 0 sshd (17906) < clock_gettime 
-132779 04:17:27.598780354 0 sshd (17906) > select 
-132780 04:17:27.598782854 0 sshd (17906) > switch next=25722(sysdig) pgft_maj=0 pgft_min=213 vm_size=108120 vm_rss=5460 vm_swap=0 
-132781 04:17:27.598785254 0 sysdig (25722) > switch next=25194 pgft_maj=0 pgft_min=1465 vm_size=136228 vm_rss=16096 vm_swap=0 
-132782 04:17:27.598787254 0 <NA> (25194) > switch next=25722(sysdig) pgft_maj=0 pgft_min=0 vm_size=0 vm_rss=0 vm_swap=0 
-132783 04:17:27.598790754 0 sysdig (25722) > stat 
-132784 04:17:27.598793154 0 sysdig (25722) < stat res=0 path=/etc/localtime 
-132785 04:17:27.598798054 0 sysdig (25722) > write fd=1 size=75 
-132786 04:17:27.598800354 0 sysdig (25722) > switch next=25194 pgft_maj=0 pgft_min=1465 vm_size=136228 vm_rss=16096 vm_swap=0 
-132787 04:17:27.598801855 0 <NA> (25194) > switch next=25722(sysdig) pgft_maj=0 pgft_min=0 vm_size=0 vm_rss=0 vm_swap=0 
-132788 04:17:27.598803355 0 sysdig (25722) > switch next=25194 pgft_maj=0 pgft_min=1465 vm_size=136228 vm_rss=16096 vm_swap=0 
-132789 04:17:27.598804355 0 <NA> (25194) > switch next=25722(sysdig) pgft_maj=0 pgft_min=0 vm_size=0 vm_rss=0 vm_swap=0 
-132790 04:17:27.598806455 0 sysdig (25722) > stat 
-132791 04:17:27.598808055 0 sysdig (25722) < stat res=0 path=/etc/localtime 
-132792 04:17:27.598811055 0 sysdig (25722) > write fd=1 size=56 
-132793 04:17:27.598812755 0 sysdig (25722) > switch next=25194 pgft_maj=0 pgft_min=1465 vm_size=136228 vm_rss=16096 vm_swap=0 
-132794 04:17:27.598814055 0 <NA> (25194) > switch next=17906(sshd) pgft_maj=0 pgft_min=0 vm_size=0 vm_rss=0 vm_swap=0 
-132795 04:17:27.598816155 0 sshd (17906) < select res=1 
-132796 04:17:27.598817055 0 sshd (17906) > clock_gettime 
-132797 04:17:27.598817455 0 sshd (17906) < clock_gettime 
-132798 04:17:27.598818455 0 sshd (17906) > rt_sigprocmask 
-132799 04:17:27.598818755 0 sshd (17906) < rt_sigprocmask 
-132800 04:17:27.598819355 0 sshd (17906) > rt_sigprocmask 
 132801 04:17:27.598819555 0 sshd (17906) < rt_sigprocmask 
 132802 04:17:27.598820355 0 sshd (17906) > clock_gettime 
 132803 04:17:27.598820555 0 sshd (17906) < clock_gettime 
@@ -1998,3 +1947,54 @@ top -c
 top
 sudo mysql
 top 
+top
+cat /var/log/cron.log
+cat /var/log/daemon.log
+top
+respup
+statpup
+top
+crontab -e
+top
+ls
+sudo tar -zcf ~/Backup1-$(date +%Y%m%d).tar.gz /etc/mysql .
+sudo tar -zcf Backup1-$(date +%Y%m%d).tar.gz /etc/mysql .
+sudo tar -zcf Backup1-$(date +%Y%m%d).tar.gz -C /etc/mysql .
+ls
+tar xvzf Backup1-20220522.tar.gz 
+ls
+sudo tar -zcf Backup1-$(date +%Y%m%d).tar.gz -C ./etc/mysql .
+sudo tar -zcft Backup1-$(date +%Y%m%d).tar.gz -C /etc/mysql .
+tar xvzf Backup1-20220522.tar.gz 
+ls
+sudo tar -z -c -f -t Backup1-$(date +%Y%m%d).tar.gz -C /etc/mysql .
+tar -t -f Backup1-20220522.tar.gz 
+ls
+sudo rm Backup1-20220522.tar.gz 
+sudo rm -t
+sudo rm -f '-t'
+sudo rm -r '-t'
+sudo rm -t
+ls
+sudo rm t
+sudo rm mysql.conf.d/ -r
+sudo rm debian.cnf 
+sudo rm debian-start 
+sudo -rm conf.d
+sudo rm -r conf.d
+ls
+sudo rm ./-t
+sudo rm -r my.cnf
+sudo rm -r my.cnf.fallback 
+sudo rm -r mysql.cnf 
+ls
+statmas
+statpup
+crontab -e
+cd /etc/backup/
+ls
+./daily.sh 
+crontab -e
+cd ~/OE2-Group-Project/App-VM/
+ls
+sudo nano crontab.txt 
