@@ -1,8 +1,0 @@
-May 23 00:15:30 backup-b rsyncd[19047]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 23 00:15:30 backup-b rsyncd[19047]: Ignoring "log file" setting.
-May 23 00:15:30 backup-b rsyncd[19048]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 23 00:15:30 backup-b rsyncd[19048]: Ignoring "log file" setting.
-May 23 00:15:30 backup-b rsyncd[19047]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 23 00:15:30 backup-b rsyncd[19047]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 23 00:15:30 backup-b rsyncd[19048]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 23 00:15:30 backup-b rsyncd[19048]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
