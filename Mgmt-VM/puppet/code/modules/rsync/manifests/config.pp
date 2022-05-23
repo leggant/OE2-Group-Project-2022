@@ -12,6 +12,19 @@ file { '/etc/backup/restore.sh':
         mode => '0775',
 }
 
+
+
+file { '/etc/backup/daily.sh':
+        ensure => present,
+        source => 'puppet:///modules/rsync/daily.sh',
+        mode => '0775',
+}
+
+file { '/etc/backup/weekly.sh':
+        ensure => present,
+        source => 'puppet:///modules/rsync/weekly.sh',
+        mode => '0775',
+}
 }
 
 

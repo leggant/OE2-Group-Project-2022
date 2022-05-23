@@ -18,3 +18,6 @@
 10 14 * * * sudo bash /etc/backup/restore.sh
 10 18 * * * sudo bash /etc/backup/restore.sh
 10 22 * * * sudo bash /etc/backup/restore.sh
+
+15 0 * * * sudo bash /etc/backup/daily.sh
+15 0 * * 1 sudo bash /etc/backup/weekly.sh

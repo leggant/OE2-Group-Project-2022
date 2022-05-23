@@ -6,7 +6,7 @@ mgmt=mgmt-b.foo.org.nz
 backup=backup-b.foo.org.nz
 app=app-b.foo.org.nz
 host=$(hostname)
-backupdir=/etc/backup/daily
+backupdir=/etc/backup/weekly
 if [ $host == $mgmt ]
 then
 BDIR="
@@ -19,13 +19,13 @@ BDIR="
 "
 
 sudo zip -r $backupdir/backup-$(date +%Y%m%d).zip $BDIR 
-sudo find $backupdir/* -mtime +7 -delete
+sudo find $backupdir/* -mtime +31 -delete
 # the name of the backup machine
 BSERVER=groupb
 USERX=restore-b.foo.org.nz
-OPTS="-haAXuv -v --progress --delete --log-file=/home/$USER/log.log --backup-dir=~/backup/mgmt/backup/daily" 
+OPTS="-haAXuv -v --progress --delete --log-file=/home/$USER/log.log --backup-dir=~/backup/mgmt/backup/weekly" 
 
-rsync $OPTS $backupdir/backup-$(date +%Y%m%d).zip $BSERVER@$USERX:~/backup/mgmt/daily
+rsync $OPTS $backupdir/backup-$(date +%Y%m%d).zip $BSERVER@$USERX:~/backup/mgmt/weekly
 
 #=====================================================================================================
 elif [ $host == $db ]
@@ -46,13 +46,13 @@ MYSQLDATE=`date +%d%m%Y%H%M%S`
 cd $backupdir
 sudo mysqldump --skip-extended-insert --all-databases --add-drop-table > sqlbackup.sql
 sudo zip -r $backupdir/backup-$(date +%Y%m%d).zip $BUDIR 
-sudo find $backupdir/* -mtime +7 -delete
+sudo find $backupdir/* -mtime +31 -delete
 # the name of the backup machine
 BSERVER=groupb
 USERX=restore-b.foo.org.nz
-OPTS="-haAXuv -v --progress --delete --log-file=/home/$USER/log.log --backup-dir=~/backup/db/backup/daily" 
+OPTS="-haAXuv -v --progress --delete --log-file=/home/$USER/log.log --backup-dir=~/backup/db/backup/weekly" 
 
-rsync $OPTS $backupdir/backup-$(date +%Y%m%d).zip $BSERVER@$USERX:~/backup/db/daily
+rsync $OPTS $backupdir/backup-$(date +%Y%m%d).zip $BSERVER@$USERX:~/backup/db/weekly
 sudo chmod o-rx /etc/mysql/debian.cnf
 #==========================================================================
 elif [ $host == $app ]
@@ -65,11 +65,11 @@ BDIR="
 "
 sudo chmod o+rx /var/www/owncloud/data -R
 sudo zip -r $backupdir/backup-$(date +%Y%m%d).zip $BDIR 
-sudo find $backupdir/* -mtime +7 -delete
+sudo find $backupdir/* -mtime +31 -delete
 BSERVER=groupb
 USERX=restore-b.foo.org.nz
-OPTS="-haAXuv -v --progress --delete --log-file=/home/$USER/log.log --backup-dir=~/backup/app/daily"
-rsync $OPTS $backupdir/backup-$(date +%Y%m%d).zip $BSERVER@$USERX:~/backup/app/daily
+OPTS="-haAXuv -v --progress --delete --log-file=/home/$USER/log.log --backup-dir=~/backup/app/weekly"
+rsync $OPTS $backupdir/backup-$(date +%Y%m%d).zip $BSERVER@$USERX:~/backup/app/weekly
 sudo chmod o-rx /var/www/owncloud/data -R
 
 #====================================================
@@ -94,9 +94,9 @@ BDIR="
 "
 # the name of the backup machine
 sudo zip -r $backupdir/backup-$(date +%Y%m%d).zip $BDIR
-sudo find $backupdir/* -mtime +7 -delete
+sudo find $backupdir/* -mtime +31 -delete
 BSERVER=groupb
 USERX=restore-b.foo.org.nz
-OPTS="-haAXuv -v --progress --delete --log-file=/home/$USER/log.log --backup-dir=~/backup/backup/daily"
-rsync $OPTS $backupdir/backup-$(date +%Y%m%d).zip $BSERVER@$USERX:~/backup/backup/daily
+OPTS="-haAXuv -v --progress --delete --log-file=/home/$USER/log.log --backup-dir=~/backup/backup/weekly"
+rsync $OPTS $backupdir/backup-$(date +%Y%m%d).zip $BSERVER@$USERX:~/backup/backup/weekly
 fi
