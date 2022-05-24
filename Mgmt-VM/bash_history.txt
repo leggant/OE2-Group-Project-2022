@@ -1,8 +1,3 @@
-sudo chgrp bitstudent ORIG_HEAD
-sudo chmod 774 ./**
-cd objects
-sudo chgrp bitstudent ./**
-sudo chown bitstudent ./**
 cd ~/OE2-Group-Project
 git status
 git statsh .gitignore
@@ -1998,3 +1993,8 @@ cat user.log
 crontab -e
 cd ~/OE2-Group-Project/Scripts/mgmt/
 sudo nano backup.sh 
+cd ~/OE2-Group-Project/Mgmt-VM/
+ls
+cd ../Scripts/mgmt
+sudo nano backup.sh 
+exit
