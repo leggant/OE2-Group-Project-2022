@@ -388,3 +388,6 @@ May 24 06:10:01 mgmt-b rsyncd[24244]: rsync: failed to open log-file /home/root/
 May 24 06:10:01 mgmt-b rsyncd[24244]: Ignoring "log file" setting.
 May 24 06:10:01 mgmt-b rsyncd[24244]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
 May 24 06:10:01 mgmt-b rsyncd[24244]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
+May 24 06:40:24 mgmt-b nagios3: Auto-save of retention data completed successfully.
+May 24 06:57:49 mgmt-b KVP: KVP starting; pid is:29567
+May 24 06:57:49 mgmt-b KVP: KVP LIC Version: 3.1
