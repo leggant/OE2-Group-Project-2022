@@ -1,55 +1,3 @@
-sudo puppet agent --server=mgmt-b.foo.org.nz --no-daemonize --verbose --onetime
-respup
-statpup
-resnr
-statnr
-sudo vi ~/.bashrc
-source ~/.bashrc
-resnr
-statnr
-puppet cert sign -all
-statpup
-cd ~/OE2-Group-Project && git pull
-sudo systemctl status mysql
-sudo systemctl restart mysql
-sudo systemctl status mysql
-dbudb
-cd ~/OE2-Group-Project && git pull
-statpup
-puppet cert sign -all
-puppet agent --test
-netstat -ntlp
-ls
-sudi -i
-sudo -i
-puppet agent -t
-respup
-statpup
-puppet agent -t
-sudo -i
-respup
-puppet agent -t
-pupstat
-statpup
-sudo puppet cert --sign -all
-respup
-statpup
-:q
-netstat -ntlp
-puppet agent -t
-ping mgmt-b.foo.org.nz
-ping puppet
-nc -v puppet 8140
-lsof -i :8140
-mtr puppet
-sudo vim /etc/puppet/puppet.conf
-respup
-sudo puppet agent -t
-puppet agent -t
-sudo puppet agent -t
-sudo puppet cert clean -all
-sudo -i
-respup
 sudo puppet cert --sign -all
 sudo puppet agent -t
 sudo puppet cert -list -all
@@ -1997,4 +1945,56 @@ sudo cat /var/log/daemon.log
 cd ~/OE2-Group-Project/Scripts/db
 sudo nano backup.sh 
 budb
+exit
+sudo nano /etc/rsyslog.d/50-default.conf
+cd /var/log/
+ls
+cat auth.log
+cat auth.log.1
+cat monit.log 
+ls
+cat syslog
+cd ~/OE2-Group-Project/Scripts/db
+ls
+sudo nano backup.sh 
+budb
+crontab -e
+sudo nano /etc/logrotate.d/rsyslog 
+sudo systemctl restart rsyslog
+sudo systemctl status rsyslog
+sudo nano /etc/logrotate.d/rsyslog 
+sudo systemctl restart rsyslog
+sudo systemctl status rsyslog
+sudo nano backup.sh 
+budb
+sudo nano backup.sh 
+budb
+cd ../../Db-VM/
+ls
+mkdir Logs
+sudo rm Logs 
+mkdir Logs
+ls
+ls -al
+sudo mv 50-default.conf Logs/
+sudo mv cron.log Logs/
+sudo mv daemon.log Logs/
+cd Logs/
+ls
+cd ..
+git add .
+git status
+cd Scripts/db
+ls
+sudo nano backup.sh 
+budb
+cd ../../
+ls
+cd Db-VM/
+ls
+sudo mv user.log Logs/
+ls
+git add .
+cd ~
+cat /var/log/cron.log 
 exit
