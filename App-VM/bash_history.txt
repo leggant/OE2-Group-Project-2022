@@ -1,6 +1,3 @@
-132801 04:17:27.598819555 0 sshd (17906) < rt_sigprocmask 
-132802 04:17:27.598820355 0 sshd (17906) > clock_gettime 
-132803 04:17:27.598820555 0 sshd (17906) < clock_gettime 
 132804 04:17:27.598821355 0 sshd (17906) > read fd=11(<f>/dev/ptmx) size=16384 
 132805 04:17:27.598823855 0 sshd (17906) > getpid 
 132806 04:17:27.598824055 0 sshd (17906) < getpid 
@@ -1998,3 +1995,6 @@ crontab -e
 cd ~/OE2-Group-Project/App-VM/
 ls
 sudo nano crontab.txt 
+sudo nano OE2-Group-Project/Scripts/app/backup.sh 
+cat /var/log/cron.log
+exit
