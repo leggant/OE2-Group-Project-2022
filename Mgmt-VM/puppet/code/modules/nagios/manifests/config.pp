@@ -82,18 +82,18 @@ class nagios::config {
 	contact_groups => 'slackgroup',
 	}	
 
-#	nagios_host { 'app-b.foo.org.nz':
-#        target => '/etc/nagios3/conf.d/ppt_hosts.cfg',
-#        alias => 'app',
-#        check_period => '24x7',
-#        max_check_attempts => 3,
-#        check_command => 'check-host-alive',
-#        notification_interval => 10,
- #       notification_period => '24x7',
- #       notification_options => 'd,u,r',
- #       mode => '0444',
-#	contact_groups => 'slackgroup',
-#	}
+	nagios_host { 'app-b.foo.org.nz':
+        target => '/etc/nagios3/conf.d/ppt_hosts.cfg',
+        alias => 'app',
+        check_period => '24x7',
+        max_check_attempts => 3,
+        check_command => 'check-host-alive',
+        notification_interval => 10,
+        notification_period => '24x7',
+        notification_options => 'd,u,r',
+        mode => '0444',
+	contact_groups => 'slackgroup',
+	}
 	nagios_host { 'backup-b.foo.org.nz':
         target => '/etc/nagios3/conf.d/ppt_hosts.cfg',
         alias => 'backup',
@@ -133,4 +133,11 @@ class nagios::config {
         alias => 'My DB servers',
         members => 'db-b.foo.org.nz'
         }	
+
+        nagios_hostgroup {"my-puppet-agents":
+        target => "/etc/nagios3/conf.d/ppt_hostgroups.cfg",
+        mode => "0444",
+        alias => 'My Puppet Agents',
+        members => 'mgmt-b.foo.org.nz'
+        }
 }

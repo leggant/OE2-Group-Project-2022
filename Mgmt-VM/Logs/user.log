@@ -1,504 +1,69 @@
-May 22 06:40:24 mgmt-b nagios3: Auto-save of retention data completed successfully.
-May 22 07:40:24 mgmt-b nagios3: Auto-save of retention data completed successfully.
-May 22 08:40:24 mgmt-b nagios3: Auto-save of retention data completed successfully.
-May 22 09:40:24 mgmt-b nagios3: Auto-save of retention data completed successfully.
-May 22 10:10:01 mgmt-b rsyncd[18946]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 22 10:10:01 mgmt-b rsyncd[18946]: Ignoring "log file" setting.
-May 22 10:10:01 mgmt-b rsyncd[18946]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 22 10:10:01 mgmt-b rsyncd[18946]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 22 10:10:01 mgmt-b rsyncd[18948]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 22 10:10:01 mgmt-b rsyncd[18948]: Ignoring "log file" setting.
-May 22 10:10:01 mgmt-b rsyncd[18948]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 22 10:10:01 mgmt-b rsyncd[18948]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 22 10:10:01 mgmt-b rsyncd[18950]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 22 10:10:01 mgmt-b rsyncd[18950]: Ignoring "log file" setting.
-May 22 10:10:01 mgmt-b rsyncd[18950]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 22 10:10:01 mgmt-b rsyncd[18950]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 22 10:10:01 mgmt-b rsyncd[18952]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 22 10:10:01 mgmt-b rsyncd[18952]: Ignoring "log file" setting.
-May 22 10:10:01 mgmt-b rsyncd[18952]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 22 10:10:01 mgmt-b rsyncd[18952]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 22 10:10:01 mgmt-b rsyncd[18954]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 22 10:10:01 mgmt-b rsyncd[18954]: Ignoring "log file" setting.
-May 22 10:10:01 mgmt-b rsyncd[18954]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 22 10:10:01 mgmt-b rsyncd[18954]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 22 10:10:01 mgmt-b rsyncd[18956]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 22 10:10:01 mgmt-b rsyncd[18956]: Ignoring "log file" setting.
-May 22 10:10:01 mgmt-b rsyncd[18956]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 22 10:10:01 mgmt-b rsyncd[18956]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 22 10:40:24 mgmt-b nagios3: Auto-save of retention data completed successfully.
-May 22 11:40:24 mgmt-b nagios3: Auto-save of retention data completed successfully.
-May 22 12:40:24 mgmt-b nagios3: Auto-save of retention data completed successfully.
-May 22 13:40:24 mgmt-b nagios3: Auto-save of retention data completed successfully.
-May 22 14:10:01 mgmt-b rsyncd[10647]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 22 14:10:01 mgmt-b rsyncd[10647]: Ignoring "log file" setting.
-May 22 14:10:02 mgmt-b rsyncd[10647]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 22 14:10:02 mgmt-b rsyncd[10647]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 22 14:10:02 mgmt-b rsyncd[10650]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 22 14:10:02 mgmt-b rsyncd[10650]: Ignoring "log file" setting.
-May 22 14:10:02 mgmt-b rsyncd[10650]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 22 14:10:02 mgmt-b rsyncd[10650]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 22 14:10:02 mgmt-b rsyncd[10652]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 22 14:10:02 mgmt-b rsyncd[10652]: Ignoring "log file" setting.
-May 22 14:10:02 mgmt-b rsyncd[10652]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 22 14:10:02 mgmt-b rsyncd[10652]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 22 14:10:02 mgmt-b rsyncd[10654]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 22 14:10:02 mgmt-b rsyncd[10654]: Ignoring "log file" setting.
-May 22 14:10:02 mgmt-b rsyncd[10654]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 22 14:10:02 mgmt-b rsyncd[10654]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 22 14:10:02 mgmt-b rsyncd[10656]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 22 14:10:02 mgmt-b rsyncd[10656]: Ignoring "log file" setting.
-May 22 14:10:02 mgmt-b rsyncd[10656]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 22 14:10:02 mgmt-b rsyncd[10656]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 22 14:10:02 mgmt-b rsyncd[10658]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 22 14:10:02 mgmt-b rsyncd[10658]: Ignoring "log file" setting.
-May 22 14:10:02 mgmt-b rsyncd[10658]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 22 14:10:02 mgmt-b rsyncd[10658]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 22 14:40:24 mgmt-b nagios3: Auto-save of retention data completed successfully.
-May 22 15:40:24 mgmt-b nagios3: Auto-save of retention data completed successfully.
-May 22 16:40:24 mgmt-b nagios3: Auto-save of retention data completed successfully.
-May 22 17:40:24 mgmt-b nagios3: Auto-save of retention data completed successfully.
-May 22 18:10:01 mgmt-b rsyncd[1872]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 22 18:10:01 mgmt-b rsyncd[1872]: Ignoring "log file" setting.
-May 22 18:10:01 mgmt-b rsyncd[1872]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 22 18:10:01 mgmt-b rsyncd[1872]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 22 18:10:01 mgmt-b rsyncd[1874]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 22 18:10:01 mgmt-b rsyncd[1874]: Ignoring "log file" setting.
-May 22 18:10:01 mgmt-b rsyncd[1874]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 22 18:10:01 mgmt-b rsyncd[1874]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 22 18:10:01 mgmt-b rsyncd[1876]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 22 18:10:01 mgmt-b rsyncd[1876]: Ignoring "log file" setting.
-May 22 18:10:01 mgmt-b rsyncd[1876]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 22 18:10:01 mgmt-b rsyncd[1876]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 22 18:10:01 mgmt-b rsyncd[1878]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 22 18:10:01 mgmt-b rsyncd[1878]: Ignoring "log file" setting.
-May 22 18:10:01 mgmt-b rsyncd[1878]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 22 18:10:01 mgmt-b rsyncd[1878]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 22 18:10:01 mgmt-b rsyncd[1880]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 22 18:10:01 mgmt-b rsyncd[1880]: Ignoring "log file" setting.
-May 22 18:10:01 mgmt-b rsyncd[1880]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 22 18:10:01 mgmt-b rsyncd[1880]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 22 18:10:01 mgmt-b rsyncd[1882]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 22 18:10:01 mgmt-b rsyncd[1882]: Ignoring "log file" setting.
-May 22 18:10:01 mgmt-b rsyncd[1882]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 22 18:10:01 mgmt-b rsyncd[1882]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 22 18:40:24 mgmt-b nagios3: Auto-save of retention data completed successfully.
-May 22 19:40:24 mgmt-b nagios3: Auto-save of retention data completed successfully.
-May 22 20:40:24 mgmt-b nagios3: Auto-save of retention data completed successfully.
-May 22 21:40:24 mgmt-b nagios3: Auto-save of retention data completed successfully.
-May 22 22:10:01 mgmt-b rsyncd[26092]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 22 22:10:01 mgmt-b rsyncd[26092]: Ignoring "log file" setting.
-May 22 22:10:02 mgmt-b rsyncd[26092]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 22 22:10:02 mgmt-b rsyncd[26092]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 22 22:10:02 mgmt-b rsyncd[26095]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 22 22:10:02 mgmt-b rsyncd[26095]: Ignoring "log file" setting.
-May 22 22:10:02 mgmt-b rsyncd[26095]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 22 22:10:02 mgmt-b rsyncd[26095]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 22 22:10:02 mgmt-b rsyncd[26097]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 22 22:10:02 mgmt-b rsyncd[26097]: Ignoring "log file" setting.
-May 22 22:10:02 mgmt-b rsyncd[26097]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 22 22:10:02 mgmt-b rsyncd[26097]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 22 22:10:02 mgmt-b rsyncd[26099]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 22 22:10:02 mgmt-b rsyncd[26099]: Ignoring "log file" setting.
-May 22 22:10:02 mgmt-b rsyncd[26099]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 22 22:10:02 mgmt-b rsyncd[26099]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 22 22:10:02 mgmt-b rsyncd[26101]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 22 22:10:02 mgmt-b rsyncd[26101]: Ignoring "log file" setting.
-May 22 22:10:02 mgmt-b rsyncd[26101]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 22 22:10:02 mgmt-b rsyncd[26101]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 22 22:10:02 mgmt-b rsyncd[26103]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 22 22:10:02 mgmt-b rsyncd[26103]: Ignoring "log file" setting.
-May 22 22:10:02 mgmt-b rsyncd[26103]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 22 22:10:02 mgmt-b rsyncd[26103]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 22 22:40:24 mgmt-b nagios3: Auto-save of retention data completed successfully.
-May 22 23:40:24 mgmt-b nagios3: Auto-save of retention data completed successfully.
-May 23 00:00:00 mgmt-b nagios3: LOG ROTATION: DAILY
-May 23 00:00:00 mgmt-b nagios3: LOG VERSION: 2.0
-May 23 00:00:00 mgmt-b nagios3: CURRENT HOST STATE: app-b.foo.org.nz;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 1.39 ms
-May 23 00:00:00 mgmt-b nagios3: CURRENT HOST STATE: backup-b.foo.org.nz;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 1.20 ms
-May 23 00:00:00 mgmt-b nagios3: CURRENT HOST STATE: db-b.foo.org.nz;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 1.58 ms
-May 23 00:00:00 mgmt-b nagios3: CURRENT HOST STATE: localhost;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.07 ms
-May 23 00:00:00 mgmt-b nagios3: CURRENT HOST STATE: mgmt-b.foo.org.nz;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.03 ms
-May 23 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: app-b.foo.org.nz;Remote disk servers;OK;HARD;1;DISK OK - free space: /var/tmp 24715 MB (83% inode=93%):
-May 23 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: app-b.foo.org.nz;ssh servers;OK;HARD;1;SSH OK - OpenSSH_7.6p1 Ubuntu-4ubuntu0.6 (protocol 2.0)
-May 23 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: backup-b.foo.org.nz;Remote disk servers;OK;HARD;1;DISK OK - free space: /var/tmp 24284 MB (82% inode=94%):
-May 23 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: backup-b.foo.org.nz;ssh servers;OK;HARD;1;SSH OK - OpenSSH_7.6p1 Ubuntu-4ubuntu0.6 (protocol 2.0)
-May 23 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: db-b.foo.org.nz;MariaDB servers;OK;HARD;1;Uptime: 175545  Threads: 2  Questions: 894205  Slow queries: 0  Opens: 166  Flush tables: 1  Open tables: 160  Queries per second avg: 5.093
-May 23 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: db-b.foo.org.nz;Remote disk servers;OK;HARD;1;DISK OK - free space: /var/tmp 25065 MB (84% inode=95%):
-May 23 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: db-b.foo.org.nz;ssh servers;OK;HARD;1;SSH OK - OpenSSH_7.6p1 Ubuntu-4ubuntu0.6 (protocol 2.0)
-May 23 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: localhost;Current Load;OK;HARD;1;OK - load average: 0.00, 0.00, 0.00
-May 23 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: localhost;Current Users;OK;HARD;1;USERS OK - 1 users currently logged in
-May 23 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: localhost;Disk Space;CRITICAL;HARD;4;DISK CRITICAL - /sys/kernel/debug/tracing is not accessible: Permission denied
-May 23 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: localhost;HTTP;OK;HARD;1;HTTP OK: HTTP/1.1 200 OK - 11192 bytes in 0.001 second response time
-May 23 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: localhost;SSH;OK;HARD;1;SSH OK - OpenSSH_7.6p1 Ubuntu-4ubuntu0.6 (protocol 2.0)
-May 23 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: localhost;Total Processes;OK;HARD;1;PROCS OK: 127 processes
-May 23 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: mgmt-b.foo.org.nz;ssh servers;OK;HARD;1;SSH OK - OpenSSH_7.6p1 Ubuntu-4ubuntu0.6 (protocol 2.0)
-May 23 00:15:04 mgmt-b rsyncd[7120]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 23 00:15:04 mgmt-b rsyncd[7120]: Ignoring "log file" setting.
-May 23 00:15:04 mgmt-b rsyncd[7121]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 23 00:15:04 mgmt-b rsyncd[7121]: Ignoring "log file" setting.
-May 23 00:15:04 mgmt-b rsyncd[7121]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 23 00:15:04 mgmt-b rsyncd[7121]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 23 00:15:04 mgmt-b rsyncd[7120]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 23 00:15:04 mgmt-b rsyncd[7120]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 23 00:40:24 mgmt-b nagios3: Auto-save of retention data completed successfully.
-May 23 01:40:24 mgmt-b nagios3: Auto-save of retention data completed successfully.
-May 23 02:10:01 mgmt-b rsyncd[18420]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 23 02:10:01 mgmt-b rsyncd[18420]: Ignoring "log file" setting.
-May 23 02:10:01 mgmt-b rsyncd[18420]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 23 02:10:01 mgmt-b rsyncd[18420]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 23 02:10:01 mgmt-b rsyncd[18422]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 23 02:10:01 mgmt-b rsyncd[18422]: Ignoring "log file" setting.
-May 23 02:10:01 mgmt-b rsyncd[18422]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 23 02:10:01 mgmt-b rsyncd[18422]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 23 02:10:01 mgmt-b rsyncd[18424]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 23 02:10:01 mgmt-b rsyncd[18424]: Ignoring "log file" setting.
-May 23 02:10:01 mgmt-b rsyncd[18424]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 23 02:10:01 mgmt-b rsyncd[18424]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 23 02:10:01 mgmt-b rsyncd[18426]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 23 02:10:01 mgmt-b rsyncd[18426]: Ignoring "log file" setting.
-May 23 02:10:01 mgmt-b rsyncd[18426]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 23 02:10:01 mgmt-b rsyncd[18426]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 23 02:10:01 mgmt-b rsyncd[18428]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 23 02:10:01 mgmt-b rsyncd[18428]: Ignoring "log file" setting.
-May 23 02:10:01 mgmt-b rsyncd[18428]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 23 02:10:01 mgmt-b rsyncd[18428]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 23 02:10:01 mgmt-b rsyncd[18430]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 23 02:10:01 mgmt-b rsyncd[18430]: Ignoring "log file" setting.
-May 23 02:10:01 mgmt-b rsyncd[18430]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 23 02:10:01 mgmt-b rsyncd[18430]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 23 02:40:24 mgmt-b nagios3: Auto-save of retention data completed successfully.
-May 23 03:40:24 mgmt-b nagios3: Auto-save of retention data completed successfully.
-May 23 04:40:24 mgmt-b nagios3: Auto-save of retention data completed successfully.
-May 23 05:40:24 mgmt-b nagios3: Auto-save of retention data completed successfully.
-May 23 06:10:01 mgmt-b rsyncd[10337]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 23 06:10:01 mgmt-b rsyncd[10337]: Ignoring "log file" setting.
-May 23 06:10:01 mgmt-b rsyncd[10337]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 23 06:10:01 mgmt-b rsyncd[10337]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 23 06:10:01 mgmt-b rsyncd[10339]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 23 06:10:01 mgmt-b rsyncd[10339]: Ignoring "log file" setting.
-May 23 06:10:01 mgmt-b rsyncd[10339]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 23 06:10:01 mgmt-b rsyncd[10339]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 23 06:10:01 mgmt-b rsyncd[10341]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 23 06:10:01 mgmt-b rsyncd[10341]: Ignoring "log file" setting.
-May 23 06:10:01 mgmt-b rsyncd[10341]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 23 06:10:01 mgmt-b rsyncd[10341]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 23 06:10:01 mgmt-b rsyncd[10343]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 23 06:10:01 mgmt-b rsyncd[10343]: Ignoring "log file" setting.
-May 23 06:10:01 mgmt-b rsyncd[10343]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 23 06:10:01 mgmt-b rsyncd[10343]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 23 06:10:01 mgmt-b rsyncd[10345]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 23 06:10:01 mgmt-b rsyncd[10345]: Ignoring "log file" setting.
-May 23 06:10:01 mgmt-b rsyncd[10345]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 23 06:10:01 mgmt-b rsyncd[10345]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 23 06:10:01 mgmt-b rsyncd[10347]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 23 06:10:01 mgmt-b rsyncd[10347]: Ignoring "log file" setting.
-May 23 06:10:01 mgmt-b rsyncd[10347]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 23 06:10:01 mgmt-b rsyncd[10347]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 23 06:40:24 mgmt-b nagios3: Auto-save of retention data completed successfully.
-May 23 07:40:24 mgmt-b nagios3: Auto-save of retention data completed successfully.
-May 23 08:40:24 mgmt-b nagios3: Auto-save of retention data completed successfully.
-May 23 09:40:24 mgmt-b nagios3: Auto-save of retention data completed successfully.
-May 23 10:10:01 mgmt-b rsyncd[2248]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 23 10:10:01 mgmt-b rsyncd[2248]: Ignoring "log file" setting.
-May 23 10:10:01 mgmt-b rsyncd[2248]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 23 10:10:01 mgmt-b rsyncd[2248]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 23 10:10:01 mgmt-b rsyncd[2250]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 23 10:10:01 mgmt-b rsyncd[2250]: Ignoring "log file" setting.
-May 23 10:10:01 mgmt-b rsyncd[2250]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 23 10:10:01 mgmt-b rsyncd[2250]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 23 10:10:01 mgmt-b rsyncd[2252]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 23 10:10:01 mgmt-b rsyncd[2252]: Ignoring "log file" setting.
-May 23 10:10:01 mgmt-b rsyncd[2252]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 23 10:10:01 mgmt-b rsyncd[2252]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 23 10:10:01 mgmt-b rsyncd[2254]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 23 10:10:01 mgmt-b rsyncd[2254]: Ignoring "log file" setting.
-May 23 10:10:01 mgmt-b rsyncd[2254]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 23 10:10:01 mgmt-b rsyncd[2254]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 23 10:10:01 mgmt-b rsyncd[2256]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 23 10:10:01 mgmt-b rsyncd[2256]: Ignoring "log file" setting.
-May 23 10:10:01 mgmt-b rsyncd[2256]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 23 10:10:01 mgmt-b rsyncd[2256]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 23 10:10:01 mgmt-b rsyncd[2258]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 23 10:10:01 mgmt-b rsyncd[2258]: Ignoring "log file" setting.
-May 23 10:10:01 mgmt-b rsyncd[2258]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 23 10:10:01 mgmt-b rsyncd[2258]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 23 10:40:24 mgmt-b nagios3: Auto-save of retention data completed successfully.
-May 23 11:40:24 mgmt-b nagios3: Auto-save of retention data completed successfully.
-May 23 12:40:24 mgmt-b nagios3: Auto-save of retention data completed successfully.
-May 23 13:40:24 mgmt-b nagios3: Auto-save of retention data completed successfully.
-May 23 14:10:01 mgmt-b rsyncd[26039]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 23 14:10:01 mgmt-b rsyncd[26039]: Ignoring "log file" setting.
-May 23 14:10:01 mgmt-b rsyncd[26039]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 23 14:10:01 mgmt-b rsyncd[26039]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 23 14:10:01 mgmt-b rsyncd[26041]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 23 14:10:01 mgmt-b rsyncd[26041]: Ignoring "log file" setting.
-May 23 14:10:01 mgmt-b rsyncd[26041]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 23 14:10:01 mgmt-b rsyncd[26041]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 23 14:10:01 mgmt-b rsyncd[26043]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 23 14:10:01 mgmt-b rsyncd[26043]: Ignoring "log file" setting.
-May 23 14:10:01 mgmt-b rsyncd[26043]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 23 14:10:01 mgmt-b rsyncd[26043]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 23 14:10:01 mgmt-b rsyncd[26045]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 23 14:10:01 mgmt-b rsyncd[26045]: Ignoring "log file" setting.
-May 23 14:10:01 mgmt-b rsyncd[26045]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 23 14:10:01 mgmt-b rsyncd[26045]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 23 14:10:01 mgmt-b rsyncd[26047]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 23 14:10:01 mgmt-b rsyncd[26047]: Ignoring "log file" setting.
-May 23 14:10:01 mgmt-b rsyncd[26047]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 23 14:10:01 mgmt-b rsyncd[26047]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 23 14:10:01 mgmt-b rsyncd[26049]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 23 14:10:01 mgmt-b rsyncd[26049]: Ignoring "log file" setting.
-May 23 14:10:01 mgmt-b rsyncd[26049]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 23 14:10:01 mgmt-b rsyncd[26049]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 23 14:40:24 mgmt-b nagios3: Auto-save of retention data completed successfully.
-May 23 15:40:24 mgmt-b nagios3: Auto-save of retention data completed successfully.
-May 23 16:40:24 mgmt-b nagios3: Auto-save of retention data completed successfully.
-May 23 17:40:24 mgmt-b nagios3: Auto-save of retention data completed successfully.
-May 23 18:10:01 mgmt-b rsyncd[17399]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 23 18:10:01 mgmt-b rsyncd[17399]: Ignoring "log file" setting.
-May 23 18:10:02 mgmt-b rsyncd[17399]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 23 18:10:02 mgmt-b rsyncd[17399]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 23 18:10:02 mgmt-b rsyncd[17402]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 23 18:10:02 mgmt-b rsyncd[17402]: Ignoring "log file" setting.
-May 23 18:10:02 mgmt-b rsyncd[17402]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 23 18:10:02 mgmt-b rsyncd[17402]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 23 18:10:02 mgmt-b rsyncd[17404]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 23 18:10:02 mgmt-b rsyncd[17404]: Ignoring "log file" setting.
-May 23 18:10:02 mgmt-b rsyncd[17404]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 23 18:10:02 mgmt-b rsyncd[17404]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 23 18:10:02 mgmt-b rsyncd[17406]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 23 18:10:02 mgmt-b rsyncd[17406]: Ignoring "log file" setting.
-May 23 18:10:02 mgmt-b rsyncd[17406]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 23 18:10:02 mgmt-b rsyncd[17406]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 23 18:10:02 mgmt-b rsyncd[17408]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 23 18:10:02 mgmt-b rsyncd[17408]: Ignoring "log file" setting.
-May 23 18:10:02 mgmt-b rsyncd[17408]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 23 18:10:02 mgmt-b rsyncd[17408]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 23 18:10:02 mgmt-b rsyncd[17410]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 23 18:10:02 mgmt-b rsyncd[17410]: Ignoring "log file" setting.
-May 23 18:10:02 mgmt-b rsyncd[17410]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 23 18:10:02 mgmt-b rsyncd[17410]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 23 18:40:24 mgmt-b nagios3: Auto-save of retention data completed successfully.
-May 23 19:40:24 mgmt-b nagios3: Auto-save of retention data completed successfully.
-May 23 20:40:24 mgmt-b nagios3: Auto-save of retention data completed successfully.
-May 23 21:40:24 mgmt-b nagios3: Auto-save of retention data completed successfully.
-May 23 22:10:01 mgmt-b rsyncd[8589]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 23 22:10:01 mgmt-b rsyncd[8589]: Ignoring "log file" setting.
-May 23 22:10:01 mgmt-b rsyncd[8589]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 23 22:10:01 mgmt-b rsyncd[8589]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 23 22:10:01 mgmt-b rsyncd[8591]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 23 22:10:01 mgmt-b rsyncd[8591]: Ignoring "log file" setting.
-May 23 22:10:01 mgmt-b rsyncd[8591]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 23 22:10:01 mgmt-b rsyncd[8591]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 23 22:10:01 mgmt-b rsyncd[8593]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 23 22:10:01 mgmt-b rsyncd[8593]: Ignoring "log file" setting.
-May 23 22:10:01 mgmt-b rsyncd[8593]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 23 22:10:01 mgmt-b rsyncd[8593]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 23 22:10:01 mgmt-b rsyncd[8595]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 23 22:10:01 mgmt-b rsyncd[8595]: Ignoring "log file" setting.
-May 23 22:10:01 mgmt-b rsyncd[8595]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 23 22:10:01 mgmt-b rsyncd[8595]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 23 22:10:01 mgmt-b rsyncd[8597]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 23 22:10:01 mgmt-b rsyncd[8597]: Ignoring "log file" setting.
-May 23 22:10:01 mgmt-b rsyncd[8597]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 23 22:10:01 mgmt-b rsyncd[8597]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 23 22:10:01 mgmt-b rsyncd[8599]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 23 22:10:01 mgmt-b rsyncd[8599]: Ignoring "log file" setting.
-May 23 22:10:01 mgmt-b rsyncd[8599]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 23 22:10:01 mgmt-b rsyncd[8599]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 23 22:40:24 mgmt-b nagios3: Auto-save of retention data completed successfully.
-May 23 23:40:24 mgmt-b nagios3: Auto-save of retention data completed successfully.
-May 24 00:00:00 mgmt-b nagios3: LOG ROTATION: DAILY
-May 24 00:00:00 mgmt-b nagios3: LOG VERSION: 2.0
-May 24 00:00:00 mgmt-b nagios3: CURRENT HOST STATE: app-b.foo.org.nz;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 4.57 ms
-May 24 00:00:00 mgmt-b nagios3: CURRENT HOST STATE: backup-b.foo.org.nz;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 1.55 ms
-May 24 00:00:00 mgmt-b nagios3: CURRENT HOST STATE: db-b.foo.org.nz;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 1.51 ms
-May 24 00:00:00 mgmt-b nagios3: CURRENT HOST STATE: localhost;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.06 ms
-May 24 00:00:00 mgmt-b nagios3: CURRENT HOST STATE: mgmt-b.foo.org.nz;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.04 ms
-May 24 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: app-b.foo.org.nz;Remote disk servers;OK;HARD;1;DISK OK - free space: /var/tmp 24635 MB (83% inode=93%):
-May 24 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: app-b.foo.org.nz;ssh servers;OK;HARD;1;SSH OK - OpenSSH_7.6p1 Ubuntu-4ubuntu0.6 (protocol 2.0)
-May 24 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: backup-b.foo.org.nz;Remote disk servers;OK;HARD;1;DISK OK - free space: /var/tmp 23973 MB (81% inode=94%):
-May 24 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: backup-b.foo.org.nz;ssh servers;OK;HARD;1;SSH OK - OpenSSH_7.6p1 Ubuntu-4ubuntu0.6 (protocol 2.0)
-May 24 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: db-b.foo.org.nz;MariaDB servers;OK;HARD;1;Uptime: 261945  Threads: 2  Questions: 1334778  Slow queries: 0  Opens: 248  Flush tables: 1  Open tables: 242  Queries per second avg: 5.095
-May 24 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: db-b.foo.org.nz;Remote disk servers;OK;HARD;1;DISK OK - free space: /var/tmp 25003 MB (84% inode=95%):
-May 24 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: db-b.foo.org.nz;ssh servers;OK;HARD;1;SSH OK - OpenSSH_7.6p1 Ubuntu-4ubuntu0.6 (protocol 2.0)
-May 24 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: localhost;Current Load;OK;HARD;1;OK - load average: 0.00, 0.01, 0.00
-May 24 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: localhost;Current Users;OK;HARD;1;USERS OK - 0 users currently logged in
-May 24 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: localhost;Disk Space;CRITICAL;HARD;4;DISK CRITICAL - /sys/kernel/debug/tracing is not accessible: Permission denied
-May 24 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: localhost;HTTP;OK;HARD;1;HTTP OK: HTTP/1.1 200 OK - 11192 bytes in 0.001 second response time
-May 24 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: localhost;SSH;OK;HARD;1;SSH OK - OpenSSH_7.6p1 Ubuntu-4ubuntu0.6 (protocol 2.0)
-May 24 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: localhost;Total Processes;OK;HARD;1;PROCS OK: 118 processes
-May 24 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: mgmt-b.foo.org.nz;ssh servers;OK;HARD;1;SSH OK - OpenSSH_7.6p1 Ubuntu-4ubuntu0.6 (protocol 2.0)
-May 24 00:15:02 mgmt-b rsyncd[21050]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 24 00:15:02 mgmt-b rsyncd[21050]: Ignoring "log file" setting.
-May 24 00:15:03 mgmt-b rsyncd[21050]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 24 00:15:03 mgmt-b rsyncd[21050]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 24 00:40:24 mgmt-b nagios3: Auto-save of retention data completed successfully.
-May 24 01:40:24 mgmt-b nagios3: Auto-save of retention data completed successfully.
-May 24 02:10:01 mgmt-b rsyncd[32410]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 24 02:10:01 mgmt-b rsyncd[32410]: Ignoring "log file" setting.
-May 24 02:10:01 mgmt-b rsyncd[32410]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 24 02:10:01 mgmt-b rsyncd[32410]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 24 02:10:01 mgmt-b rsyncd[32412]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 24 02:10:01 mgmt-b rsyncd[32412]: Ignoring "log file" setting.
-May 24 02:10:01 mgmt-b rsyncd[32412]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 24 02:10:01 mgmt-b rsyncd[32412]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 24 02:10:01 mgmt-b rsyncd[32414]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 24 02:10:01 mgmt-b rsyncd[32414]: Ignoring "log file" setting.
-May 24 02:10:01 mgmt-b rsyncd[32414]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 24 02:10:01 mgmt-b rsyncd[32414]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 24 02:10:01 mgmt-b rsyncd[32416]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 24 02:10:01 mgmt-b rsyncd[32416]: Ignoring "log file" setting.
-May 24 02:10:01 mgmt-b rsyncd[32416]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 24 02:10:01 mgmt-b rsyncd[32416]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 24 02:10:01 mgmt-b rsyncd[32418]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 24 02:10:01 mgmt-b rsyncd[32418]: Ignoring "log file" setting.
-May 24 02:10:01 mgmt-b rsyncd[32418]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 24 02:10:01 mgmt-b rsyncd[32418]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 24 02:10:01 mgmt-b rsyncd[32420]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 24 02:10:01 mgmt-b rsyncd[32420]: Ignoring "log file" setting.
-May 24 02:10:01 mgmt-b rsyncd[32420]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 24 02:10:01 mgmt-b rsyncd[32420]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 24 02:40:24 mgmt-b nagios3: Auto-save of retention data completed successfully.
-May 24 03:40:24 mgmt-b nagios3: Auto-save of retention data completed successfully.
-May 24 04:40:24 mgmt-b nagios3: Auto-save of retention data completed successfully.
-May 24 05:40:24 mgmt-b nagios3: Auto-save of retention data completed successfully.
-May 24 06:10:01 mgmt-b rsyncd[24234]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 24 06:10:01 mgmt-b rsyncd[24234]: Ignoring "log file" setting.
-May 24 06:10:01 mgmt-b rsyncd[24234]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 24 06:10:01 mgmt-b rsyncd[24234]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 24 06:10:01 mgmt-b rsyncd[24236]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 24 06:10:01 mgmt-b rsyncd[24236]: Ignoring "log file" setting.
-May 24 06:10:01 mgmt-b rsyncd[24236]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 24 06:10:01 mgmt-b rsyncd[24236]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 24 06:10:01 mgmt-b rsyncd[24238]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 24 06:10:01 mgmt-b rsyncd[24238]: Ignoring "log file" setting.
-May 24 06:10:01 mgmt-b rsyncd[24238]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 24 06:10:01 mgmt-b rsyncd[24238]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 24 06:10:01 mgmt-b rsyncd[24240]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 24 06:10:01 mgmt-b rsyncd[24240]: Ignoring "log file" setting.
-May 24 06:10:01 mgmt-b rsyncd[24240]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 24 06:10:01 mgmt-b rsyncd[24240]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 24 06:10:01 mgmt-b rsyncd[24242]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 24 06:10:01 mgmt-b rsyncd[24242]: Ignoring "log file" setting.
-May 24 06:10:01 mgmt-b rsyncd[24242]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 24 06:10:01 mgmt-b rsyncd[24242]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 24 06:10:01 mgmt-b rsyncd[24244]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 24 06:10:01 mgmt-b rsyncd[24244]: Ignoring "log file" setting.
-May 24 06:10:01 mgmt-b rsyncd[24244]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 24 06:10:01 mgmt-b rsyncd[24244]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 24 06:40:24 mgmt-b nagios3: Auto-save of retention data completed successfully.
-May 24 06:57:49 mgmt-b KVP: KVP starting; pid is:29567
-May 24 06:57:49 mgmt-b KVP: KVP LIC Version: 3.1
-May 24 07:40:24 mgmt-b nagios3: Auto-save of retention data completed successfully.
-May 24 08:40:24 mgmt-b nagios3: Auto-save of retention data completed successfully.
-May 24 09:40:24 mgmt-b nagios3: Auto-save of retention data completed successfully.
-May 24 10:10:01 mgmt-b rsyncd[16903]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 24 10:10:01 mgmt-b rsyncd[16903]: Ignoring "log file" setting.
-May 24 10:10:01 mgmt-b rsyncd[16903]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 24 10:10:01 mgmt-b rsyncd[16903]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 24 10:10:01 mgmt-b rsyncd[16905]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 24 10:10:01 mgmt-b rsyncd[16905]: Ignoring "log file" setting.
-May 24 10:10:01 mgmt-b rsyncd[16905]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 24 10:10:02 mgmt-b rsyncd[16905]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 24 10:10:02 mgmt-b rsyncd[16907]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 24 10:10:02 mgmt-b rsyncd[16907]: Ignoring "log file" setting.
-May 24 10:10:02 mgmt-b rsyncd[16907]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 24 10:10:02 mgmt-b rsyncd[16907]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 24 10:10:02 mgmt-b rsyncd[16910]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 24 10:10:02 mgmt-b rsyncd[16910]: Ignoring "log file" setting.
-May 24 10:10:02 mgmt-b rsyncd[16910]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 24 10:10:02 mgmt-b rsyncd[16910]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 24 10:10:02 mgmt-b rsyncd[16912]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 24 10:10:02 mgmt-b rsyncd[16912]: Ignoring "log file" setting.
-May 24 10:10:02 mgmt-b rsyncd[16912]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 24 10:10:02 mgmt-b rsyncd[16912]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 24 10:10:02 mgmt-b rsyncd[16914]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 24 10:10:02 mgmt-b rsyncd[16914]: Ignoring "log file" setting.
-May 24 10:10:02 mgmt-b rsyncd[16914]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 24 10:10:02 mgmt-b rsyncd[16914]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 24 10:40:24 mgmt-b nagios3: Auto-save of retention data completed successfully.
-May 24 11:40:24 mgmt-b nagios3: Auto-save of retention data completed successfully.
-May 24 12:40:24 mgmt-b nagios3: Auto-save of retention data completed successfully.
-May 24 13:40:24 mgmt-b nagios3: Auto-save of retention data completed successfully.
-May 24 14:10:01 mgmt-b rsyncd[8254]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 24 14:10:01 mgmt-b rsyncd[8254]: Ignoring "log file" setting.
-May 24 14:10:01 mgmt-b rsyncd[8254]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 24 14:10:01 mgmt-b rsyncd[8254]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 24 14:10:01 mgmt-b rsyncd[8256]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 24 14:10:01 mgmt-b rsyncd[8256]: Ignoring "log file" setting.
-May 24 14:10:01 mgmt-b rsyncd[8256]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 24 14:10:01 mgmt-b rsyncd[8256]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 24 14:10:01 mgmt-b rsyncd[8258]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 24 14:10:01 mgmt-b rsyncd[8258]: Ignoring "log file" setting.
-May 24 14:10:01 mgmt-b rsyncd[8258]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 24 14:10:01 mgmt-b rsyncd[8258]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 24 14:10:01 mgmt-b rsyncd[8260]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 24 14:10:01 mgmt-b rsyncd[8260]: Ignoring "log file" setting.
-May 24 14:10:01 mgmt-b rsyncd[8260]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 24 14:10:01 mgmt-b rsyncd[8260]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 24 14:10:01 mgmt-b rsyncd[8262]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 24 14:10:01 mgmt-b rsyncd[8262]: Ignoring "log file" setting.
-May 24 14:10:02 mgmt-b rsyncd[8262]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 24 14:10:02 mgmt-b rsyncd[8262]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 24 14:10:02 mgmt-b rsyncd[8265]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 24 14:10:02 mgmt-b rsyncd[8265]: Ignoring "log file" setting.
-May 24 14:10:02 mgmt-b rsyncd[8265]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 24 14:10:02 mgmt-b rsyncd[8265]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 24 14:40:24 mgmt-b nagios3: Auto-save of retention data completed successfully.
-May 24 15:40:24 mgmt-b nagios3: Auto-save of retention data completed successfully.
-May 24 16:40:24 mgmt-b nagios3: Auto-save of retention data completed successfully.
-May 24 17:40:24 mgmt-b nagios3: Auto-save of retention data completed successfully.
-May 24 18:10:01 mgmt-b rsyncd[31873]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 24 18:10:01 mgmt-b rsyncd[31873]: Ignoring "log file" setting.
-May 24 18:10:01 mgmt-b rsyncd[31873]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 24 18:10:01 mgmt-b rsyncd[31873]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 24 18:10:01 mgmt-b rsyncd[31875]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 24 18:10:01 mgmt-b rsyncd[31875]: Ignoring "log file" setting.
-May 24 18:10:01 mgmt-b rsyncd[31875]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 24 18:10:01 mgmt-b rsyncd[31875]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 24 18:10:01 mgmt-b rsyncd[31877]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 24 18:10:01 mgmt-b rsyncd[31877]: Ignoring "log file" setting.
-May 24 18:10:01 mgmt-b rsyncd[31877]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 24 18:10:01 mgmt-b rsyncd[31877]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 24 18:10:01 mgmt-b rsyncd[31879]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 24 18:10:01 mgmt-b rsyncd[31879]: Ignoring "log file" setting.
-May 24 18:10:01 mgmt-b rsyncd[31879]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 24 18:10:01 mgmt-b rsyncd[31879]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 24 18:10:01 mgmt-b rsyncd[31881]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 24 18:10:01 mgmt-b rsyncd[31881]: Ignoring "log file" setting.
-May 24 18:10:01 mgmt-b rsyncd[31881]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 24 18:10:01 mgmt-b rsyncd[31881]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 24 18:10:01 mgmt-b rsyncd[31883]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 24 18:10:01 mgmt-b rsyncd[31883]: Ignoring "log file" setting.
-May 24 18:10:01 mgmt-b rsyncd[31883]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 24 18:10:01 mgmt-b rsyncd[31883]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 24 18:40:24 mgmt-b nagios3: Auto-save of retention data completed successfully.
-May 24 19:40:24 mgmt-b nagios3: Auto-save of retention data completed successfully.
-May 24 20:40:24 mgmt-b nagios3: Auto-save of retention data completed successfully.
-May 24 21:40:24 mgmt-b nagios3: Auto-save of retention data completed successfully.
-May 24 22:10:01 mgmt-b rsyncd[23319]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 24 22:10:01 mgmt-b rsyncd[23319]: Ignoring "log file" setting.
-May 24 22:10:01 mgmt-b rsyncd[23319]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 24 22:10:01 mgmt-b rsyncd[23319]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 24 22:10:01 mgmt-b rsyncd[23321]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 24 22:10:01 mgmt-b rsyncd[23321]: Ignoring "log file" setting.
-May 24 22:10:01 mgmt-b rsyncd[23321]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 24 22:10:01 mgmt-b rsyncd[23321]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 24 22:10:01 mgmt-b rsyncd[23323]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 24 22:10:01 mgmt-b rsyncd[23323]: Ignoring "log file" setting.
-May 24 22:10:01 mgmt-b rsyncd[23323]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 24 22:10:01 mgmt-b rsyncd[23323]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 24 22:10:01 mgmt-b rsyncd[23325]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 24 22:10:01 mgmt-b rsyncd[23325]: Ignoring "log file" setting.
-May 24 22:10:01 mgmt-b rsyncd[23325]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 24 22:10:01 mgmt-b rsyncd[23325]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 24 22:10:01 mgmt-b rsyncd[23327]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 24 22:10:01 mgmt-b rsyncd[23327]: Ignoring "log file" setting.
-May 24 22:10:01 mgmt-b rsyncd[23327]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 24 22:10:01 mgmt-b rsyncd[23327]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 24 22:10:01 mgmt-b rsyncd[23329]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 24 22:10:01 mgmt-b rsyncd[23329]: Ignoring "log file" setting.
-May 24 22:10:01 mgmt-b rsyncd[23329]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 24 22:10:01 mgmt-b rsyncd[23329]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
+May 24 22:40:24 mgmt-b nagios3: Auto-save of retention data completed successfully.
+May 24 23:40:24 mgmt-b nagios3: Auto-save of retention data completed successfully.
+May 25 00:00:00 mgmt-b nagios3: LOG ROTATION: DAILY
+May 25 00:00:00 mgmt-b nagios3: LOG VERSION: 2.0
+May 25 00:00:00 mgmt-b nagios3: CURRENT HOST STATE: app-b.foo.org.nz;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 1.20 ms
+May 25 00:00:00 mgmt-b nagios3: CURRENT HOST STATE: backup-b.foo.org.nz;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 3.62 ms
+May 25 00:00:00 mgmt-b nagios3: CURRENT HOST STATE: db-b.foo.org.nz;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 2.12 ms
+May 25 00:00:00 mgmt-b nagios3: CURRENT HOST STATE: localhost;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.09 ms
+May 25 00:00:00 mgmt-b nagios3: CURRENT HOST STATE: mgmt-b.foo.org.nz;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.03 ms
+May 25 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: app-b.foo.org.nz;Remote disk servers;OK;HARD;1;DISK OK - free space: /var/tmp 24601 MB (83% inode=93%):
+May 25 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: app-b.foo.org.nz;ssh servers;OK;HARD;1;SSH OK - OpenSSH_7.6p1 Ubuntu-4ubuntu0.6 (protocol 2.0)
+May 25 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: backup-b.foo.org.nz;Remote disk servers;OK;HARD;1;DISK OK - free space: /var/tmp 23853 MB (80% inode=94%):
+May 25 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: backup-b.foo.org.nz;ssh servers;OK;HARD;1;SSH OK - OpenSSH_7.6p1 Ubuntu-4ubuntu0.6 (protocol 2.0)
+May 25 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: db-b.foo.org.nz;MariaDB servers;OK;HARD;1;Uptime: 348345  Threads: 2  Questions: 1774331  Slow queries: 0  Opens: 248  Flush tables: 1  Open tables: 242  Queries per second avg: 5.093
+May 25 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: db-b.foo.org.nz;Remote disk servers;OK;HARD;1;DISK OK - free space: /var/tmp 24961 MB (84% inode=95%):
+May 25 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: db-b.foo.org.nz;ssh servers;OK;HARD;1;SSH OK - OpenSSH_7.6p1 Ubuntu-4ubuntu0.6 (protocol 2.0)
+May 25 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: localhost;Current Load;OK;HARD;1;OK - load average: 0.00, 0.02, 0.04
+May 25 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: localhost;Current Users;OK;HARD;1;USERS OK - 0 users currently logged in
+May 25 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: localhost;Disk Space;CRITICAL;HARD;4;DISK CRITICAL - /sys/kernel/debug/tracing is not accessible: Permission denied
+May 25 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: localhost;HTTP;OK;HARD;1;HTTP OK: HTTP/1.1 200 OK - 11192 bytes in 0.001 second response time
+May 25 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: localhost;SSH;OK;HARD;1;SSH OK - OpenSSH_7.6p1 Ubuntu-4ubuntu0.6 (protocol 2.0)
+May 25 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: localhost;Total Processes;OK;HARD;1;PROCS OK: 118 processes
+May 25 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: mgmt-b.foo.org.nz;ssh servers;OK;HARD;1;SSH OK - OpenSSH_7.6p1 Ubuntu-4ubuntu0.6 (protocol 2.0)
+May 25 00:15:02 mgmt-b rsyncd[3412]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
+May 25 00:15:02 mgmt-b rsyncd[3412]: Ignoring "log file" setting.
+May 25 00:15:02 mgmt-b rsyncd[3412]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+May 25 00:15:02 mgmt-b rsyncd[3412]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
+May 25 00:40:24 mgmt-b nagios3: Auto-save of retention data completed successfully.
+May 25 01:40:24 mgmt-b nagios3: Auto-save of retention data completed successfully.
+May 25 02:10:01 mgmt-b rsyncd[14764]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
+May 25 02:10:01 mgmt-b rsyncd[14764]: Ignoring "log file" setting.
+May 25 02:10:01 mgmt-b rsyncd[14764]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+May 25 02:10:01 mgmt-b rsyncd[14764]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
+May 25 02:10:01 mgmt-b rsyncd[14766]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
+May 25 02:10:01 mgmt-b rsyncd[14766]: Ignoring "log file" setting.
+May 25 02:10:01 mgmt-b rsyncd[14766]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+May 25 02:10:01 mgmt-b rsyncd[14766]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
+May 25 02:10:01 mgmt-b rsyncd[14768]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
+May 25 02:10:01 mgmt-b rsyncd[14768]: Ignoring "log file" setting.
+May 25 02:10:01 mgmt-b rsyncd[14768]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+May 25 02:10:01 mgmt-b rsyncd[14768]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
+May 25 02:10:01 mgmt-b rsyncd[14770]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
+May 25 02:10:01 mgmt-b rsyncd[14770]: Ignoring "log file" setting.
+May 25 02:10:01 mgmt-b rsyncd[14770]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+May 25 02:10:01 mgmt-b rsyncd[14770]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
+May 25 02:10:01 mgmt-b rsyncd[14772]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
+May 25 02:10:01 mgmt-b rsyncd[14772]: Ignoring "log file" setting.
+May 25 02:10:01 mgmt-b rsyncd[14772]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+May 25 02:10:01 mgmt-b rsyncd[14772]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
+May 25 02:10:01 mgmt-b rsyncd[14774]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
+May 25 02:10:01 mgmt-b rsyncd[14774]: Ignoring "log file" setting.
+May 25 02:10:01 mgmt-b rsyncd[14774]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+May 25 02:10:01 mgmt-b rsyncd[14774]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
+May 25 02:40:24 mgmt-b nagios3: Auto-save of retention data completed successfully.
+May 25 03:40:24 mgmt-b nagios3: Auto-save of retention data completed successfully.
+May 25 04:09:03 mgmt-b nagios3: Caught SIGTERM, shutting down...
+May 25 04:09:03 mgmt-b nagios3: Successfully shutdown... (PID=1293)
+May 25 04:09:03 mgmt-b nagios3: Nagios 3.5.1 starting... (PID=27216)
+May 25 04:09:03 mgmt-b nagios3: Local time is Wed May 25 04:09:03 UTC 2022
+May 25 04:09:03 mgmt-b nagios3: LOG VERSION: 2.0
+May 25 04:09:03 mgmt-b nagios3: Finished daemonizing... (New PID=27232)
+May 25 04:12:14 mgmt-b nagios3: Caught SIGTERM, shutting down...
+May 25 04:12:14 mgmt-b nagios3: Successfully shutdown... (PID=27232)
+May 25 04:12:14 mgmt-b nagios3: Nagios 3.5.1 starting... (PID=27806)
+May 25 04:12:14 mgmt-b nagios3: Local time is Wed May 25 04:12:14 UTC 2022
+May 25 04:12:14 mgmt-b nagios3: LOG VERSION: 2.0
+May 25 04:12:14 mgmt-b nagios3: Finished daemonizing... (New PID=27810)
+May 25 04:19:27 mgmt-b nagios3: Caught SIGTERM, shutting down...
+May 25 04:19:27 mgmt-b nagios3: Successfully shutdown... (PID=27810)
