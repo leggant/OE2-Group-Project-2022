@@ -1,120 +1,3 @@
-132804 04:17:27.598821355 0 sshd (17906) > read fd=11(<f>/dev/ptmx) size=16384 
-132805 04:17:27.598823855 0 sshd (17906) > getpid 
-132806 04:17:27.598824055 0 sshd (17906) < getpid 
-132807 04:17:27.598826255 0 sshd (17906) > clock_gettime 
-132808 04:17:27.598826555 0 sshd (17906) < clock_gettime 
-132809 04:17:27.598827355 0 sshd (17906) > select 
-132810 04:17:27.598828555 0 sshd (17906) < select res=1 
-132811 04:17:27.598829255 0 sshd (17906) > clock_gettime 
-132812 04:17:27.598829555 0 sshd (17906) < clock_gettime 
-132813 04:17:27.598830155 0 sshd (17906) > rt_sigprocmask 
-132814 04:17:27.598830455 0 sshd (17906) < rt_sigprocmask 
-132815 04:17:27.598831055 0 sshd (17906) > rt_sigprocmask 
-132816 04:17:27.598831355 0 sshd (17906) < rt_sigprocmask 
-132817 04:17:27.598831955 0 sshd (17906) > clock_gettime 
-132818 04:17:27.598832455 0 sshd (17906) < clock_gettime 
-132819 04:17:27.598833155 0 sshd (17906) > write fd=3(<4t>202.49.0.75:51813->10.6.0.5:22) size=172 
-132820 04:17:27.598837355 0 sshd (17906) > clock_gettime 
-132821 04:17:27.598837555 0 sshd (17906) < clock_gettime 
-132822 04:17:27.598838355 0 sshd (17906) > select 
-132823 04:17:27.598840755 0 sshd (17906) > switch next=25722(sysdig) pgft_maj=0 pgft_min=213 vm_size=108120 vm_rss=5460 vm_swap=0 
-132824 04:17:27.598843255 0 sysdig (25722) > switch next=25194 pgft_maj=0 pgft_min=1465 vm_size=136228 vm_rss=16096 vm_swap=0 
-132825 04:17:27.598845255 0 <NA> (25194) > switch next=25722(sysdig) pgft_maj=0 pgft_min=0 vm_size=0 vm_rss=0 vm_swap=0 
-132826 04:17:27.598848355 0 sysdig (25722) > stat 
-132827 04:17:27.598850655 0 sysdig (25722) < stat res=0 path=/etc/localtime 
-132828 04:17:27.598854855 0 sysdig (25722) > write fd=1 size=74 
-132829 04:17:27.598857055 0 sysdig (25722) > switch next=25194 pgft_maj=0 pgft_min=1465 vm_size=136228 vm_rss=16096 vm_swap=0 
-132830 04:17:27.598858455 0 <NA> (25194) > switch next=25722(sysdig) pgft_maj=0 pgft_min=0 vm_size=0 vm_rss=0 vm_swap=0 
-132831 04:17:27.598859855 0 sysdig (25722) > switch next=25194 pgft_maj=0 pgft_min=1465 vm_size=136228 vm_rss=16096 vm_swap=0 
-132832 04:17:27.598860855 0 <NA> (25194) > switch next=25722(sysdig) pgft_maj=0 pgft_min=0 vm_size=0 vm_rss=0 vm_swap=0 
-132833 04:17:27.598863055 0 sysdig (25722) > stat 
-132834 04:17:27.598864555 0 sysdig (25722) < stat res=0 path=/etc/localtime 
-132835 04:17:27.598867955 0 sysdig (25722) > write fd=1 size=61 
-132836 04:17:27.598869555 0 sysdig (25722) > switch next=25194 pgft_maj=0 pgft_min=1465 vm_size=136228 vm_rss=16096 vm_swap=0 
-132837 04:17:27.598870855 0 <NA> (25194) > switch next=17906(sshd) pgft_maj=0 pgft_min=0 vm_size=0 vm_rss=0 vm_swap=0 
-132838 04:17:27.598872955 0 sshd (17906) < select res=1 
-132839 04:17:27.598873855 0 sshd (17906) > clock_gettime 
-132840 04:17:27.598874255 0 sshd (17906) < clock_gettime 
-132841 04:17:27.598875055 0 sshd (17906) > rt_sigprocmask 
-132842 04:17:27.598875355 0 sshd (17906) < rt_sigprocmask 
-132843 04:17:27.598875955 0 sshd (17906) > rt_sigprocmask 
-132844 04:17:27.598876155 0 sshd (17906) < rt_sigprocmask 
-132845 04:17:27.598876755 0 sshd (17906) > clock_gettime 
-132846 04:17:27.598877055 0 sshd (17906) < clock_gettime 
-132847 04:17:27.598877755 0 sshd (17906) > read fd=11(<f>/dev/ptmx) size=16384 
-132848 04:17:27.598880255 0 sshd (17906) > getpid 
-132849 04:17:27.598880455 0 sshd (17906) < getpid 
-132850 04:17:27.598882855 0 sshd (17906) > clock_gettime 
-132851 04:17:27.598883155 0 sshd (17906) < clock_gettime 
-132852 04:17:27.598883955 0 sshd (17906) > select 
-132853 04:17:27.598885155 0 sshd (17906) < select res=1 
-132854 04:17:27.598885855 0 sshd (17906) > clock_gettime 
-132855 04:17:27.598886055 0 sshd (17906) < clock_gettime 
-132856 04:17:27.598886755 0 sshd (17906) > rt_sigprocmask 
-132857 04:17:27.598887055 0 sshd (17906) < rt_sigprocmask 
-132858 04:17:27.598887655 0 sshd (17906) > rt_sigprocmask 
-132859 04:17:27.598887855 0 sshd (17906) < rt_sigprocmask 
-132860 04:17:27.598888555 0 sshd (17906) > clock_gettime 
-132861 04:17:27.598888755 0 sshd (17906) < clock_gettime 
-132862 04:17:27.598889555 0 sshd (17906) > write fd=3(<4t>202.49.0.75:51813->10.6.0.5:22) size=172 
-132863 04:17:27.598893655 0 sshd (17906) > clock_gettime 
-132864 04:17:27.598893855 0 sshd (17906) < clock_gettime 
-132865 04:17:27.598894655 0 sshd (17906) > select 
-132866 04:17:27.598897055 0 sshd (17906) > switch next=25722(sysdig) pgft_maj=0 pgft_min=213 vm_size=108120 vm_rss=5460 vm_swap=0 
-132867 04:17:27.598899555 0 sysdig (25722) > switch next=25194 pgft_maj=0 pgft_min=1465 vm_size=136228 vm_rss=16096 vm_swap=0 
-132868 04:17:27.598901555 0 <NA> (25194) > switch next=25722(sysdig) pgft_maj=0 pgft_min=0 vm_size=0 vm_rss=0 vm_swap=0 
-132869 04:17:27.598904455 0 sysdig (25722) > stat 
-132870 04:17:27.598906755 0 sysdig (25722) < stat res=0 path=/etc/localtime 
-132871 04:17:27.598910955 0 sysdig (25722) > write fd=1 size=73 
-132872 04:17:27.598912955 0 sysdig (25722) > switch next=25194 pgft_maj=0 pgft_min=1465 vm_size=136228 vm_rss=16096 vm_swap=0 
-132873 04:17:27.598914355 0 <NA> (25194) > switch next=25722(sysdig) pgft_maj=0 pgft_min=0 vm_size=0 vm_rss=0 vm_swap=0 
-132874 04:17:27.598915755 0 sysdig (25722) > switch next=25194 pgft_maj=0 pgft_min=1465 vm_size=136228 vm_rss=16096 vm_swap=0 
-132875 04:17:27.598916755 0 <NA> (25194) > switch next=25722(sysdig) pgft_maj=0 pgft_min=0 vm_size=0 vm_rss=0 vm_swap=0 
-132876 04:17:27.598918955 0 sysdig (25722) > stat 
-132877 04:17:27.598920355 0 sysdig (25722) < stat res=0 path=/etc/localtime 
-132878 04:17:27.598923655 0 sysdig (25722) > write fd=1 size=71 
-132879 04:17:27.598925255 0 sysdig (25722) > switch next=25194 pgft_maj=0 pgft_min=1465 vm_size=136228 vm_rss=16096 vm_swap=0 
-132880 04:17:27.598926455 0 <NA> (25194) > switch next=17906(sshd) pgft_maj=0 pgft_min=0 vm_size=0 vm_rss=0 vm_swap=0 
-132881 04:17:27.598928455 0 sshd (17906) < select res=1 
-132882 04:17:27.598929355 0 sshd (17906) > clock_gettime 
-132883 04:17:27.598929755 0 sshd (17906) < clock_gettime 
-132884 04:17:27.598930555 0 sshd (17906) > rt_sigprocmask 
-132885 04:17:27.598930955 0 sshd (17906) < rt_sigprocmask 
-132886 04:17:27.598931555 0 sshd (17906) > rt_sigprocmask 
-132887 04:17:27.598931855 0 sshd (17906) < rt_sigprocmask 
-132888 04:17:27.598932455 0 sshd (17906) > clock_gettime 
-132889 04:17:27.598932855 0 sshd (17906) < clock_gettime 
-132890 04:17:27.598933555 0 sshd (17906) > read fd=11(<f>/dev/ptmx) size=16384 
-132891 04:17:27.598935955 0 sshd (17906) > getpid 
-132892 04:17:27.598936155 0 sshd (17906) < getpid 
-132893 04:17:27.598938355 0 sshd (17906) > clock_gettime 
-132894 04:17:27.598938755 0 sshd (17906) < clock_gettime 
-132895 04:17:27.598939555 0 sshd (17906) > select 
-132896 04:17:27.598940655 0 sshd (17906) < select res=1 
-132897 04:17:27.598941255 0 sshd (17906) > clock_gettime 
-132898 04:17:27.598941655 0 sshd (17906) < clock_gettime 
-132899 04:17:27.598942255 0 sshd (17906) > rt_sigprocmask 
-132900 04:17:27.598942555 0 sshd (17906) < rt_sigprocmask 
-132901 04:17:27.598943155 0 sshd (17906) > rt_sigprocmask 
-132902 04:17:27.598943455 0 sshd (17906) < rt_sigprocmask 
-132903 04:17:27.598944055 0 sshd (17906) > clock_gettime 
-132904 04:17:27.598944355 0 sshd (17906) < clock_gettime 
-132905 04:17:27.598945055 0 sshd (17906) > write fd=3(<4t>202.49.0.75:51813->10.6.0.5:22) size=180 
-132906 04:17:27.598949156 0 sshd (17906) > clock_gettime 
-132907 04:17:27.598949456 0 sshd (17906) < clock_gettime 
-132908 04:17:27.598950256 0 sshd (17906) > select 
-132909 04:17:27.598952556 0 sshd (17906) > switch next=25722(sysdig) pgft_maj=0 pgft_min=213 vm_size=108120 vm_rss=5460 vm_swap=0 
-132910 04:17:27.598955356 0 sysdig (25722) > switch next=25194 pgft_maj=0 pgft_min=1465 vm_size=136228 vm_rss=16096 vm_swap=0 
-132911 04:17:27.598957256 0 <NA> (25194) > switch next=25722(sysdig) pgft_maj=0 pgft_min=0 vm_size=0 vm_rss=0 vm_swap=0 
-132912 04:17:27.598960556 0 sysdig (25722) > stat 
-132913 04:17:27.598962756 0 sysdig (25722) < stat res=0 path=/etc/localtime 
-132914 04:17:27.598966856 0 sysdig (25722) > write fd=1 size=66 
-132915 04:17:27.598968856 0 sysdig (25722) > switch next=25194 pgft_maj=0 pgft_min=1465 vm_size=136228 vm_rss=16096 vm_swap=0 
-132916 04:17:27.598970256 0 <NA> (25194) > switch next=25722(sysdig) pgft_maj=0 pgft_min=0 vm_size=0 vm_rss=0 vm_swap=0 
-132917 04:17:27.598971756 0 sysdig (25722) > switch next=25194 pgft_maj=0 pgft_min=1465 vm_size=136228 vm_rss=16096 vm_swap=0 
-132918 04:17:27.598972656 0 <NA> (25194) > switch next=25722(sysdig) pgft_maj=0 pgft_min=0 vm_size=0 vm_rss=0 vm_swap=0 
-132919 04:17:27.598975056 0 sysdig (25722) > stat 
-.5:22) size=148 
 132519 04:17:27.598387952 0 sshd (17906) > clock_gettime 
 132520 04:17:27.598388152 0 sshd (17906) < clock_gettime 
 132521 04:17:27.598388952 0 sshd (17906) > select 
@@ -1997,4 +1880,121 @@ ls
 sudo nano crontab.txt 
 sudo nano OE2-Group-Project/Scripts/app/backup.sh 
 cat /var/log/cron.log
+exit
+cd /etc/nagios
+l
+ls
+vim nrpe.cfg 
+ls
+cd nrpe.d/
+ls
+cd ..
+ls
+cd ..
+ls
+mod
+ls
+cd nagios-plugins/
+ls
+cd config/
+ls
+vim check_nrpe.cfg 
+cd ..
+ls
+cd ..
+ls
+cd nagios
+ls
+vim nagios_service.cfg 
+vim nrpe_local.cfg 
+vim nrpe.cfg 
+ls
+vim nrpe.cfg 
+respup
+vim nrpe.cfg 
+respup 
+ls
+vim nrpe.cfg 
+cd ..
+cd nagios-plugins/
+cd config/
+ls
+vim check_nrpe.cfg 
+respup 
+statpup
+vim check_nrpe.cfg 
+ls
+cd ..
+ls
+cd ..
+ls
+cd nagios
+ls
+vim nrpe.cfg 
+/usr/lib/nagios/plugins/check_ping -w 10,2% -c 20,5%
+cd /usr/lib/nagios/plugins
+ls
+cd ~
+ls
+cd /etc/nagios
+ls
+cd nrpe.d/
+ls
+cd ..
+ls
+cd ..
+cd nagios-plugins/
+cd config/
+ls
+vim check_nrpe.cfg 
+site
+ls
+vim check_nrpe.cfg 
+respup
+ls
+sudo systemctl restart nagios-nrpe-server
+ls
+vim check_nrpe.cfg 
+ls
+vim ping.cfg 
+ls
+cd ..
+ls
+cd .
+ls
+cd config/
+ls
+sudo vim check_nrpe.cfg 
+respup
+statpup
+sudo vim check_nrpe.cfg 
+ls
+vim check_nrpe.cfg 
+ls
+cd ..
+cd /etc/nagios
+sudo vim nrpe.cfg 
+respup
+ls
+vim nrpe.cfg 
+/usr/lib/nagios/plugins/check_ping -H $hostname -w 10,2% -c 20,5%
+/usr/lib/nagios/plugins/check_ping -H hostname -w 10,2% -c 20,5%
+/usr/lib/nagios/plugins/check_ping -H localhost -w 10,2% -c 20,5%
+respup
+vim nrpe.cfg 
+sudo systemctl restart nagios-nrpe-server
+respup
+sudo systemctl status nagios-nrpe-server
+sudo systemctl restart nagios-nrpe-server
+sudo systemctl status nagios-nrpe-server
+respup
+sudo systemctl status nagios-nrpe-server
+sudo systemctl restart nagios-nrpe-server
+sudo systemctl status nagios-nrpe-server
+l
+vim nrpe.cfg 
+ls
+vim nrpe.cfg 
+respup
+vim nrpe.cfg 
 exit
