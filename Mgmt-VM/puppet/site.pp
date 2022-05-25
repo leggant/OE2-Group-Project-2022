@@ -10,6 +10,7 @@ node 'db-b.foo.org.nz' {
 node 'backup-b.foo.org.nz' {
     include sudo
     include rsync
+    include nrpe_nagios
     include ntp_service
     service { 'puppet': ensure => 'running', enable => true }
     package { 'vim': ensure => present }
@@ -18,6 +19,7 @@ node 'app-b.foo.org.nz' {
     include sudo
     include rsync
     include ntp_service
+    include nrpe_nagios
     service { 'puppet': ensure => 'running', enable => true }
     package { 'vim': ensure => present }
     package { 'mysql-server': ensure => present }

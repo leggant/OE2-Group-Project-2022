@@ -38,14 +38,11 @@ nagios_service {"hosts-alive":
         mode => '0644',
        }
 
-
-
-
-nagios_service {"puppet-agent-check":
-        service_description => "check puppet agent",
-        hostgroup_name => "my-puppet-agents",
+nagios_service {"users-online":
+        service_description => "check users-login",
+        hostgroup_name => "hosts-alive",
         target => "/etc/nagios3/conf.d/ppt_services.cfg",
-        check_command => "check_nrpe!check_puppet_agent",
+        check_command => "check_nrpe!check_users",
         max_check_attempts => 3,
         retry_check_interval => 1,
         normal_check_interval => 5,
