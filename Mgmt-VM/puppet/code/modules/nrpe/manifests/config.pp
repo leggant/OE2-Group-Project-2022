@@ -13,6 +13,15 @@ nagios_hostgroup {"disk-servers":
         alias => 'My remote disk servers',
         members => 'backup-b.foo.org.nz,db-b.foo.org.nz,app-b.foo.org.nz',
         }
+
+nagios_hostgroup {"hosts-alive":
+        target => "/etc/nagios3/conf.d/ppt_hostgroups.cfg",
+        mode => "0777",
+        alias => 'My hosts servers',
+        members => 'mgmt-b.foo.org.nz,backup-b.foo.org.nz,db-b.foo.org.nz,app-b.foo.org.nz',
+        }
+
+
 }
 
 

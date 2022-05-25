@@ -1,14 +1,9 @@
-May 25 04:39:01 mgmt-b CRON[31317]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
-May 25 05:09:01 mgmt-b CRON[2550]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
-May 25 05:17:01 mgmt-b CRON[3442]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
-May 25 05:39:01 mgmt-b CRON[9017]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
-May 25 06:09:01 mgmt-b CRON[27801]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
-May 25 06:10:03 mgmt-b systemd-timesyncd[773]: Network configuration changed, trying to establish connection.
-May 25 06:10:03 mgmt-b systemd-timesyncd[773]: Network configuration changed, trying to establish connection.
-May 25 06:10:03 mgmt-b systemd-timesyncd[773]: Network configuration changed, trying to establish connection.
-May 25 06:10:03 mgmt-b systemd-timesyncd[773]: Network configuration changed, trying to establish connection.
-May 25 06:10:03 mgmt-b cron[1100]: (CRON) INFO (pidfile fd = 3)
-May 25 06:10:03 mgmt-b cron[1100]: (CRON) INFO (Running @reboot jobs)
-May 25 06:17:01 mgmt-b CRON[3510]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
-May 25 06:25:01 mgmt-b CRON[4361]: (root) CMD (test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.daily ))
-May 25 06:30:01 mgmt-b CRON[5048]: (bitstudent) CMD (sudo bash ~/OE2-Group-Project/Scripts/mgmt/backup.sh)
+May 25 06:39:01 mgmt-b CRON[6041]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+May 25 07:09:01 mgmt-b CRON[9415]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+May 25 07:14:01 mgmt-b CRON[10031]: (root) CMD (   test -x /etc/cron.daily/popularity-contest && /etc/cron.daily/popularity-contest --crond)
+May 25 07:17:01 mgmt-b CRON[10333]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+May 25 07:30:01 mgmt-b CRON[11603]: (bitstudent) CMD (sudo bash ~/OE2-Group-Project/Scripts/mgmt/backup.sh)
+May 25 07:39:01 mgmt-b CRON[12621]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+May 25 08:09:01 mgmt-b CRON[15674]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+May 25 08:17:01 mgmt-b CRON[16662]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+May 25 08:30:01 mgmt-b CRON[18351]: (bitstudent) CMD (sudo bash ~/OE2-Group-Project/Scripts/mgmt/backup.sh)

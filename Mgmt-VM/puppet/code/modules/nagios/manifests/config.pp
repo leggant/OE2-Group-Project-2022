@@ -134,10 +134,4 @@ class nagios::config {
         members => 'db-b.foo.org.nz'
         }	
 
-        nagios_hostgroup {"my-puppet-agents":
-        target => "/etc/nagios3/conf.d/ppt_hostgroups.cfg",
-        mode => "0444",
-        alias => 'My Puppet Agents',
-        members => 'mgmt-b.foo.org.nz'
-        }
 }
