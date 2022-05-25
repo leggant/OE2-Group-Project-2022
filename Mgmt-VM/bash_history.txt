@@ -1,151 +1,3 @@
-cd ~/OE2-Group-Project
-git status
-git statsh .gitignore
-git stash .gitignore
-git pull
-cd .git
-ls -al
-cd objects/
-ls
-ls -al
-cd ~/OE2-Group-Project
-sudo chmod 774 ./.git
-sudo chmod 774 .gitignore
-cd .git/
-sudo chown bitstudent FETCH_HEAD
-sudo chgrp bitstudent FETCH_HEAD
-sudo chown bitstudent ORIG_HEAD
-sudo chgrp bitstudent ORIG_HEAD
-sudo chmod 774 ./**
-cd objects
-sudo chgrp bitstudent ./**
-sudo chown bitstudent ./**
-sudo chmod 774 ./**
-cd ~/OE2-Group-Project
-git add .
-git status
-git pull
-exit
-wget https://github.com/prometheus/node_exporter/releases/download/v1.0.0-rc.0/node_exporter-1.0.0-rc.0.linux-amd64.tar.gz
-ls
-tar -xvf node_exporter-1.0.0-rc.0.linux-amd64.tar.gz 
-ls
-cd node_exporter-1.0.0-rc.0.linux-amd64/
-ls
-./node_exporter 
-ps -eaf | no
-ps -eaf | grep no
-kill -HUB 5019
-sudo kill -HUB 5019
-sudo kill -HUP 5019
-ls
-cd ..
-ls
-./node_exporter &
-cd node_exporter-1.0.0-rc.0.linux-amd64/
-./node_exporter &
-wget https://github.com/prometheus/prometheus/releases/download/v2.18.0-rc.1/prometheus-2.18.0-rc.1.linux-amd64.tar.gz
-ls
-tar -xvf prometheus-2.18.0-rc.1.linux-amd64.tar.gz 
-ls
-cd prometheus-2.18.0-rc.1.linux-amd64/
-ls
-vim prometheus.yml 
-ls./prometheus --config.file=prometheus.yml
-ls
-./prometheus --config.file=prometheus.yml
-vim prometheus.yml 
-./prometheus --config.file=prometheus.yml 
-./node_exporter &
-ls
-cd ..
-ls
-./node_exporter &
-./prometheus --config.file=prometheus.yml 
-cd ..
-cd node_exporter-1.0.0-rc.0.linux-amd64/
-./prometheus --config.file=prometheus.yml 
-ls
-cd prometheus-2.18.0-rc.1.linux-amd64/
-./prometheus --config.file=prometheus.yml 
-ls
-cd ..
-ls
-cd ..
-ls
-sudo rm -r node_exporter-1.0.0-rc.0.linux-amd64
-sudo rm node_exporter-1.0.0-rc.0.linux-amd64.tar.gz 
-ls
-ps -eaf | grep nod
-kill -HUP 2962
-sudo ufw allow 9090
-statmas
-ps -eaf | grep nod
-ls
-cd /etc
-ls
-date
-ls
-cd ..
-ps -eaf | grep nod
-ls
-cd ~
-wget https://github.com/prometheus/node_exporter/releases/download/v1.0.0-rc.0/node_exporter-1.0.0-rc.0.linux-amd64.tar.gz
-ls
-tar -xvf node_exporter-1.0.0-rc.0.linux-amd64.tar.gz 
-cd node_exporter-1.0.0-rc.0.linux-amd64/
-ls
-./node_exporter 
-ls
-cd ..
-ls
-sudo rm node_exporter-1.0.0-rc.0.linux-amd64
-sudo rm node_exporter-1.0.0-rc.0.linux-amd64 -er
-sudo rm node_exporter-1.0.0-rc.0.linux-amd64 -r
-sudo rm node_exporter-1.0.0-rc.0.linux-amd64 
-sudo rm node_exporter-1.0.0-rc.0.linux-amd64.tar.gz 
-ls
-wget https://github.com/prometheus/node_exporter/releases/download/v*/node_exporter-*.*-amd64.tar.gz
-sudo wget node_exporter-1.3.1.linux-amd64.tar.gz
-sudo wget https://github.com/prometheus/node_exporter/releases/download/v1.3.1/node_exporter-1.3.1.linux-amd64.tar.gz
-tar xvfz node_exporter-*.*-amd64.tar.gz
-cd node_exporter-*.*-amd64
-./node_exporter
-sudo ./node_exporter
-curl http://localhost:9100/metrics
-./node_exporter &
-curl http://localhost:9100/metrics
-./node_exporter &
-ps -eaf | grep no
-kill -HUP 9269
-ps -eaf | grep no
-./node_exporter &
-sudo ./node_exporter
-sudo ./node_exporter -p 9200
-sudo ./node_exporter --help
-sudo ./node_exporter --web.listen-address=:9500
-ls
-cd ..
-ls
-mv node_exporter-1.3.1.linux-amd64 node-exporter
-ls
-cd node-exporter/
-ls
-cd /etc/systemd/system/
-sudo vim node-exporter.service
-systemctl daemon-reload
-sudo systemctl daemon-reload
-statmas
-udo systemctl status node-exporter
-sudo systemctl status node-exporter
-sudo systemctl start node-exporter
-sudo systemctl status node-exporter
-sudo vim node-exporter.service
-pwd
-ls
-sudo vim node-exporter.service
-pwd
-sudo vim node-exporter.service
 sudo systemctl restart node-exporter
 systemctl daemon-reload
 sudo systemctl daemon-reload
@@ -1998,3 +1850,151 @@ ls
 cd ../Scripts/mgmt
 sudo nano backup.sh 
 exit
+mod
+ls
+cd nagios/
+cd manifests/
+ls
+sudo nano config.pp 
+resnag
+statnag
+sudo nano config.pp 
+cd /etc/nagios3/conf.d/
+ls
+sudo nano ppt_hostgroups.cfg 
+agentupdate
+sudo nano ppt_hostgroups.cfg 
+resnag
+mod
+cd nagios/
+ls
+cd manifests/
+ls
+sudo nano config.pp 
+cd /etc/nagios3/conf.d/
+ls
+sudo nano ppt_services.cfg 
+cd etc
+cd /etc/nagios
+ls
+sudo nano nrpe.cfg 
+cd /usr/lib/nagios/plugins
+ls -al
+sudo nano check_http 
+sudo nano check_nrpe 
+cd /etc/nagios
+ls
+sudo nano nrpe.cfg 
+cd /usr/lib/nagios/plugins
+ls -al
+sudo nagios3 -v /etc/nagios3/nagios.cfg
+cd /etc/nagios
+ls
+mod
+cd nagios/
+cd manifests/
+ls
+sudo nano config.pp 
+cd /etc/nagios
+ls
+sudo nano nrpe.cfg 
+cd nrpe.d/
+ls
+ls -al
+cd..
+cd ..
+ls
+sudo nano nrpe.cfg 
+sudo nagios3 -v /etc/nagios3/nagios.cfg
+mod
+cd nrpe
+cd ../nagios/
+;s
+ls
+cd manifests/
+sudo nano config.pp 
+statnag
+cd /etc/nagios-plugins/
+ls
+cd config/
+ls
+cd ../../nagios3/
+ls
+cd conf.d/
+ls
+cd ..
+ls
+sudo nano nrpe.cfg 
+cd /temp
+cd tmp
+cd /tmp
+sudo wget --no-check-certificate -O nagios-plugins.tar.gz https://github.com/nagios-plugins/nagios-plugins/archive/release-2.4.0.tar.gz
+tar zxf nagios-plugins.tar.gz
+cd /tmp/nagios-plugins-release-2.4.0/
+sudo ./tools/setup
+sudo ./configure
+sudo make
+sudo make install
+cd /usr/local/nagios/libexec
+ls
+check_uptime
+/usr/local/nagios/libexec/check_ping mgmt-b.foo.org.nz
+/usr/local/nagios/libexec/check_apt
+/usr/local/nagios/libexec/check_host
+/usr/local/nagios/libexec/check_host mgmt-b.foo.org.nz
+/usr/local/nagios/libexec/check_host
+/usr/local/nagios/libexec/check_nrpe
+/usr/local/nagios/libexec/check_nrpe 
+/usr/local/nagios/libexec/check_tcp
+/usr/local/nagios/libexec/check_users 
+/usr/local/nagios/libexec/check_users -w puppet
+/usr/local/nagios/libexec/check_users -w bitstudent -c puppet
+sudo apt-get update
+sudo apt-get install -y autoconf gcc libc6 libmcrypt-dev make libssl-dev wget bc gawk dc build-essential snmp libnet-snmp-perl gettext
+cd /tmp/nagios-plugins-release-2.4.0/
+sudo ./tools/setup
+sudo ./configure
+sudo make
+sudo make install
+cd /usr/local/nagios/libexec
+ls
+/usr/local/nagios/libexec/check_nrpe 
+/usr/local/nagios/libexec/check_nrpe
+bash /usr/local/nagios/libexec/check_nrpe
+check_nrpe
+./check_nrpe
+./check_nagios 
+./check_nagios mgmt-b.foo.org.nz
+./check_nagios 30
+ls -al
+check_apt
+./check_apt
+./check_http
+./check_nagios --help
+check_nagios -t 20 -e 5 -F /usr/local/nagios/var/status.log -C /usr/local/nagios/bin/nagios
+./check_nagios -t 20 -e 5 -F /usr/local/nagios/var/status.log -C /usr/local/nagios/bin/nagios
+sudo ./check_nagios -t 20 -e 5 -F /usr/local/nagios/var/status.log -C /usr/local/nagios/bin/nagios
+sudo ./check_nagios -t 20 -e 5 -F /usr/log/status.log -C /usr/local/nagios/bin/nagios
+cd /var/lib/puppet/
+sudo cd /var/lib/
+sudo -i
+sudo reboot
+cd /var/lib/puppet/
+cd /usr/local/nagios/libexec/
+ls
+./check_uptime
+./check_uptime.pl 
+./check_nagios 
+./check_nagios --help
+./check_nagios -t 20 -e 5
+check_nagios -t 20 -e 5 -F /usr/local/nagios/var/status.log -C /usr/local/nagios/bin/nagios
+./check_nagios -t 20 -e 5 -F /usr/local/nagios/var/status.log -C /usr/local/nagios/bin/nagios
+./check_nagios -t 20 -e 5 -F /usr/local/nagios/var/status.log -C /usr/local/nagios/bin/nagios .
+./check_nagios -t 20 -e 5 -F /usr/local/nagios/var/status.log -C /usr/local/nagios/bin/nagios
+cd /usr/local/nagios/var/status.log
+cd /usr/local/nagios/var/
+cd /usr/local/nagios/
+ls
+ls -la
+cd libexec/
+ls

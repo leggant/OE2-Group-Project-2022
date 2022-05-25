@@ -1,69 +1,63 @@
-May 24 22:40:24 mgmt-b nagios3: Auto-save of retention data completed successfully.
-May 24 23:40:24 mgmt-b nagios3: Auto-save of retention data completed successfully.
-May 25 00:00:00 mgmt-b nagios3: LOG ROTATION: DAILY
-May 25 00:00:00 mgmt-b nagios3: LOG VERSION: 2.0
-May 25 00:00:00 mgmt-b nagios3: CURRENT HOST STATE: app-b.foo.org.nz;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 1.20 ms
-May 25 00:00:00 mgmt-b nagios3: CURRENT HOST STATE: backup-b.foo.org.nz;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 3.62 ms
-May 25 00:00:00 mgmt-b nagios3: CURRENT HOST STATE: db-b.foo.org.nz;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 2.12 ms
-May 25 00:00:00 mgmt-b nagios3: CURRENT HOST STATE: localhost;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.09 ms
-May 25 00:00:00 mgmt-b nagios3: CURRENT HOST STATE: mgmt-b.foo.org.nz;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.03 ms
-May 25 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: app-b.foo.org.nz;Remote disk servers;OK;HARD;1;DISK OK - free space: /var/tmp 24601 MB (83% inode=93%):
-May 25 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: app-b.foo.org.nz;ssh servers;OK;HARD;1;SSH OK - OpenSSH_7.6p1 Ubuntu-4ubuntu0.6 (protocol 2.0)
-May 25 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: backup-b.foo.org.nz;Remote disk servers;OK;HARD;1;DISK OK - free space: /var/tmp 23853 MB (80% inode=94%):
-May 25 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: backup-b.foo.org.nz;ssh servers;OK;HARD;1;SSH OK - OpenSSH_7.6p1 Ubuntu-4ubuntu0.6 (protocol 2.0)
-May 25 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: db-b.foo.org.nz;MariaDB servers;OK;HARD;1;Uptime: 348345  Threads: 2  Questions: 1774331  Slow queries: 0  Opens: 248  Flush tables: 1  Open tables: 242  Queries per second avg: 5.093
-May 25 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: db-b.foo.org.nz;Remote disk servers;OK;HARD;1;DISK OK - free space: /var/tmp 24961 MB (84% inode=95%):
-May 25 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: db-b.foo.org.nz;ssh servers;OK;HARD;1;SSH OK - OpenSSH_7.6p1 Ubuntu-4ubuntu0.6 (protocol 2.0)
-May 25 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: localhost;Current Load;OK;HARD;1;OK - load average: 0.00, 0.02, 0.04
-May 25 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: localhost;Current Users;OK;HARD;1;USERS OK - 0 users currently logged in
-May 25 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: localhost;Disk Space;CRITICAL;HARD;4;DISK CRITICAL - /sys/kernel/debug/tracing is not accessible: Permission denied
-May 25 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: localhost;HTTP;OK;HARD;1;HTTP OK: HTTP/1.1 200 OK - 11192 bytes in 0.001 second response time
-May 25 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: localhost;SSH;OK;HARD;1;SSH OK - OpenSSH_7.6p1 Ubuntu-4ubuntu0.6 (protocol 2.0)
-May 25 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: localhost;Total Processes;OK;HARD;1;PROCS OK: 118 processes
-May 25 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: mgmt-b.foo.org.nz;ssh servers;OK;HARD;1;SSH OK - OpenSSH_7.6p1 Ubuntu-4ubuntu0.6 (protocol 2.0)
-May 25 00:15:02 mgmt-b rsyncd[3412]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 25 00:15:02 mgmt-b rsyncd[3412]: Ignoring "log file" setting.
-May 25 00:15:02 mgmt-b rsyncd[3412]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 25 00:15:02 mgmt-b rsyncd[3412]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 25 00:40:24 mgmt-b nagios3: Auto-save of retention data completed successfully.
-May 25 01:40:24 mgmt-b nagios3: Auto-save of retention data completed successfully.
-May 25 02:10:01 mgmt-b rsyncd[14764]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 25 02:10:01 mgmt-b rsyncd[14764]: Ignoring "log file" setting.
-May 25 02:10:01 mgmt-b rsyncd[14764]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 25 02:10:01 mgmt-b rsyncd[14764]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 25 02:10:01 mgmt-b rsyncd[14766]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 25 02:10:01 mgmt-b rsyncd[14766]: Ignoring "log file" setting.
-May 25 02:10:01 mgmt-b rsyncd[14766]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 25 02:10:01 mgmt-b rsyncd[14766]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 25 02:10:01 mgmt-b rsyncd[14768]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 25 02:10:01 mgmt-b rsyncd[14768]: Ignoring "log file" setting.
-May 25 02:10:01 mgmt-b rsyncd[14768]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 25 02:10:01 mgmt-b rsyncd[14768]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 25 02:10:01 mgmt-b rsyncd[14770]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 25 02:10:01 mgmt-b rsyncd[14770]: Ignoring "log file" setting.
-May 25 02:10:01 mgmt-b rsyncd[14770]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 25 02:10:01 mgmt-b rsyncd[14770]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 25 02:10:01 mgmt-b rsyncd[14772]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 25 02:10:01 mgmt-b rsyncd[14772]: Ignoring "log file" setting.
-May 25 02:10:01 mgmt-b rsyncd[14772]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 25 02:10:01 mgmt-b rsyncd[14772]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 25 02:10:01 mgmt-b rsyncd[14774]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 25 02:10:01 mgmt-b rsyncd[14774]: Ignoring "log file" setting.
-May 25 02:10:01 mgmt-b rsyncd[14774]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 25 02:10:01 mgmt-b rsyncd[14774]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 25 02:40:24 mgmt-b nagios3: Auto-save of retention data completed successfully.
-May 25 03:40:24 mgmt-b nagios3: Auto-save of retention data completed successfully.
-May 25 04:09:03 mgmt-b nagios3: Caught SIGTERM, shutting down...
-May 25 04:09:03 mgmt-b nagios3: Successfully shutdown... (PID=1293)
-May 25 04:09:03 mgmt-b nagios3: Nagios 3.5.1 starting... (PID=27216)
-May 25 04:09:03 mgmt-b nagios3: Local time is Wed May 25 04:09:03 UTC 2022
-May 25 04:09:03 mgmt-b nagios3: LOG VERSION: 2.0
-May 25 04:09:03 mgmt-b nagios3: Finished daemonizing... (New PID=27232)
-May 25 04:12:14 mgmt-b nagios3: Caught SIGTERM, shutting down...
-May 25 04:12:14 mgmt-b nagios3: Successfully shutdown... (PID=27232)
-May 25 04:12:14 mgmt-b nagios3: Nagios 3.5.1 starting... (PID=27806)
-May 25 04:12:14 mgmt-b nagios3: Local time is Wed May 25 04:12:14 UTC 2022
-May 25 04:12:14 mgmt-b nagios3: LOG VERSION: 2.0
-May 25 04:12:14 mgmt-b nagios3: Finished daemonizing... (New PID=27810)
-May 25 04:19:27 mgmt-b nagios3: Caught SIGTERM, shutting down...
-May 25 04:19:27 mgmt-b nagios3: Successfully shutdown... (PID=27810)
+May 25 04:45:43 mgmt-b nagios3: Nagios 3.5.1 starting... (PID=32319)
+May 25 04:45:43 mgmt-b nagios3: Local time is Wed May 25 04:45:43 UTC 2022
+May 25 04:45:43 mgmt-b nagios3: LOG VERSION: 2.0
+May 25 04:45:43 mgmt-b nagios3: Finished daemonizing... (New PID=32321)
+May 25 04:48:13 mgmt-b nagios3: Caught SIGTERM, shutting down...
+May 25 04:48:13 mgmt-b nagios3: Successfully shutdown... (PID=32321)
+May 25 04:48:13 mgmt-b nagios3: Nagios 3.5.1 starting... (PID=32702)
+May 25 04:48:13 mgmt-b nagios3: Local time is Wed May 25 04:48:13 UTC 2022
+May 25 04:48:13 mgmt-b nagios3: LOG VERSION: 2.0
+May 25 04:48:13 mgmt-b nagios3: Finished daemonizing... (New PID=32709)
+May 25 04:49:53 mgmt-b check_nrpe: Error: (nerrs = 0)(!log_opts) Could not complete SSL handshake with 127.0.1.1: rc=-1 SSL-error=5
+May 25 04:50:03 mgmt-b nagios3: SERVICE ALERT: mgmt-b.foo.org.nz;check puppet agent;CRITICAL;SOFT;1;CHECK_NRPE: Error - Could not connect to 127.0.1.1: Connection reset by peer
+May 25 04:50:53 mgmt-b check_nrpe: Error: (nerrs = 0)(!log_opts) Could not complete SSL handshake with 127.0.1.1: rc=-1 SSL-error=5
+May 25 04:51:03 mgmt-b nagios3: SERVICE ALERT: mgmt-b.foo.org.nz;check puppet agent;CRITICAL;SOFT;2;CHECK_NRPE: Error - Could not connect to 127.0.1.1. Check system logs on 127.0.1.1
+May 25 04:51:53 mgmt-b check_nrpe: Error: (nerrs = 0)(!log_opts) Could not complete SSL handshake with 127.0.1.1: rc=-1 SSL-error=5
+May 25 04:52:03 mgmt-b nagios3: SERVICE ALERT: mgmt-b.foo.org.nz;check puppet agent;CRITICAL;HARD;3;CHECK_NRPE: Error - Could not connect to 127.0.1.1. Check system logs on 127.0.1.1
+May 25 04:52:03 mgmt-b nagios3: SERVICE NOTIFICATION: slack;mgmt-b.foo.org.nz;check puppet agent;CRITICAL;notify-service-by-slack;CHECK_NRPE: Error - Could not connect to 127.0.1.1. Check system logs on 127.0.1.1
+May 25 04:52:03 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;mgmt-b.foo.org.nz;check puppet agent;CRITICAL;notify-service-by-slack;CHECK_NRPE: Error - Could not connect to 127.0.1.1. Check system logs on 127.0.1.1
+May 25 04:52:04 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;mgmt-b.foo.org.nz;check puppet agent;CRITICAL;notify-service-by-slack;CHECK_NRPE: Error - Could not connect to 127.0.1.1. Check system logs on 127.0.1.1
+May 25 04:56:53 mgmt-b check_nrpe: Error: (nerrs = 0)(!log_opts) Could not complete SSL handshake with 127.0.1.1: rc=-1 SSL-error=5
+May 25 05:01:53 mgmt-b check_nrpe: Error: (nerrs = 0)(!log_opts) Could not complete SSL handshake with 127.0.1.1: rc=-1 SSL-error=5
+May 25 05:06:53 mgmt-b check_nrpe: Error: (nerrs = 0)(!log_opts) Could not complete SSL handshake with 127.0.1.1: rc=-1 SSL-error=5
+May 25 05:11:53 mgmt-b check_nrpe: Error: (nerrs = 0)(!log_opts) Could not complete SSL handshake with 127.0.1.1: rc=-1 SSL-error=5
+May 25 05:16:53 mgmt-b check_nrpe: Error: (nerrs = 0)(!log_opts) Could not complete SSL handshake with 127.0.1.1: rc=-1 SSL-error=5
+May 25 05:19:50 mgmt-b nagios3: Caught SIGTERM, shutting down...
+May 25 05:19:50 mgmt-b nagios3: Successfully shutdown... (PID=32709)
+May 25 05:19:50 mgmt-b nagios3: Nagios 3.5.1 starting... (PID=24041)
+May 25 05:19:50 mgmt-b nagios3: Local time is Wed May 25 05:19:50 UTC 2022
+May 25 05:19:50 mgmt-b nagios3: LOG VERSION: 2.0
+May 25 05:19:50 mgmt-b nagios3: Finished daemonizing... (New PID=24044)
+May 25 05:21:53 mgmt-b check_nrpe: Error: (nerrs = 0)(!log_opts) Could not complete SSL handshake with 127.0.1.1: rc=-1 SSL-error=5
+May 25 05:26:53 mgmt-b check_nrpe: Error: (nerrs = 0)(!log_opts) Could not complete SSL handshake with 127.0.1.1: rc=-1 SSL-error=5
+May 25 05:27:00 mgmt-b nagios3: SERVICE NOTIFICATION: slack;mgmt-b.foo.org.nz;check puppet agent;CRITICAL;notify-service-by-slack;CHECK_NRPE: Error - Could not connect to 127.0.1.1. Check system logs on 127.0.1.1
+May 25 05:27:00 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;mgmt-b.foo.org.nz;check puppet agent;CRITICAL;notify-service-by-slack;CHECK_NRPE: Error - Could not connect to 127.0.1.1. Check system logs on 127.0.1.1
+May 25 05:27:00 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;mgmt-b.foo.org.nz;check puppet agent;CRITICAL;notify-service-by-slack;CHECK_NRPE: Error - Could not connect to 127.0.1.1. Check system logs on 127.0.1.1
+May 25 05:31:53 mgmt-b check_nrpe: Error: (nerrs = 0)(!log_opts) Could not complete SSL handshake with 127.0.1.1: rc=-1 SSL-error=5
+May 25 05:36:53 mgmt-b check_nrpe: Error: (nerrs = 0)(!log_opts) Could not complete SSL handshake with 127.0.1.1: rc=-1 SSL-error=5
+May 25 05:41:53 mgmt-b check_nrpe: Error: (nerrs = 0)(!log_opts) Could not complete SSL handshake with 127.0.1.1: rc=-1 SSL-error=5
+May 25 05:46:53 mgmt-b check_nrpe: Error: (nerrs = 0)(!log_opts) Could not complete SSL handshake with 127.0.1.1: rc=-1 SSL-error=5
+May 25 05:51:53 mgmt-b check_nrpe: Error: (nerrs = 0)(!log_opts) Could not complete SSL handshake with 127.0.1.1: rc=-1 SSL-error=5
+May 25 05:56:53 mgmt-b check_nrpe: Error: (nerrs = 0)(!log_opts) Could not complete SSL handshake with 127.0.1.1: rc=-1 SSL-error=5
+May 25 05:57:00 mgmt-b nagios3: SERVICE NOTIFICATION: slack;mgmt-b.foo.org.nz;check puppet agent;CRITICAL;notify-service-by-slack;CHECK_NRPE: Error - Could not connect to 127.0.1.1. Check system logs on 127.0.1.1
+May 25 05:57:00 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;mgmt-b.foo.org.nz;check puppet agent;CRITICAL;notify-service-by-slack;CHECK_NRPE: Error - Could not connect to 127.0.1.1. Check system logs on 127.0.1.1
+May 25 05:57:00 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;mgmt-b.foo.org.nz;check puppet agent;CRITICAL;notify-service-by-slack;CHECK_NRPE: Error - Could not connect to 127.0.1.1. Check system logs on 127.0.1.1
+May 25 06:01:53 mgmt-b check_nrpe: Error: (nerrs = 0)(!log_opts) Could not complete SSL handshake with 127.0.1.1: rc=-1 SSL-error=5
+May 25 06:06:53 mgmt-b check_nrpe: Error: (nerrs = 0)(!log_opts) Could not complete SSL handshake with 127.0.1.1: rc=-1 SSL-error=5
+May 25 06:10:03 mgmt-b KVP: KVP starting; pid is:549
+May 25 06:10:03 mgmt-b KVP: KVP LIC Version: 3.1
+May 25 06:10:03 mgmt-b kernel: [    9.005632] Started bpfilter
+May 25 06:10:04 mgmt-b nagios3: Nagios 3.5.1 starting... (PID=1259)
+May 25 06:10:04 mgmt-b nagios3: Local time is Wed May 25 06:10:04 UTC 2022
+May 25 06:10:04 mgmt-b nagios3: LOG VERSION: 2.0
+May 25 06:10:05 mgmt-b nagios3: Finished daemonizing... (New PID=1289)
+May 25 06:10:10 mgmt-b : Does not have a configuration file inside `/opt/netdata/etc/netdata/ebpf.d.conf. It will try to load stock file.
+May 25 06:10:10 mgmt-b : Name resolution is disabled, collector will not parser "hostnames" list.
+May 25 06:10:10 mgmt-b : The network value of CIDR 127.0.0.1/8 was updated for 127.0.0.0 .
+May 25 06:10:11 mgmt-b : Cannot read process groups configuration file '/opt/netdata/etc/netdata/apps_groups.conf'. Will try '/opt/netdata/usr/lib/netdata/conf.d/apps_groups.conf'
+May 25 06:11:53 mgmt-b check_nrpe: Error: (nerrs = 0)(!log_opts) Could not complete SSL handshake with 127.0.1.1: rc=-1 SSL-error=5
+May 25 06:13:35 mgmt-b nagios3: SERVICE ALERT: localhost;Disk Space;OK;HARD;4;DISK OK
+May 25 06:13:35 mgmt-b nagios3: SERVICE NOTIFICATION: root;localhost;Disk Space;OK;notify-service-by-email;DISK OK
+May 25 06:16:53 mgmt-b check_nrpe: Error: (nerrs = 0)(!log_opts) Could not complete SSL handshake with 127.0.1.1: rc=-1 SSL-error=5
+May 25 06:21:53 mgmt-b check_nrpe: Error: (nerrs = 0)(!log_opts) Could not complete SSL handshake with 127.0.1.1: rc=-1 SSL-error=5
+May 25 06:26:53 mgmt-b check_nrpe: Error: (nerrs = 0)(!log_opts) Could not complete SSL handshake with 127.0.1.1: rc=-1 SSL-error=5
