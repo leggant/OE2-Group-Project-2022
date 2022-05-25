@@ -1,264 +1,211 @@
-May 25 08:30:24 mgmt-b nagios3: SERVICE ALERT: backup-b.foo.org.nz;check hosts alive;UNKNOWN;SOFT;2;NRPE: Command 'check_ping' not defined
-May 25 08:30:44 mgmt-b nagios3: SERVICE ALERT: db-b.foo.org.nz;check hosts alive;UNKNOWN;SOFT;1;NRPE: Command 'check_ping' not defined
-May 25 08:31:24 mgmt-b nagios3: SERVICE ALERT: backup-b.foo.org.nz;check hosts alive;UNKNOWN;HARD;3;NRPE: Command 'check_ping' not defined
-May 25 08:31:24 mgmt-b nagios3: SERVICE NOTIFICATION: slack;backup-b.foo.org.nz;check hosts alive;UNKNOWN;notify-service-by-slack;NRPE: Command check_ping not defined
-May 25 08:31:24 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;backup-b.foo.org.nz;check hosts alive;UNKNOWN;notify-service-by-slack;NRPE: Command check_ping not defined
-May 25 08:31:24 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;backup-b.foo.org.nz;check hosts alive;UNKNOWN;notify-service-by-slack;NRPE: Command check_ping not defined
-May 25 08:31:44 mgmt-b nagios3: SERVICE ALERT: db-b.foo.org.nz;check hosts alive;UNKNOWN;SOFT;2;NRPE: Command 'check_ping' not defined
-May 25 08:31:53 mgmt-b check_nrpe: Error: (nerrs = 0)(!log_opts) Could not complete SSL handshake with 127.0.1.1: rc=-1 SSL-error=5
-May 25 08:31:59 mgmt-b check_nrpe: Error: (nerrs = 0)(!log_opts) Could not complete SSL handshake with 127.0.1.1: rc=-1 SSL-error=5
-May 25 08:32:04 mgmt-b nagios3: SERVICE ALERT: mgmt-b.foo.org.nz;check hosts alive;CRITICAL;SOFT;1;CHECK_NRPE: Error - Could not connect to 127.0.1.1. Check system logs on 127.0.1.1
-May 25 08:32:44 mgmt-b nagios3: SERVICE ALERT: db-b.foo.org.nz;check hosts alive;UNKNOWN;HARD;3;NRPE: Command 'check_ping' not defined
-May 25 08:32:44 mgmt-b nagios3: SERVICE NOTIFICATION: slack;db-b.foo.org.nz;check hosts alive;UNKNOWN;notify-service-by-slack;NRPE: Command check_ping not defined
-May 25 08:32:44 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;db-b.foo.org.nz;check hosts alive;UNKNOWN;notify-service-by-slack;NRPE: Command check_ping not defined
-May 25 08:32:44 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;db-b.foo.org.nz;check hosts alive;UNKNOWN;notify-service-by-slack;NRPE: Command check_ping not defined
-May 25 08:32:59 mgmt-b check_nrpe: Error: (nerrs = 0)(!log_opts) Could not complete SSL handshake with 127.0.1.1: rc=-1 SSL-error=5
-May 25 08:33:04 mgmt-b nagios3: SERVICE ALERT: mgmt-b.foo.org.nz;check hosts alive;CRITICAL;SOFT;2;CHECK_NRPE: Error - Could not connect to 127.0.1.1. Check system logs on 127.0.1.1
-May 25 08:33:59 mgmt-b check_nrpe: Error: (nerrs = 0)(!log_opts) Could not complete SSL handshake with 127.0.1.1: rc=-1 SSL-error=5
-May 25 08:34:04 mgmt-b nagios3: SERVICE ALERT: mgmt-b.foo.org.nz;check hosts alive;CRITICAL;HARD;3;CHECK_NRPE: Error - Could not connect to 127.0.1.1. Check system logs on 127.0.1.1
-May 25 08:34:04 mgmt-b nagios3: SERVICE NOTIFICATION: slack;mgmt-b.foo.org.nz;check hosts alive;CRITICAL;notify-service-by-slack;CHECK_NRPE: Error - Could not connect to 127.0.1.1. Check system logs on 127.0.1.1
-May 25 08:34:04 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;mgmt-b.foo.org.nz;check hosts alive;CRITICAL;notify-service-by-slack;CHECK_NRPE: Error - Could not connect to 127.0.1.1. Check system logs on 127.0.1.1
-May 25 08:34:05 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;mgmt-b.foo.org.nz;check hosts alive;CRITICAL;notify-service-by-slack;CHECK_NRPE: Error - Could not connect to 127.0.1.1. Check system logs on 127.0.1.1
-May 25 08:36:53 mgmt-b check_nrpe: Error: (nerrs = 0)(!log_opts) Could not complete SSL handshake with 127.0.1.1: rc=-1 SSL-error=5
-May 25 08:36:54 mgmt-b nagios3: SERVICE NOTIFICATION: slack;mgmt-b.foo.org.nz;check puppet agent;CRITICAL;notify-service-by-slack;CHECK_NRPE: Error - Could not connect to 127.0.1.1. Check system logs on 127.0.1.1
-May 25 08:36:54 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;mgmt-b.foo.org.nz;check puppet agent;CRITICAL;notify-service-by-slack;CHECK_NRPE: Error - Could not connect to 127.0.1.1. Check system logs on 127.0.1.1
-May 25 08:36:55 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;mgmt-b.foo.org.nz;check puppet agent;CRITICAL;notify-service-by-slack;CHECK_NRPE: Error - Could not connect to 127.0.1.1. Check system logs on 127.0.1.1
-May 25 08:37:24 mgmt-b nagios3: Caught SIGTERM, shutting down...
-May 25 08:37:24 mgmt-b nagios3: Successfully shutdown... (PID=17796)
-May 25 08:39:46 mgmt-b nagios3: Nagios 3.5.1 starting... (PID=20072)
-May 25 08:39:46 mgmt-b nagios3: Local time is Wed May 25 08:39:46 UTC 2022
-May 25 08:39:46 mgmt-b nagios3: LOG VERSION: 2.0
-May 25 08:39:46 mgmt-b nagios3: Finished daemonizing... (New PID=20076)
-May 25 08:41:12 mgmt-b nagios3: Caught SIGTERM, shutting down...
-May 25 08:41:12 mgmt-b nagios3: Successfully shutdown... (PID=20076)
-May 25 08:48:06 mgmt-b nagios3: Nagios 3.5.1 starting... (PID=21839)
-May 25 08:48:06 mgmt-b nagios3: Local time is Wed May 25 08:48:06 UTC 2022
-May 25 08:48:06 mgmt-b nagios3: LOG VERSION: 2.0
-May 25 08:48:06 mgmt-b nagios3: Finished daemonizing... (New PID=21842)
-May 25 08:48:13 mgmt-b nagios3: Caught SIGTERM, shutting down...
-May 25 08:48:13 mgmt-b nagios3: Successfully shutdown... (PID=21842)
-May 25 08:48:13 mgmt-b nagios3: Nagios 3.5.1 starting... (PID=21983)
-May 25 08:48:13 mgmt-b nagios3: Local time is Wed May 25 08:48:13 UTC 2022
-May 25 08:48:13 mgmt-b nagios3: LOG VERSION: 2.0
-May 25 08:48:13 mgmt-b nagios3: Finished daemonizing... (New PID=21987)
-May 25 08:52:32 mgmt-b nagios3: Caught SIGTERM, shutting down...
-May 25 08:52:32 mgmt-b nagios3: Successfully shutdown... (PID=21987)
-May 25 08:52:32 mgmt-b nagios3: Nagios 3.5.1 starting... (PID=22510)
-May 25 08:52:32 mgmt-b nagios3: Local time is Wed May 25 08:52:32 UTC 2022
-May 25 08:52:32 mgmt-b nagios3: LOG VERSION: 2.0
-May 25 08:52:32 mgmt-b nagios3: Finished daemonizing... (New PID=22514)
-May 25 08:54:01 mgmt-b nagios3: Caught SIGTERM, shutting down...
-May 25 08:54:01 mgmt-b nagios3: Successfully shutdown... (PID=22514)
-May 25 08:54:01 mgmt-b nagios3: Nagios 3.5.1 starting... (PID=22812)
-May 25 08:54:01 mgmt-b nagios3: Local time is Wed May 25 08:54:01 UTC 2022
-May 25 08:54:01 mgmt-b nagios3: LOG VERSION: 2.0
-May 25 08:54:01 mgmt-b nagios3: Finished daemonizing... (New PID=22816)
-May 25 08:57:19 mgmt-b nagios3: Caught SIGTERM, shutting down...
-May 25 08:57:19 mgmt-b nagios3: Successfully shutdown... (PID=22816)
-May 25 08:57:19 mgmt-b nagios3: Nagios 3.5.1 starting... (PID=23263)
-May 25 08:57:19 mgmt-b nagios3: Local time is Wed May 25 08:57:19 UTC 2022
-May 25 08:57:19 mgmt-b nagios3: LOG VERSION: 2.0
-May 25 08:57:19 mgmt-b nagios3: Finished daemonizing... (New PID=23267)
-May 25 09:01:09 mgmt-b nagios3: SERVICE NOTIFICATION: slack;app-b.foo.org.nz;check hosts alive;UNKNOWN;notify-service-by-slack;NRPE: Command check_ping not defined
-May 25 09:01:09 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;app-b.foo.org.nz;check hosts alive;UNKNOWN;notify-service-by-slack;NRPE: Command check_ping not defined
-May 25 09:01:10 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;app-b.foo.org.nz;check hosts alive;UNKNOWN;notify-service-by-slack;NRPE: Command check_ping not defined
-May 25 09:04:59 mgmt-b nagios3: SERVICE NOTIFICATION: slack;backup-b.foo.org.nz;check hosts alive;UNKNOWN;notify-service-by-slack;NRPE: Command check_ping not defined
-May 25 09:04:59 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;backup-b.foo.org.nz;check hosts alive;UNKNOWN;notify-service-by-slack;NRPE: Command check_ping not defined
-May 25 09:04:59 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;backup-b.foo.org.nz;check hosts alive;UNKNOWN;notify-service-by-slack;NRPE: Command check_ping not defined
-May 25 09:05:19 mgmt-b nagios3: SERVICE NOTIFICATION: slack;db-b.foo.org.nz;check hosts alive;UNKNOWN;notify-service-by-slack;NRPE: Command check_ping not defined
-May 25 09:05:19 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;db-b.foo.org.nz;check hosts alive;UNKNOWN;notify-service-by-slack;NRPE: Command check_ping not defined
-May 25 09:05:19 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;db-b.foo.org.nz;check hosts alive;UNKNOWN;notify-service-by-slack;NRPE: Command check_ping not defined
-May 25 09:05:48 mgmt-b nagios3: Caught SIGTERM, shutting down...
-May 25 09:05:48 mgmt-b nagios3: Successfully shutdown... (PID=23267)
-May 25 09:05:48 mgmt-b nagios3: Nagios 3.5.1 starting... (PID=24356)
-May 25 09:05:48 mgmt-b nagios3: Local time is Wed May 25 09:05:48 UTC 2022
-May 25 09:05:48 mgmt-b nagios3: LOG VERSION: 2.0
-May 25 09:05:48 mgmt-b nagios3: Finished daemonizing... (New PID=24360)
-May 25 09:36:08 mgmt-b nagios3: SERVICE NOTIFICATION: slack;app-b.foo.org.nz;check hosts alive;UNKNOWN;notify-service-by-slack;You must specify a server address or host name
-May 25 09:36:08 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;app-b.foo.org.nz;check hosts alive;UNKNOWN;notify-service-by-slack;You must specify a server address or host name
-May 25 09:36:09 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;app-b.foo.org.nz;check hosts alive;UNKNOWN;notify-service-by-slack;You must specify a server address or host name
-May 25 09:39:58 mgmt-b nagios3: SERVICE NOTIFICATION: slack;backup-b.foo.org.nz;check hosts alive;UNKNOWN;notify-service-by-slack;NRPE: Command check_ping not defined
-May 25 09:39:58 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;backup-b.foo.org.nz;check hosts alive;UNKNOWN;notify-service-by-slack;NRPE: Command check_ping not defined
-May 25 09:39:59 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;backup-b.foo.org.nz;check hosts alive;UNKNOWN;notify-service-by-slack;NRPE: Command check_ping not defined
-May 25 09:40:18 mgmt-b nagios3: SERVICE NOTIFICATION: slack;db-b.foo.org.nz;check hosts alive;UNKNOWN;notify-service-by-slack;NRPE: Command check_ping not defined
-May 25 09:40:18 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;db-b.foo.org.nz;check hosts alive;UNKNOWN;notify-service-by-slack;NRPE: Command check_ping not defined
-May 25 09:40:18 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;db-b.foo.org.nz;check hosts alive;UNKNOWN;notify-service-by-slack;NRPE: Command check_ping not defined
-May 25 09:47:35 mgmt-b nagios3: Caught SIGTERM, shutting down...
-May 25 09:47:35 mgmt-b nagios3: Successfully shutdown... (PID=24360)
-May 25 09:47:35 mgmt-b nagios3: Nagios 3.5.1 starting... (PID=29216)
-May 25 09:47:35 mgmt-b nagios3: Local time is Wed May 25 09:47:35 UTC 2022
-May 25 09:47:35 mgmt-b nagios3: LOG VERSION: 2.0
-May 25 09:47:35 mgmt-b nagios3: Finished daemonizing... (New PID=29220)
-May 25 09:50:05 mgmt-b nagios3: SERVICE ALERT: backup-b.foo.org.nz;check hosts alive;OK;HARD;3;PING OK - Packet loss = 0%, RTA = 0.06 ms
-May 25 09:55:15 mgmt-b nagios3: SERVICE ALERT: db-b.foo.org.nz;check hosts alive;OK;HARD;3;PING OK - Packet loss = 0%, RTA = 0.05 ms
-May 25 09:56:15 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;check hosts alive;OK;HARD;3;PING OK - Packet loss = 0%, RTA = 0.05 ms
-May 25 10:10:01 mgmt-b rsyncd[31773]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 25 10:10:01 mgmt-b rsyncd[31773]: Ignoring "log file" setting.
-May 25 10:10:01 mgmt-b rsyncd[31773]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 25 10:10:01 mgmt-b rsyncd[31773]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 25 10:10:01 mgmt-b rsyncd[31775]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 25 10:10:01 mgmt-b rsyncd[31775]: Ignoring "log file" setting.
-May 25 10:10:01 mgmt-b rsyncd[31775]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 25 10:10:01 mgmt-b rsyncd[31775]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 25 10:10:01 mgmt-b rsyncd[31777]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 25 10:10:01 mgmt-b rsyncd[31777]: Ignoring "log file" setting.
-May 25 10:10:01 mgmt-b rsyncd[31777]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 25 10:10:01 mgmt-b rsyncd[31777]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 25 10:10:01 mgmt-b rsyncd[31779]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 25 10:10:01 mgmt-b rsyncd[31779]: Ignoring "log file" setting.
-May 25 10:10:01 mgmt-b rsyncd[31779]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 25 10:10:01 mgmt-b rsyncd[31779]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 25 10:10:01 mgmt-b rsyncd[31781]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 25 10:10:01 mgmt-b rsyncd[31781]: Ignoring "log file" setting.
-May 25 10:10:01 mgmt-b rsyncd[31781]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 25 10:10:01 mgmt-b rsyncd[31781]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 25 10:10:01 mgmt-b rsyncd[31783]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 25 10:10:01 mgmt-b rsyncd[31783]: Ignoring "log file" setting.
-May 25 10:10:01 mgmt-b rsyncd[31783]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 25 10:10:01 mgmt-b rsyncd[31783]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 25 10:18:38 mgmt-b nagios3: Caught SIGTERM, shutting down...
-May 25 10:18:38 mgmt-b nagios3: Successfully shutdown... (PID=29220)
-May 25 10:18:38 mgmt-b nagios3: Nagios 3.5.1 starting... (PID=438)
-May 25 10:18:38 mgmt-b nagios3: Local time is Wed May 25 10:18:38 UTC 2022
-May 25 10:18:38 mgmt-b nagios3: LOG VERSION: 2.0
-May 25 10:18:38 mgmt-b nagios3: Finished daemonizing... (New PID=442)
-May 25 10:21:18 mgmt-b nagios3: SERVICE ALERT: backup-b.foo.org.nz;check users-login;WARNING;SOFT;1;USERS WARNING - 2 users currently logged in
-May 25 10:22:18 mgmt-b nagios3: SERVICE ALERT: backup-b.foo.org.nz;check users-login;WARNING;SOFT;2;USERS WARNING - 2 users currently logged in
-May 25 10:23:18 mgmt-b nagios3: SERVICE ALERT: backup-b.foo.org.nz;check users-login;WARNING;HARD;3;USERS WARNING - 2 users currently logged in
-May 25 10:23:18 mgmt-b nagios3: SERVICE NOTIFICATION: slack;backup-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 2 users currently logged in
-May 25 10:23:18 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;backup-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 2 users currently logged in
-May 25 10:23:19 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;backup-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 2 users currently logged in
-May 25 10:42:35 mgmt-b nagios3: Caught SIGTERM, shutting down...
-May 25 10:42:35 mgmt-b nagios3: Successfully shutdown... (PID=442)
-May 25 10:42:35 mgmt-b nagios3: Nagios 3.5.1 starting... (PID=3399)
-May 25 10:42:35 mgmt-b nagios3: Local time is Wed May 25 10:42:35 UTC 2022
-May 25 10:42:35 mgmt-b nagios3: LOG VERSION: 2.0
-May 25 10:42:35 mgmt-b nagios3: Finished daemonizing... (New PID=3403)
-May 25 10:43:15 mgmt-b nagios3: SERVICE ALERT: backup-b.foo.org.nz;check users-login;OK;HARD;3;USERS OK - 1 users currently logged in
-May 25 10:51:43 mgmt-b nagios3: Caught SIGTERM, shutting down...
-May 25 10:51:43 mgmt-b nagios3: Successfully shutdown... (PID=3403)
-May 25 10:51:43 mgmt-b nagios3: Nagios 3.5.1 starting... (PID=4690)
-May 25 10:51:43 mgmt-b nagios3: Local time is Wed May 25 10:51:43 UTC 2022
-May 25 10:51:43 mgmt-b nagios3: LOG VERSION: 2.0
-May 25 10:51:43 mgmt-b nagios3: Finished daemonizing... (New PID=4694)
-May 25 10:53:13 mgmt-b nagios3: SERVICE ALERT: backup-b.foo.org.nz;check users-login;WARNING;SOFT;1;USERS WARNING - 2 users currently logged in
-May 25 10:54:13 mgmt-b nagios3: SERVICE ALERT: backup-b.foo.org.nz;check users-login;WARNING;SOFT;2;USERS WARNING - 2 users currently logged in
-May 25 10:55:03 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;check users-login;WARNING;SOFT;1;USERS WARNING - 1 users currently logged in
-May 25 10:55:13 mgmt-b nagios3: SERVICE ALERT: backup-b.foo.org.nz;check users-login;WARNING;HARD;3;USERS WARNING - 2 users currently logged in
-May 25 10:55:13 mgmt-b nagios3: SERVICE NOTIFICATION: slack;backup-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 2 users currently logged in
-May 25 10:55:13 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;backup-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 2 users currently logged in
-May 25 10:55:13 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;backup-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 2 users currently logged in
-May 25 10:56:03 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;check users-login;WARNING;SOFT;2;USERS WARNING - 1 users currently logged in
-May 25 10:57:03 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;check users-login;WARNING;HARD;3;USERS WARNING - 1 users currently logged in
-May 25 10:57:03 mgmt-b nagios3: SERVICE NOTIFICATION: slack;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
-May 25 10:57:03 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
-May 25 10:57:04 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
-May 25 10:57:33 mgmt-b nagios3: SERVICE ALERT: db-b.foo.org.nz;check users-login;WARNING;SOFT;1;USERS WARNING - 1 users currently logged in
-May 25 10:58:33 mgmt-b nagios3: SERVICE ALERT: db-b.foo.org.nz;check users-login;WARNING;SOFT;2;USERS WARNING - 1 users currently logged in
-May 25 10:58:42 mgmt-b nagios3: Caught SIGTERM, shutting down...
-May 25 10:58:42 mgmt-b nagios3: Successfully shutdown... (PID=4694)
-May 25 10:58:43 mgmt-b nagios3: Nagios 3.5.1 starting... (PID=5784)
-May 25 10:58:43 mgmt-b nagios3: Local time is Wed May 25 10:58:43 UTC 2022
-May 25 10:58:43 mgmt-b nagios3: LOG VERSION: 2.0
-May 25 10:58:43 mgmt-b nagios3: Finished daemonizing... (New PID=5788)
-May 25 10:59:33 mgmt-b nagios3: SERVICE ALERT: db-b.foo.org.nz;check users-login;WARNING;HARD;3;USERS WARNING - 1 users currently logged in
-May 25 10:59:33 mgmt-b nagios3: SERVICE NOTIFICATION: slack;db-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
-May 25 10:59:33 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;db-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
-May 25 10:59:34 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;db-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
-May 25 10:59:51 mgmt-b check_nrpe: Error: (nerrs = 0)(!log_opts) Could not complete SSL handshake with 127.0.1.1: rc=-1 SSL-error=5
-May 25 10:59:53 mgmt-b nagios3: SERVICE ALERT: mgmt-b.foo.org.nz;check hosts alive;CRITICAL;SOFT;1;CHECK_NRPE: Error - Could not connect to 127.0.1.1. Check system logs on 127.0.1.1
-May 25 11:00:51 mgmt-b check_nrpe: Error: (nerrs = 0)(!log_opts) Could not complete SSL handshake with 127.0.1.1: rc=-1 SSL-error=5
-May 25 11:00:53 mgmt-b nagios3: SERVICE ALERT: mgmt-b.foo.org.nz;check hosts alive;CRITICAL;SOFT;2;CHECK_NRPE: Error - Could not connect to 127.0.1.1. Check system logs on 127.0.1.1
-May 25 11:00:59 mgmt-b check_nrpe: Error: (nerrs = 0)(!log_opts) Could not complete SSL handshake with 127.0.1.1: rc=-1 SSL-error=5
-May 25 11:01:03 mgmt-b nagios3: SERVICE ALERT: mgmt-b.foo.org.nz;check users-login;CRITICAL;SOFT;1;CHECK_NRPE: Error - Could not connect to 127.0.1.1. Check system logs on 127.0.1.1
-May 25 11:01:26 mgmt-b nagios3: Caught SIGTERM, shutting down...
-May 25 11:01:26 mgmt-b nagios3: Successfully shutdown... (PID=5788)
-May 25 11:01:26 mgmt-b nagios3: Nagios 3.5.1 starting... (PID=6260)
-May 25 11:01:26 mgmt-b nagios3: Local time is Wed May 25 11:01:26 UTC 2022
-May 25 11:01:26 mgmt-b nagios3: LOG VERSION: 2.0
-May 25 11:01:26 mgmt-b nagios3: Finished daemonizing... (New PID=6264)
-May 25 11:02:34 mgmt-b check_nrpe: Error: (nerrs = 0)(!log_opts) Could not complete SSL handshake with 127.0.0.1: rc=-1 SSL-error=5
-May 25 11:02:36 mgmt-b nagios3: SERVICE ALERT: localhost;check hosts alive;CRITICAL;SOFT;1;CHECK_NRPE: Error - Could not connect to 127.0.0.1. Check system logs on 127.0.0.1
-May 25 11:03:34 mgmt-b check_nrpe: Error: (nerrs = 0)(!log_opts) Could not complete SSL handshake with 127.0.0.1: rc=-1 SSL-error=5
-May 25 11:03:36 mgmt-b nagios3: SERVICE ALERT: localhost;check hosts alive;CRITICAL;SOFT;2;CHECK_NRPE: Error - Could not connect to 127.0.0.1. Check system logs on 127.0.0.1
-May 25 11:03:42 mgmt-b check_nrpe: Error: (nerrs = 0)(!log_opts) Could not complete SSL handshake with 127.0.0.1: rc=-1 SSL-error=5
-May 25 11:03:46 mgmt-b nagios3: SERVICE ALERT: localhost;check users-login;CRITICAL;SOFT;1;CHECK_NRPE: Error - Could not connect to 127.0.0.1. Check system logs on 127.0.0.1
-May 25 11:04:34 mgmt-b check_nrpe: Error: (nerrs = 0)(!log_opts) Could not complete SSL handshake with 127.0.0.1: rc=-1 SSL-error=5
-May 25 11:04:36 mgmt-b nagios3: SERVICE ALERT: localhost;check hosts alive;CRITICAL;HARD;3;CHECK_NRPE: Error - Could not connect to 127.0.0.1. Check system logs on 127.0.0.1
-May 25 11:04:36 mgmt-b nagios3: SERVICE NOTIFICATION: slack;localhost;check hosts alive;CRITICAL;notify-service-by-slack;CHECK_NRPE: Error - Could not connect to 127.0.0.1. Check system logs on 127.0.0.1
-May 25 11:04:36 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;localhost;check hosts alive;CRITICAL;notify-service-by-slack;CHECK_NRPE: Error - Could not connect to 127.0.0.1. Check system logs on 127.0.0.1
-May 25 11:04:37 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;localhost;check hosts alive;CRITICAL;notify-service-by-slack;CHECK_NRPE: Error - Could not connect to 127.0.0.1. Check system logs on 127.0.0.1
-May 25 11:04:42 mgmt-b check_nrpe: Error: (nerrs = 0)(!log_opts) Could not complete SSL handshake with 127.0.0.1: rc=-1 SSL-error=5
-May 25 11:04:46 mgmt-b nagios3: SERVICE ALERT: localhost;check users-login;CRITICAL;SOFT;2;CHECK_NRPE: Error - Could not connect to 127.0.0.1: Connection reset by peer
-May 25 11:04:54 mgmt-b nagios3: Caught SIGTERM, shutting down...
-May 25 11:04:54 mgmt-b nagios3: Successfully shutdown... (PID=6264)
-May 25 11:06:52 mgmt-b nagios3: Nagios 3.5.1 starting... (PID=7677)
-May 25 11:06:52 mgmt-b nagios3: Local time is Wed May 25 11:06:52 UTC 2022
-May 25 11:06:52 mgmt-b nagios3: LOG VERSION: 2.0
-May 25 11:06:52 mgmt-b nagios3: Finished daemonizing... (New PID=7679)
-May 25 11:07:15 mgmt-b nagios3: Caught SIGTERM, shutting down...
-May 25 11:07:15 mgmt-b nagios3: Successfully shutdown... (PID=7679)
-May 25 11:07:15 mgmt-b nagios3: Nagios 3.5.1 starting... (PID=7849)
-May 25 11:07:15 mgmt-b nagios3: Local time is Wed May 25 11:07:15 UTC 2022
-May 25 11:07:15 mgmt-b nagios3: LOG VERSION: 2.0
-May 25 11:07:15 mgmt-b nagios3: Finished daemonizing... (New PID=7853)
-May 25 11:09:31 mgmt-b check_nrpe: Error: (nerrs = 0)(!log_opts) Could not complete SSL handshake with 127.0.1.1: rc=-1 SSL-error=5
-May 25 11:09:35 mgmt-b nagios3: SERVICE ALERT: mgmt-b.foo.org.nz;check users-login;CRITICAL;SOFT;1;CHECK_NRPE: Error - Could not connect to 127.0.1.1. Check system logs on 127.0.1.1
-May 25 11:10:31 mgmt-b check_nrpe: Error: (nerrs = 0)(!log_opts) Could not complete SSL handshake with 127.0.1.1: rc=-1 SSL-error=5
-May 25 11:10:35 mgmt-b nagios3: SERVICE ALERT: mgmt-b.foo.org.nz;check users-login;CRITICAL;SOFT;2;CHECK_NRPE: Error - Could not connect to 127.0.1.1. Check system logs on 127.0.1.1
-May 25 11:11:31 mgmt-b check_nrpe: Error: (nerrs = 0)(!log_opts) Could not complete SSL handshake with 127.0.1.1: rc=-1 SSL-error=5
-May 25 11:11:35 mgmt-b nagios3: SERVICE ALERT: mgmt-b.foo.org.nz;check users-login;CRITICAL;HARD;3;CHECK_NRPE: Error - Could not connect to 127.0.1.1. Check system logs on 127.0.1.1
-May 25 11:11:35 mgmt-b nagios3: SERVICE NOTIFICATION: slack;mgmt-b.foo.org.nz;check users-login;CRITICAL;notify-service-by-slack;CHECK_NRPE: Error - Could not connect to 127.0.1.1. Check system logs on 127.0.1.1
-May 25 11:11:35 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;mgmt-b.foo.org.nz;check users-login;CRITICAL;notify-service-by-slack;CHECK_NRPE: Error - Could not connect to 127.0.1.1. Check system logs on 127.0.1.1
-May 25 11:11:36 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;mgmt-b.foo.org.nz;check users-login;CRITICAL;notify-service-by-slack;CHECK_NRPE: Error - Could not connect to 127.0.1.1. Check system logs on 127.0.1.1
-May 25 11:11:38 mgmt-b check_nrpe: Error: (nerrs = 0)(!log_opts) Could not complete SSL handshake with 127.0.1.1: rc=-1 SSL-error=5
-May 25 11:11:45 mgmt-b nagios3: SERVICE ALERT: mgmt-b.foo.org.nz;check hosts alive;CRITICAL;SOFT;1;CHECK_NRPE: Error - Could not connect to 127.0.1.1. Check system logs on 127.0.1.1
-May 25 11:12:38 mgmt-b check_nrpe: Error: (nerrs = 0)(!log_opts) Could not complete SSL handshake with 127.0.1.1: rc=-1 SSL-error=5
-May 25 11:12:45 mgmt-b nagios3: SERVICE ALERT: mgmt-b.foo.org.nz;check hosts alive;CRITICAL;SOFT;2;CHECK_NRPE: Error - Could not connect to 127.0.1.1. Check system logs on 127.0.1.1
-May 25 11:13:38 mgmt-b check_nrpe: Error: (nerrs = 0)(!log_opts) Could not complete SSL handshake with 127.0.1.1: rc=-1 SSL-error=5
-May 25 11:13:45 mgmt-b nagios3: SERVICE ALERT: mgmt-b.foo.org.nz;check hosts alive;CRITICAL;HARD;3;CHECK_NRPE: Error - Could not connect to 127.0.1.1. Check system logs on 127.0.1.1
-May 25 11:13:45 mgmt-b nagios3: SERVICE NOTIFICATION: slack;mgmt-b.foo.org.nz;check hosts alive;CRITICAL;notify-service-by-slack;CHECK_NRPE: Error - Could not connect to 127.0.1.1. Check system logs on 127.0.1.1
-May 25 11:13:45 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;mgmt-b.foo.org.nz;check hosts alive;CRITICAL;notify-service-by-slack;CHECK_NRPE: Error - Could not connect to 127.0.1.1. Check system logs on 127.0.1.1
-May 25 11:13:45 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;mgmt-b.foo.org.nz;check hosts alive;CRITICAL;notify-service-by-slack;CHECK_NRPE: Error - Could not connect to 127.0.1.1. Check system logs on 127.0.1.1
-May 25 11:16:31 mgmt-b check_nrpe: Error: (nerrs = 0)(!log_opts) Could not complete SSL handshake with 127.0.1.1: rc=-1 SSL-error=5
-May 25 11:16:55 mgmt-b nagios3: Caught SIGTERM, shutting down...
-May 25 11:16:55 mgmt-b nagios3: Successfully shutdown... (PID=7853)
-May 25 11:16:56 mgmt-b nagios3: Nagios 3.5.1 starting... (PID=9138)
-May 25 11:16:56 mgmt-b nagios3: Local time is Wed May 25 11:16:56 UTC 2022
-May 25 11:16:56 mgmt-b nagios3: LOG VERSION: 2.0
-May 25 11:16:56 mgmt-b nagios3: Finished daemonizing... (New PID=9141)
-May 25 11:18:38 mgmt-b check_nrpe: Error: (nerrs = 0)(!log_opts) Could not complete SSL handshake with 127.0.1.1: rc=-1 SSL-error=5
-May 25 11:20:16 mgmt-b nagios3: Caught SIGTERM, shutting down...
-May 25 11:20:16 mgmt-b nagios3: Successfully shutdown... (PID=9141)
-May 25 11:20:16 mgmt-b nagios3: Nagios 3.5.1 starting... (PID=9616)
-May 25 11:20:16 mgmt-b nagios3: Local time is Wed May 25 11:20:16 UTC 2022
-May 25 11:20:16 mgmt-b nagios3: LOG VERSION: 2.0
-May 25 11:20:16 mgmt-b nagios3: Finished daemonizing... (New PID=9620)
-May 25 11:21:31 mgmt-b check_nrpe: Error: (nerrs = 0)(!log_opts) Could not complete SSL handshake with 127.0.1.1: rc=-1 SSL-error=5
-May 25 11:21:42 mgmt-b nagios3: Caught SIGTERM, shutting down...
-May 25 11:21:42 mgmt-b nagios3: Successfully shutdown... (PID=9620)
-May 25 11:21:42 mgmt-b nagios3: Nagios 3.5.1 starting... (PID=10084)
-May 25 11:21:42 mgmt-b nagios3: Local time is Wed May 25 11:21:42 UTC 2022
-May 25 11:21:42 mgmt-b nagios3: LOG VERSION: 2.0
-May 25 11:21:42 mgmt-b nagios3: Finished daemonizing... (New PID=10086)
-May 25 11:24:02 mgmt-b nagios3: SERVICE ALERT: localhost;check users-login;WARNING;SOFT;1;USERS WARNING - 2 users currently logged in
-May 25 11:24:27 mgmt-b nagios3: Caught SIGTERM, shutting down...
-May 25 11:24:27 mgmt-b nagios3: Successfully shutdown... (PID=10086)
-May 25 11:24:27 mgmt-b nagios3: Nagios 3.5.1 starting... (PID=10734)
-May 25 11:24:27 mgmt-b nagios3: Local time is Wed May 25 11:24:27 UTC 2022
-May 25 11:24:27 mgmt-b nagios3: LOG VERSION: 2.0
-May 25 11:24:27 mgmt-b nagios3: Finished daemonizing... (New PID=10738)
-May 25 11:25:07 mgmt-b nagios3: SERVICE ALERT: localhost;check users-login;WARNING;SOFT;2;USERS WARNING - 2 users currently logged in
-May 25 11:26:07 mgmt-b nagios3: SERVICE ALERT: localhost;check users-login;WARNING;HARD;3;USERS WARNING - 2 users currently logged in
-May 25 11:26:07 mgmt-b nagios3: SERVICE NOTIFICATION: slack;localhost;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 2 users currently logged in
-May 25 11:26:07 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;localhost;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 2 users currently logged in
-May 25 11:26:08 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;localhost;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 2 users currently logged in
-May 25 11:26:27 mgmt-b nagios3: SERVICE NOTIFICATION: slack;backup-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 2 users currently logged in
-May 25 11:26:27 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;backup-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 2 users currently logged in
-May 25 11:26:28 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;backup-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 2 users currently logged in
-May 25 11:27:44 mgmt-b nagios3: Caught SIGTERM, shutting down...
-May 25 11:27:44 mgmt-b nagios3: Successfully shutdown... (PID=10738)
-May 25 11:27:44 mgmt-b nagios3: Nagios 3.5.1 starting... (PID=11488)
-May 25 11:27:44 mgmt-b nagios3: Local time is Wed May 25 11:27:44 UTC 2022
-May 25 11:27:44 mgmt-b nagios3: LOG VERSION: 2.0
-May 25 11:27:44 mgmt-b nagios3: Finished daemonizing... (New PID=11490)
+May 25 11:30:44 mgmt-b nagios3: SERVICE NOTIFICATION: slack;db-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 25 11:30:44 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;db-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 25 11:30:45 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;db-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 25 11:31:14 mgmt-b nagios3: SERVICE ALERT: mgmt-b.foo.org.nz;check users-login;WARNING;SOFT;1;USERS WARNING - 2 users currently logged in
+May 25 11:31:54 mgmt-b nagios3: SERVICE NOTIFICATION: slack;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 25 11:31:54 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 25 11:31:54 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 25 11:32:14 mgmt-b nagios3: SERVICE ALERT: mgmt-b.foo.org.nz;check users-login;WARNING;SOFT;2;USERS WARNING - 2 users currently logged in
+May 25 11:33:14 mgmt-b nagios3: SERVICE ALERT: mgmt-b.foo.org.nz;check users-login;WARNING;HARD;3;USERS WARNING - 2 users currently logged in
+May 25 11:33:14 mgmt-b nagios3: SERVICE NOTIFICATION: slack;mgmt-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 2 users currently logged in
+May 25 11:33:14 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;mgmt-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 2 users currently logged in
+May 25 11:33:14 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;mgmt-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 2 users currently logged in
+May 25 11:51:34 mgmt-b nagios3: SERVICE ALERT: backup-b.foo.org.nz;check users-login;OK;HARD;3;USERS OK - 0 users currently logged in
+May 25 12:00:44 mgmt-b nagios3: SERVICE NOTIFICATION: slack;db-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 25 12:00:44 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;db-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 25 12:00:44 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;db-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 25 12:01:54 mgmt-b nagios3: SERVICE NOTIFICATION: slack;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 25 12:01:54 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 25 12:01:54 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 25 12:03:14 mgmt-b nagios3: SERVICE NOTIFICATION: slack;mgmt-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 25 12:03:14 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;mgmt-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 25 12:03:15 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;mgmt-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 25 12:04:34 mgmt-b check_nrpe: Error: (nerrs = 0)(!log_opts) Could not complete SSL handshake with 10.6.0.5: rc=-1 SSL-error=5
+May 25 12:04:44 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;Remote disk servers;CRITICAL;SOFT;1;CHECK_NRPE: Error - Could not connect to 10.6.0.5: Connection reset by peer
+May 25 12:05:34 mgmt-b check_nrpe: Error: (nerrs = 0)(!log_opts) Could not complete SSL handshake with 10.6.0.5: rc=-1 SSL-error=5
+May 25 12:05:44 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;Remote disk servers;CRITICAL;SOFT;2;CHECK_NRPE: Error - Could not connect to 10.6.0.5: Connection reset by peer
+May 25 12:06:34 mgmt-b check_nrpe: Error: (nerrs = 0)(!log_opts) Could not complete SSL handshake with 10.6.0.5: rc=-1 SSL-error=5
+May 25 12:06:44 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;Remote disk servers;CRITICAL;HARD;3;CHECK_NRPE: Error - Could not connect to 10.6.0.5: Connection reset by peer
+May 25 12:06:44 mgmt-b nagios3: SERVICE NOTIFICATION: slack;app-b.foo.org.nz;Remote disk servers;CRITICAL;notify-service-by-slack;CHECK_NRPE: Error - Could not connect to 10.6.0.5: Connection reset by peer
+May 25 12:06:44 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;app-b.foo.org.nz;Remote disk servers;CRITICAL;notify-service-by-slack;CHECK_NRPE: Error - Could not connect to 10.6.0.5: Connection reset by peer
+May 25 12:06:45 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;app-b.foo.org.nz;Remote disk servers;CRITICAL;notify-service-by-slack;CHECK_NRPE: Error - Could not connect to 10.6.0.5: Connection reset by peer
+May 25 12:06:53 mgmt-b check_nrpe: Error: (nerrs = 0)(!log_opts) Could not complete SSL handshake with 10.6.0.5: rc=-1 SSL-error=5
+May 25 12:06:54 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;check users-login;CRITICAL;HARD;3;CHECK_NRPE: Error - Could not connect to 10.6.0.5: Connection reset by peer
+May 25 12:06:54 mgmt-b nagios3: SERVICE NOTIFICATION: slack;app-b.foo.org.nz;check users-login;CRITICAL;notify-service-by-slack;CHECK_NRPE: Error - Could not connect to 10.6.0.5: Connection reset by peer
+May 25 12:06:54 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;app-b.foo.org.nz;check users-login;CRITICAL;notify-service-by-slack;CHECK_NRPE: Error - Could not connect to 10.6.0.5: Connection reset by peer
+May 25 12:06:54 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;app-b.foo.org.nz;check users-login;CRITICAL;notify-service-by-slack;CHECK_NRPE: Error - Could not connect to 10.6.0.5: Connection reset by peer
+May 25 12:08:00 mgmt-b check_nrpe: Error: (nerrs = 0)(!log_opts) Could not complete SSL handshake with 10.6.0.5: rc=-1 SSL-error=5
+May 25 12:08:04 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;check hosts alive;CRITICAL;SOFT;1;CHECK_NRPE: Error - Could not connect to 10.6.0.5: Connection reset by peer
+May 25 12:09:00 mgmt-b check_nrpe: Error: (nerrs = 0)(!log_opts) Could not complete SSL handshake with 10.6.0.5: rc=-1 SSL-error=5
+May 25 12:09:04 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;check hosts alive;CRITICAL;SOFT;2;CHECK_NRPE: Error - Could not connect to 10.6.0.5: Connection reset by peer
+May 25 12:10:00 mgmt-b check_nrpe: Error: (nerrs = 0)(!log_opts) Could not complete SSL handshake with 10.6.0.5: rc=-1 SSL-error=5
+May 25 12:10:04 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;check hosts alive;CRITICAL;HARD;3;CHECK_NRPE: Error - Could not connect to 10.6.0.5: Connection reset by peer
+May 25 12:10:04 mgmt-b nagios3: SERVICE NOTIFICATION: slack;app-b.foo.org.nz;check hosts alive;CRITICAL;notify-service-by-slack;CHECK_NRPE: Error - Could not connect to 10.6.0.5: Connection reset by peer
+May 25 12:10:04 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;app-b.foo.org.nz;check hosts alive;CRITICAL;notify-service-by-slack;CHECK_NRPE: Error - Could not connect to 10.6.0.5: Connection reset by peer
+May 25 12:10:04 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;app-b.foo.org.nz;check hosts alive;CRITICAL;notify-service-by-slack;CHECK_NRPE: Error - Could not connect to 10.6.0.5: Connection reset by peer
+May 25 12:11:34 mgmt-b check_nrpe: Error: (nerrs = 0)(!log_opts) Could not complete SSL handshake with 10.6.0.5: rc=-1 SSL-error=5
+May 25 12:11:53 mgmt-b check_nrpe: Error: (nerrs = 0)(!log_opts) Could not complete SSL handshake with 10.6.0.5: rc=-1 SSL-error=5
+May 25 12:15:00 mgmt-b check_nrpe: Error: (nerrs = 0)(!log_opts) Could not complete SSL handshake with 10.6.0.5: rc=-1 SSL-error=5
+May 25 12:16:11 mgmt-b nagios3: Caught SIGTERM, shutting down...
+May 25 12:16:11 mgmt-b nagios3: Successfully shutdown... (PID=11490)
+May 25 12:16:11 mgmt-b nagios3: Nagios 3.5.1 starting... (PID=17443)
+May 25 12:16:11 mgmt-b nagios3: Local time is Wed May 25 12:16:11 UTC 2022
+May 25 12:16:11 mgmt-b nagios3: LOG VERSION: 2.0
+May 25 12:16:11 mgmt-b nagios3: Finished daemonizing... (New PID=17445)
+May 25 12:16:34 mgmt-b check_nrpe: Error: (nerrs = 0)(!log_opts) Could not complete SSL handshake with 10.6.0.5: rc=-1 SSL-error=5
+May 25 12:16:53 mgmt-b check_nrpe: Error: (nerrs = 0)(!log_opts) Could not complete SSL handshake with 10.6.0.5: rc=-1 SSL-error=5
+May 25 12:17:42 mgmt-b nagios3: Caught SIGTERM, shutting down...
+May 25 12:17:42 mgmt-b nagios3: Successfully shutdown... (PID=17445)
+May 25 12:17:42 mgmt-b nagios3: Nagios 3.5.1 starting... (PID=17793)
+May 25 12:17:42 mgmt-b nagios3: Local time is Wed May 25 12:17:42 UTC 2022
+May 25 12:17:42 mgmt-b nagios3: LOG VERSION: 2.0
+May 25 12:17:42 mgmt-b nagios3: Finished daemonizing... (New PID=17797)
+May 25 12:18:39 mgmt-b nagios3: Caught SIGTERM, shutting down...
+May 25 12:18:39 mgmt-b nagios3: Successfully shutdown... (PID=17797)
+May 25 12:18:39 mgmt-b nagios3: Nagios 3.5.1 starting... (PID=18144)
+May 25 12:18:39 mgmt-b nagios3: Local time is Wed May 25 12:18:39 UTC 2022
+May 25 12:18:39 mgmt-b nagios3: LOG VERSION: 2.0
+May 25 12:18:39 mgmt-b nagios3: Finished daemonizing... (New PID=18146)
+May 25 12:20:00 mgmt-b check_nrpe: Error: (nerrs = 0)(!log_opts) Could not complete SSL handshake with 127.0.1.1: rc=-1 SSL-error=5
+May 25 12:20:09 mgmt-b nagios3: SERVICE ALERT: mgmt-b.foo.org.nz;check hosts alive;CRITICAL;SOFT;1;CHECK_NRPE: Error - Could not connect to 127.0.1.1. Check system logs on 127.0.1.1
+May 25 12:20:09 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;check hosts alive;OK;HARD;3;PING OK - Packet loss = 0%, RTA = 0.05 ms
+May 25 12:21:00 mgmt-b check_nrpe: Error: (nerrs = 0)(!log_opts) Could not complete SSL handshake with 127.0.1.1: rc=-1 SSL-error=5
+May 25 12:21:09 mgmt-b nagios3: SERVICE ALERT: mgmt-b.foo.org.nz;check hosts alive;CRITICAL;SOFT;2;CHECK_NRPE: Error - Could not connect to 127.0.1.1. Check system logs on 127.0.1.1
+May 25 12:21:39 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;Remote disk servers;OK;HARD;3;DISK OK - free space: /var/tmp 24603 MB (83% inode=93%):
+May 25 12:21:59 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;check users-login;WARNING;HARD;3;USERS WARNING - 1 users currently logged in
+May 25 12:21:59 mgmt-b nagios3: SERVICE NOTIFICATION: slack;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 25 12:21:59 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 25 12:22:00 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 25 12:22:00 mgmt-b check_nrpe: Error: (nerrs = 0)(!log_opts) Could not complete SSL handshake with 127.0.1.1: rc=-1 SSL-error=5
+May 25 12:22:09 mgmt-b nagios3: SERVICE ALERT: mgmt-b.foo.org.nz;check hosts alive;CRITICAL;HARD;3;CHECK_NRPE: Error - Could not connect to 127.0.1.1. Check system logs on 127.0.1.1
+May 25 12:22:09 mgmt-b nagios3: SERVICE NOTIFICATION: slack;mgmt-b.foo.org.nz;check hosts alive;CRITICAL;notify-service-by-slack;CHECK_NRPE: Error - Could not connect to 127.0.1.1. Check system logs on 127.0.1.1
+May 25 12:22:09 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;mgmt-b.foo.org.nz;check hosts alive;CRITICAL;notify-service-by-slack;CHECK_NRPE: Error - Could not connect to 127.0.1.1. Check system logs on 127.0.1.1
+May 25 12:22:09 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;mgmt-b.foo.org.nz;check hosts alive;CRITICAL;notify-service-by-slack;CHECK_NRPE: Error - Could not connect to 127.0.1.1. Check system logs on 127.0.1.1
+May 25 12:23:08 mgmt-b check_nrpe: Error: (nerrs = 0)(!log_opts) Could not complete SSL handshake with 127.0.1.1: rc=-1 SSL-error=5
+May 25 12:23:09 mgmt-b nagios3: SERVICE ALERT: mgmt-b.foo.org.nz;check users-login;CRITICAL;HARD;3;CHECK_NRPE: Error - Could not connect to 127.0.1.1. Check system logs on 127.0.1.1
+May 25 12:23:09 mgmt-b nagios3: SERVICE NOTIFICATION: slack;mgmt-b.foo.org.nz;check users-login;CRITICAL;notify-service-by-slack;CHECK_NRPE: Error - Could not connect to 127.0.1.1. Check system logs on 127.0.1.1
+May 25 12:23:09 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;mgmt-b.foo.org.nz;check users-login;CRITICAL;notify-service-by-slack;CHECK_NRPE: Error - Could not connect to 127.0.1.1. Check system logs on 127.0.1.1
+May 25 12:23:09 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;mgmt-b.foo.org.nz;check users-login;CRITICAL;notify-service-by-slack;CHECK_NRPE: Error - Could not connect to 127.0.1.1. Check system logs on 127.0.1.1
+May 25 12:27:00 mgmt-b check_nrpe: Error: (nerrs = 0)(!log_opts) Could not complete SSL handshake with 127.0.1.1: rc=-1 SSL-error=5
+May 25 12:27:36 mgmt-b nagios3: Caught SIGTERM, shutting down...
+May 25 12:27:36 mgmt-b nagios3: Successfully shutdown... (PID=18146)
+May 25 12:28:58 mgmt-b nagios3: Nagios 3.5.1 starting... (PID=19672)
+May 25 12:28:58 mgmt-b nagios3: Local time is Wed May 25 12:28:58 UTC 2022
+May 25 12:28:58 mgmt-b nagios3: LOG VERSION: 2.0
+May 25 12:28:58 mgmt-b nagios3: Finished daemonizing... (New PID=19674)
+May 25 12:29:01 mgmt-b nagios3: Caught SIGTERM, shutting down...
+May 25 12:29:01 mgmt-b nagios3: Successfully shutdown... (PID=19674)
+May 25 12:29:01 mgmt-b nagios3: Nagios 3.5.1 starting... (PID=19756)
+May 25 12:29:01 mgmt-b nagios3: Local time is Wed May 25 12:29:01 UTC 2022
+May 25 12:29:01 mgmt-b nagios3: LOG VERSION: 2.0
+May 25 12:29:01 mgmt-b nagios3: Finished daemonizing... (New PID=19760)
+May 25 12:30:41 mgmt-b nagios3: SERVICE ALERT: db-b.foo.org.nz;check users-login;OK;HARD;3;USERS OK - 0 users currently logged in
+May 25 12:32:01 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;check users-login;OK;HARD;3;USERS OK - 0 users currently logged in
+May 25 12:32:01 mgmt-b nagios3: SERVICE FLAPPING ALERT: app-b.foo.org.nz;check users-login;STARTED; Service appears to have started flapping (21.6% change >= 20.0% threshold)
+May 25 12:32:36 mgmt-b check_nrpe: Error: (nerrs = 0)(!log_opts) Could not complete SSL handshake with 127.0.0.1: rc=-1 SSL-error=5
+May 25 12:32:41 mgmt-b nagios3: SERVICE ALERT: localhost;check hosts alive;CRITICAL;SOFT;1;CHECK_NRPE: Error - Could not connect to 127.0.0.1: Connection reset by peer
+May 25 12:33:36 mgmt-b check_nrpe: Error: (nerrs = 0)(!log_opts) Could not complete SSL handshake with 127.0.0.1: rc=-1 SSL-error=5
+May 25 12:33:41 mgmt-b nagios3: SERVICE ALERT: localhost;check hosts alive;CRITICAL;SOFT;2;CHECK_NRPE: Error - Could not connect to 127.0.0.1. Check system logs on 127.0.0.1
+May 25 12:33:44 mgmt-b check_nrpe: Error: (nerrs = 0)(!log_opts) Could not complete SSL handshake with 127.0.0.1: rc=-1 SSL-error=5
+May 25 12:33:51 mgmt-b nagios3: SERVICE ALERT: localhost;check users-login;CRITICAL;SOFT;1;CHECK_NRPE: Error - Could not connect to 127.0.0.1. Check system logs on 127.0.0.1
+May 25 12:34:36 mgmt-b check_nrpe: Error: (nerrs = 0)(!log_opts) Could not complete SSL handshake with 127.0.0.1: rc=-1 SSL-error=5
+May 25 12:34:41 mgmt-b nagios3: SERVICE ALERT: localhost;check hosts alive;CRITICAL;HARD;3;CHECK_NRPE: Error - Could not connect to 127.0.0.1. Check system logs on 127.0.0.1
+May 25 12:34:41 mgmt-b nagios3: SERVICE NOTIFICATION: slack;localhost;check hosts alive;CRITICAL;notify-service-by-slack;CHECK_NRPE: Error - Could not connect to 127.0.0.1. Check system logs on 127.0.0.1
+May 25 12:34:41 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;localhost;check hosts alive;CRITICAL;notify-service-by-slack;CHECK_NRPE: Error - Could not connect to 127.0.0.1. Check system logs on 127.0.0.1
+May 25 12:34:42 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;localhost;check hosts alive;CRITICAL;notify-service-by-slack;CHECK_NRPE: Error - Could not connect to 127.0.0.1. Check system logs on 127.0.0.1
+May 25 12:34:44 mgmt-b check_nrpe: Error: (nerrs = 0)(!log_opts) Could not complete SSL handshake with 127.0.0.1: rc=-1 SSL-error=5
+May 25 12:34:51 mgmt-b nagios3: SERVICE ALERT: localhost;check users-login;CRITICAL;SOFT;2;CHECK_NRPE: Error - Could not connect to 127.0.0.1. Check system logs on 127.0.0.1
+May 25 12:35:44 mgmt-b check_nrpe: Error: (nerrs = 0)(!log_opts) Could not complete SSL handshake with 127.0.0.1: rc=-1 SSL-error=5
+May 25 12:35:51 mgmt-b nagios3: SERVICE ALERT: localhost;check users-login;CRITICAL;HARD;3;CHECK_NRPE: Error - Could not connect to 127.0.0.1. Check system logs on 127.0.0.1
+May 25 12:35:51 mgmt-b nagios3: SERVICE NOTIFICATION: slack;localhost;check users-login;CRITICAL;notify-service-by-slack;CHECK_NRPE: Error - Could not connect to 127.0.0.1. Check system logs on 127.0.0.1
+May 25 12:35:51 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;localhost;check users-login;CRITICAL;notify-service-by-slack;CHECK_NRPE: Error - Could not connect to 127.0.0.1. Check system logs on 127.0.0.1
+May 25 12:35:51 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;localhost;check users-login;CRITICAL;notify-service-by-slack;CHECK_NRPE: Error - Could not connect to 127.0.0.1. Check system logs on 127.0.0.1
+May 25 12:36:15 mgmt-b nagios3: Caught SIGTERM, shutting down...
+May 25 12:36:15 mgmt-b nagios3: Successfully shutdown... (PID=19760)
+May 25 12:36:15 mgmt-b nagios3: Nagios 3.5.1 starting... (PID=20812)
+May 25 12:36:15 mgmt-b nagios3: Local time is Wed May 25 12:36:15 UTC 2022
+May 25 12:36:15 mgmt-b nagios3: LOG VERSION: 2.0
+May 25 12:36:15 mgmt-b nagios3: Finished daemonizing... (New PID=20815)
+May 25 12:36:15 mgmt-b nagios3: SERVICE FLAPPING ALERT: app-b.foo.org.nz;check users-login;STARTED; Service appears to have started flapping (21.6% change >= 20.0% threshold)
+May 25 13:36:15 mgmt-b nagios3: Auto-save of retention data completed successfully.
+May 25 14:01:55 mgmt-b nagios3: SERVICE FLAPPING ALERT: app-b.foo.org.nz;check users-login;STOPPED; Service appears to have stopped flapping (3.9% change < 5.0% threshold)
+May 25 14:10:01 mgmt-b rsyncd[30630]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
+May 25 14:10:01 mgmt-b rsyncd[30630]: Ignoring "log file" setting.
+May 25 14:10:01 mgmt-b rsyncd[30630]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+May 25 14:10:01 mgmt-b rsyncd[30630]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
+May 25 14:10:01 mgmt-b rsyncd[30632]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
+May 25 14:10:01 mgmt-b rsyncd[30632]: Ignoring "log file" setting.
+May 25 14:10:01 mgmt-b rsyncd[30632]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+May 25 14:10:01 mgmt-b rsyncd[30632]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
+May 25 14:10:01 mgmt-b rsyncd[30634]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
+May 25 14:10:01 mgmt-b rsyncd[30634]: Ignoring "log file" setting.
+May 25 14:10:02 mgmt-b rsyncd[30634]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+May 25 14:10:02 mgmt-b rsyncd[30634]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
+May 25 14:10:02 mgmt-b rsyncd[30636]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
+May 25 14:10:02 mgmt-b rsyncd[30636]: Ignoring "log file" setting.
+May 25 14:10:02 mgmt-b rsyncd[30636]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+May 25 14:10:02 mgmt-b rsyncd[30636]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
+May 25 14:10:02 mgmt-b rsyncd[30639]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
+May 25 14:10:02 mgmt-b rsyncd[30639]: Ignoring "log file" setting.
+May 25 14:10:02 mgmt-b rsyncd[30639]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+May 25 14:10:02 mgmt-b rsyncd[30639]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
+May 25 14:10:02 mgmt-b rsyncd[30641]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
+May 25 14:10:02 mgmt-b rsyncd[30641]: Ignoring "log file" setting.
+May 25 14:10:02 mgmt-b rsyncd[30641]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+May 25 14:10:02 mgmt-b rsyncd[30641]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
+May 25 14:36:15 mgmt-b nagios3: Auto-save of retention data completed successfully.
+May 25 15:36:15 mgmt-b nagios3: Auto-save of retention data completed successfully.
+May 25 16:36:15 mgmt-b nagios3: Auto-save of retention data completed successfully.
+May 25 17:36:15 mgmt-b nagios3: Auto-save of retention data completed successfully.
+May 25 18:10:01 mgmt-b rsyncd[22908]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
+May 25 18:10:01 mgmt-b rsyncd[22908]: Ignoring "log file" setting.
+May 25 18:10:01 mgmt-b rsyncd[22908]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+May 25 18:10:01 mgmt-b rsyncd[22908]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
+May 25 18:10:01 mgmt-b rsyncd[22910]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
+May 25 18:10:01 mgmt-b rsyncd[22910]: Ignoring "log file" setting.
+May 25 18:10:01 mgmt-b rsyncd[22910]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+May 25 18:10:01 mgmt-b rsyncd[22910]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
+May 25 18:10:01 mgmt-b rsyncd[22912]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
+May 25 18:10:01 mgmt-b rsyncd[22912]: Ignoring "log file" setting.
+May 25 18:10:01 mgmt-b rsyncd[22912]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+May 25 18:10:01 mgmt-b rsyncd[22912]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
+May 25 18:10:01 mgmt-b rsyncd[22914]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
+May 25 18:10:01 mgmt-b rsyncd[22914]: Ignoring "log file" setting.
+May 25 18:10:01 mgmt-b rsyncd[22914]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+May 25 18:10:01 mgmt-b rsyncd[22914]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
+May 25 18:10:01 mgmt-b rsyncd[22916]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
+May 25 18:10:01 mgmt-b rsyncd[22916]: Ignoring "log file" setting.
+May 25 18:10:01 mgmt-b rsyncd[22916]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+May 25 18:10:01 mgmt-b rsyncd[22916]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
+May 25 18:10:01 mgmt-b rsyncd[22918]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
+May 25 18:10:01 mgmt-b rsyncd[22918]: Ignoring "log file" setting.
+May 25 18:10:01 mgmt-b rsyncd[22918]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+May 25 18:10:01 mgmt-b rsyncd[22918]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
+May 25 18:36:15 mgmt-b nagios3: Auto-save of retention data completed successfully.
+May 25 19:36:15 mgmt-b nagios3: Auto-save of retention data completed successfully.
+May 25 20:36:15 mgmt-b nagios3: Auto-save of retention data completed successfully.
+May 25 21:36:15 mgmt-b nagios3: Auto-save of retention data completed successfully.
+May 25 22:10:01 mgmt-b rsyncd[15238]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
+May 25 22:10:01 mgmt-b rsyncd[15238]: Ignoring "log file" setting.
+May 25 22:10:01 mgmt-b rsyncd[15238]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+May 25 22:10:01 mgmt-b rsyncd[15238]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
+May 25 22:10:01 mgmt-b rsyncd[15240]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
+May 25 22:10:01 mgmt-b rsyncd[15240]: Ignoring "log file" setting.
+May 25 22:10:01 mgmt-b rsyncd[15240]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+May 25 22:10:01 mgmt-b rsyncd[15240]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
+May 25 22:10:01 mgmt-b rsyncd[15242]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
+May 25 22:10:01 mgmt-b rsyncd[15242]: Ignoring "log file" setting.
+May 25 22:10:01 mgmt-b rsyncd[15242]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+May 25 22:10:01 mgmt-b rsyncd[15242]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
+May 25 22:10:01 mgmt-b rsyncd[15244]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
+May 25 22:10:01 mgmt-b rsyncd[15244]: Ignoring "log file" setting.
+May 25 22:10:01 mgmt-b rsyncd[15244]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+May 25 22:10:01 mgmt-b rsyncd[15244]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
+May 25 22:10:01 mgmt-b rsyncd[15246]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
+May 25 22:10:01 mgmt-b rsyncd[15246]: Ignoring "log file" setting.
+May 25 22:10:01 mgmt-b rsyncd[15246]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+May 25 22:10:01 mgmt-b rsyncd[15246]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
+May 25 22:10:01 mgmt-b rsyncd[15248]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
+May 25 22:10:01 mgmt-b rsyncd[15248]: Ignoring "log file" setting.
+May 25 22:10:02 mgmt-b rsyncd[15248]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+May 25 22:10:02 mgmt-b rsyncd[15248]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
