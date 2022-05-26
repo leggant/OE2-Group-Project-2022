@@ -1,32 +1,3 @@
-cd mgmt/
-ls
-vim restore.sh 
-sudo rm restore.sh 
-ls
-bumgmt
-l
-ls
-mod
-ls
-cd rsync/
-ls
-ls -la
-ls
-mod
-cd rsync/
-cd files/
-sudo vim restore.sh 
-bash restore.sh 
-sudo vim restore.sh 
-bash restore.sh 
-sudo vim restore.sh 
-clear
-./restore.sh 
-sudo vim restore.sh 
-./restore.sh 
-sudo vim restore.sh 
-./restore.sh 
-sudo vim restore.sh 
 ./restore.sh 
 sudo vim restore.sh 
 ./restore.sh 
@@ -1998,3 +1969,32 @@ sudo systemctl reload apache2.service
 sudo apt-get install pnp4nagios
 sudo apt-get update
 sudo apt-get install pnp4nagios
+cd ~/OE2-Group-Project/
+git pull
+cd Db-VM/
+ls 
+cd Logs/
+ls
+git rm cron.log 
+sudo git rm cron.log 
+sudo git rm daemon.log.log 
+sudo git rm daemon.log
+cd ..
+git pull
+git status
+git reset HEAD Scripts/app/backup.sh
+git status
+git reset HEAD
+git status
+git pull
+git stash
+sudo git stash
+git pull
+sudo git pull
+sudo git stash
+sudo git pull
+git stash drop
+git status
+bumgmt
+ssh bitstudent@20.211.185.153
+exit

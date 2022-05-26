@@ -1,157 +1,98 @@
-May 25 22:36:15 mgmt-b nagios3: Auto-save of retention data completed successfully.
-May 25 23:36:15 mgmt-b nagios3: Auto-save of retention data completed successfully.
-May 26 00:00:00 mgmt-b nagios3: LOG ROTATION: DAILY
-May 26 00:00:00 mgmt-b nagios3: LOG VERSION: 2.0
-May 26 00:00:00 mgmt-b nagios3: CURRENT HOST STATE: app-b.foo.org.nz;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 2.82 ms
-May 26 00:00:00 mgmt-b nagios3: CURRENT HOST STATE: backup-b.foo.org.nz;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 1.33 ms
-May 26 00:00:00 mgmt-b nagios3: CURRENT HOST STATE: db-b.foo.org.nz;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 2.25 ms
-May 26 00:00:00 mgmt-b nagios3: CURRENT HOST STATE: localhost;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.06 ms
-May 26 00:00:00 mgmt-b nagios3: CURRENT HOST STATE: mgmt-b.foo.org.nz;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.03 ms
-May 26 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: app-b.foo.org.nz;Remote disk servers;OK;HARD;1;DISK OK - free space: /var/tmp 24599 MB (83% inode=93%):
-May 26 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: app-b.foo.org.nz;check hosts alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.05 ms
-May 26 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: app-b.foo.org.nz;check users-login;OK;HARD;1;USERS OK - 0 users currently logged in
-May 26 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: app-b.foo.org.nz;ssh servers;OK;HARD;1;SSH OK - OpenSSH_7.6p1 Ubuntu-4ubuntu0.6 (protocol 2.0)
-May 26 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: backup-b.foo.org.nz;Remote disk servers;OK;HARD;1;DISK OK - free space: /var/tmp 23741 MB (80% inode=94%):
-May 26 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: backup-b.foo.org.nz;check hosts alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.06 ms
-May 26 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: backup-b.foo.org.nz;check users-login;OK;HARD;1;USERS OK - 0 users currently logged in
-May 26 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: backup-b.foo.org.nz;ssh servers;OK;HARD;1;SSH OK - OpenSSH_7.6p1 Ubuntu-4ubuntu0.6 (protocol 2.0)
-May 26 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: db-b.foo.org.nz;MariaDB servers;OK;HARD;1;Uptime: 434642  Threads: 2  Questions: 2214651  Slow queries: 0  Opens: 248  Flush tables: 1  Open tables: 242  Queries per second avg: 5.095
-May 26 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: db-b.foo.org.nz;Remote disk servers;OK;HARD;1;DISK OK - free space: /var/tmp 24926 MB (84% inode=95%):
-May 26 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: db-b.foo.org.nz;check hosts alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.05 ms
-May 26 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: db-b.foo.org.nz;check users-login;OK;HARD;1;USERS OK - 0 users currently logged in
-May 26 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: db-b.foo.org.nz;ssh servers;OK;HARD;1;SSH OK - OpenSSH_7.6p1 Ubuntu-4ubuntu0.6 (protocol 2.0)
-May 26 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: localhost;Current Load;OK;HARD;1;OK - load average: 0.00, 0.03, 0.00
-May 26 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: localhost;Current Users;OK;HARD;1;USERS OK - 0 users currently logged in
-May 26 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: localhost;Disk Space;OK;HARD;1;DISK OK
-May 26 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: localhost;HTTP;OK;HARD;1;HTTP OK: HTTP/1.1 200 OK - 11192 bytes in 0.001 second response time
-May 26 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: localhost;SSH;OK;HARD;1;SSH OK - OpenSSH_7.6p1 Ubuntu-4ubuntu0.6 (protocol 2.0)
-May 26 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: localhost;Total Processes;OK;HARD;1;PROCS OK: 122 processes
-May 26 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: mgmt-b.foo.org.nz;ssh servers;OK;HARD;1;SSH OK - OpenSSH_7.6p1 Ubuntu-4ubuntu0.6 (protocol 2.0)
-May 26 00:15:03 mgmt-b rsyncd[28284]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 26 00:15:03 mgmt-b rsyncd[28284]: Ignoring "log file" setting.
-May 26 00:15:03 mgmt-b rsyncd[28284]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 26 00:15:03 mgmt-b rsyncd[28284]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 26 00:36:15 mgmt-b nagios3: Auto-save of retention data completed successfully.
-May 26 01:36:15 mgmt-b nagios3: Auto-save of retention data completed successfully.
-May 26 02:10:01 mgmt-b rsyncd[8177]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 26 02:10:01 mgmt-b rsyncd[8177]: Ignoring "log file" setting.
-May 26 02:10:01 mgmt-b rsyncd[8177]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 26 02:10:01 mgmt-b rsyncd[8177]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 26 02:10:01 mgmt-b rsyncd[8179]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 26 02:10:01 mgmt-b rsyncd[8179]: Ignoring "log file" setting.
-May 26 02:10:01 mgmt-b rsyncd[8179]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 26 02:10:01 mgmt-b rsyncd[8179]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 26 02:10:01 mgmt-b rsyncd[8181]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 26 02:10:01 mgmt-b rsyncd[8181]: Ignoring "log file" setting.
-May 26 02:10:01 mgmt-b rsyncd[8181]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 26 02:10:01 mgmt-b rsyncd[8181]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 26 02:10:01 mgmt-b rsyncd[8183]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 26 02:10:01 mgmt-b rsyncd[8183]: Ignoring "log file" setting.
-May 26 02:10:01 mgmt-b rsyncd[8183]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 26 02:10:01 mgmt-b rsyncd[8183]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 26 02:10:01 mgmt-b rsyncd[8185]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 26 02:10:01 mgmt-b rsyncd[8185]: Ignoring "log file" setting.
-May 26 02:10:01 mgmt-b rsyncd[8185]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 26 02:10:01 mgmt-b rsyncd[8185]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 26 02:10:01 mgmt-b rsyncd[8187]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 26 02:10:01 mgmt-b rsyncd[8187]: Ignoring "log file" setting.
-May 26 02:10:01 mgmt-b rsyncd[8187]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 26 02:10:01 mgmt-b rsyncd[8187]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 26 02:36:15 mgmt-b nagios3: Auto-save of retention data completed successfully.
-May 26 03:36:15 mgmt-b nagios3: Auto-save of retention data completed successfully.
-May 26 04:36:15 mgmt-b nagios3: Auto-save of retention data completed successfully.
-May 26 05:36:15 mgmt-b nagios3: Auto-save of retention data completed successfully.
-May 26 06:10:01 mgmt-b rsyncd[642]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 26 06:10:01 mgmt-b rsyncd[642]: Ignoring "log file" setting.
-May 26 06:10:01 mgmt-b rsyncd[642]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 26 06:10:01 mgmt-b rsyncd[642]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 26 06:10:01 mgmt-b rsyncd[644]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 26 06:10:01 mgmt-b rsyncd[644]: Ignoring "log file" setting.
-May 26 06:10:01 mgmt-b rsyncd[644]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 26 06:10:01 mgmt-b rsyncd[644]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 26 06:10:01 mgmt-b rsyncd[646]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 26 06:10:01 mgmt-b rsyncd[646]: Ignoring "log file" setting.
-May 26 06:10:01 mgmt-b rsyncd[646]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 26 06:10:01 mgmt-b rsyncd[646]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 26 06:10:01 mgmt-b rsyncd[648]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 26 06:10:01 mgmt-b rsyncd[648]: Ignoring "log file" setting.
-May 26 06:10:01 mgmt-b rsyncd[648]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 26 06:10:01 mgmt-b rsyncd[648]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 26 06:10:01 mgmt-b rsyncd[650]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 26 06:10:01 mgmt-b rsyncd[650]: Ignoring "log file" setting.
-May 26 06:10:01 mgmt-b rsyncd[650]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 26 06:10:01 mgmt-b rsyncd[650]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 26 06:10:01 mgmt-b rsyncd[652]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 26 06:10:01 mgmt-b rsyncd[652]: Ignoring "log file" setting.
-May 26 06:10:01 mgmt-b rsyncd[652]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 26 06:10:01 mgmt-b rsyncd[652]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 26 06:36:15 mgmt-b nagios3: Auto-save of retention data completed successfully.
-May 26 07:36:15 mgmt-b nagios3: Auto-save of retention data completed successfully.
-May 26 08:11:55 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;check users-login;WARNING;SOFT;1;USERS WARNING - 1 users currently logged in
-May 26 08:12:55 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;check users-login;WARNING;SOFT;2;USERS WARNING - 1 users currently logged in
-May 26 08:13:55 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;check users-login;WARNING;HARD;3;USERS WARNING - 1 users currently logged in
-May 26 08:13:55 mgmt-b nagios3: SERVICE NOTIFICATION: slack;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
-May 26 08:13:55 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
-May 26 08:13:56 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
-May 26 08:36:15 mgmt-b nagios3: Auto-save of retention data completed successfully.
-May 26 08:43:55 mgmt-b nagios3: SERVICE NOTIFICATION: slack;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
-May 26 08:43:55 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
-May 26 08:43:55 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
-May 26 08:50:05 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;check hosts alive;CRITICAL;SOFT;1;(null)
-May 26 08:50:15 mgmt-b nagios3: HOST ALERT: app-b.foo.org.nz;DOWN;SOFT;1;PING CRITICAL - Packet loss = 100%
-May 26 08:50:25 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;ssh servers;CRITICAL;HARD;1;connect to address app-b.foo.org.nz and port 22: Connection refused
-May 26 08:50:45 mgmt-b nagios3: SERVICE ALERT: db-b.foo.org.nz;check users-login;CRITICAL;SOFT;1;(null)
-May 26 08:51:05 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;check hosts alive;OK;SOFT;2;PING OK - Packet loss = 0%, RTA = 0.06 ms
-May 26 08:51:15 mgmt-b nagios3: HOST ALERT: app-b.foo.org.nz;UP;SOFT;2;PING OK - Packet loss = 0%, RTA = 1.84 ms
-May 26 08:51:45 mgmt-b nagios3: SERVICE ALERT: db-b.foo.org.nz;check users-login;WARNING;SOFT;2;USERS WARNING - 1 users currently logged in
-May 26 08:52:45 mgmt-b nagios3: SERVICE ALERT: db-b.foo.org.nz;check users-login;WARNING;HARD;3;USERS WARNING - 1 users currently logged in
-May 26 08:52:45 mgmt-b nagios3: SERVICE NOTIFICATION: slack;db-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
-May 26 08:52:45 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;db-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
-May 26 08:52:45 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;db-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
-May 26 08:55:14 mgmt-b nagios3: Caught SIGTERM, shutting down...
-May 26 08:55:14 mgmt-b nagios3: Successfully shutdown... (PID=20815)
-May 26 08:55:14 mgmt-b nagios3: Nagios 3.5.1 starting... (PID=18510)
-May 26 08:55:14 mgmt-b nagios3: Local time is Thu May 26 08:55:14 UTC 2022
-May 26 08:55:14 mgmt-b nagios3: LOG VERSION: 2.0
-May 26 08:55:14 mgmt-b nagios3: Finished daemonizing... (New PID=18516)
-May 26 08:55:24 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;ssh servers;OK;HARD;3;SSH OK - OpenSSH_7.6p1 Ubuntu-4ubuntu0.6 (protocol 2.0)
-May 26 09:18:54 mgmt-b nagios3: SERVICE NOTIFICATION: slack;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
-May 26 09:18:54 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
-May 26 09:18:54 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
-May 26 09:27:44 mgmt-b nagios3: SERVICE NOTIFICATION: slack;db-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
-May 26 09:27:44 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;db-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
-May 26 09:27:44 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;db-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
-May 26 09:48:54 mgmt-b nagios3: SERVICE NOTIFICATION: slack;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
-May 26 09:48:54 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
-May 26 09:48:54 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
-May 26 09:55:14 mgmt-b nagios3: Auto-save of retention data completed successfully.
-May 26 09:57:44 mgmt-b nagios3: SERVICE NOTIFICATION: slack;db-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
-May 26 09:57:44 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;db-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
-May 26 09:57:45 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;db-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
-May 26 10:10:01 mgmt-b rsyncd[21820]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 26 10:10:02 mgmt-b rsyncd[21820]: Ignoring "log file" setting.
-May 26 10:10:02 mgmt-b rsyncd[21820]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 26 10:10:02 mgmt-b rsyncd[21820]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 26 10:10:02 mgmt-b rsyncd[21822]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 26 10:10:02 mgmt-b rsyncd[21822]: Ignoring "log file" setting.
-May 26 10:10:02 mgmt-b rsyncd[21822]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 26 10:10:02 mgmt-b rsyncd[21822]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 26 10:10:02 mgmt-b rsyncd[21824]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 26 10:10:02 mgmt-b rsyncd[21824]: Ignoring "log file" setting.
-May 26 10:10:02 mgmt-b rsyncd[21824]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 26 10:10:02 mgmt-b rsyncd[21824]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 26 10:10:02 mgmt-b rsyncd[21826]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 26 10:10:02 mgmt-b rsyncd[21826]: Ignoring "log file" setting.
-May 26 10:10:02 mgmt-b rsyncd[21826]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 26 10:10:02 mgmt-b rsyncd[21826]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 26 10:10:02 mgmt-b rsyncd[21828]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 26 10:10:02 mgmt-b rsyncd[21828]: Ignoring "log file" setting.
-May 26 10:10:02 mgmt-b rsyncd[21828]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 26 10:10:02 mgmt-b rsyncd[21828]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 26 10:10:02 mgmt-b rsyncd[21830]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 26 10:10:02 mgmt-b rsyncd[21830]: Ignoring "log file" setting.
-May 26 10:10:02 mgmt-b rsyncd[21830]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 26 10:10:02 mgmt-b rsyncd[21830]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 26 10:17:44 mgmt-b nagios3: SERVICE ALERT: db-b.foo.org.nz;check users-login;OK;HARD;3;USERS OK - 0 users currently logged in
-May 26 10:18:54 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;check users-login;OK;HARD;3;USERS OK - 0 users currently logged in
-May 26 10:55:14 mgmt-b nagios3: Auto-save of retention data completed successfully.
+May 26 11:55:14 mgmt-b nagios3: Auto-save of retention data completed successfully.
+May 26 12:55:14 mgmt-b nagios3: Auto-save of retention data completed successfully.
+May 26 13:55:14 mgmt-b nagios3: Auto-save of retention data completed successfully.
+May 26 14:10:01 mgmt-b rsyncd[30214]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
+May 26 14:10:01 mgmt-b rsyncd[30214]: Ignoring "log file" setting.
+May 26 14:10:01 mgmt-b rsyncd[30214]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+May 26 14:10:01 mgmt-b rsyncd[30214]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
+May 26 14:10:01 mgmt-b rsyncd[30216]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
+May 26 14:10:01 mgmt-b rsyncd[30216]: Ignoring "log file" setting.
+May 26 14:10:01 mgmt-b rsyncd[30216]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+May 26 14:10:01 mgmt-b rsyncd[30216]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
+May 26 14:10:01 mgmt-b rsyncd[30218]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
+May 26 14:10:01 mgmt-b rsyncd[30218]: Ignoring "log file" setting.
+May 26 14:10:01 mgmt-b rsyncd[30218]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+May 26 14:10:01 mgmt-b rsyncd[30218]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
+May 26 14:10:01 mgmt-b rsyncd[30220]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
+May 26 14:10:01 mgmt-b rsyncd[30220]: Ignoring "log file" setting.
+May 26 14:10:01 mgmt-b rsyncd[30220]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+May 26 14:10:01 mgmt-b rsyncd[30220]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
+May 26 14:10:01 mgmt-b rsyncd[30222]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
+May 26 14:10:01 mgmt-b rsyncd[30222]: Ignoring "log file" setting.
+May 26 14:10:02 mgmt-b rsyncd[30222]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+May 26 14:10:02 mgmt-b rsyncd[30222]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
+May 26 14:10:02 mgmt-b rsyncd[30224]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
+May 26 14:10:02 mgmt-b rsyncd[30224]: Ignoring "log file" setting.
+May 26 14:10:02 mgmt-b rsyncd[30224]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+May 26 14:10:02 mgmt-b rsyncd[30224]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
+May 26 14:55:14 mgmt-b nagios3: Auto-save of retention data completed successfully.
+May 26 15:55:14 mgmt-b nagios3: Auto-save of retention data completed successfully.
+May 26 16:55:14 mgmt-b nagios3: Auto-save of retention data completed successfully.
+May 26 17:55:14 mgmt-b nagios3: Auto-save of retention data completed successfully.
+May 26 18:10:01 mgmt-b rsyncd[6284]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
+May 26 18:10:01 mgmt-b rsyncd[6284]: Ignoring "log file" setting.
+May 26 18:10:01 mgmt-b rsyncd[6284]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+May 26 18:10:01 mgmt-b rsyncd[6284]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
+May 26 18:10:01 mgmt-b rsyncd[6286]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
+May 26 18:10:01 mgmt-b rsyncd[6286]: Ignoring "log file" setting.
+May 26 18:10:01 mgmt-b rsyncd[6286]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+May 26 18:10:01 mgmt-b rsyncd[6286]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
+May 26 18:10:01 mgmt-b rsyncd[6288]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
+May 26 18:10:01 mgmt-b rsyncd[6288]: Ignoring "log file" setting.
+May 26 18:10:01 mgmt-b rsyncd[6288]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+May 26 18:10:01 mgmt-b rsyncd[6288]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
+May 26 18:10:01 mgmt-b rsyncd[6290]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
+May 26 18:10:01 mgmt-b rsyncd[6290]: Ignoring "log file" setting.
+May 26 18:10:01 mgmt-b rsyncd[6290]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+May 26 18:10:01 mgmt-b rsyncd[6290]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
+May 26 18:10:01 mgmt-b rsyncd[6292]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
+May 26 18:10:01 mgmt-b rsyncd[6292]: Ignoring "log file" setting.
+May 26 18:10:01 mgmt-b rsyncd[6292]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+May 26 18:10:01 mgmt-b rsyncd[6292]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
+May 26 18:10:01 mgmt-b rsyncd[6294]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
+May 26 18:10:01 mgmt-b rsyncd[6294]: Ignoring "log file" setting.
+May 26 18:10:01 mgmt-b rsyncd[6294]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+May 26 18:10:01 mgmt-b rsyncd[6294]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
+May 26 18:55:14 mgmt-b nagios3: Auto-save of retention data completed successfully.
+May 26 19:55:14 mgmt-b nagios3: Auto-save of retention data completed successfully.
+May 26 20:55:14 mgmt-b nagios3: Auto-save of retention data completed successfully.
+May 26 21:55:14 mgmt-b nagios3: Auto-save of retention data completed successfully.
+May 26 22:02:44 mgmt-b nagios3: SERVICE ALERT: db-b.foo.org.nz;check users-login;WARNING;SOFT;1;USERS WARNING - 1 users currently logged in
+May 26 22:03:44 mgmt-b nagios3: SERVICE ALERT: db-b.foo.org.nz;check users-login;WARNING;SOFT;2;USERS WARNING - 1 users currently logged in
+May 26 22:04:44 mgmt-b nagios3: SERVICE ALERT: db-b.foo.org.nz;check users-login;WARNING;HARD;3;USERS WARNING - 1 users currently logged in
+May 26 22:04:44 mgmt-b nagios3: SERVICE NOTIFICATION: slack;db-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 26 22:04:44 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;db-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 26 22:04:44 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;db-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 26 22:10:01 mgmt-b rsyncd[14618]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
+May 26 22:10:01 mgmt-b rsyncd[14618]: Ignoring "log file" setting.
+May 26 22:10:01 mgmt-b rsyncd[14618]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+May 26 22:10:01 mgmt-b rsyncd[14618]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
+May 26 22:10:01 mgmt-b rsyncd[14620]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
+May 26 22:10:01 mgmt-b rsyncd[14620]: Ignoring "log file" setting.
+May 26 22:10:01 mgmt-b rsyncd[14620]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+May 26 22:10:01 mgmt-b rsyncd[14620]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
+May 26 22:10:01 mgmt-b rsyncd[14622]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
+May 26 22:10:01 mgmt-b rsyncd[14622]: Ignoring "log file" setting.
+May 26 22:10:01 mgmt-b rsyncd[14622]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+May 26 22:10:01 mgmt-b rsyncd[14622]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
+May 26 22:10:01 mgmt-b rsyncd[14624]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
+May 26 22:10:01 mgmt-b rsyncd[14624]: Ignoring "log file" setting.
+May 26 22:10:01 mgmt-b rsyncd[14624]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+May 26 22:10:01 mgmt-b rsyncd[14624]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
+May 26 22:10:01 mgmt-b rsyncd[14626]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
+May 26 22:10:01 mgmt-b rsyncd[14626]: Ignoring "log file" setting.
+May 26 22:10:01 mgmt-b rsyncd[14626]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+May 26 22:10:01 mgmt-b rsyncd[14626]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
+May 26 22:10:01 mgmt-b rsyncd[14628]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
+May 26 22:10:01 mgmt-b rsyncd[14628]: Ignoring "log file" setting.
+May 26 22:10:01 mgmt-b rsyncd[14628]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+May 26 22:10:01 mgmt-b rsyncd[14628]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
+May 26 22:31:34 mgmt-b nagios3: SERVICE ALERT: backup-b.foo.org.nz;check users-login;WARNING;SOFT;1;USERS WARNING - 1 users currently logged in
+May 26 22:32:34 mgmt-b nagios3: SERVICE ALERT: backup-b.foo.org.nz;check users-login;WARNING;SOFT;2;USERS WARNING - 1 users currently logged in
+May 26 22:33:34 mgmt-b nagios3: SERVICE ALERT: backup-b.foo.org.nz;check users-login;OK;SOFT;3;USERS OK - 0 users currently logged in
+May 26 22:34:44 mgmt-b nagios3: SERVICE NOTIFICATION: slack;db-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 26 22:34:44 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;db-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 26 22:34:44 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;db-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 26 22:38:34 mgmt-b nagios3: SERVICE ALERT: backup-b.foo.org.nz;check users-login;WARNING;SOFT;1;USERS WARNING - 1 users currently logged in
+May 26 22:39:34 mgmt-b nagios3: SERVICE ALERT: backup-b.foo.org.nz;check users-login;OK;SOFT;2;USERS OK - 0 users currently logged in
+May 26 22:39:44 mgmt-b nagios3: SERVICE ALERT: db-b.foo.org.nz;check users-login;OK;HARD;3;USERS OK - 0 users currently logged in
