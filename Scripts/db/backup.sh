@@ -55,6 +55,4 @@ sudo cp /var/log/daemon.log ~/OE2-Group-Project/Db-VM/Logs
   git commit -m "db: automated system backup" -m "completed: $COMMIT_TIMESTAMP" -m "db-b"
   git push
   cd ~/
-sudo cat '' > /var/log/cron.log
-sudo cat '' > /var/log/daemon.log
 fi

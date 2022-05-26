@@ -56,7 +56,4 @@ else
   git commit -m "mgmt: automated system backup" -m "completed: $COMMIT_TIMESTAMP" -m "mgmt-b"
   git push
   cd ~/
-  sudo cat '' > /var/log/cron.log
-  sudo cat '' > /var/log/daemon.log
-  sudo cat '' > /var/log/user.log
 fi
