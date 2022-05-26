@@ -1669,3 +1669,7 @@ respup
 sudo systemctl restart nagios-nrpe-server
 sudo systemctl status nagios-nrpe-server
 exit
+sudo nano /etc/rsyslog.d/50-default.conf
+cd ~/OE2-Group-Project/
+git pull
+exit
