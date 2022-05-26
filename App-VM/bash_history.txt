@@ -1,74 +1,3 @@
-132534 04:17:27.598442052 0 sysdig (25722) > write fd=1 size=75 
-132535 04:17:27.598443952 0 sysdig (25722) > switch next=25194 pgft_maj=0 pgft_min=1465 vm_size=136228 vm_rss=16096 vm_swap=0 
-132536 04:17:27.598460852 0 <NA> (25194) > switch next=17906(sshd) pgft_maj=0 pgft_min=0 vm_size=0 vm_rss=0 vm_swap=0 
-132537 04:17:27.598463052 0 sshd (17906) < select res=1 
-132538 04:17:27.598464052 0 sshd (17906) > clock_gettime 
-132539 04:17:27.598464452 0 sshd (17906) < clock_gettime 
-132540 04:17:27.598465352 0 sshd (17906) > rt_sigprocmask 
-132541 04:17:27.598465652 0 sshd (17906) < rt_sigprocmask 
-132542 04:17:27.598466252 0 sshd (17906) > rt_sigprocmask 
-132543 04:17:27.598466452 0 sshd (17906) < rt_sigprocmask 
-132544 04:17:27.598467152 0 sshd (17906) > clock_gettime 
-132545 04:17:27.598467452 0 sshd (17906) < clock_gettime 
-132546 04:17:27.598468152 0 sshd (17906) > read fd=11(<f>/dev/ptmx) size=16384 
-132547 04:17:27.598470552 0 sshd (17906) > getpid 
-132548 04:17:27.598470752 0 sshd (17906) < getpid 
-132549 04:17:27.598473152 0 sshd (17906) > clock_gettime 
-132550 04:17:27.598473352 0 sshd (17906) < clock_gettime 
-132551 04:17:27.598474152 0 sshd (17906) > select 
-132552 04:17:27.598475452 0 sshd (17906) < select res=1 
-132553 04:17:27.598476052 0 sshd (17906) > clock_gettime 
-132554 04:17:27.598476352 0 sshd (17906) < clock_gettime 
-132555 04:17:27.598477052 0 sshd (17906) > rt_sigprocmask 
-132556 04:17:27.598477252 0 sshd (17906) < rt_sigprocmask 
-132557 04:17:27.598477952 0 sshd (17906) > rt_sigprocmask 
-132558 04:17:27.598478152 0 sshd (17906) < rt_sigprocmask 
-132559 04:17:27.598478852 0 sshd (17906) > clock_gettime 
-132560 04:17:27.598479052 0 sshd (17906) < clock_gettime 
-132561 04:17:27.598479952 0 sshd (17906) > write fd=3(<4t>202.49.0.75:51813->10.6.0.5:22) size=196 
-132562 04:17:27.598484152 0 sshd (17906) > clock_gettime 
-132563 04:17:27.598484452 0 sshd (17906) < clock_gettime 
-132564 04:17:27.598485152 0 sshd (17906) > select 
-132565 04:17:27.598487752 0 sshd (17906) > switch next=25722(sysdig) pgft_maj=0 pgft_min=213 vm_size=108120 vm_rss=5460 vm_swap=0 
-132566 04:17:27.598490252 0 sysdig (25722) > switch next=25194 pgft_maj=0 pgft_min=1465 vm_size=136228 vm_rss=16096 vm_swap=0 
-132567 04:17:27.598492252 0 <NA> (25194) > switch next=25722(sysdig) pgft_maj=0 pgft_min=0 vm_size=0 vm_rss=0 vm_swap=0 
-132568 04:17:27.598495652 0 sysdig (25722) > stat 
-132569 04:17:27.598497952 0 sysdig (25722) < stat res=0 path=/etc/localtime 
-132570 04:17:27.598503252 0 sysdig (25722) > write fd=1 size=92 
-132571 04:17:27.598505552 0 sysdig (25722) > switch next=25194 pgft_maj=0 pgft_min=1465 vm_size=136228 vm_rss=16096 vm_swap=0 
-132572 04:17:27.598507052 0 <NA> (25194) > switch next=17906(sshd) pgft_maj=0 pgft_min=0 vm_size=0 vm_rss=0 vm_swap=0 
-132573 04:17:27.598509453 0 sshd (17906) < select res=1 
-132574 04:17:27.598510453 0 sshd (17906) > clock_gettime 
-132575 04:17:27.598510753 0 sshd (17906) < clock_gettime 
-132576 04:17:27.598511653 0 sshd (17906) > rt_sigprocmask 
-132577 04:17:27.598511953 0 sshd (17906) < rt_sigprocmask 
-132578 04:17:27.598512653 0 sshd (17906) > rt_sigprocmask 
-132579 04:17:27.598512853 0 sshd (17906) < rt_sigprocmask 
-132580 04:17:27.598513953 0 sshd (17906) > clock_gettime 
-132581 04:17:27.598514153 0 sshd (17906) < clock_gettime 
-132582 04:17:27.598514953 0 sshd (17906) > read fd=11(<f>/dev/ptmx) size=16384 
-132583 04:17:27.598517653 0 sshd (17906) > getpid 
-132584 04:17:27.598517953 0 sshd (17906) < getpid 
-132585 04:17:27.598520053 0 sshd (17906) > clock_gettime 
-132586 04:17:27.598520353 0 sshd (17906) < clock_gettime 
-132587 04:17:27.598521153 0 sshd (17906) > select 
-132588 04:17:27.598522453 0 sshd (17906) < select res=1 
-132589 04:17:27.598523153 0 sshd (17906) > clock_gettime 
-132590 04:17:27.598523353 0 sshd (17906) < clock_gettime 
-132591 04:17:27.598524053 0 sshd (17906) > rt_sigprocmask 
-132592 04:17:27.598524353 0 sshd (17906) < rt_sigprocmask 
-132593 04:17:27.598524953 0 sshd (17906) > rt_sigprocmask 
-132594 04:17:27.598525153 0 sshd (17906) < rt_sigprocmask 
-132595 04:17:27.598525853 0 sshd (17906) > clock_gettime 
-132596 04:17:27.598526053 0 sshd (17906) < clock_gettime 
-132597 04:17:27.598526853 0 sshd (17906) > write fd=3(<4t>202.49.0.75:51813->10.6.0.5:22) size=132 
-132598 04:17:27.598531153 0 sshd (17906) > clock_gettime 
-132599 04:17:27.598531453 0 sshd (17906) < clock_gettime 
-132600 04:17:27.598532153 0 sshd (17906) > select 
-132601 04:17:27.598534653 0 sshd (17906) > switch next=25722(sysdig) pgft_maj=0 pgft_min=213 vm_size=108120 vm_rss=5460 vm_swap=0 
-132602 04:17:27.598537053 0 sysdig (25722) > switch next=25194 pgft_maj=0 pgft_min=1465 vm_size=136228 vm_rss=16096 vm_swap=0 
-132603 04:17:27.598538953 0 <NA> (25194) > switch next=25722(sysdig) pgft_maj=0 pgft_min=0 vm_size=0 vm_rss=0 vm_swap=0 
-132604 04:17:27.598542253 0 sysdig (25722) > stat 
 132605 04:17:27.598544653 0 sysdig (25722) < stat res=0 path=/etc/localtime 
 132606 04:17:27.598549753 0 sysdig (25722) > write fd=1 size=123 
 132607 04:17:27.598552053 0 sysdig (25722) > switch next=25194 pgft_maj=0 pgft_min=1465 vm_size=136228 vm_rss=16096 vm_swap=0 
@@ -1997,4 +1926,75 @@ respup
 sudo systemctl restart nagios-nrpe-server
 sudo systemctl status nagios-nrpe-server
 sudo systemctl status rsync
+sudo reboot
+ps -ef | egrep '(apache|apache2)' | grep -v `whoami` | grep -v root | head -n1 | awk '{print $1}'
+sudo -u www-data /var/www/owncloud/occ
+sudo -u www-data /var/www/owncloud/occ help
+sudo -u www-data /var/www/owncloud/occ help list
+php /var/www/owncloud/occ list test
+sudo php /var/www/owncloud/occ list test
+sudo -u www-data php /var/www/owncloud/occ list test
+sudo -u www-data php /var/www/owncloud/occ list
+sudo -u www-data php /var/www/owncloud/occ user:home:list-dirs 
+sudo -u www-data php /var/www/owncloud/occ security:certificates 
+sudo -u www-data php /var/www/owncloud/occ security:routes
+sudo -u www-data php /var/www/owncloud/occ list
+sudo -u www-data php /var/www/owncloud/occ check
+sudo -u www-data php /var/www/owncloud/occ status
+sudo -u www-data php /var/www/owncloud/occ user:enable 
+sudo -u www-data php /var/www/owncloud/occ user:enable uid
+sudo -u www-data php /var/www/owncloud/occ user:enable
+sudo -u www-data php /var/www/owncloud/occ user:lastseen
+sudo -u www-data php /var/www/owncloud/occ user:lastseen www-data
+sudo -u www-data php /var/www/owncloud/occ user:lastseen bitstudent
+sudo -u www-data php /var/www/owncloud/occ user:list
+sudo -u www-data php /var/www/owncloud/occ user:lastseen group-b
+sudo -u www-data php /var/www/owncloud/occ user:add group-b
+sudo -u www-data php /var/www/owncloud/occ user:list
+sudo -u www-data php /var/www/owncloud/occlist
+sudo -u www-data php /var/www/owncloud/occ list
+sudo -u www-data php /var/www/owncloud/occ user:resetpassword 
+sudo -u www-data php /var/www/owncloud/occ user:resetpassword group-b
+sudo -u www-data php /var/www/owncloud/occ user:delete
+sudo -u www-data php /var/www/owncloud/occ user:delete group-b
+sudo -u www-data php /var/www/owncloud/occ user:list
+sudo -u www-data php /var/www/owncloud/occ user:resetpassword 
+sudo -u www-data php /var/www/owncloud/occ user:resetpassword group-b
+sudo -u www-data php /var/www/owncloud/occ user:list
+sudo -u www-data php /var/www/owncloud/occ user:resetpassword  group-b
+sudo -u www-data php /var/www/owncloud/occ user:resetpassword - group-b
+sudo -u www-data php /var/www/owncloud/occ user:resetpassword -group-b
+sudo -u www-data php /var/www/owncloud/occ user:resetpassword - group-b
+sudo -u www-data php /var/www/owncloud/occ user:list
+sudo -u www-data php /var/www/owncloud/occ list
+sudo -u www-data php /var/www/owncloud/occ user:list
+sudo -u www-data php /var/www/owncloud/occ user:add
+sudo -u www-data php /var/www/owncloud/occ user:add admin
+sudo -u www-data php /var/www/owncloud/occ user:list
+sudo -u www-data php /var/www/owncloud/occ user:modify group-b
+sudo -u www-data php /var/www/owncloud/occ user:resetpassword
+sudo -u www-data php /var/www/owncloud/occ user:resetpassword group-b
+sudo -u www-data php /var/www/owncloud/occ user:resetpassword admin
+sudo -u www-data php /var/www/owncloud/occ user:resetpassword group-b
+sudo -u www-data php /var/www/owncloud/occ user:resetpassword www-data
+sudo -u www-data php /var/www/owncloud/occ user:resetpassword group-b
+sudo -u www-data php /var/www/owncloud/occ user:list
+sudo -u www-data php /var/www/owncloud/occ user:resetpassword group-b
+sudo -u www-data php /var/www/owncloud/occ list
+sudo -u www-data php /var/www/owncloud/occ group:list
+sudo -u www-data php /var/www/owncloud/occ group:list-members
+sudo -u www-data php /var/www/owncloud/occ group:list-members 
+sudo -u www-data php /var/www/owncloud/occ group:list-members admin
+sudo -u www-data php /var/www/owncloud/occ group:remove-member group-b
+sudo -u www-data php /var/www/owncloud/occ group:remove-member 
+sudo -u www-data php /var/www/owncloud/occ group:remove-member -m group-b -admin
+sudo -u www-data php /var/www/owncloud/occ group:remove-member -m group-b admin
+sudo -u www-data php /var/www/owncloud/occ group:remove-member -m group-b -- admin
+sudo -u www-data php /var/www/owncloud/occ group:remove-member -m group-b --admin
+sudo -u www-data php /var/www/owncloud/occ group:remove-member -m group-b -- admin
+sudo -u www-data php /var/www/owncloud/occ group:list-members
+sudo -u www-data php /var/www/owncloud/occ group:list-members admin
+sudo -u www-data php /var/www/owncloud/occ group:add-member
+sudo -u www-data php /var/www/owncloud/occ group:add-member -m admin-group-b -- admin
+sudo -u www-data php /var/www/owncloud/occ group:add-member -m admin -- admin
 sudo reboot
