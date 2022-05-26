@@ -16,32 +16,11 @@
 /var/log/mail.err
 /var/log/mail.log
 /var/log/daemon.log
-{
-        size 100M
-        missingok
-        postrotate
-                /usr/lib/rsyslog/rsyslog-rotate
-        endscript
-}
 /var/log/kern.log
 /var/log/auth.log
 /var/log/user.log
-{ 
-        size 100M
-        missingok
-        postrotate
-                /usr/lib/rsyslog/rsyslog-rotate
-        endscript
-}
 /var/log/lpr.log
 /var/log/cron.log
-{
-	size 100M
-	missingok
-	postrotate
-		/usr/lib/rsyslog/rsyslog-rotate
-        endscript
-}
 /var/log/debug
 /var/log/messages
 {

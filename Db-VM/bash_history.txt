@@ -1,91 +1,4 @@
 sudo puppet cert --sign -all
-sudo puppet agent -t
-sudo puppet cert -list -all
-sudo puppet cert --list -all
-puppet agent -t
-netstat -tap
-sudo netstat -tap
-sudo -i
-respup
-puppet agent -t
-sudo puppet agent -t
-sudo vim /etc/hosts
-sudo puppet agent -t
-sudo puppet cert sign -all
-sudo puppet agent -t
-sudo -i
-respup
-sudo puppet agent -t
-puppet agent -t
-nc -v puppet 8140
-sudo -i
-respup
-puppet agent -t
-sudo -i
-respup
-sudo puppet cert list -all
-sudo puppet cert --sign -all
-puppet agent -t
-sudo vim /etc/host
-sudo vim /etc/hosts
-puppet agent -t
-sudo  netstat -a | grep 8140
-nc -v puppet 8140
-sudo systemctl status nagios-nrpe-server.service 
-sudo -i
-sudo vim /etc/host
-sudo vim /etc/hosts
-cd /etc/
-sudo vim puppet/
-sudo vim puppet/puppet.conf 
-respup
-sudo puppet cert --sign -all
-respup
-sudo puppet cert --sign -all
-sudo -i
-respup
-sudo puppet cert --sign -all
-puppet agent -t
-respup
-puppet agent -t
-respup
-ls
-statpup
-sudo systemctl restart nagios-nrpe-server
-respup
-statpup
-sudo systemctl restart nagios-nrpe-server.service
-ls
-cd nagios-plugins/
-ls
-cd config/
-ls
-sudo vim check_nrpe.cfg 
-respup
-ls
-cd /etc
-ls
-clear
-ls
-puppet agent -t
-respup
-puppet agent -t
-telnet mgmt-b.foo.org.nz
-sudo telnet mgmt-b.foo.org.nz
-puppet cert list
-puppet agent --configprint server 
-date
-sudo telnet mgmt-b.foo.org.nz
-puppet agent --test
-vim /etc/puppet/puppet.conf
-sudo agent -t
-puppet agent --test
-sudo puppet agent --test
-respup
-sudo puppet agent --test
-sudo -i
-respup
-sudo puppet cert --sign -all
 sudo puppet agent --test
 respup
 sudo puppet agent --test
@@ -1998,3 +1911,90 @@ git add .
 cd ~
 cat /var/log/cron.log 
 exit
+sudo nano OE2-Group-Project/Scripts/db/backup.sh 
+crontab -e
+ls -al
+cd OE2-Group-Project/Scripts/db
+ls -al
+cd /etc
+cd backup/
+ls -al
+crontab -e
+cd ~/OE2-Group-Project/Scripts/db
+backup.sh
+./backup.sh 
+sudo nano backup.sh 
+cd /var/log
+ls -al
+cat user.log 
+cat daemon.log 
+cat cron.log 
+cd ~
+ls
+cd /var/log
+ls
+cat cron.log 
+cat daemon.log 
+sudo nano /etc/logrotate.d/rsyslog 
+cat daemon.log 
+cat cron.log 
+cat daemon.log 
+cat cron.log 
+cat user.log 
+cat cron.log 
+cat daemon.log 
+exit
+cd ..
+cd /etc
+cd nagios-plugins/
+ls
+cd config/
+ls
+vim check_nrpe.cfg 
+cd ..
+ls
+respup 
+ls
+cd config/
+ls
+vim check_nrpe.cfg 
+sudo vim check_nrpe.cfg 
+cd ..
+lks
+ls
+cd nagios
+ls
+vim nagios_service.cfg 
+vim nrpe.cfg 
+ls
+vim nrpe.cfg 
+respup
+sudo systemctl restart nagios-nrpe-server
+respup
+vim /etc/hosts
+ls
+sudo vim nrpe.cfg 
+sudo systemctl status nagios-nrpe-server
+respup
+sudo systemctl restart nagios-nrpe-server
+sudo systemctl status nagios-nrpe-server
+sudo systemctl restart nagios-nrpe-server
+sudo systemctl status nagios-nrpe-server
+respup
+sudo systemctl status nagios-nrpe-server
+sudo vim nrpe.cfg 
+site
+sudo systemctl restart nagios-nrpe-server
+sudo systemctl status nagios-nrpe-server
+respup
+sudo systemctl restart nagios-nrpe-server
+sudo systemctl status nagios-nrpe-server
+sudo systemctl restart nagios-nrpe-server
+sudo systemctl status nagios-nrpe-server
+sudo vim nrpe.cfg 
+exit
+ls
+sudo systemctl status rsync
+ls
+sudo systemctl status rsync
+sudo reboot
