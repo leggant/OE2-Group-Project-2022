@@ -64,7 +64,4 @@ sudo cp /var/log/daemon.log ~/OE2-Group-Project/Backup-VM/Logs
   git commit -m "backup: automated system backup" -m "completed: $COMMIT_TIMESTAMP" -m "backup-b"
   git push
   cd ~/
-sudo cat '' > /var/log/user.log
-sudo cat '' > /var/log/cron.log
-sudo cat '' > /var/log/daemon.log
 fi

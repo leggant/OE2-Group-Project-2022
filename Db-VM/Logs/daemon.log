@@ -1,0 +1,22 @@
+May 26 22:32:22 db-b nrpe[18189]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 34519
+May 26 22:32:22 db-b nrpe[18189]: Connection from 10.6.0.6 port 34519
+May 26 22:32:22 db-b nrpe[18189]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
+May 26 22:32:22 db-b nrpe[18189]: is_an_allowed_host (AF_INET): host is in allowed host list!
+May 26 22:32:22 db-b nrpe[18189]: Host address is in allowed_hosts
+May 26 22:32:22 db-b nrpe[18189]: Host 10.6.0.6 is asking for command 'check_ping' to be run...
+May 26 22:32:22 db-b nrpe[18189]: Running command: /usr/lib/nagios/plugins/check_ping -H localhost -w 10,2% -c 20,5%
+May 26 22:32:22 db-b nrpe[18190]: WARNING: my_system() seteuid(0): Operation not permitted
+May 26 22:32:26 db-b nrpe[18189]: Command completed with return code 0 and output: PING OK - Packet loss = 0%, RTA = 0.04 ms|rta=0.042000ms;10.000000;20.000000;0.000000 pl=0%;2;5;0
+May 26 22:32:26 db-b nrpe[18189]: Return Code: 0, Output: PING OK - Packet loss = 0%, RTA = 0.04 ms|rta=0.042000ms;10.000000;20.000000;0.000000 pl=0%;2;5;0
+May 26 22:32:26 db-b nrpe[18189]: Connection from 10.6.0.6 closed.
+May 26 22:32:30 db-b nrpe[18197]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 37591
+May 26 22:32:30 db-b nrpe[18197]: Connection from 10.6.0.6 port 37591
+May 26 22:32:30 db-b nrpe[18197]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
+May 26 22:32:30 db-b nrpe[18197]: is_an_allowed_host (AF_INET): host is in allowed host list!
+May 26 22:32:30 db-b nrpe[18197]: Host address is in allowed_hosts
+May 26 22:32:30 db-b nrpe[18197]: Host 10.6.0.6 is asking for command 'check_hd' to be run...
+May 26 22:32:30 db-b nrpe[18197]: Running command: /usr/lib/nagios/plugins/check_disk -w 20% -c 10% -p /dev/sda1
+May 26 22:32:30 db-b nrpe[18198]: WARNING: my_system() seteuid(0): Operation not permitted
+May 26 22:32:30 db-b nrpe[18197]: Command completed with return code 0 and output: DISK OK - free space: /var/tmp 24896 MB (84% inode=95%);| /var/tmp=4686MB;23678;26638;0;29598
+May 26 22:32:30 db-b nrpe[18197]: Return Code: 0, Output: DISK OK - free space: /var/tmp 24896 MB (84% inode=95%);| /var/tmp=4686MB;23678;26638;0;29598
+May 26 22:32:30 db-b nrpe[18197]: Connection from 10.6.0.6 closed.
