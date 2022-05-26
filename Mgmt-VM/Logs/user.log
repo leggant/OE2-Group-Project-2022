@@ -1,211 +1,157 @@
-May 25 11:30:44 mgmt-b nagios3: SERVICE NOTIFICATION: slack;db-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
-May 25 11:30:44 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;db-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
-May 25 11:30:45 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;db-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
-May 25 11:31:14 mgmt-b nagios3: SERVICE ALERT: mgmt-b.foo.org.nz;check users-login;WARNING;SOFT;1;USERS WARNING - 2 users currently logged in
-May 25 11:31:54 mgmt-b nagios3: SERVICE NOTIFICATION: slack;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
-May 25 11:31:54 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
-May 25 11:31:54 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
-May 25 11:32:14 mgmt-b nagios3: SERVICE ALERT: mgmt-b.foo.org.nz;check users-login;WARNING;SOFT;2;USERS WARNING - 2 users currently logged in
-May 25 11:33:14 mgmt-b nagios3: SERVICE ALERT: mgmt-b.foo.org.nz;check users-login;WARNING;HARD;3;USERS WARNING - 2 users currently logged in
-May 25 11:33:14 mgmt-b nagios3: SERVICE NOTIFICATION: slack;mgmt-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 2 users currently logged in
-May 25 11:33:14 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;mgmt-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 2 users currently logged in
-May 25 11:33:14 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;mgmt-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 2 users currently logged in
-May 25 11:51:34 mgmt-b nagios3: SERVICE ALERT: backup-b.foo.org.nz;check users-login;OK;HARD;3;USERS OK - 0 users currently logged in
-May 25 12:00:44 mgmt-b nagios3: SERVICE NOTIFICATION: slack;db-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
-May 25 12:00:44 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;db-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
-May 25 12:00:44 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;db-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
-May 25 12:01:54 mgmt-b nagios3: SERVICE NOTIFICATION: slack;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
-May 25 12:01:54 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
-May 25 12:01:54 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
-May 25 12:03:14 mgmt-b nagios3: SERVICE NOTIFICATION: slack;mgmt-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
-May 25 12:03:14 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;mgmt-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
-May 25 12:03:15 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;mgmt-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
-May 25 12:04:34 mgmt-b check_nrpe: Error: (nerrs = 0)(!log_opts) Could not complete SSL handshake with 10.6.0.5: rc=-1 SSL-error=5
-May 25 12:04:44 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;Remote disk servers;CRITICAL;SOFT;1;CHECK_NRPE: Error - Could not connect to 10.6.0.5: Connection reset by peer
-May 25 12:05:34 mgmt-b check_nrpe: Error: (nerrs = 0)(!log_opts) Could not complete SSL handshake with 10.6.0.5: rc=-1 SSL-error=5
-May 25 12:05:44 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;Remote disk servers;CRITICAL;SOFT;2;CHECK_NRPE: Error - Could not connect to 10.6.0.5: Connection reset by peer
-May 25 12:06:34 mgmt-b check_nrpe: Error: (nerrs = 0)(!log_opts) Could not complete SSL handshake with 10.6.0.5: rc=-1 SSL-error=5
-May 25 12:06:44 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;Remote disk servers;CRITICAL;HARD;3;CHECK_NRPE: Error - Could not connect to 10.6.0.5: Connection reset by peer
-May 25 12:06:44 mgmt-b nagios3: SERVICE NOTIFICATION: slack;app-b.foo.org.nz;Remote disk servers;CRITICAL;notify-service-by-slack;CHECK_NRPE: Error - Could not connect to 10.6.0.5: Connection reset by peer
-May 25 12:06:44 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;app-b.foo.org.nz;Remote disk servers;CRITICAL;notify-service-by-slack;CHECK_NRPE: Error - Could not connect to 10.6.0.5: Connection reset by peer
-May 25 12:06:45 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;app-b.foo.org.nz;Remote disk servers;CRITICAL;notify-service-by-slack;CHECK_NRPE: Error - Could not connect to 10.6.0.5: Connection reset by peer
-May 25 12:06:53 mgmt-b check_nrpe: Error: (nerrs = 0)(!log_opts) Could not complete SSL handshake with 10.6.0.5: rc=-1 SSL-error=5
-May 25 12:06:54 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;check users-login;CRITICAL;HARD;3;CHECK_NRPE: Error - Could not connect to 10.6.0.5: Connection reset by peer
-May 25 12:06:54 mgmt-b nagios3: SERVICE NOTIFICATION: slack;app-b.foo.org.nz;check users-login;CRITICAL;notify-service-by-slack;CHECK_NRPE: Error - Could not connect to 10.6.0.5: Connection reset by peer
-May 25 12:06:54 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;app-b.foo.org.nz;check users-login;CRITICAL;notify-service-by-slack;CHECK_NRPE: Error - Could not connect to 10.6.0.5: Connection reset by peer
-May 25 12:06:54 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;app-b.foo.org.nz;check users-login;CRITICAL;notify-service-by-slack;CHECK_NRPE: Error - Could not connect to 10.6.0.5: Connection reset by peer
-May 25 12:08:00 mgmt-b check_nrpe: Error: (nerrs = 0)(!log_opts) Could not complete SSL handshake with 10.6.0.5: rc=-1 SSL-error=5
-May 25 12:08:04 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;check hosts alive;CRITICAL;SOFT;1;CHECK_NRPE: Error - Could not connect to 10.6.0.5: Connection reset by peer
-May 25 12:09:00 mgmt-b check_nrpe: Error: (nerrs = 0)(!log_opts) Could not complete SSL handshake with 10.6.0.5: rc=-1 SSL-error=5
-May 25 12:09:04 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;check hosts alive;CRITICAL;SOFT;2;CHECK_NRPE: Error - Could not connect to 10.6.0.5: Connection reset by peer
-May 25 12:10:00 mgmt-b check_nrpe: Error: (nerrs = 0)(!log_opts) Could not complete SSL handshake with 10.6.0.5: rc=-1 SSL-error=5
-May 25 12:10:04 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;check hosts alive;CRITICAL;HARD;3;CHECK_NRPE: Error - Could not connect to 10.6.0.5: Connection reset by peer
-May 25 12:10:04 mgmt-b nagios3: SERVICE NOTIFICATION: slack;app-b.foo.org.nz;check hosts alive;CRITICAL;notify-service-by-slack;CHECK_NRPE: Error - Could not connect to 10.6.0.5: Connection reset by peer
-May 25 12:10:04 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;app-b.foo.org.nz;check hosts alive;CRITICAL;notify-service-by-slack;CHECK_NRPE: Error - Could not connect to 10.6.0.5: Connection reset by peer
-May 25 12:10:04 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;app-b.foo.org.nz;check hosts alive;CRITICAL;notify-service-by-slack;CHECK_NRPE: Error - Could not connect to 10.6.0.5: Connection reset by peer
-May 25 12:11:34 mgmt-b check_nrpe: Error: (nerrs = 0)(!log_opts) Could not complete SSL handshake with 10.6.0.5: rc=-1 SSL-error=5
-May 25 12:11:53 mgmt-b check_nrpe: Error: (nerrs = 0)(!log_opts) Could not complete SSL handshake with 10.6.0.5: rc=-1 SSL-error=5
-May 25 12:15:00 mgmt-b check_nrpe: Error: (nerrs = 0)(!log_opts) Could not complete SSL handshake with 10.6.0.5: rc=-1 SSL-error=5
-May 25 12:16:11 mgmt-b nagios3: Caught SIGTERM, shutting down...
-May 25 12:16:11 mgmt-b nagios3: Successfully shutdown... (PID=11490)
-May 25 12:16:11 mgmt-b nagios3: Nagios 3.5.1 starting... (PID=17443)
-May 25 12:16:11 mgmt-b nagios3: Local time is Wed May 25 12:16:11 UTC 2022
-May 25 12:16:11 mgmt-b nagios3: LOG VERSION: 2.0
-May 25 12:16:11 mgmt-b nagios3: Finished daemonizing... (New PID=17445)
-May 25 12:16:34 mgmt-b check_nrpe: Error: (nerrs = 0)(!log_opts) Could not complete SSL handshake with 10.6.0.5: rc=-1 SSL-error=5
-May 25 12:16:53 mgmt-b check_nrpe: Error: (nerrs = 0)(!log_opts) Could not complete SSL handshake with 10.6.0.5: rc=-1 SSL-error=5
-May 25 12:17:42 mgmt-b nagios3: Caught SIGTERM, shutting down...
-May 25 12:17:42 mgmt-b nagios3: Successfully shutdown... (PID=17445)
-May 25 12:17:42 mgmt-b nagios3: Nagios 3.5.1 starting... (PID=17793)
-May 25 12:17:42 mgmt-b nagios3: Local time is Wed May 25 12:17:42 UTC 2022
-May 25 12:17:42 mgmt-b nagios3: LOG VERSION: 2.0
-May 25 12:17:42 mgmt-b nagios3: Finished daemonizing... (New PID=17797)
-May 25 12:18:39 mgmt-b nagios3: Caught SIGTERM, shutting down...
-May 25 12:18:39 mgmt-b nagios3: Successfully shutdown... (PID=17797)
-May 25 12:18:39 mgmt-b nagios3: Nagios 3.5.1 starting... (PID=18144)
-May 25 12:18:39 mgmt-b nagios3: Local time is Wed May 25 12:18:39 UTC 2022
-May 25 12:18:39 mgmt-b nagios3: LOG VERSION: 2.0
-May 25 12:18:39 mgmt-b nagios3: Finished daemonizing... (New PID=18146)
-May 25 12:20:00 mgmt-b check_nrpe: Error: (nerrs = 0)(!log_opts) Could not complete SSL handshake with 127.0.1.1: rc=-1 SSL-error=5
-May 25 12:20:09 mgmt-b nagios3: SERVICE ALERT: mgmt-b.foo.org.nz;check hosts alive;CRITICAL;SOFT;1;CHECK_NRPE: Error - Could not connect to 127.0.1.1. Check system logs on 127.0.1.1
-May 25 12:20:09 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;check hosts alive;OK;HARD;3;PING OK - Packet loss = 0%, RTA = 0.05 ms
-May 25 12:21:00 mgmt-b check_nrpe: Error: (nerrs = 0)(!log_opts) Could not complete SSL handshake with 127.0.1.1: rc=-1 SSL-error=5
-May 25 12:21:09 mgmt-b nagios3: SERVICE ALERT: mgmt-b.foo.org.nz;check hosts alive;CRITICAL;SOFT;2;CHECK_NRPE: Error - Could not connect to 127.0.1.1. Check system logs on 127.0.1.1
-May 25 12:21:39 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;Remote disk servers;OK;HARD;3;DISK OK - free space: /var/tmp 24603 MB (83% inode=93%):
-May 25 12:21:59 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;check users-login;WARNING;HARD;3;USERS WARNING - 1 users currently logged in
-May 25 12:21:59 mgmt-b nagios3: SERVICE NOTIFICATION: slack;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
-May 25 12:21:59 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
-May 25 12:22:00 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
-May 25 12:22:00 mgmt-b check_nrpe: Error: (nerrs = 0)(!log_opts) Could not complete SSL handshake with 127.0.1.1: rc=-1 SSL-error=5
-May 25 12:22:09 mgmt-b nagios3: SERVICE ALERT: mgmt-b.foo.org.nz;check hosts alive;CRITICAL;HARD;3;CHECK_NRPE: Error - Could not connect to 127.0.1.1. Check system logs on 127.0.1.1
-May 25 12:22:09 mgmt-b nagios3: SERVICE NOTIFICATION: slack;mgmt-b.foo.org.nz;check hosts alive;CRITICAL;notify-service-by-slack;CHECK_NRPE: Error - Could not connect to 127.0.1.1. Check system logs on 127.0.1.1
-May 25 12:22:09 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;mgmt-b.foo.org.nz;check hosts alive;CRITICAL;notify-service-by-slack;CHECK_NRPE: Error - Could not connect to 127.0.1.1. Check system logs on 127.0.1.1
-May 25 12:22:09 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;mgmt-b.foo.org.nz;check hosts alive;CRITICAL;notify-service-by-slack;CHECK_NRPE: Error - Could not connect to 127.0.1.1. Check system logs on 127.0.1.1
-May 25 12:23:08 mgmt-b check_nrpe: Error: (nerrs = 0)(!log_opts) Could not complete SSL handshake with 127.0.1.1: rc=-1 SSL-error=5
-May 25 12:23:09 mgmt-b nagios3: SERVICE ALERT: mgmt-b.foo.org.nz;check users-login;CRITICAL;HARD;3;CHECK_NRPE: Error - Could not connect to 127.0.1.1. Check system logs on 127.0.1.1
-May 25 12:23:09 mgmt-b nagios3: SERVICE NOTIFICATION: slack;mgmt-b.foo.org.nz;check users-login;CRITICAL;notify-service-by-slack;CHECK_NRPE: Error - Could not connect to 127.0.1.1. Check system logs on 127.0.1.1
-May 25 12:23:09 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;mgmt-b.foo.org.nz;check users-login;CRITICAL;notify-service-by-slack;CHECK_NRPE: Error - Could not connect to 127.0.1.1. Check system logs on 127.0.1.1
-May 25 12:23:09 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;mgmt-b.foo.org.nz;check users-login;CRITICAL;notify-service-by-slack;CHECK_NRPE: Error - Could not connect to 127.0.1.1. Check system logs on 127.0.1.1
-May 25 12:27:00 mgmt-b check_nrpe: Error: (nerrs = 0)(!log_opts) Could not complete SSL handshake with 127.0.1.1: rc=-1 SSL-error=5
-May 25 12:27:36 mgmt-b nagios3: Caught SIGTERM, shutting down...
-May 25 12:27:36 mgmt-b nagios3: Successfully shutdown... (PID=18146)
-May 25 12:28:58 mgmt-b nagios3: Nagios 3.5.1 starting... (PID=19672)
-May 25 12:28:58 mgmt-b nagios3: Local time is Wed May 25 12:28:58 UTC 2022
-May 25 12:28:58 mgmt-b nagios3: LOG VERSION: 2.0
-May 25 12:28:58 mgmt-b nagios3: Finished daemonizing... (New PID=19674)
-May 25 12:29:01 mgmt-b nagios3: Caught SIGTERM, shutting down...
-May 25 12:29:01 mgmt-b nagios3: Successfully shutdown... (PID=19674)
-May 25 12:29:01 mgmt-b nagios3: Nagios 3.5.1 starting... (PID=19756)
-May 25 12:29:01 mgmt-b nagios3: Local time is Wed May 25 12:29:01 UTC 2022
-May 25 12:29:01 mgmt-b nagios3: LOG VERSION: 2.0
-May 25 12:29:01 mgmt-b nagios3: Finished daemonizing... (New PID=19760)
-May 25 12:30:41 mgmt-b nagios3: SERVICE ALERT: db-b.foo.org.nz;check users-login;OK;HARD;3;USERS OK - 0 users currently logged in
-May 25 12:32:01 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;check users-login;OK;HARD;3;USERS OK - 0 users currently logged in
-May 25 12:32:01 mgmt-b nagios3: SERVICE FLAPPING ALERT: app-b.foo.org.nz;check users-login;STARTED; Service appears to have started flapping (21.6% change >= 20.0% threshold)
-May 25 12:32:36 mgmt-b check_nrpe: Error: (nerrs = 0)(!log_opts) Could not complete SSL handshake with 127.0.0.1: rc=-1 SSL-error=5
-May 25 12:32:41 mgmt-b nagios3: SERVICE ALERT: localhost;check hosts alive;CRITICAL;SOFT;1;CHECK_NRPE: Error - Could not connect to 127.0.0.1: Connection reset by peer
-May 25 12:33:36 mgmt-b check_nrpe: Error: (nerrs = 0)(!log_opts) Could not complete SSL handshake with 127.0.0.1: rc=-1 SSL-error=5
-May 25 12:33:41 mgmt-b nagios3: SERVICE ALERT: localhost;check hosts alive;CRITICAL;SOFT;2;CHECK_NRPE: Error - Could not connect to 127.0.0.1. Check system logs on 127.0.0.1
-May 25 12:33:44 mgmt-b check_nrpe: Error: (nerrs = 0)(!log_opts) Could not complete SSL handshake with 127.0.0.1: rc=-1 SSL-error=5
-May 25 12:33:51 mgmt-b nagios3: SERVICE ALERT: localhost;check users-login;CRITICAL;SOFT;1;CHECK_NRPE: Error - Could not connect to 127.0.0.1. Check system logs on 127.0.0.1
-May 25 12:34:36 mgmt-b check_nrpe: Error: (nerrs = 0)(!log_opts) Could not complete SSL handshake with 127.0.0.1: rc=-1 SSL-error=5
-May 25 12:34:41 mgmt-b nagios3: SERVICE ALERT: localhost;check hosts alive;CRITICAL;HARD;3;CHECK_NRPE: Error - Could not connect to 127.0.0.1. Check system logs on 127.0.0.1
-May 25 12:34:41 mgmt-b nagios3: SERVICE NOTIFICATION: slack;localhost;check hosts alive;CRITICAL;notify-service-by-slack;CHECK_NRPE: Error - Could not connect to 127.0.0.1. Check system logs on 127.0.0.1
-May 25 12:34:41 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;localhost;check hosts alive;CRITICAL;notify-service-by-slack;CHECK_NRPE: Error - Could not connect to 127.0.0.1. Check system logs on 127.0.0.1
-May 25 12:34:42 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;localhost;check hosts alive;CRITICAL;notify-service-by-slack;CHECK_NRPE: Error - Could not connect to 127.0.0.1. Check system logs on 127.0.0.1
-May 25 12:34:44 mgmt-b check_nrpe: Error: (nerrs = 0)(!log_opts) Could not complete SSL handshake with 127.0.0.1: rc=-1 SSL-error=5
-May 25 12:34:51 mgmt-b nagios3: SERVICE ALERT: localhost;check users-login;CRITICAL;SOFT;2;CHECK_NRPE: Error - Could not connect to 127.0.0.1. Check system logs on 127.0.0.1
-May 25 12:35:44 mgmt-b check_nrpe: Error: (nerrs = 0)(!log_opts) Could not complete SSL handshake with 127.0.0.1: rc=-1 SSL-error=5
-May 25 12:35:51 mgmt-b nagios3: SERVICE ALERT: localhost;check users-login;CRITICAL;HARD;3;CHECK_NRPE: Error - Could not connect to 127.0.0.1. Check system logs on 127.0.0.1
-May 25 12:35:51 mgmt-b nagios3: SERVICE NOTIFICATION: slack;localhost;check users-login;CRITICAL;notify-service-by-slack;CHECK_NRPE: Error - Could not connect to 127.0.0.1. Check system logs on 127.0.0.1
-May 25 12:35:51 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;localhost;check users-login;CRITICAL;notify-service-by-slack;CHECK_NRPE: Error - Could not connect to 127.0.0.1. Check system logs on 127.0.0.1
-May 25 12:35:51 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;localhost;check users-login;CRITICAL;notify-service-by-slack;CHECK_NRPE: Error - Could not connect to 127.0.0.1. Check system logs on 127.0.0.1
-May 25 12:36:15 mgmt-b nagios3: Caught SIGTERM, shutting down...
-May 25 12:36:15 mgmt-b nagios3: Successfully shutdown... (PID=19760)
-May 25 12:36:15 mgmt-b nagios3: Nagios 3.5.1 starting... (PID=20812)
-May 25 12:36:15 mgmt-b nagios3: Local time is Wed May 25 12:36:15 UTC 2022
-May 25 12:36:15 mgmt-b nagios3: LOG VERSION: 2.0
-May 25 12:36:15 mgmt-b nagios3: Finished daemonizing... (New PID=20815)
-May 25 12:36:15 mgmt-b nagios3: SERVICE FLAPPING ALERT: app-b.foo.org.nz;check users-login;STARTED; Service appears to have started flapping (21.6% change >= 20.0% threshold)
-May 25 13:36:15 mgmt-b nagios3: Auto-save of retention data completed successfully.
-May 25 14:01:55 mgmt-b nagios3: SERVICE FLAPPING ALERT: app-b.foo.org.nz;check users-login;STOPPED; Service appears to have stopped flapping (3.9% change < 5.0% threshold)
-May 25 14:10:01 mgmt-b rsyncd[30630]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 25 14:10:01 mgmt-b rsyncd[30630]: Ignoring "log file" setting.
-May 25 14:10:01 mgmt-b rsyncd[30630]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 25 14:10:01 mgmt-b rsyncd[30630]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 25 14:10:01 mgmt-b rsyncd[30632]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 25 14:10:01 mgmt-b rsyncd[30632]: Ignoring "log file" setting.
-May 25 14:10:01 mgmt-b rsyncd[30632]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 25 14:10:01 mgmt-b rsyncd[30632]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 25 14:10:01 mgmt-b rsyncd[30634]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 25 14:10:01 mgmt-b rsyncd[30634]: Ignoring "log file" setting.
-May 25 14:10:02 mgmt-b rsyncd[30634]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 25 14:10:02 mgmt-b rsyncd[30634]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 25 14:10:02 mgmt-b rsyncd[30636]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 25 14:10:02 mgmt-b rsyncd[30636]: Ignoring "log file" setting.
-May 25 14:10:02 mgmt-b rsyncd[30636]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 25 14:10:02 mgmt-b rsyncd[30636]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 25 14:10:02 mgmt-b rsyncd[30639]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 25 14:10:02 mgmt-b rsyncd[30639]: Ignoring "log file" setting.
-May 25 14:10:02 mgmt-b rsyncd[30639]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 25 14:10:02 mgmt-b rsyncd[30639]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 25 14:10:02 mgmt-b rsyncd[30641]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 25 14:10:02 mgmt-b rsyncd[30641]: Ignoring "log file" setting.
-May 25 14:10:02 mgmt-b rsyncd[30641]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 25 14:10:02 mgmt-b rsyncd[30641]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 25 14:36:15 mgmt-b nagios3: Auto-save of retention data completed successfully.
-May 25 15:36:15 mgmt-b nagios3: Auto-save of retention data completed successfully.
-May 25 16:36:15 mgmt-b nagios3: Auto-save of retention data completed successfully.
-May 25 17:36:15 mgmt-b nagios3: Auto-save of retention data completed successfully.
-May 25 18:10:01 mgmt-b rsyncd[22908]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 25 18:10:01 mgmt-b rsyncd[22908]: Ignoring "log file" setting.
-May 25 18:10:01 mgmt-b rsyncd[22908]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 25 18:10:01 mgmt-b rsyncd[22908]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 25 18:10:01 mgmt-b rsyncd[22910]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 25 18:10:01 mgmt-b rsyncd[22910]: Ignoring "log file" setting.
-May 25 18:10:01 mgmt-b rsyncd[22910]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 25 18:10:01 mgmt-b rsyncd[22910]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 25 18:10:01 mgmt-b rsyncd[22912]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 25 18:10:01 mgmt-b rsyncd[22912]: Ignoring "log file" setting.
-May 25 18:10:01 mgmt-b rsyncd[22912]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 25 18:10:01 mgmt-b rsyncd[22912]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 25 18:10:01 mgmt-b rsyncd[22914]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 25 18:10:01 mgmt-b rsyncd[22914]: Ignoring "log file" setting.
-May 25 18:10:01 mgmt-b rsyncd[22914]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 25 18:10:01 mgmt-b rsyncd[22914]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 25 18:10:01 mgmt-b rsyncd[22916]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 25 18:10:01 mgmt-b rsyncd[22916]: Ignoring "log file" setting.
-May 25 18:10:01 mgmt-b rsyncd[22916]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 25 18:10:01 mgmt-b rsyncd[22916]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 25 18:10:01 mgmt-b rsyncd[22918]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 25 18:10:01 mgmt-b rsyncd[22918]: Ignoring "log file" setting.
-May 25 18:10:01 mgmt-b rsyncd[22918]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 25 18:10:01 mgmt-b rsyncd[22918]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 25 18:36:15 mgmt-b nagios3: Auto-save of retention data completed successfully.
-May 25 19:36:15 mgmt-b nagios3: Auto-save of retention data completed successfully.
-May 25 20:36:15 mgmt-b nagios3: Auto-save of retention data completed successfully.
-May 25 21:36:15 mgmt-b nagios3: Auto-save of retention data completed successfully.
-May 25 22:10:01 mgmt-b rsyncd[15238]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 25 22:10:01 mgmt-b rsyncd[15238]: Ignoring "log file" setting.
-May 25 22:10:01 mgmt-b rsyncd[15238]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 25 22:10:01 mgmt-b rsyncd[15238]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 25 22:10:01 mgmt-b rsyncd[15240]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 25 22:10:01 mgmt-b rsyncd[15240]: Ignoring "log file" setting.
-May 25 22:10:01 mgmt-b rsyncd[15240]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 25 22:10:01 mgmt-b rsyncd[15240]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 25 22:10:01 mgmt-b rsyncd[15242]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 25 22:10:01 mgmt-b rsyncd[15242]: Ignoring "log file" setting.
-May 25 22:10:01 mgmt-b rsyncd[15242]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 25 22:10:01 mgmt-b rsyncd[15242]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 25 22:10:01 mgmt-b rsyncd[15244]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 25 22:10:01 mgmt-b rsyncd[15244]: Ignoring "log file" setting.
-May 25 22:10:01 mgmt-b rsyncd[15244]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 25 22:10:01 mgmt-b rsyncd[15244]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 25 22:10:01 mgmt-b rsyncd[15246]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 25 22:10:01 mgmt-b rsyncd[15246]: Ignoring "log file" setting.
-May 25 22:10:01 mgmt-b rsyncd[15246]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 25 22:10:01 mgmt-b rsyncd[15246]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-May 25 22:10:01 mgmt-b rsyncd[15248]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
-May 25 22:10:01 mgmt-b rsyncd[15248]: Ignoring "log file" setting.
-May 25 22:10:02 mgmt-b rsyncd[15248]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-May 25 22:10:02 mgmt-b rsyncd[15248]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
+May 25 22:36:15 mgmt-b nagios3: Auto-save of retention data completed successfully.
+May 25 23:36:15 mgmt-b nagios3: Auto-save of retention data completed successfully.
+May 26 00:00:00 mgmt-b nagios3: LOG ROTATION: DAILY
+May 26 00:00:00 mgmt-b nagios3: LOG VERSION: 2.0
+May 26 00:00:00 mgmt-b nagios3: CURRENT HOST STATE: app-b.foo.org.nz;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 2.82 ms
+May 26 00:00:00 mgmt-b nagios3: CURRENT HOST STATE: backup-b.foo.org.nz;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 1.33 ms
+May 26 00:00:00 mgmt-b nagios3: CURRENT HOST STATE: db-b.foo.org.nz;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 2.25 ms
+May 26 00:00:00 mgmt-b nagios3: CURRENT HOST STATE: localhost;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.06 ms
+May 26 00:00:00 mgmt-b nagios3: CURRENT HOST STATE: mgmt-b.foo.org.nz;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.03 ms
+May 26 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: app-b.foo.org.nz;Remote disk servers;OK;HARD;1;DISK OK - free space: /var/tmp 24599 MB (83% inode=93%):
+May 26 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: app-b.foo.org.nz;check hosts alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.05 ms
+May 26 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: app-b.foo.org.nz;check users-login;OK;HARD;1;USERS OK - 0 users currently logged in
+May 26 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: app-b.foo.org.nz;ssh servers;OK;HARD;1;SSH OK - OpenSSH_7.6p1 Ubuntu-4ubuntu0.6 (protocol 2.0)
+May 26 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: backup-b.foo.org.nz;Remote disk servers;OK;HARD;1;DISK OK - free space: /var/tmp 23741 MB (80% inode=94%):
+May 26 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: backup-b.foo.org.nz;check hosts alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.06 ms
+May 26 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: backup-b.foo.org.nz;check users-login;OK;HARD;1;USERS OK - 0 users currently logged in
+May 26 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: backup-b.foo.org.nz;ssh servers;OK;HARD;1;SSH OK - OpenSSH_7.6p1 Ubuntu-4ubuntu0.6 (protocol 2.0)
+May 26 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: db-b.foo.org.nz;MariaDB servers;OK;HARD;1;Uptime: 434642  Threads: 2  Questions: 2214651  Slow queries: 0  Opens: 248  Flush tables: 1  Open tables: 242  Queries per second avg: 5.095
+May 26 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: db-b.foo.org.nz;Remote disk servers;OK;HARD;1;DISK OK - free space: /var/tmp 24926 MB (84% inode=95%):
+May 26 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: db-b.foo.org.nz;check hosts alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.05 ms
+May 26 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: db-b.foo.org.nz;check users-login;OK;HARD;1;USERS OK - 0 users currently logged in
+May 26 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: db-b.foo.org.nz;ssh servers;OK;HARD;1;SSH OK - OpenSSH_7.6p1 Ubuntu-4ubuntu0.6 (protocol 2.0)
+May 26 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: localhost;Current Load;OK;HARD;1;OK - load average: 0.00, 0.03, 0.00
+May 26 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: localhost;Current Users;OK;HARD;1;USERS OK - 0 users currently logged in
+May 26 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: localhost;Disk Space;OK;HARD;1;DISK OK
+May 26 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: localhost;HTTP;OK;HARD;1;HTTP OK: HTTP/1.1 200 OK - 11192 bytes in 0.001 second response time
+May 26 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: localhost;SSH;OK;HARD;1;SSH OK - OpenSSH_7.6p1 Ubuntu-4ubuntu0.6 (protocol 2.0)
+May 26 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: localhost;Total Processes;OK;HARD;1;PROCS OK: 122 processes
+May 26 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: mgmt-b.foo.org.nz;ssh servers;OK;HARD;1;SSH OK - OpenSSH_7.6p1 Ubuntu-4ubuntu0.6 (protocol 2.0)
+May 26 00:15:03 mgmt-b rsyncd[28284]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
+May 26 00:15:03 mgmt-b rsyncd[28284]: Ignoring "log file" setting.
+May 26 00:15:03 mgmt-b rsyncd[28284]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+May 26 00:15:03 mgmt-b rsyncd[28284]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
+May 26 00:36:15 mgmt-b nagios3: Auto-save of retention data completed successfully.
+May 26 01:36:15 mgmt-b nagios3: Auto-save of retention data completed successfully.
+May 26 02:10:01 mgmt-b rsyncd[8177]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
+May 26 02:10:01 mgmt-b rsyncd[8177]: Ignoring "log file" setting.
+May 26 02:10:01 mgmt-b rsyncd[8177]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+May 26 02:10:01 mgmt-b rsyncd[8177]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
+May 26 02:10:01 mgmt-b rsyncd[8179]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
+May 26 02:10:01 mgmt-b rsyncd[8179]: Ignoring "log file" setting.
+May 26 02:10:01 mgmt-b rsyncd[8179]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+May 26 02:10:01 mgmt-b rsyncd[8179]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
+May 26 02:10:01 mgmt-b rsyncd[8181]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
+May 26 02:10:01 mgmt-b rsyncd[8181]: Ignoring "log file" setting.
+May 26 02:10:01 mgmt-b rsyncd[8181]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+May 26 02:10:01 mgmt-b rsyncd[8181]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
+May 26 02:10:01 mgmt-b rsyncd[8183]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
+May 26 02:10:01 mgmt-b rsyncd[8183]: Ignoring "log file" setting.
+May 26 02:10:01 mgmt-b rsyncd[8183]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+May 26 02:10:01 mgmt-b rsyncd[8183]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
+May 26 02:10:01 mgmt-b rsyncd[8185]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
+May 26 02:10:01 mgmt-b rsyncd[8185]: Ignoring "log file" setting.
+May 26 02:10:01 mgmt-b rsyncd[8185]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+May 26 02:10:01 mgmt-b rsyncd[8185]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
+May 26 02:10:01 mgmt-b rsyncd[8187]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
+May 26 02:10:01 mgmt-b rsyncd[8187]: Ignoring "log file" setting.
+May 26 02:10:01 mgmt-b rsyncd[8187]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+May 26 02:10:01 mgmt-b rsyncd[8187]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
+May 26 02:36:15 mgmt-b nagios3: Auto-save of retention data completed successfully.
+May 26 03:36:15 mgmt-b nagios3: Auto-save of retention data completed successfully.
+May 26 04:36:15 mgmt-b nagios3: Auto-save of retention data completed successfully.
+May 26 05:36:15 mgmt-b nagios3: Auto-save of retention data completed successfully.
+May 26 06:10:01 mgmt-b rsyncd[642]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
+May 26 06:10:01 mgmt-b rsyncd[642]: Ignoring "log file" setting.
+May 26 06:10:01 mgmt-b rsyncd[642]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+May 26 06:10:01 mgmt-b rsyncd[642]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
+May 26 06:10:01 mgmt-b rsyncd[644]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
+May 26 06:10:01 mgmt-b rsyncd[644]: Ignoring "log file" setting.
+May 26 06:10:01 mgmt-b rsyncd[644]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+May 26 06:10:01 mgmt-b rsyncd[644]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
+May 26 06:10:01 mgmt-b rsyncd[646]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
+May 26 06:10:01 mgmt-b rsyncd[646]: Ignoring "log file" setting.
+May 26 06:10:01 mgmt-b rsyncd[646]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+May 26 06:10:01 mgmt-b rsyncd[646]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
+May 26 06:10:01 mgmt-b rsyncd[648]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
+May 26 06:10:01 mgmt-b rsyncd[648]: Ignoring "log file" setting.
+May 26 06:10:01 mgmt-b rsyncd[648]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+May 26 06:10:01 mgmt-b rsyncd[648]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
+May 26 06:10:01 mgmt-b rsyncd[650]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
+May 26 06:10:01 mgmt-b rsyncd[650]: Ignoring "log file" setting.
+May 26 06:10:01 mgmt-b rsyncd[650]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+May 26 06:10:01 mgmt-b rsyncd[650]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
+May 26 06:10:01 mgmt-b rsyncd[652]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
+May 26 06:10:01 mgmt-b rsyncd[652]: Ignoring "log file" setting.
+May 26 06:10:01 mgmt-b rsyncd[652]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+May 26 06:10:01 mgmt-b rsyncd[652]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
+May 26 06:36:15 mgmt-b nagios3: Auto-save of retention data completed successfully.
+May 26 07:36:15 mgmt-b nagios3: Auto-save of retention data completed successfully.
+May 26 08:11:55 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;check users-login;WARNING;SOFT;1;USERS WARNING - 1 users currently logged in
+May 26 08:12:55 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;check users-login;WARNING;SOFT;2;USERS WARNING - 1 users currently logged in
+May 26 08:13:55 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;check users-login;WARNING;HARD;3;USERS WARNING - 1 users currently logged in
+May 26 08:13:55 mgmt-b nagios3: SERVICE NOTIFICATION: slack;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 26 08:13:55 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 26 08:13:56 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 26 08:36:15 mgmt-b nagios3: Auto-save of retention data completed successfully.
+May 26 08:43:55 mgmt-b nagios3: SERVICE NOTIFICATION: slack;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 26 08:43:55 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 26 08:43:55 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 26 08:50:05 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;check hosts alive;CRITICAL;SOFT;1;(null)
+May 26 08:50:15 mgmt-b nagios3: HOST ALERT: app-b.foo.org.nz;DOWN;SOFT;1;PING CRITICAL - Packet loss = 100%
+May 26 08:50:25 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;ssh servers;CRITICAL;HARD;1;connect to address app-b.foo.org.nz and port 22: Connection refused
+May 26 08:50:45 mgmt-b nagios3: SERVICE ALERT: db-b.foo.org.nz;check users-login;CRITICAL;SOFT;1;(null)
+May 26 08:51:05 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;check hosts alive;OK;SOFT;2;PING OK - Packet loss = 0%, RTA = 0.06 ms
+May 26 08:51:15 mgmt-b nagios3: HOST ALERT: app-b.foo.org.nz;UP;SOFT;2;PING OK - Packet loss = 0%, RTA = 1.84 ms
+May 26 08:51:45 mgmt-b nagios3: SERVICE ALERT: db-b.foo.org.nz;check users-login;WARNING;SOFT;2;USERS WARNING - 1 users currently logged in
+May 26 08:52:45 mgmt-b nagios3: SERVICE ALERT: db-b.foo.org.nz;check users-login;WARNING;HARD;3;USERS WARNING - 1 users currently logged in
+May 26 08:52:45 mgmt-b nagios3: SERVICE NOTIFICATION: slack;db-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 26 08:52:45 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;db-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 26 08:52:45 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;db-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 26 08:55:14 mgmt-b nagios3: Caught SIGTERM, shutting down...
+May 26 08:55:14 mgmt-b nagios3: Successfully shutdown... (PID=20815)
+May 26 08:55:14 mgmt-b nagios3: Nagios 3.5.1 starting... (PID=18510)
+May 26 08:55:14 mgmt-b nagios3: Local time is Thu May 26 08:55:14 UTC 2022
+May 26 08:55:14 mgmt-b nagios3: LOG VERSION: 2.0
+May 26 08:55:14 mgmt-b nagios3: Finished daemonizing... (New PID=18516)
+May 26 08:55:24 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;ssh servers;OK;HARD;3;SSH OK - OpenSSH_7.6p1 Ubuntu-4ubuntu0.6 (protocol 2.0)
+May 26 09:18:54 mgmt-b nagios3: SERVICE NOTIFICATION: slack;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 26 09:18:54 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 26 09:18:54 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 26 09:27:44 mgmt-b nagios3: SERVICE NOTIFICATION: slack;db-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 26 09:27:44 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;db-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 26 09:27:44 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;db-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 26 09:48:54 mgmt-b nagios3: SERVICE NOTIFICATION: slack;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 26 09:48:54 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 26 09:48:54 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 26 09:55:14 mgmt-b nagios3: Auto-save of retention data completed successfully.
+May 26 09:57:44 mgmt-b nagios3: SERVICE NOTIFICATION: slack;db-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 26 09:57:44 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;db-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 26 09:57:45 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;db-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 26 10:10:01 mgmt-b rsyncd[21820]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
+May 26 10:10:02 mgmt-b rsyncd[21820]: Ignoring "log file" setting.
+May 26 10:10:02 mgmt-b rsyncd[21820]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+May 26 10:10:02 mgmt-b rsyncd[21820]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
+May 26 10:10:02 mgmt-b rsyncd[21822]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
+May 26 10:10:02 mgmt-b rsyncd[21822]: Ignoring "log file" setting.
+May 26 10:10:02 mgmt-b rsyncd[21822]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+May 26 10:10:02 mgmt-b rsyncd[21822]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
+May 26 10:10:02 mgmt-b rsyncd[21824]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
+May 26 10:10:02 mgmt-b rsyncd[21824]: Ignoring "log file" setting.
+May 26 10:10:02 mgmt-b rsyncd[21824]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+May 26 10:10:02 mgmt-b rsyncd[21824]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
+May 26 10:10:02 mgmt-b rsyncd[21826]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
+May 26 10:10:02 mgmt-b rsyncd[21826]: Ignoring "log file" setting.
+May 26 10:10:02 mgmt-b rsyncd[21826]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+May 26 10:10:02 mgmt-b rsyncd[21826]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
+May 26 10:10:02 mgmt-b rsyncd[21828]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
+May 26 10:10:02 mgmt-b rsyncd[21828]: Ignoring "log file" setting.
+May 26 10:10:02 mgmt-b rsyncd[21828]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+May 26 10:10:02 mgmt-b rsyncd[21828]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
+May 26 10:10:02 mgmt-b rsyncd[21830]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
+May 26 10:10:02 mgmt-b rsyncd[21830]: Ignoring "log file" setting.
+May 26 10:10:02 mgmt-b rsyncd[21830]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+May 26 10:10:02 mgmt-b rsyncd[21830]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
+May 26 10:17:44 mgmt-b nagios3: SERVICE ALERT: db-b.foo.org.nz;check users-login;OK;HARD;3;USERS OK - 0 users currently logged in
+May 26 10:18:54 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;check users-login;OK;HARD;3;USERS OK - 0 users currently logged in
+May 26 10:55:14 mgmt-b nagios3: Auto-save of retention data completed successfully.

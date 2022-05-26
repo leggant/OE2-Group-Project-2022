@@ -1,1058 +1,347 @@
-May 25 11:31:08 mgmt-b nrpe[12043]: CONN_CHECK_PEER: checking if host is allowed: 127.0.0.1 port 61121
-May 25 11:31:08 mgmt-b nrpe[12043]: Connection from 127.0.0.1 port 61121
-May 25 11:31:08 mgmt-b nrpe[12043]: is_an_allowed_host (AF_INET): is host >127.0.0.1< an allowed host >localhost<
-May 25 11:31:08 mgmt-b nrpe[12043]: is_an_allowed_host (AF_INET): host is in allowed host list!
-May 25 11:31:08 mgmt-b nrpe[12043]: Host address is in allowed_hosts
-May 25 11:31:08 mgmt-b nrpe[12043]: Host 127.0.0.1 is asking for command 'check_users' to be run...
-May 25 11:31:08 mgmt-b nrpe[12043]: Running command: /usr/lib/nagios/plugins/check_users -w 0 -c 2
-May 25 11:31:08 mgmt-b nrpe[12044]: WARNING: my_system() seteuid(0): Operation not permitted
-May 25 11:31:08 mgmt-b nrpe[12043]: Command completed with return code 1 and output: USERS WARNING - 2 users currently logged in |users=2;0;2;0
-May 25 11:31:08 mgmt-b nrpe[12043]: Return Code: 1, Output: USERS WARNING - 2 users currently logged in |users=2;0;2;0
-May 25 11:31:08 mgmt-b nrpe[12043]: Connection from 127.0.0.1 closed.
-May 25 11:32:08 mgmt-b nrpe[12148]: CONN_CHECK_PEER: checking if host is allowed: 127.0.0.1 port 23234
-May 25 11:32:08 mgmt-b nrpe[12148]: Connection from 127.0.0.1 port 23234
-May 25 11:32:08 mgmt-b nrpe[12148]: is_an_allowed_host (AF_INET): is host >127.0.0.1< an allowed host >localhost<
-May 25 11:32:08 mgmt-b nrpe[12148]: is_an_allowed_host (AF_INET): host is in allowed host list!
-May 25 11:32:08 mgmt-b nrpe[12148]: Host address is in allowed_hosts
-May 25 11:32:08 mgmt-b nrpe[12148]: Host 127.0.0.1 is asking for command 'check_users' to be run...
-May 25 11:32:08 mgmt-b nrpe[12148]: Running command: /usr/lib/nagios/plugins/check_users -w 0 -c 2
-May 25 11:32:08 mgmt-b nrpe[12149]: WARNING: my_system() seteuid(0): Operation not permitted
-May 25 11:32:08 mgmt-b nrpe[12148]: Command completed with return code 1 and output: USERS WARNING - 2 users currently logged in |users=2;0;2;0
-May 25 11:32:08 mgmt-b nrpe[12148]: Return Code: 1, Output: USERS WARNING - 2 users currently logged in |users=2;0;2;0
-May 25 11:32:08 mgmt-b nrpe[12148]: Connection from 127.0.0.1 closed.
-May 25 11:33:08 mgmt-b nrpe[12291]: CONN_CHECK_PEER: checking if host is allowed: 127.0.0.1 port 50370
-May 25 11:33:08 mgmt-b nrpe[12291]: Connection from 127.0.0.1 port 50370
-May 25 11:33:08 mgmt-b nrpe[12291]: is_an_allowed_host (AF_INET): is host >127.0.0.1< an allowed host >localhost<
-May 25 11:33:08 mgmt-b nrpe[12291]: is_an_allowed_host (AF_INET): host is in allowed host list!
-May 25 11:33:08 mgmt-b nrpe[12291]: Host address is in allowed_hosts
-May 25 11:33:08 mgmt-b nrpe[12291]: Host 127.0.0.1 is asking for command 'check_users' to be run...
-May 25 11:33:08 mgmt-b nrpe[12291]: Running command: /usr/lib/nagios/plugins/check_users -w 0 -c 2
-May 25 11:33:08 mgmt-b nrpe[12292]: WARNING: my_system() seteuid(0): Operation not permitted
-May 25 11:33:08 mgmt-b nrpe[12291]: Command completed with return code 1 and output: USERS WARNING - 2 users currently logged in |users=2;0;2;0
-May 25 11:33:08 mgmt-b nrpe[12291]: Return Code: 1, Output: USERS WARNING - 2 users currently logged in |users=2;0;2;0
-May 25 11:33:08 mgmt-b nrpe[12291]: Connection from 127.0.0.1 closed.
-May 25 11:35:00 mgmt-b nrpe[12500]: CONN_CHECK_PEER: checking if host is allowed: 127.0.0.1 port 36035
-May 25 11:35:00 mgmt-b nrpe[12500]: Connection from 127.0.0.1 port 36035
-May 25 11:35:00 mgmt-b nrpe[12500]: is_an_allowed_host (AF_INET): is host >127.0.0.1< an allowed host >localhost<
-May 25 11:35:00 mgmt-b nrpe[12500]: is_an_allowed_host (AF_INET): host is in allowed host list!
-May 25 11:35:00 mgmt-b nrpe[12500]: Host address is in allowed_hosts
-May 25 11:35:00 mgmt-b nrpe[12500]: Host 127.0.0.1 is asking for command 'check_ping' to be run...
-May 25 11:35:00 mgmt-b nrpe[12500]: Running command: /usr/lib/nagios/plugins/check_ping -H localhost -w 10,2% -c 20,5%
-May 25 11:35:00 mgmt-b nrpe[12501]: WARNING: my_system() seteuid(0): Operation not permitted
-May 25 11:35:04 mgmt-b nrpe[12500]: Command completed with return code 0 and output: PING OK - Packet loss = 0%, RTA = 0.53 ms|rta=0.532000ms;10.000000;20.000000;0.000000 pl=0%;2;5;0
-May 25 11:35:04 mgmt-b nrpe[12500]: Return Code: 0, Output: PING OK - Packet loss = 0%, RTA = 0.53 ms|rta=0.532000ms;10.000000;20.000000;0.000000 pl=0%;2;5;0
-May 25 11:35:04 mgmt-b nrpe[12500]: Connection from 127.0.0.1 closed.
-May 25 11:38:08 mgmt-b nrpe[12816]: CONN_CHECK_PEER: checking if host is allowed: 127.0.0.1 port 49348
-May 25 11:38:08 mgmt-b nrpe[12816]: Connection from 127.0.0.1 port 49348
-May 25 11:38:08 mgmt-b nrpe[12816]: is_an_allowed_host (AF_INET): is host >127.0.0.1< an allowed host >localhost<
-May 25 11:38:08 mgmt-b nrpe[12816]: is_an_allowed_host (AF_INET): host is in allowed host list!
-May 25 11:38:08 mgmt-b nrpe[12816]: Host address is in allowed_hosts
-May 25 11:38:08 mgmt-b nrpe[12816]: Host 127.0.0.1 is asking for command 'check_users' to be run...
-May 25 11:38:08 mgmt-b nrpe[12816]: Running command: /usr/lib/nagios/plugins/check_users -w 0 -c 2
-May 25 11:38:08 mgmt-b nrpe[12817]: WARNING: my_system() seteuid(0): Operation not permitted
-May 25 11:38:08 mgmt-b nrpe[12816]: Command completed with return code 1 and output: USERS WARNING - 2 users currently logged in |users=2;0;2;0
-May 25 11:38:08 mgmt-b nrpe[12816]: Return Code: 1, Output: USERS WARNING - 2 users currently logged in |users=2;0;2;0
-May 25 11:38:08 mgmt-b nrpe[12816]: Connection from 127.0.0.1 closed.
-May 25 11:39:05 mgmt-b systemd[1]: Starting Clean php session files...
-May 25 11:39:05 mgmt-b systemd[1]: Started Clean php session files.
-May 25 11:40:00 mgmt-b nrpe[13103]: CONN_CHECK_PEER: checking if host is allowed: 127.0.0.1 port 33989
-May 25 11:40:00 mgmt-b nrpe[13103]: Connection from 127.0.0.1 port 33989
-May 25 11:40:00 mgmt-b nrpe[13103]: is_an_allowed_host (AF_INET): is host >127.0.0.1< an allowed host >localhost<
-May 25 11:40:00 mgmt-b nrpe[13103]: is_an_allowed_host (AF_INET): host is in allowed host list!
-May 25 11:40:00 mgmt-b nrpe[13103]: Host address is in allowed_hosts
-May 25 11:40:00 mgmt-b nrpe[13103]: Host 127.0.0.1 is asking for command 'check_ping' to be run...
-May 25 11:40:00 mgmt-b nrpe[13103]: Running command: /usr/lib/nagios/plugins/check_ping -H localhost -w 10,2% -c 20,5%
-May 25 11:40:00 mgmt-b nrpe[13104]: WARNING: my_system() seteuid(0): Operation not permitted
-May 25 11:40:04 mgmt-b nrpe[13103]: Command completed with return code 0 and output: PING OK - Packet loss = 0%, RTA = 0.05 ms|rta=0.051000ms;10.000000;20.000000;0.000000 pl=0%;2;5;0
-May 25 11:40:04 mgmt-b nrpe[13103]: Return Code: 0, Output: PING OK - Packet loss = 0%, RTA = 0.05 ms|rta=0.051000ms;10.000000;20.000000;0.000000 pl=0%;2;5;0
-May 25 11:40:04 mgmt-b nrpe[13103]: Connection from 127.0.0.1 closed.
-May 25 11:40:16 mgmt-b python3[1103]: 2022-05-25T11:40:16.217384Z INFO ExtHandler ExtHandler [HEARTBEAT] Agent WALinuxAgent-2.7.1.0 is running as the goal state agent [DEBUG HeartbeatCounter: 11;HeartbeatId: 8199D043-6892-4C72-9663-AB8B3E13B5D1;DroppedPackets: 0;UpdateGSErrors: 0;AutoUpdate: 1]
-May 25 11:43:08 mgmt-b nrpe[13409]: CONN_CHECK_PEER: checking if host is allowed: 127.0.0.1 port 47302
-May 25 11:43:08 mgmt-b nrpe[13409]: Connection from 127.0.0.1 port 47302
-May 25 11:43:08 mgmt-b nrpe[13409]: is_an_allowed_host (AF_INET): is host >127.0.0.1< an allowed host >localhost<
-May 25 11:43:08 mgmt-b nrpe[13409]: is_an_allowed_host (AF_INET): host is in allowed host list!
-May 25 11:43:08 mgmt-b nrpe[13409]: Host address is in allowed_hosts
-May 25 11:43:08 mgmt-b nrpe[13409]: Host 127.0.0.1 is asking for command 'check_users' to be run...
-May 25 11:43:08 mgmt-b nrpe[13409]: Running command: /usr/lib/nagios/plugins/check_users -w 0 -c 2
-May 25 11:43:08 mgmt-b nrpe[13410]: WARNING: my_system() seteuid(0): Operation not permitted
-May 25 11:43:08 mgmt-b nrpe[13409]: Command completed with return code 1 and output: USERS WARNING - 1 users currently logged in |users=1;0;2;0
-May 25 11:43:08 mgmt-b nrpe[13409]: Return Code: 1, Output: USERS WARNING - 1 users currently logged in |users=1;0;2;0
-May 25 11:43:08 mgmt-b nrpe[13409]: Connection from 127.0.0.1 closed.
-May 25 11:45:00 mgmt-b nrpe[13606]: CONN_CHECK_PEER: checking if host is allowed: 127.0.0.1 port 31943
-May 25 11:45:00 mgmt-b nrpe[13606]: Connection from 127.0.0.1 port 31943
-May 25 11:45:00 mgmt-b nrpe[13606]: is_an_allowed_host (AF_INET): is host >127.0.0.1< an allowed host >localhost<
-May 25 11:45:00 mgmt-b nrpe[13606]: is_an_allowed_host (AF_INET): host is in allowed host list!
-May 25 11:45:00 mgmt-b nrpe[13606]: Host address is in allowed_hosts
-May 25 11:45:00 mgmt-b nrpe[13606]: Host 127.0.0.1 is asking for command 'check_ping' to be run...
-May 25 11:45:00 mgmt-b nrpe[13606]: Running command: /usr/lib/nagios/plugins/check_ping -H localhost -w 10,2% -c 20,5%
-May 25 11:45:00 mgmt-b nrpe[13607]: WARNING: my_system() seteuid(0): Operation not permitted
-May 25 11:45:04 mgmt-b nrpe[13606]: Command completed with return code 0 and output: PING OK - Packet loss = 0%, RTA = 0.05 ms|rta=0.050000ms;10.000000;20.000000;0.000000 pl=0%;2;5;0
-May 25 11:45:04 mgmt-b nrpe[13606]: Return Code: 0, Output: PING OK - Packet loss = 0%, RTA = 0.05 ms|rta=0.050000ms;10.000000;20.000000;0.000000 pl=0%;2;5;0
-May 25 11:45:04 mgmt-b nrpe[13606]: Connection from 127.0.0.1 closed.
-May 25 11:48:08 mgmt-b nrpe[13912]: CONN_CHECK_PEER: checking if host is allowed: 127.0.0.1 port 45256
-May 25 11:48:08 mgmt-b nrpe[13912]: Connection from 127.0.0.1 port 45256
-May 25 11:48:08 mgmt-b nrpe[13912]: is_an_allowed_host (AF_INET): is host >127.0.0.1< an allowed host >localhost<
-May 25 11:48:08 mgmt-b nrpe[13912]: is_an_allowed_host (AF_INET): host is in allowed host list!
-May 25 11:48:08 mgmt-b nrpe[13912]: Host address is in allowed_hosts
-May 25 11:48:08 mgmt-b nrpe[13912]: Host 127.0.0.1 is asking for command 'check_users' to be run...
-May 25 11:48:08 mgmt-b nrpe[13912]: Running command: /usr/lib/nagios/plugins/check_users -w 0 -c 2
-May 25 11:48:08 mgmt-b nrpe[13914]: WARNING: my_system() seteuid(0): Operation not permitted
-May 25 11:48:08 mgmt-b nrpe[13912]: Command completed with return code 1 and output: USERS WARNING - 1 users currently logged in |users=1;0;2;0
-May 25 11:48:08 mgmt-b nrpe[13912]: Return Code: 1, Output: USERS WARNING - 1 users currently logged in |users=1;0;2;0
-May 25 11:48:08 mgmt-b nrpe[13912]: Connection from 127.0.0.1 closed.
-May 25 11:50:00 mgmt-b nrpe[14109]: CONN_CHECK_PEER: checking if host is allowed: 127.0.0.1 port 27849
-May 25 11:50:00 mgmt-b nrpe[14109]: Connection from 127.0.0.1 port 27849
-May 25 11:50:00 mgmt-b nrpe[14109]: is_an_allowed_host (AF_INET): is host >127.0.0.1< an allowed host >localhost<
-May 25 11:50:00 mgmt-b nrpe[14109]: is_an_allowed_host (AF_INET): host is in allowed host list!
-May 25 11:50:00 mgmt-b nrpe[14109]: Host address is in allowed_hosts
-May 25 11:50:00 mgmt-b nrpe[14109]: Host 127.0.0.1 is asking for command 'check_ping' to be run...
-May 25 11:50:00 mgmt-b nrpe[14109]: Running command: /usr/lib/nagios/plugins/check_ping -H localhost -w 10,2% -c 20,5%
-May 25 11:50:00 mgmt-b nrpe[14110]: WARNING: my_system() seteuid(0): Operation not permitted
-May 25 11:50:04 mgmt-b nrpe[14109]: Command completed with return code 0 and output: PING OK - Packet loss = 0%, RTA = 0.05 ms|rta=0.046000ms;10.000000;20.000000;0.000000 pl=0%;2;5;0
-May 25 11:50:04 mgmt-b nrpe[14109]: Return Code: 0, Output: PING OK - Packet loss = 0%, RTA = 0.05 ms|rta=0.046000ms;10.000000;20.000000;0.000000 pl=0%;2;5;0
-May 25 11:50:04 mgmt-b nrpe[14109]: Connection from 127.0.0.1 closed.
-May 25 11:51:31 mgmt-b puppet-master[11407]: Compiled catalog for app-b.foo.org.nz in environment production in 0.51 seconds
-May 25 11:51:42 mgmt-b puppet-master[11407]: Compiled catalog for backup-b.foo.org.nz in environment production in 0.05 seconds
-May 25 11:53:08 mgmt-b nrpe[14456]: CONN_CHECK_PEER: checking if host is allowed: 127.0.0.1 port 43210
-May 25 11:53:08 mgmt-b nrpe[14456]: Connection from 127.0.0.1 port 43210
-May 25 11:53:08 mgmt-b nrpe[14456]: is_an_allowed_host (AF_INET): is host >127.0.0.1< an allowed host >localhost<
-May 25 11:53:08 mgmt-b nrpe[14456]: is_an_allowed_host (AF_INET): host is in allowed host list!
-May 25 11:53:08 mgmt-b nrpe[14456]: Host address is in allowed_hosts
-May 25 11:53:08 mgmt-b nrpe[14456]: Host 127.0.0.1 is asking for command 'check_users' to be run...
-May 25 11:53:08 mgmt-b nrpe[14456]: Running command: /usr/lib/nagios/plugins/check_users -w 0 -c 2
-May 25 11:53:08 mgmt-b nrpe[14457]: WARNING: my_system() seteuid(0): Operation not permitted
-May 25 11:53:08 mgmt-b nrpe[14456]: Command completed with return code 1 and output: USERS WARNING - 1 users currently logged in |users=1;0;2;0
-May 25 11:53:08 mgmt-b nrpe[14456]: Return Code: 1, Output: USERS WARNING - 1 users currently logged in |users=1;0;2;0
-May 25 11:53:08 mgmt-b nrpe[14456]: Connection from 127.0.0.1 closed.
-May 25 11:54:34 mgmt-b puppet-master[11407]: Compiled catalog for mgmt-b.foo.org.nz in environment production in 0.15 seconds
-May 25 11:54:35 mgmt-b puppet-agent[14663]: Applied catalog in 0.42 seconds
-May 25 11:55:00 mgmt-b nrpe[14791]: CONN_CHECK_PEER: checking if host is allowed: 127.0.0.1 port 26315
-May 25 11:55:00 mgmt-b nrpe[14791]: Connection from 127.0.0.1 port 26315
-May 25 11:55:00 mgmt-b nrpe[14791]: is_an_allowed_host (AF_INET): is host >127.0.0.1< an allowed host >localhost<
-May 25 11:55:00 mgmt-b nrpe[14791]: is_an_allowed_host (AF_INET): host is in allowed host list!
-May 25 11:55:00 mgmt-b nrpe[14791]: Host address is in allowed_hosts
-May 25 11:55:00 mgmt-b nrpe[14791]: Host 127.0.0.1 is asking for command 'check_ping' to be run...
-May 25 11:55:00 mgmt-b nrpe[14791]: Running command: /usr/lib/nagios/plugins/check_ping -H localhost -w 10,2% -c 20,5%
-May 25 11:55:00 mgmt-b nrpe[14792]: WARNING: my_system() seteuid(0): Operation not permitted
-May 25 11:55:04 mgmt-b nrpe[14791]: Command completed with return code 0 and output: PING OK - Packet loss = 0%, RTA = 0.05 ms|rta=0.051000ms;10.000000;20.000000;0.000000 pl=0%;2;5;0
-May 25 11:55:04 mgmt-b nrpe[14791]: Return Code: 0, Output: PING OK - Packet loss = 0%, RTA = 0.05 ms|rta=0.051000ms;10.000000;20.000000;0.000000 pl=0%;2;5;0
-May 25 11:55:04 mgmt-b nrpe[14791]: Connection from 127.0.0.1 closed.
-May 25 11:56:07 mgmt-b puppet-master[11407]: Compiled catalog for db-b.foo.org.nz in environment production in 0.06 seconds
-May 25 11:58:08 mgmt-b nrpe[15127]: CONN_CHECK_PEER: checking if host is allowed: 127.0.0.1 port 39628
-May 25 11:58:08 mgmt-b nrpe[15127]: Connection from 127.0.0.1 port 39628
-May 25 11:58:08 mgmt-b nrpe[15127]: is_an_allowed_host (AF_INET): is host >127.0.0.1< an allowed host >localhost<
-May 25 11:58:08 mgmt-b nrpe[15127]: is_an_allowed_host (AF_INET): host is in allowed host list!
-May 25 11:58:08 mgmt-b nrpe[15127]: Host address is in allowed_hosts
-May 25 11:58:08 mgmt-b nrpe[15127]: Host 127.0.0.1 is asking for command 'check_users' to be run...
-May 25 11:58:08 mgmt-b nrpe[15127]: Running command: /usr/lib/nagios/plugins/check_users -w 0 -c 2
-May 25 11:58:08 mgmt-b nrpe[15129]: WARNING: my_system() seteuid(0): Operation not permitted
-May 25 11:58:08 mgmt-b nrpe[15127]: Command completed with return code 1 and output: USERS WARNING - 1 users currently logged in |users=1;0;2;0
-May 25 11:58:08 mgmt-b nrpe[15127]: Return Code: 1, Output: USERS WARNING - 1 users currently logged in |users=1;0;2;0
-May 25 11:58:08 mgmt-b nrpe[15127]: Connection from 127.0.0.1 closed.
-May 25 12:00:00 mgmt-b nrpe[15320]: CONN_CHECK_PEER: checking if host is allowed: 127.0.0.1 port 23757
-May 25 12:00:00 mgmt-b nrpe[15320]: Connection from 127.0.0.1 port 23757
-May 25 12:00:00 mgmt-b nrpe[15320]: is_an_allowed_host (AF_INET): is host >127.0.0.1< an allowed host >localhost<
-May 25 12:00:00 mgmt-b nrpe[15320]: is_an_allowed_host (AF_INET): host is in allowed host list!
-May 25 12:00:00 mgmt-b nrpe[15320]: Host address is in allowed_hosts
-May 25 12:00:00 mgmt-b nrpe[15320]: Host 127.0.0.1 is asking for command 'check_ping' to be run...
-May 25 12:00:00 mgmt-b nrpe[15320]: Running command: /usr/lib/nagios/plugins/check_ping -H localhost -w 10,2% -c 20,5%
-May 25 12:00:00 mgmt-b nrpe[15321]: WARNING: my_system() seteuid(0): Operation not permitted
-May 25 12:00:04 mgmt-b nrpe[15320]: Command completed with return code 0 and output: PING OK - Packet loss = 0%, RTA = 0.05 ms|rta=0.050000ms;10.000000;20.000000;0.000000 pl=0%;2;5;0
-May 25 12:00:04 mgmt-b nrpe[15320]: Return Code: 0, Output: PING OK - Packet loss = 0%, RTA = 0.05 ms|rta=0.050000ms;10.000000;20.000000;0.000000 pl=0%;2;5;0
-May 25 12:00:04 mgmt-b nrpe[15320]: Connection from 127.0.0.1 closed.
-May 25 12:03:08 mgmt-b nrpe[15642]: CONN_CHECK_PEER: checking if host is allowed: 127.0.0.1 port 40654
-May 25 12:03:08 mgmt-b nrpe[15642]: Connection from 127.0.0.1 port 40654
-May 25 12:03:08 mgmt-b nrpe[15642]: is_an_allowed_host (AF_INET): is host >127.0.0.1< an allowed host >localhost<
-May 25 12:03:08 mgmt-b nrpe[15642]: is_an_allowed_host (AF_INET): host is in allowed host list!
-May 25 12:03:08 mgmt-b nrpe[15642]: Host address is in allowed_hosts
-May 25 12:03:08 mgmt-b nrpe[15642]: Host 127.0.0.1 is asking for command 'check_users' to be run...
-May 25 12:03:08 mgmt-b nrpe[15642]: Running command: /usr/lib/nagios/plugins/check_users -w 0 -c 2
-May 25 12:03:08 mgmt-b nrpe[15643]: WARNING: my_system() seteuid(0): Operation not permitted
-May 25 12:03:08 mgmt-b nrpe[15642]: Command completed with return code 1 and output: USERS WARNING - 1 users currently logged in |users=1;0;2;0
-May 25 12:03:08 mgmt-b nrpe[15642]: Return Code: 1, Output: USERS WARNING - 1 users currently logged in |users=1;0;2;0
-May 25 12:03:08 mgmt-b nrpe[15642]: Connection from 127.0.0.1 closed.
-May 25 12:04:07 mgmt-b puppet-master[11407]: Compiled catalog for app-b.foo.org.nz in environment production in 0.09 seconds
-May 25 12:05:00 mgmt-b nrpe[15867]: CONN_CHECK_PEER: checking if host is allowed: 127.0.0.1 port 26319
-May 25 12:05:00 mgmt-b nrpe[15867]: Connection from 127.0.0.1 port 26319
-May 25 12:05:00 mgmt-b nrpe[15867]: is_an_allowed_host (AF_INET): is host >127.0.0.1< an allowed host >localhost<
-May 25 12:05:00 mgmt-b nrpe[15867]: is_an_allowed_host (AF_INET): host is in allowed host list!
-May 25 12:05:00 mgmt-b nrpe[15867]: Host address is in allowed_hosts
-May 25 12:05:00 mgmt-b nrpe[15867]: Host 127.0.0.1 is asking for command 'check_ping' to be run...
-May 25 12:05:00 mgmt-b nrpe[15867]: Running command: /usr/lib/nagios/plugins/check_ping -H localhost -w 10,2% -c 20,5%
-May 25 12:05:00 mgmt-b nrpe[15868]: WARNING: my_system() seteuid(0): Operation not permitted
-May 25 12:05:04 mgmt-b nrpe[15867]: Command completed with return code 0 and output: PING OK - Packet loss = 0%, RTA = 0.05 ms|rta=0.048000ms;10.000000;20.000000;0.000000 pl=0%;2;5;0
-May 25 12:05:04 mgmt-b nrpe[15867]: Return Code: 0, Output: PING OK - Packet loss = 0%, RTA = 0.05 ms|rta=0.048000ms;10.000000;20.000000;0.000000 pl=0%;2;5;0
-May 25 12:05:04 mgmt-b nrpe[15867]: Connection from 127.0.0.1 closed.
-May 25 12:08:08 mgmt-b nrpe[16217]: CONN_CHECK_PEER: checking if host is allowed: 127.0.0.1 port 44240
-May 25 12:08:08 mgmt-b nrpe[16217]: Connection from 127.0.0.1 port 44240
-May 25 12:08:08 mgmt-b nrpe[16217]: is_an_allowed_host (AF_INET): is host >127.0.0.1< an allowed host >localhost<
-May 25 12:08:08 mgmt-b nrpe[16217]: is_an_allowed_host (AF_INET): host is in allowed host list!
-May 25 12:08:08 mgmt-b nrpe[16217]: Host address is in allowed_hosts
-May 25 12:08:08 mgmt-b nrpe[16217]: Host 127.0.0.1 is asking for command 'check_users' to be run...
-May 25 12:08:08 mgmt-b nrpe[16217]: Running command: /usr/lib/nagios/plugins/check_users -w 0 -c 2
-May 25 12:08:08 mgmt-b nrpe[16218]: WARNING: my_system() seteuid(0): Operation not permitted
-May 25 12:08:08 mgmt-b nrpe[16217]: Command completed with return code 1 and output: USERS WARNING - 1 users currently logged in |users=1;0;2;0
-May 25 12:08:08 mgmt-b nrpe[16217]: Return Code: 1, Output: USERS WARNING - 1 users currently logged in |users=1;0;2;0
-May 25 12:08:08 mgmt-b nrpe[16217]: Connection from 127.0.0.1 closed.
-May 25 12:08:39 mgmt-b systemd[1]: Started fast remote file copy program daemon.
-May 25 12:08:39 mgmt-b rsyncd[16272]: rsyncd version 3.1.2 starting, listening on port 873
-May 25 12:09:04 mgmt-b systemd[1]: Starting Clean php session files...
-May 25 12:09:04 mgmt-b systemd[1]: Started Clean php session files.
-May 25 12:10:00 mgmt-b nrpe[16529]: CONN_CHECK_PEER: checking if host is allowed: 127.0.0.1 port 28369
-May 25 12:10:00 mgmt-b nrpe[16529]: Connection from 127.0.0.1 port 28369
-May 25 12:10:00 mgmt-b nrpe[16529]: is_an_allowed_host (AF_INET): is host >127.0.0.1< an allowed host >localhost<
-May 25 12:10:00 mgmt-b nrpe[16529]: is_an_allowed_host (AF_INET): host is in allowed host list!
-May 25 12:10:00 mgmt-b nrpe[16529]: Host address is in allowed_hosts
-May 25 12:10:00 mgmt-b nrpe[16529]: Host 127.0.0.1 is asking for command 'check_ping' to be run...
-May 25 12:10:00 mgmt-b nrpe[16529]: Running command: /usr/lib/nagios/plugins/check_ping -H localhost -w 10,2% -c 20,5%
-May 25 12:10:00 mgmt-b nrpe[16530]: WARNING: my_system() seteuid(0): Operation not permitted
-May 25 12:10:04 mgmt-b nrpe[16529]: Command completed with return code 0 and output: PING OK - Packet loss = 0%, RTA = 0.05 ms|rta=0.048000ms;10.000000;20.000000;0.000000 pl=0%;2;5;0
-May 25 12:10:04 mgmt-b nrpe[16529]: Return Code: 0, Output: PING OK - Packet loss = 0%, RTA = 0.05 ms|rta=0.048000ms;10.000000;20.000000;0.000000 pl=0%;2;5;0
-May 25 12:10:04 mgmt-b nrpe[16529]: Connection from 127.0.0.1 closed.
-May 25 12:10:17 mgmt-b python3[1103]: 2022-05-25T12:10:17.167096Z INFO ExtHandler ExtHandler Checking for agent updates (family: Prod)
-May 25 12:10:17 mgmt-b python3[1103]: 2022-05-25T12:10:17.229315Z INFO ExtHandler ExtHandler [HEARTBEAT] Agent WALinuxAgent-2.7.1.0 is running as the goal state agent [DEBUG HeartbeatCounter: 12;HeartbeatId: 8199D043-6892-4C72-9663-AB8B3E13B5D1;DroppedPackets: 0;UpdateGSErrors: 0;AutoUpdate: 1]
-May 25 12:13:08 mgmt-b nrpe[16878]: CONN_CHECK_PEER: checking if host is allowed: 127.0.0.1 port 45778
-May 25 12:13:08 mgmt-b nrpe[16878]: Connection from 127.0.0.1 port 45778
-May 25 12:13:08 mgmt-b nrpe[16878]: is_an_allowed_host (AF_INET): is host >127.0.0.1< an allowed host >localhost<
-May 25 12:13:08 mgmt-b nrpe[16878]: is_an_allowed_host (AF_INET): host is in allowed host list!
-May 25 12:13:08 mgmt-b nrpe[16878]: Host address is in allowed_hosts
-May 25 12:13:08 mgmt-b nrpe[16878]: Host 127.0.0.1 is asking for command 'check_users' to be run...
-May 25 12:13:08 mgmt-b nrpe[16878]: Running command: /usr/lib/nagios/plugins/check_users -w 0 -c 2
-May 25 12:13:08 mgmt-b nrpe[16879]: WARNING: my_system() seteuid(0): Operation not permitted
-May 25 12:13:08 mgmt-b nrpe[16878]: Command completed with return code 1 and output: USERS WARNING - 1 users currently logged in |users=1;0;2;0
-May 25 12:13:08 mgmt-b nrpe[16878]: Return Code: 1, Output: USERS WARNING - 1 users currently logged in |users=1;0;2;0
-May 25 12:13:08 mgmt-b nrpe[16878]: Connection from 127.0.0.1 closed.
-May 25 12:15:00 mgmt-b nrpe[17063]: CONN_CHECK_PEER: checking if host is allowed: 127.0.0.1 port 27347
-May 25 12:15:00 mgmt-b nrpe[17063]: Connection from 127.0.0.1 port 27347
-May 25 12:15:00 mgmt-b nrpe[17063]: is_an_allowed_host (AF_INET): is host >127.0.0.1< an allowed host >localhost<
-May 25 12:15:00 mgmt-b nrpe[17063]: is_an_allowed_host (AF_INET): host is in allowed host list!
-May 25 12:15:00 mgmt-b nrpe[17063]: Host address is in allowed_hosts
-May 25 12:15:00 mgmt-b nrpe[17063]: Host 127.0.0.1 is asking for command 'check_ping' to be run...
-May 25 12:15:00 mgmt-b nrpe[17063]: Running command: /usr/lib/nagios/plugins/check_ping -H localhost -w 10,2% -c 20,5%
-May 25 12:15:00 mgmt-b nrpe[17064]: WARNING: my_system() seteuid(0): Operation not permitted
-May 25 12:15:04 mgmt-b nrpe[17063]: Command completed with return code 0 and output: PING OK - Packet loss = 0%, RTA = 0.06 ms|rta=0.065000ms;10.000000;20.000000;0.000000 pl=0%;2;5;0
-May 25 12:15:04 mgmt-b nrpe[17063]: Return Code: 0, Output: PING OK - Packet loss = 0%, RTA = 0.06 ms|rta=0.065000ms;10.000000;20.000000;0.000000 pl=0%;2;5;0
-May 25 12:15:04 mgmt-b nrpe[17063]: Connection from 127.0.0.1 closed.
-May 25 12:15:50 mgmt-b puppet-agent[17163]: Using configured environment 'production'
-May 25 12:15:50 mgmt-b puppet-agent[17163]: Retrieving pluginfacts
-May 25 12:15:51 mgmt-b puppet-agent[17163]: Retrieving plugin
-May 25 12:15:51 mgmt-b puppet-agent[17163]: Retrieving locales
-May 25 12:15:51 mgmt-b puppet-master[11407]: Compiled catalog for mgmt-b.foo.org.nz in environment production in 0.08 seconds
-May 25 12:15:51 mgmt-b puppet-agent[17163]: Caching catalog for mgmt-b.foo.org.nz
-May 25 12:15:52 mgmt-b puppet-agent[17163]: Applying configuration version '1653480951'
-May 25 12:15:52 mgmt-b puppet-agent[17163]: Computing checksum on file /etc/nagios/nrpe.cfg
-May 25 12:15:52 mgmt-b puppet-agent[17163]: (/Stage[main]/Nrpe::Config/File[/etc/nagios/nrpe.cfg]) Filebucketed /etc/nagios/nrpe.cfg to puppet with sum 016dbce1414bfc00682dff346b2d7090
-May 25 12:15:52 mgmt-b puppet-agent[17163]: (/Stage[main]/Nrpe::Config/File[/etc/nagios/nrpe.cfg]/content) content changed '{md5}016dbce1414bfc00682dff346b2d7090' to '{md5}2cd1173ec3c36532c40ee9eb1bad4f62'
-May 25 12:15:52 mgmt-b puppet-agent[17163]: Applied catalog in 0.51 seconds
-May 25 12:16:04 mgmt-b puppet-agent[10780]: Caught TERM; exiting
-May 25 12:16:04 mgmt-b systemd[1]: Stopping Puppet agent...
-May 25 12:16:04 mgmt-b systemd[1]: Stopped Puppet agent.
-May 25 12:16:04 mgmt-b systemd[1]: Starting Puppet agent...
-May 25 12:16:06 mgmt-b puppet-agent[17270]: Reopening log files
-May 25 12:16:06 mgmt-b puppet-agent[17270]: Starting Puppet client version 5.4.0
-May 25 12:16:06 mgmt-b systemd[1]: Started Puppet agent.
-May 25 12:16:06 mgmt-b puppet-master[11407]: Compiled catalog for mgmt-b.foo.org.nz in environment production in 0.07 seconds
-May 25 12:16:07 mgmt-b puppet-agent[17277]: Applied catalog in 0.44 seconds
-May 25 12:16:07 mgmt-b systemd[1]: Stopping Puppet master...
-May 25 12:16:07 mgmt-b puppet-master[11407]: Caught TERM; exiting
-May 25 12:16:07 mgmt-b puppet-agent[17277]: Could not send report: Failed to open TCP connection to mgmt-b.foo.org.nz:8140 (Connection refused - connect(2) for "mgmt-b.foo.org.nz" port 8140)
-May 25 12:16:07 mgmt-b systemd[1]: Stopped Puppet master.
-May 25 12:16:07 mgmt-b systemd[1]: Starting Puppet master...
-May 25 12:16:09 mgmt-b puppet-master[17331]: The WEBrick Puppet master server is deprecated and will be removed in a future release. Please use Puppet Server instead. See http://links.puppet.com/deprecate-rack-webrick-servers for more information.
-May 25 12:16:09 mgmt-b puppet-master[17331]:    (location: /usr/lib/ruby/vendor_ruby/puppet/application/master.rb:207:in `main')
-May 25 12:16:09 mgmt-b puppet-master[17359]: Reopening log files
-May 25 12:16:09 mgmt-b puppet-master[17359]: Starting Puppet master version 5.4.0
-May 25 12:16:09 mgmt-b systemd[1]: Started Puppet master.
-May 25 12:16:11 mgmt-b systemd[1]: Stopping LSB: nagios host/service/network monitoring and management system...
-May 25 12:16:11 mgmt-b nagios3[17373]:  * Stopping nagios3 monitoring daemon nagios3
-May 25 12:16:11 mgmt-b nagios3[17373]:    ...done.
-May 25 12:16:11 mgmt-b systemd[1]: Stopped LSB: nagios host/service/network monitoring and management system.
-May 25 12:16:11 mgmt-b systemd[1]: Starting LSB: nagios host/service/network monitoring and management system...
-May 25 12:16:11 mgmt-b nagios3[17395]:  * Starting nagios3 monitoring daemon nagios3
-May 25 12:16:11 mgmt-b nagios3[17395]:    ...done.
-May 25 12:16:11 mgmt-b systemd[1]: Started LSB: nagios host/service/network monitoring and management system.
-May 25 12:16:35 mgmt-b puppet-master[17359]: Compiled catalog for app-b.foo.org.nz in environment production in 0.47 seconds
-May 25 12:16:51 mgmt-b puppet-master[17359]: Caught TERM; exiting
-May 25 12:16:51 mgmt-b systemd[1]: Stopping Puppet master...
-May 25 12:16:51 mgmt-b systemd[1]: Stopped Puppet master.
-May 25 12:16:51 mgmt-b systemd[1]: Starting Puppet master...
-May 25 12:16:53 mgmt-b puppet-master[17543]: The WEBrick Puppet master server is deprecated and will be removed in a future release. Please use Puppet Server instead. See http://links.puppet.com/deprecate-rack-webrick-servers for more information.
-May 25 12:16:53 mgmt-b puppet-master[17543]:    (location: /usr/lib/ruby/vendor_ruby/puppet/application/master.rb:207:in `main')
-May 25 12:16:53 mgmt-b puppet-master[17571]: Reopening log files
-May 25 12:16:53 mgmt-b puppet-master[17571]: Starting Puppet master version 5.4.0
-May 25 12:16:53 mgmt-b systemd[1]: Started Puppet master.
-May 25 12:17:01 mgmt-b python3[1103]: 2022-05-25T12:17:01.108649Z INFO CollectLogsHandler ExtHandler Starting log collection...
-May 25 12:17:01 mgmt-b systemd[1]: Started /usr/bin/python3 -u bin/WALinuxAgent-2.7.1.0-py2.7.egg -collect-logs.
-May 25 12:17:19 mgmt-b python3[1103]: 2022-05-25T12:17:19.672875Z INFO CollectLogsHandler ExtHandler Successfully collected logs. Archive size: 1769803 b, elapsed time: 18563 ms.
-May 25 12:17:19 mgmt-b python3[1103]: 2022-05-25T12:17:19.721606Z INFO CollectLogsHandler ExtHandler Successfully uploaded logs.
-May 25 12:17:35 mgmt-b puppet-master[17571]: Caught TERM; exiting
-May 25 12:17:35 mgmt-b systemd[1]: Stopping Puppet master...
-May 25 12:17:35 mgmt-b systemd[1]: Stopped Puppet master.
-May 25 12:17:35 mgmt-b systemd[1]: Starting Puppet master...
-May 25 12:17:37 mgmt-b puppet-master[17683]: The WEBrick Puppet master server is deprecated and will be removed in a future release. Please use Puppet Server instead. See http://links.puppet.com/deprecate-rack-webrick-servers for more information.
-May 25 12:17:37 mgmt-b puppet-master[17683]:    (location: /usr/lib/ruby/vendor_ruby/puppet/application/master.rb:207:in `main')
-May 25 12:17:37 mgmt-b puppet-master[17710]: Reopening log files
-May 25 12:17:37 mgmt-b puppet-master[17710]: Starting Puppet master version 5.4.0
-May 25 12:17:37 mgmt-b systemd[1]: Started Puppet master.
-May 25 12:17:42 mgmt-b systemd[1]: Stopping LSB: nagios host/service/network monitoring and management system...
-May 25 12:17:42 mgmt-b nagios3[17729]:  * Stopping nagios3 monitoring daemon nagios3
-May 25 12:17:42 mgmt-b nagios3[17729]:    ...done.
-May 25 12:17:42 mgmt-b systemd[1]: Stopped LSB: nagios host/service/network monitoring and management system.
-May 25 12:17:42 mgmt-b systemd[1]: Starting LSB: nagios host/service/network monitoring and management system...
-May 25 12:17:42 mgmt-b nagios3[17751]:  * Starting nagios3 monitoring daemon nagios3
-May 25 12:17:42 mgmt-b nagios3[17751]:    ...done.
-May 25 12:17:42 mgmt-b systemd[1]: Started LSB: nagios host/service/network monitoring and management system.
-May 25 12:17:47 mgmt-b puppet-agent[17270]: Caught TERM; exiting
-May 25 12:17:47 mgmt-b systemd[1]: Stopping Puppet agent...
-May 25 12:17:47 mgmt-b systemd[1]: Stopped Puppet agent.
-May 25 12:17:47 mgmt-b systemd[1]: Starting Puppet agent...
-May 25 12:17:49 mgmt-b puppet-agent[17840]: Reopening log files
-May 25 12:17:49 mgmt-b puppet-agent[17840]: Starting Puppet client version 5.4.0
-May 25 12:17:49 mgmt-b systemd[1]: Started Puppet agent.
-May 25 12:17:50 mgmt-b puppet-master[17710]: Compiled catalog for mgmt-b.foo.org.nz in environment production in 0.59 seconds
-May 25 12:17:51 mgmt-b puppet-agent[17847]: Applied catalog in 0.45 seconds
-May 25 12:18:08 mgmt-b nrpe[17962]: CONN_CHECK_PEER: checking if host is allowed: 127.0.0.1 port 46804
-May 25 12:18:08 mgmt-b nrpe[17962]: Connection from 127.0.0.1 port 46804
-May 25 12:18:08 mgmt-b nrpe[17962]: is_an_allowed_host (AF_INET): is host >127.0.0.1< an allowed host >localhost<
-May 25 12:18:08 mgmt-b nrpe[17962]: is_an_allowed_host (AF_INET): host is in allowed host list!
-May 25 12:18:08 mgmt-b nrpe[17962]: Host address is in allowed_hosts
-May 25 12:18:08 mgmt-b nrpe[17962]: Host 127.0.0.1 is asking for command 'check_users' to be run...
-May 25 12:18:08 mgmt-b nrpe[17962]: Running command: /usr/lib/nagios/plugins/check_users -w 0 -c 2
-May 25 12:18:08 mgmt-b nrpe[17963]: WARNING: my_system() seteuid(0): Operation not permitted
-May 25 12:18:08 mgmt-b nrpe[17962]: Command completed with return code 1 and output: USERS WARNING - 1 users currently logged in |users=1;0;2;0
-May 25 12:18:08 mgmt-b nrpe[17962]: Return Code: 1, Output: USERS WARNING - 1 users currently logged in |users=1;0;2;0
-May 25 12:18:08 mgmt-b nrpe[17962]: Connection from 127.0.0.1 closed.
-May 25 12:18:13 mgmt-b puppet-agent[17970]: Using configured environment 'production'
-May 25 12:18:13 mgmt-b puppet-agent[17970]: Retrieving pluginfacts
-May 25 12:18:13 mgmt-b puppet-agent[17970]: Retrieving plugin
-May 25 12:18:13 mgmt-b puppet-agent[17970]: Retrieving locales
-May 25 12:18:13 mgmt-b puppet-master[17710]: Compiled catalog for mgmt-b.foo.org.nz in environment production in 0.08 seconds
-May 25 12:18:13 mgmt-b puppet-agent[17970]: Caching catalog for mgmt-b.foo.org.nz
-May 25 12:18:14 mgmt-b puppet-agent[17970]: Applying configuration version '1653481093'
-May 25 12:18:14 mgmt-b puppet-agent[17970]: Applied catalog in 0.46 seconds
-May 25 12:18:21 mgmt-b puppet-master[17710]: Compiled catalog for app-b.foo.org.nz in environment production in 0.07 seconds
-May 25 12:18:39 mgmt-b systemd[1]: Stopping LSB: nagios host/service/network monitoring and management system...
-May 25 12:18:39 mgmt-b nagios3[18078]:  * Stopping nagios3 monitoring daemon nagios3
-May 25 12:18:39 mgmt-b nagios3[18078]:    ...done.
-May 25 12:18:39 mgmt-b systemd[1]: Stopped LSB: nagios host/service/network monitoring and management system.
-May 25 12:18:39 mgmt-b systemd[1]: Starting LSB: nagios host/service/network monitoring and management system...
-May 25 12:18:39 mgmt-b nagios3[18100]:  * Starting nagios3 monitoring daemon nagios3
-May 25 12:18:39 mgmt-b nagios3[18100]:    ...done.
-May 25 12:18:39 mgmt-b systemd[1]: Started LSB: nagios host/service/network monitoring and management system.
-May 25 12:19:25 mgmt-b systemd[1]: Stopping Nagios Remote Plugin Executor...
-May 25 12:19:25 mgmt-b nrpe[10890]: Caught SIGTERM - shutting down...
-May 25 12:19:25 mgmt-b systemd[1]: Stopped Nagios Remote Plugin Executor.
-May 25 12:19:25 mgmt-b nrpe[10890]: WARNING: remove_pid_file() seteuid(0): Operation not permitted
-May 25 12:19:25 mgmt-b systemd[1]: Started Nagios Remote Plugin Executor.
-May 25 12:19:25 mgmt-b nrpe[10890]: Daemon shutdown
-May 25 12:19:25 mgmt-b nrpe[18268]: parse_allowed_hosts: parsing the allowed host string >mgmt-b.foo.org.nz< to add to ACL list
-May 25 12:19:25 mgmt-b nrpe[18268]: parse_allowed_hosts: ADDING this record (mgmt-b.foo.org.nz) to ACL list!
-May 25 12:19:25 mgmt-b nrpe[18268]: add_ipv4_to_acl: checking ip-address >mgmt-b.foo.org.nz<
-May 25 12:19:25 mgmt-b nrpe[18268]: add_ipv4_to_acl: Error, ip-address >mgmt-b.foo.org.nz< incorrect format, continue with next check ...
-May 25 12:19:25 mgmt-b nrpe[18268]: ADD_DOMAIN_TO_ACL: added >mgmt-b.foo.org.nz< to acl list!
-May 25 12:19:25 mgmt-b nrpe[18268]: parse_allowed_hosts: Record added to ACL list!
-May 25 12:19:25 mgmt-b nrpe[18268]: Showing ACL lists for both IP and DOMAIN acl's:
-May 25 12:19:25 mgmt-b nrpe[18268]:   DNS ACL: mgmt-b.foo.org.nz
-May 25 12:19:25 mgmt-b nrpe[18268]: Added command[check_users]=/usr/lib/nagios/plugins/check_users -w 0 -c 2
-May 25 12:19:25 mgmt-b nrpe[18268]: Added command[check_load]=/usr/lib/nagios/plugins/check_load -r -w .15,.10,.05 -c .30,.25,.20
-May 25 12:19:25 mgmt-b nrpe[18268]: Added command[check_hda1]=/usr/lib/nagios/plugins/check_disk -w 20% -c 10% -p /dev/sda1
-May 25 12:19:25 mgmt-b nrpe[18268]: Added command[check_zombie_procs]=/usr/lib/nagios/plugins/check_procs -w 5 -c 10 -s Z
-May 25 12:19:25 mgmt-b nrpe[18268]: Added command[check_total_procs]=/usr/lib/nagios/plugins/check_procs -w 150 -c 200
-May 25 12:19:25 mgmt-b nrpe[18268]: Added command[check_hd]=/usr/lib/nagios/plugins/check_disk -w 20% -c 10% -p /dev/sda1
-May 25 12:19:25 mgmt-b nrpe[18268]: Added command[check_ping]=/usr/lib/nagios/plugins/check_ping -H localhost -w 10,2% -c 20,5%
-May 25 12:19:25 mgmt-b nrpe[18268]: INFO: SSL/TLS initialized. All network traffic will be encrypted.
-May 25 12:19:25 mgmt-b nrpe[18268]: Starting up daemon
-May 25 12:19:25 mgmt-b nrpe[18268]: SETUP_WAIT_CONN FOR: IPv4 address: 0.0.0.0 ((null))
-May 25 12:19:25 mgmt-b nrpe[18268]: Server listening on 0.0.0.0 port 5666.
-May 25 12:19:25 mgmt-b nrpe[18268]: SETUP_WAIT_CONN FOR: IPv4 address: :: ((null))
-May 25 12:19:25 mgmt-b nrpe[18268]: Server listening on :: port 5666.
-May 25 12:19:25 mgmt-b nrpe[18268]: Warning: Daemon is configured to accept command arguments from clients!
-May 25 12:19:25 mgmt-b nrpe[18268]: Listening for connections on port 5666
-May 25 12:19:25 mgmt-b nrpe[18268]: Allowing connections from: mgmt-b.foo.org.nz
-May 25 12:19:38 mgmt-b puppet-master[17710]: Compiled catalog for app-b.foo.org.nz in environment production in 0.06 seconds
-May 25 12:20:00 mgmt-b nrpe[18364]: CONN_CHECK_PEER: checking if host is allowed: 127.0.0.1 port 28885
-May 25 12:20:00 mgmt-b nrpe[18364]: Connection from 127.0.0.1 port 28885
-May 25 12:20:00 mgmt-b nrpe[18364]: is_an_allowed_host (AF_INET): is host >127.0.0.1< an allowed host >mgmt-b.foo.org.nz<
-May 25 12:20:00 mgmt-b nrpe[18364]: message repeated 2 times: [ is_an_allowed_host (AF_INET): is host >127.0.0.1< an allowed host >mgmt-b.foo.org.nz<]
-May 25 12:20:00 mgmt-b nrpe[18364]: Host 127.0.0.1 is not allowed to talk to us!
-May 25 12:20:00 mgmt-b nrpe[18364]: Connection from 127.0.0.1 closed.
-May 25 12:21:00 mgmt-b nrpe[18481]: CONN_CHECK_PEER: checking if host is allowed: 127.0.0.1 port 54997
-May 25 12:21:00 mgmt-b nrpe[18481]: Connection from 127.0.0.1 port 54997
-May 25 12:21:00 mgmt-b nrpe[18481]: is_an_allowed_host (AF_INET): is host >127.0.0.1< an allowed host >mgmt-b.foo.org.nz<
-May 25 12:21:00 mgmt-b nrpe[18481]: message repeated 2 times: [ is_an_allowed_host (AF_INET): is host >127.0.0.1< an allowed host >mgmt-b.foo.org.nz<]
-May 25 12:21:00 mgmt-b nrpe[18481]: Host 127.0.0.1 is not allowed to talk to us!
-May 25 12:21:00 mgmt-b nrpe[18481]: Connection from 127.0.0.1 closed.
-May 25 12:21:42 mgmt-b puppet-master[17710]: Compiled catalog for backup-b.foo.org.nz in environment production in 0.05 seconds
-May 25 12:22:00 mgmt-b nrpe[18596]: CONN_CHECK_PEER: checking if host is allowed: 127.0.0.1 port 17622
-May 25 12:22:00 mgmt-b nrpe[18596]: Connection from 127.0.0.1 port 17622
-May 25 12:22:00 mgmt-b nrpe[18596]: is_an_allowed_host (AF_INET): is host >127.0.0.1< an allowed host >mgmt-b.foo.org.nz<
-May 25 12:22:00 mgmt-b nrpe[18596]: message repeated 2 times: [ is_an_allowed_host (AF_INET): is host >127.0.0.1< an allowed host >mgmt-b.foo.org.nz<]
-May 25 12:22:00 mgmt-b nrpe[18596]: Host 127.0.0.1 is not allowed to talk to us!
-May 25 12:22:00 mgmt-b nrpe[18596]: Connection from 127.0.0.1 closed.
-May 25 12:23:08 mgmt-b nrpe[18716]: CONN_CHECK_PEER: checking if host is allowed: 127.0.0.1 port 47318
-May 25 12:23:08 mgmt-b nrpe[18716]: Connection from 127.0.0.1 port 47318
-May 25 12:23:08 mgmt-b nrpe[18716]: is_an_allowed_host (AF_INET): is host >127.0.0.1< an allowed host >mgmt-b.foo.org.nz<
-May 25 12:23:08 mgmt-b nrpe[18716]: message repeated 2 times: [ is_an_allowed_host (AF_INET): is host >127.0.0.1< an allowed host >mgmt-b.foo.org.nz<]
-May 25 12:23:08 mgmt-b nrpe[18716]: Host 127.0.0.1 is not allowed to talk to us!
-May 25 12:23:08 mgmt-b nrpe[18716]: Connection from 127.0.0.1 closed.
-May 25 12:26:07 mgmt-b puppet-master[17710]: Compiled catalog for db-b.foo.org.nz in environment production in 0.07 seconds
-May 25 12:27:00 mgmt-b nrpe[19125]: CONN_CHECK_PEER: checking if host is allowed: 127.0.0.1 port 18648
-May 25 12:27:00 mgmt-b nrpe[19125]: Connection from 127.0.0.1 port 18648
-May 25 12:27:00 mgmt-b nrpe[19125]: is_an_allowed_host (AF_INET): is host >127.0.0.1< an allowed host >mgmt-b.foo.org.nz<
-May 25 12:27:00 mgmt-b nrpe[19125]: message repeated 2 times: [ is_an_allowed_host (AF_INET): is host >127.0.0.1< an allowed host >mgmt-b.foo.org.nz<]
-May 25 12:27:00 mgmt-b nrpe[19125]: Host 127.0.0.1 is not allowed to talk to us!
-May 25 12:27:00 mgmt-b nrpe[19125]: Connection from 127.0.0.1 closed.
-May 25 12:27:03 mgmt-b puppet-agent[19128]: Using configured environment 'production'
-May 25 12:27:03 mgmt-b puppet-agent[19128]: Retrieving pluginfacts
-May 25 12:27:03 mgmt-b puppet-agent[19128]: Retrieving plugin
-May 25 12:27:03 mgmt-b puppet-agent[19128]: Retrieving locales
-May 25 12:27:03 mgmt-b puppet-master[17710]: Compiled catalog for mgmt-b.foo.org.nz in environment production in 0.09 seconds
-May 25 12:27:03 mgmt-b puppet-agent[19128]: Caching catalog for mgmt-b.foo.org.nz
-May 25 12:27:04 mgmt-b puppet-agent[19128]: Applying configuration version '1653481623'
-May 25 12:27:04 mgmt-b puppet-agent[19128]: (/Stage[main]/Nrpe::Config/Nagios_hostgroup[hosts-alive]/members) members changed 'mgmt-b.foo.org.nz,backup-b.foo.org.nz,db-b.foo.org.nz,app-b.foo.org.nz' to '127.0.0.1,backup-b.foo.org.nz,db-b.foo.org.nz,app-b.foo.org.nz'
-May 25 12:27:04 mgmt-b puppet-agent[19128]: Computing checksum on file /etc/nagios3/conf.d/ppt_hostgroups.cfg
-May 25 12:27:04 mgmt-b puppet-agent[19128]: Applied catalog in 0.46 seconds
-May 25 12:27:28 mgmt-b systemd[1]: Stopping Nagios Remote Plugin Executor...
-May 25 12:27:28 mgmt-b nrpe[18268]: Caught SIGTERM - shutting down...
-May 25 12:27:28 mgmt-b nrpe[18268]: WARNING: remove_pid_file() seteuid(0): Operation not permitted
-May 25 12:27:28 mgmt-b nrpe[18268]: Daemon shutdown
-May 25 12:27:28 mgmt-b systemd[1]: Stopped Nagios Remote Plugin Executor.
-May 25 12:27:28 mgmt-b systemd[1]: Started Nagios Remote Plugin Executor.
-May 25 12:27:28 mgmt-b nrpe[19260]: parse_allowed_hosts: parsing the allowed host string >mgmt-b.foo.org.nz< to add to ACL list
-May 25 12:27:28 mgmt-b nrpe[19260]: parse_allowed_hosts: ADDING this record (mgmt-b.foo.org.nz) to ACL list!
-May 25 12:27:28 mgmt-b nrpe[19260]: add_ipv4_to_acl: checking ip-address >mgmt-b.foo.org.nz<
-May 25 12:27:28 mgmt-b nrpe[19260]: add_ipv4_to_acl: Error, ip-address >mgmt-b.foo.org.nz< incorrect format, continue with next check ...
-May 25 12:27:28 mgmt-b nrpe[19260]: ADD_DOMAIN_TO_ACL: added >mgmt-b.foo.org.nz< to acl list!
-May 25 12:27:28 mgmt-b nrpe[19260]: parse_allowed_hosts: Record added to ACL list!
-May 25 12:27:28 mgmt-b nrpe[19260]: Showing ACL lists for both IP and DOMAIN acl's:
-May 25 12:27:28 mgmt-b nrpe[19260]:   DNS ACL: mgmt-b.foo.org.nz
-May 25 12:27:28 mgmt-b nrpe[19260]: Added command[check_users]=/usr/lib/nagios/plugins/check_users -w 0 -c 2
-May 25 12:27:28 mgmt-b nrpe[19260]: Added command[check_load]=/usr/lib/nagios/plugins/check_load -r -w .15,.10,.05 -c .30,.25,.20
-May 25 12:27:28 mgmt-b nrpe[19260]: Added command[check_hda1]=/usr/lib/nagios/plugins/check_disk -w 20% -c 10% -p /dev/sda1
-May 25 12:27:28 mgmt-b nrpe[19260]: Added command[check_zombie_procs]=/usr/lib/nagios/plugins/check_procs -w 5 -c 10 -s Z
-May 25 12:27:28 mgmt-b nrpe[19260]: Added command[check_total_procs]=/usr/lib/nagios/plugins/check_procs -w 150 -c 200
-May 25 12:27:28 mgmt-b nrpe[19260]: Added command[check_hd]=/usr/lib/nagios/plugins/check_disk -w 20% -c 10% -p /dev/sda1
-May 25 12:27:28 mgmt-b nrpe[19260]: Added command[check_ping]=/usr/lib/nagios/plugins/check_ping -H localhost -w 10,2% -c 20,5%
-May 25 12:27:28 mgmt-b nrpe[19260]: INFO: SSL/TLS initialized. All network traffic will be encrypted.
-May 25 12:27:28 mgmt-b nrpe[19260]: Starting up daemon
-May 25 12:27:28 mgmt-b nrpe[19260]: SETUP_WAIT_CONN FOR: IPv4 address: 0.0.0.0 ((null))
-May 25 12:27:28 mgmt-b nrpe[19260]: Server listening on 0.0.0.0 port 5666.
-May 25 12:27:28 mgmt-b nrpe[19260]: SETUP_WAIT_CONN FOR: IPv4 address: :: ((null))
-May 25 12:27:28 mgmt-b nrpe[19260]: Server listening on :: port 5666.
-May 25 12:27:28 mgmt-b nrpe[19260]: Warning: Daemon is configured to accept command arguments from clients!
-May 25 12:27:28 mgmt-b nrpe[19260]: Listening for connections on port 5666
-May 25 12:27:28 mgmt-b nrpe[19260]: Allowing connections from: mgmt-b.foo.org.nz
-May 25 12:27:36 mgmt-b systemd[1]: Stopping LSB: nagios host/service/network monitoring and management system...
-May 25 12:27:36 mgmt-b nagios3[19284]:  * Stopping nagios3 monitoring daemon nagios3
-May 25 12:27:36 mgmt-b nagios3[19284]:    ...done.
-May 25 12:27:36 mgmt-b systemd[1]: Stopped LSB: nagios host/service/network monitoring and management system.
-May 25 12:27:36 mgmt-b systemd[1]: Starting LSB: nagios host/service/network monitoring and management system...
-May 25 12:27:36 mgmt-b nagios3[19307]:  * Starting nagios3 monitoring daemon nagios3
-May 25 12:27:36 mgmt-b nagios3[19307]: Nagios Core 3.5.1
-May 25 12:27:36 mgmt-b nagios3[19307]: Copyright (c) 2009-2011 Nagios Core Development Team and Community Contributors
-May 25 12:27:36 mgmt-b nagios3[19307]: Copyright (c) 1999-2009 Ethan Galstad
-May 25 12:27:36 mgmt-b nagios3[19307]: Last Modified: 08-30-2013
-May 25 12:27:36 mgmt-b nagios3[19307]: License: GPL
-May 25 12:27:36 mgmt-b nagios3[19307]: Website: http://www.nagios.org
-May 25 12:27:36 mgmt-b nagios3[19307]: Reading configuration data...
-May 25 12:27:36 mgmt-b nagios3[19307]:    Read main config file okay...
-May 25 12:27:36 mgmt-b nagios3[19307]: Processing object config file '/etc/nagios3/commands.cfg'...
-May 25 12:27:36 mgmt-b nagios3[19307]: Processing object config directory '/etc/nagios-plugins/config'...
-May 25 12:27:36 mgmt-b nagios3[19307]: Processing object config file '/etc/nagios-plugins/config/check_nrpe.cfg'...
-May 25 12:27:36 mgmt-b nagios3[19307]: Processing object config file '/etc/nagios-plugins/config/load.cfg'...
-May 25 12:27:36 mgmt-b nagios3[19307]: Processing object config file '/etc/nagios-plugins/config/fping.cfg'...
-May 25 12:27:36 mgmt-b nagios3[19307]: Processing object config file '/etc/nagios-plugins/config/nt.cfg'...
-May 25 12:27:36 mgmt-b nagios3[19307]: Processing object config file '/etc/nagios-plugins/config/netware.cfg'...
-May 25 12:27:36 mgmt-b nagios3[19307]: Processing object config file '/etc/nagios-plugins/config/ftp.cfg'...
-May 25 12:27:36 mgmt-b nagios3[19307]: Processing object config file '/etc/nagios-plugins/config/breeze.cfg'...
-May 25 12:27:36 mgmt-b nagios3[19307]: Processing object config file '/etc/nagios-plugins/config/flexlm.cfg'...
-May 25 12:27:36 mgmt-b nagios3[19307]: Processing object config file '/etc/nagios-plugins/config/dns.cfg'...
-May 25 12:27:36 mgmt-b nagios3[19307]: Processing object config file '/etc/nagios-plugins/config/disk.cfg'...
-May 25 12:27:36 mgmt-b nagios3[19307]: Processing object config file '/etc/nagios-plugins/config/dummy.cfg'...
-May 25 12:27:36 mgmt-b nagios3[19307]: Processing object config file '/etc/nagios-plugins/config/users.cfg'...
-May 25 12:27:36 mgmt-b nagios3[19307]: Processing object config file '/etc/nagios-plugins/config/mrtg.cfg'...
-May 25 12:27:36 mgmt-b nagios3[19307]: Processing object config file '/etc/nagios-plugins/config/mysql.cfg'...
-May 25 12:27:36 mgmt-b nagios3[19307]: Processing object config file '/etc/nagios-plugins/config/ssh.cfg'...
-May 25 12:27:36 mgmt-b nagios3[19307]: Processing object config file '/etc/nagios-plugins/config/telnet.cfg'...
-May 25 12:27:36 mgmt-b nagios3[19307]: Processing object config file '/etc/nagios-plugins/config/ntp.cfg'...
-May 25 12:27:36 mgmt-b nagios3[19307]: Processing object config file '/etc/nagios-plugins/config/slack.cfg'...
-May 25 12:27:36 mgmt-b nagios3[19307]: Processing object config file '/etc/nagios-plugins/config/dhcp.cfg'...
-May 25 12:27:36 mgmt-b nagios3[19307]: Processing object config file '/etc/nagios-plugins/config/tcp_udp.cfg'...
-May 25 12:27:36 mgmt-b nagios3[19307]: Processing object config file '/etc/nagios-plugins/config/ping.cfg'...
-May 25 12:27:36 mgmt-b nagios3[19307]: Processing object config file '/etc/nagios-plugins/config/ifstatus.cfg'...
-May 25 12:27:36 mgmt-b nagios3[19307]: Processing object config file '/etc/nagios-plugins/config/mailq.cfg'...
-May 25 12:27:36 mgmt-b nagios3[19307]: Processing object config file '/etc/nagios-plugins/config/ldap.cfg'...
-May 25 12:27:36 mgmt-b nagios3[19307]: Processing object config file '/etc/nagios-plugins/config/http.cfg'...
-May 25 12:27:36 mgmt-b nagios3[19307]: Processing object config file '/etc/nagios-plugins/config/games.cfg'...
-May 25 12:27:36 mgmt-b nagios3[19307]: Processing object config file '/etc/nagios-plugins/config/rpc-nfs.cfg'...
-May 25 12:27:36 mgmt-b nagios3[19307]: Processing object config file '/etc/nagios-plugins/config/snmp.cfg'...
-May 25 12:27:36 mgmt-b nagios3[19307]: Processing object config file '/etc/nagios-plugins/config/mail.cfg'...
-May 25 12:27:36 mgmt-b nagios3[19307]: Processing object config file '/etc/nagios-plugins/config/pgsql.cfg'...
-May 25 12:27:36 mgmt-b nagios3[19307]: Processing object config file '/etc/nagios-plugins/config/hppjd.cfg'...
-May 25 12:27:36 mgmt-b nagios3[19307]: Processing object config file '/etc/nagios-plugins/config/procs.cfg'...
-May 25 12:27:36 mgmt-b nagios3[19307]: Processing object config file '/etc/nagios-plugins/config/apt.cfg'...
-May 25 12:27:36 mgmt-b nagios3[19307]: Processing object config file '/etc/nagios-plugins/config/news.cfg'...
-May 25 12:27:36 mgmt-b nagios3[19307]: Processing object config file '/etc/nagios-plugins/config/real.cfg'...
-May 25 12:27:36 mgmt-b nagios3[19307]: Processing object config file '/etc/nagios-plugins/config/disk-smb.cfg'...
-May 25 12:27:36 mgmt-b nagios3[19307]: Processing object config directory '/etc/nagios3/conf.d'...
-May 25 12:27:36 mgmt-b nagios3[19307]: Processing object config file '/etc/nagios3/conf.d/ppt_hosts.cfg'...
-May 25 12:27:36 mgmt-b nagios3[19307]: Processing object config file '/etc/nagios3/conf.d/contacts_nagios2.cfg'...
-May 25 12:27:36 mgmt-b nagios3[19307]: Processing object config file '/etc/nagios3/conf.d/ppt_hostgroups.cfg'...
-May 25 12:27:36 mgmt-b nagios3[19307]: Processing object config file '/etc/nagios3/conf.d/ppt_contacts.cfg'...
-May 25 12:27:36 mgmt-b nagios3[19307]: Processing object config file '/etc/nagios3/conf.d/ppt_services.cfg'...
-May 25 12:27:36 mgmt-b nagios3[19307]: Processing object config file '/etc/nagios3/conf.d/services_nagios2.cfg'...
-May 25 12:27:36 mgmt-b nagios3[19307]: Processing object config file '/etc/nagios3/conf.d/generic-service_nagios2.cfg'...
-May 25 12:27:36 mgmt-b nagios3[19307]: Processing object config file '/etc/nagios3/conf.d/generic-host_nagios2.cfg'...
-May 25 12:27:36 mgmt-b nagios3[19307]: Processing object config file '/etc/nagios3/conf.d/extinfo_nagios2.cfg'...
-May 25 12:27:36 mgmt-b nagios3[19307]: Processing object config file '/etc/nagios3/conf.d/ppt_contactgroups.cfg'...
-May 25 12:27:36 mgmt-b nagios3[19307]: Processing object config file '/etc/nagios3/conf.d/timeperiods_nagios2.cfg'...
-May 25 12:27:36 mgmt-b nagios3[19307]: Processing object config file '/etc/nagios3/conf.d/localhost_nagios2.cfg'...
-May 25 12:27:36 mgmt-b systemd[1]: nagios3.service: Control process exited, code=exited status=1
-May 25 12:27:36 mgmt-b nagios3[19307]: Processing object config file '/etc/nagios3/conf.d/hostgroups_nagios2.cfg'...
-May 25 12:27:36 mgmt-b nagios3[19307]: Error: Could not find any host matching '127.0.0.1' (config file '/etc/nagios3/conf.d/ppt_hostgroups.cfg', starting on line 22)
-May 25 12:27:36 mgmt-b nagios3[19307]: Error: Could not expand members specified in hostgroup (config file '/etc/nagios3/conf.d/ppt_hostgroups.cfg', starting on line 22)
-May 25 12:27:36 mgmt-b nagios3[19307]:    Error processing object config files!
-May 25 12:27:36 mgmt-b nagios3[19307]: ***> One or more problems was encountered while processing the config files...
-May 25 12:27:36 mgmt-b nagios3[19307]:      Check your configuration file(s) to ensure that they contain valid
-May 25 12:27:36 mgmt-b nagios3[19307]:      directives and data defintions.  If you are upgrading from a previous
-May 25 12:27:36 mgmt-b nagios3[19307]:      version of Nagios, you should be aware that some variables/definitions
-May 25 12:27:36 mgmt-b nagios3[19307]:      may have been removed or modified in this version.  Make sure to read
-May 25 12:27:36 mgmt-b nagios3[19307]:      the HTML documentation regarding the config files, as well as the
-May 25 12:27:36 mgmt-b nagios3[19307]:      'Whats New' section to find out what has changed.
-May 25 12:27:36 mgmt-b systemd[1]: nagios3.service: Failed with result 'exit-code'.
-May 25 12:27:36 mgmt-b nagios3[19307]:  * errors in config!
-May 25 12:27:36 mgmt-b nagios3[19307]:    ...fail!
-May 25 12:27:36 mgmt-b systemd[1]: Failed to start LSB: nagios host/service/network monitoring and management system.
-May 25 12:28:43 mgmt-b systemd[1]: Starting LSB: nagios host/service/network monitoring and management system...
-May 25 12:28:43 mgmt-b nagios3[19438]:  * Starting nagios3 monitoring daemon nagios3
-May 25 12:28:43 mgmt-b nagios3[19438]: Nagios Core 3.5.1
-May 25 12:28:43 mgmt-b nagios3[19438]: Copyright (c) 2009-2011 Nagios Core Development Team and Community Contributors
-May 25 12:28:43 mgmt-b nagios3[19438]: Copyright (c) 1999-2009 Ethan Galstad
-May 25 12:28:43 mgmt-b nagios3[19438]: Last Modified: 08-30-2013
-May 25 12:28:43 mgmt-b nagios3[19438]: License: GPL
-May 25 12:28:43 mgmt-b nagios3[19438]: Website: http://www.nagios.org
-May 25 12:28:43 mgmt-b nagios3[19438]: Reading configuration data...
-May 25 12:28:43 mgmt-b nagios3[19438]:    Read main config file okay...
-May 25 12:28:43 mgmt-b nagios3[19438]: Processing object config file '/etc/nagios3/commands.cfg'...
-May 25 12:28:43 mgmt-b nagios3[19438]: Processing object config directory '/etc/nagios-plugins/config'...
-May 25 12:28:43 mgmt-b nagios3[19438]: Processing object config file '/etc/nagios-plugins/config/check_nrpe.cfg'...
-May 25 12:28:43 mgmt-b nagios3[19438]: Processing object config file '/etc/nagios-plugins/config/load.cfg'...
-May 25 12:28:43 mgmt-b nagios3[19438]: Processing object config file '/etc/nagios-plugins/config/fping.cfg'...
-May 25 12:28:43 mgmt-b nagios3[19438]: Processing object config file '/etc/nagios-plugins/config/nt.cfg'...
-May 25 12:28:43 mgmt-b nagios3[19438]: Processing object config file '/etc/nagios-plugins/config/netware.cfg'...
-May 25 12:28:43 mgmt-b nagios3[19438]: Processing object config file '/etc/nagios-plugins/config/ftp.cfg'...
-May 25 12:28:43 mgmt-b nagios3[19438]: Processing object config file '/etc/nagios-plugins/config/breeze.cfg'...
-May 25 12:28:43 mgmt-b nagios3[19438]: Processing object config file '/etc/nagios-plugins/config/flexlm.cfg'...
-May 25 12:28:43 mgmt-b nagios3[19438]: Processing object config file '/etc/nagios-plugins/config/dns.cfg'...
-May 25 12:28:43 mgmt-b nagios3[19438]: Processing object config file '/etc/nagios-plugins/config/disk.cfg'...
-May 25 12:28:43 mgmt-b nagios3[19438]: Processing object config file '/etc/nagios-plugins/config/dummy.cfg'...
-May 25 12:28:43 mgmt-b nagios3[19438]: Processing object config file '/etc/nagios-plugins/config/users.cfg'...
-May 25 12:28:43 mgmt-b nagios3[19438]: Processing object config file '/etc/nagios-plugins/config/mrtg.cfg'...
-May 25 12:28:43 mgmt-b nagios3[19438]: Processing object config file '/etc/nagios-plugins/config/mysql.cfg'...
-May 25 12:28:43 mgmt-b nagios3[19438]: Processing object config file '/etc/nagios-plugins/config/ssh.cfg'...
-May 25 12:28:43 mgmt-b nagios3[19438]: Processing object config file '/etc/nagios-plugins/config/telnet.cfg'...
-May 25 12:28:43 mgmt-b nagios3[19438]: Processing object config file '/etc/nagios-plugins/config/ntp.cfg'...
-May 25 12:28:43 mgmt-b nagios3[19438]: Processing object config file '/etc/nagios-plugins/config/slack.cfg'...
-May 25 12:28:43 mgmt-b nagios3[19438]: Processing object config file '/etc/nagios-plugins/config/dhcp.cfg'...
-May 25 12:28:43 mgmt-b nagios3[19438]: Processing object config file '/etc/nagios-plugins/config/tcp_udp.cfg'...
-May 25 12:28:43 mgmt-b nagios3[19438]: Processing object config file '/etc/nagios-plugins/config/ping.cfg'...
-May 25 12:28:43 mgmt-b nagios3[19438]: Processing object config file '/etc/nagios-plugins/config/ifstatus.cfg'...
-May 25 12:28:43 mgmt-b nagios3[19438]: Processing object config file '/etc/nagios-plugins/config/mailq.cfg'...
-May 25 12:28:43 mgmt-b nagios3[19438]: Processing object config file '/etc/nagios-plugins/config/ldap.cfg'...
-May 25 12:28:43 mgmt-b nagios3[19438]: Processing object config file '/etc/nagios-plugins/config/http.cfg'...
-May 25 12:28:43 mgmt-b nagios3[19438]: Processing object config file '/etc/nagios-plugins/config/games.cfg'...
-May 25 12:28:43 mgmt-b nagios3[19438]: Processing object config file '/etc/nagios-plugins/config/rpc-nfs.cfg'...
-May 25 12:28:43 mgmt-b nagios3[19438]: Processing object config file '/etc/nagios-plugins/config/snmp.cfg'...
-May 25 12:28:43 mgmt-b nagios3[19438]: Processing object config file '/etc/nagios-plugins/config/mail.cfg'...
-May 25 12:28:43 mgmt-b nagios3[19438]: Processing object config file '/etc/nagios-plugins/config/pgsql.cfg'...
-May 25 12:28:43 mgmt-b nagios3[19438]: Processing object config file '/etc/nagios-plugins/config/hppjd.cfg'...
-May 25 12:28:43 mgmt-b nagios3[19438]: Processing object config file '/etc/nagios-plugins/config/procs.cfg'...
-May 25 12:28:43 mgmt-b nagios3[19438]: Processing object config file '/etc/nagios-plugins/config/apt.cfg'...
-May 25 12:28:43 mgmt-b nagios3[19438]: Processing object config file '/etc/nagios-plugins/config/news.cfg'...
-May 25 12:28:43 mgmt-b nagios3[19438]: Processing object config file '/etc/nagios-plugins/config/real.cfg'...
-May 25 12:28:43 mgmt-b nagios3[19438]: Processing object config file '/etc/nagios-plugins/config/disk-smb.cfg'...
-May 25 12:28:43 mgmt-b nagios3[19438]: Processing object config directory '/etc/nagios3/conf.d'...
-May 25 12:28:43 mgmt-b nagios3[19438]: Processing object config file '/etc/nagios3/conf.d/ppt_hosts.cfg'...
-May 25 12:28:43 mgmt-b nagios3[19438]: Processing object config file '/etc/nagios3/conf.d/contacts_nagios2.cfg'...
-May 25 12:28:43 mgmt-b nagios3[19438]: Processing object config file '/etc/nagios3/conf.d/ppt_hostgroups.cfg'...
-May 25 12:28:43 mgmt-b nagios3[19438]: Processing object config file '/etc/nagios3/conf.d/ppt_contacts.cfg'...
-May 25 12:28:43 mgmt-b nagios3[19438]: Processing object config file '/etc/nagios3/conf.d/ppt_services.cfg'...
-May 25 12:28:43 mgmt-b nagios3[19438]: Processing object config file '/etc/nagios3/conf.d/services_nagios2.cfg'...
-May 25 12:28:43 mgmt-b nagios3[19438]: Processing object config file '/etc/nagios3/conf.d/generic-service_nagios2.cfg'...
-May 25 12:28:43 mgmt-b nagios3[19438]: Processing object config file '/etc/nagios3/conf.d/generic-host_nagios2.cfg'...
-May 25 12:28:43 mgmt-b nagios3[19438]: Processing object config file '/etc/nagios3/conf.d/extinfo_nagios2.cfg'...
-May 25 12:28:43 mgmt-b nagios3[19438]: Processing object config file '/etc/nagios3/conf.d/ppt_contactgroups.cfg'...
-May 25 12:28:43 mgmt-b nagios3[19438]: Processing object config file '/etc/nagios3/conf.d/timeperiods_nagios2.cfg'...
-May 25 12:28:43 mgmt-b nagios3[19438]: Processing object config file '/etc/nagios3/conf.d/localhost_nagios2.cfg'...
-May 25 12:28:43 mgmt-b nagios3[19438]: Processing object config file '/etc/nagios3/conf.d/hostgroups_nagios2.cfg'...
-May 25 12:28:43 mgmt-b nagios3[19438]: Error: Could not find any host matching '127.0.0.1' (config file '/etc/nagios3/conf.d/ppt_hostgroups.cfg', starting on line 22)
-May 25 12:28:43 mgmt-b nagios3[19438]: Error: Could not expand members specified in hostgroup (config file '/etc/nagios3/conf.d/ppt_hostgroups.cfg', starting on line 22)
-May 25 12:28:43 mgmt-b nagios3[19438]:    Error processing object config files!
-May 25 12:28:43 mgmt-b nagios3[19438]: ***> One or more problems was encountered while processing the config files...
-May 25 12:28:43 mgmt-b nagios3[19438]:      Check your configuration file(s) to ensure that they contain valid
-May 25 12:28:43 mgmt-b nagios3[19438]:      directives and data defintions.  If you are upgrading from a previous
-May 25 12:28:43 mgmt-b nagios3[19438]:      version of Nagios, you should be aware that some variables/definitions
-May 25 12:28:43 mgmt-b nagios3[19438]:      may have been removed or modified in this version.  Make sure to read
-May 25 12:28:43 mgmt-b nagios3[19438]:      the HTML documentation regarding the config files, as well as the
-May 25 12:28:43 mgmt-b nagios3[19438]:      'Whats New' section to find out what has changed.
-May 25 12:28:43 mgmt-b nagios3[19438]:  * errors in config!
-May 25 12:28:43 mgmt-b nagios3[19438]:    ...fail!
-May 25 12:28:43 mgmt-b systemd[1]: nagios3.service: Control process exited, code=exited status=1
-May 25 12:28:43 mgmt-b systemd[1]: nagios3.service: Failed with result 'exit-code'.
-May 25 12:28:43 mgmt-b systemd[1]: Failed to start LSB: nagios host/service/network monitoring and management system.
-May 25 12:28:49 mgmt-b systemd[1]: Starting LSB: nagios host/service/network monitoring and management system...
-May 25 12:28:49 mgmt-b nagios3[19487]:  * Starting nagios3 monitoring daemon nagios3
-May 25 12:28:49 mgmt-b nagios3[19487]: Nagios Core 3.5.1
-May 25 12:28:49 mgmt-b nagios3[19487]: Copyright (c) 2009-2011 Nagios Core Development Team and Community Contributors
-May 25 12:28:49 mgmt-b nagios3[19487]: Copyright (c) 1999-2009 Ethan Galstad
-May 25 12:28:49 mgmt-b nagios3[19487]: Last Modified: 08-30-2013
-May 25 12:28:49 mgmt-b nagios3[19487]: License: GPL
-May 25 12:28:49 mgmt-b nagios3[19487]: Website: http://www.nagios.org
-May 25 12:28:49 mgmt-b nagios3[19487]: Reading configuration data...
-May 25 12:28:49 mgmt-b nagios3[19487]:    Read main config file okay...
-May 25 12:28:49 mgmt-b nagios3[19487]: Processing object config file '/etc/nagios3/commands.cfg'...
-May 25 12:28:49 mgmt-b nagios3[19487]: Processing object config directory '/etc/nagios-plugins/config'...
-May 25 12:28:49 mgmt-b nagios3[19487]: Processing object config file '/etc/nagios-plugins/config/check_nrpe.cfg'...
-May 25 12:28:49 mgmt-b nagios3[19487]: Processing object config file '/etc/nagios-plugins/config/load.cfg'...
-May 25 12:28:49 mgmt-b nagios3[19487]: Processing object config file '/etc/nagios-plugins/config/fping.cfg'...
-May 25 12:28:49 mgmt-b nagios3[19487]: Processing object config file '/etc/nagios-plugins/config/nt.cfg'...
-May 25 12:28:49 mgmt-b nagios3[19487]: Processing object config file '/etc/nagios-plugins/config/netware.cfg'...
-May 25 12:28:49 mgmt-b nagios3[19487]: Processing object config file '/etc/nagios-plugins/config/ftp.cfg'...
-May 25 12:28:49 mgmt-b nagios3[19487]: Processing object config file '/etc/nagios-plugins/config/breeze.cfg'...
-May 25 12:28:49 mgmt-b nagios3[19487]: Processing object config file '/etc/nagios-plugins/config/flexlm.cfg'...
-May 25 12:28:49 mgmt-b nagios3[19487]: Processing object config file '/etc/nagios-plugins/config/dns.cfg'...
-May 25 12:28:49 mgmt-b nagios3[19487]: Processing object config file '/etc/nagios-plugins/config/disk.cfg'...
-May 25 12:28:49 mgmt-b nagios3[19487]: Processing object config file '/etc/nagios-plugins/config/dummy.cfg'...
-May 25 12:28:49 mgmt-b nagios3[19487]: Processing object config file '/etc/nagios-plugins/config/users.cfg'...
-May 25 12:28:49 mgmt-b nagios3[19487]: Processing object config file '/etc/nagios-plugins/config/mrtg.cfg'...
-May 25 12:28:49 mgmt-b nagios3[19487]: Processing object config file '/etc/nagios-plugins/config/mysql.cfg'...
-May 25 12:28:49 mgmt-b nagios3[19487]: Processing object config file '/etc/nagios-plugins/config/ssh.cfg'...
-May 25 12:28:49 mgmt-b nagios3[19487]: Processing object config file '/etc/nagios-plugins/config/telnet.cfg'...
-May 25 12:28:49 mgmt-b nagios3[19487]: Processing object config file '/etc/nagios-plugins/config/ntp.cfg'...
-May 25 12:28:49 mgmt-b nagios3[19487]: Processing object config file '/etc/nagios-plugins/config/slack.cfg'...
-May 25 12:28:49 mgmt-b nagios3[19487]: Processing object config file '/etc/nagios-plugins/config/dhcp.cfg'...
-May 25 12:28:49 mgmt-b nagios3[19487]: Processing object config file '/etc/nagios-plugins/config/tcp_udp.cfg'...
-May 25 12:28:49 mgmt-b nagios3[19487]: Processing object config file '/etc/nagios-plugins/config/ping.cfg'...
-May 25 12:28:49 mgmt-b nagios3[19487]: Processing object config file '/etc/nagios-plugins/config/ifstatus.cfg'...
-May 25 12:28:49 mgmt-b nagios3[19487]: Processing object config file '/etc/nagios-plugins/config/mailq.cfg'...
-May 25 12:28:49 mgmt-b nagios3[19487]: Processing object config file '/etc/nagios-plugins/config/ldap.cfg'...
-May 25 12:28:49 mgmt-b nagios3[19487]: Processing object config file '/etc/nagios-plugins/config/http.cfg'...
-May 25 12:28:49 mgmt-b nagios3[19487]: Processing object config file '/etc/nagios-plugins/config/games.cfg'...
-May 25 12:28:49 mgmt-b nagios3[19487]: Processing object config file '/etc/nagios-plugins/config/rpc-nfs.cfg'...
-May 25 12:28:49 mgmt-b nagios3[19487]: Processing object config file '/etc/nagios-plugins/config/snmp.cfg'...
-May 25 12:28:49 mgmt-b nagios3[19487]: Processing object config file '/etc/nagios-plugins/config/mail.cfg'...
-May 25 12:28:49 mgmt-b nagios3[19487]: Processing object config file '/etc/nagios-plugins/config/pgsql.cfg'...
-May 25 12:28:49 mgmt-b nagios3[19487]: Processing object config file '/etc/nagios-plugins/config/hppjd.cfg'...
-May 25 12:28:49 mgmt-b nagios3[19487]: Processing object config file '/etc/nagios-plugins/config/procs.cfg'...
-May 25 12:28:49 mgmt-b nagios3[19487]: Processing object config file '/etc/nagios-plugins/config/apt.cfg'...
-May 25 12:28:49 mgmt-b nagios3[19487]: Processing object config file '/etc/nagios-plugins/config/news.cfg'...
-May 25 12:28:49 mgmt-b nagios3[19487]: Processing object config file '/etc/nagios-plugins/config/real.cfg'...
-May 25 12:28:49 mgmt-b nagios3[19487]: Processing object config file '/etc/nagios-plugins/config/disk-smb.cfg'...
-May 25 12:28:49 mgmt-b nagios3[19487]: Processing object config directory '/etc/nagios3/conf.d'...
-May 25 12:28:49 mgmt-b nagios3[19487]: Processing object config file '/etc/nagios3/conf.d/ppt_hosts.cfg'...
-May 25 12:28:49 mgmt-b nagios3[19487]: Processing object config file '/etc/nagios3/conf.d/contacts_nagios2.cfg'...
-May 25 12:28:49 mgmt-b nagios3[19487]: Processing object config file '/etc/nagios3/conf.d/ppt_hostgroups.cfg'...
-May 25 12:28:49 mgmt-b nagios3[19487]: Processing object config file '/etc/nagios3/conf.d/ppt_contacts.cfg'...
-May 25 12:28:49 mgmt-b nagios3[19487]: Processing object config file '/etc/nagios3/conf.d/ppt_services.cfg'...
-May 25 12:28:49 mgmt-b nagios3[19487]: Processing object config file '/etc/nagios3/conf.d/services_nagios2.cfg'...
-May 25 12:28:49 mgmt-b nagios3[19487]: Processing object config file '/etc/nagios3/conf.d/generic-service_nagios2.cfg'...
-May 25 12:28:49 mgmt-b nagios3[19487]: Processing object config file '/etc/nagios3/conf.d/generic-host_nagios2.cfg'...
-May 25 12:28:49 mgmt-b nagios3[19487]: Processing object config file '/etc/nagios3/conf.d/extinfo_nagios2.cfg'...
-May 25 12:28:49 mgmt-b nagios3[19487]: Processing object config file '/etc/nagios3/conf.d/ppt_contactgroups.cfg'...
-May 25 12:28:49 mgmt-b nagios3[19487]: Processing object config file '/etc/nagios3/conf.d/timeperiods_nagios2.cfg'...
-May 25 12:28:49 mgmt-b nagios3[19487]: Processing object config file '/etc/nagios3/conf.d/localhost_nagios2.cfg'...
-May 25 12:28:49 mgmt-b nagios3[19487]: Processing object config file '/etc/nagios3/conf.d/hostgroups_nagios2.cfg'...
-May 25 12:28:49 mgmt-b nagios3[19487]: Error: Could not find any host matching '127.0.0.1' (config file '/etc/nagios3/conf.d/ppt_hostgroups.cfg', starting on line 22)
-May 25 12:28:49 mgmt-b nagios3[19487]: Error: Could not expand members specified in hostgroup (config file '/etc/nagios3/conf.d/ppt_hostgroups.cfg', starting on line 22)
-May 25 12:28:49 mgmt-b nagios3[19487]:    Error processing object config files!
-May 25 12:28:49 mgmt-b nagios3[19487]: ***> One or more problems was encountered while processing the config files...
-May 25 12:28:49 mgmt-b nagios3[19487]:      Check your configuration file(s) to ensure that they contain valid
-May 25 12:28:49 mgmt-b nagios3[19487]:      directives and data defintions.  If you are upgrading from a previous
-May 25 12:28:49 mgmt-b nagios3[19487]:      version of Nagios, you should be aware that some variables/definitions
-May 25 12:28:49 mgmt-b nagios3[19487]:      may have been removed or modified in this version.  Make sure to read
-May 25 12:28:49 mgmt-b nagios3[19487]:      the HTML documentation regarding the config files, as well as the
-May 25 12:28:49 mgmt-b nagios3[19487]:      'Whats New' section to find out what has changed.
-May 25 12:28:49 mgmt-b nagios3[19487]:  * errors in config!
-May 25 12:28:49 mgmt-b nagios3[19487]:    ...fail!
-May 25 12:28:49 mgmt-b systemd[1]: nagios3.service: Control process exited, code=exited status=1
-May 25 12:28:49 mgmt-b systemd[1]: nagios3.service: Failed with result 'exit-code'.
-May 25 12:28:49 mgmt-b systemd[1]: Failed to start LSB: nagios host/service/network monitoring and management system.
-May 25 12:28:56 mgmt-b puppet-agent[19537]: Using configured environment 'production'
-May 25 12:28:56 mgmt-b puppet-agent[19537]: Retrieving pluginfacts
-May 25 12:28:56 mgmt-b puppet-agent[19537]: Retrieving plugin
-May 25 12:28:56 mgmt-b puppet-agent[19537]: Retrieving locales
-May 25 12:28:56 mgmt-b puppet-master[17710]: Compiled catalog for mgmt-b.foo.org.nz in environment production in 0.08 seconds
-May 25 12:28:56 mgmt-b puppet-agent[19537]: Caching catalog for mgmt-b.foo.org.nz
-May 25 12:28:57 mgmt-b puppet-agent[19537]: Applying configuration version '1653481736'
-May 25 12:28:57 mgmt-b puppet-agent[19537]: (/Stage[main]/Nrpe::Config/Nagios_hostgroup[hosts-alive]/members) members changed '127.0.0.1,backup-b.foo.org.nz,db-b.foo.org.nz,app-b.foo.org.nz' to 'localhost,backup-b.foo.org.nz,db-b.foo.org.nz,app-b.foo.org.nz'
-May 25 12:28:57 mgmt-b puppet-agent[19537]: Computing checksum on file /etc/nagios3/conf.d/ppt_hostgroups.cfg
-May 25 12:28:57 mgmt-b systemd[1]: Reloading.
-May 25 12:28:58 mgmt-b systemd[1]: Starting LSB: nagios host/service/network monitoring and management system...
-May 25 12:28:58 mgmt-b nagios3[19631]:  * Starting nagios3 monitoring daemon nagios3
-May 25 12:28:58 mgmt-b nagios3[19631]:    ...done.
-May 25 12:28:58 mgmt-b systemd[1]: Started LSB: nagios host/service/network monitoring and management system.
-May 25 12:28:58 mgmt-b puppet-agent[19537]: (/Stage[main]/Nagios::Service/Service[nagios3]/ensure) ensure changed 'stopped' to 'running'
-May 25 12:28:58 mgmt-b puppet-agent[19537]: (/Stage[main]/Nagios::Service/Service[nagios3]) Unscheduling refresh on Service[nagios3]
-May 25 12:28:58 mgmt-b puppet-agent[19537]: Applied catalog in 1.33 seconds
-May 25 12:29:01 mgmt-b systemd[1]: Stopping LSB: nagios host/service/network monitoring and management system...
-May 25 12:29:01 mgmt-b nagios3[19693]:  * Stopping nagios3 monitoring daemon nagios3
-May 25 12:29:01 mgmt-b nagios3[19693]:    ...done.
-May 25 12:29:01 mgmt-b systemd[1]: Stopped LSB: nagios host/service/network monitoring and management system.
-May 25 12:29:01 mgmt-b systemd[1]: Starting LSB: nagios host/service/network monitoring and management system...
-May 25 12:29:01 mgmt-b nagios3[19715]:  * Starting nagios3 monitoring daemon nagios3
-May 25 12:29:01 mgmt-b nagios3[19715]:    ...done.
-May 25 12:29:01 mgmt-b systemd[1]: Started LSB: nagios host/service/network monitoring and management system.
-May 25 12:30:27 mgmt-b systemd[1]: Stopping User Manager for UID 1000...
-May 25 12:30:27 mgmt-b systemd[6522]: Stopped target Default.
-May 25 12:30:27 mgmt-b systemd[6522]: Stopped target Basic System.
-May 25 12:30:27 mgmt-b systemd[6522]: Stopped target Sockets.
-May 25 12:30:27 mgmt-b systemd[6522]: Closed GnuPG cryptographic agent (ssh-agent emulation).
-May 25 12:30:27 mgmt-b systemd[6522]: Closed GnuPG cryptographic agent and passphrase cache (access for web browsers).
-May 25 12:30:27 mgmt-b systemd[6522]: Closed D-Bus User Message Bus Socket.
-May 25 12:30:27 mgmt-b systemd[6522]: Closed GnuPG cryptographic agent and passphrase cache.
-May 25 12:30:27 mgmt-b systemd[6522]: Closed GnuPG network certificate management daemon.
-May 25 12:30:27 mgmt-b systemd[6522]: Closed REST API socket for snapd user session agent.
-May 25 12:30:27 mgmt-b systemd[6522]: Stopped target Timers.
-May 25 12:30:27 mgmt-b systemd[6522]: Closed GnuPG cryptographic agent and passphrase cache (restricted).
-May 25 12:30:27 mgmt-b systemd[6522]: Stopped target Paths.
-May 25 12:30:27 mgmt-b systemd[6522]: Reached target Shutdown.
-May 25 12:30:27 mgmt-b systemd[6522]: Starting Exit the Session...
-May 25 12:30:27 mgmt-b systemd[6522]: Received SIGRTMIN+24 from PID 19924 (kill).
-May 25 12:30:27 mgmt-b systemd[1]: user@1000.service: Killing process 19924 (kill) with signal SIGKILL.
-May 25 12:30:27 mgmt-b systemd[1]: Stopped User Manager for UID 1000.
-May 25 12:30:27 mgmt-b systemd[1]: Removed slice User Slice of bitstudent.
-May 25 12:32:36 mgmt-b nrpe[20147]: CONN_CHECK_PEER: checking if host is allowed: 127.0.0.1 port 13489
-May 25 12:32:36 mgmt-b nrpe[20147]: Connection from 127.0.0.1 port 13489
-May 25 12:32:36 mgmt-b nrpe[20147]: is_an_allowed_host (AF_INET): is host >127.0.0.1< an allowed host >mgmt-b.foo.org.nz<
-May 25 12:32:36 mgmt-b nrpe[20147]: message repeated 2 times: [ is_an_allowed_host (AF_INET): is host >127.0.0.1< an allowed host >mgmt-b.foo.org.nz<]
-May 25 12:32:36 mgmt-b nrpe[20147]: Host 127.0.0.1 is not allowed to talk to us!
-May 25 12:32:36 mgmt-b nrpe[20147]: Connection from 127.0.0.1 closed.
-May 25 12:33:36 mgmt-b nrpe[20245]: CONN_CHECK_PEER: checking if host is allowed: 127.0.0.1 port 38065
-May 25 12:33:36 mgmt-b nrpe[20245]: Connection from 127.0.0.1 port 38065
-May 25 12:33:36 mgmt-b nrpe[20245]: is_an_allowed_host (AF_INET): is host >127.0.0.1< an allowed host >mgmt-b.foo.org.nz<
-May 25 12:33:36 mgmt-b nrpe[20245]: message repeated 2 times: [ is_an_allowed_host (AF_INET): is host >127.0.0.1< an allowed host >mgmt-b.foo.org.nz<]
-May 25 12:33:36 mgmt-b nrpe[20245]: Host 127.0.0.1 is not allowed to talk to us!
-May 25 12:33:36 mgmt-b nrpe[20245]: Connection from 127.0.0.1 closed.
-May 25 12:33:44 mgmt-b nrpe[20258]: CONN_CHECK_PEER: checking if host is allowed: 127.0.0.1 port 41137
-May 25 12:33:44 mgmt-b nrpe[20258]: Connection from 127.0.0.1 port 41137
-May 25 12:33:44 mgmt-b nrpe[20258]: is_an_allowed_host (AF_INET): is host >127.0.0.1< an allowed host >mgmt-b.foo.org.nz<
-May 25 12:33:44 mgmt-b nrpe[20258]: message repeated 2 times: [ is_an_allowed_host (AF_INET): is host >127.0.0.1< an allowed host >mgmt-b.foo.org.nz<]
-May 25 12:33:44 mgmt-b nrpe[20258]: Host 127.0.0.1 is not allowed to talk to us!
-May 25 12:33:44 mgmt-b nrpe[20258]: Connection from 127.0.0.1 closed.
-May 25 12:34:36 mgmt-b nrpe[20346]: CONN_CHECK_PEER: checking if host is allowed: 127.0.0.1 port 64177
-May 25 12:34:36 mgmt-b nrpe[20346]: Connection from 127.0.0.1 port 64177
-May 25 12:34:36 mgmt-b nrpe[20346]: is_an_allowed_host (AF_INET): is host >127.0.0.1< an allowed host >mgmt-b.foo.org.nz<
-May 25 12:34:36 mgmt-b nrpe[20346]: message repeated 2 times: [ is_an_allowed_host (AF_INET): is host >127.0.0.1< an allowed host >mgmt-b.foo.org.nz<]
-May 25 12:34:36 mgmt-b nrpe[20346]: Host 127.0.0.1 is not allowed to talk to us!
-May 25 12:34:36 mgmt-b nrpe[20346]: Connection from 127.0.0.1 closed.
-May 25 12:34:44 mgmt-b nrpe[20369]: CONN_CHECK_PEER: checking if host is allowed: 127.0.0.1 port 3250
-May 25 12:34:44 mgmt-b nrpe[20369]: Connection from 127.0.0.1 port 3250
-May 25 12:34:44 mgmt-b nrpe[20369]: is_an_allowed_host (AF_INET): is host >127.0.0.1< an allowed host >mgmt-b.foo.org.nz<
-May 25 12:34:44 mgmt-b nrpe[20369]: message repeated 2 times: [ is_an_allowed_host (AF_INET): is host >127.0.0.1< an allowed host >mgmt-b.foo.org.nz<]
-May 25 12:34:44 mgmt-b nrpe[20369]: Host 127.0.0.1 is not allowed to talk to us!
-May 25 12:34:44 mgmt-b nrpe[20369]: Connection from 127.0.0.1 closed.
-May 25 12:35:17 mgmt-b systemd[1]: Created slice User Slice of bitstudent.
-May 25 12:35:17 mgmt-b systemd[1]: Starting User Manager for UID 1000...
-May 25 12:35:17 mgmt-b systemd[1]: Started Session 33 of user bitstudent.
-May 25 12:35:17 mgmt-b systemd[20427]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
-May 25 12:35:17 mgmt-b systemd[20427]: Listening on GnuPG network certificate management daemon.
-May 25 12:35:17 mgmt-b systemd[20427]: Reached target Timers.
-May 25 12:35:17 mgmt-b systemd[20427]: Starting D-Bus User Message Bus Socket.
-May 25 12:35:17 mgmt-b systemd[20427]: Reached target Paths.
-May 25 12:35:17 mgmt-b systemd[20427]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
-May 25 12:35:17 mgmt-b systemd[20427]: Listening on REST API socket for snapd user session agent.
-May 25 12:35:17 mgmt-b systemd[20427]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
-May 25 12:35:17 mgmt-b systemd[20427]: Listening on GnuPG cryptographic agent and passphrase cache.
-May 25 12:35:17 mgmt-b systemd[20427]: Listening on D-Bus User Message Bus Socket.
-May 25 12:35:17 mgmt-b systemd[20427]: Reached target Sockets.
-May 25 12:35:17 mgmt-b systemd[20427]: Reached target Basic System.
-May 25 12:35:17 mgmt-b systemd[1]: Started User Manager for UID 1000.
-May 25 12:35:17 mgmt-b systemd[20427]: Reached target Default.
-May 25 12:35:17 mgmt-b systemd[20427]: Startup finished in 81ms.
-May 25 12:35:44 mgmt-b nrpe[20626]: CONN_CHECK_PEER: checking if host is allowed: 127.0.0.1 port 30898
-May 25 12:35:44 mgmt-b nrpe[20626]: Connection from 127.0.0.1 port 30898
-May 25 12:35:44 mgmt-b nrpe[20626]: is_an_allowed_host (AF_INET): is host >127.0.0.1< an allowed host >mgmt-b.foo.org.nz<
-May 25 12:35:44 mgmt-b nrpe[20626]: message repeated 2 times: [ is_an_allowed_host (AF_INET): is host >127.0.0.1< an allowed host >mgmt-b.foo.org.nz<]
-May 25 12:35:44 mgmt-b nrpe[20626]: Host 127.0.0.1 is not allowed to talk to us!
-May 25 12:35:44 mgmt-b nrpe[20626]: Connection from 127.0.0.1 closed.
-May 25 12:36:11 mgmt-b puppet-agent[20679]: Using configured environment 'production'
-May 25 12:36:11 mgmt-b puppet-agent[20679]: Retrieving pluginfacts
-May 25 12:36:11 mgmt-b puppet-agent[20679]: Retrieving plugin
-May 25 12:36:11 mgmt-b puppet-agent[20679]: Retrieving locales
-May 25 12:36:11 mgmt-b puppet-master[17710]: Compiled catalog for mgmt-b.foo.org.nz in environment production in 0.10 seconds
-May 25 12:36:11 mgmt-b puppet-agent[20679]: Caching catalog for mgmt-b.foo.org.nz
-May 25 12:36:12 mgmt-b puppet-agent[20679]: Applying configuration version '1653482171'
-May 25 12:36:12 mgmt-b puppet-agent[20679]: (/Stage[main]/Nrpe::Config/Nagios_hostgroup[hosts-alive]/members) members changed 'localhost,backup-b.foo.org.nz,db-b.foo.org.nz,app-b.foo.org.nz' to 'backup-b.foo.org.nz,db-b.foo.org.nz,app-b.foo.org.nz'
-May 25 12:36:12 mgmt-b puppet-agent[20679]: Computing checksum on file /etc/nagios3/conf.d/ppt_hostgroups.cfg
-May 25 12:36:12 mgmt-b puppet-agent[20679]: Applied catalog in 0.57 seconds
-May 25 12:36:15 mgmt-b systemd[1]: Stopping LSB: nagios host/service/network monitoring and management system...
-May 25 12:36:15 mgmt-b nagios3[20746]:  * Stopping nagios3 monitoring daemon nagios3
-May 25 12:36:15 mgmt-b nagios3[20746]:    ...done.
-May 25 12:36:15 mgmt-b systemd[1]: Stopped LSB: nagios host/service/network monitoring and management system.
-May 25 12:36:15 mgmt-b systemd[1]: Starting LSB: nagios host/service/network monitoring and management system...
-May 25 12:36:15 mgmt-b nagios3[20769]:  * Starting nagios3 monitoring daemon nagios3
-May 25 12:36:15 mgmt-b nagios3[20769]:    ...done.
-May 25 12:36:15 mgmt-b systemd[1]: Started LSB: nagios host/service/network monitoring and management system.
-May 25 12:36:42 mgmt-b nrpe[19260]: Caught SIGTERM - shutting down...
-May 25 12:36:42 mgmt-b nrpe[19260]: WARNING: remove_pid_file() seteuid(0): Operation not permitted
-May 25 12:36:42 mgmt-b systemd[1]: Stopping Nagios Remote Plugin Executor...
-May 25 12:36:42 mgmt-b nrpe[19260]: Daemon shutdown
-May 25 12:36:42 mgmt-b systemd[1]: Stopped Nagios Remote Plugin Executor.
-May 25 12:36:42 mgmt-b systemd[1]: Started Nagios Remote Plugin Executor.
-May 25 12:36:42 mgmt-b nrpe[20970]: parse_allowed_hosts: parsing the allowed host string >mgmt-b.foo.org.nz< to add to ACL list
-May 25 12:36:42 mgmt-b nrpe[20970]: parse_allowed_hosts: ADDING this record (mgmt-b.foo.org.nz) to ACL list!
-May 25 12:36:42 mgmt-b nrpe[20970]: add_ipv4_to_acl: checking ip-address >mgmt-b.foo.org.nz<
-May 25 12:36:42 mgmt-b nrpe[20970]: add_ipv4_to_acl: Error, ip-address >mgmt-b.foo.org.nz< incorrect format, continue with next check ...
-May 25 12:36:42 mgmt-b nrpe[20970]: ADD_DOMAIN_TO_ACL: added >mgmt-b.foo.org.nz< to acl list!
-May 25 12:36:42 mgmt-b nrpe[20970]: parse_allowed_hosts: Record added to ACL list!
-May 25 12:36:42 mgmt-b nrpe[20970]: Showing ACL lists for both IP and DOMAIN acl's:
-May 25 12:36:42 mgmt-b nrpe[20970]:   DNS ACL: mgmt-b.foo.org.nz
-May 25 12:36:42 mgmt-b nrpe[20970]: Added command[check_users]=/usr/lib/nagios/plugins/check_users -w 0 -c 2
-May 25 12:36:42 mgmt-b nrpe[20970]: Added command[check_load]=/usr/lib/nagios/plugins/check_load -r -w .15,.10,.05 -c .30,.25,.20
-May 25 12:36:42 mgmt-b nrpe[20970]: Added command[check_hda1]=/usr/lib/nagios/plugins/check_disk -w 20% -c 10% -p /dev/sda1
-May 25 12:36:42 mgmt-b nrpe[20970]: Added command[check_zombie_procs]=/usr/lib/nagios/plugins/check_procs -w 5 -c 10 -s Z
-May 25 12:36:42 mgmt-b nrpe[20970]: Added command[check_total_procs]=/usr/lib/nagios/plugins/check_procs -w 150 -c 200
-May 25 12:36:42 mgmt-b nrpe[20970]: Added command[check_hd]=/usr/lib/nagios/plugins/check_disk -w 20% -c 10% -p /dev/sda1
-May 25 12:36:42 mgmt-b nrpe[20970]: Added command[check_ping]=/usr/lib/nagios/plugins/check_ping -H localhost -w 10,2% -c 20,5%
-May 25 12:36:42 mgmt-b nrpe[20970]: INFO: SSL/TLS initialized. All network traffic will be encrypted.
-May 25 12:36:42 mgmt-b nrpe[20970]: Starting up daemon
-May 25 12:36:42 mgmt-b nrpe[20970]: SETUP_WAIT_CONN FOR: IPv4 address: 0.0.0.0 ((null))
-May 25 12:36:42 mgmt-b nrpe[20970]: Server listening on 0.0.0.0 port 5666.
-May 25 12:36:42 mgmt-b nrpe[20970]: SETUP_WAIT_CONN FOR: IPv4 address: :: ((null))
-May 25 12:36:42 mgmt-b nrpe[20970]: Server listening on :: port 5666.
-May 25 12:36:42 mgmt-b nrpe[20970]: Warning: Daemon is configured to accept command arguments from clients!
-May 25 12:36:42 mgmt-b nrpe[20970]: Listening for connections on port 5666
-May 25 12:36:42 mgmt-b nrpe[20970]: Allowing connections from: mgmt-b.foo.org.nz
-May 25 12:36:48 mgmt-b systemd[1]: Stopping User Manager for UID 1000...
-May 25 12:36:48 mgmt-b systemd[20427]: Stopped target Default.
-May 25 12:36:48 mgmt-b systemd[20427]: Stopped target Basic System.
-May 25 12:36:48 mgmt-b systemd[20427]: Stopped target Timers.
-May 25 12:36:48 mgmt-b systemd[20427]: Stopped target Sockets.
-May 25 12:36:48 mgmt-b systemd[20427]: Closed GnuPG network certificate management daemon.
-May 25 12:36:48 mgmt-b systemd[20427]: Closed GnuPG cryptographic agent and passphrase cache.
-May 25 12:36:48 mgmt-b systemd[20427]: Closed GnuPG cryptographic agent (ssh-agent emulation).
-May 25 12:36:48 mgmt-b systemd[20427]: Closed GnuPG cryptographic agent and passphrase cache (restricted).
-May 25 12:36:48 mgmt-b systemd[20427]: Closed REST API socket for snapd user session agent.
-May 25 12:36:48 mgmt-b systemd[20427]: Closed GnuPG cryptographic agent and passphrase cache (access for web browsers).
-May 25 12:36:48 mgmt-b systemd[20427]: Stopped target Paths.
-May 25 12:36:48 mgmt-b systemd[20427]: Closed D-Bus User Message Bus Socket.
-May 25 12:36:48 mgmt-b systemd[20427]: Reached target Shutdown.
-May 25 12:36:48 mgmt-b systemd[20427]: Starting Exit the Session...
-May 25 12:36:48 mgmt-b systemd[20427]: Received SIGRTMIN+24 from PID 20991 (kill).
-May 25 12:36:48 mgmt-b systemd[1]: user@1000.service: Killing process 20991 (kill) with signal SIGKILL.
-May 25 12:36:48 mgmt-b systemd[1]: Stopped User Manager for UID 1000.
-May 25 12:36:48 mgmt-b systemd[1]: Removed slice User Slice of bitstudent.
-May 25 12:39:05 mgmt-b systemd[1]: Starting Clean php session files...
-May 25 12:39:05 mgmt-b systemd[1]: Started Clean php session files.
-May 25 12:40:18 mgmt-b python3[1103]: 2022-05-25T12:40:18.276705Z INFO ExtHandler ExtHandler [HEARTBEAT] Agent WALinuxAgent-2.7.1.0 is running as the goal state agent [DEBUG HeartbeatCounter: 13;HeartbeatId: 8199D043-6892-4C72-9663-AB8B3E13B5D1;DroppedPackets: 0;UpdateGSErrors: 0;AutoUpdate: 1]
-May 25 12:47:49 mgmt-b puppet-master[17710]: Compiled catalog for mgmt-b.foo.org.nz in environment production in 0.07 seconds
-May 25 12:47:50 mgmt-b puppet-agent[22158]: Applied catalog in 0.46 seconds
-May 25 12:49:38 mgmt-b puppet-master[17710]: Compiled catalog for app-b.foo.org.nz in environment production in 0.06 seconds
-May 25 12:51:42 mgmt-b puppet-master[17710]: Compiled catalog for backup-b.foo.org.nz in environment production in 0.05 seconds
-May 25 12:56:07 mgmt-b puppet-master[17710]: Compiled catalog for db-b.foo.org.nz in environment production in 0.05 seconds
-May 25 13:09:05 mgmt-b systemd[1]: Starting Clean php session files...
-May 25 13:09:05 mgmt-b systemd[1]: Started Clean php session files.
-May 25 13:10:19 mgmt-b python3[1103]: 2022-05-25T13:10:19.299602Z INFO ExtHandler ExtHandler Checking for agent updates (family: Prod)
-May 25 13:10:19 mgmt-b python3[1103]: 2022-05-25T13:10:19.354258Z INFO ExtHandler ExtHandler [HEARTBEAT] Agent WALinuxAgent-2.7.1.0 is running as the goal state agent [DEBUG HeartbeatCounter: 14;HeartbeatId: 8199D043-6892-4C72-9663-AB8B3E13B5D1;DroppedPackets: 0;UpdateGSErrors: 0;AutoUpdate: 1]
-May 25 13:17:19 mgmt-b python3[1103]: 2022-05-25T13:17:19.774582Z INFO CollectLogsHandler ExtHandler Starting log collection...
-May 25 13:17:19 mgmt-b systemd[1]: Started /usr/bin/python3 -u bin/WALinuxAgent-2.7.1.0-py2.7.egg -collect-logs.
-May 25 13:17:38 mgmt-b python3[1103]: 2022-05-25T13:17:38.370523Z INFO CollectLogsHandler ExtHandler Successfully collected logs. Archive size: 1777622 b, elapsed time: 18595 ms.
-May 25 13:17:38 mgmt-b python3[1103]: 2022-05-25T13:17:38.413885Z INFO CollectLogsHandler ExtHandler Successfully uploaded logs.
-May 25 13:17:49 mgmt-b puppet-master[17710]: Compiled catalog for mgmt-b.foo.org.nz in environment production in 0.07 seconds
-May 25 13:17:50 mgmt-b puppet-agent[25235]: Applied catalog in 0.45 seconds
-May 25 13:19:38 mgmt-b puppet-master[17710]: Compiled catalog for app-b.foo.org.nz in environment production in 0.05 seconds
-May 25 13:21:42 mgmt-b puppet-master[17710]: Compiled catalog for backup-b.foo.org.nz in environment production in 0.04 seconds
-May 25 13:26:07 mgmt-b puppet-master[17710]: Compiled catalog for db-b.foo.org.nz in environment production in 0.05 seconds
-May 25 13:34:58 mgmt-b systemd[1]: Starting Ubuntu Advantage Timer for running repeated jobs...
-May 25 13:34:59 mgmt-b systemd[1]: Started Ubuntu Advantage Timer for running repeated jobs.
-May 25 13:39:05 mgmt-b systemd[1]: Starting Clean php session files...
-May 25 13:39:05 mgmt-b systemd[1]: Started Clean php session files.
-May 25 13:40:20 mgmt-b python3[1103]: 2022-05-25T13:40:20.228622Z INFO ExtHandler ExtHandler [HEARTBEAT] Agent WALinuxAgent-2.7.1.0 is running as the goal state agent [DEBUG HeartbeatCounter: 15;HeartbeatId: 8199D043-6892-4C72-9663-AB8B3E13B5D1;DroppedPackets: 0;UpdateGSErrors: 0;AutoUpdate: 1]
-May 25 13:47:49 mgmt-b puppet-master[17710]: Compiled catalog for mgmt-b.foo.org.nz in environment production in 0.09 seconds
-May 25 13:47:50 mgmt-b puppet-agent[28325]: Applied catalog in 0.45 seconds
-May 25 13:49:38 mgmt-b puppet-master[17710]: Compiled catalog for app-b.foo.org.nz in environment production in 0.05 seconds
-May 25 13:51:42 mgmt-b puppet-master[17710]: Compiled catalog for backup-b.foo.org.nz in environment production in 0.05 seconds
-May 25 13:56:07 mgmt-b puppet-master[17710]: Compiled catalog for db-b.foo.org.nz in environment production in 0.05 seconds
-May 25 14:09:05 mgmt-b systemd[1]: Starting Clean php session files...
-May 25 14:09:05 mgmt-b systemd[1]: Started Clean php session files.
-May 25 14:10:21 mgmt-b python3[1103]: 2022-05-25T14:10:21.225717Z INFO ExtHandler ExtHandler Checking for agent updates (family: Prod)
-May 25 14:10:21 mgmt-b python3[1103]: 2022-05-25T14:10:21.275604Z INFO ExtHandler ExtHandler [HEARTBEAT] Agent WALinuxAgent-2.7.1.0 is running as the goal state agent [DEBUG HeartbeatCounter: 16;HeartbeatId: 8199D043-6892-4C72-9663-AB8B3E13B5D1;DroppedPackets: 0;UpdateGSErrors: 0;AutoUpdate: 1]
-May 25 14:17:38 mgmt-b python3[1103]: 2022-05-25T14:17:38.503503Z INFO CollectLogsHandler ExtHandler Starting log collection...
-May 25 14:17:38 mgmt-b systemd[1]: Started /usr/bin/python3 -u bin/WALinuxAgent-2.7.1.0-py2.7.egg -collect-logs.
-May 25 14:17:49 mgmt-b puppet-master[17710]: Compiled catalog for mgmt-b.foo.org.nz in environment production in 0.06 seconds
-May 25 14:17:50 mgmt-b puppet-agent[31454]: Applied catalog in 0.50 seconds
-May 25 14:17:56 mgmt-b python3[1103]: 2022-05-25T14:17:56.970996Z INFO CollectLogsHandler ExtHandler Successfully collected logs. Archive size: 1778933 b, elapsed time: 18466 ms.
-May 25 14:17:57 mgmt-b python3[1103]: 2022-05-25T14:17:57.023751Z INFO CollectLogsHandler ExtHandler Successfully uploaded logs.
-May 25 14:19:38 mgmt-b puppet-master[17710]: Compiled catalog for app-b.foo.org.nz in environment production in 0.05 seconds
-May 25 14:21:42 mgmt-b puppet-master[17710]: Compiled catalog for backup-b.foo.org.nz in environment production in 0.04 seconds
-May 25 14:26:07 mgmt-b puppet-master[17710]: Compiled catalog for db-b.foo.org.nz in environment production in 0.05 seconds
-May 25 14:39:05 mgmt-b systemd[1]: Starting Clean php session files...
-May 25 14:39:05 mgmt-b systemd[1]: Started Clean php session files.
-May 25 14:40:21 mgmt-b python3[1103]: 2022-05-25T14:40:21.931885Z INFO ExtHandler ExtHandler [HEARTBEAT] Agent WALinuxAgent-2.7.1.0 is running as the goal state agent [DEBUG HeartbeatCounter: 17;HeartbeatId: 8199D043-6892-4C72-9663-AB8B3E13B5D1;DroppedPackets: 0;UpdateGSErrors: 0;AutoUpdate: 1]
-May 25 14:47:49 mgmt-b puppet-master[17710]: Compiled catalog for mgmt-b.foo.org.nz in environment production in 0.06 seconds
-May 25 14:47:50 mgmt-b puppet-agent[2147]: Applied catalog in 0.45 seconds
-May 25 14:49:38 mgmt-b puppet-master[17710]: Compiled catalog for app-b.foo.org.nz in environment production in 0.05 seconds
-May 25 14:51:42 mgmt-b puppet-master[17710]: Compiled catalog for backup-b.foo.org.nz in environment production in 0.04 seconds
-May 25 14:56:07 mgmt-b puppet-master[17710]: Compiled catalog for db-b.foo.org.nz in environment production in 0.05 seconds
-May 25 15:09:05 mgmt-b systemd[1]: Starting Clean php session files...
-May 25 15:09:05 mgmt-b systemd[1]: Started Clean php session files.
-May 25 15:10:22 mgmt-b python3[1103]: 2022-05-25T15:10:22.611261Z INFO ExtHandler ExtHandler Checking for agent updates (family: Prod)
-May 25 15:10:22 mgmt-b python3[1103]: 2022-05-25T15:10:22.663569Z INFO ExtHandler ExtHandler [HEARTBEAT] Agent WALinuxAgent-2.7.1.0 is running as the goal state agent [DEBUG HeartbeatCounter: 18;HeartbeatId: 8199D043-6892-4C72-9663-AB8B3E13B5D1;DroppedPackets: 0;UpdateGSErrors: 0;AutoUpdate: 1]
-May 25 15:17:49 mgmt-b puppet-master[17710]: Compiled catalog for mgmt-b.foo.org.nz in environment production in 0.07 seconds
-May 25 15:17:50 mgmt-b puppet-agent[5267]: Applied catalog in 0.48 seconds
-May 25 15:17:57 mgmt-b python3[1103]: 2022-05-25T15:17:57.111023Z INFO CollectLogsHandler ExtHandler Starting log collection...
-May 25 15:17:57 mgmt-b systemd[1]: Started /usr/bin/python3 -u bin/WALinuxAgent-2.7.1.0-py2.7.egg -collect-logs.
-May 25 15:18:15 mgmt-b python3[1103]: 2022-05-25T15:18:15.068756Z INFO CollectLogsHandler ExtHandler Successfully collected logs. Archive size: 1779537 b, elapsed time: 17957 ms.
-May 25 15:18:15 mgmt-b python3[1103]: 2022-05-25T15:18:15.108828Z INFO CollectLogsHandler ExtHandler Successfully uploaded logs.
-May 25 15:19:38 mgmt-b puppet-master[17710]: Compiled catalog for app-b.foo.org.nz in environment production in 0.07 seconds
-May 25 15:21:42 mgmt-b puppet-master[17710]: Compiled catalog for backup-b.foo.org.nz in environment production in 0.04 seconds
-May 25 15:26:07 mgmt-b puppet-master[17710]: Compiled catalog for db-b.foo.org.nz in environment production in 0.05 seconds
-May 25 15:39:05 mgmt-b systemd[1]: Starting Clean php session files...
-May 25 15:39:05 mgmt-b systemd[1]: Started Clean php session files.
-May 25 15:40:23 mgmt-b python3[1103]: 2022-05-25T15:40:23.489393Z INFO ExtHandler ExtHandler [HEARTBEAT] Agent WALinuxAgent-2.7.1.0 is running as the goal state agent [DEBUG HeartbeatCounter: 19;HeartbeatId: 8199D043-6892-4C72-9663-AB8B3E13B5D1;DroppedPackets: 0;UpdateGSErrors: 0;AutoUpdate: 1]
-May 25 15:47:49 mgmt-b puppet-master[17710]: Compiled catalog for mgmt-b.foo.org.nz in environment production in 0.06 seconds
-May 25 15:47:50 mgmt-b puppet-agent[8319]: Applied catalog in 0.46 seconds
-May 25 15:49:38 mgmt-b puppet-master[17710]: Compiled catalog for app-b.foo.org.nz in environment production in 0.05 seconds
-May 25 15:51:42 mgmt-b puppet-master[17710]: Compiled catalog for backup-b.foo.org.nz in environment production in 0.04 seconds
-May 25 15:56:07 mgmt-b puppet-master[17710]: Compiled catalog for db-b.foo.org.nz in environment production in 0.05 seconds
-May 25 16:09:05 mgmt-b systemd[1]: Starting Clean php session files...
-May 25 16:09:05 mgmt-b systemd[1]: Started Clean php session files.
-May 25 16:10:24 mgmt-b python3[1103]: 2022-05-25T16:10:24.401742Z INFO ExtHandler ExtHandler Checking for agent updates (family: Prod)
-May 25 16:10:24 mgmt-b python3[1103]: 2022-05-25T16:10:24.458037Z INFO ExtHandler ExtHandler [HEARTBEAT] Agent WALinuxAgent-2.7.1.0 is running as the goal state agent [DEBUG HeartbeatCounter: 20;HeartbeatId: 8199D043-6892-4C72-9663-AB8B3E13B5D1;DroppedPackets: 0;UpdateGSErrors: 0;AutoUpdate: 1]
-May 25 16:17:49 mgmt-b puppet-master[17710]: Compiled catalog for mgmt-b.foo.org.nz in environment production in 0.06 seconds
-May 25 16:17:50 mgmt-b puppet-agent[11413]: Applied catalog in 0.46 seconds
-May 25 16:18:15 mgmt-b python3[1103]: 2022-05-25T16:18:15.208623Z INFO CollectLogsHandler ExtHandler Starting log collection...
-May 25 16:18:15 mgmt-b systemd[1]: Started /usr/bin/python3 -u bin/WALinuxAgent-2.7.1.0-py2.7.egg -collect-logs.
-May 25 16:18:33 mgmt-b python3[1103]: 2022-05-25T16:18:33.273060Z INFO CollectLogsHandler ExtHandler Successfully collected logs. Archive size: 1780130 b, elapsed time: 18064 ms.
-May 25 16:18:33 mgmt-b python3[1103]: 2022-05-25T16:18:33.315176Z INFO CollectLogsHandler ExtHandler Successfully uploaded logs.
-May 25 16:19:38 mgmt-b puppet-master[17710]: Compiled catalog for app-b.foo.org.nz in environment production in 0.05 seconds
-May 25 16:21:42 mgmt-b puppet-master[17710]: Compiled catalog for backup-b.foo.org.nz in environment production in 0.04 seconds
-May 25 16:26:07 mgmt-b puppet-master[17710]: Compiled catalog for db-b.foo.org.nz in environment production in 0.05 seconds
-May 25 16:39:05 mgmt-b systemd[1]: Starting Clean php session files...
-May 25 16:39:05 mgmt-b systemd[1]: Started Clean php session files.
-May 25 16:40:25 mgmt-b python3[1103]: 2022-05-25T16:40:25.331756Z INFO ExtHandler ExtHandler [HEARTBEAT] Agent WALinuxAgent-2.7.1.0 is running as the goal state agent [DEBUG HeartbeatCounter: 21;HeartbeatId: 8199D043-6892-4C72-9663-AB8B3E13B5D1;DroppedPackets: 0;UpdateGSErrors: 0;AutoUpdate: 1]
-May 25 16:47:49 mgmt-b puppet-master[17710]: Compiled catalog for mgmt-b.foo.org.nz in environment production in 0.07 seconds
-May 25 16:47:50 mgmt-b puppet-agent[14462]: Applied catalog in 0.44 seconds
-May 25 16:49:38 mgmt-b puppet-master[17710]: Compiled catalog for app-b.foo.org.nz in environment production in 0.05 seconds
-May 25 16:51:42 mgmt-b puppet-master[17710]: Compiled catalog for backup-b.foo.org.nz in environment production in 0.04 seconds
-May 25 16:56:07 mgmt-b puppet-master[17710]: Compiled catalog for db-b.foo.org.nz in environment production in 0.06 seconds
-May 25 17:09:05 mgmt-b systemd[1]: Starting Clean php session files...
-May 25 17:09:05 mgmt-b systemd[1]: Started Clean php session files.
-May 25 17:10:26 mgmt-b python3[1103]: 2022-05-25T17:10:26.239183Z INFO ExtHandler ExtHandler Checking for agent updates (family: Prod)
-May 25 17:10:26 mgmt-b python3[1103]: 2022-05-25T17:10:26.304027Z INFO ExtHandler ExtHandler [HEARTBEAT] Agent WALinuxAgent-2.7.1.0 is running as the goal state agent [DEBUG HeartbeatCounter: 22;HeartbeatId: 8199D043-6892-4C72-9663-AB8B3E13B5D1;DroppedPackets: 0;UpdateGSErrors: 0;AutoUpdate: 1]
-May 25 17:17:49 mgmt-b puppet-master[17710]: Compiled catalog for mgmt-b.foo.org.nz in environment production in 0.06 seconds
-May 25 17:17:50 mgmt-b puppet-agent[17547]: Applied catalog in 0.44 seconds
-May 25 17:18:33 mgmt-b python3[1103]: 2022-05-25T17:18:33.406902Z INFO CollectLogsHandler ExtHandler Starting log collection...
-May 25 17:18:33 mgmt-b systemd[1]: Started /usr/bin/python3 -u bin/WALinuxAgent-2.7.1.0-py2.7.egg -collect-logs.
-May 25 17:18:52 mgmt-b python3[1103]: 2022-05-25T17:18:52.469376Z INFO CollectLogsHandler ExtHandler Successfully collected logs. Archive size: 1780732 b, elapsed time: 19061 ms.
-May 25 17:18:52 mgmt-b python3[1103]: 2022-05-25T17:18:52.514412Z INFO CollectLogsHandler ExtHandler Successfully uploaded logs.
-May 25 17:19:38 mgmt-b puppet-master[17710]: Compiled catalog for app-b.foo.org.nz in environment production in 0.05 seconds
-May 25 17:21:42 mgmt-b puppet-master[17710]: Compiled catalog for backup-b.foo.org.nz in environment production in 0.04 seconds
-May 25 17:26:07 mgmt-b puppet-master[17710]: Compiled catalog for db-b.foo.org.nz in environment production in 0.05 seconds
-May 25 17:39:05 mgmt-b systemd[1]: Starting Clean php session files...
-May 25 17:39:05 mgmt-b systemd[1]: Started Clean php session files.
-May 25 17:40:27 mgmt-b python3[1103]: 2022-05-25T17:40:27.271252Z INFO ExtHandler ExtHandler [HEARTBEAT] Agent WALinuxAgent-2.7.1.0 is running as the goal state agent [DEBUG HeartbeatCounter: 23;HeartbeatId: 8199D043-6892-4C72-9663-AB8B3E13B5D1;DroppedPackets: 0;UpdateGSErrors: 0;AutoUpdate: 1]
-May 25 17:47:49 mgmt-b puppet-master[17710]: Compiled catalog for mgmt-b.foo.org.nz in environment production in 0.07 seconds
-May 25 17:47:50 mgmt-b puppet-agent[20613]: Applied catalog in 0.47 seconds
-May 25 17:49:38 mgmt-b puppet-master[17710]: Compiled catalog for app-b.foo.org.nz in environment production in 0.05 seconds
-May 25 17:51:42 mgmt-b puppet-master[17710]: Compiled catalog for backup-b.foo.org.nz in environment production in 0.04 seconds
-May 25 17:56:07 mgmt-b puppet-master[17710]: Compiled catalog for db-b.foo.org.nz in environment production in 0.05 seconds
-May 25 18:09:05 mgmt-b systemd[1]: Starting Clean php session files...
-May 25 18:09:05 mgmt-b systemd[1]: Started Clean php session files.
-May 25 18:10:28 mgmt-b python3[1103]: 2022-05-25T18:10:28.158309Z INFO ExtHandler ExtHandler Checking for agent updates (family: Prod)
-May 25 18:10:28 mgmt-b python3[1103]: 2022-05-25T18:10:28.199878Z INFO ExtHandler ExtHandler [HEARTBEAT] Agent WALinuxAgent-2.7.1.0 is running as the goal state agent [DEBUG HeartbeatCounter: 24;HeartbeatId: 8199D043-6892-4C72-9663-AB8B3E13B5D1;DroppedPackets: 0;UpdateGSErrors: 0;AutoUpdate: 1]
-May 25 18:17:49 mgmt-b puppet-master[17710]: Compiled catalog for mgmt-b.foo.org.nz in environment production in 0.09 seconds
-May 25 18:17:50 mgmt-b puppet-agent[23729]: Applied catalog in 0.45 seconds
-May 25 18:18:52 mgmt-b python3[1103]: 2022-05-25T18:18:52.577217Z INFO CollectLogsHandler ExtHandler Starting log collection...
-May 25 18:18:52 mgmt-b systemd[1]: Started /usr/bin/python3 -u bin/WALinuxAgent-2.7.1.0-py2.7.egg -collect-logs.
-May 25 18:19:10 mgmt-b python3[1103]: 2022-05-25T18:19:10.974475Z INFO CollectLogsHandler ExtHandler Successfully collected logs. Archive size: 1781565 b, elapsed time: 18396 ms.
-May 25 18:19:11 mgmt-b python3[1103]: 2022-05-25T18:19:11.017350Z INFO CollectLogsHandler ExtHandler Successfully uploaded logs.
-May 25 18:19:38 mgmt-b puppet-master[17710]: Compiled catalog for app-b.foo.org.nz in environment production in 0.05 seconds
-May 25 18:21:42 mgmt-b puppet-master[17710]: Compiled catalog for backup-b.foo.org.nz in environment production in 0.04 seconds
-May 25 18:26:07 mgmt-b puppet-master[17710]: Compiled catalog for db-b.foo.org.nz in environment production in 0.05 seconds
-May 25 18:39:05 mgmt-b systemd[1]: Starting Clean php session files...
-May 25 18:39:05 mgmt-b systemd[1]: Started Clean php session files.
-May 25 18:40:29 mgmt-b python3[1103]: 2022-05-25T18:40:29.034285Z INFO ExtHandler ExtHandler [HEARTBEAT] Agent WALinuxAgent-2.7.1.0 is running as the goal state agent [DEBUG HeartbeatCounter: 25;HeartbeatId: 8199D043-6892-4C72-9663-AB8B3E13B5D1;DroppedPackets: 0;UpdateGSErrors: 0;AutoUpdate: 1]
-May 25 18:47:49 mgmt-b puppet-master[17710]: Compiled catalog for mgmt-b.foo.org.nz in environment production in 0.07 seconds
-May 25 18:47:50 mgmt-b puppet-agent[26793]: Applied catalog in 0.43 seconds
-May 25 18:49:38 mgmt-b puppet-master[17710]: Compiled catalog for app-b.foo.org.nz in environment production in 0.05 seconds
-May 25 18:51:42 mgmt-b puppet-master[17710]: Compiled catalog for backup-b.foo.org.nz in environment production in 0.04 seconds
-May 25 18:56:07 mgmt-b puppet-master[17710]: Compiled catalog for db-b.foo.org.nz in environment production in 0.05 seconds
-May 25 19:09:05 mgmt-b systemd[1]: Starting Clean php session files...
-May 25 19:09:05 mgmt-b systemd[1]: Started Clean php session files.
-May 25 19:10:29 mgmt-b python3[1103]: 2022-05-25T19:10:29.984561Z INFO ExtHandler ExtHandler Checking for agent updates (family: Prod)
-May 25 19:10:30 mgmt-b python3[1103]: 2022-05-25T19:10:30.035022Z INFO ExtHandler ExtHandler [HEARTBEAT] Agent WALinuxAgent-2.7.1.0 is running as the goal state agent [DEBUG HeartbeatCounter: 26;HeartbeatId: 8199D043-6892-4C72-9663-AB8B3E13B5D1;DroppedPackets: 0;UpdateGSErrors: 0;AutoUpdate: 1]
-May 25 19:17:49 mgmt-b puppet-master[17710]: Compiled catalog for mgmt-b.foo.org.nz in environment production in 0.07 seconds
-May 25 19:17:50 mgmt-b puppet-agent[29867]: Applied catalog in 0.46 seconds
-May 25 19:19:11 mgmt-b python3[1103]: 2022-05-25T19:19:11.078949Z INFO CollectLogsHandler ExtHandler Starting log collection...
-May 25 19:19:11 mgmt-b systemd[1]: Started /usr/bin/python3 -u bin/WALinuxAgent-2.7.1.0-py2.7.egg -collect-logs.
-May 25 19:19:29 mgmt-b python3[1103]: 2022-05-25T19:19:29.870765Z INFO CollectLogsHandler ExtHandler Successfully collected logs. Archive size: 1782162 b, elapsed time: 18791 ms.
-May 25 19:19:29 mgmt-b python3[1103]: 2022-05-25T19:19:29.911290Z INFO CollectLogsHandler ExtHandler Successfully uploaded logs.
-May 25 19:19:38 mgmt-b puppet-master[17710]: Compiled catalog for app-b.foo.org.nz in environment production in 0.05 seconds
-May 25 19:21:42 mgmt-b puppet-master[17710]: Compiled catalog for backup-b.foo.org.nz in environment production in 0.04 seconds
-May 25 19:26:07 mgmt-b puppet-master[17710]: Compiled catalog for db-b.foo.org.nz in environment production in 0.05 seconds
-May 25 19:39:05 mgmt-b systemd[1]: Starting Clean php session files...
-May 25 19:39:05 mgmt-b systemd[1]: Started Clean php session files.
-May 25 19:40:31 mgmt-b python3[1103]: 2022-05-25T19:40:31.079073Z INFO ExtHandler ExtHandler [HEARTBEAT] Agent WALinuxAgent-2.7.1.0 is running as the goal state agent [DEBUG HeartbeatCounter: 27;HeartbeatId: 8199D043-6892-4C72-9663-AB8B3E13B5D1;DroppedPackets: 0;UpdateGSErrors: 0;AutoUpdate: 1]
-May 25 19:47:49 mgmt-b puppet-master[17710]: Compiled catalog for mgmt-b.foo.org.nz in environment production in 0.07 seconds
-May 25 19:47:50 mgmt-b puppet-agent[450]: Applied catalog in 0.47 seconds
-May 25 19:49:38 mgmt-b puppet-master[17710]: Compiled catalog for app-b.foo.org.nz in environment production in 0.08 seconds
-May 25 19:51:42 mgmt-b puppet-master[17710]: Compiled catalog for backup-b.foo.org.nz in environment production in 0.04 seconds
-May 25 19:56:07 mgmt-b puppet-master[17710]: Compiled catalog for db-b.foo.org.nz in environment production in 0.05 seconds
-May 25 20:04:55 mgmt-b systemd[1]: Starting Ubuntu Advantage Timer for running repeated jobs...
-May 25 20:04:55 mgmt-b systemd[1]: Started Ubuntu Advantage Timer for running repeated jobs.
-May 25 20:09:05 mgmt-b systemd[1]: Starting Clean php session files...
-May 25 20:09:05 mgmt-b systemd[1]: Started Clean php session files.
-May 25 20:10:32 mgmt-b python3[1103]: 2022-05-25T20:10:32.129206Z INFO ExtHandler ExtHandler Checking for agent updates (family: Prod)
-May 25 20:10:32 mgmt-b python3[1103]: 2022-05-25T20:10:32.174714Z INFO ExtHandler ExtHandler [HEARTBEAT] Agent WALinuxAgent-2.7.1.0 is running as the goal state agent [DEBUG HeartbeatCounter: 28;HeartbeatId: 8199D043-6892-4C72-9663-AB8B3E13B5D1;DroppedPackets: 0;UpdateGSErrors: 0;AutoUpdate: 1]
-May 25 20:17:49 mgmt-b puppet-master[17710]: Compiled catalog for mgmt-b.foo.org.nz in environment production in 0.07 seconds
-May 25 20:17:50 mgmt-b puppet-agent[3713]: Applied catalog in 0.46 seconds
-May 25 20:19:30 mgmt-b python3[1103]: 2022-05-25T20:19:30.012606Z INFO CollectLogsHandler ExtHandler Starting log collection...
-May 25 20:19:30 mgmt-b systemd[1]: Started /usr/bin/python3 -u bin/WALinuxAgent-2.7.1.0-py2.7.egg -collect-logs.
-May 25 20:19:38 mgmt-b puppet-master[17710]: Compiled catalog for app-b.foo.org.nz in environment production in 0.06 seconds
-May 25 20:19:48 mgmt-b python3[1103]: 2022-05-25T20:19:48.373900Z INFO CollectLogsHandler ExtHandler Successfully collected logs. Archive size: 1782791 b, elapsed time: 18360 ms.
-May 25 20:19:48 mgmt-b python3[1103]: 2022-05-25T20:19:48.424991Z INFO CollectLogsHandler ExtHandler Successfully uploaded logs.
-May 25 20:21:42 mgmt-b puppet-master[17710]: Compiled catalog for backup-b.foo.org.nz in environment production in 0.04 seconds
-May 25 20:26:07 mgmt-b puppet-master[17710]: Compiled catalog for db-b.foo.org.nz in environment production in 0.05 seconds
-May 25 20:39:05 mgmt-b systemd[1]: Starting Clean php session files...
-May 25 20:39:05 mgmt-b systemd[1]: Started Clean php session files.
-May 25 20:40:33 mgmt-b python3[1103]: 2022-05-25T20:40:33.133275Z INFO ExtHandler ExtHandler [HEARTBEAT] Agent WALinuxAgent-2.7.1.0 is running as the goal state agent [DEBUG HeartbeatCounter: 29;HeartbeatId: 8199D043-6892-4C72-9663-AB8B3E13B5D1;DroppedPackets: 0;UpdateGSErrors: 0;AutoUpdate: 1]
-May 25 20:47:49 mgmt-b puppet-master[17710]: Compiled catalog for mgmt-b.foo.org.nz in environment production in 0.07 seconds
-May 25 20:47:50 mgmt-b puppet-agent[6796]: Applied catalog in 0.44 seconds
-May 25 20:49:38 mgmt-b puppet-master[17710]: Compiled catalog for app-b.foo.org.nz in environment production in 0.05 seconds
-May 25 20:51:42 mgmt-b puppet-master[17710]: Compiled catalog for backup-b.foo.org.nz in environment production in 0.04 seconds
-May 25 20:56:07 mgmt-b puppet-master[17710]: Compiled catalog for db-b.foo.org.nz in environment production in 0.04 seconds
-May 25 21:09:05 mgmt-b systemd[1]: Starting Clean php session files...
-May 25 21:09:05 mgmt-b systemd[1]: Started Clean php session files.
-May 25 21:10:33 mgmt-b python3[1103]: 2022-05-25T21:10:33.949035Z INFO ExtHandler ExtHandler Checking for agent updates (family: Prod)
-May 25 21:10:34 mgmt-b python3[1103]: 2022-05-25T21:10:34.004332Z INFO ExtHandler ExtHandler [HEARTBEAT] Agent WALinuxAgent-2.7.1.0 is running as the goal state agent [DEBUG HeartbeatCounter: 30;HeartbeatId: 8199D043-6892-4C72-9663-AB8B3E13B5D1;DroppedPackets: 0;UpdateGSErrors: 0;AutoUpdate: 1]
-May 25 21:17:49 mgmt-b puppet-master[17710]: Compiled catalog for mgmt-b.foo.org.nz in environment production in 0.06 seconds
-May 25 21:17:50 mgmt-b puppet-agent[9876]: Applied catalog in 0.45 seconds
-May 25 21:19:38 mgmt-b puppet-master[17710]: Compiled catalog for app-b.foo.org.nz in environment production in 0.05 seconds
-May 25 21:19:48 mgmt-b python3[1103]: 2022-05-25T21:19:48.525209Z INFO CollectLogsHandler ExtHandler Starting log collection...
-May 25 21:19:48 mgmt-b systemd[1]: Started /usr/bin/python3 -u bin/WALinuxAgent-2.7.1.0-py2.7.egg -collect-logs.
-May 25 21:20:08 mgmt-b python3[1103]: 2022-05-25T21:20:08.173996Z INFO CollectLogsHandler ExtHandler Successfully collected logs. Archive size: 1783390 b, elapsed time: 19648 ms.
-May 25 21:20:08 mgmt-b python3[1103]: 2022-05-25T21:20:08.211740Z INFO CollectLogsHandler ExtHandler Successfully uploaded logs.
-May 25 21:21:42 mgmt-b puppet-master[17710]: Compiled catalog for backup-b.foo.org.nz in environment production in 0.04 seconds
-May 25 21:26:07 mgmt-b puppet-master[17710]: Compiled catalog for db-b.foo.org.nz in environment production in 0.05 seconds
-May 25 21:39:05 mgmt-b systemd[1]: Starting Clean php session files...
-May 25 21:39:05 mgmt-b systemd[1]: Started Clean php session files.
-May 25 21:40:34 mgmt-b python3[1103]: 2022-05-25T21:40:34.898431Z INFO ExtHandler ExtHandler [HEARTBEAT] Agent WALinuxAgent-2.7.1.0 is running as the goal state agent [DEBUG HeartbeatCounter: 31;HeartbeatId: 8199D043-6892-4C72-9663-AB8B3E13B5D1;DroppedPackets: 0;UpdateGSErrors: 0;AutoUpdate: 1]
-May 25 21:47:49 mgmt-b puppet-master[17710]: Compiled catalog for mgmt-b.foo.org.nz in environment production in 0.07 seconds
-May 25 21:47:50 mgmt-b puppet-agent[12936]: Applied catalog in 0.44 seconds
-May 25 21:49:38 mgmt-b puppet-master[17710]: Compiled catalog for app-b.foo.org.nz in environment production in 0.05 seconds
-May 25 21:51:42 mgmt-b puppet-master[17710]: Compiled catalog for backup-b.foo.org.nz in environment production in 0.04 seconds
-May 25 21:56:07 mgmt-b puppet-master[17710]: Compiled catalog for db-b.foo.org.nz in environment production in 0.04 seconds
-May 25 22:09:05 mgmt-b systemd[1]: Starting Clean php session files...
-May 25 22:09:05 mgmt-b systemd[1]: Started Clean php session files.
-May 25 22:10:35 mgmt-b python3[1103]: 2022-05-25T22:10:35.802288Z INFO ExtHandler ExtHandler Checking for agent updates (family: Prod)
-May 25 22:10:35 mgmt-b python3[1103]: 2022-05-25T22:10:35.846666Z INFO ExtHandler ExtHandler [HEARTBEAT] Agent WALinuxAgent-2.7.1.0 is running as the goal state agent [DEBUG HeartbeatCounter: 32;HeartbeatId: 8199D043-6892-4C72-9663-AB8B3E13B5D1;DroppedPackets: 0;UpdateGSErrors: 0;AutoUpdate: 1]
-May 25 22:17:49 mgmt-b puppet-master[17710]: Compiled catalog for mgmt-b.foo.org.nz in environment production in 0.09 seconds
-May 25 22:17:50 mgmt-b puppet-agent[16049]: Applied catalog in 0.44 seconds
-May 25 22:19:38 mgmt-b puppet-master[17710]: Compiled catalog for app-b.foo.org.nz in environment production in 0.05 seconds
-May 25 22:20:08 mgmt-b python3[1103]: 2022-05-25T22:20:08.305290Z INFO CollectLogsHandler ExtHandler Starting log collection...
-May 25 22:20:08 mgmt-b systemd[1]: Started /usr/bin/python3 -u bin/WALinuxAgent-2.7.1.0-py2.7.egg -collect-logs.
-May 25 22:20:27 mgmt-b python3[1103]: 2022-05-25T22:20:27.270308Z INFO CollectLogsHandler ExtHandler Successfully collected logs. Archive size: 1784205 b, elapsed time: 18964 ms.
-May 25 22:20:27 mgmt-b python3[1103]: 2022-05-25T22:20:27.311094Z INFO CollectLogsHandler ExtHandler Successfully uploaded logs.
-May 25 22:21:42 mgmt-b puppet-master[17710]: Compiled catalog for backup-b.foo.org.nz in environment production in 0.04 seconds
-May 25 22:26:07 mgmt-b puppet-master[17710]: Compiled catalog for db-b.foo.org.nz in environment production in 0.05 seconds
+May 25 22:39:05 mgmt-b systemd[1]: Starting Clean php session files...
+May 25 22:39:05 mgmt-b systemd[1]: Started Clean php session files.
+May 25 22:40:36 mgmt-b python3[1103]: 2022-05-25T22:40:36.810581Z INFO ExtHandler ExtHandler [HEARTBEAT] Agent WALinuxAgent-2.7.1.0 is running as the goal state agent [DEBUG HeartbeatCounter: 33;HeartbeatId: 8199D043-6892-4C72-9663-AB8B3E13B5D1;DroppedPackets: 0;UpdateGSErrors: 0;AutoUpdate: 1]
+May 25 22:47:49 mgmt-b puppet-master[17710]: Compiled catalog for mgmt-b.foo.org.nz in environment production in 0.07 seconds
+May 25 22:47:50 mgmt-b puppet-agent[19258]: Applied catalog in 0.48 seconds
+May 25 22:49:38 mgmt-b puppet-master[17710]: Compiled catalog for app-b.foo.org.nz in environment production in 0.05 seconds
+May 25 22:51:42 mgmt-b puppet-master[17710]: Compiled catalog for backup-b.foo.org.nz in environment production in 0.04 seconds
+May 25 22:54:58 mgmt-b systemd[1]: Starting Message of the Day...
+May 25 22:55:00 mgmt-b 50-motd-news[19984]:  * Super-optimized for small spaces - read how we shrank the memory
+May 25 22:55:00 mgmt-b 50-motd-news[19984]:    footprint of MicroK8s to make it the smallest full K8s around.
+May 25 22:55:00 mgmt-b 50-motd-news[19984]:    https://ubuntu.com/blog/microk8s-memory-optimisation
+May 25 22:55:00 mgmt-b systemd[1]: Started Message of the Day.
+May 25 22:56:07 mgmt-b puppet-master[17710]: Compiled catalog for db-b.foo.org.nz in environment production in 0.05 seconds
+May 25 23:09:05 mgmt-b systemd[1]: Starting Clean php session files...
+May 25 23:09:05 mgmt-b systemd[1]: Started Clean php session files.
+May 25 23:10:37 mgmt-b python3[1103]: 2022-05-25T23:10:37.689060Z INFO ExtHandler ExtHandler Checking for agent updates (family: Prod)
+May 25 23:10:37 mgmt-b python3[1103]: 2022-05-25T23:10:37.733540Z INFO ExtHandler ExtHandler [HEARTBEAT] Agent WALinuxAgent-2.7.1.0 is running as the goal state agent [DEBUG HeartbeatCounter: 34;HeartbeatId: 8199D043-6892-4C72-9663-AB8B3E13B5D1;DroppedPackets: 0;UpdateGSErrors: 0;AutoUpdate: 1]
+May 25 23:17:49 mgmt-b puppet-master[17710]: Compiled catalog for mgmt-b.foo.org.nz in environment production in 0.07 seconds
+May 25 23:17:50 mgmt-b puppet-agent[22382]: Applied catalog in 0.50 seconds
+May 25 23:19:38 mgmt-b puppet-master[17710]: Compiled catalog for app-b.foo.org.nz in environment production in 0.05 seconds
+May 25 23:20:27 mgmt-b python3[1103]: 2022-05-25T23:20:27.407017Z INFO CollectLogsHandler ExtHandler Starting log collection...
+May 25 23:20:27 mgmt-b systemd[1]: Started /usr/bin/python3 -u bin/WALinuxAgent-2.7.1.0-py2.7.egg -collect-logs.
+May 25 23:20:46 mgmt-b python3[1103]: 2022-05-25T23:20:46.274224Z INFO CollectLogsHandler ExtHandler Successfully collected logs. Archive size: 1786421 b, elapsed time: 18866 ms.
+May 25 23:20:46 mgmt-b python3[1103]: 2022-05-25T23:20:46.320136Z INFO CollectLogsHandler ExtHandler Successfully uploaded logs.
+May 25 23:21:42 mgmt-b puppet-master[17710]: Compiled catalog for backup-b.foo.org.nz in environment production in 0.04 seconds
+May 25 23:26:07 mgmt-b puppet-master[17710]: Compiled catalog for db-b.foo.org.nz in environment production in 0.06 seconds
+May 25 23:39:05 mgmt-b systemd[1]: Starting Clean php session files...
+May 25 23:39:05 mgmt-b systemd[1]: Started Clean php session files.
+May 25 23:40:38 mgmt-b python3[1103]: 2022-05-25T23:40:38.583358Z INFO ExtHandler ExtHandler [HEARTBEAT] Agent WALinuxAgent-2.7.1.0 is running as the goal state agent [DEBUG HeartbeatCounter: 35;HeartbeatId: 8199D043-6892-4C72-9663-AB8B3E13B5D1;DroppedPackets: 0;UpdateGSErrors: 0;AutoUpdate: 1]
+May 25 23:47:49 mgmt-b puppet-master[17710]: Compiled catalog for mgmt-b.foo.org.nz in environment production in 0.07 seconds
+May 25 23:47:50 mgmt-b puppet-agent[25446]: Applied catalog in 0.46 seconds
+May 25 23:49:38 mgmt-b puppet-master[17710]: Compiled catalog for app-b.foo.org.nz in environment production in 0.08 seconds
+May 25 23:51:42 mgmt-b puppet-master[17710]: Compiled catalog for backup-b.foo.org.nz in environment production in 0.05 seconds
+May 25 23:56:07 mgmt-b puppet-master[17710]: Compiled catalog for db-b.foo.org.nz in environment production in 0.05 seconds
+May 26 00:09:05 mgmt-b systemd[1]: Starting Clean php session files...
+May 26 00:09:05 mgmt-b systemd[1]: Started Clean php session files.
+May 26 00:10:39 mgmt-b python3[1103]: 2022-05-26T00:10:39.534157Z INFO ExtHandler ExtHandler Checking for agent updates (family: Prod)
+May 26 00:10:39 mgmt-b python3[1103]: 2022-05-26T00:10:39.573900Z INFO ExtHandler ExtHandler [HEARTBEAT] Agent WALinuxAgent-2.7.1.0 is running as the goal state agent [DEBUG HeartbeatCounter: 36;HeartbeatId: 8199D043-6892-4C72-9663-AB8B3E13B5D1;DroppedPackets: 0;UpdateGSErrors: 0;AutoUpdate: 1]
+May 26 00:17:49 mgmt-b puppet-master[17710]: Compiled catalog for mgmt-b.foo.org.nz in environment production in 0.07 seconds
+May 26 00:17:50 mgmt-b puppet-agent[28568]: Applied catalog in 0.45 seconds
+May 26 00:19:38 mgmt-b puppet-master[17710]: Compiled catalog for app-b.foo.org.nz in environment production in 0.08 seconds
+May 26 00:20:46 mgmt-b python3[1103]: 2022-05-26T00:20:46.419218Z INFO CollectLogsHandler ExtHandler Starting log collection...
+May 26 00:20:46 mgmt-b systemd[1]: Started /usr/bin/python3 -u bin/WALinuxAgent-2.7.1.0-py2.7.egg -collect-logs.
+May 26 00:21:04 mgmt-b python3[1103]: 2022-05-26T00:21:04.670720Z INFO CollectLogsHandler ExtHandler Successfully collected logs. Archive size: 1787970 b, elapsed time: 18250 ms.
+May 26 00:21:04 mgmt-b python3[1103]: 2022-05-26T00:21:04.720431Z INFO CollectLogsHandler ExtHandler Successfully uploaded logs.
+May 26 00:21:42 mgmt-b puppet-master[17710]: Compiled catalog for backup-b.foo.org.nz in environment production in 0.04 seconds
+May 26 00:26:07 mgmt-b puppet-master[17710]: Compiled catalog for db-b.foo.org.nz in environment production in 0.05 seconds
+May 26 00:39:05 mgmt-b systemd[1]: Starting Clean php session files...
+May 26 00:39:05 mgmt-b systemd[1]: Started Clean php session files.
+May 26 00:40:40 mgmt-b python3[1103]: 2022-05-26T00:40:40.544176Z INFO ExtHandler ExtHandler [HEARTBEAT] Agent WALinuxAgent-2.7.1.0 is running as the goal state agent [DEBUG HeartbeatCounter: 37;HeartbeatId: 8199D043-6892-4C72-9663-AB8B3E13B5D1;DroppedPackets: 0;UpdateGSErrors: 0;AutoUpdate: 1]
+May 26 00:47:49 mgmt-b puppet-master[17710]: Compiled catalog for mgmt-b.foo.org.nz in environment production in 0.06 seconds
+May 26 00:47:50 mgmt-b puppet-agent[31635]: Applied catalog in 0.45 seconds
+May 26 00:49:38 mgmt-b puppet-master[17710]: Compiled catalog for app-b.foo.org.nz in environment production in 0.05 seconds
+May 26 00:51:42 mgmt-b puppet-master[17710]: Compiled catalog for backup-b.foo.org.nz in environment production in 0.05 seconds
+May 26 00:56:07 mgmt-b puppet-master[17710]: Compiled catalog for db-b.foo.org.nz in environment production in 0.06 seconds
+May 26 01:09:05 mgmt-b systemd[1]: Starting Clean php session files...
+May 26 01:09:05 mgmt-b systemd[1]: Started Clean php session files.
+May 26 01:10:41 mgmt-b python3[1103]: 2022-05-26T01:10:41.537946Z INFO ExtHandler ExtHandler Checking for agent updates (family: Prod)
+May 26 01:10:41 mgmt-b python3[1103]: 2022-05-26T01:10:41.590618Z INFO ExtHandler ExtHandler [HEARTBEAT] Agent WALinuxAgent-2.7.1.0 is running as the goal state agent [DEBUG HeartbeatCounter: 38;HeartbeatId: 8199D043-6892-4C72-9663-AB8B3E13B5D1;DroppedPackets: 0;UpdateGSErrors: 0;AutoUpdate: 1]
+May 26 01:17:49 mgmt-b puppet-master[17710]: Compiled catalog for mgmt-b.foo.org.nz in environment production in 0.07 seconds
+May 26 01:17:50 mgmt-b puppet-agent[2354]: Applied catalog in 0.45 seconds
+May 26 01:19:38 mgmt-b puppet-master[17710]: Compiled catalog for app-b.foo.org.nz in environment production in 0.06 seconds
+May 26 01:21:04 mgmt-b python3[1103]: 2022-05-26T01:21:04.738317Z INFO CollectLogsHandler ExtHandler Starting log collection...
+May 26 01:21:04 mgmt-b systemd[1]: Started /usr/bin/python3 -u bin/WALinuxAgent-2.7.1.0-py2.7.egg -collect-logs.
+May 26 01:21:23 mgmt-b python3[1103]: 2022-05-26T01:21:23.470123Z INFO CollectLogsHandler ExtHandler Successfully collected logs. Archive size: 1788592 b, elapsed time: 18731 ms.
+May 26 01:21:23 mgmt-b python3[1103]: 2022-05-26T01:21:23.516092Z INFO CollectLogsHandler ExtHandler Successfully uploaded logs.
+May 26 01:21:42 mgmt-b puppet-master[17710]: Compiled catalog for backup-b.foo.org.nz in environment production in 0.04 seconds
+May 26 01:26:07 mgmt-b puppet-master[17710]: Compiled catalog for db-b.foo.org.nz in environment production in 0.05 seconds
+May 26 01:39:05 mgmt-b systemd[1]: Starting Clean php session files...
+May 26 01:39:05 mgmt-b systemd[1]: Started Clean php session files.
+May 26 01:40:42 mgmt-b python3[1103]: 2022-05-26T01:40:42.598545Z INFO ExtHandler ExtHandler [HEARTBEAT] Agent WALinuxAgent-2.7.1.0 is running as the goal state agent [DEBUG HeartbeatCounter: 39;HeartbeatId: 8199D043-6892-4C72-9663-AB8B3E13B5D1;DroppedPackets: 0;UpdateGSErrors: 0;AutoUpdate: 1]
+May 26 01:47:49 mgmt-b puppet-master[17710]: Compiled catalog for mgmt-b.foo.org.nz in environment production in 0.06 seconds
+May 26 01:47:50 mgmt-b puppet-agent[5458]: Applied catalog in 0.44 seconds
+May 26 01:49:38 mgmt-b puppet-master[17710]: Compiled catalog for app-b.foo.org.nz in environment production in 0.06 seconds
+May 26 01:51:42 mgmt-b puppet-master[17710]: Compiled catalog for backup-b.foo.org.nz in environment production in 0.05 seconds
+May 26 01:56:07 mgmt-b puppet-master[17710]: Compiled catalog for db-b.foo.org.nz in environment production in 0.07 seconds
+May 26 01:57:58 mgmt-b systemd[1]: Starting Daily apt download activities...
+May 26 01:58:17 mgmt-b systemd[1]: Started Daily apt download activities.
+May 26 02:05:45 mgmt-b systemd[1]: Starting Ubuntu Advantage Timer for running repeated jobs...
+May 26 02:05:45 mgmt-b systemd[1]: Started Ubuntu Advantage Timer for running repeated jobs.
+May 26 02:09:05 mgmt-b systemd[1]: Starting Clean php session files...
+May 26 02:09:05 mgmt-b systemd[1]: Started Clean php session files.
+May 26 02:10:43 mgmt-b python3[1103]: 2022-05-26T02:10:43.469934Z INFO ExtHandler ExtHandler Checking for agent updates (family: Prod)
+May 26 02:10:43 mgmt-b python3[1103]: 2022-05-26T02:10:43.538848Z INFO ExtHandler ExtHandler [HEARTBEAT] Agent WALinuxAgent-2.7.1.0 is running as the goal state agent [DEBUG HeartbeatCounter: 40;HeartbeatId: 8199D043-6892-4C72-9663-AB8B3E13B5D1;DroppedPackets: 0;UpdateGSErrors: 0;AutoUpdate: 1]
+May 26 02:17:49 mgmt-b puppet-master[17710]: Compiled catalog for mgmt-b.foo.org.nz in environment production in 0.08 seconds
+May 26 02:17:51 mgmt-b puppet-agent[9013]: Applied catalog in 0.46 seconds
+May 26 02:19:38 mgmt-b puppet-master[17710]: Compiled catalog for app-b.foo.org.nz in environment production in 0.05 seconds
+May 26 02:21:23 mgmt-b python3[1103]: 2022-05-26T02:21:23.609532Z INFO CollectLogsHandler ExtHandler Starting log collection...
+May 26 02:21:23 mgmt-b systemd[1]: Started /usr/bin/python3 -u bin/WALinuxAgent-2.7.1.0-py2.7.egg -collect-logs.
+May 26 02:21:42 mgmt-b puppet-master[17710]: Compiled catalog for backup-b.foo.org.nz in environment production in 0.04 seconds
+May 26 02:21:43 mgmt-b python3[1103]: 2022-05-26T02:21:43.171954Z INFO CollectLogsHandler ExtHandler Successfully collected logs. Archive size: 1789460 b, elapsed time: 19561 ms.
+May 26 02:21:43 mgmt-b python3[1103]: 2022-05-26T02:21:43.216593Z INFO CollectLogsHandler ExtHandler Successfully uploaded logs.
+May 26 02:26:07 mgmt-b puppet-master[17710]: Compiled catalog for db-b.foo.org.nz in environment production in 0.06 seconds
+May 26 02:39:05 mgmt-b systemd[1]: Starting Clean php session files...
+May 26 02:39:05 mgmt-b systemd[1]: Started Clean php session files.
+May 26 02:40:44 mgmt-b python3[1103]: 2022-05-26T02:40:44.484379Z INFO ExtHandler ExtHandler [HEARTBEAT] Agent WALinuxAgent-2.7.1.0 is running as the goal state agent [DEBUG HeartbeatCounter: 41;HeartbeatId: 8199D043-6892-4C72-9663-AB8B3E13B5D1;DroppedPackets: 0;UpdateGSErrors: 0;AutoUpdate: 1]
+May 26 02:47:49 mgmt-b puppet-master[17710]: Compiled catalog for mgmt-b.foo.org.nz in environment production in 0.06 seconds
+May 26 02:47:50 mgmt-b puppet-agent[12156]: Applied catalog in 0.46 seconds
+May 26 02:49:38 mgmt-b puppet-master[17710]: Compiled catalog for app-b.foo.org.nz in environment production in 0.05 seconds
+May 26 02:51:42 mgmt-b puppet-master[17710]: Compiled catalog for backup-b.foo.org.nz in environment production in 0.04 seconds
+May 26 02:56:07 mgmt-b puppet-master[17710]: Compiled catalog for db-b.foo.org.nz in environment production in 0.05 seconds
+May 26 03:09:05 mgmt-b systemd[1]: Starting Clean php session files...
+May 26 03:09:05 mgmt-b systemd[1]: Started Clean php session files.
+May 26 03:10:45 mgmt-b python3[1103]: 2022-05-26T03:10:45.425296Z INFO ExtHandler ExtHandler Checking for agent updates (family: Prod)
+May 26 03:10:45 mgmt-b python3[1103]: 2022-05-26T03:10:45.470370Z INFO ExtHandler ExtHandler [HEARTBEAT] Agent WALinuxAgent-2.7.1.0 is running as the goal state agent [DEBUG HeartbeatCounter: 42;HeartbeatId: 8199D043-6892-4C72-9663-AB8B3E13B5D1;DroppedPackets: 0;UpdateGSErrors: 0;AutoUpdate: 1]
+May 26 03:17:49 mgmt-b puppet-master[17710]: Compiled catalog for mgmt-b.foo.org.nz in environment production in 0.08 seconds
+May 26 03:17:50 mgmt-b puppet-agent[15226]: Applied catalog in 0.46 seconds
+May 26 03:19:38 mgmt-b puppet-master[17710]: Compiled catalog for app-b.foo.org.nz in environment production in 0.05 seconds
+May 26 03:21:42 mgmt-b puppet-master[17710]: Compiled catalog for backup-b.foo.org.nz in environment production in 0.05 seconds
+May 26 03:21:43 mgmt-b python3[1103]: 2022-05-26T03:21:43.310421Z INFO CollectLogsHandler ExtHandler Starting log collection...
+May 26 03:21:43 mgmt-b systemd[1]: Started /usr/bin/python3 -u bin/WALinuxAgent-2.7.1.0-py2.7.egg -collect-logs.
+May 26 03:22:01 mgmt-b python3[1103]: 2022-05-26T03:22:01.671673Z INFO CollectLogsHandler ExtHandler Successfully collected logs. Archive size: 1790393 b, elapsed time: 18360 ms.
+May 26 03:22:01 mgmt-b python3[1103]: 2022-05-26T03:22:01.716982Z INFO CollectLogsHandler ExtHandler Successfully uploaded logs.
+May 26 03:26:07 mgmt-b puppet-master[17710]: Compiled catalog for db-b.foo.org.nz in environment production in 0.05 seconds
+May 26 03:39:05 mgmt-b systemd[1]: Starting Clean php session files...
+May 26 03:39:05 mgmt-b systemd[1]: Started Clean php session files.
+May 26 03:40:46 mgmt-b python3[1103]: 2022-05-26T03:40:46.443331Z INFO ExtHandler ExtHandler [HEARTBEAT] Agent WALinuxAgent-2.7.1.0 is running as the goal state agent [DEBUG HeartbeatCounter: 43;HeartbeatId: 8199D043-6892-4C72-9663-AB8B3E13B5D1;DroppedPackets: 0;UpdateGSErrors: 0;AutoUpdate: 1]
+May 26 03:47:49 mgmt-b puppet-master[17710]: Compiled catalog for mgmt-b.foo.org.nz in environment production in 0.07 seconds
+May 26 03:47:50 mgmt-b puppet-agent[18301]: Applied catalog in 0.51 seconds
+May 26 03:49:38 mgmt-b puppet-master[17710]: Compiled catalog for app-b.foo.org.nz in environment production in 0.06 seconds
+May 26 03:51:42 mgmt-b puppet-master[17710]: Compiled catalog for backup-b.foo.org.nz in environment production in 0.04 seconds
+May 26 03:56:07 mgmt-b puppet-master[17710]: Compiled catalog for db-b.foo.org.nz in environment production in 0.05 seconds
+May 26 04:09:05 mgmt-b systemd[1]: Starting Clean php session files...
+May 26 04:09:05 mgmt-b systemd[1]: Started Clean php session files.
+May 26 04:10:47 mgmt-b python3[1103]: 2022-05-26T04:10:47.355173Z INFO ExtHandler ExtHandler Checking for agent updates (family: Prod)
+May 26 04:10:47 mgmt-b python3[1103]: 2022-05-26T04:10:47.404665Z INFO ExtHandler ExtHandler [HEARTBEAT] Agent WALinuxAgent-2.7.1.0 is running as the goal state agent [DEBUG HeartbeatCounter: 44;HeartbeatId: 8199D043-6892-4C72-9663-AB8B3E13B5D1;DroppedPackets: 0;UpdateGSErrors: 0;AutoUpdate: 1]
+May 26 04:17:49 mgmt-b puppet-master[17710]: Compiled catalog for mgmt-b.foo.org.nz in environment production in 0.06 seconds
+May 26 04:17:50 mgmt-b puppet-agent[21401]: Applied catalog in 0.44 seconds
+May 26 04:19:38 mgmt-b puppet-master[17710]: Compiled catalog for app-b.foo.org.nz in environment production in 0.05 seconds
+May 26 04:21:42 mgmt-b puppet-master[17710]: Compiled catalog for backup-b.foo.org.nz in environment production in 0.05 seconds
+May 26 04:22:01 mgmt-b python3[1103]: 2022-05-26T04:22:01.738518Z INFO CollectLogsHandler ExtHandler Starting log collection...
+May 26 04:22:01 mgmt-b systemd[1]: Started /usr/bin/python3 -u bin/WALinuxAgent-2.7.1.0-py2.7.egg -collect-logs.
+May 26 04:22:20 mgmt-b python3[1103]: 2022-05-26T04:22:20.171911Z INFO CollectLogsHandler ExtHandler Successfully collected logs. Archive size: 1791000 b, elapsed time: 18432 ms.
+May 26 04:22:20 mgmt-b python3[1103]: 2022-05-26T04:22:20.213822Z INFO CollectLogsHandler ExtHandler Successfully uploaded logs.
+May 26 04:26:07 mgmt-b puppet-master[17710]: Compiled catalog for db-b.foo.org.nz in environment production in 0.05 seconds
+May 26 04:39:05 mgmt-b systemd[1]: Starting Clean php session files...
+May 26 04:39:05 mgmt-b systemd[1]: Started Clean php session files.
+May 26 04:40:48 mgmt-b python3[1103]: 2022-05-26T04:40:48.315488Z INFO ExtHandler ExtHandler [HEARTBEAT] Agent WALinuxAgent-2.7.1.0 is running as the goal state agent [DEBUG HeartbeatCounter: 45;HeartbeatId: 8199D043-6892-4C72-9663-AB8B3E13B5D1;DroppedPackets: 0;UpdateGSErrors: 0;AutoUpdate: 1]
+May 26 04:47:49 mgmt-b puppet-master[17710]: Compiled catalog for mgmt-b.foo.org.nz in environment production in 0.08 seconds
+May 26 04:47:50 mgmt-b puppet-agent[24544]: Applied catalog in 0.51 seconds
+May 26 04:49:38 mgmt-b puppet-master[17710]: Compiled catalog for app-b.foo.org.nz in environment production in 0.07 seconds
+May 26 04:51:42 mgmt-b puppet-master[17710]: Compiled catalog for backup-b.foo.org.nz in environment production in 0.04 seconds
+May 26 04:56:07 mgmt-b puppet-master[17710]: Compiled catalog for db-b.foo.org.nz in environment production in 0.05 seconds
+May 26 05:09:05 mgmt-b systemd[1]: Starting Clean php session files...
+May 26 05:09:05 mgmt-b systemd[1]: Started Clean php session files.
+May 26 05:10:49 mgmt-b python3[1103]: 2022-05-26T05:10:49.257949Z INFO ExtHandler ExtHandler Checking for agent updates (family: Prod)
+May 26 05:10:49 mgmt-b python3[1103]: 2022-05-26T05:10:49.306910Z INFO ExtHandler ExtHandler [HEARTBEAT] Agent WALinuxAgent-2.7.1.0 is running as the goal state agent [DEBUG HeartbeatCounter: 46;HeartbeatId: 8199D043-6892-4C72-9663-AB8B3E13B5D1;DroppedPackets: 0;UpdateGSErrors: 0;AutoUpdate: 1]
+May 26 05:17:49 mgmt-b puppet-master[17710]: Compiled catalog for mgmt-b.foo.org.nz in environment production in 0.06 seconds
+May 26 05:17:50 mgmt-b puppet-agent[27637]: Applied catalog in 0.46 seconds
+May 26 05:19:38 mgmt-b puppet-master[17710]: Compiled catalog for app-b.foo.org.nz in environment production in 0.04 seconds
+May 26 05:21:42 mgmt-b puppet-master[17710]: Compiled catalog for backup-b.foo.org.nz in environment production in 0.05 seconds
+May 26 05:22:20 mgmt-b python3[1103]: 2022-05-26T05:22:20.305215Z INFO CollectLogsHandler ExtHandler Starting log collection...
+May 26 05:22:20 mgmt-b systemd[1]: Started /usr/bin/python3 -u bin/WALinuxAgent-2.7.1.0-py2.7.egg -collect-logs.
+May 26 05:22:38 mgmt-b python3[1103]: 2022-05-26T05:22:38.476544Z INFO CollectLogsHandler ExtHandler Successfully collected logs. Archive size: 1791949 b, elapsed time: 18170 ms.
+May 26 05:22:38 mgmt-b python3[1103]: 2022-05-26T05:22:38.513933Z INFO CollectLogsHandler ExtHandler Successfully uploaded logs.
+May 26 05:26:07 mgmt-b puppet-master[17710]: Compiled catalog for db-b.foo.org.nz in environment production in 0.05 seconds
+May 26 05:39:05 mgmt-b systemd[1]: Starting Clean php session files...
+May 26 05:39:05 mgmt-b systemd[1]: Started Clean php session files.
+May 26 05:40:50 mgmt-b python3[1103]: 2022-05-26T05:40:50.288140Z INFO ExtHandler ExtHandler [HEARTBEAT] Agent WALinuxAgent-2.7.1.0 is running as the goal state agent [DEBUG HeartbeatCounter: 47;HeartbeatId: 8199D043-6892-4C72-9663-AB8B3E13B5D1;DroppedPackets: 0;UpdateGSErrors: 0;AutoUpdate: 1]
+May 26 05:47:49 mgmt-b puppet-master[17710]: Compiled catalog for mgmt-b.foo.org.nz in environment production in 0.06 seconds
+May 26 05:47:50 mgmt-b puppet-agent[30696]: Applied catalog in 0.46 seconds
+May 26 05:49:38 mgmt-b puppet-master[17710]: Compiled catalog for app-b.foo.org.nz in environment production in 0.05 seconds
+May 26 05:51:42 mgmt-b puppet-master[17710]: Compiled catalog for backup-b.foo.org.nz in environment production in 0.04 seconds
+May 26 05:56:07 mgmt-b puppet-master[17710]: Compiled catalog for db-b.foo.org.nz in environment production in 0.05 seconds
+May 26 06:07:58 mgmt-b systemd[1]: Starting Daily apt upgrade and clean activities...
+May 26 06:08:01 mgmt-b systemd[1]: Started Daily apt upgrade and clean activities.
+May 26 06:09:05 mgmt-b systemd[1]: Starting Clean php session files...
+May 26 06:09:05 mgmt-b systemd[1]: Started Clean php session files.
+May 26 06:10:51 mgmt-b python3[1103]: 2022-05-26T06:10:51.235503Z INFO ExtHandler ExtHandler Checking for agent updates (family: Prod)
+May 26 06:10:51 mgmt-b python3[1103]: 2022-05-26T06:10:51.286420Z INFO ExtHandler ExtHandler [HEARTBEAT] Agent WALinuxAgent-2.7.1.0 is running as the goal state agent [DEBUG HeartbeatCounter: 48;HeartbeatId: 8199D043-6892-4C72-9663-AB8B3E13B5D1;DroppedPackets: 0;UpdateGSErrors: 0;AutoUpdate: 1]
+May 26 06:17:49 mgmt-b puppet-master[17710]: Compiled catalog for mgmt-b.foo.org.nz in environment production in 0.06 seconds
+May 26 06:17:50 mgmt-b puppet-agent[1494]: Applied catalog in 0.47 seconds
+May 26 06:19:38 mgmt-b puppet-master[17710]: Compiled catalog for app-b.foo.org.nz in environment production in 0.05 seconds
+May 26 06:21:42 mgmt-b puppet-master[17710]: Compiled catalog for backup-b.foo.org.nz in environment production in 0.04 seconds
+May 26 06:22:38 mgmt-b python3[1103]: 2022-05-26T06:22:38.610909Z INFO CollectLogsHandler ExtHandler Starting log collection...
+May 26 06:22:38 mgmt-b systemd[1]: Started /usr/bin/python3 -u bin/WALinuxAgent-2.7.1.0-py2.7.egg -collect-logs.
+May 26 06:22:56 mgmt-b python3[1103]: 2022-05-26T06:22:56.869563Z INFO CollectLogsHandler ExtHandler Successfully collected logs. Archive size: 1792776 b, elapsed time: 18258 ms.
+May 26 06:22:56 mgmt-b python3[1103]: 2022-05-26T06:22:56.921220Z INFO CollectLogsHandler ExtHandler Successfully uploaded logs.
+May 26 06:24:55 mgmt-b systemd[1]: Starting Cleanup of Temporary Directories...
+May 26 06:24:55 mgmt-b systemd[1]: Started Cleanup of Temporary Directories.
+May 26 06:25:02 mgmt-b systemd[1]: Reloading The Apache HTTP Server.
+May 26 06:25:02 mgmt-b systemd[1]: Reloaded The Apache HTTP Server.
+May 26 06:26:08 mgmt-b puppet-master[17710]: Compiled catalog for db-b.foo.org.nz in environment production in 0.07 seconds
+May 26 06:39:05 mgmt-b systemd[1]: Starting Clean php session files...
+May 26 06:39:05 mgmt-b systemd[1]: Started Clean php session files.
+May 26 06:40:52 mgmt-b python3[1103]: 2022-05-26T06:40:52.122549Z INFO ExtHandler ExtHandler [HEARTBEAT] Agent WALinuxAgent-2.7.1.0 is running as the goal state agent [DEBUG HeartbeatCounter: 49;HeartbeatId: 8199D043-6892-4C72-9663-AB8B3E13B5D1;DroppedPackets: 0;UpdateGSErrors: 0;AutoUpdate: 1]
+May 26 06:47:49 mgmt-b puppet-master[17710]: Compiled catalog for mgmt-b.foo.org.nz in environment production in 0.07 seconds
+May 26 06:47:50 mgmt-b puppet-agent[4917]: Applied catalog in 0.44 seconds
+May 26 06:49:38 mgmt-b puppet-master[17710]: Compiled catalog for app-b.foo.org.nz in environment production in 0.05 seconds
+May 26 06:51:42 mgmt-b puppet-master[17710]: Compiled catalog for backup-b.foo.org.nz in environment production in 0.05 seconds
+May 26 06:56:07 mgmt-b puppet-master[17710]: Compiled catalog for db-b.foo.org.nz in environment production in 0.05 seconds
+May 26 07:09:05 mgmt-b systemd[1]: Starting Clean php session files...
+May 26 07:09:05 mgmt-b systemd[1]: Started Clean php session files.
+May 26 07:10:53 mgmt-b python3[1103]: 2022-05-26T07:10:53.110924Z INFO ExtHandler ExtHandler Checking for agent updates (family: Prod)
+May 26 07:10:53 mgmt-b python3[1103]: 2022-05-26T07:10:53.166549Z INFO ExtHandler ExtHandler [HEARTBEAT] Agent WALinuxAgent-2.7.1.0 is running as the goal state agent [DEBUG HeartbeatCounter: 50;HeartbeatId: 8199D043-6892-4C72-9663-AB8B3E13B5D1;DroppedPackets: 0;UpdateGSErrors: 0;AutoUpdate: 1]
+May 26 07:17:49 mgmt-b puppet-master[17710]: Compiled catalog for mgmt-b.foo.org.nz in environment production in 0.06 seconds
+May 26 07:17:50 mgmt-b puppet-agent[8001]: Applied catalog in 0.42 seconds
+May 26 07:19:38 mgmt-b puppet-master[17710]: Compiled catalog for app-b.foo.org.nz in environment production in 0.06 seconds
+May 26 07:21:42 mgmt-b puppet-master[17710]: Compiled catalog for backup-b.foo.org.nz in environment production in 0.04 seconds
+May 26 07:22:57 mgmt-b python3[1103]: 2022-05-26T07:22:57.012668Z INFO CollectLogsHandler ExtHandler Starting log collection...
+May 26 07:22:57 mgmt-b systemd[1]: Started /usr/bin/python3 -u bin/WALinuxAgent-2.7.1.0-py2.7.egg -collect-logs.
+May 26 07:23:15 mgmt-b python3[1103]: 2022-05-26T07:23:15.872816Z INFO CollectLogsHandler ExtHandler Successfully collected logs. Archive size: 1755923 b, elapsed time: 18859 ms.
+May 26 07:23:15 mgmt-b python3[1103]: 2022-05-26T07:23:15.913075Z INFO CollectLogsHandler ExtHandler Successfully uploaded logs.
+May 26 07:26:08 mgmt-b puppet-master[17710]: Compiled catalog for db-b.foo.org.nz in environment production in 0.06 seconds
+May 26 07:39:05 mgmt-b systemd[1]: Starting Clean php session files...
+May 26 07:39:05 mgmt-b systemd[1]: Started Clean php session files.
+May 26 07:40:54 mgmt-b python3[1103]: 2022-05-26T07:40:54.141085Z INFO ExtHandler ExtHandler [HEARTBEAT] Agent WALinuxAgent-2.7.1.0 is running as the goal state agent [DEBUG HeartbeatCounter: 51;HeartbeatId: 8199D043-6892-4C72-9663-AB8B3E13B5D1;DroppedPackets: 0;UpdateGSErrors: 0;AutoUpdate: 1]
+May 26 07:47:49 mgmt-b puppet-master[17710]: Compiled catalog for mgmt-b.foo.org.nz in environment production in 0.09 seconds
+May 26 07:47:50 mgmt-b puppet-agent[11147]: Applied catalog in 0.49 seconds
+May 26 07:49:38 mgmt-b puppet-master[17710]: Compiled catalog for app-b.foo.org.nz in environment production in 0.06 seconds
+May 26 07:51:42 mgmt-b puppet-master[17710]: Compiled catalog for backup-b.foo.org.nz in environment production in 0.05 seconds
+May 26 07:56:07 mgmt-b puppet-master[17710]: Compiled catalog for db-b.foo.org.nz in environment production in 0.05 seconds
+May 26 08:09:05 mgmt-b systemd[1]: Starting Clean php session files...
+May 26 08:09:05 mgmt-b systemd[1]: Started Clean php session files.
+May 26 08:10:55 mgmt-b python3[1103]: 2022-05-26T08:10:55.115075Z INFO ExtHandler ExtHandler Checking for agent updates (family: Prod)
+May 26 08:10:55 mgmt-b python3[1103]: 2022-05-26T08:10:55.166018Z INFO ExtHandler ExtHandler [HEARTBEAT] Agent WALinuxAgent-2.7.1.0 is running as the goal state agent [DEBUG HeartbeatCounter: 52;HeartbeatId: 8199D043-6892-4C72-9663-AB8B3E13B5D1;DroppedPackets: 0;UpdateGSErrors: 0;AutoUpdate: 1]
+May 26 08:11:17 mgmt-b systemd[1]: Created slice User Slice of bitstudent.
+May 26 08:11:17 mgmt-b systemd[1]: Starting User Manager for UID 1000...
+May 26 08:11:17 mgmt-b systemd[1]: Started Session 107 of user bitstudent.
+May 26 08:11:17 mgmt-b systemd[13563]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+May 26 08:11:17 mgmt-b systemd[13563]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+May 26 08:11:17 mgmt-b systemd[13563]: Listening on GnuPG network certificate management daemon.
+May 26 08:11:17 mgmt-b systemd[13563]: Listening on REST API socket for snapd user session agent.
+May 26 08:11:17 mgmt-b systemd[13563]: Reached target Paths.
+May 26 08:11:17 mgmt-b systemd[13563]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+May 26 08:11:17 mgmt-b systemd[13563]: Listening on GnuPG cryptographic agent and passphrase cache.
+May 26 08:11:17 mgmt-b systemd[13563]: Reached target Timers.
+May 26 08:11:17 mgmt-b systemd[13563]: Starting D-Bus User Message Bus Socket.
+May 26 08:11:17 mgmt-b systemd[13563]: Listening on D-Bus User Message Bus Socket.
+May 26 08:11:17 mgmt-b systemd[13563]: Reached target Sockets.
+May 26 08:11:17 mgmt-b systemd[13563]: Reached target Basic System.
+May 26 08:11:17 mgmt-b systemd[1]: Started User Manager for UID 1000.
+May 26 08:11:17 mgmt-b systemd[13563]: Reached target Default.
+May 26 08:11:17 mgmt-b systemd[13563]: Startup finished in 84ms.
+May 26 08:17:49 mgmt-b puppet-master[17710]: Compiled catalog for mgmt-b.foo.org.nz in environment production in 0.08 seconds
+May 26 08:17:50 mgmt-b puppet-agent[14382]: Applied catalog in 0.47 seconds
+May 26 08:19:38 mgmt-b puppet-master[17710]: Compiled catalog for app-b.foo.org.nz in environment production in 0.06 seconds
+May 26 08:21:42 mgmt-b puppet-master[17710]: Compiled catalog for backup-b.foo.org.nz in environment production in 0.05 seconds
+May 26 08:23:16 mgmt-b python3[1103]: 2022-05-26T08:23:16.012879Z INFO CollectLogsHandler ExtHandler Starting log collection...
+May 26 08:23:16 mgmt-b systemd[1]: Started /usr/bin/python3 -u bin/WALinuxAgent-2.7.1.0-py2.7.egg -collect-logs.
+May 26 08:23:35 mgmt-b python3[1103]: 2022-05-26T08:23:35.269239Z INFO CollectLogsHandler ExtHandler Successfully collected logs. Archive size: 1757479 b, elapsed time: 19254 ms.
+May 26 08:23:35 mgmt-b python3[1103]: 2022-05-26T08:23:35.309686Z INFO CollectLogsHandler ExtHandler Successfully uploaded logs.
+May 26 08:26:07 mgmt-b puppet-master[17710]: Compiled catalog for db-b.foo.org.nz in environment production in 0.05 seconds
+May 26 08:39:05 mgmt-b systemd[1]: Starting Clean php session files...
+May 26 08:39:05 mgmt-b systemd[1]: Started Clean php session files.
+May 26 08:40:56 mgmt-b python3[1103]: 2022-05-26T08:40:56.072970Z INFO ExtHandler ExtHandler [HEARTBEAT] Agent WALinuxAgent-2.7.1.0 is running as the goal state agent [DEBUG HeartbeatCounter: 53;HeartbeatId: 8199D043-6892-4C72-9663-AB8B3E13B5D1;DroppedPackets: 0;UpdateGSErrors: 0;AutoUpdate: 1]
+May 26 08:46:12 mgmt-b systemd[1]: Starting Message of the Day...
+May 26 08:46:14 mgmt-b 50-motd-news[17368]:  * Super-optimized for small spaces - read how we shrank the memory
+May 26 08:46:14 mgmt-b 50-motd-news[17368]:    footprint of MicroK8s to make it the smallest full K8s around.
+May 26 08:46:14 mgmt-b 50-motd-news[17368]:    https://ubuntu.com/blog/microk8s-memory-optimisation
+May 26 08:46:14 mgmt-b systemd[1]: Started Message of the Day.
+May 26 08:47:49 mgmt-b puppet-master[17710]: Compiled catalog for mgmt-b.foo.org.nz in environment production in 0.07 seconds
+May 26 08:47:50 mgmt-b puppet-agent[17595]: Applied catalog in 0.52 seconds
+May 26 08:49:38 mgmt-b puppet-master[17710]: Compiled catalog for app-b.foo.org.nz in environment production in 0.05 seconds
+May 26 08:50:29 mgmt-b puppet-master[17710]: Compiled catalog for app-b.foo.org.nz in environment production in 0.05 seconds
+May 26 08:50:43 mgmt-b puppet-master[17710]: Compiled catalog for db-b.foo.org.nz in environment production in 0.05 seconds
+May 26 08:51:42 mgmt-b puppet-master[17710]: Compiled catalog for backup-b.foo.org.nz in environment production in 0.05 seconds
+May 26 08:55:14 mgmt-b systemd[1]: Stopping LSB: nagios host/service/network monitoring and management system...
+May 26 08:55:14 mgmt-b nagios3[18446]:  * Stopping nagios3 monitoring daemon nagios3
+May 26 08:55:14 mgmt-b nagios3[18446]:    ...done.
+May 26 08:55:14 mgmt-b systemd[1]: Stopped LSB: nagios host/service/network monitoring and management system.
+May 26 08:55:14 mgmt-b systemd[1]: Starting LSB: nagios host/service/network monitoring and management system...
+May 26 08:55:14 mgmt-b nagios3[18468]:  * Starting nagios3 monitoring daemon nagios3
+May 26 08:55:14 mgmt-b nagios3[18468]:    ...done.
+May 26 08:55:14 mgmt-b systemd[1]: Started LSB: nagios host/service/network monitoring and management system.
+May 26 08:57:09 mgmt-b systemd[1]: Stopping Real time performance monitoring...
+May 26 08:57:12 mgmt-b systemd[1]: Stopped Real time performance monitoring.
+May 26 09:04:34 mgmt-b systemd[1]: Starting Ubuntu Advantage Timer for running repeated jobs...
+May 26 09:04:34 mgmt-b systemd[1]: Started Ubuntu Advantage Timer for running repeated jobs.
+May 26 09:09:05 mgmt-b systemd[1]: Starting Clean php session files...
+May 26 09:09:05 mgmt-b systemd[1]: Started Clean php session files.
+May 26 09:10:57 mgmt-b python3[1103]: 2022-05-26T09:10:57.026328Z INFO ExtHandler ExtHandler Checking for agent updates (family: Prod)
+May 26 09:10:57 mgmt-b python3[1103]: 2022-05-26T09:10:57.078589Z INFO ExtHandler ExtHandler [HEARTBEAT] Agent WALinuxAgent-2.7.1.0 is running as the goal state agent [DEBUG HeartbeatCounter: 54;HeartbeatId: 8199D043-6892-4C72-9663-AB8B3E13B5D1;DroppedPackets: 0;UpdateGSErrors: 0;AutoUpdate: 1]
+May 26 09:17:49 mgmt-b puppet-master[17710]: Compiled catalog for mgmt-b.foo.org.nz in environment production in 0.09 seconds
+May 26 09:17:50 mgmt-b puppet-agent[19528]: Applied catalog in 0.45 seconds
+May 26 09:20:29 mgmt-b puppet-master[17710]: Compiled catalog for app-b.foo.org.nz in environment production in 0.05 seconds
+May 26 09:20:42 mgmt-b puppet-master[17710]: Compiled catalog for db-b.foo.org.nz in environment production in 0.05 seconds
+May 26 09:21:42 mgmt-b puppet-master[17710]: Compiled catalog for backup-b.foo.org.nz in environment production in 0.05 seconds
+May 26 09:23:35 mgmt-b python3[1103]: 2022-05-26T09:23:35.395502Z INFO CollectLogsHandler ExtHandler Starting log collection...
+May 26 09:23:35 mgmt-b systemd[1]: Started /usr/bin/python3 -u bin/WALinuxAgent-2.7.1.0-py2.7.egg -collect-logs.
+May 26 09:23:53 mgmt-b python3[1103]: 2022-05-26T09:23:53.168634Z INFO CollectLogsHandler ExtHandler Successfully collected logs. Archive size: 1759276 b, elapsed time: 17771 ms.
+May 26 09:23:53 mgmt-b python3[1103]: 2022-05-26T09:23:53.217838Z INFO CollectLogsHandler ExtHandler Successfully uploaded logs.
+May 26 09:39:05 mgmt-b systemd[1]: Starting Clean php session files...
+May 26 09:39:05 mgmt-b systemd[1]: Started Clean php session files.
+May 26 09:40:58 mgmt-b python3[1103]: 2022-05-26T09:40:58.363209Z INFO ExtHandler ExtHandler [HEARTBEAT] Agent WALinuxAgent-2.7.1.0 is running as the goal state agent [DEBUG HeartbeatCounter: 55;HeartbeatId: 8199D043-6892-4C72-9663-AB8B3E13B5D1;DroppedPackets: 0;UpdateGSErrors: 0;AutoUpdate: 1]
+May 26 09:47:49 mgmt-b puppet-master[17710]: Compiled catalog for mgmt-b.foo.org.nz in environment production in 0.08 seconds
+May 26 09:47:50 mgmt-b puppet-agent[20579]: Applied catalog in 0.42 seconds
+May 26 09:50:28 mgmt-b systemd[1]: Reloading The Apache HTTP Server.
+May 26 09:50:28 mgmt-b systemd[1]: Reloaded The Apache HTTP Server.
+May 26 09:50:29 mgmt-b puppet-master[17710]: Compiled catalog for app-b.foo.org.nz in environment production in 0.05 seconds
+May 26 09:50:42 mgmt-b puppet-master[17710]: Compiled catalog for db-b.foo.org.nz in environment production in 0.05 seconds
+May 26 09:51:42 mgmt-b puppet-master[17710]: Compiled catalog for backup-b.foo.org.nz in environment production in 0.04 seconds
+May 26 09:52:09 mgmt-b systemd[1]: Reloading The Apache HTTP Server.
+May 26 09:52:09 mgmt-b systemd[1]: Reloaded The Apache HTTP Server.
+May 26 10:09:05 mgmt-b systemd[1]: Starting Clean php session files...
+May 26 10:09:05 mgmt-b systemd[1]: Started Clean php session files.
+May 26 10:10:59 mgmt-b python3[1103]: 2022-05-26T10:10:59.603888Z INFO ExtHandler ExtHandler Checking for agent updates (family: Prod)
+May 26 10:10:59 mgmt-b python3[1103]: 2022-05-26T10:10:59.647143Z INFO ExtHandler ExtHandler [HEARTBEAT] Agent WALinuxAgent-2.7.1.0 is running as the goal state agent [DEBUG HeartbeatCounter: 56;HeartbeatId: 8199D043-6892-4C72-9663-AB8B3E13B5D1;DroppedPackets: 0;UpdateGSErrors: 0;AutoUpdate: 1]
+May 26 10:16:13 mgmt-b systemd[1]: Stopping User Manager for UID 1000...
+May 26 10:16:13 mgmt-b systemd[13563]: Stopped target Default.
+May 26 10:16:13 mgmt-b systemd[13563]: Stopped target Basic System.
+May 26 10:16:13 mgmt-b systemd[13563]: Stopped target Sockets.
+May 26 10:16:13 mgmt-b systemd[13563]: Closed GnuPG cryptographic agent and passphrase cache (restricted).
+May 26 10:16:13 mgmt-b systemd[13563]: Closed GnuPG cryptographic agent and passphrase cache (access for web browsers).
+May 26 10:16:13 mgmt-b systemd[13563]: Closed GnuPG network certificate management daemon.
+May 26 10:16:13 mgmt-b systemd[13563]: Closed GnuPG cryptographic agent (ssh-agent emulation).
+May 26 10:16:13 mgmt-b systemd[13563]: Closed GnuPG cryptographic agent and passphrase cache.
+May 26 10:16:13 mgmt-b systemd[13563]: Closed D-Bus User Message Bus Socket.
+May 26 10:16:13 mgmt-b systemd[13563]: Closed REST API socket for snapd user session agent.
+May 26 10:16:13 mgmt-b systemd[13563]: Stopped target Timers.
+May 26 10:16:13 mgmt-b systemd[13563]: Stopped target Paths.
+May 26 10:16:13 mgmt-b systemd[13563]: Reached target Shutdown.
+May 26 10:16:13 mgmt-b systemd[13563]: Starting Exit the Session...
+May 26 10:16:13 mgmt-b systemd[13563]: Received SIGRTMIN+24 from PID 22015 (kill).
+May 26 10:16:13 mgmt-b systemd[1]: user@1000.service: Killing process 22015 (kill) with signal SIGKILL.
+May 26 10:16:13 mgmt-b systemd[1]: Stopped User Manager for UID 1000.
+May 26 10:16:13 mgmt-b systemd[1]: Removed slice User Slice of bitstudent.
+May 26 10:17:49 mgmt-b puppet-master[17710]: Compiled catalog for mgmt-b.foo.org.nz in environment production in 0.06 seconds
+May 26 10:17:50 mgmt-b puppet-agent[22079]: Applied catalog in 0.44 seconds
+May 26 10:20:29 mgmt-b puppet-master[17710]: Compiled catalog for app-b.foo.org.nz in environment production in 0.06 seconds
+May 26 10:20:42 mgmt-b puppet-master[17710]: Compiled catalog for db-b.foo.org.nz in environment production in 0.04 seconds
+May 26 10:21:42 mgmt-b puppet-master[17710]: Compiled catalog for backup-b.foo.org.nz in environment production in 0.04 seconds
+May 26 10:23:53 mgmt-b python3[1103]: 2022-05-26T10:23:53.318704Z INFO CollectLogsHandler ExtHandler Starting log collection...
+May 26 10:23:53 mgmt-b systemd[1]: Started /usr/bin/python3 -u bin/WALinuxAgent-2.7.1.0-py2.7.egg -collect-logs.
+May 26 10:24:11 mgmt-b python3[1103]: 2022-05-26T10:24:11.973881Z INFO CollectLogsHandler ExtHandler Successfully collected logs. Archive size: 1760937 b, elapsed time: 18654 ms.
+May 26 10:24:12 mgmt-b python3[1103]: 2022-05-26T10:24:12.022419Z INFO CollectLogsHandler ExtHandler Successfully uploaded logs.
+May 26 10:39:05 mgmt-b systemd[1]: Starting Clean php session files...
+May 26 10:39:05 mgmt-b systemd[1]: Started Clean php session files.
+May 26 10:41:00 mgmt-b python3[1103]: 2022-05-26T10:41:00.849194Z INFO ExtHandler ExtHandler [HEARTBEAT] Agent WALinuxAgent-2.7.1.0 is running as the goal state agent [DEBUG HeartbeatCounter: 57;HeartbeatId: 8199D043-6892-4C72-9663-AB8B3E13B5D1;DroppedPackets: 0;UpdateGSErrors: 0;AutoUpdate: 1]
+May 26 10:47:49 mgmt-b puppet-master[17710]: Compiled catalog for mgmt-b.foo.org.nz in environment production in 0.08 seconds
+May 26 10:47:50 mgmt-b puppet-agent[23111]: Applied catalog in 0.45 seconds
+May 26 10:50:29 mgmt-b puppet-master[17710]: Compiled catalog for app-b.foo.org.nz in environment production in 0.09 seconds
+May 26 10:50:42 mgmt-b puppet-master[17710]: Compiled catalog for db-b.foo.org.nz in environment production in 0.05 seconds
+May 26 10:51:42 mgmt-b puppet-master[17710]: Compiled catalog for backup-b.foo.org.nz in environment production in 0.04 seconds
+May 26 11:09:05 mgmt-b systemd[1]: Starting Clean php session files...
+May 26 11:09:05 mgmt-b systemd[1]: Started Clean php session files.
+May 26 11:11:02 mgmt-b python3[1103]: 2022-05-26T11:11:02.048224Z INFO ExtHandler ExtHandler Checking for agent updates (family: Prod)
+May 26 11:11:02 mgmt-b python3[1103]: 2022-05-26T11:11:02.107580Z INFO ExtHandler ExtHandler [HEARTBEAT] Agent WALinuxAgent-2.7.1.0 is running as the goal state agent [DEBUG HeartbeatCounter: 58;HeartbeatId: 8199D043-6892-4C72-9663-AB8B3E13B5D1;DroppedPackets: 0;UpdateGSErrors: 0;AutoUpdate: 1]
+May 26 11:17:49 mgmt-b puppet-master[17710]: Compiled catalog for mgmt-b.foo.org.nz in environment production in 0.07 seconds
+May 26 11:17:50 mgmt-b puppet-agent[24143]: Applied catalog in 0.41 seconds
+May 26 11:20:29 mgmt-b puppet-master[17710]: Compiled catalog for app-b.foo.org.nz in environment production in 0.06 seconds
+May 26 11:20:42 mgmt-b puppet-master[17710]: Compiled catalog for db-b.foo.org.nz in environment production in 0.05 seconds
+May 26 11:21:42 mgmt-b puppet-master[17710]: Compiled catalog for backup-b.foo.org.nz in environment production in 0.04 seconds
+May 26 11:24:12 mgmt-b python3[1103]: 2022-05-26T11:24:12.072307Z INFO CollectLogsHandler ExtHandler Starting log collection...
+May 26 11:24:12 mgmt-b systemd[1]: Started /usr/bin/python3 -u bin/WALinuxAgent-2.7.1.0-py2.7.egg -collect-logs.
+May 26 11:24:30 mgmt-b python3[1103]: 2022-05-26T11:24:30.473124Z INFO CollectLogsHandler ExtHandler Successfully collected logs. Archive size: 1761574 b, elapsed time: 18399 ms.
+May 26 11:24:30 mgmt-b python3[1103]: 2022-05-26T11:24:30.517890Z INFO CollectLogsHandler ExtHandler Successfully uploaded logs.
