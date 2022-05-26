@@ -1,7 +1,0 @@
-May 26 22:01:34 db-b crontab[17021]: (bitstudent) BEGIN EDIT (bitstudent)
-May 26 22:02:23 db-b crontab[17021]: (bitstudent) REPLACE (bitstudent)
-May 26 22:02:23 db-b crontab[17021]: (bitstudent) END EDIT (bitstudent)
-May 26 22:03:01 db-b cron[1092]: (bitstudent) RELOAD (crontabs/bitstudent)
-May 26 22:05:01 db-b CRON[17117]: (bitstudent) CMD (sudo bash ~/OE2-Group-Project/Scripts/db/backup.sh)
-May 26 22:05:01 db-b CRON[17116]: (CRON) info (No MTA installed, discarding output)
-May 26 22:17:01 db-b CRON[17441]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)

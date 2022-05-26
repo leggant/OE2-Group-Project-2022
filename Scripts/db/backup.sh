@@ -57,5 +57,4 @@ sudo cp /var/log/daemon.log ~/OE2-Group-Project/Db-VM/Logs
   cd ~/
 sudo cat '' > /var/log/cron.log
 sudo cat '' > /var/log/daemon.log
-sudo cat '' > /var/log/user.log
 fi

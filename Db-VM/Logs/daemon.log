@@ -1,178 +1,56 @@
-May 26 22:02:22 db-b nrpe[17042]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 48843
-May 26 22:02:22 db-b nrpe[17042]: Connection from 10.6.0.6 port 48843
-May 26 22:02:22 db-b nrpe[17042]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
-May 26 22:02:22 db-b nrpe[17042]: is_an_allowed_host (AF_INET): host is in allowed host list!
-May 26 22:02:22 db-b nrpe[17042]: Host address is in allowed_hosts
-May 26 22:02:22 db-b nrpe[17042]: Host 10.6.0.6 is asking for command 'check_ping' to be run...
-May 26 22:02:22 db-b nrpe[17042]: Running command: /usr/lib/nagios/plugins/check_ping -H localhost -w 10,2% -c 20,5%
-May 26 22:02:22 db-b nrpe[17043]: WARNING: my_system() seteuid(0): Operation not permitted
-May 26 22:02:26 db-b nrpe[17042]: Command completed with return code 0 and output: PING OK - Packet loss = 0%, RTA = 0.04 ms|rta=0.044000ms;10.000000;20.000000;0.000000 pl=0%;2;5;0
-May 26 22:02:26 db-b nrpe[17042]: Return Code: 0, Output: PING OK - Packet loss = 0%, RTA = 0.04 ms|rta=0.044000ms;10.000000;20.000000;0.000000 pl=0%;2;5;0
-May 26 22:02:26 db-b nrpe[17042]: Connection from 10.6.0.6 closed.
-May 26 22:02:30 db-b nrpe[17048]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 51915
-May 26 22:02:30 db-b nrpe[17048]: Connection from 10.6.0.6 port 51915
-May 26 22:02:30 db-b nrpe[17048]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
-May 26 22:02:30 db-b nrpe[17048]: is_an_allowed_host (AF_INET): host is in allowed host list!
-May 26 22:02:30 db-b nrpe[17048]: Host address is in allowed_hosts
-May 26 22:02:30 db-b nrpe[17048]: Host 10.6.0.6 is asking for command 'check_hd' to be run...
-May 26 22:02:30 db-b nrpe[17048]: Running command: /usr/lib/nagios/plugins/check_disk -w 20% -c 10% -p /dev/sda1
-May 26 22:02:30 db-b nrpe[17049]: WARNING: my_system() seteuid(0): Operation not permitted
-May 26 22:02:30 db-b nrpe[17048]: Command completed with return code 0 and output: DISK OK - free space: /var/tmp 24895 MB (84% inode=95%);| /var/tmp=4687MB;23678;26638;0;29598
-May 26 22:02:30 db-b nrpe[17048]: Return Code: 0, Output: DISK OK - free space: /var/tmp 24895 MB (84% inode=95%);| /var/tmp=4687MB;23678;26638;0;29598
-May 26 22:02:30 db-b nrpe[17048]: Connection from 10.6.0.6 closed.
-May 26 22:02:35 db-b nrpe[17053]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 54475
-May 26 22:02:35 db-b nrpe[17053]: Connection from 10.6.0.6 port 54475
-May 26 22:02:35 db-b nrpe[17053]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
-May 26 22:02:35 db-b nrpe[17053]: is_an_allowed_host (AF_INET): host is in allowed host list!
-May 26 22:02:35 db-b nrpe[17053]: Host address is in allowed_hosts
-May 26 22:02:35 db-b nrpe[17053]: Host 10.6.0.6 is asking for command 'check_users' to be run...
-May 26 22:02:35 db-b nrpe[17053]: Running command: /usr/lib/nagios/plugins/check_users -w 0 -c 2
-May 26 22:02:35 db-b nrpe[17056]: WARNING: my_system() seteuid(0): Operation not permitted
-May 26 22:02:35 db-b nrpe[17053]: Command completed with return code 1 and output: USERS WARNING - 1 users currently logged in |users=1;0;2;0
-May 26 22:02:35 db-b nrpe[17053]: Return Code: 1, Output: USERS WARNING - 1 users currently logged in |users=1;0;2;0
-May 26 22:02:35 db-b nrpe[17053]: Connection from 10.6.0.6 closed.
-May 26 22:03:35 db-b nrpe[17079]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 14028
-May 26 22:03:35 db-b nrpe[17079]: Connection from 10.6.0.6 port 14028
-May 26 22:03:35 db-b nrpe[17079]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
-May 26 22:03:35 db-b nrpe[17079]: is_an_allowed_host (AF_INET): host is in allowed host list!
-May 26 22:03:35 db-b nrpe[17079]: Host address is in allowed_hosts
-May 26 22:03:35 db-b nrpe[17079]: Host 10.6.0.6 is asking for command 'check_users' to be run...
-May 26 22:03:35 db-b nrpe[17079]: Running command: /usr/lib/nagios/plugins/check_users -w 0 -c 2
-May 26 22:03:35 db-b nrpe[17080]: WARNING: my_system() seteuid(0): Operation not permitted
-May 26 22:03:35 db-b nrpe[17079]: Command completed with return code 1 and output: USERS WARNING - 1 users currently logged in |users=1;0;2;0
-May 26 22:03:35 db-b nrpe[17079]: Return Code: 1, Output: USERS WARNING - 1 users currently logged in |users=1;0;2;0
-May 26 22:03:35 db-b nrpe[17079]: Connection from 10.6.0.6 closed.
-May 26 22:04:35 db-b nrpe[17107]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 39116
-May 26 22:04:35 db-b nrpe[17107]: Connection from 10.6.0.6 port 39116
-May 26 22:04:35 db-b nrpe[17107]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
-May 26 22:04:35 db-b nrpe[17107]: is_an_allowed_host (AF_INET): host is in allowed host list!
-May 26 22:04:35 db-b nrpe[17107]: Host address is in allowed_hosts
-May 26 22:04:35 db-b nrpe[17107]: Host 10.6.0.6 is asking for command 'check_users' to be run...
-May 26 22:04:35 db-b nrpe[17107]: Running command: /usr/lib/nagios/plugins/check_users -w 0 -c 2
-May 26 22:04:35 db-b nrpe[17108]: WARNING: my_system() seteuid(0): Operation not permitted
-May 26 22:04:35 db-b nrpe[17107]: Command completed with return code 1 and output: USERS WARNING - 1 users currently logged in |users=1;0;2;0
-May 26 22:04:35 db-b nrpe[17107]: Return Code: 1, Output: USERS WARNING - 1 users currently logged in |users=1;0;2;0
-May 26 22:04:35 db-b nrpe[17107]: Connection from 10.6.0.6 closed.
-May 26 22:07:22 db-b nrpe[17309]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 47821
-May 26 22:07:22 db-b nrpe[17309]: Connection from 10.6.0.6 port 47821
-May 26 22:07:22 db-b nrpe[17309]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
-May 26 22:07:22 db-b nrpe[17309]: is_an_allowed_host (AF_INET): host is in allowed host list!
-May 26 22:07:22 db-b nrpe[17309]: Host address is in allowed_hosts
-May 26 22:07:22 db-b nrpe[17309]: Host 10.6.0.6 is asking for command 'check_ping' to be run...
-May 26 22:07:22 db-b nrpe[17309]: Running command: /usr/lib/nagios/plugins/check_ping -H localhost -w 10,2% -c 20,5%
-May 26 22:07:22 db-b nrpe[17310]: WARNING: my_system() seteuid(0): Operation not permitted
-May 26 22:07:26 db-b nrpe[17309]: Command completed with return code 0 and output: PING OK - Packet loss = 0%, RTA = 0.04 ms|rta=0.044000ms;10.000000;20.000000;0.000000 pl=0%;2;5;0
-May 26 22:07:26 db-b nrpe[17309]: Return Code: 0, Output: PING OK - Packet loss = 0%, RTA = 0.04 ms|rta=0.044000ms;10.000000;20.000000;0.000000 pl=0%;2;5;0
-May 26 22:07:26 db-b nrpe[17309]: Connection from 10.6.0.6 closed.
-May 26 22:07:30 db-b nrpe[17315]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 50893
-May 26 22:07:30 db-b nrpe[17315]: Connection from 10.6.0.6 port 50893
-May 26 22:07:30 db-b nrpe[17315]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
-May 26 22:07:30 db-b nrpe[17315]: is_an_allowed_host (AF_INET): host is in allowed host list!
-May 26 22:07:30 db-b nrpe[17315]: Host address is in allowed_hosts
-May 26 22:07:30 db-b nrpe[17315]: Host 10.6.0.6 is asking for command 'check_hd' to be run...
-May 26 22:07:30 db-b nrpe[17315]: Running command: /usr/lib/nagios/plugins/check_disk -w 20% -c 10% -p /dev/sda1
-May 26 22:07:30 db-b nrpe[17316]: WARNING: my_system() seteuid(0): Operation not permitted
-May 26 22:07:30 db-b nrpe[17315]: Command completed with return code 0 and output: DISK OK - free space: /var/tmp 24895 MB (84% inode=95%);| /var/tmp=4687MB;23678;26638;0;29598
-May 26 22:07:30 db-b nrpe[17315]: Return Code: 0, Output: DISK OK - free space: /var/tmp 24895 MB (84% inode=95%);| /var/tmp=4687MB;23678;26638;0;29598
-May 26 22:07:30 db-b nrpe[17315]: Connection from 10.6.0.6 closed.
-May 26 22:09:35 db-b nrpe[17341]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 37070
-May 26 22:09:35 db-b nrpe[17341]: Connection from 10.6.0.6 port 37070
-May 26 22:09:35 db-b nrpe[17341]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
-May 26 22:09:35 db-b nrpe[17341]: is_an_allowed_host (AF_INET): host is in allowed host list!
-May 26 22:09:35 db-b nrpe[17341]: Host address is in allowed_hosts
-May 26 22:09:35 db-b nrpe[17341]: Host 10.6.0.6 is asking for command 'check_users' to be run...
-May 26 22:09:35 db-b nrpe[17341]: Running command: /usr/lib/nagios/plugins/check_users -w 0 -c 2
-May 26 22:09:35 db-b nrpe[17342]: WARNING: my_system() seteuid(0): Operation not permitted
-May 26 22:09:35 db-b nrpe[17341]: Command completed with return code 1 and output: USERS WARNING - 1 users currently logged in |users=1;0;2;0
-May 26 22:09:35 db-b nrpe[17341]: Return Code: 1, Output: USERS WARNING - 1 users currently logged in |users=1;0;2;0
-May 26 22:09:35 db-b nrpe[17341]: Connection from 10.6.0.6 closed.
-May 26 22:12:22 db-b nrpe[17378]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 46287
-May 26 22:12:22 db-b nrpe[17378]: Connection from 10.6.0.6 port 46287
-May 26 22:12:22 db-b nrpe[17378]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
-May 26 22:12:22 db-b nrpe[17378]: is_an_allowed_host (AF_INET): host is in allowed host list!
-May 26 22:12:22 db-b nrpe[17378]: Host address is in allowed_hosts
-May 26 22:12:22 db-b nrpe[17378]: Host 10.6.0.6 is asking for command 'check_ping' to be run...
-May 26 22:12:22 db-b nrpe[17378]: Running command: /usr/lib/nagios/plugins/check_ping -H localhost -w 10,2% -c 20,5%
-May 26 22:12:22 db-b nrpe[17379]: WARNING: my_system() seteuid(0): Operation not permitted
-May 26 22:12:26 db-b nrpe[17378]: Command completed with return code 0 and output: PING OK - Packet loss = 0%, RTA = 0.04 ms|rta=0.044000ms;10.000000;20.000000;0.000000 pl=0%;2;5;0
-May 26 22:12:26 db-b nrpe[17378]: Return Code: 0, Output: PING OK - Packet loss = 0%, RTA = 0.04 ms|rta=0.044000ms;10.000000;20.000000;0.000000 pl=0%;2;5;0
-May 26 22:12:26 db-b nrpe[17378]: Connection from 10.6.0.6 closed.
-May 26 22:12:30 db-b nrpe[17384]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 51407
-May 26 22:12:30 db-b nrpe[17384]: Connection from 10.6.0.6 port 51407
-May 26 22:12:30 db-b nrpe[17384]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
-May 26 22:12:30 db-b nrpe[17384]: is_an_allowed_host (AF_INET): host is in allowed host list!
-May 26 22:12:30 db-b nrpe[17384]: Host address is in allowed_hosts
-May 26 22:12:30 db-b nrpe[17384]: Host 10.6.0.6 is asking for command 'check_hd' to be run...
-May 26 22:12:30 db-b nrpe[17384]: Running command: /usr/lib/nagios/plugins/check_disk -w 20% -c 10% -p /dev/sda1
-May 26 22:12:30 db-b nrpe[17385]: WARNING: my_system() seteuid(0): Operation not permitted
-May 26 22:12:30 db-b nrpe[17384]: Command completed with return code 0 and output: DISK OK - free space: /var/tmp 24895 MB (84% inode=95%);| /var/tmp=4687MB;23678;26638;0;29598
-May 26 22:12:30 db-b nrpe[17384]: Return Code: 0, Output: DISK OK - free space: /var/tmp 24895 MB (84% inode=95%);| /var/tmp=4687MB;23678;26638;0;29598
-May 26 22:12:30 db-b nrpe[17384]: Connection from 10.6.0.6 closed.
-May 26 22:14:35 db-b nrpe[17411]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 38096
-May 26 22:14:35 db-b nrpe[17411]: Connection from 10.6.0.6 port 38096
-May 26 22:14:35 db-b nrpe[17411]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
-May 26 22:14:35 db-b nrpe[17411]: is_an_allowed_host (AF_INET): host is in allowed host list!
-May 26 22:14:35 db-b nrpe[17411]: Host address is in allowed_hosts
-May 26 22:14:35 db-b nrpe[17411]: Host 10.6.0.6 is asking for command 'check_users' to be run...
-May 26 22:14:35 db-b nrpe[17411]: Running command: /usr/lib/nagios/plugins/check_users -w 0 -c 2
-May 26 22:14:35 db-b nrpe[17412]: WARNING: my_system() seteuid(0): Operation not permitted
-May 26 22:14:35 db-b nrpe[17411]: Command completed with return code 1 and output: USERS WARNING - 1 users currently logged in |users=1;0;2;0
-May 26 22:14:35 db-b nrpe[17411]: Return Code: 1, Output: USERS WARNING - 1 users currently logged in |users=1;0;2;0
-May 26 22:14:35 db-b nrpe[17411]: Connection from 10.6.0.6 closed.
-May 26 22:17:22 db-b nrpe[17451]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 43217
-May 26 22:17:22 db-b nrpe[17451]: Connection from 10.6.0.6 port 43217
-May 26 22:17:22 db-b nrpe[17451]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
-May 26 22:17:22 db-b nrpe[17451]: is_an_allowed_host (AF_INET): host is in allowed host list!
-May 26 22:17:22 db-b nrpe[17451]: Host address is in allowed_hosts
-May 26 22:17:22 db-b nrpe[17451]: Host 10.6.0.6 is asking for command 'check_ping' to be run...
-May 26 22:17:22 db-b nrpe[17451]: Running command: /usr/lib/nagios/plugins/check_ping -H localhost -w 10,2% -c 20,5%
-May 26 22:17:22 db-b nrpe[17452]: WARNING: my_system() seteuid(0): Operation not permitted
-May 26 22:17:26 db-b nrpe[17451]: Command completed with return code 0 and output: PING OK - Packet loss = 0%, RTA = 0.04 ms|rta=0.043000ms;10.000000;20.000000;0.000000 pl=0%;2;5;0
-May 26 22:17:26 db-b nrpe[17451]: Return Code: 0, Output: PING OK - Packet loss = 0%, RTA = 0.04 ms|rta=0.043000ms;10.000000;20.000000;0.000000 pl=0%;2;5;0
-May 26 22:17:26 db-b nrpe[17451]: Connection from 10.6.0.6 closed.
-May 26 22:17:30 db-b nrpe[17457]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 48337
-May 26 22:17:30 db-b nrpe[17457]: Connection from 10.6.0.6 port 48337
-May 26 22:17:30 db-b nrpe[17457]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
-May 26 22:17:30 db-b nrpe[17457]: is_an_allowed_host (AF_INET): host is in allowed host list!
-May 26 22:17:30 db-b nrpe[17457]: Host address is in allowed_hosts
-May 26 22:17:30 db-b nrpe[17457]: Host 10.6.0.6 is asking for command 'check_hd' to be run...
-May 26 22:17:30 db-b nrpe[17457]: Running command: /usr/lib/nagios/plugins/check_disk -w 20% -c 10% -p /dev/sda1
-May 26 22:17:30 db-b nrpe[17458]: WARNING: my_system() seteuid(0): Operation not permitted
-May 26 22:17:30 db-b nrpe[17457]: Command completed with return code 0 and output: DISK OK - free space: /var/tmp 24895 MB (84% inode=95%);| /var/tmp=4687MB;23678;26638;0;29598
-May 26 22:17:30 db-b nrpe[17457]: Return Code: 0, Output: DISK OK - free space: /var/tmp 24895 MB (84% inode=95%);| /var/tmp=4687MB;23678;26638;0;29598
-May 26 22:17:30 db-b nrpe[17457]: Connection from 10.6.0.6 closed.
-May 26 22:19:35 db-b nrpe[17493]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 32978
-May 26 22:19:35 db-b nrpe[17493]: Connection from 10.6.0.6 port 32978
-May 26 22:19:35 db-b nrpe[17493]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
-May 26 22:19:35 db-b nrpe[17493]: is_an_allowed_host (AF_INET): host is in allowed host list!
-May 26 22:19:35 db-b nrpe[17493]: Host address is in allowed_hosts
-May 26 22:19:35 db-b nrpe[17493]: Host 10.6.0.6 is asking for command 'check_users' to be run...
-May 26 22:19:35 db-b nrpe[17493]: Running command: /usr/lib/nagios/plugins/check_users -w 0 -c 2
-May 26 22:19:35 db-b nrpe[17494]: WARNING: my_system() seteuid(0): Operation not permitted
-May 26 22:19:35 db-b nrpe[17493]: Command completed with return code 1 and output: USERS WARNING - 1 users currently logged in |users=1;0;2;0
-May 26 22:19:35 db-b nrpe[17493]: Return Code: 1, Output: USERS WARNING - 1 users currently logged in |users=1;0;2;0
-May 26 22:19:35 db-b nrpe[17493]: Connection from 10.6.0.6 closed.
-May 26 22:20:43 db-b puppet-agent[17506]: Applied catalog in 0.40 seconds
-May 26 22:20:54 db-b python3[1129]: 2022-05-26T22:20:54.245652Z INFO ExtHandler ExtHandler [HEARTBEAT] Agent WALinuxAgent-2.7.1.0 is running as the goal state agent [DEBUG HeartbeatCounter: 27;HeartbeatId: E716DB19-DD35-44D6-8266-C50785C9D424;DroppedPackets: 0;UpdateGSErrors: 0;AutoUpdate: 1]
-May 26 22:22:22 db-b nrpe[17572]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 40147
-May 26 22:22:22 db-b nrpe[17572]: Connection from 10.6.0.6 port 40147
-May 26 22:22:22 db-b nrpe[17572]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
-May 26 22:22:22 db-b nrpe[17572]: is_an_allowed_host (AF_INET): host is in allowed host list!
-May 26 22:22:22 db-b nrpe[17572]: Host address is in allowed_hosts
-May 26 22:22:22 db-b nrpe[17572]: Host 10.6.0.6 is asking for command 'check_ping' to be run...
-May 26 22:22:22 db-b nrpe[17572]: Running command: /usr/lib/nagios/plugins/check_ping -H localhost -w 10,2% -c 20,5%
-May 26 22:22:22 db-b nrpe[17573]: WARNING: my_system() seteuid(0): Operation not permitted
-May 26 22:22:26 db-b nrpe[17572]: Command completed with return code 0 and output: PING OK - Packet loss = 0%, RTA = 0.05 ms|rta=0.045000ms;10.000000;20.000000;0.000000 pl=0%;2;5;0
-May 26 22:22:26 db-b nrpe[17572]: Return Code: 0, Output: PING OK - Packet loss = 0%, RTA = 0.05 ms|rta=0.045000ms;10.000000;20.000000;0.000000 pl=0%;2;5;0
-May 26 22:22:26 db-b nrpe[17572]: Connection from 10.6.0.6 closed.
-May 26 22:22:30 db-b nrpe[17583]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 42707
-May 26 22:22:30 db-b nrpe[17583]: Connection from 10.6.0.6 port 42707
-May 26 22:22:30 db-b nrpe[17583]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
-May 26 22:22:30 db-b nrpe[17583]: is_an_allowed_host (AF_INET): host is in allowed host list!
-May 26 22:22:30 db-b nrpe[17583]: Host address is in allowed_hosts
-May 26 22:22:30 db-b nrpe[17583]: Host 10.6.0.6 is asking for command 'check_hd' to be run...
-May 26 22:22:30 db-b nrpe[17583]: Running command: /usr/lib/nagios/plugins/check_disk -w 20% -c 10% -p /dev/sda1
-May 26 22:22:30 db-b nrpe[17584]: WARNING: my_system() seteuid(0): Operation not permitted
-May 26 22:22:30 db-b nrpe[17583]: Command completed with return code 0 and output: DISK OK - free space: /var/tmp 24895 MB (84% inode=95%);| /var/tmp=4687MB;23678;26638;0;29598
-May 26 22:22:30 db-b nrpe[17583]: Return Code: 0, Output: DISK OK - free space: /var/tmp 24895 MB (84% inode=95%);| /var/tmp=4687MB;23678;26638;0;29598
-May 26 22:22:30 db-b nrpe[17583]: Connection from 10.6.0.6 closed.
+May 26 22:24:35 db-b nrpe[17733]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 29396
+May 26 22:24:35 db-b nrpe[17733]: Connection from 10.6.0.6 port 29396
+May 26 22:24:35 db-b nrpe[17733]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
+May 26 22:24:35 db-b nrpe[17733]: is_an_allowed_host (AF_INET): host is in allowed host list!
+May 26 22:24:35 db-b nrpe[17733]: Host address is in allowed_hosts
+May 26 22:24:35 db-b nrpe[17733]: Host 10.6.0.6 is asking for command 'check_users' to be run...
+May 26 22:24:35 db-b nrpe[17733]: Running command: /usr/lib/nagios/plugins/check_users -w 0 -c 2
+May 26 22:24:35 db-b nrpe[17734]: WARNING: my_system() seteuid(0): Operation not permitted
+May 26 22:24:35 db-b nrpe[17733]: Command completed with return code 1 and output: USERS WARNING - 1 users currently logged in |users=1;0;2;0
+May 26 22:24:35 db-b nrpe[17733]: Return Code: 1, Output: USERS WARNING - 1 users currently logged in |users=1;0;2;0
+May 26 22:24:35 db-b nrpe[17733]: Connection from 10.6.0.6 closed.
+May 26 22:25:05 db-b systemd[1]: Stopping System Logging Service...
+May 26 22:25:05 db-b systemd[1]: Stopped System Logging Service.
+May 26 22:25:05 db-b systemd[1]: Starting System Logging Service...
+May 26 22:25:05 db-b systemd[1]: Started System Logging Service.
+May 26 22:26:14 db-b systemd[1]: Stopping System Logging Service...
+May 26 22:26:14 db-b systemd[1]: Stopped System Logging Service.
+May 26 22:26:14 db-b systemd[1]: Starting System Logging Service...
+May 26 22:26:14 db-b systemd[1]: Started System Logging Service.
+May 26 22:27:22 db-b nrpe[17851]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 36565
+May 26 22:27:22 db-b nrpe[17851]: Connection from 10.6.0.6 port 36565
+May 26 22:27:22 db-b nrpe[17851]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
+May 26 22:27:22 db-b nrpe[17851]: is_an_allowed_host (AF_INET): host is in allowed host list!
+May 26 22:27:22 db-b nrpe[17851]: Host address is in allowed_hosts
+May 26 22:27:22 db-b nrpe[17851]: Host 10.6.0.6 is asking for command 'check_ping' to be run...
+May 26 22:27:22 db-b nrpe[17851]: Running command: /usr/lib/nagios/plugins/check_ping -H localhost -w 10,2% -c 20,5%
+May 26 22:27:22 db-b nrpe[17852]: WARNING: my_system() seteuid(0): Operation not permitted
+May 26 22:27:26 db-b nrpe[17851]: Command completed with return code 0 and output: PING OK - Packet loss = 0%, RTA = 0.04 ms|rta=0.044000ms;10.000000;20.000000;0.000000 pl=0%;2;5;0
+May 26 22:27:26 db-b nrpe[17851]: Return Code: 0, Output: PING OK - Packet loss = 0%, RTA = 0.04 ms|rta=0.044000ms;10.000000;20.000000;0.000000 pl=0%;2;5;0
+May 26 22:27:26 db-b nrpe[17851]: Connection from 10.6.0.6 closed.
+May 26 22:27:30 db-b nrpe[17857]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 39125
+May 26 22:27:30 db-b nrpe[17857]: Connection from 10.6.0.6 port 39125
+May 26 22:27:30 db-b nrpe[17857]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
+May 26 22:27:30 db-b nrpe[17857]: is_an_allowed_host (AF_INET): host is in allowed host list!
+May 26 22:27:30 db-b nrpe[17857]: Host address is in allowed_hosts
+May 26 22:27:30 db-b nrpe[17857]: Host 10.6.0.6 is asking for command 'check_hd' to be run...
+May 26 22:27:30 db-b nrpe[17857]: Running command: /usr/lib/nagios/plugins/check_disk -w 20% -c 10% -p /dev/sda1
+May 26 22:27:30 db-b nrpe[17858]: WARNING: my_system() seteuid(0): Operation not permitted
+May 26 22:27:30 db-b nrpe[17857]: Command completed with return code 0 and output: DISK OK - free space: /var/tmp 24896 MB (84% inode=95%);| /var/tmp=4685MB;23678;26638;0;29598
+May 26 22:27:30 db-b nrpe[17857]: Return Code: 0, Output: DISK OK - free space: /var/tmp 24896 MB (84% inode=95%);| /var/tmp=4685MB;23678;26638;0;29598
+May 26 22:27:30 db-b nrpe[17857]: Connection from 10.6.0.6 closed.
+May 26 22:28:26 db-b systemd[1]: Stopping System Logging Service...
+May 26 22:28:26 db-b systemd[1]: Stopped System Logging Service.
+May 26 22:28:26 db-b systemd[1]: Starting System Logging Service...
+May 26 22:28:26 db-b systemd[1]: Started System Logging Service.
+May 26 22:29:35 db-b nrpe[17932]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 26838
+May 26 22:29:35 db-b nrpe[17932]: Connection from 10.6.0.6 port 26838
+May 26 22:29:35 db-b nrpe[17932]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
+May 26 22:29:35 db-b nrpe[17932]: is_an_allowed_host (AF_INET): host is in allowed host list!
+May 26 22:29:35 db-b nrpe[17932]: Host address is in allowed_hosts
+May 26 22:29:35 db-b nrpe[17932]: Host 10.6.0.6 is asking for command 'check_users' to be run...
+May 26 22:29:35 db-b nrpe[17932]: Running command: /usr/lib/nagios/plugins/check_users -w 0 -c 2
+May 26 22:29:35 db-b nrpe[17933]: WARNING: my_system() seteuid(0): Operation not permitted
+May 26 22:29:35 db-b nrpe[17932]: Command completed with return code 1 and output: USERS WARNING - 1 users currently logged in |users=1;0;2;0
+May 26 22:29:35 db-b nrpe[17932]: Return Code: 1, Output: USERS WARNING - 1 users currently logged in |users=1;0;2;0
+May 26 22:29:35 db-b nrpe[17932]: Connection from 10.6.0.6 closed.
