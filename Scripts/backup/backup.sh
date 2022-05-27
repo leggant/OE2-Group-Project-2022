@@ -57,9 +57,6 @@ if [ -z "$(git status --porcelain)" ]; then
 else 
   COMMIT_TIMESTAMP=`date +'%d-%m-%Y %H:%M:%S %Z'`
   history -w
-sudo cp /var/log/user.log ~/OE2-Group-Project/Backup-VM/Logs
-sudo cp /var/log/cron.log ~/OE2-Group-Project/Backup-VM/Logs
-sudo cp /var/log/daemon.log ~/OE2-Group-Project/Backup-VM/Logs
   git add .
   git commit -m "backup: automated system backup" -m "completed: $COMMIT_TIMESTAMP" -m "backup-b"
   git push
