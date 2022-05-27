@@ -98,3 +98,17 @@ May 27 10:06:28 app-b ownCloud[1966]: [dTdmBVu5jpGWQQOj3tCI][202.49.0.100][Group
 May 27 10:06:28 app-b ownCloud[1966]: [dTdmBVu5jpGWQQOj3tCI][202.49.0.100][Group-B][OC\User\Session::validateToken][GET][/ocs/v2.php/apps/notifications/api/v1/notifications?format=json] token 6f7c421e2e7831eb3ad54f5d08525fc7480f114614425f73bdc1148367b8faad233ddb266cca149591c0c125a123197c032c742d74bb691f4fe0248f289fb95b with token id 12 found, validating
 May 27 10:07:06 app-b ownCloud[5632]: [y5l7xE3Fr4O39BIK5BT6][10.6.0.6][--][core][GET][/] Trusted domain error. "10.6.0.6" tried to access using "app-b.foo.org.nz" as host.
 May 27 10:07:26 app-b ownCloud[2077]: [2Y9p4W6zwvlvMYJhUDbr][10.6.0.6][--][core][GET][/] Trusted domain error. "10.6.0.6" tried to access using "app-b.foo.org.nz" as host.
+May 27 11:19:09 app-b ownCloud[5632]: [2tKOg79qxfG8dS88Cj6F][10.6.0.6][--][core][GET][/] Trusted domain error. "10.6.0.6" tried to access using "app-b.foo.org.nz" as host.
+May 27 11:19:27 app-b ownCloud[2077]: [y8k49EyRZ7beRVWdknsr][10.6.0.6][--][core][GET][/] Trusted domain error. "10.6.0.6" tried to access using "app-b.foo.org.nz" as host.
+May 27 11:21:27 app-b ownCloud[1322]: [wIORXBrrZrChtF9Fl9L2][10.6.0.6][--][core][GET][/] Trusted domain error. "10.6.0.6" tried to access using "app-b.foo.org.nz" as host.
+May 27 11:28:22 app-b ownCloud[1322]: [JyfHxGPPeh4n2Hoifcy6][10.6.0.6][--][core][GET][/] Trusted domain error. "10.6.0.6" tried to access using "app-b.foo.org.nz" as host.
+May 27 12:10:03 app-b rsyncd[9212]: rsync: failed to open log-file /home/bitstudent/daily.log: Permission denied (13)
+May 27 12:10:03 app-b rsyncd[9212]: Ignoring "log file" setting.
+May 27 12:10:03 app-b rsyncd[9212]: building file list
+May 27 12:10:03 app-b rsyncd[9212]: backup_dir is /home/groupb/backup/app/daily
+May 27 12:10:03 app-b rsyncd[9212]: delta-transmission enabled
+May 27 12:10:04 app-b rsyncd[9212]: <f.st...... backup-20220527.zip
+May 27 12:10:04 app-b rsyncd[9212]: file has vanished: "/home/groupb/backup/app/daily/backup-20220527.zip"
+May 27 12:10:04 app-b rsyncd[9212]: total: matches=7429  hash_hits=18210  false_alarms=0 data=184671
+May 27 12:10:04 app-b rsyncd[9212]: sent 214.61K bytes  received 23.85K bytes  158.97K bytes/sec
+May 27 12:10:04 app-b rsyncd[9212]: total size is 29.37M  speedup is 123.15
