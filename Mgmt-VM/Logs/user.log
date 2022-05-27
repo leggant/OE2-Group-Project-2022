@@ -357,3 +357,7 @@ May 27 02:10:05 mgmt-b rsyncd[25194]: puppet.conf is uptodate
 May 27 02:10:05 mgmt-b rsyncd[25194]: total: matches=0  hash_hits=0  false_alarms=0 data=0
 May 27 02:10:05 mgmt-b rsyncd[25194]: sent 56 bytes  received 148 bytes  136.00 bytes/sec
 May 27 02:10:05 mgmt-b rsyncd[25194]: total size is 180  speedup is 0.88
+May 27 02:55:14 mgmt-b nagios3: Auto-save of retention data completed successfully.
+May 27 03:13:44 mgmt-b nagios3: SERVICE FLAPPING ALERT: db-b.foo.org.nz;check users-login;STOPPED; Service appears to have stopped flapping (4.1% change < 5.0% threshold)
+May 27 03:18:34 mgmt-b nagios3: SERVICE FLAPPING ALERT: backup-b.foo.org.nz;check users-login;STOPPED; Service appears to have stopped flapping (4.0% change < 5.0% threshold)
+May 27 03:55:14 mgmt-b nagios3: Auto-save of retention data completed successfully.
