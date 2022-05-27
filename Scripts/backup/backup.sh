@@ -44,6 +44,9 @@ sudo cp /etc/prometheus-plugins ~/OE2-Group-Project/Backup-VM -r
 sudo cp /etc/rsyslog.d/50-default.conf ~/OE2-Group-Project/Backup-VM/Logs
 sudo cp /etc/node-exporter ~/OE2-Group-Project/Backup-VM -r
 sudo cp /etc/systemd/system/prometheus.service ~/OE2-Group-Project/Backup-VM/prometheus-plugins/prometheus.service
+sudo cp ~/rsync.log ~/OE2-Group-Project/Backup-VM/Logs
+sudo cp ~/daily.log ~/OE2-Group-Project/Backup-VM/Logs
+sudo cp ~/weekly.log ~/OE2-Group-Project/Backup-VM/Logs
 sudo chown -R bitstudent ~/OE2-Group-Project/Backup-VM
 sudo chgrp -R bitstudent ~/OE2-Group-Project/Backup-VM
 sudo chmod -R 775 ~/OE2-Group-Project/Scripts
