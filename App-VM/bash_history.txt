@@ -1,4 +1,3 @@
-132642 04:17:27.598591253 0 sshd (17906) < clock_gettime 
 132643 04:17:27.598592153 0 sshd (17906) > select 
 132644 04:17:27.598594653 0 sshd (17906) > switch next=25722(sysdig) pgft_maj=0 pgft_min=213 vm_size=108120 vm_rss=5460 vm_swap=0 
 132645 04:17:27.598597253 0 sysdig (25722) > switch next=25194 pgft_maj=0 pgft_min=1465 vm_size=136228 vm_rss=16096 vm_swap=0 
@@ -1998,3 +1997,4 @@ cd OE2-Group-Project/Scripts/app/
 sudo nano backup.sh 
 ./backup.sh 
 exit
+sudo reboot

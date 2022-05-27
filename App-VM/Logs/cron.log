@@ -93,3 +93,22 @@ May 27 07:17:01 app-b CRON[10666]: (root) CMD (   cd / && run-parts --report /et
 May 27 07:39:01 app-b CRON[11014]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
 May 27 08:09:01 app-b CRON[11714]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
 May 27 08:10:01 app-b CRON[11811]: (bitstudent) CMD (sudo bash ~/OE2-Group-Project/Scripts/app/backup.sh)
+May 27 08:10:07 app-b CRON[11810]: (CRON) info (No MTA installed, discarding output)
+May 27 08:13:37 app-b systemd-timesyncd[742]: Network configuration changed, trying to establish connection.
+May 27 08:13:37 app-b systemd-timesyncd[742]: Network configuration changed, trying to establish connection.
+May 27 08:13:37 app-b systemd-timesyncd[742]: Network configuration changed, trying to establish connection.
+May 27 08:13:37 app-b systemd-timesyncd[742]: Network configuration changed, trying to establish connection.
+May 27 08:13:38 app-b cron[1175]: (CRON) INFO (pidfile fd = 3)
+May 27 08:13:38 app-b cron[1175]: (CRON) INFO (Running @reboot jobs)
+May 27 08:17:01 app-b CRON[3359]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+May 27 08:39:01 app-b CRON[4403]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+May 27 09:09:01 app-b CRON[5116]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+May 27 09:17:01 app-b CRON[5357]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+May 27 09:39:01 app-b CRON[5748]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+May 27 10:09:01 app-b CRON[6588]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+May 27 10:10:01 app-b CRON[6690]: (bitstudent) CMD (bash /etc/backup/restore.sh)
+May 27 10:10:03 app-b CRON[6689]: (CRON) info (No MTA installed, discarding output)
+May 27 10:17:01 app-b CRON[6822]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+May 27 10:39:01 app-b CRON[7186]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+May 27 11:09:01 app-b CRON[7761]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+May 27 11:10:01 app-b CRON[7863]: (bitstudent) CMD (sudo bash ~/OE2-Group-Project/Scripts/app/backup.sh)
