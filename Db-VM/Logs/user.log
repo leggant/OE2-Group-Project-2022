@@ -1,0 +1,56 @@
+May 26 22:40:01 db-b rsyncd[18447]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
+May 26 22:40:01 db-b rsyncd[18447]: Ignoring "log file" setting.
+May 26 22:40:01 db-b rsyncd[18447]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+May 26 22:40:01 db-b rsyncd[18447]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
+May 26 22:40:01 db-b rsyncd[18449]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
+May 26 22:40:01 db-b rsyncd[18449]: Ignoring "log file" setting.
+May 26 22:40:01 db-b rsyncd[18449]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+May 26 22:40:01 db-b rsyncd[18449]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
+May 26 22:40:01 db-b rsyncd[18451]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
+May 26 22:40:01 db-b rsyncd[18451]: Ignoring "log file" setting.
+May 26 22:40:01 db-b rsyncd[18451]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+May 26 22:40:01 db-b rsyncd[18451]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
+May 26 22:40:01 db-b rsyncd[18453]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
+May 26 22:40:01 db-b rsyncd[18453]: Ignoring "log file" setting.
+May 26 22:40:01 db-b rsyncd[18453]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+May 26 22:40:01 db-b rsyncd[18453]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
+May 26 22:40:01 db-b rsyncd[18455]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
+May 26 22:40:01 db-b rsyncd[18455]: Ignoring "log file" setting.
+May 26 22:40:01 db-b rsyncd[18455]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+May 26 22:40:01 db-b rsyncd[18455]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
+May 26 22:40:01 db-b rsyncd[18457]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
+May 26 22:40:01 db-b rsyncd[18457]: Ignoring "log file" setting.
+May 26 22:40:01 db-b rsyncd[18457]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+May 26 22:40:01 db-b rsyncd[18457]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
+May 27 00:15:03 db-b rsyncd[20105]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
+May 27 00:15:03 db-b rsyncd[20105]: Ignoring "log file" setting.
+May 27 00:15:03 db-b rsyncd[20105]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+May 27 00:15:03 db-b rsyncd[20105]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
+May 27 00:32:17 db-b rsyncd[20622]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
+May 27 00:32:17 db-b rsyncd[20622]: Ignoring "log file" setting.
+May 27 00:32:35 db-b rsyncd[20622]: building file list
+May 27 00:32:35 db-b rsyncd[20622]: (new) backup_dir is /home/groupb/backup/db/backup/daily
+May 27 00:32:35 db-b rsyncd[20622]: delta-transmission enabled
+May 27 00:32:35 db-b rsyncd[20622]: <f+++++++++ backup-20220527.zip
+May 27 00:32:35 db-b rsyncd[20622]: total: matches=0  hash_hits=0  false_alarms=0 data=9850059
+May 27 00:32:35 db-b rsyncd[20622]: sent 9.85M bytes  received 126 bytes  532.58K bytes/sec
+May 27 00:32:35 db-b rsyncd[20622]: total size is 9.85M  speedup is 1.00
+May 27 00:32:48 db-b rsyncd[20660]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
+May 27 00:32:48 db-b rsyncd[20660]: Ignoring "log file" setting.
+May 27 00:32:55 db-b rsyncd[20660]: building file list
+May 27 00:32:55 db-b rsyncd[20660]: (new) backup_dir is /home/groupb/backup/db/backup/daily
+May 27 00:32:55 db-b rsyncd[20660]: delta-transmission enabled
+May 27 00:32:55 db-b rsyncd[20660]: <f..t...... backup-20220527.zip
+May 27 00:32:55 db-b rsyncd[20660]: backed up backup-20220527.zip to /home/groupb/backup/db/backup/daily/backup-20220527.zip
+May 27 00:32:55 db-b rsyncd[20660]: total: matches=3138  hash_hits=3550  false_alarms=0 data=9408
+May 27 00:32:55 db-b rsyncd[20660]: sent 22.09K bytes  received 19.07K bytes  5.49K bytes/sec
+May 27 00:32:55 db-b rsyncd[20660]: total size is 9.85M  speedup is 239.34
+May 27 00:34:27 db-b rsyncd[20695]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
+May 27 00:34:27 db-b rsyncd[20695]: Ignoring "log file" setting.
+May 27 00:34:55 db-b rsyncd[20695]: building file list
+May 27 00:34:55 db-b rsyncd[20695]: (new) backup_dir is /home/groupb/backup/db/backup/weekly
+May 27 00:34:55 db-b rsyncd[20695]: delta-transmission enabled
+May 27 00:34:56 db-b rsyncd[20695]: <f+++++++++ backup-20220527.zip
+May 27 00:34:56 db-b rsyncd[20695]: total: matches=0  hash_hits=0  false_alarms=0 data=9850059
+May 27 00:34:56 db-b rsyncd[20695]: sent 9.85M bytes  received 127 bytes  333.99K bytes/sec
+May 27 00:34:56 db-b rsyncd[20695]: total size is 9.85M  speedup is 1.00

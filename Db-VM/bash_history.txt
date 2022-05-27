@@ -1,141 +1,3 @@
-sudo puppet cert --sign -all
-sudo puppet agent --test
-respup
-sudo puppet agent --test
-telnet mgmt-b.foo.org.nz
-clear
-cd /etc
-respup
-ls
-respup
-ls
-sudo vim /etc/puppet/puppet.conf
-sudo -i
-sudo puppet agent --test
-respup
-statpup
-ls
-respup
-ls
-respup
-ls
-sudo puppet agent -t 
-sudo vim /etc/puppet/puppet.conf
-ls
-sudo puppet agent -t
-respup
-cd /etc
-ls
-cd /etc
-ls
-cd nagios
-ls
-mod
-respup
-ls
-vim nrpe.cfg 
-respup
-vim nrpe.cfg 
-respup
-vim nrpe.cfg 
-respup
-ls
-vim nrpe.cfg 
-respup
-vim nrpe.cfg 
-site
-ls
-cd ..
-ls
-sudo rm -r test1
-sudo rm -r test2
-respup
-ls
-sudo rm -r test1
-ls
-respup
-ls
-cd nagios
-ls
-vim nrpe.cfg
-respup
-vim nrpe.cfg
-ls
-vim nrpe.cfg 
-respup
-ls
-vim nrpe.cfg 
-respup
-vim nrpe.cfg 
-respup
-vim nrpe.cfg 
-resnr
-ls
-vim nrpe.cfg 
-resnag
-sudo systemctl restart nagios-nrpe-server.service 
-resnag
-sudo systemctl restart nagios-nrpe-server.service 
-ls
-vim nrpe.cfg 
-respup
-vim nrpe.cfg 
-respup
-vim nrpe.cfg 
-sudo systemctl restart nagios-nrpe-server.service 
-ls
-vim nrpe.cfg 
-resnr
-statpup
-sudo reboot
-statpup
-budb
-statpup
-budb
-git add .
-git commit -m "db-b: backup db-b vm" -m "db-b"
-git push
-cd /etc
-ls
-exit
-cd /etc/puppet/code
-ls 
-sudo touch .gitinclude
-cd ~
-budb
-cd /etc/puppet/code
-ls 
-sudo touch .gitinclude
-cd ~
-budb
-exit
-cd ~/OE2-Group-Project/
-git pull
-cd Scripts/
-cd db
-ls
-ls -la
-sudo chmod u+x backup.sh 
-ls -al
-cd ..
-ls
-cd Scripts/
-cd ..
-ls
-crontab -e
-cd ~/O
-cd ~/OE2-Group-Project/
-git pull
-exit
-cd ~/OE2-Group-Project/
-git pull
-cd Scripts/db
-ls -la
-exit
-statnr
-statpup
-exit
-sudo nano OE2-Group-Project/Scripts/db/backup.sh 
 sudo vi ~/.bashrc
 source ~/.bashrc
 budb
@@ -1998,3 +1860,141 @@ sudo systemctl status rsync
 ls
 sudo systemctl status rsync
 sudo reboot
+budb
+crontab -e
+cd /etc/backup
+ls
+ls -al
+sudo chmod g+w daily -r
+sudo chmod +w daily -r
+sudo chmod g+w daily -r
+sudo chmod g+w daily
+ls -al
+sudo chmod 777 daily
+ls -al
+sudo chmod 774 daily -r
+sudo chmod 774 daily/
+ls -al
+sudo chmod 775 daily/
+ls -al
+sudo chmod 775 weekly/
+ls -al
+cd daily/
+ls -al
+cd ..
+sudo chmod 775 weekly/ -r'
+sudo chmod 775 weekly/ -r
+sudo chmod 775 -R weekly/
+sudo chmod 775 -R daily/
+ls -al daily/
+cd ..
+ls -al
+cd backup/
+ls -al
+budb
+cd ~/OE2-Group-Project/Scripts/
+cd db
+sudo nano backup.sh 
+budb
+cd /var/log
+;s
+ls
+ls -al
+sudo systemctl restart rsyslog
+sudo systemctl status rsyslog
+sudo cat /var/log/cron.log
+sudo nano /etc/rsyslog.d/50-default.conf
+sudo systemctl restart rsyslog
+sudo systemctl status rsyslog
+sudo cat /var/log/cron.log
+sudo cat /var/log/user.log
+sudo cat /var/log/daemon.log
+sudo cat /var/log/user.log
+sudo cat /var/log/daemon.log
+sudo cat /var/log/cron.log
+sudo nano /etc/rsyslog.d/50-default.conf
+sudo systemctl restart rsyslog
+sudo systemctl status rsyslog
+sudo cat /var/log/cron.log
+sudo cat /var/log/daemon.log
+sudo cat /var/log/user.log 
+sudo cat /var/log/daemon.log
+sudo cat /var/log/user.log 
+sudo cat /var/log/cron.log
+cd ~/OE2-Group-Project/Scripts/
+cd db
+sudo nano backup.sh 
+budb
+sudo nano backup.sh 
+cd ../mgmt/
+sudo nano backup.sh 
+budb
+cd ../backup/
+sudo nano backup.sh 
+cd ../app
+sudo nano backup.sh 
+cd ../db
+sudo nano backup.sh 
+budb
+cd ../../
+git pull
+exit
+crontab -e
+exit
+ls
+statpup
+statnag
+cat /var/log/user.log 
+ls
+sudo systemctl status resync
+sudo systemctl status rsync
+cat /var/log/user.log 
+cd /etc
+ls
+ls -al
+cd rsyslog.d/
+ls -al
+cd ..
+sudo systemctl restart rsync
+sudo systemctl status rsync
+cat /var/log/user.log 
+sudo -i
+cd /home
+ls
+cd ~
+ls
+respup
+statpup
+cat /var/log/user.log 
+sudo systemctl restart rsync
+sudo systemctl status rsync
+cat /var/log/user.log 
+cd /etc/backup/
+ls
+./restore.sh 
+ls
+cd daily/
+ls
+ls -al
+cd ..
+ls -al
+crontab -e
+sudo bash /etc/backup/daily.sh
+ssh groupb@20.211.191.46
+sudo bash /etc/backup/weekly.sh
+./etc/backup/weekly.sh
+bash ./etc/backup/weekly.sh
+sudo bash ./etc/backup/weekly.sh
+./weekly.sh
+~
+cd ~
+./etc/backup/weekly.sh
+bash ./etc/backup/weekly.sh
+crontab -e
+ls
+cd /etc/backup/
+ls
+./weekly.sh
+crontab -e
+bash /etc/backup/restore.sh 
+crontab -e
