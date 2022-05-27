@@ -1707,3 +1707,5 @@ cd ~/OE2-Group-Project/Scripts/backup/
 sudo nano backup.sh 
 ./backup.sh 
 exit
+cat /var/log/cron.log
+exit
