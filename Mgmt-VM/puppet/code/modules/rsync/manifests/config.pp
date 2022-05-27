@@ -12,8 +12,6 @@ file { '/etc/backup/restore.sh':
         mode => '0775',
 }
 
-
-
 file { '/etc/backup/daily.sh':
         ensure => present,
         source => 'puppet:///modules/rsync/daily.sh',
@@ -23,6 +21,21 @@ file { '/etc/backup/daily.sh':
 file { '/etc/backup/weekly.sh':
         ensure => present,
         source => 'puppet:///modules/rsync/weekly.sh',
+        mode => '0775',
+}
+file { '/home/bitstudent/rsync.log':
+        ensure => present,
+        source => 'puppet:///modules/rsync/rsync.log',
+        mode => '0775',
+}
+file { '/home/bitstudent/daily.log':
+        ensure => present,
+        source => 'puppet:///modules/rsync/daily.log',
+        mode => '0775',
+}
+file { '/home/bitstudent/weekly.log':
+        ensure => present,
+        source => 'puppet:///modules/rsync/weekly.log',
         mode => '0775',
 }
 }

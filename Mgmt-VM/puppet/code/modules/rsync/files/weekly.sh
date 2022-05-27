@@ -23,7 +23,7 @@ sudo find $backupdir/* -mtime +31 -delete
 # the name of the backup machine
 BSERVER=groupb
 USERX=restore-b.foo.org.nz
-OPTS="-haAXuv -v --progress --delete --log-file=/home/$USER/log.log --backup-dir=~/backup/mgmt/backup/weekly" 
+OPTS="-haAXuv -v --progress --delete --log-file=/home/bitstudent/weekly.log --backup-dir=~/backup/mgmt/backup/weekly" 
 
 rsync $OPTS $backupdir/backup-$(date +%Y%m%d).zip $BSERVER@$USERX:~/backup/mgmt/weekly
 
@@ -50,7 +50,7 @@ sudo find $backupdir/* -mtime +31 -delete
 # the name of the backup machine
 BSERVER=groupb
 USERX=restore-b.foo.org.nz
-OPTS="-haAXuv -v --progress --delete --log-file=/home/$USER/log.log --backup-dir=~/backup/db/backup/weekly" 
+OPTS="-haAXuv -v --progress --delete --log-file=/home/bitstudent/weekly.log --backup-dir=~/backup/db/backup/weekly" 
 
 rsync $OPTS $backupdir/backup-$(date +%Y%m%d).zip $BSERVER@$USERX:~/backup/db/weekly
 sudo chmod o-rx /etc/mysql/debian.cnf
@@ -68,7 +68,7 @@ sudo zip -r $backupdir/backup-$(date +%Y%m%d).zip $BDIR
 sudo find $backupdir/* -mtime +31 -delete
 BSERVER=groupb
 USERX=restore-b.foo.org.nz
-OPTS="-haAXuv -v --progress --delete --log-file=/home/$USER/log.log --backup-dir=~/backup/app/weekly"
+OPTS="-haAXuv -v --progress --delete --log-file=/home/bitstudent/weekly.log --backup-dir=~/backup/app/weekly"
 rsync $OPTS $backupdir/backup-$(date +%Y%m%d).zip $BSERVER@$USERX:~/backup/app/weekly
 sudo chmod o-rx /var/www/owncloud/data -R
 
@@ -97,6 +97,6 @@ sudo zip -r $backupdir/backup-$(date +%Y%m%d).zip $BDIR
 sudo find $backupdir/* -mtime +31 -delete
 BSERVER=groupb
 USERX=restore-b.foo.org.nz
-OPTS="-haAXuv -v --progress --delete --log-file=/home/$USER/log.log --backup-dir=~/backup/backup/weekly"
+OPTS="-haAXuv -v --progress --delete --log-file=/home/bitstudent/weekly.log --backup-dir=~/backup/backup/weekly"
 rsync $OPTS $backupdir/backup-$(date +%Y%m%d).zip $BSERVER@$USERX:~/backup/backup/weekly
 fi

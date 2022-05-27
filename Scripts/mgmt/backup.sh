@@ -36,6 +36,12 @@ sudo cp /etc/nagios-plugins ~/OE2-Group-Project/Mgmt-VM -r
 sudo cp /etc/prometheus-plugins ~/OE2-Group-Project/Mgmt-VM/prometheus-plugins -r
 sudo cp /etc/systemd/system/node-exporter.service ~/OE2-Group-Project/Mgmt-VM/prometheus-plugins/node-exporter.service
 sudo cp /etc/rsyslog.d/50-default.conf ~/OE2-Group-Project/Mgmt-VM/Logs
+sudo cp /var/log/cron.log ~/OE2-Group-Project/Mgmt-VM/Logs
+sudo cp /var/log/daemon.log ~/OE2-Group-Project/Mgmt-VM/Logs
+sudo cp /var/log/user.log ~/OE2-Group-Project/Mgmt-VM/Logs
+sudo cp ~/rsync.log ~/OE2-Group-Project/Mgmt-VM/Logs
+sudo cp ~/daily.log ~/OE2-Group-Project/Mgmt-VM/Logs
+sudo cp ~/weekly.log ~/OE2-Group-Project/Mgmt-VM/Logs
 sudo chown -R bitstudent ~/OE2-Group-Project/Mgmt-VM
 sudo chgrp -R bitstudent ~/OE2-Group-Project/Mgmt-VM
 sudo chmod -R 775 ~/OE2-Group-Project/Scripts
@@ -49,9 +55,6 @@ if [ -z "$(git status --porcelain)" ]; then
 else 
   COMMIT_TIMESTAMP=`date +'%d-%m-%Y %H:%M:%S %Z'`
   history -w
-  sudo cp /var/log/cron.log ~/OE2-Group-Project/Mgmt-VM/Logs
-  sudo cp /var/log/daemon.log ~/OE2-Group-Project/Mgmt-VM/Logs
-  sudo cp /var/log/user.log ~/OE2-Group-Project/Mgmt-VM/Logs
   git add .
   git commit -m "mgmt: automated system backup" -m "completed: $COMMIT_TIMESTAMP" -m "mgmt-b"
   git push

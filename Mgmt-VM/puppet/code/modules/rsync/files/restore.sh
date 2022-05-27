@@ -20,7 +20,7 @@ BDIR="
 BSERVER=groupb
 USERX=restore-b.foo.org.nz
 BACKUPDIR=`date +%d-%m-%Y-%H-%M-%S`
-OPTS="-haAXuv -v --progress --log-file=/home/$USER/log.log --backup-dir=~/backup/mgmt/backup-$BACKUPDIR" 
+OPTS="-haAXuv -v --progress --log-file=/home/bitstudent/rsync.log --backup-dir=~/backup/mgmt/backup-$BACKUPDIR" 
 
 for d in $BDIR;do
 rsync $OPTS $d $BSERVER@$USERX:~/backup/mgmt
@@ -56,7 +56,7 @@ sudo chmod 770 -R ~/mysql-backup/
 BSERVER=groupb
 USERX=restore-b.foo.org.nz
 DBBACKUPDIR=`date +%d-%m-%Y-%H-%M-%S`
-OPTS="-haAXuv -v --progress --log-file=/home/$USER/log.log --backup-dir=~/backup/db/backup-$DBBACKUPDIR"
+OPTS="-haAXuv -v --progress --log-file=/home/bitstudent/rsync.log --backup-dir=~/backup/db/backup-$DBBACKUPDIR"
 
 for d in $BUDIR;do
 rsync $OPTS $d $BSERVER@$USERX:~/backup/db/
@@ -77,7 +77,7 @@ sudo chmod o+rx /var/www/owncloud/data -R
 BSERVER=groupb
 USERX=restore-b.foo.org.nz
 BACKUPDIR=`date +%d-%m-%Y-%H-%M-%S`
-OPTS="-haAXuv -v --exclude --log-file=/home/$USER/log.log --backup-dir=~/backup/app/backup-$BACKUPDIR"
+OPTS="-haAXuv -v --exclude --log-file=/home/bitstudent/rsync.log --backup-dir=~/backup/app/backup-$BACKUPDIR"
 
 for d in $BDIR;do
 rsync $OPTS $d $BSERVER@$USERX:~/backup/app
@@ -109,7 +109,7 @@ BDIR="
 BSERVER=groupb
 USERX=restore-b.foo.org.nz
 BACKUPDIR=`date +%d-%m-%Y-%H-%M-%S`
-OPTS="-haAXuv -v --exclude --log-file=/home/$USER/log.log --backup-dir=~/backup/backup/backup-$BACKUPDIR"
+OPTS="-haAXuv -v --exclude --log-file=/home/bitstudent/rsync.log --backup-dir=~/backup/backup/backup-$BACKUPDIR"
 
 for d in $BDIR;do
 rsync $OPTS $d $BSERVER@$USERX:~/backup/backup
