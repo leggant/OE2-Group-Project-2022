@@ -1,18 +1,3 @@
-132627 04:17:27.598577553 0 sshd (17906) < getpid 
-132628 04:17:27.598580253 0 sshd (17906) > clock_gettime 
-132629 04:17:27.598580553 0 sshd (17906) < clock_gettime 
-132630 04:17:27.598581253 0 sshd (17906) > select 
-132631 04:17:27.598582553 0 sshd (17906) < select res=1 
-132632 04:17:27.598583253 0 sshd (17906) > clock_gettime 
-132633 04:17:27.598583553 0 sshd (17906) < clock_gettime 
-132634 04:17:27.598584153 0 sshd (17906) > rt_sigprocmask 
-132635 04:17:27.598584453 0 sshd (17906) < rt_sigprocmask 
-132636 04:17:27.598584953 0 sshd (17906) > rt_sigprocmask 
-132637 04:17:27.598585253 0 sshd (17906) < rt_sigprocmask 
-132638 04:17:27.598585853 0 sshd (17906) > clock_gettime 
-132639 04:17:27.598586053 0 sshd (17906) < clock_gettime 
-132640 04:17:27.598586753 0 sshd (17906) > write fd=3(<4t>202.49.0.75:51813->10.6.0.5:22) size=284 
-132641 04:17:27.598591053 0 sshd (17906) > clock_gettime 
 132642 04:17:27.598591253 0 sshd (17906) < clock_gettime 
 132643 04:17:27.598592153 0 sshd (17906) > select 
 132644 04:17:27.598594653 0 sshd (17906) > switch next=25722(sysdig) pgft_maj=0 pgft_min=213 vm_size=108120 vm_rss=5460 vm_swap=0 
@@ -1997,4 +1982,19 @@ ls
 ./weekly.sh 
 ./daily.sh 
 ./restore.sh 
+exit
+ls
+respup
+statpup
+ls
+sudo rm log.txt
+respup
+statpup
+ls
+sudo rm log.log 
+respup
+ls
+cd OE2-Group-Project/Scripts/app/
+sudo nano backup.sh 
+./backup.sh 
 exit
