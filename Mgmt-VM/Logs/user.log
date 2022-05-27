@@ -798,3 +798,534 @@ May 27 11:25:54 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;check users-logi
 May 27 11:26:34 mgmt-b nagios3: SERVICE NOTIFICATION: slack;backup-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
 May 27 11:26:34 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;backup-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
 May 27 11:26:34 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;backup-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 27 11:51:34 mgmt-b nagios3: SERVICE ALERT: backup-b.foo.org.nz;check users-login;OK;HARD;3;USERS OK - 0 users currently logged in
+May 27 11:55:14 mgmt-b nagios3: Auto-save of retention data completed successfully.
+May 27 12:55:14 mgmt-b nagios3: Auto-save of retention data completed successfully.
+May 27 13:55:14 mgmt-b nagios3: Auto-save of retention data completed successfully.
+May 27 14:10:01 mgmt-b rsyncd[19914]: rsync: failed to open log-file /home/bitstudent/rsync.log: Permission denied (13)
+May 27 14:10:01 mgmt-b rsyncd[19914]: Ignoring "log file" setting.
+May 27 14:10:02 mgmt-b rsyncd[19914]: building file list
+May 27 14:10:02 mgmt-b rsyncd[19914]: (new) backup_dir is /home/groupb/backup/mgmt/backup-27-05-2022-14-10-01
+May 27 14:10:02 mgmt-b rsyncd[19914]: delta-transmission enabled
+May 27 14:10:02 mgmt-b rsyncd[19914]: node-exporter/LICENSE is uptodate
+May 27 14:10:02 mgmt-b rsyncd[19914]: node-exporter/NOTICE is uptodate
+May 27 14:10:02 mgmt-b rsyncd[19914]: node-exporter/node_exporter is uptodate
+May 27 14:10:02 mgmt-b rsyncd[19914]: total: matches=0  hash_hits=0  false_alarms=0 data=0
+May 27 14:10:02 mgmt-b rsyncd[19914]: sent 169 bytes  received 255 bytes  282.67 bytes/sec
+May 27 14:10:02 mgmt-b rsyncd[19914]: total size is 18.24M  speedup is 43,020.63
+May 27 14:10:02 mgmt-b rsyncd[19918]: rsync: failed to open log-file /home/bitstudent/rsync.log: Permission denied (13)
+May 27 14:10:02 mgmt-b rsyncd[19918]: Ignoring "log file" setting.
+May 27 14:10:03 mgmt-b rsyncd[19918]: building file list
+May 27 14:10:03 mgmt-b rsyncd[19918]: (new) backup_dir is /home/groupb/backup/mgmt/backup-27-05-2022-14-10-01
+May 27 14:10:03 mgmt-b rsyncd[19918]: delta-transmission enabled
+May 27 14:10:03 mgmt-b rsyncd[19918]: nagios/nrpe.cfg is uptodate
+May 27 14:10:03 mgmt-b rsyncd[19918]: nagios/nrpe_local.cfg is uptodate
+May 27 14:10:03 mgmt-b rsyncd[19918]: total: matches=0  hash_hits=0  false_alarms=0 data=0
+May 27 14:10:03 mgmt-b rsyncd[19918]: sent 157 bytes  received 207 bytes  242.67 bytes/sec
+May 27 14:10:03 mgmt-b rsyncd[19918]: total size is 12.96K  speedup is 35.60
+May 27 14:10:03 mgmt-b rsyncd[19920]: rsync: failed to open log-file /home/bitstudent/rsync.log: Permission denied (13)
+May 27 14:10:03 mgmt-b rsyncd[19920]: Ignoring "log file" setting.
+May 27 14:10:03 mgmt-b rsyncd[19920]: building file list
+May 27 14:10:03 mgmt-b rsyncd[19920]: (new) backup_dir is /home/groupb/backup/mgmt/backup-27-05-2022-14-10-01
+May 27 14:10:03 mgmt-b rsyncd[19920]: delta-transmission enabled
+May 27 14:10:03 mgmt-b rsyncd[19920]: nagios3/apache2.conf is uptodate
+May 27 14:10:03 mgmt-b rsyncd[19920]: nagios3/cgi.cfg is uptodate
+May 27 14:10:03 mgmt-b rsyncd[19920]: nagios3/commands.cfg is uptodate
+May 27 14:10:03 mgmt-b rsyncd[19920]: nagios3/htpasswd.users is uptodate
+May 27 14:10:03 mgmt-b rsyncd[19920]: nagios3/nagios.cfg is uptodate
+May 27 14:10:03 mgmt-b rsyncd[19920]: nagios3/nrpe.cfg is uptodate
+May 27 14:10:03 mgmt-b rsyncd[19920]: nagios3/resource.cfg is uptodate
+May 27 14:10:03 mgmt-b rsyncd[19920]: nagios3/conf.d/contacts_nagios2.cfg is uptodate
+May 27 14:10:03 mgmt-b rsyncd[19920]: nagios3/conf.d/extinfo_nagios2.cfg is uptodate
+May 27 14:10:03 mgmt-b rsyncd[19920]: nagios3/conf.d/generic-host_nagios2.cfg is uptodate
+May 27 14:10:03 mgmt-b rsyncd[19920]: nagios3/conf.d/generic-service_nagios2.cfg is uptodate
+May 27 14:10:03 mgmt-b rsyncd[19920]: nagios3/conf.d/hostgroups_nagios2.cfg is uptodate
+May 27 14:10:03 mgmt-b rsyncd[19920]: nagios3/conf.d/localhost_nagios2.cfg is uptodate
+May 27 14:10:03 mgmt-b rsyncd[19920]: nagios3/conf.d/ppt_contactgroups.cfg is uptodate
+May 27 14:10:03 mgmt-b rsyncd[19920]: nagios3/conf.d/ppt_contacts.cfg is uptodate
+May 27 14:10:03 mgmt-b rsyncd[19920]: nagios3/conf.d/ppt_hostgroups.cfg is uptodate
+May 27 14:10:03 mgmt-b rsyncd[19920]: nagios3/conf.d/ppt_hosts.cfg is uptodate
+May 27 14:10:03 mgmt-b rsyncd[19920]: nagios3/conf.d/ppt_services.cfg is uptodate
+May 27 14:10:03 mgmt-b rsyncd[19920]: nagios3/conf.d/services_nagios2.cfg is uptodate
+May 27 14:10:03 mgmt-b rsyncd[19920]: nagios3/conf.d/timeperiods_nagios2.cfg is uptodate
+May 27 14:10:03 mgmt-b rsyncd[19920]: nagios3/stylesheets/avail.css is uptodate
+May 27 14:10:03 mgmt-b rsyncd[19920]: nagios3/stylesheets/checksanity.css is uptodate
+May 27 14:10:03 mgmt-b rsyncd[19920]: nagios3/stylesheets/cmd.css is uptodate
+May 27 14:10:03 mgmt-b rsyncd[19920]: nagios3/stylesheets/common.css is uptodate
+May 27 14:10:03 mgmt-b rsyncd[19920]: nagios3/stylesheets/config.css is uptodate
+May 27 14:10:03 mgmt-b rsyncd[19920]: nagios3/stylesheets/extinfo.css is uptodate
+May 27 14:10:03 mgmt-b rsyncd[19920]: nagios3/stylesheets/histogram.css is uptodate
+May 27 14:10:03 mgmt-b rsyncd[19920]: nagios3/stylesheets/history.css is uptodate
+May 27 14:10:03 mgmt-b rsyncd[19920]: nagios3/stylesheets/ministatus.css is uptodate
+May 27 14:10:03 mgmt-b rsyncd[19920]: nagios3/stylesheets/notifications.css is uptodate
+May 27 14:10:03 mgmt-b rsyncd[19920]: nagios3/stylesheets/outages.css is uptodate
+May 27 14:10:03 mgmt-b rsyncd[19920]: nagios3/stylesheets/showlog.css is uptodate
+May 27 14:10:03 mgmt-b rsyncd[19920]: nagios3/stylesheets/status.css is uptodate
+May 27 14:10:03 mgmt-b rsyncd[19920]: nagios3/stylesheets/statusmap.css is uptodate
+May 27 14:10:03 mgmt-b rsyncd[19920]: nagios3/stylesheets/summary.css is uptodate
+May 27 14:10:03 mgmt-b rsyncd[19920]: nagios3/stylesheets/tac.css is uptodate
+May 27 14:10:03 mgmt-b rsyncd[19920]: nagios3/stylesheets/trends.css is uptodate
+May 27 14:10:03 mgmt-b rsyncd[19920]: total: matches=0  hash_hits=0  false_alarms=0 data=0
+May 27 14:10:03 mgmt-b rsyncd[19920]: sent 1.23K bytes  received 1.99K bytes  6.45K bytes/sec
+May 27 14:10:03 mgmt-b rsyncd[19920]: total size is 137.65K  speedup is 42.70
+May 27 14:10:03 mgmt-b rsyncd[19922]: rsync: failed to open log-file /home/bitstudent/rsync.log: Permission denied (13)
+May 27 14:10:03 mgmt-b rsyncd[19922]: Ignoring "log file" setting.
+May 27 14:10:04 mgmt-b rsyncd[19922]: building file list
+May 27 14:10:04 mgmt-b rsyncd[19922]: (new) backup_dir is /home/groupb/backup/mgmt/backup-27-05-2022-14-10-01
+May 27 14:10:04 mgmt-b rsyncd[19922]: delta-transmission enabled
+May 27 14:10:04 mgmt-b rsyncd[19922]: nagios-plugins/config/apt.cfg is uptodate
+May 27 14:10:04 mgmt-b rsyncd[19922]: nagios-plugins/config/breeze.cfg is uptodate
+May 27 14:10:04 mgmt-b rsyncd[19922]: nagios-plugins/config/check_nrpe.cfg is uptodate
+May 27 14:10:04 mgmt-b rsyncd[19922]: nagios-plugins/config/check_puppet_agent is uptodate
+May 27 14:10:04 mgmt-b rsyncd[19922]: nagios-plugins/config/dhcp.cfg is uptodate
+May 27 14:10:04 mgmt-b rsyncd[19922]: nagios-plugins/config/disk-smb.cfg is uptodate
+May 27 14:10:04 mgmt-b rsyncd[19922]: nagios-plugins/config/disk.cfg is uptodate
+May 27 14:10:04 mgmt-b rsyncd[19922]: nagios-plugins/config/dns.cfg is uptodate
+May 27 14:10:04 mgmt-b rsyncd[19922]: nagios-plugins/config/dummy.cfg is uptodate
+May 27 14:10:04 mgmt-b rsyncd[19922]: nagios-plugins/config/flexlm.cfg is uptodate
+May 27 14:10:04 mgmt-b rsyncd[19922]: nagios-plugins/config/fping.cfg is uptodate
+May 27 14:10:04 mgmt-b rsyncd[19922]: nagios-plugins/config/ftp.cfg is uptodate
+May 27 14:10:04 mgmt-b rsyncd[19922]: nagios-plugins/config/games.cfg is uptodate
+May 27 14:10:04 mgmt-b rsyncd[19922]: nagios-plugins/config/hppjd.cfg is uptodate
+May 27 14:10:04 mgmt-b rsyncd[19922]: nagios-plugins/config/http.cfg is uptodate
+May 27 14:10:04 mgmt-b rsyncd[19922]: nagios-plugins/config/ifstatus.cfg is uptodate
+May 27 14:10:04 mgmt-b rsyncd[19922]: nagios-plugins/config/ldap.cfg is uptodate
+May 27 14:10:04 mgmt-b rsyncd[19922]: nagios-plugins/config/load.cfg is uptodate
+May 27 14:10:04 mgmt-b rsyncd[19922]: nagios-plugins/config/mail.cfg is uptodate
+May 27 14:10:04 mgmt-b rsyncd[19922]: nagios-plugins/config/mailq.cfg is uptodate
+May 27 14:10:04 mgmt-b rsyncd[19922]: nagios-plugins/config/mrtg.cfg is uptodate
+May 27 14:10:04 mgmt-b rsyncd[19922]: nagios-plugins/config/mysql.cfg is uptodate
+May 27 14:10:04 mgmt-b rsyncd[19922]: nagios-plugins/config/netware.cfg is uptodate
+May 27 14:10:04 mgmt-b rsyncd[19922]: nagios-plugins/config/news.cfg is uptodate
+May 27 14:10:04 mgmt-b rsyncd[19922]: nagios-plugins/config/nt.cfg is uptodate
+May 27 14:10:04 mgmt-b rsyncd[19922]: nagios-plugins/config/ntp.cfg is uptodate
+May 27 14:10:04 mgmt-b rsyncd[19922]: nagios-plugins/config/pgsql.cfg is uptodate
+May 27 14:10:04 mgmt-b rsyncd[19922]: nagios-plugins/config/ping.cfg is uptodate
+May 27 14:10:04 mgmt-b rsyncd[19922]: nagios-plugins/config/procs.cfg is uptodate
+May 27 14:10:04 mgmt-b rsyncd[19922]: nagios-plugins/config/real.cfg is uptodate
+May 27 14:10:04 mgmt-b rsyncd[19922]: nagios-plugins/config/rpc-nfs.cfg is uptodate
+May 27 14:10:04 mgmt-b rsyncd[19922]: nagios-plugins/config/slack.cfg is uptodate
+May 27 14:10:04 mgmt-b rsyncd[19922]: nagios-plugins/config/snmp.cfg is uptodate
+May 27 14:10:04 mgmt-b rsyncd[19922]: nagios-plugins/config/ssh.cfg is uptodate
+May 27 14:10:04 mgmt-b rsyncd[19922]: nagios-plugins/config/tcp_udp.cfg is uptodate
+May 27 14:10:04 mgmt-b rsyncd[19922]: nagios-plugins/config/telnet.cfg is uptodate
+May 27 14:10:04 mgmt-b rsyncd[19922]: nagios-plugins/config/users.cfg is uptodate
+May 27 14:10:04 mgmt-b rsyncd[19922]: total: matches=0  hash_hits=0  false_alarms=0 data=0
+May 27 14:10:04 mgmt-b rsyncd[19922]: sent 887 bytes  received 2.02K bytes  1.94K bytes/sec
+May 27 14:10:04 mgmt-b rsyncd[19922]: total size is 47.30K  speedup is 16.26
+May 27 14:10:04 mgmt-b rsyncd[19924]: rsync: failed to open log-file /home/bitstudent/rsync.log: Permission denied (13)
+May 27 14:10:04 mgmt-b rsyncd[19924]: Ignoring "log file" setting.
+May 27 14:10:04 mgmt-b rsyncd[19924]: building file list
+May 27 14:10:04 mgmt-b rsyncd[19924]: (new) backup_dir is /home/groupb/backup/mgmt/backup-27-05-2022-14-10-01
+May 27 14:10:04 mgmt-b rsyncd[19924]: delta-transmission enabled
+May 27 14:10:04 mgmt-b rsyncd[19924]: code/environments/production/manifests/site.pp is uptodate
+May 27 14:10:04 mgmt-b rsyncd[19924]: code/modules/mariadb/files/50-server.cnf is uptodate
+May 27 14:10:04 mgmt-b rsyncd[19924]: code/modules/mariadb/manifests/config.pp is uptodate
+May 27 14:10:04 mgmt-b rsyncd[19924]: code/modules/mariadb/manifests/init.pp is uptodate
+May 27 14:10:04 mgmt-b rsyncd[19924]: code/modules/mariadb/manifests/install.pp is uptodate
+May 27 14:10:04 mgmt-b rsyncd[19924]: code/modules/mariadb/manifests/service.pp is uptodate
+May 27 14:10:04 mgmt-b rsyncd[19924]: code/modules/nagios/files/htpasswd.users is uptodate
+May 27 14:10:04 mgmt-b rsyncd[19924]: code/modules/nagios/files/nagios.cfg is uptodate
+May 27 14:10:04 mgmt-b rsyncd[19924]: code/modules/nagios/manifests/config.pp is uptodate
+May 27 14:10:04 mgmt-b rsyncd[19924]: code/modules/nagios/manifests/init.pp is uptodate
+May 27 14:10:04 mgmt-b rsyncd[19924]: code/modules/nagios/manifests/install.pp is uptodate
+May 27 14:10:04 mgmt-b rsyncd[19924]: code/modules/nagios/manifests/service.pp is uptodate
+May 27 14:10:04 mgmt-b rsyncd[19924]: code/modules/nrpe/files/nrpe.cfg is uptodate
+May 27 14:10:04 mgmt-b rsyncd[19924]: code/modules/nrpe/manifests/config.pp is uptodate
+May 27 14:10:04 mgmt-b rsyncd[19924]: code/modules/nrpe/manifests/init.pp is uptodate
+May 27 14:10:04 mgmt-b rsyncd[19924]: code/modules/nrpe/manifests/install.pp is uptodate
+May 27 14:10:04 mgmt-b rsyncd[19924]: code/modules/nrpe/manifests/service.pp is uptodate
+May 27 14:10:04 mgmt-b rsyncd[19924]: code/modules/nrpe_nagios/manifests/config.pp is uptodate
+May 27 14:10:04 mgmt-b rsyncd[19924]: code/modules/nrpe_nagios/manifests/init.pp is uptodate
+May 27 14:10:04 mgmt-b rsyncd[19924]: code/modules/ntp_service/manifests/init.pp is uptodate
+May 27 14:10:04 mgmt-b rsyncd[19924]: code/modules/ntp_service/templates/ntp.conf.erb is uptodate
+May 27 14:10:04 mgmt-b rsyncd[19924]: code/modules/php/manifests/config.pp is uptodate
+May 27 14:10:04 mgmt-b rsyncd[19924]: code/modules/php/manifests/init.pp is uptodate
+May 27 14:10:04 mgmt-b rsyncd[19924]: code/modules/php/manifests/install.pp is uptodate
+May 27 14:10:04 mgmt-b rsyncd[19924]: code/modules/rsync/backupfile is uptodate
+May 27 14:10:04 mgmt-b rsyncd[19924]: code/modules/rsync/files/backupfile.txt is uptodate
+May 27 14:10:04 mgmt-b rsyncd[19924]: code/modules/rsync/files/daily.log is uptodate
+May 27 14:10:04 mgmt-b rsyncd[19924]: code/modules/rsync/files/daily.sh is uptodate
+May 27 14:10:04 mgmt-b rsyncd[19924]: code/modules/rsync/files/restore.sh is uptodate
+May 27 14:10:04 mgmt-b rsyncd[19924]: code/modules/rsync/files/rsync.log is uptodate
+May 27 14:10:04 mgmt-b rsyncd[19924]: code/modules/rsync/files/weekly.log is uptodate
+May 27 14:10:04 mgmt-b rsyncd[19924]: code/modules/rsync/files/weekly.sh is uptodate
+May 27 14:10:04 mgmt-b rsyncd[19924]: code/modules/rsync/manifests/config.pp is uptodate
+May 27 14:10:04 mgmt-b rsyncd[19924]: code/modules/rsync/manifests/init.pp is uptodate
+May 27 14:10:04 mgmt-b rsyncd[19924]: code/modules/rsync/manifests/install.pp is uptodate
+May 27 14:10:04 mgmt-b rsyncd[19924]: code/modules/rsync/manifests/service.pp is uptodate
+May 27 14:10:04 mgmt-b rsyncd[19924]: code/modules/sudo/files/etc/sudoers is uptodate
+May 27 14:10:04 mgmt-b rsyncd[19924]: code/modules/sudo/manifests/init.pp is uptodate
+May 27 14:10:04 mgmt-b rsyncd[19924]: code/modules/sudo/mariadb/files/50-server.cnf is uptodate
+May 27 14:10:04 mgmt-b rsyncd[19924]: code/modules/sudo/mariadb/manifests/config.pp is uptodate
+May 27 14:10:04 mgmt-b rsyncd[19924]: code/modules/sudo/mariadb/manifests/init.pp is uptodate
+May 27 14:10:04 mgmt-b rsyncd[19924]: code/modules/sudo/mariadb/manifests/install.pp is uptodate
+May 27 14:10:04 mgmt-b rsyncd[19924]: code/modules/sudo/mariadb/manifests/service.pp is uptodate
+May 27 14:10:04 mgmt-b rsyncd[19924]: code/modules/sudo/ntp_service/manifests/init.pp is uptodate
+May 27 14:10:04 mgmt-b rsyncd[19924]: code/modules/sudo/ntp_service/templates/ntp.conf.erb is uptodate
+May 27 14:10:04 mgmt-b rsyncd[19924]: total: matches=0  hash_hits=0  false_alarms=0 data=0
+May 27 14:10:04 mgmt-b rsyncd[19924]: sent 3.18K bytes  received 2.96K bytes  12.27K bytes/sec
+May 27 14:10:04 mgmt-b rsyncd[19924]: total size is 95.17K  speedup is 15.51
+May 27 14:10:04 mgmt-b rsyncd[19926]: rsync: failed to open log-file /home/bitstudent/rsync.log: Permission denied (13)
+May 27 14:10:04 mgmt-b rsyncd[19926]: Ignoring "log file" setting.
+May 27 14:10:05 mgmt-b rsyncd[19926]: building file list
+May 27 14:10:05 mgmt-b rsyncd[19926]: (new) backup_dir is /home/groupb/backup/mgmt/backup-27-05-2022-14-10-01
+May 27 14:10:05 mgmt-b rsyncd[19926]: delta-transmission enabled
+May 27 14:10:05 mgmt-b rsyncd[19926]: puppet.conf is uptodate
+May 27 14:10:05 mgmt-b rsyncd[19926]: total: matches=0  hash_hits=0  false_alarms=0 data=0
+May 27 14:10:05 mgmt-b rsyncd[19926]: sent 56 bytes  received 154 bytes  140.00 bytes/sec
+May 27 14:10:05 mgmt-b rsyncd[19926]: total size is 180  speedup is 0.86
+May 27 14:55:14 mgmt-b nagios3: Auto-save of retention data completed successfully.
+May 27 15:55:14 mgmt-b nagios3: Auto-save of retention data completed successfully.
+May 27 16:55:14 mgmt-b nagios3: Auto-save of retention data completed successfully.
+May 27 17:55:14 mgmt-b nagios3: Auto-save of retention data completed successfully.
+May 27 18:10:01 mgmt-b rsyncd[28219]: rsync: failed to open log-file /home/bitstudent/rsync.log: Permission denied (13)
+May 27 18:10:01 mgmt-b rsyncd[28219]: Ignoring "log file" setting.
+May 27 18:10:02 mgmt-b rsyncd[28219]: building file list
+May 27 18:10:02 mgmt-b rsyncd[28219]: (new) backup_dir is /home/groupb/backup/mgmt/backup-27-05-2022-18-10-01
+May 27 18:10:02 mgmt-b rsyncd[28219]: delta-transmission enabled
+May 27 18:10:02 mgmt-b rsyncd[28219]: node-exporter/LICENSE is uptodate
+May 27 18:10:02 mgmt-b rsyncd[28219]: node-exporter/NOTICE is uptodate
+May 27 18:10:02 mgmt-b rsyncd[28219]: node-exporter/node_exporter is uptodate
+May 27 18:10:02 mgmt-b rsyncd[28219]: total: matches=0  hash_hits=0  false_alarms=0 data=0
+May 27 18:10:02 mgmt-b rsyncd[28219]: sent 169 bytes  received 255 bytes  282.67 bytes/sec
+May 27 18:10:02 mgmt-b rsyncd[28219]: total size is 18.24M  speedup is 43,020.63
+May 27 18:10:02 mgmt-b rsyncd[28221]: rsync: failed to open log-file /home/bitstudent/rsync.log: Permission denied (13)
+May 27 18:10:02 mgmt-b rsyncd[28221]: Ignoring "log file" setting.
+May 27 18:10:03 mgmt-b rsyncd[28221]: building file list
+May 27 18:10:03 mgmt-b rsyncd[28221]: (new) backup_dir is /home/groupb/backup/mgmt/backup-27-05-2022-18-10-01
+May 27 18:10:03 mgmt-b rsyncd[28221]: delta-transmission enabled
+May 27 18:10:03 mgmt-b rsyncd[28221]: nagios/nrpe.cfg is uptodate
+May 27 18:10:03 mgmt-b rsyncd[28221]: nagios/nrpe_local.cfg is uptodate
+May 27 18:10:03 mgmt-b rsyncd[28221]: total: matches=0  hash_hits=0  false_alarms=0 data=0
+May 27 18:10:03 mgmt-b rsyncd[28221]: sent 161 bytes  received 207 bytes  245.33 bytes/sec
+May 27 18:10:03 mgmt-b rsyncd[28221]: total size is 12.96K  speedup is 35.21
+May 27 18:10:03 mgmt-b rsyncd[28223]: rsync: failed to open log-file /home/bitstudent/rsync.log: Permission denied (13)
+May 27 18:10:03 mgmt-b rsyncd[28223]: Ignoring "log file" setting.
+May 27 18:10:03 mgmt-b rsyncd[28223]: building file list
+May 27 18:10:03 mgmt-b rsyncd[28223]: (new) backup_dir is /home/groupb/backup/mgmt/backup-27-05-2022-18-10-01
+May 27 18:10:03 mgmt-b rsyncd[28223]: delta-transmission enabled
+May 27 18:10:03 mgmt-b rsyncd[28223]: nagios3/apache2.conf is uptodate
+May 27 18:10:03 mgmt-b rsyncd[28223]: nagios3/cgi.cfg is uptodate
+May 27 18:10:03 mgmt-b rsyncd[28223]: nagios3/commands.cfg is uptodate
+May 27 18:10:03 mgmt-b rsyncd[28223]: nagios3/htpasswd.users is uptodate
+May 27 18:10:03 mgmt-b rsyncd[28223]: nagios3/nagios.cfg is uptodate
+May 27 18:10:03 mgmt-b rsyncd[28223]: nagios3/nrpe.cfg is uptodate
+May 27 18:10:03 mgmt-b rsyncd[28223]: nagios3/resource.cfg is uptodate
+May 27 18:10:03 mgmt-b rsyncd[28223]: nagios3/conf.d/contacts_nagios2.cfg is uptodate
+May 27 18:10:03 mgmt-b rsyncd[28223]: nagios3/conf.d/extinfo_nagios2.cfg is uptodate
+May 27 18:10:03 mgmt-b rsyncd[28223]: nagios3/conf.d/generic-host_nagios2.cfg is uptodate
+May 27 18:10:03 mgmt-b rsyncd[28223]: nagios3/conf.d/generic-service_nagios2.cfg is uptodate
+May 27 18:10:03 mgmt-b rsyncd[28223]: nagios3/conf.d/hostgroups_nagios2.cfg is uptodate
+May 27 18:10:03 mgmt-b rsyncd[28223]: nagios3/conf.d/localhost_nagios2.cfg is uptodate
+May 27 18:10:03 mgmt-b rsyncd[28223]: nagios3/conf.d/ppt_contactgroups.cfg is uptodate
+May 27 18:10:03 mgmt-b rsyncd[28223]: nagios3/conf.d/ppt_contacts.cfg is uptodate
+May 27 18:10:03 mgmt-b rsyncd[28223]: nagios3/conf.d/ppt_hostgroups.cfg is uptodate
+May 27 18:10:03 mgmt-b rsyncd[28223]: nagios3/conf.d/ppt_hosts.cfg is uptodate
+May 27 18:10:03 mgmt-b rsyncd[28223]: nagios3/conf.d/ppt_services.cfg is uptodate
+May 27 18:10:03 mgmt-b rsyncd[28223]: nagios3/conf.d/services_nagios2.cfg is uptodate
+May 27 18:10:03 mgmt-b rsyncd[28223]: nagios3/conf.d/timeperiods_nagios2.cfg is uptodate
+May 27 18:10:03 mgmt-b rsyncd[28223]: nagios3/stylesheets/avail.css is uptodate
+May 27 18:10:03 mgmt-b rsyncd[28223]: nagios3/stylesheets/checksanity.css is uptodate
+May 27 18:10:03 mgmt-b rsyncd[28223]: nagios3/stylesheets/cmd.css is uptodate
+May 27 18:10:03 mgmt-b rsyncd[28223]: nagios3/stylesheets/common.css is uptodate
+May 27 18:10:03 mgmt-b rsyncd[28223]: nagios3/stylesheets/config.css is uptodate
+May 27 18:10:03 mgmt-b rsyncd[28223]: nagios3/stylesheets/extinfo.css is uptodate
+May 27 18:10:03 mgmt-b rsyncd[28223]: nagios3/stylesheets/histogram.css is uptodate
+May 27 18:10:03 mgmt-b rsyncd[28223]: nagios3/stylesheets/history.css is uptodate
+May 27 18:10:03 mgmt-b rsyncd[28223]: nagios3/stylesheets/ministatus.css is uptodate
+May 27 18:10:03 mgmt-b rsyncd[28223]: nagios3/stylesheets/notifications.css is uptodate
+May 27 18:10:03 mgmt-b rsyncd[28223]: nagios3/stylesheets/outages.css is uptodate
+May 27 18:10:03 mgmt-b rsyncd[28223]: nagios3/stylesheets/showlog.css is uptodate
+May 27 18:10:03 mgmt-b rsyncd[28223]: nagios3/stylesheets/status.css is uptodate
+May 27 18:10:03 mgmt-b rsyncd[28223]: nagios3/stylesheets/statusmap.css is uptodate
+May 27 18:10:03 mgmt-b rsyncd[28223]: nagios3/stylesheets/summary.css is uptodate
+May 27 18:10:03 mgmt-b rsyncd[28223]: nagios3/stylesheets/tac.css is uptodate
+May 27 18:10:03 mgmt-b rsyncd[28223]: nagios3/stylesheets/trends.css is uptodate
+May 27 18:10:03 mgmt-b rsyncd[28223]: total: matches=0  hash_hits=0  false_alarms=0 data=0
+May 27 18:10:03 mgmt-b rsyncd[28223]: sent 1.23K bytes  received 1.99K bytes  6.45K bytes/sec
+May 27 18:10:03 mgmt-b rsyncd[28223]: total size is 137.65K  speedup is 42.70
+May 27 18:10:03 mgmt-b rsyncd[28225]: rsync: failed to open log-file /home/bitstudent/rsync.log: Permission denied (13)
+May 27 18:10:03 mgmt-b rsyncd[28225]: Ignoring "log file" setting.
+May 27 18:10:04 mgmt-b rsyncd[28225]: building file list
+May 27 18:10:04 mgmt-b rsyncd[28225]: (new) backup_dir is /home/groupb/backup/mgmt/backup-27-05-2022-18-10-01
+May 27 18:10:04 mgmt-b rsyncd[28225]: delta-transmission enabled
+May 27 18:10:04 mgmt-b rsyncd[28225]: nagios-plugins/config/apt.cfg is uptodate
+May 27 18:10:04 mgmt-b rsyncd[28225]: nagios-plugins/config/breeze.cfg is uptodate
+May 27 18:10:04 mgmt-b rsyncd[28225]: nagios-plugins/config/check_nrpe.cfg is uptodate
+May 27 18:10:04 mgmt-b rsyncd[28225]: nagios-plugins/config/check_puppet_agent is uptodate
+May 27 18:10:04 mgmt-b rsyncd[28225]: nagios-plugins/config/dhcp.cfg is uptodate
+May 27 18:10:04 mgmt-b rsyncd[28225]: nagios-plugins/config/disk-smb.cfg is uptodate
+May 27 18:10:04 mgmt-b rsyncd[28225]: nagios-plugins/config/disk.cfg is uptodate
+May 27 18:10:04 mgmt-b rsyncd[28225]: nagios-plugins/config/dns.cfg is uptodate
+May 27 18:10:04 mgmt-b rsyncd[28225]: nagios-plugins/config/dummy.cfg is uptodate
+May 27 18:10:04 mgmt-b rsyncd[28225]: nagios-plugins/config/flexlm.cfg is uptodate
+May 27 18:10:04 mgmt-b rsyncd[28225]: nagios-plugins/config/fping.cfg is uptodate
+May 27 18:10:04 mgmt-b rsyncd[28225]: nagios-plugins/config/ftp.cfg is uptodate
+May 27 18:10:04 mgmt-b rsyncd[28225]: nagios-plugins/config/games.cfg is uptodate
+May 27 18:10:04 mgmt-b rsyncd[28225]: nagios-plugins/config/hppjd.cfg is uptodate
+May 27 18:10:04 mgmt-b rsyncd[28225]: nagios-plugins/config/http.cfg is uptodate
+May 27 18:10:04 mgmt-b rsyncd[28225]: nagios-plugins/config/ifstatus.cfg is uptodate
+May 27 18:10:04 mgmt-b rsyncd[28225]: nagios-plugins/config/ldap.cfg is uptodate
+May 27 18:10:04 mgmt-b rsyncd[28225]: nagios-plugins/config/load.cfg is uptodate
+May 27 18:10:04 mgmt-b rsyncd[28225]: nagios-plugins/config/mail.cfg is uptodate
+May 27 18:10:04 mgmt-b rsyncd[28225]: nagios-plugins/config/mailq.cfg is uptodate
+May 27 18:10:04 mgmt-b rsyncd[28225]: nagios-plugins/config/mrtg.cfg is uptodate
+May 27 18:10:04 mgmt-b rsyncd[28225]: nagios-plugins/config/mysql.cfg is uptodate
+May 27 18:10:04 mgmt-b rsyncd[28225]: nagios-plugins/config/netware.cfg is uptodate
+May 27 18:10:04 mgmt-b rsyncd[28225]: nagios-plugins/config/news.cfg is uptodate
+May 27 18:10:04 mgmt-b rsyncd[28225]: nagios-plugins/config/nt.cfg is uptodate
+May 27 18:10:04 mgmt-b rsyncd[28225]: nagios-plugins/config/ntp.cfg is uptodate
+May 27 18:10:04 mgmt-b rsyncd[28225]: nagios-plugins/config/pgsql.cfg is uptodate
+May 27 18:10:04 mgmt-b rsyncd[28225]: nagios-plugins/config/ping.cfg is uptodate
+May 27 18:10:04 mgmt-b rsyncd[28225]: nagios-plugins/config/procs.cfg is uptodate
+May 27 18:10:04 mgmt-b rsyncd[28225]: nagios-plugins/config/real.cfg is uptodate
+May 27 18:10:04 mgmt-b rsyncd[28225]: nagios-plugins/config/rpc-nfs.cfg is uptodate
+May 27 18:10:04 mgmt-b rsyncd[28225]: nagios-plugins/config/slack.cfg is uptodate
+May 27 18:10:04 mgmt-b rsyncd[28225]: nagios-plugins/config/snmp.cfg is uptodate
+May 27 18:10:04 mgmt-b rsyncd[28225]: nagios-plugins/config/ssh.cfg is uptodate
+May 27 18:10:04 mgmt-b rsyncd[28225]: nagios-plugins/config/tcp_udp.cfg is uptodate
+May 27 18:10:04 mgmt-b rsyncd[28225]: nagios-plugins/config/telnet.cfg is uptodate
+May 27 18:10:04 mgmt-b rsyncd[28225]: nagios-plugins/config/users.cfg is uptodate
+May 27 18:10:04 mgmt-b rsyncd[28225]: total: matches=0  hash_hits=0  false_alarms=0 data=0
+May 27 18:10:04 mgmt-b rsyncd[28225]: sent 887 bytes  received 2.02K bytes  1.94K bytes/sec
+May 27 18:10:04 mgmt-b rsyncd[28225]: total size is 47.30K  speedup is 16.26
+May 27 18:10:04 mgmt-b rsyncd[28227]: rsync: failed to open log-file /home/bitstudent/rsync.log: Permission denied (13)
+May 27 18:10:04 mgmt-b rsyncd[28227]: Ignoring "log file" setting.
+May 27 18:10:04 mgmt-b rsyncd[28227]: building file list
+May 27 18:10:04 mgmt-b rsyncd[28227]: (new) backup_dir is /home/groupb/backup/mgmt/backup-27-05-2022-18-10-01
+May 27 18:10:04 mgmt-b rsyncd[28227]: delta-transmission enabled
+May 27 18:10:04 mgmt-b rsyncd[28227]: code/environments/production/manifests/site.pp is uptodate
+May 27 18:10:04 mgmt-b rsyncd[28227]: code/modules/mariadb/files/50-server.cnf is uptodate
+May 27 18:10:04 mgmt-b rsyncd[28227]: code/modules/mariadb/manifests/config.pp is uptodate
+May 27 18:10:04 mgmt-b rsyncd[28227]: code/modules/mariadb/manifests/init.pp is uptodate
+May 27 18:10:04 mgmt-b rsyncd[28227]: code/modules/mariadb/manifests/install.pp is uptodate
+May 27 18:10:04 mgmt-b rsyncd[28227]: code/modules/mariadb/manifests/service.pp is uptodate
+May 27 18:10:04 mgmt-b rsyncd[28227]: code/modules/nagios/files/htpasswd.users is uptodate
+May 27 18:10:04 mgmt-b rsyncd[28227]: code/modules/nagios/files/nagios.cfg is uptodate
+May 27 18:10:04 mgmt-b rsyncd[28227]: code/modules/nagios/manifests/config.pp is uptodate
+May 27 18:10:04 mgmt-b rsyncd[28227]: code/modules/nagios/manifests/init.pp is uptodate
+May 27 18:10:04 mgmt-b rsyncd[28227]: code/modules/nagios/manifests/install.pp is uptodate
+May 27 18:10:04 mgmt-b rsyncd[28227]: code/modules/nagios/manifests/service.pp is uptodate
+May 27 18:10:04 mgmt-b rsyncd[28227]: code/modules/nrpe/files/nrpe.cfg is uptodate
+May 27 18:10:04 mgmt-b rsyncd[28227]: code/modules/nrpe/manifests/config.pp is uptodate
+May 27 18:10:04 mgmt-b rsyncd[28227]: code/modules/nrpe/manifests/init.pp is uptodate
+May 27 18:10:04 mgmt-b rsyncd[28227]: code/modules/nrpe/manifests/install.pp is uptodate
+May 27 18:10:04 mgmt-b rsyncd[28227]: code/modules/nrpe/manifests/service.pp is uptodate
+May 27 18:10:04 mgmt-b rsyncd[28227]: code/modules/nrpe_nagios/manifests/config.pp is uptodate
+May 27 18:10:04 mgmt-b rsyncd[28227]: code/modules/nrpe_nagios/manifests/init.pp is uptodate
+May 27 18:10:04 mgmt-b rsyncd[28227]: code/modules/ntp_service/manifests/init.pp is uptodate
+May 27 18:10:04 mgmt-b rsyncd[28227]: code/modules/ntp_service/templates/ntp.conf.erb is uptodate
+May 27 18:10:04 mgmt-b rsyncd[28227]: code/modules/php/manifests/config.pp is uptodate
+May 27 18:10:04 mgmt-b rsyncd[28227]: code/modules/php/manifests/init.pp is uptodate
+May 27 18:10:04 mgmt-b rsyncd[28227]: code/modules/php/manifests/install.pp is uptodate
+May 27 18:10:04 mgmt-b rsyncd[28227]: code/modules/rsync/backupfile is uptodate
+May 27 18:10:04 mgmt-b rsyncd[28227]: code/modules/rsync/files/backupfile.txt is uptodate
+May 27 18:10:04 mgmt-b rsyncd[28227]: code/modules/rsync/files/daily.log is uptodate
+May 27 18:10:04 mgmt-b rsyncd[28227]: code/modules/rsync/files/daily.sh is uptodate
+May 27 18:10:04 mgmt-b rsyncd[28227]: code/modules/rsync/files/restore.sh is uptodate
+May 27 18:10:04 mgmt-b rsyncd[28227]: code/modules/rsync/files/rsync.log is uptodate
+May 27 18:10:04 mgmt-b rsyncd[28227]: code/modules/rsync/files/weekly.log is uptodate
+May 27 18:10:04 mgmt-b rsyncd[28227]: code/modules/rsync/files/weekly.sh is uptodate
+May 27 18:10:04 mgmt-b rsyncd[28227]: code/modules/rsync/manifests/config.pp is uptodate
+May 27 18:10:04 mgmt-b rsyncd[28227]: code/modules/rsync/manifests/init.pp is uptodate
+May 27 18:10:04 mgmt-b rsyncd[28227]: code/modules/rsync/manifests/install.pp is uptodate
+May 27 18:10:04 mgmt-b rsyncd[28227]: code/modules/rsync/manifests/service.pp is uptodate
+May 27 18:10:04 mgmt-b rsyncd[28227]: code/modules/sudo/files/etc/sudoers is uptodate
+May 27 18:10:04 mgmt-b rsyncd[28227]: code/modules/sudo/manifests/init.pp is uptodate
+May 27 18:10:04 mgmt-b rsyncd[28227]: code/modules/sudo/mariadb/files/50-server.cnf is uptodate
+May 27 18:10:04 mgmt-b rsyncd[28227]: code/modules/sudo/mariadb/manifests/config.pp is uptodate
+May 27 18:10:04 mgmt-b rsyncd[28227]: code/modules/sudo/mariadb/manifests/init.pp is uptodate
+May 27 18:10:04 mgmt-b rsyncd[28227]: code/modules/sudo/mariadb/manifests/install.pp is uptodate
+May 27 18:10:04 mgmt-b rsyncd[28227]: code/modules/sudo/mariadb/manifests/service.pp is uptodate
+May 27 18:10:04 mgmt-b rsyncd[28227]: code/modules/sudo/ntp_service/manifests/init.pp is uptodate
+May 27 18:10:04 mgmt-b rsyncd[28227]: code/modules/sudo/ntp_service/templates/ntp.conf.erb is uptodate
+May 27 18:10:04 mgmt-b rsyncd[28227]: total: matches=0  hash_hits=0  false_alarms=0 data=0
+May 27 18:10:04 mgmt-b rsyncd[28227]: sent 3.18K bytes  received 2.96K bytes  12.27K bytes/sec
+May 27 18:10:04 mgmt-b rsyncd[28227]: total size is 95.17K  speedup is 15.51
+May 27 18:10:04 mgmt-b rsyncd[28229]: rsync: failed to open log-file /home/bitstudent/rsync.log: Permission denied (13)
+May 27 18:10:04 mgmt-b rsyncd[28229]: Ignoring "log file" setting.
+May 27 18:10:05 mgmt-b rsyncd[28229]: building file list
+May 27 18:10:05 mgmt-b rsyncd[28229]: (new) backup_dir is /home/groupb/backup/mgmt/backup-27-05-2022-18-10-01
+May 27 18:10:05 mgmt-b rsyncd[28229]: delta-transmission enabled
+May 27 18:10:05 mgmt-b rsyncd[28229]: puppet.conf is uptodate
+May 27 18:10:05 mgmt-b rsyncd[28229]: total: matches=0  hash_hits=0  false_alarms=0 data=0
+May 27 18:10:05 mgmt-b rsyncd[28229]: sent 56 bytes  received 154 bytes  140.00 bytes/sec
+May 27 18:10:05 mgmt-b rsyncd[28229]: total size is 180  speedup is 0.86
+May 27 18:55:14 mgmt-b nagios3: Auto-save of retention data completed successfully.
+May 27 19:55:14 mgmt-b nagios3: Auto-save of retention data completed successfully.
+May 27 20:55:14 mgmt-b nagios3: Auto-save of retention data completed successfully.
+May 27 21:55:14 mgmt-b nagios3: Auto-save of retention data completed successfully.
+May 27 22:10:01 mgmt-b rsyncd[4238]: rsync: failed to open log-file /home/bitstudent/rsync.log: Permission denied (13)
+May 27 22:10:01 mgmt-b rsyncd[4238]: Ignoring "log file" setting.
+May 27 22:10:02 mgmt-b rsyncd[4238]: building file list
+May 27 22:10:02 mgmt-b rsyncd[4238]: (new) backup_dir is /home/groupb/backup/mgmt/backup-27-05-2022-22-10-01
+May 27 22:10:02 mgmt-b rsyncd[4238]: delta-transmission enabled
+May 27 22:10:02 mgmt-b rsyncd[4238]: node-exporter/LICENSE is uptodate
+May 27 22:10:02 mgmt-b rsyncd[4238]: node-exporter/NOTICE is uptodate
+May 27 22:10:02 mgmt-b rsyncd[4238]: node-exporter/node_exporter is uptodate
+May 27 22:10:02 mgmt-b rsyncd[4238]: total: matches=0  hash_hits=0  false_alarms=0 data=0
+May 27 22:10:02 mgmt-b rsyncd[4238]: sent 169 bytes  received 255 bytes  282.67 bytes/sec
+May 27 22:10:02 mgmt-b rsyncd[4238]: total size is 18.24M  speedup is 43,020.63
+May 27 22:10:02 mgmt-b rsyncd[4240]: rsync: failed to open log-file /home/bitstudent/rsync.log: Permission denied (13)
+May 27 22:10:02 mgmt-b rsyncd[4240]: Ignoring "log file" setting.
+May 27 22:10:03 mgmt-b rsyncd[4240]: building file list
+May 27 22:10:03 mgmt-b rsyncd[4240]: (new) backup_dir is /home/groupb/backup/mgmt/backup-27-05-2022-22-10-01
+May 27 22:10:03 mgmt-b rsyncd[4240]: delta-transmission enabled
+May 27 22:10:03 mgmt-b rsyncd[4240]: nagios/nrpe.cfg is uptodate
+May 27 22:10:03 mgmt-b rsyncd[4240]: nagios/nrpe_local.cfg is uptodate
+May 27 22:10:03 mgmt-b rsyncd[4240]: total: matches=0  hash_hits=0  false_alarms=0 data=0
+May 27 22:10:03 mgmt-b rsyncd[4240]: sent 161 bytes  received 207 bytes  245.33 bytes/sec
+May 27 22:10:03 mgmt-b rsyncd[4240]: total size is 12.96K  speedup is 35.21
+May 27 22:10:03 mgmt-b rsyncd[4242]: rsync: failed to open log-file /home/bitstudent/rsync.log: Permission denied (13)
+May 27 22:10:03 mgmt-b rsyncd[4242]: Ignoring "log file" setting.
+May 27 22:10:03 mgmt-b rsyncd[4242]: building file list
+May 27 22:10:03 mgmt-b rsyncd[4242]: (new) backup_dir is /home/groupb/backup/mgmt/backup-27-05-2022-22-10-01
+May 27 22:10:03 mgmt-b rsyncd[4242]: delta-transmission enabled
+May 27 22:10:03 mgmt-b rsyncd[4242]: nagios3/apache2.conf is uptodate
+May 27 22:10:03 mgmt-b rsyncd[4242]: nagios3/cgi.cfg is uptodate
+May 27 22:10:03 mgmt-b rsyncd[4242]: nagios3/commands.cfg is uptodate
+May 27 22:10:03 mgmt-b rsyncd[4242]: nagios3/htpasswd.users is uptodate
+May 27 22:10:03 mgmt-b rsyncd[4242]: nagios3/nagios.cfg is uptodate
+May 27 22:10:03 mgmt-b rsyncd[4242]: nagios3/nrpe.cfg is uptodate
+May 27 22:10:03 mgmt-b rsyncd[4242]: nagios3/resource.cfg is uptodate
+May 27 22:10:03 mgmt-b rsyncd[4242]: nagios3/conf.d/contacts_nagios2.cfg is uptodate
+May 27 22:10:03 mgmt-b rsyncd[4242]: nagios3/conf.d/extinfo_nagios2.cfg is uptodate
+May 27 22:10:03 mgmt-b rsyncd[4242]: nagios3/conf.d/generic-host_nagios2.cfg is uptodate
+May 27 22:10:03 mgmt-b rsyncd[4242]: nagios3/conf.d/generic-service_nagios2.cfg is uptodate
+May 27 22:10:03 mgmt-b rsyncd[4242]: nagios3/conf.d/hostgroups_nagios2.cfg is uptodate
+May 27 22:10:03 mgmt-b rsyncd[4242]: nagios3/conf.d/localhost_nagios2.cfg is uptodate
+May 27 22:10:03 mgmt-b rsyncd[4242]: nagios3/conf.d/ppt_contactgroups.cfg is uptodate
+May 27 22:10:03 mgmt-b rsyncd[4242]: nagios3/conf.d/ppt_contacts.cfg is uptodate
+May 27 22:10:03 mgmt-b rsyncd[4242]: nagios3/conf.d/ppt_hostgroups.cfg is uptodate
+May 27 22:10:03 mgmt-b rsyncd[4242]: nagios3/conf.d/ppt_hosts.cfg is uptodate
+May 27 22:10:03 mgmt-b rsyncd[4242]: nagios3/conf.d/ppt_services.cfg is uptodate
+May 27 22:10:03 mgmt-b rsyncd[4242]: nagios3/conf.d/services_nagios2.cfg is uptodate
+May 27 22:10:03 mgmt-b rsyncd[4242]: nagios3/conf.d/timeperiods_nagios2.cfg is uptodate
+May 27 22:10:03 mgmt-b rsyncd[4242]: nagios3/stylesheets/avail.css is uptodate
+May 27 22:10:03 mgmt-b rsyncd[4242]: nagios3/stylesheets/checksanity.css is uptodate
+May 27 22:10:03 mgmt-b rsyncd[4242]: nagios3/stylesheets/cmd.css is uptodate
+May 27 22:10:03 mgmt-b rsyncd[4242]: nagios3/stylesheets/common.css is uptodate
+May 27 22:10:03 mgmt-b rsyncd[4242]: nagios3/stylesheets/config.css is uptodate
+May 27 22:10:03 mgmt-b rsyncd[4242]: nagios3/stylesheets/extinfo.css is uptodate
+May 27 22:10:03 mgmt-b rsyncd[4242]: nagios3/stylesheets/histogram.css is uptodate
+May 27 22:10:03 mgmt-b rsyncd[4242]: nagios3/stylesheets/history.css is uptodate
+May 27 22:10:03 mgmt-b rsyncd[4242]: nagios3/stylesheets/ministatus.css is uptodate
+May 27 22:10:03 mgmt-b rsyncd[4242]: nagios3/stylesheets/notifications.css is uptodate
+May 27 22:10:03 mgmt-b rsyncd[4242]: nagios3/stylesheets/outages.css is uptodate
+May 27 22:10:03 mgmt-b rsyncd[4242]: nagios3/stylesheets/showlog.css is uptodate
+May 27 22:10:03 mgmt-b rsyncd[4242]: nagios3/stylesheets/status.css is uptodate
+May 27 22:10:03 mgmt-b rsyncd[4242]: nagios3/stylesheets/statusmap.css is uptodate
+May 27 22:10:03 mgmt-b rsyncd[4242]: nagios3/stylesheets/summary.css is uptodate
+May 27 22:10:03 mgmt-b rsyncd[4242]: nagios3/stylesheets/tac.css is uptodate
+May 27 22:10:03 mgmt-b rsyncd[4242]: nagios3/stylesheets/trends.css is uptodate
+May 27 22:10:03 mgmt-b rsyncd[4242]: total: matches=0  hash_hits=0  false_alarms=0 data=0
+May 27 22:10:03 mgmt-b rsyncd[4242]: sent 1.23K bytes  received 1.99K bytes  6.45K bytes/sec
+May 27 22:10:03 mgmt-b rsyncd[4242]: total size is 137.65K  speedup is 42.70
+May 27 22:10:03 mgmt-b rsyncd[4244]: rsync: failed to open log-file /home/bitstudent/rsync.log: Permission denied (13)
+May 27 22:10:03 mgmt-b rsyncd[4244]: Ignoring "log file" setting.
+May 27 22:10:04 mgmt-b rsyncd[4244]: building file list
+May 27 22:10:04 mgmt-b rsyncd[4244]: (new) backup_dir is /home/groupb/backup/mgmt/backup-27-05-2022-22-10-01
+May 27 22:10:04 mgmt-b rsyncd[4244]: delta-transmission enabled
+May 27 22:10:04 mgmt-b rsyncd[4244]: nagios-plugins/config/apt.cfg is uptodate
+May 27 22:10:04 mgmt-b rsyncd[4244]: nagios-plugins/config/breeze.cfg is uptodate
+May 27 22:10:04 mgmt-b rsyncd[4244]: nagios-plugins/config/check_nrpe.cfg is uptodate
+May 27 22:10:04 mgmt-b rsyncd[4244]: nagios-plugins/config/check_puppet_agent is uptodate
+May 27 22:10:04 mgmt-b rsyncd[4244]: nagios-plugins/config/dhcp.cfg is uptodate
+May 27 22:10:04 mgmt-b rsyncd[4244]: nagios-plugins/config/disk-smb.cfg is uptodate
+May 27 22:10:04 mgmt-b rsyncd[4244]: nagios-plugins/config/disk.cfg is uptodate
+May 27 22:10:04 mgmt-b rsyncd[4244]: nagios-plugins/config/dns.cfg is uptodate
+May 27 22:10:04 mgmt-b rsyncd[4244]: nagios-plugins/config/dummy.cfg is uptodate
+May 27 22:10:04 mgmt-b rsyncd[4244]: nagios-plugins/config/flexlm.cfg is uptodate
+May 27 22:10:04 mgmt-b rsyncd[4244]: nagios-plugins/config/fping.cfg is uptodate
+May 27 22:10:04 mgmt-b rsyncd[4244]: nagios-plugins/config/ftp.cfg is uptodate
+May 27 22:10:04 mgmt-b rsyncd[4244]: nagios-plugins/config/games.cfg is uptodate
+May 27 22:10:04 mgmt-b rsyncd[4244]: nagios-plugins/config/hppjd.cfg is uptodate
+May 27 22:10:04 mgmt-b rsyncd[4244]: nagios-plugins/config/http.cfg is uptodate
+May 27 22:10:04 mgmt-b rsyncd[4244]: nagios-plugins/config/ifstatus.cfg is uptodate
+May 27 22:10:04 mgmt-b rsyncd[4244]: nagios-plugins/config/ldap.cfg is uptodate
+May 27 22:10:04 mgmt-b rsyncd[4244]: nagios-plugins/config/load.cfg is uptodate
+May 27 22:10:04 mgmt-b rsyncd[4244]: nagios-plugins/config/mail.cfg is uptodate
+May 27 22:10:04 mgmt-b rsyncd[4244]: nagios-plugins/config/mailq.cfg is uptodate
+May 27 22:10:04 mgmt-b rsyncd[4244]: nagios-plugins/config/mrtg.cfg is uptodate
+May 27 22:10:04 mgmt-b rsyncd[4244]: nagios-plugins/config/mysql.cfg is uptodate
+May 27 22:10:04 mgmt-b rsyncd[4244]: nagios-plugins/config/netware.cfg is uptodate
+May 27 22:10:04 mgmt-b rsyncd[4244]: nagios-plugins/config/news.cfg is uptodate
+May 27 22:10:04 mgmt-b rsyncd[4244]: nagios-plugins/config/nt.cfg is uptodate
+May 27 22:10:04 mgmt-b rsyncd[4244]: nagios-plugins/config/ntp.cfg is uptodate
+May 27 22:10:04 mgmt-b rsyncd[4244]: nagios-plugins/config/pgsql.cfg is uptodate
+May 27 22:10:04 mgmt-b rsyncd[4244]: nagios-plugins/config/ping.cfg is uptodate
+May 27 22:10:04 mgmt-b rsyncd[4244]: nagios-plugins/config/procs.cfg is uptodate
+May 27 22:10:04 mgmt-b rsyncd[4244]: nagios-plugins/config/real.cfg is uptodate
+May 27 22:10:04 mgmt-b rsyncd[4244]: nagios-plugins/config/rpc-nfs.cfg is uptodate
+May 27 22:10:04 mgmt-b rsyncd[4244]: nagios-plugins/config/slack.cfg is uptodate
+May 27 22:10:04 mgmt-b rsyncd[4244]: nagios-plugins/config/snmp.cfg is uptodate
+May 27 22:10:04 mgmt-b rsyncd[4244]: nagios-plugins/config/ssh.cfg is uptodate
+May 27 22:10:04 mgmt-b rsyncd[4244]: nagios-plugins/config/tcp_udp.cfg is uptodate
+May 27 22:10:04 mgmt-b rsyncd[4244]: nagios-plugins/config/telnet.cfg is uptodate
+May 27 22:10:04 mgmt-b rsyncd[4244]: nagios-plugins/config/users.cfg is uptodate
+May 27 22:10:04 mgmt-b rsyncd[4244]: total: matches=0  hash_hits=0  false_alarms=0 data=0
+May 27 22:10:04 mgmt-b rsyncd[4244]: sent 887 bytes  received 2.02K bytes  1.94K bytes/sec
+May 27 22:10:04 mgmt-b rsyncd[4244]: total size is 47.30K  speedup is 16.26
+May 27 22:10:04 mgmt-b rsyncd[4246]: rsync: failed to open log-file /home/bitstudent/rsync.log: Permission denied (13)
+May 27 22:10:04 mgmt-b rsyncd[4246]: Ignoring "log file" setting.
+May 27 22:10:04 mgmt-b rsyncd[4246]: building file list
+May 27 22:10:04 mgmt-b rsyncd[4246]: (new) backup_dir is /home/groupb/backup/mgmt/backup-27-05-2022-22-10-01
+May 27 22:10:04 mgmt-b rsyncd[4246]: delta-transmission enabled
+May 27 22:10:04 mgmt-b rsyncd[4246]: code/environments/production/manifests/site.pp is uptodate
+May 27 22:10:04 mgmt-b rsyncd[4246]: code/modules/mariadb/files/50-server.cnf is uptodate
+May 27 22:10:04 mgmt-b rsyncd[4246]: code/modules/mariadb/manifests/config.pp is uptodate
+May 27 22:10:04 mgmt-b rsyncd[4246]: code/modules/mariadb/manifests/init.pp is uptodate
+May 27 22:10:04 mgmt-b rsyncd[4246]: code/modules/mariadb/manifests/install.pp is uptodate
+May 27 22:10:04 mgmt-b rsyncd[4246]: code/modules/mariadb/manifests/service.pp is uptodate
+May 27 22:10:04 mgmt-b rsyncd[4246]: code/modules/nagios/files/htpasswd.users is uptodate
+May 27 22:10:04 mgmt-b rsyncd[4246]: code/modules/nagios/files/nagios.cfg is uptodate
+May 27 22:10:04 mgmt-b rsyncd[4246]: code/modules/nagios/manifests/config.pp is uptodate
+May 27 22:10:04 mgmt-b rsyncd[4246]: code/modules/nagios/manifests/init.pp is uptodate
+May 27 22:10:04 mgmt-b rsyncd[4246]: code/modules/nagios/manifests/install.pp is uptodate
+May 27 22:10:04 mgmt-b rsyncd[4246]: code/modules/nagios/manifests/service.pp is uptodate
+May 27 22:10:04 mgmt-b rsyncd[4246]: code/modules/nrpe/files/nrpe.cfg is uptodate
+May 27 22:10:04 mgmt-b rsyncd[4246]: code/modules/nrpe/manifests/config.pp is uptodate
+May 27 22:10:04 mgmt-b rsyncd[4246]: code/modules/nrpe/manifests/init.pp is uptodate
+May 27 22:10:04 mgmt-b rsyncd[4246]: code/modules/nrpe/manifests/install.pp is uptodate
+May 27 22:10:04 mgmt-b rsyncd[4246]: code/modules/nrpe/manifests/service.pp is uptodate
+May 27 22:10:04 mgmt-b rsyncd[4246]: code/modules/nrpe_nagios/manifests/config.pp is uptodate
+May 27 22:10:04 mgmt-b rsyncd[4246]: code/modules/nrpe_nagios/manifests/init.pp is uptodate
+May 27 22:10:04 mgmt-b rsyncd[4246]: code/modules/ntp_service/manifests/init.pp is uptodate
+May 27 22:10:04 mgmt-b rsyncd[4246]: code/modules/ntp_service/templates/ntp.conf.erb is uptodate
+May 27 22:10:04 mgmt-b rsyncd[4246]: code/modules/php/manifests/config.pp is uptodate
+May 27 22:10:04 mgmt-b rsyncd[4246]: code/modules/php/manifests/init.pp is uptodate
+May 27 22:10:04 mgmt-b rsyncd[4246]: code/modules/php/manifests/install.pp is uptodate
+May 27 22:10:04 mgmt-b rsyncd[4246]: code/modules/rsync/backupfile is uptodate
+May 27 22:10:04 mgmt-b rsyncd[4246]: code/modules/rsync/files/backupfile.txt is uptodate
+May 27 22:10:04 mgmt-b rsyncd[4246]: code/modules/rsync/files/daily.log is uptodate
+May 27 22:10:04 mgmt-b rsyncd[4246]: code/modules/rsync/files/daily.sh is uptodate
+May 27 22:10:04 mgmt-b rsyncd[4246]: code/modules/rsync/files/restore.sh is uptodate
+May 27 22:10:04 mgmt-b rsyncd[4246]: code/modules/rsync/files/rsync.log is uptodate
+May 27 22:10:04 mgmt-b rsyncd[4246]: code/modules/rsync/files/weekly.log is uptodate
+May 27 22:10:04 mgmt-b rsyncd[4246]: code/modules/rsync/files/weekly.sh is uptodate
+May 27 22:10:04 mgmt-b rsyncd[4246]: code/modules/rsync/manifests/config.pp is uptodate
+May 27 22:10:04 mgmt-b rsyncd[4246]: code/modules/rsync/manifests/init.pp is uptodate
+May 27 22:10:04 mgmt-b rsyncd[4246]: code/modules/rsync/manifests/install.pp is uptodate
+May 27 22:10:04 mgmt-b rsyncd[4246]: code/modules/rsync/manifests/service.pp is uptodate
+May 27 22:10:04 mgmt-b rsyncd[4246]: code/modules/sudo/files/etc/sudoers is uptodate
+May 27 22:10:04 mgmt-b rsyncd[4246]: code/modules/sudo/manifests/init.pp is uptodate
+May 27 22:10:04 mgmt-b rsyncd[4246]: code/modules/sudo/mariadb/files/50-server.cnf is uptodate
+May 27 22:10:04 mgmt-b rsyncd[4246]: code/modules/sudo/mariadb/manifests/config.pp is uptodate
+May 27 22:10:04 mgmt-b rsyncd[4246]: code/modules/sudo/mariadb/manifests/init.pp is uptodate
+May 27 22:10:04 mgmt-b rsyncd[4246]: code/modules/sudo/mariadb/manifests/install.pp is uptodate
+May 27 22:10:04 mgmt-b rsyncd[4246]: code/modules/sudo/mariadb/manifests/service.pp is uptodate
+May 27 22:10:04 mgmt-b rsyncd[4246]: code/modules/sudo/ntp_service/manifests/init.pp is uptodate
+May 27 22:10:04 mgmt-b rsyncd[4246]: code/modules/sudo/ntp_service/templates/ntp.conf.erb is uptodate
+May 27 22:10:04 mgmt-b rsyncd[4246]: total: matches=0  hash_hits=0  false_alarms=0 data=0
+May 27 22:10:04 mgmt-b rsyncd[4246]: sent 3.18K bytes  received 2.96K bytes  12.27K bytes/sec
+May 27 22:10:04 mgmt-b rsyncd[4246]: total size is 95.17K  speedup is 15.51
+May 27 22:10:04 mgmt-b rsyncd[4248]: rsync: failed to open log-file /home/bitstudent/rsync.log: Permission denied (13)
+May 27 22:10:04 mgmt-b rsyncd[4248]: Ignoring "log file" setting.
+May 27 22:10:05 mgmt-b rsyncd[4248]: building file list
+May 27 22:10:05 mgmt-b rsyncd[4248]: (new) backup_dir is /home/groupb/backup/mgmt/backup-27-05-2022-22-10-01
+May 27 22:10:05 mgmt-b rsyncd[4248]: delta-transmission enabled
+May 27 22:10:05 mgmt-b rsyncd[4248]: puppet.conf is uptodate
+May 27 22:10:05 mgmt-b rsyncd[4248]: total: matches=0  hash_hits=0  false_alarms=0 data=0
+May 27 22:10:05 mgmt-b rsyncd[4248]: sent 56 bytes  received 154 bytes  140.00 bytes/sec
+May 27 22:10:05 mgmt-b rsyncd[4248]: total size is 180  speedup is 0.86
