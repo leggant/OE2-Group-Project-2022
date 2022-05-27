@@ -1709,3 +1709,4 @@ sudo nano backup.sh
 exit
 cat /var/log/cron.log
 exit
+sudo systemctl mask netdata
