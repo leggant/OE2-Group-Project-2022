@@ -1675,3 +1675,35 @@ git pull
 exit
 bubup
 exit
+respup
+ls
+respup
+ls
+sudo rm log.log 
+ls -al
+cd ~/OE2-Group-Project/Scripts/backup/
+sudo nano backup.sh 
+./backup.sh 
+sudo nano backup.sh 
+./backup.sh 
+git pull
+git stash
+git pull
+sudo git pull
+sudo git stash
+cd ../../
+sudo git pull
+git stash apply
+git status
+cd Scripts/backup/
+sudo nano backup.sh 
+./backup.sh 
+sudo nano backup.sh 
+./backup.sh 
+sudo nano backup.sh 
+./backup.sh 
+cd /var/log
+cd ~/OE2-Group-Project/Scripts/backup/
+sudo nano backup.sh 
+./backup.sh 
+exit
