@@ -567,3 +567,234 @@ May 27 08:26:34 mgmt-b nagios3: SERVICE ALERT: backup-b.foo.org.nz;check users-l
 May 27 08:26:34 mgmt-b nagios3: SERVICE NOTIFICATION: slack;backup-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
 May 27 08:26:34 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;backup-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
 May 27 08:26:34 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;backup-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 27 08:55:14 mgmt-b nagios3: Auto-save of retention data completed successfully.
+May 27 08:55:44 mgmt-b nagios3: SERVICE NOTIFICATION: slack;db-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 27 08:55:44 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;db-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 27 08:55:44 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;db-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 27 08:55:54 mgmt-b nagios3: SERVICE NOTIFICATION: slack;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 27 08:55:54 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 27 08:55:54 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 27 08:56:34 mgmt-b nagios3: SERVICE NOTIFICATION: slack;backup-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 27 08:56:34 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;backup-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 27 08:56:34 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;backup-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 27 09:25:44 mgmt-b nagios3: SERVICE NOTIFICATION: slack;db-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 27 09:25:44 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;db-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 27 09:25:44 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;db-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 27 09:25:54 mgmt-b nagios3: SERVICE NOTIFICATION: slack;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 27 09:25:54 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 27 09:25:54 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 27 09:26:34 mgmt-b nagios3: SERVICE NOTIFICATION: slack;backup-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 27 09:26:34 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;backup-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 27 09:26:34 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;backup-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 27 09:55:14 mgmt-b nagios3: Auto-save of retention data completed successfully.
+May 27 09:55:44 mgmt-b nagios3: SERVICE NOTIFICATION: slack;db-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 27 09:55:44 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;db-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 27 09:55:44 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;db-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 27 09:55:54 mgmt-b nagios3: SERVICE NOTIFICATION: slack;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 27 09:55:54 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 27 09:55:54 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 27 09:56:34 mgmt-b nagios3: SERVICE NOTIFICATION: slack;backup-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 27 09:56:34 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;backup-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 27 09:56:35 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;backup-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 27 10:10:01 mgmt-b rsyncd[11355]: rsync: failed to open log-file /home/bitstudent/rsync.log: Permission denied (13)
+May 27 10:10:01 mgmt-b rsyncd[11355]: Ignoring "log file" setting.
+May 27 10:10:01 mgmt-b rsyncd[11355]: building file list
+May 27 10:10:01 mgmt-b rsyncd[11355]: (new) backup_dir is /home/groupb/backup/mgmt/backup-27-05-2022-10-10-01
+May 27 10:10:01 mgmt-b rsyncd[11355]: delta-transmission enabled
+May 27 10:10:01 mgmt-b rsyncd[11355]: node-exporter/LICENSE is uptodate
+May 27 10:10:01 mgmt-b rsyncd[11355]: node-exporter/NOTICE is uptodate
+May 27 10:10:01 mgmt-b rsyncd[11355]: node-exporter/node_exporter is uptodate
+May 27 10:10:01 mgmt-b rsyncd[11355]: total: matches=0  hash_hits=0  false_alarms=0 data=0
+May 27 10:10:01 mgmt-b rsyncd[11355]: sent 165 bytes  received 255 bytes  840.00 bytes/sec
+May 27 10:10:01 mgmt-b rsyncd[11355]: total size is 18.24M  speedup is 43,430.35
+May 27 10:10:01 mgmt-b rsyncd[11357]: rsync: failed to open log-file /home/bitstudent/rsync.log: Permission denied (13)
+May 27 10:10:01 mgmt-b rsyncd[11357]: Ignoring "log file" setting.
+May 27 10:10:02 mgmt-b rsyncd[11357]: building file list
+May 27 10:10:02 mgmt-b rsyncd[11357]: (new) backup_dir is /home/groupb/backup/mgmt/backup-27-05-2022-10-10-01
+May 27 10:10:02 mgmt-b rsyncd[11357]: delta-transmission enabled
+May 27 10:10:02 mgmt-b rsyncd[11357]: nagios/nrpe.cfg is uptodate
+May 27 10:10:02 mgmt-b rsyncd[11357]: nagios/nrpe_local.cfg is uptodate
+May 27 10:10:02 mgmt-b rsyncd[11357]: total: matches=0  hash_hits=0  false_alarms=0 data=0
+May 27 10:10:02 mgmt-b rsyncd[11357]: sent 161 bytes  received 207 bytes  245.33 bytes/sec
+May 27 10:10:02 mgmt-b rsyncd[11357]: total size is 12.96K  speedup is 35.21
+May 27 10:10:02 mgmt-b rsyncd[11359]: rsync: failed to open log-file /home/bitstudent/rsync.log: Permission denied (13)
+May 27 10:10:02 mgmt-b rsyncd[11359]: Ignoring "log file" setting.
+May 27 10:10:03 mgmt-b rsyncd[11359]: building file list
+May 27 10:10:03 mgmt-b rsyncd[11359]: (new) backup_dir is /home/groupb/backup/mgmt/backup-27-05-2022-10-10-01
+May 27 10:10:03 mgmt-b rsyncd[11359]: delta-transmission enabled
+May 27 10:10:03 mgmt-b rsyncd[11359]: nagios3/apache2.conf is uptodate
+May 27 10:10:03 mgmt-b rsyncd[11359]: nagios3/cgi.cfg is uptodate
+May 27 10:10:03 mgmt-b rsyncd[11359]: nagios3/commands.cfg is uptodate
+May 27 10:10:03 mgmt-b rsyncd[11359]: nagios3/htpasswd.users is uptodate
+May 27 10:10:03 mgmt-b rsyncd[11359]: nagios3/nagios.cfg is uptodate
+May 27 10:10:03 mgmt-b rsyncd[11359]: nagios3/nrpe.cfg is uptodate
+May 27 10:10:03 mgmt-b rsyncd[11359]: nagios3/resource.cfg is uptodate
+May 27 10:10:03 mgmt-b rsyncd[11359]: .d..t...... nagios3/
+May 27 10:10:03 mgmt-b rsyncd[11359]: nagios3/conf.d/contacts_nagios2.cfg is uptodate
+May 27 10:10:03 mgmt-b rsyncd[11359]: nagios3/conf.d/extinfo_nagios2.cfg is uptodate
+May 27 10:10:03 mgmt-b rsyncd[11359]: nagios3/conf.d/generic-host_nagios2.cfg is uptodate
+May 27 10:10:03 mgmt-b rsyncd[11359]: nagios3/conf.d/generic-service_nagios2.cfg is uptodate
+May 27 10:10:03 mgmt-b rsyncd[11359]: nagios3/conf.d/hostgroups_nagios2.cfg is uptodate
+May 27 10:10:03 mgmt-b rsyncd[11359]: nagios3/conf.d/localhost_nagios2.cfg is uptodate
+May 27 10:10:03 mgmt-b rsyncd[11359]: nagios3/conf.d/ppt_contactgroups.cfg is uptodate
+May 27 10:10:03 mgmt-b rsyncd[11359]: nagios3/conf.d/ppt_contacts.cfg is uptodate
+May 27 10:10:03 mgmt-b rsyncd[11359]: nagios3/conf.d/ppt_hostgroups.cfg is uptodate
+May 27 10:10:03 mgmt-b rsyncd[11359]: nagios3/conf.d/ppt_hosts.cfg is uptodate
+May 27 10:10:03 mgmt-b rsyncd[11359]: nagios3/conf.d/ppt_services.cfg is uptodate
+May 27 10:10:03 mgmt-b rsyncd[11359]: nagios3/conf.d/services_nagios2.cfg is uptodate
+May 27 10:10:03 mgmt-b rsyncd[11359]: nagios3/conf.d/timeperiods_nagios2.cfg is uptodate
+May 27 10:10:03 mgmt-b rsyncd[11359]: nagios3/stylesheets/avail.css is uptodate
+May 27 10:10:03 mgmt-b rsyncd[11359]: nagios3/stylesheets/checksanity.css is uptodate
+May 27 10:10:03 mgmt-b rsyncd[11359]: nagios3/stylesheets/cmd.css is uptodate
+May 27 10:10:03 mgmt-b rsyncd[11359]: nagios3/stylesheets/common.css is uptodate
+May 27 10:10:03 mgmt-b rsyncd[11359]: nagios3/stylesheets/config.css is uptodate
+May 27 10:10:03 mgmt-b rsyncd[11359]: nagios3/stylesheets/extinfo.css is uptodate
+May 27 10:10:03 mgmt-b rsyncd[11359]: nagios3/stylesheets/histogram.css is uptodate
+May 27 10:10:03 mgmt-b rsyncd[11359]: nagios3/stylesheets/history.css is uptodate
+May 27 10:10:03 mgmt-b rsyncd[11359]: nagios3/stylesheets/ministatus.css is uptodate
+May 27 10:10:03 mgmt-b rsyncd[11359]: nagios3/stylesheets/notifications.css is uptodate
+May 27 10:10:03 mgmt-b rsyncd[11359]: nagios3/stylesheets/outages.css is uptodate
+May 27 10:10:03 mgmt-b rsyncd[11359]: nagios3/stylesheets/showlog.css is uptodate
+May 27 10:10:03 mgmt-b rsyncd[11359]: nagios3/stylesheets/status.css is uptodate
+May 27 10:10:03 mgmt-b rsyncd[11359]: nagios3/stylesheets/statusmap.css is uptodate
+May 27 10:10:03 mgmt-b rsyncd[11359]: nagios3/stylesheets/summary.css is uptodate
+May 27 10:10:03 mgmt-b rsyncd[11359]: nagios3/stylesheets/tac.css is uptodate
+May 27 10:10:03 mgmt-b rsyncd[11359]: nagios3/stylesheets/trends.css is uptodate
+May 27 10:10:03 mgmt-b rsyncd[11359]: .d..t...... nagios3/conf.d/
+May 27 10:10:03 mgmt-b rsyncd[11359]: total: matches=0  hash_hits=0  false_alarms=0 data=0
+May 27 10:10:03 mgmt-b rsyncd[11359]: sent 1.24K bytes  received 1.99K bytes  2.15K bytes/sec
+May 27 10:10:03 mgmt-b rsyncd[11359]: total size is 137.65K  speedup is 42.64
+May 27 10:10:03 mgmt-b rsyncd[11361]: rsync: failed to open log-file /home/bitstudent/rsync.log: Permission denied (13)
+May 27 10:10:03 mgmt-b rsyncd[11361]: Ignoring "log file" setting.
+May 27 10:10:03 mgmt-b rsyncd[11361]: building file list
+May 27 10:10:03 mgmt-b rsyncd[11361]: (new) backup_dir is /home/groupb/backup/mgmt/backup-27-05-2022-10-10-01
+May 27 10:10:03 mgmt-b rsyncd[11361]: delta-transmission enabled
+May 27 10:10:03 mgmt-b rsyncd[11361]: nagios-plugins/config/apt.cfg is uptodate
+May 27 10:10:03 mgmt-b rsyncd[11361]: nagios-plugins/config/breeze.cfg is uptodate
+May 27 10:10:03 mgmt-b rsyncd[11361]: nagios-plugins/config/check_nrpe.cfg is uptodate
+May 27 10:10:03 mgmt-b rsyncd[11361]: nagios-plugins/config/check_puppet_agent is uptodate
+May 27 10:10:03 mgmt-b rsyncd[11361]: nagios-plugins/config/dhcp.cfg is uptodate
+May 27 10:10:03 mgmt-b rsyncd[11361]: nagios-plugins/config/disk-smb.cfg is uptodate
+May 27 10:10:03 mgmt-b rsyncd[11361]: nagios-plugins/config/disk.cfg is uptodate
+May 27 10:10:03 mgmt-b rsyncd[11361]: nagios-plugins/config/dns.cfg is uptodate
+May 27 10:10:03 mgmt-b rsyncd[11361]: nagios-plugins/config/dummy.cfg is uptodate
+May 27 10:10:03 mgmt-b rsyncd[11361]: nagios-plugins/config/flexlm.cfg is uptodate
+May 27 10:10:03 mgmt-b rsyncd[11361]: nagios-plugins/config/fping.cfg is uptodate
+May 27 10:10:03 mgmt-b rsyncd[11361]: nagios-plugins/config/ftp.cfg is uptodate
+May 27 10:10:03 mgmt-b rsyncd[11361]: nagios-plugins/config/games.cfg is uptodate
+May 27 10:10:03 mgmt-b rsyncd[11361]: nagios-plugins/config/hppjd.cfg is uptodate
+May 27 10:10:03 mgmt-b rsyncd[11361]: nagios-plugins/config/http.cfg is uptodate
+May 27 10:10:03 mgmt-b rsyncd[11361]: nagios-plugins/config/ifstatus.cfg is uptodate
+May 27 10:10:03 mgmt-b rsyncd[11361]: nagios-plugins/config/ldap.cfg is uptodate
+May 27 10:10:03 mgmt-b rsyncd[11361]: nagios-plugins/config/load.cfg is uptodate
+May 27 10:10:03 mgmt-b rsyncd[11361]: nagios-plugins/config/mail.cfg is uptodate
+May 27 10:10:03 mgmt-b rsyncd[11361]: nagios-plugins/config/mailq.cfg is uptodate
+May 27 10:10:03 mgmt-b rsyncd[11361]: nagios-plugins/config/mrtg.cfg is uptodate
+May 27 10:10:03 mgmt-b rsyncd[11361]: nagios-plugins/config/mysql.cfg is uptodate
+May 27 10:10:03 mgmt-b rsyncd[11361]: nagios-plugins/config/netware.cfg is uptodate
+May 27 10:10:03 mgmt-b rsyncd[11361]: nagios-plugins/config/news.cfg is uptodate
+May 27 10:10:03 mgmt-b rsyncd[11361]: nagios-plugins/config/nt.cfg is uptodate
+May 27 10:10:03 mgmt-b rsyncd[11361]: nagios-plugins/config/ntp.cfg is uptodate
+May 27 10:10:03 mgmt-b rsyncd[11361]: nagios-plugins/config/pgsql.cfg is uptodate
+May 27 10:10:03 mgmt-b rsyncd[11361]: nagios-plugins/config/ping.cfg is uptodate
+May 27 10:10:03 mgmt-b rsyncd[11361]: nagios-plugins/config/procs.cfg is uptodate
+May 27 10:10:03 mgmt-b rsyncd[11361]: nagios-plugins/config/real.cfg is uptodate
+May 27 10:10:03 mgmt-b rsyncd[11361]: nagios-plugins/config/rpc-nfs.cfg is uptodate
+May 27 10:10:03 mgmt-b rsyncd[11361]: nagios-plugins/config/slack.cfg is uptodate
+May 27 10:10:03 mgmt-b rsyncd[11361]: nagios-plugins/config/snmp.cfg is uptodate
+May 27 10:10:03 mgmt-b rsyncd[11361]: nagios-plugins/config/ssh.cfg is uptodate
+May 27 10:10:03 mgmt-b rsyncd[11361]: nagios-plugins/config/tcp_udp.cfg is uptodate
+May 27 10:10:03 mgmt-b rsyncd[11361]: nagios-plugins/config/telnet.cfg is uptodate
+May 27 10:10:03 mgmt-b rsyncd[11361]: nagios-plugins/config/users.cfg is uptodate
+May 27 10:10:03 mgmt-b rsyncd[11361]: .d..t...... nagios-plugins/config/
+May 27 10:10:03 mgmt-b rsyncd[11361]: total: matches=0  hash_hits=0  false_alarms=0 data=0
+May 27 10:10:03 mgmt-b rsyncd[11361]: sent 887 bytes  received 2.02K bytes  5.82K bytes/sec
+May 27 10:10:03 mgmt-b rsyncd[11361]: total size is 47.30K  speedup is 16.26
+May 27 10:10:03 mgmt-b rsyncd[11363]: rsync: failed to open log-file /home/bitstudent/rsync.log: Permission denied (13)
+May 27 10:10:03 mgmt-b rsyncd[11363]: Ignoring "log file" setting.
+May 27 10:10:04 mgmt-b rsyncd[11363]: building file list
+May 27 10:10:04 mgmt-b rsyncd[11363]: (new) backup_dir is /home/groupb/backup/mgmt/backup-27-05-2022-10-10-01
+May 27 10:10:04 mgmt-b rsyncd[11363]: delta-transmission enabled
+May 27 10:10:04 mgmt-b rsyncd[11363]: code/environments/production/manifests/site.pp is uptodate
+May 27 10:10:04 mgmt-b rsyncd[11363]: code/modules/mariadb/files/50-server.cnf is uptodate
+May 27 10:10:04 mgmt-b rsyncd[11363]: code/modules/mariadb/manifests/config.pp is uptodate
+May 27 10:10:04 mgmt-b rsyncd[11363]: code/modules/mariadb/manifests/init.pp is uptodate
+May 27 10:10:04 mgmt-b rsyncd[11363]: code/modules/mariadb/manifests/install.pp is uptodate
+May 27 10:10:04 mgmt-b rsyncd[11363]: code/modules/mariadb/manifests/service.pp is uptodate
+May 27 10:10:04 mgmt-b rsyncd[11363]: code/modules/nagios/files/htpasswd.users is uptodate
+May 27 10:10:04 mgmt-b rsyncd[11363]: code/modules/nagios/files/nagios.cfg is uptodate
+May 27 10:10:04 mgmt-b rsyncd[11363]: code/modules/nagios/manifests/config.pp is uptodate
+May 27 10:10:04 mgmt-b rsyncd[11363]: code/modules/nagios/manifests/init.pp is uptodate
+May 27 10:10:04 mgmt-b rsyncd[11363]: code/modules/nagios/manifests/install.pp is uptodate
+May 27 10:10:04 mgmt-b rsyncd[11363]: code/modules/nagios/manifests/service.pp is uptodate
+May 27 10:10:04 mgmt-b rsyncd[11363]: code/modules/nrpe/files/nrpe.cfg is uptodate
+May 27 10:10:04 mgmt-b rsyncd[11363]: code/modules/nrpe/manifests/config.pp is uptodate
+May 27 10:10:04 mgmt-b rsyncd[11363]: code/modules/nrpe/manifests/init.pp is uptodate
+May 27 10:10:04 mgmt-b rsyncd[11363]: code/modules/nrpe/manifests/install.pp is uptodate
+May 27 10:10:04 mgmt-b rsyncd[11363]: code/modules/nrpe/manifests/service.pp is uptodate
+May 27 10:10:04 mgmt-b rsyncd[11363]: code/modules/nrpe_nagios/manifests/config.pp is uptodate
+May 27 10:10:04 mgmt-b rsyncd[11363]: code/modules/nrpe_nagios/manifests/init.pp is uptodate
+May 27 10:10:04 mgmt-b rsyncd[11363]: code/modules/ntp_service/manifests/init.pp is uptodate
+May 27 10:10:04 mgmt-b rsyncd[11363]: code/modules/ntp_service/templates/ntp.conf.erb is uptodate
+May 27 10:10:04 mgmt-b rsyncd[11363]: code/modules/php/manifests/config.pp is uptodate
+May 27 10:10:04 mgmt-b rsyncd[11363]: code/modules/php/manifests/init.pp is uptodate
+May 27 10:10:04 mgmt-b rsyncd[11363]: code/modules/php/manifests/install.pp is uptodate
+May 27 10:10:04 mgmt-b rsyncd[11363]: code/modules/rsync/backupfile is uptodate
+May 27 10:10:04 mgmt-b rsyncd[11363]: code/modules/rsync/files/backupfile.txt is uptodate
+May 27 10:10:04 mgmt-b rsyncd[11363]: code/modules/rsync/files/daily.log is uptodate
+May 27 10:10:04 mgmt-b rsyncd[11363]: code/modules/rsync/files/daily.sh is uptodate
+May 27 10:10:04 mgmt-b rsyncd[11363]: code/modules/rsync/files/rsync.log is uptodate
+May 27 10:10:04 mgmt-b rsyncd[11363]: code/modules/rsync/files/weekly.log is uptodate
+May 27 10:10:04 mgmt-b rsyncd[11363]: code/modules/rsync/files/weekly.sh is uptodate
+May 27 10:10:04 mgmt-b rsyncd[11363]: code/modules/rsync/manifests/config.pp is uptodate
+May 27 10:10:04 mgmt-b rsyncd[11363]: code/modules/rsync/manifests/init.pp is uptodate
+May 27 10:10:04 mgmt-b rsyncd[11363]: code/modules/rsync/manifests/install.pp is uptodate
+May 27 10:10:04 mgmt-b rsyncd[11363]: code/modules/rsync/manifests/service.pp is uptodate
+May 27 10:10:04 mgmt-b rsyncd[11363]: code/modules/sudo/files/etc/sudoers is uptodate
+May 27 10:10:04 mgmt-b rsyncd[11363]: code/modules/sudo/manifests/init.pp is uptodate
+May 27 10:10:04 mgmt-b rsyncd[11363]: code/modules/sudo/mariadb/files/50-server.cnf is uptodate
+May 27 10:10:04 mgmt-b rsyncd[11363]: code/modules/sudo/mariadb/manifests/config.pp is uptodate
+May 27 10:10:04 mgmt-b rsyncd[11363]: code/modules/sudo/mariadb/manifests/init.pp is uptodate
+May 27 10:10:04 mgmt-b rsyncd[11363]: code/modules/sudo/mariadb/manifests/install.pp is uptodate
+May 27 10:10:04 mgmt-b rsyncd[11363]: code/modules/sudo/mariadb/manifests/service.pp is uptodate
+May 27 10:10:04 mgmt-b rsyncd[11363]: code/modules/sudo/ntp_service/manifests/init.pp is uptodate
+May 27 10:10:04 mgmt-b rsyncd[11363]: code/modules/sudo/ntp_service/templates/ntp.conf.erb is uptodate
+May 27 10:10:04 mgmt-b rsyncd[11363]: .d..t...... code/modules/rsync/files/
+May 27 10:10:04 mgmt-b rsyncd[11363]: <f.st...... code/modules/rsync/files/restore.sh
+May 27 10:10:04 mgmt-b rsyncd[11363]: backed up code/modules/rsync/files/restore.sh to /home/groupb/backup/mgmt/backup-27-05-2022-10-10-01/code/modules/rsync/files/restore.sh
+May 27 10:10:04 mgmt-b rsyncd[11363]: total: matches=4  hash_hits=5  false_alarms=0 data=724
+May 27 10:10:04 mgmt-b rsyncd[11363]: sent 3.96K bytes  received 3.10K bytes  4.71K bytes/sec
+May 27 10:10:04 mgmt-b rsyncd[11363]: total size is 95.17K  speedup is 13.48
+May 27 10:10:04 mgmt-b rsyncd[11365]: rsync: failed to open log-file /home/bitstudent/rsync.log: Permission denied (13)
+May 27 10:10:04 mgmt-b rsyncd[11365]: Ignoring "log file" setting.
+May 27 10:10:04 mgmt-b rsyncd[11365]: building file list
+May 27 10:10:04 mgmt-b rsyncd[11365]: backup_dir is /home/groupb/backup/mgmt/backup-27-05-2022-10-10-01
+May 27 10:10:04 mgmt-b rsyncd[11365]: delta-transmission enabled
+May 27 10:10:04 mgmt-b rsyncd[11365]: puppet.conf is uptodate
+May 27 10:10:04 mgmt-b rsyncd[11365]: total: matches=0  hash_hits=0  false_alarms=0 data=0
+May 27 10:10:04 mgmt-b rsyncd[11365]: sent 56 bytes  received 148 bytes  408.00 bytes/sec
+May 27 10:10:04 mgmt-b rsyncd[11365]: total size is 180  speedup is 0.88
+May 27 10:25:44 mgmt-b nagios3: SERVICE NOTIFICATION: slack;db-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 27 10:25:44 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;db-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 27 10:25:44 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;db-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 27 10:25:54 mgmt-b nagios3: SERVICE NOTIFICATION: slack;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 27 10:25:54 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 27 10:25:54 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 27 10:26:34 mgmt-b nagios3: SERVICE NOTIFICATION: slack;backup-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 27 10:26:34 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;backup-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 27 10:26:34 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;backup-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 27 10:55:14 mgmt-b nagios3: Auto-save of retention data completed successfully.
+May 27 10:55:44 mgmt-b nagios3: SERVICE NOTIFICATION: slack;db-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 27 10:55:44 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;db-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 27 10:55:44 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;db-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 27 10:55:54 mgmt-b nagios3: SERVICE NOTIFICATION: slack;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 27 10:55:54 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 27 10:55:54 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 27 10:56:34 mgmt-b nagios3: SERVICE NOTIFICATION: slack;backup-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 27 10:56:34 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;backup-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 27 10:56:34 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;backup-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 27 11:25:44 mgmt-b nagios3: SERVICE ALERT: db-b.foo.org.nz;check users-login;OK;HARD;3;USERS OK - 0 users currently logged in
+May 27 11:25:54 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;check users-login;OK;HARD;3;USERS OK - 0 users currently logged in
+May 27 11:26:34 mgmt-b nagios3: SERVICE NOTIFICATION: slack;backup-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 27 11:26:34 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;backup-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 27 11:26:34 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;backup-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
