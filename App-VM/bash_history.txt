@@ -1,25 +1,3 @@
-132605 04:17:27.598544653 0 sysdig (25722) < stat res=0 path=/etc/localtime 
-132606 04:17:27.598549753 0 sysdig (25722) > write fd=1 size=123 
-132607 04:17:27.598552053 0 sysdig (25722) > switch next=25194 pgft_maj=0 pgft_min=1465 vm_size=136228 vm_rss=16096 vm_swap=0 
-132608 04:17:27.598553553 0 <NA> (25194) > switch next=25722(sysdig) pgft_maj=0 pgft_min=0 vm_size=0 vm_rss=0 vm_swap=0 
-132609 04:17:27.598554953 0 sysdig (25722) > switch next=25194 pgft_maj=0 pgft_min=1465 vm_size=136228 vm_rss=16096 vm_swap=0 
-132610 04:17:27.598555953 0 <NA> (25194) > switch next=25722(sysdig) pgft_maj=0 pgft_min=0 vm_size=0 vm_rss=0 vm_swap=0 
-132611 04:17:27.598557953 0 sysdig (25722) > stat 
-132612 04:17:27.598559453 0 sysdig (25722) < stat res=0 path=/etc/localtime 
-132613 04:17:27.598563953 0 sysdig (25722) > write fd=1 size=121 
-132614 04:17:27.598565653 0 sysdig (25722) > switch next=25194 pgft_maj=0 pgft_min=1465 vm_size=136228 vm_rss=16096 vm_swap=0 
-132615 04:17:27.598566953 0 <NA> (25194) > switch next=17906(sshd) pgft_maj=0 pgft_min=0 vm_size=0 vm_rss=0 vm_swap=0 
-132616 04:17:27.598569053 0 sshd (17906) < select res=1 
-132617 04:17:27.598569953 0 sshd (17906) > clock_gettime 
-132618 04:17:27.598570353 0 sshd (17906) < clock_gettime 
-132619 04:17:27.598571153 0 sshd (17906) > rt_sigprocmask 
-132620 04:17:27.598571553 0 sshd (17906) < rt_sigprocmask 
-132621 04:17:27.598572153 0 sshd (17906) > rt_sigprocmask 
-132622 04:17:27.598572453 0 sshd (17906) < rt_sigprocmask 
-132623 04:17:27.598573153 0 sshd (17906) > clock_gettime 
-132624 04:17:27.598573553 0 sshd (17906) < clock_gettime 
-132625 04:17:27.598574253 0 sshd (17906) > read fd=11(<f>/dev/ptmx) size=16384 
-132626 04:17:27.598577353 0 sshd (17906) > getpid 
 132627 04:17:27.598577553 0 sshd (17906) < getpid 
 132628 04:17:27.598580253 0 sshd (17906) > clock_gettime 
 132629 04:17:27.598580553 0 sshd (17906) < clock_gettime 
@@ -1998,3 +1976,25 @@ sudo -u www-data php /var/www/owncloud/occ group:add-member
 sudo -u www-data php /var/www/owncloud/occ group:add-member -m admin-group-b -- admin
 sudo -u www-data php /var/www/owncloud/occ group:add-member -m admin -- admin
 sudo reboot
+cd ~/OE2-Group-Project/
+git pull
+buapp
+exit
+ls -la
+sudo systemctl status rsync.service
+ls
+sudo rm 'udo systemctl stop netdata:q' 
+ls
+mod
+ls
+ssh bitstudent@20.211.185.153
+ssh bitstudent@db-b.foo.org.nz
+respup
+crontab -e
+ls
+cd /etc/backup/
+ls
+./weekly.sh 
+./daily.sh 
+./restore.sh 
+exit

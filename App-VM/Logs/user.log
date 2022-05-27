@@ -1,7 +1,4 @@
-May 26 08:50:19 app-b KVP: KVP starting; pid is:539
-May 26 08:50:19 app-b KVP: KVP LIC Version: 3.1
-May 26 08:50:19 app-b kernel: [    8.565616] Started bpfilter
-May 26 08:50:26 app-b : Does not have a configuration file inside `/opt/netdata/etc/netdata/ebpf.d.conf. It will try to load stock file.
-May 26 08:50:26 app-b : Name resolution is disabled, collector will not parser "hostnames" list.
-May 26 08:50:26 app-b : The network value of CIDR 127.0.0.1/8 was updated for 127.0.0.0 .
-May 26 08:50:27 app-b : Cannot read process groups configuration file '/opt/netdata/etc/netdata/apps_groups.conf'. Will try '/opt/netdata/usr/lib/netdata/conf.d/apps_groups.conf'
+May 26 12:10:02 app-b rsyncd[7299]: rsync: failed to open log-file /home/root/log.log: No such file or directory (2)
+May 26 12:10:02 app-b rsyncd[7299]: Ignoring "log file" setting.
+May 26 12:10:02 app-b rsyncd[7299]: rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+May 26 12:10:02 app-b rsyncd[7299]: rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
