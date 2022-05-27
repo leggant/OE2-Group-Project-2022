@@ -537,3 +537,33 @@ May 27 06:10:05 mgmt-b rsyncd[1434]: total: matches=0  hash_hits=0  false_alarms
 May 27 06:10:05 mgmt-b rsyncd[1434]: sent 56 bytes  received 154 bytes  420.00 bytes/sec
 May 27 06:10:05 mgmt-b rsyncd[1434]: total size is 180  speedup is 0.86
 May 27 06:55:14 mgmt-b nagios3: Auto-save of retention data completed successfully.
+May 27 07:55:14 mgmt-b nagios3: Auto-save of retention data completed successfully.
+May 27 08:03:34 mgmt-b nagios3: SERVICE ALERT: backup-b.foo.org.nz;check users-login;WARNING;SOFT;1;USERS WARNING - 1 users currently logged in
+May 27 08:04:34 mgmt-b nagios3: SERVICE ALERT: backup-b.foo.org.nz;check users-login;OK;SOFT;2;USERS OK - 0 users currently logged in
+May 27 08:08:44 mgmt-b nagios3: SERVICE ALERT: db-b.foo.org.nz;check users-login;WARNING;SOFT;1;USERS WARNING - 1 users currently logged in
+May 27 08:09:44 mgmt-b nagios3: SERVICE ALERT: db-b.foo.org.nz;check users-login;WARNING;SOFT;2;USERS WARNING - 1 users currently logged in
+May 27 08:10:44 mgmt-b nagios3: SERVICE ALERT: db-b.foo.org.nz;check users-login;WARNING;HARD;3;USERS WARNING - 1 users currently logged in
+May 27 08:10:44 mgmt-b nagios3: SERVICE NOTIFICATION: slack;db-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 27 08:10:44 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;db-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 27 08:10:44 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;db-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 27 08:12:54 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;check users-login;WARNING;SOFT;1;USERS WARNING - 2 users currently logged in
+May 27 08:13:54 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;check users-login;OK;SOFT;2;USERS OK - 0 users currently logged in
+May 27 08:20:44 mgmt-b nagios3: HOST ALERT: db-b.foo.org.nz;DOWN;SOFT;1;PING CRITICAL - Packet loss = 100%
+May 27 08:20:54 mgmt-b nagios3: SERVICE ALERT: db-b.foo.org.nz;check users-login;CRITICAL;HARD;3;CHECK_NRPE STATE CRITICAL: Socket timeout after 10 seconds.
+May 27 08:21:54 mgmt-b nagios3: HOST ALERT: db-b.foo.org.nz;UP;SOFT;2;PING OK - Packet loss = 0%, RTA = 2.72 ms
+May 27 08:23:54 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;check users-login;WARNING;SOFT;1;USERS WARNING - 1 users currently logged in
+May 27 08:24:34 mgmt-b nagios3: SERVICE ALERT: backup-b.foo.org.nz;check users-login;WARNING;SOFT;1;USERS WARNING - 1 users currently logged in
+May 27 08:24:54 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;check users-login;WARNING;SOFT;2;USERS WARNING - 1 users currently logged in
+May 27 08:25:34 mgmt-b nagios3: SERVICE ALERT: backup-b.foo.org.nz;check users-login;WARNING;SOFT;2;USERS WARNING - 1 users currently logged in
+May 27 08:25:44 mgmt-b nagios3: SERVICE ALERT: db-b.foo.org.nz;check users-login;WARNING;HARD;3;USERS WARNING - 1 users currently logged in
+May 27 08:25:44 mgmt-b nagios3: SERVICE NOTIFICATION: slack;db-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 27 08:25:44 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;db-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 27 08:25:45 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;db-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 27 08:25:54 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;check users-login;WARNING;HARD;3;USERS WARNING - 1 users currently logged in
+May 27 08:25:54 mgmt-b nagios3: SERVICE NOTIFICATION: slack;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 27 08:25:54 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 27 08:25:54 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 27 08:26:34 mgmt-b nagios3: SERVICE ALERT: backup-b.foo.org.nz;check users-login;WARNING;HARD;3;USERS WARNING - 1 users currently logged in
+May 27 08:26:34 mgmt-b nagios3: SERVICE NOTIFICATION: slack;backup-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 27 08:26:34 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;backup-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 27 08:26:34 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;backup-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in

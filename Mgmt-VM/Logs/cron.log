@@ -75,3 +75,7 @@ May 27 07:09:01 mgmt-b CRON[4097]: (root) CMD (  [ -x /usr/lib/php/sessionclean 
 May 27 07:14:01 mgmt-b CRON[4339]: (root) CMD (   test -x /etc/cron.daily/popularity-contest && /etc/cron.daily/popularity-contest --crond)
 May 27 07:17:01 mgmt-b CRON[4424]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
 May 27 07:30:01 mgmt-b CRON[4865]: (bitstudent) CMD (sudo bash ~/OE2-Group-Project/Scripts/mgmt/backup.sh)
+May 27 07:39:01 mgmt-b CRON[5249]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+May 27 08:09:01 mgmt-b CRON[6501]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+May 27 08:17:01 mgmt-b CRON[6859]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+May 27 08:30:01 mgmt-b CRON[7467]: (bitstudent) CMD (sudo bash ~/OE2-Group-Project/Scripts/mgmt/backup.sh)
