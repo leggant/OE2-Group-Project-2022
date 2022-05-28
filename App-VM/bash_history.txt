@@ -1,16 +1,3 @@
-132643 04:17:27.598592153 0 sshd (17906) > select 
-132644 04:17:27.598594653 0 sshd (17906) > switch next=25722(sysdig) pgft_maj=0 pgft_min=213 vm_size=108120 vm_rss=5460 vm_swap=0 
-132645 04:17:27.598597253 0 sysdig (25722) > switch next=25194 pgft_maj=0 pgft_min=1465 vm_size=136228 vm_rss=16096 vm_swap=0 
-132646 04:17:27.598599153 0 <NA> (25194) > switch next=25722(sysdig) pgft_maj=0 pgft_min=0 vm_size=0 vm_rss=0 vm_swap=0 
-132647 04:17:27.598602253 0 sysdig (25722) > stat 
-132648 04:17:27.598604553 0 sysdig (25722) < stat res=0 path=/etc/localtime 
-132649 04:17:27.598609653 0 sysdig (25722) > write fd=1 size=122 
-132650 04:17:27.598611853 0 sysdig (25722) > switch next=25194 pgft_maj=0 pgft_min=1465 vm_size=136228 vm_rss=16096 vm_swap=0 
-132651 04:17:27.598613253 0 <NA> (25194) > switch next=25722(sysdig) pgft_maj=0 pgft_min=0 vm_size=0 vm_rss=0 vm_swap=0 
-132652 04:17:27.598614753 0 sysdig (25722) > switch next=25194 pgft_maj=0 pgft_min=1465 vm_size=136228 vm_rss=16096 vm_swap=0 
-132653 04:17:27.598615653 0 <NA> (25194) > switch next=25722(sysdig) pgft_maj=0 pgft_min=0 vm_size=0 vm_rss=0 vm_swap=0 
-132654 04:17:27.598617753 0 sysdig (25722) > stat 
-132655 04:17:27.598619253 0 sysdig (25722) < stat res=0 path=/etc/localtime 
 132656 04:17:27.598623253 0 sysdig (25722) > write fd=1 size=106 
 132657 04:17:27.598625053 0 sysdig (25722) > switch next=25194 pgft_maj=0 pgft_min=1465 vm_size=136228 vm_rss=16096 vm_swap=0 
 132658 04:17:27.598626353 0 <NA> (25194) > switch next=17906(sshd) pgft_maj=0 pgft_min=0 vm_size=0 vm_rss=0 vm_swap=0 
@@ -1998,3 +1985,16 @@ sudo nano backup.sh
 ./backup.sh 
 exit
 sudo reboot
+respup
+ls -al
+cd /etc/backup/
+ls
+crontab -e
+ls
+./restore.sh 
+./daily.sh 
+./weekly.sh 
+cd ~/OE2-Group-Project/App-VM/
+sudo nano crontab.txt 
+crontab -e
+exit
