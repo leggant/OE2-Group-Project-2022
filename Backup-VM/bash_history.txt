@@ -1,2000 +1,1731 @@
-sudo systemctl status mysql
-sudo systemctl start mysql
-sudo systemctl status mysql
-sudo mysql --user=root -p
-respup
-statpup
-respup
-statpup
-respup
-statpup
-respup
-statpup
-sudo systemctl restart mysql
-statpup
-respup
-statpup
-respup
-statpup
-respup
-stat mysql
-sudo systemctl start mysql
-stat mysql
-respup
-statpup
-stat mysql
-respup
-statpup
-stat mysql-client
-respup
-statpup
-sudo systemctl start mysql
-statpup
-sudo systemctl restart mysql
-statpup
-sudo systemctl status mysql
-statpup
-respup
-statpup
-res mysql
-stat mysql
-statpup
-respup
-statpup
-respup
-statpup
-respup
-statpup
-respup
-statpup
-respup
-res mysql
-statpup
-sudo systemctl start mysql
-stat mysql
-statpup
-respup
-statpup
-respup
-statpup
-respup
-statpup
-respup
-statpup
-res mysql
-statpup
-respup
-statpup
-res mysql
-stat mysql
-sudo mysql -u root -p
-res mysql
-resmas
-respup
-statpup
-stat mysql
-sudo mysql -u root -p
-respup
-statpup
-stat mysql
-sudo mysql -u root -p
-respup
-statpup
-sudo mysql -u root -p
-respup
-statpup
-sudo mysql -u root -p
-respup
-statpup
-sudo mysql -u root -p
-respup
-sudo mysql -u root -p
-statpup
-stat mysql
-sudo mysql -u root -p
-statpup
-respup
-sudo mysql -u root -p
-respup
-sudo mysq
-sudo mysql -u root -p
-respup
-statpup
-sudo mysql -u root -p
-respup
-statpup
-sudo mysql -u root -p
-respup
-statpup
-sudo mysql -u root -p
-respup
-statpup
-sudo mysql -u root -p
-statpup
-stat mysql
-res mysql
-sudo mysql -u root -p
-res mysql
-sudo mysql -u root -p
-respup
-statpup
-res mysql
-sudo mysql -u root -p
-res mysql
-respup
-statpup
-sudo mysql -u root -p
-respup
-res mysql
-sudo mysql -u root -p
-statpup
-stat mysql
-statpup
-sudo mysql -u root -p
-respup
-statpup
-sudo mysql -u root -p
-statpup
-sudo mysql -u root -p
-statpup
-stat mysql
-res mysql
-stat mysql
-sudo mysql -u root -p
-respup
-statpup
-respup
-statpup
-res mysql
-statpup
-respup
-statpup
-stat mysql
-sudo mysql -u root -p
-respup
-res mysql
-sudo mysql -u root -p
-respup
-res mysql
-sudo mysql -u root -p
-res mysql
-sudo mysql -u root -p
-res mysql
-stat mysql
-respup
-statpup
-respup
-statpup
-respup
-statpup
-stat mysql
-sudo mysql -u root -p
-exit
-cd ~/OE2-Group-Project && sudo git pull
-cd Scripts/mgmt/
+sudo vi ~/.bashrc
+source ~/.bashrc
+bubup
 ls
-ls -al
-/bin/bash recovery.sh 
-sudo nano recovery.sh 
-/bin/bash recovery.sh 
-sudo nano recovery.sh 
-/bin/bash recovery.sh 
-sudo nano recovery.sh 
-/bin/bash recovery.sh 
-sudo nano recovery.sh 
-/bin/bash recovery.sh 
-sudo nano recovery.sh 
-sudo /bin/bash recovery.sh 
-sudo mysql -u root -p P@ssw0rd
-sudo mysql -u root -p
-sudo nano recovery.sh 
-sudo /bin/bash recovery.sh 
-sudo mysql -u root -p
-sudo nano recovery.sh 
-sudo /bin/bash recovery.sh 
-sudo mysql -u root -p
-sudo nano recovery.sh 
-sudo /bin/bash recovery.sh 
-sudo nano recovery.sh 
-sudo mv recovery.sh ../db/recovery.sh
+cd Backup-VM/
 ls
 cd ..
-cd db
+cd ~
+cd OE2-Group-Project/
 ls
-sudo cp recovery.sh ../app/
-cd ../app/
+cd Backup-VM/
 ls
-sudo nano recovery.sh 
-sudo mv recovery.sh owncloud_recovery.sh
+cd ..
 ls
-sudo nano owncloud_recovery.sh 
+bubup
+cd ~
 ls
 ls -al
-sudo nano owncloud_recovery.sh 
-/bin/bash owncloud_recovery.sh 
-sudo nano owncloud_recovery.sh 
-/bin/bash owncloud_recovery.sh 
-sudo nano owncloud_recovery.sh 
-/bin/bash owncloud_recovery.sh 
-sudo nano owncloud_recovery.sh 
-sudo update-alternatives /
-sudo update-alternatives /h
-sudo update-alternatives --help
-inst php
-php -v
-cd ../../
-git status
-git add .
-sudo git add .
-sudo git commit -m "db: add owncloud recovery script" -m "db-b"
-git push
-cd ~/OE2-Group-Project && sudo git pull
-/bin/bash OE2-Group-Project/Scripts/db/backup.sh
+sudo vi ~/.bashrc
+cd OE2-Group-Project/
+cd Backup-VM/
+ls
+ls -al
+cat bashrc.txt 
+cd ../..
+ls
 cd OE2-Group-Project/
 git status
-ls -al
-git status
-git pull
-sudo git pull
-git status
 cd ..
-ls 
-sudo rm -r OE2-Group-Project/
+bubup
+sudo vi ~/.bashrc
+source ~/.bashrc
+bubup
 ls
-gh repo clone leggant/OE2-Group-Project
-export ghtoken=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
-cd OE2-Group-Project/Scripts/mgmt/
-ls 
-sudo nano github.sh 
+cd Backup-VM/
+ls
+cd ..
 cd ~
-/bin/bash OE2-Group-Project/Scripts/mgmt/github.sh
-cd OE2-Group-Project/Scripts/mgmt/
+cd OE2-Group-Project/
+ls
+cd Backup-VM/
+ls
+cd ..
+ls
+bubup
+cd ~
+ls
 ls -al
-sudo dpkg --configure -a
-cd OE2-Group-Project/Scripts/mgmt/
-cd ..
+sudo vi ~/.bashrc
+cd OE2-Group-Project/
+cd Backup-VM/
 ls
-cd ..
+ls -al
+cat bashrc.txt 
+cd ../..
 ls
-stat mysql
-statpup
-ls
+cd OE2-Group-Project/
 git status
 cd ..
-/bin/bash OE2-Group-Project/Scripts/mgmt/github.sh
+bubup
 exit
+bubup
+cd Backup-VM/
+ls -al
+cp /etc/puppet/ ~/OE2-Group-Project/Backup-VM/ -r
+sudo cp /etc/puppet/ ~/OE2-Group-Project/Backup-VM/ -r
+git status
+ls -al
+rm -r puppet/
+sudo rm -r puppet/
+sudo rm bash_history.txt 
+sudo rm bashrc.txt 
+sudo rm hosts 
 ls
-cd /etc
+cd ~
+bubup
+cd Backup-VM/
 ls
-cd etc
-cd /etc
+ls -al
+git status
+cd ..
+git add .
+git status
+cd Backup-VM/
+ls -al
+mv bash_history.txt bashhistory.txt
+ls -al
+git status
+cd ..
+ls -al
+cd Backup-VM/
+git status
+cd ~
+sudo rm -r OE2-Group-Project/
+git clone https://github.com/leggant/OE2-Group-Project.git
+cd OE2-Group-Project/
+ls -al
+cd ~
+bubup
+cd Backup-VM/
+ls -al
+cd ..
 ls
-cd node_exporter/
-./node_exporter -h
-./node_exporter -h --version
-./node_exporter -h  --collector.ntp.server-is-local
-./node_exporter -h --collector.ntp.server-is-local
-./node_exporter --collector.ntp.server-is-local
-./node_exporter -h
-./node_exporter --collector.systemd.enable-restarts-metrics
-./node_exporter -h
-./node_exporter --web.listen-address=":9100"
-./node_exporter --web.listen-address=":9110"
-./node_exporter -h
-top
-reboot
+sudo mv Backup-VM/ backup/
+git status
+cd backup/
+ls
+cd ..
+git add .
+git commit -m "backup: fix repo issue" -m "repo on backup vm not updating. renamed file to force a commit" -m "backup-b vm"
+git push
+sudo mv backup/ Backup-VM/
+ls -al
+git status
+cd Backup-VM/
+ls
+cd ..
+git add .
+git status
+git commit -m "backup: revert previous directory name change" -m "backup-b vm"
+git push
+cd Backup-VM/
+ls -al
+cd ..
+git pull
+ls -al
+bubup
+ls -al
+sudo mv Backup-VM/ BackupVM/
+git status
+sudo mv BackupVM/ Backup-VM/
+git status
+git add Backup-VM/
+git status
+cat .gitignore 
+sudo rm .gitignore 
+git status
+touch .gitignore
+git status
+git add .
+git commit -m "backup: .gitignore prevented backup vm changes" -m "from beign tracked. removed content from .gitignore and run new update via backup alias" -m "backup-b vm"
+git push
+cd ~
+bubup
+bubup
+cd Backup-VM/
+ls -al
+cp /etc/puppet/ ~/OE2-Group-Project/Backup-VM/ -r
+sudo cp /etc/puppet/ ~/OE2-Group-Project/Backup-VM/ -r
+git status
+ls -al
+rm -r puppet/
+sudo rm -r puppet/
+sudo rm bash_history.txt 
+sudo rm bashrc.txt 
+sudo rm hosts 
+ls
+cd ~
+bubup
+cd Backup-VM/
+ls
+ls -al
+git status
+cd ..
+git add .
+git status
+cd Backup-VM/
+ls -al
+mv bash_history.txt bashhistory.txt
+ls -al
+git status
+cd ..
+ls -al
+cd Backup-VM/
+git status
+cd ~
+sudo rm -r OE2-Group-Project/
+git clone https://github.com/leggant/OE2-Group-Project.git
+cd OE2-Group-Project/
+ls -al
+cd ~
+bubup
+cd Backup-VM/
+ls -al
+cd ..
+ls
+sudo mv Backup-VM/ backup/
+git status
+cd backup/
+ls
+cd ..
+git add .
+git commit -m "backup: fix repo issue" -m "repo on backup vm not updating. renamed file to force a commit" -m "backup-b vm"
+git push
+sudo mv backup/ Backup-VM/
+ls -al
+git status
+cd Backup-VM/
+ls
+cd ..
+git add .
+git status
+git commit -m "backup: revert previous directory name change" -m "backup-b vm"
+git push
+cd Backup-VM/
+ls -al
+cd ..
+git pull
+ls -al
+bubup
+ls -al
+sudo mv Backup-VM/ BackupVM/
+git status
+sudo mv BackupVM/ Backup-VM/
+git status
+git add Backup-VM/
+git status
+cat .gitignore 
+sudo rm .gitignore 
+git status
+touch .gitignore
+git status
+git add .
+git commit -m "backup: .gitignore prevented backup vm changes" -m "from beign tracked. removed content from .gitignore and run new update via backup alias" -m "backup-b vm"
+git push
+cd ~
+bubup
+git add .
+git commit -m "backup: updated bash history" -m "backup-b vm"
+git push
+cd OE2-Group-Project && git pull
+exit
+source ~/.bashrc
+sudo vi ~/.bashrc
+source ~/.bashrc
+statpup
+respup
+statpup
+bubup
+source ~/.bashrc
+sudo vi ~/.bashrc
+source ~/.bashrc
+statpup
+respup
+statpup
+bubup
+git add .
+git commit -m "backup: new aliases added" -m "for common tasks" -m "backup-db puppet service was down, restarted"
+git push
+exit
+statpup
+exit
+statpup
+exit
+statpup
 sudo reboot
-statpup
-res mysql
-res owncloud
 respup
 statpup
-May 02 09:25:08 db-b.foo.org.nz systemd[1]: Started Puppet agent.
-May 02 09:25:16 db-b.foo.org.nz mysqld_safe[10458]: 2022-05-02  9:25:16 140034580376704 [Note] /usr/sbin/mysqld (mysqld 10.1.48-MariaDB-0ubuntu0.18.04.1) starting as process 10488 ...
-May 02 09:25:19 db-b.foo.org.nz mysqld_safe[10458]: 2022-05-02  9:25:19 139745248033920 [Note] /usr/sbin/mysqld (mysqld 10.1.48-MariaDB-0ubuntu0.18.04.1) starting as process 10529 ...
-May 02 09:25:22 db-b.foo.org.nz mysqld_safe[10458]: 2022-05-02  9:25:22 140613647772800 [Note] /usr/sbin/mysqld (mysqld 10.1.48-MariaDB-0ubuntu0.18.04.1) starting as process 10561 ...
-May 02 09:25:25 db-b.foo.org.nz mysqld_safe[10599]: 2022-05-02  9:25:25 140529249184896 [Note] /usr/sbin/mysqld (mysqld 10.1.48-MariaDB-0ubuntu0.18.04.1) starting as process 10598 ...
+exit
+statpup
+exit
+statpup
+exit
+statpup
 respup
 statpup
-stat mysql
-res apache2
+stat nagios-nrpe-server
+exit
+bubup
 cd /etc
 ls
 sudo vi ~/.bashrc
-resnr
-statnr
-statpup
-respup
-statpup
-reboot
-sudo reboot
-statpup
-mysql
-sudo mysql
-mysql -u root -p
-mysql -u bitstudent -p
-mysql -u root -p
-statpup
-sudo mysql -u root -p
-sudo mysql --user=root --password=P@ssw0rd
-sudo mysql --user=root --password
-res mysqld
-sudo systemctl restart mysqld
-sudo systemctl restart mysql
-respup
-statpup
-cd OE2-Group-Project/
-bumgmt
-budb
-statpup
-mysql
-sudo mysql
-mysql -u root -p
-mysql -u bitstudent -p
-mysql -u root -p
-statpup
-sudo mysql -u root -p
-sudo mysql --user=root --password=P@ssw0rd
-sudo mysql --user=root --password
-res mysqld
-sudo systemctl restart mysqld
-sudo systemctl restart mysql
-respup
-statpup
-cd OE2-Group-Project/
-bumgmt
-budb
-git add .
-git commit -m "db: update history"
-git push
-statpup
-mysql
-sudo mysql
-statpup
-sudo reboot
-statpup
-sudo nagios3 -v /etc/nagios3/nagios.cfg
-cd /etc/php/7.4/apache2/conf.d/20-mysql.ini
-cd /etc/php/7.4/apache2/conf.d/
-cd /etc/php/7.4/apache2/
-cd /etc/php/
-cd /etc/php
-ls
-sudo rm 'sh bitstudent@20.53.250.76' 
-ls
-statpup
-ls
-cd 
-ls
-statpup
-sudo /etc/init.d/mysql stop
-statpup
-sudo systemctl stop mysql
-sudo systemctl status  mysql
-sudo systemctl status mysql
-sudo systemctl status mysql.service
-sudo systemctl stop mysql-server
-sudo systemctl status mysql-server
-resmysql
-mysql
-mysql -u root
-sudo mysql -u root
-ls
-sudo systemctl status mysql-server
-sy
-systemctl list-units --type=service
-sudo systemctl start mysql-server
-systemctl
-systemctl list-units --type=service
-sudo systemctl start mysql-server
-sudo systemctl start mysql
-sudo systemctl status mysql
-respup
-statpup
-respup
-statpup
-respup
-statpup
-respup
-statpup
-:q
-statpup
-respup
-statpup
-resmas
-respup
-resmas
-statpup
-resmas
-respup
-statpup
-respup
-statpup
-respup
-statpup
-respup
-statpup
-respup
-statpup
-respup
-statpup
-respup
-statpup
-respup
-statpup
-dpkg --configure -a
-sudo dpkg --configure -a
-respup
-statpup
-respup
-statpup
-budb
-ls
-cd Scripts/db
-ls
-ls -al
-crontab -e
-sudo nano backup.sh 
-crontab -e
-budb
-budb
-ls
-cd Scripts/db
-ls
-ls -al
-crontab -e
-sudo nano backup.sh 
-crontab -e
-budb
-exit
-cd OE2-Group-Project/
-git pull
-sudo chmod 774 ./.git
-sudo chmod 774 .gitignore
-cd .git/
-sudo chown bitstudent FETCH_HEAD
-sudo chgrp bitstudent FETCH_HEAD
-sudo chown bitstudent ORIG_HEAD
-sudo chgrp bitstudent ORIG_HEAD
-sudo chmod 774 ./**
-cd objects
-sudo chgrp bitstudent ./**
-sudo chown bitstudent ./**
-cd ~/OE2-Group-Project
-git pull
-git stash
-git pull
-ls
-cd Scripts/db
-ls
-sudo nano backup.sh 
-budb
-cd OE2-Group-Project/
-git pull
-sudo chmod 774 ./.git
-sudo chmod 774 .gitignore
-cd .git/
-sudo chown bitstudent FETCH_HEAD
-sudo chgrp bitstudent FETCH_HEAD
-sudo chown bitstudent ORIG_HEAD
-sudo chgrp bitstudent ORIG_HEAD
-sudo chmod 774 ./**
-cd objects
-sudo chgrp bitstudent ./**
-sudo chown bitstudent ./**
-cd ~/OE2-Group-Project
-git pull
-git stash
-git pull
-ls
-cd Scripts/db
-ls
-sudo nano backup.sh 
-budb
-git add .
-ls
-git commit -m "db: update of gh backup script." -m "add permissions at the start of the script to ensure it has the ability to run" -m "db-b"
-git push
-exit
-cd OE2-Group-Project/Scripts/db
-sudo nano backup.sh 
-cd ~/OE2-Group-Project
-sudo chmod 774 ./.git
-sudo chmod 774 .gitignore
-cd .git/
-sudo chown bitstudent FETCH_HEAD
-sudo chgrp bitstudent FETCH_HEAD
-sudo chown bitstudent ORIG_HEAD
-sudo chgrp bitstudent ORIG_HEAD
-sudo chmod 774 ./**
-cd objects
-sudo chgrp bitstudent ./**
-sudo chown bitstudent ./**
-sudo chmod 774 ./**
-cd ~/OE2-Group-Project
-ls
-git pull
-exit
-wget https://github.com/prometheus/node_exporter/releases/download/v1.3.1/node_exporter-1.3.1.linux-amd64.tar.gz
-tar xvfz node_exporter-*.*-amd64.tar.gz
-cd node_exporter-*.*-amd64
-./node_exporter
-./node_exporter &
-sudo reboot
-sudo systemctl status node-exporter
-ps -eaf | grep no
-ls
-git pull
-sudo mv node_exporter-1.3.1.linux-amd64 /etc/prometheus-plugins/node_exporter -p
-sudo mv node_exporter-1.3.1.linux-amd64 /etc/prometheus-plugins/node_exporter
-sudo mv node_exporter-1.3.1.linux-amd64 node_exporter
-sudo mv node_exporter /etc/
+bubup
+git status
+source ~/.bashrc
+bubup
+bubup
 cd /etc
+ls
+sudo vi ~/.bashrc
+bubup
+git status
+source ~/.bashrc
+bubup
+git add .
+git commit -m "backup: nagios install files" -m "backup-b vm"
+git push
+exit
+ls
+sudo systemctl status puppet
+sudo syst
+chkconfig --list puppet
+puppet resource service puppet ensure=running enable=true
+statpup
+respup
+statpup
+sudo reboot
+statpup
+cd ~/OE2-Group-Project && git status
+git pull
+sudo vi ~/.bashrc
+git status
+bubup
+cd ~/OE2-Group-Project && git status
+git pull
+sudo vi ~/.bashrc
+git status
+bubup
+cd Backup-VM/
+ls
+sudo rm bashrc.txt 
+cd ..
+git status
+git add .
+git status
+git pull
+cd ~
+statpup
+bubup
+bubup
+exit
+cd /etc/nagios
+ls -al
+sudo reboot
+ls -al
+cd /etc/nagios
+ls -al
+respup
+statpup
+respup
+statpup
+puppet cert list --all
+sudo puppet cert sign --all
+puppet cert sign --all
+puppet cert list --all
+sudo cert sign --all
+sudo puppet cert sign
+sudo puppet cert sign mgmt-b.foo.org.nz
+sudo puppet cert sign -all
+statpup
+respup
+statpup
+sudo puppet cert list -all
+sudo puppet cert list --all
+puppet cert list --all
+statpup
+respup
+statpup
+ls -al
+sudo nano nrpe.cfg
+respup
+statpup
+sudo systemctl restart nagios-nrpe-server
+sudo systemctl status nagios-nrpe-server
+ls -al
+sudo chgrp root nrpe.cfg 
+ls -al
+respup
+statpup
+ls -al
+sudo chmod u+x nrpe.cfg 
+ls -al
+sudo systemctl status nagios-nrpe-server
+sudo systemctl restart nagios-nrpe-server
+sudo systemctl status nagios-nrpe-server
+respup
+statpup
+puppet cert
+puppet cert list
+sudo puppet cert list
+sudo puppet cert list -all
+sudo puppet cert generate 
+sudo /var/lib/puppet/ssl -name backup-b.foo.org.nz.pem -delete
+puppet cert sign -all
+puppet cert list -all
+sudo puppet cert list -all
+statpup
+respup
+statpup
+statnr
+statnag
+sudo vi ~/.bashrc
+source ~/.bashrc
+statnr
+cd /etc
+ls
+sudo vi ~/.bashrc
+sudo nagios3 -v /etc/nagios3/nagios.cfg
+sudo nagios -v /etc/nagios/nagios.cfg
+cd puppet/
+ls
+cd code/
+ls
+cd ..
+cd //
+cd ~
+ls
+cd ~/OE2-Group-Project && git pull
+sudo vi ~/.bashrc
+bubup
+puppet cert
+puppet cert list
+sudo puppet cert list
+sudo puppet cert list -all
+sudo puppet cert generate 
+sudo /var/lib/puppet/ssl -name backup-b.foo.org.nz.pem -delete
+puppet cert sign -all
+puppet cert list -all
+sudo puppet cert list -all
+statpup
+respup
+statpup
+statnr
+statnag
+sudo vi ~/.bashrc
+source ~/.bashrc
+statnr
+cd /etc
+ls
+sudo vi ~/.bashrc
+sudo nagios3 -v /etc/nagios3/nagios.cfg
+sudo nagios -v /etc/nagios/nagios.cfg
+cd puppet/
+ls
+cd code/
+ls
+cd ..
+cd //
+cd ~
+ls
+cd ~/OE2-Group-Project && git pull
+sudo vi ~/.bashrc
+bubup
+git add .
+git com "backup-b: updated backup of backup vm" -m "backup-b"
+git commit "backup-b: updated backup of backup vm" -m "backup-b"
+git commit -m  "backup-b: updated backup of backup vm" -m "backup-b"
+git push
+statnr
+exit
+respup
+sudo puppet agent -t
+/etc
+ls
+cd /etc
+ls
+,s
+ls
+respup
+ls
+statpup
+bubup
+cd /etc
+ls
+cd puppet/
+ls
+sudo vi ~/.bashrc
+source ~/.bashrc
+bubup
+bubup
+cd /etc
+ls
+cd puppet/
+ls
+sudo vi ~/.bashrc
+source ~/.bashrc
+bubup
+cd Backup-VM/
+ls
+cd puppet/
+ls
+cd code/
+ls
+sudo touch .gitinclude
+cd ../../../
+ls
+git status
+git add .
+git commit -m "backup-b: backup of backup vm" -m "backup-b"
+git push
+exit
+crontab -e
+cd /etc
+ls
+cd ~/OE2-Group-Project/Scripts/backup/
+ls -la
+sudo chmod u+x backup.sh 
+ls -la
+sudo vim backup.sh 
+ls -la
+sudo vim backup.sh cd ~
+cd ~
+ls -la
+cd ~/OE2-Group-Project/Backup-VM/
+sudo nano crontab.txt
+ls -la
+cd ~
+exit
+cd ~/OE2-Group-Project/
+git pull
+sudo git pull
+sudo vi ~/.bashrc
+source ~/.bashrc
+git pull
+crontab -e
+cd Scripts/
+cd backup/
+ls -la
+cd /etc
+ls -al
+cd sudoers.d/
+sudo cd sudoers.d/
+cd ~/OE2-Group-Project/
+git status
+exit
+cd ~/OE2-Group-Project/
+cd Scripts/
+cd mgmt/
+ls -la
+exit
+statpup
+statnr
+exit
+ls
+cd OE2-Group-Project/
+git pull
+cd ..
+sudo rm -r OE2-Group-Project/
+ls
+export ghtoken=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
+gh repo clone leggant/OE2-Group-Project
+ls
+cd OE2-Group-Project/
+ls
+cd ..
+/bin/bash OE2-Group-Project/Scripts/mgmt/github.sh
+ls
+cd OE2-Group-Project/
+git pull
+git status
+git pull
+bubup
+ls
+cd OE2-Group-Project/
+git pull
+cd ..
+sudo rm -r OE2-Group-Project/
+ls
+export ghtoken=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
+gh repo clone leggant/OE2-Group-Project
+ls
+cd OE2-Group-Project/
+ls
+cd ..
+/bin/bash OE2-Group-Project/Scripts/mgmt/github.sh
+ls
+cd OE2-Group-Project/
+git pull
+git status
+git pull
+bubup
+ls
+sudo systemctl status prometheus
+sudo systemctl status prometheus.service
+systemctl start prometheus
+sudo systemctl start prometheus
+systemctl daemon-reload
+suodo systemctl daemon-reload
+sudo systemctl daemon-reload
+ls
+cd /etc/
+ls
+cd prometheus
+ls
+sudo vim prometheus.yml 
+ls
+sudo vim prometheus.yml 
+./prometheus --config.file=./prometheus.yml
+sudo ./prometheus --config.file=./prometheus.yml
+ls
+sudo vim prometheus.yml 
+sudo ./prometheus --config.file=./prometheus.yml
+sudo vim prometheus.yml 
+sudo ./prometheus --config.file=./prometheus.yml
+sudo vim prometheus.yml 
+sudo ./prometheus --config.file=./prometheus.yml
+sudo vim prometheus.yml 
+sudo ./prometheus --config.file=./prometheus.yml
+sudo vim prometheus.yml 
+sudo ./prometheus --config.file=./prometheus.yml
+clear
+sudo ./prometheus --config.file=./prometheus.yml
+sudo systemctl start prometheus.service
+sudo vim prometheus.yml 
+sudo ./prometheus --config.file=./prometheus.yml
+cd /etc
+ls
+cd prometheus-plugins/
 ls
 cd node_exporter/
 ls
-./node_exporter
-cd systemd/
+cd ../../prometheus
+ls
+sudo nano prometheus.yml 
+cd console_libraries/
+ls
+cd ..
+cat promtool
+curl -X POST http://localhost:9090/-/reload
+curl -X POST http://20.211.185.153:9090/-/reload
+cd /etc/prometheus
+ls
+curl -X POST http://20.211.185.153:9090/-/reload
+./prometheus --web.enable-lifecycle
+curl -X POST http://20.211.185.153:9090/-/reload
+./prometheus --web.enable-lifecycle
+curl -X POST http://20.211.185.153:9090/-/start
+./prometheus --web.enable-lifecycle
+kill -HUP 1234
+top
+kill -HUP 26893
+top
+kill -HUP 26893
+top
+ls
+l
+ls
+systemctl status prometheus-node-exporter
+ls
+cd /etc
+ls
+cd prometheus
+ls
+vim prometheus.yml 
+sudo ./prometheus --config.file=./prometheus.yml
+systemctl restart prometheus
+sudo systemctl restart prometheus
+sudo ./prometheus --config.file=./prometheus.yml
+vim prometheus.yml 
+sudo ./prometheus --config.file=./prometheus.yml
+vim prometheus.yml 
+sudo ./prometheus --config.file=./prometheus.yml
+vim prometheus.yml 
+sudo ./prometheus --config.file=./prometheus.yml
+clear
+sudo ./prometheus --config.file=./prometheus.yml
+apt -y install prometheus-node-exporter
+sudo apt -y install prometheus-node-exporter
+systemctl status prometheus-node-exporter
+systemctl start prometheus-node-exporter
+sudo systemctl start prometheus-node-exporter
+systemctl status prometheus-node-exporter
+systemctl restart prometheus-node-exporter
+sudo systemctl restart prometheus-node-exporter
+systemctl status prometheus-node-exporter
+curl http://localhost:9100/metrics
+curl http://localhost:9100/metrics | grep "node_"
+systemctl status prometheus-node-exporter
+sudo ./prometheus --config.file=./prometheus.yml
+vim prometheus.yml 
+sudo ./prometheus --config.file=./prometheus.yml
+promtool
+vim prometheus.yml 
+sudo ./prometheus --config.file=./prometheus.yml
+prometheus --version
+vim prometheus.yml 
+promtool check config prometheus.yml
+ssh bitstudent@20.53.250.68 
+sudo reboot
+statpup
+cd OE2-Group-Project/Scripts/backup/
+ls
+sudo nano backup.sh 
+crontab -e
+ls -al
+bubup
+cd ..
+ls
+bubup
+cd ..
+export ghtoken=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
+bubup
+cd ..
+sudo rm -r OE2-Group-Project/
+gh repo clone leggant/OE2-Group-Project
+bubup
+git config --global --add safe.directory /home/bitstudent/OE2-Group-Project
+cd ..
+bubup
+statpup
+cd OE2-Group-Project/Scripts/backup/
+ls
+sudo nano backup.sh 
+crontab -e
+ls -al
+bubup
+cd ..
+ls
+bubup
+cd ..
+export ghtoken=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
+bubup
+cd ..
+sudo rm -r OE2-Group-Project/
+gh repo clone leggant/OE2-Group-Project
+bubup
+git config --global --add safe.directory /home/bitstudent/OE2-Group-Project
+cd ..
+bubup
+git add .
+git commit -m "backup: fix added to backup script" -m "backup-b"
+git push
+exi
+exit
+cd /etc
+ls
+cd ~/OE2-Group-Project/Scripts/backup/
+ls
+sudo nano backup.sh 
+sudo vi ~/.bashrc
+source ~/.bashrc
+cd ~
+bubup
+ls
+cd Backup-VM/
+ls
+cd prometheus
 ls
 cd ..
 ls
-cd systemd/system/
+git status
+sudo vi ~/.bashrc
+source ~/.bashrc
+cd ~
+bubup
+la
+git status
+git add .
+ls -al
+sudo chmod u+rwx ./*
+ls -al
+git add .
+sudo chmod u+x .git -r
+sudo chmod u+x .git/ -r
+sudo chmod u+x .git/*
+cd .git
+ls -al
+cd ..\
+ls -al
+cd ..
+ls -al
+sudo chmod u+x OE2-Group-Project/ -r
+chmod u+x  OE2-Group-Project/ -r
+chmod +x  OE2-Group-Project/ -r
+chmod u+x OE2-Group-Project/ -r
+chmod u+x OE2-Group-Project/*
+chmod u+x ./OE2-Group-Project -r
+cd OE2-Group-Project/
+ls -al
+cd ..
 ls
-sudo nano node-exporter.service
+ls -al
+sudo chmod 777 OE2-Group-Project/
+ls -al
+cd OE2-Group-Project/
+ls -al
+sudo chmod 744 ./*
+ls -al
+sudo chmod 774 ./*
+ls -al
+sudo chmod 774 ./.git/*
+sudo chmod 774 ./.git
+ls -al
+sudo chmod 774 .gitignore 
+ls -al
+git add .
+ls -al
+sudo chmod 774 ./.git -r
+sudo chmod 774 -r ./.git 
+sudo chmod 774 ./.git 
+cd .git/
+ls
+sudo chmod 774 **/*
+ls -al
+sudo chmod 774 ./* -r
+sudo chown bitstudent FETCH_HEAD 
+sudo chgrp bitstudent FETCH_HEAD 
+sudo chgrp bitstudent ORIG_HEAD 
+sudo chown bitstudent ORIG_HEAD 
+ls -al
+cd ..
+ls -al
+git add .
+ls -al
+cd .git/
+ls -al
+sudo chmod 774 ./** 
+ls -al
+cd ..
+git add .
+ls -al
+cd .git
+cd objects/
+ls -al
+sudo chgrp bitstudent ./** 
+sudo chown bitstudent ./** 
+ls -al
+cd ../..
+ls -al
+git add .
+ls -al
+git status
+git commit -m "backup: backup of prometheus install and plugins" -m "backup-b"
+git push
+cd ../etc/
+cd /etc/prometheus-plugins/
+ls -al
+sudo rm grafana-enterprise_8.5.1_amd64.deb 
+ls -al
+cd ~
+cd OE2-Group-Project/
+bubup
+cd Backup-VM/
+ls -al
+cd prometheus-plugins/
+ls
+sudo rm grafana-enterprise_8.5.1_amd64.deb 
+ls 0al
+ls -al
+cd ..
+ls -al
+git add .
+git status
+git commit "backup: removed deb file from backup" -m "exceeds file size limit for github" -m "backup-b"
+git commit -m "backup: removed deb file from backup" -m "exceeds file size limit for github" -m "backup-b"
+git push
+cd Scripts/backup/
+ls
+sudo nano backup.sh 
+cd ..
+cd ~
+bubup
+cd /etc
+ls
+cd ~/OE2-Group-Project/Scripts/backup/
+ls
+sudo nano backup.sh 
+sudo vi ~/.bashrc
+source ~/.bashrc
+cd ~
+bubup
+ls
+cd Backup-VM/
+ls
+cd prometheus
+ls
+cd ..
+ls
+git status
+sudo vi ~/.bashrc
+source ~/.bashrc
+cd ~
+bubup
+la
+git status
+git add .
+ls -al
+sudo chmod u+rwx ./*
+ls -al
+git add .
+sudo chmod u+x .git -r
+sudo chmod u+x .git/ -r
+sudo chmod u+x .git/*
+cd .git
+ls -al
+cd ..\
+ls -al
+cd ..
+ls -al
+sudo chmod u+x OE2-Group-Project/ -r
+chmod u+x  OE2-Group-Project/ -r
+chmod +x  OE2-Group-Project/ -r
+chmod u+x OE2-Group-Project/ -r
+chmod u+x OE2-Group-Project/*
+chmod u+x ./OE2-Group-Project -r
+cd OE2-Group-Project/
+ls -al
+cd ..
+ls
+ls -al
+sudo chmod 777 OE2-Group-Project/
+ls -al
+cd OE2-Group-Project/
+ls -al
+sudo chmod 744 ./*
+ls -al
+sudo chmod 774 ./*
+ls -al
+sudo chmod 774 ./.git/*
+sudo chmod 774 ./.git
+ls -al
+sudo chmod 774 .gitignore 
+ls -al
+git add .
+ls -al
+sudo chmod 774 ./.git -r
+sudo chmod 774 -r ./.git 
+sudo chmod 774 ./.git 
+cd .git/
+ls
+sudo chmod 774 **/*
+ls -al
+sudo chmod 774 ./* -r
+sudo chown bitstudent FETCH_HEAD 
+sudo chgrp bitstudent FETCH_HEAD 
+sudo chgrp bitstudent ORIG_HEAD 
+sudo chown bitstudent ORIG_HEAD 
+ls -al
+cd ..
+ls -al
+git add .
+ls -al
+cd .git/
+ls -al
+sudo chmod 774 ./** 
+ls -al
+cd ..
+git add .
+ls -al
+cd .git
+cd objects/
+ls -al
+sudo chgrp bitstudent ./** 
+sudo chown bitstudent ./** 
+ls -al
+cd ../..
+ls -al
+git add .
+ls -al
+git status
+git commit -m "backup: backup of prometheus install and plugins" -m "backup-b"
+git push
+cd ../etc/
+cd /etc/prometheus-plugins/
+ls -al
+sudo rm grafana-enterprise_8.5.1_amd64.deb 
+ls -al
+cd ~
+cd OE2-Group-Project/
+bubup
+cd Backup-VM/
+ls -al
+cd prometheus-plugins/
+ls
+sudo rm grafana-enterprise_8.5.1_amd64.deb 
+ls 0al
+ls -al
+cd ..
+ls -al
+git add .
+git status
+git commit "backup: removed deb file from backup" -m "exceeds file size limit for github" -m "backup-b"
+git commit -m "backup: removed deb file from backup" -m "exceeds file size limit for github" -m "backup-b"
+git push
+cd Scripts/backup/
+ls
+sudo nano backup.sh 
+cd ..
+cd ~
+bubup
+git add .
+exit
+cd OE2-Group-Project/
+git pull
+cd ~/OE2-Group-Project
+sudo chmod 774 ./.git
+sudo chmod 774 .gitignore
+cd .git/
+sudo chown bitstudent FETCH_HEAD
+sudo chgrp bitstudent FETCH_HEAD
+sudo chown bitstudent ORIG_HEAD
+sudo chgrp bitstudent ORIG_HEAD
+sudo chmod 774 ./**
+cd objects
+sudo chgrp bitstudent ./**
+sudo chown bitstudent ./**
+sudo chmod 774 ./**
+cd ~/OE2-Group-Project
+git pull
+cd ~/
+ls
+cd OE2-Group-Project/
+ls -al
+cd .git/objects/
+ls -al
+cd ~
+cd OE2-Group-Project/Scripts/backup/
+sudo nano backup.sh 
+cd ../../../
+bubup
+cd OE2-Group-Project/
+git pull
+cd ~/OE2-Group-Project
+sudo chmod 774 ./.git
+sudo chmod 774 .gitignore
+cd .git/
+sudo chown bitstudent FETCH_HEAD
+sudo chgrp bitstudent FETCH_HEAD
+sudo chown bitstudent ORIG_HEAD
+sudo chgrp bitstudent ORIG_HEAD
+sudo chmod 774 ./**
+cd objects
+sudo chgrp bitstudent ./**
+sudo chown bitstudent ./**
+sudo chmod 774 ./**
+cd ~/OE2-Group-Project
+git pull
+cd ~/
+ls
+cd OE2-Group-Project/
+ls -al
+cd .git/objects/
+ls -al
+cd ~
+cd OE2-Group-Project/Scripts/backup/
+sudo nano backup.sh 
+cd ../../../
+bubup
+exit
+cd /etc/prometheus
+sudo vim prometheus.yml 
+journalctl -t prometheus
+curl -i -XPOST localhost:9090/-/reload
+killall -HUP prometheus
+sudo vim prometheus.yml 
+./promtool check config prometheus.yml
+ls
+./promtool check config prometheus.yml
+journalctl
+sudo journalctl -u prometheus
+ps -eaf | grep prom
+clear
+ps -eaf | grep prom
+kil -HUP 9825
+kill -HUP 9825
+kill -HUP 9685
+ps -eaf | grep prom
+kill -HUP 8305
+sudo kill -HUP 8305
+ps -eaf | grep prom
+sudo kill -HUP 4796
+ps -eaf | grep gra
+sudo kill -HUP 1109
+clear
+How to reload Prometheus config file?
+ps -eaf | grep gr
+./promtool check config prometheus.yml
+ls
+cd /etc/prometheus
+./promtool check config prometheus.yml
+sudo vim prometheus.yml 
+./promtool check config prometheus.yml
+sudo kill -HUP 4796
+ps -eaf | grep gr
+ps -eaf | grep prom
+sudo kill -HUP 9978
+./prometheus --config.file=prometheus.yml &
+sudo vim prometheus.yml 
+sudo kill -HUP 9978
+ps -eaf | grep prom
+sudo kill -HUP 10192
+sudo kill -HUP 4796
+./prometheus --config.file=prometheus.yml &
+./prometheus --config.file=prometheus.yml 
+./promtool check config prometheus.yml
+./prometheus --config.file=prometheus.yml 
+sudo vim prometheus.yml 
+./promtool check config prometheus.yml
+./prometheus --config.file=prometheus.yml 
+sudo kill -HUP 4796
+sudo vim prometheus.yml 
+sudo kill -HUP 4796
+./prometheus --config.file=prometheus.yml 
+sudo vim prometheus.yml 
+sudo kill -HUP 4796
+./prometheus --config.file=prometheus.yml 
+sudo kill -HUP 4796
+sudo vim prometheus.yml 
+sudo kill -HUP 4796
+./prometheus --config.file=prometheus.yml 
+sudo kill -HUP 4796
+./promtool check config prometheus.yml
+sudo vim prometheus.yml 
+./promtool check config prometheus.yml
+sudo kill -HUP 4796
+./prometheus --config.file=prometheus.yml 
+sudo kill -HUP 4796
+sudo vim prometheus.yml 
+sudo kill -HUP 4796
+./prometheus --config.file=prometheus.yml 
+sudo kill -HUP 4796
+./promtool check config prometheus.yml
+sudo vim prometheus.yml 
+./promtool check config prometheus.yml
+sudo kill -HUP 4796
+./promtool check config prometheus.yml
+./prometheus --config.file=prometheus.yml 
+sudo kill -HUP 4796
+sudo vim prometheus.yml 
+sudo kill -HUP 4796
+./prometheus --config.file=prometheus.yml 
+sudo kill -HUP 4796
+sudo vim prometheus.yml 
+./prometheus --config.file=prometheus.yml 
+sudo kill -HUP 4796
+./promtool check config prometheus.yml
+sudo vim prometheus.yml 
+./promtool check config prometheus.yml
+./prometheus --config.file=prometheus.yml 
+sudo kill -HUP 4796
+sudo vim prometheus.yml 
+sudo kill -HUP 4796
+./prometheus --config.file=prometheus.yml 
+./prometheus --config.file=prometheus.yml &
+sudo vim prometheus.yml 
+./prometheus --config.file=prometheus.yml 
+sudo kill -HUP 4796
+sudo vim prometheus.yml 
+./prometheus --config.file=prometheus.yml 
+sudo kill -HUP 4796
+sudo vim prometheus.yml 
+./prometheus --config.file=prometheus.yml 
+sudo kill -HUP 4796
+./prometheus --config.file=prometheus.yml 
+sudo vim prometheus.yml 
+sudo kill -HUP 4796
+sudo vim prometheus.yml 
+sudo kill -HUP 4796
+./prometheus --config.file=prometheus.yml 
+sudo kill -HUP 4796
+sudo vim prometheus.yml 
+sudo kill -HUP 4796
+sudo vim prometheus.yml 
+sudo kill -HUP 4796
+./prometheus --config.file=prometheus.yml 
+sudo vim prometheus.yml 
+./prometheus --config.file=prometheus.yml 
+sudo kill -HUP 4796
+sudo vim prometheus.yml 
+sudo kill -HUP 4796
+./prometheus --config.file=prometheus.yml 
+sudo kill -HUP 4796
+sudo vim prometheus.yml 
+sudo kill -HUP 4796
+date
+sudo vim prometheus.yml 
+sudo kill -HUP 4796
+./prometheus --config.file=prometheus.yml 
+sudo kill -HUP 4796
+sudo vim prometheus.yml 
+./prometheus --config.file=prometheus.yml 
+sudo kill -HUP 4796
+sudo vim prometheus.yml 
+sudo kill -HUP 4796
+sudo vim prometheus.yml 
+sudo kill -HUP 4796
+sudo vim prometheus.yml 
+sudo kill -HUP 4796
+sudo vim prometheus.yml 
+sudo kill -HUP 4796
+sudo vim prometheus.yml 
+sudo kill -HUP 4796
+sudo vim prometheus.yml 
+sudo kill -HUP 4796
+sudo vim prometheus.yml 
+sudo kill -HUP 4796
+sudo vim prometheus.yml 
+sudo kill -HUP 4796
+curl http://localhost:<new port>/metrics
+curl http://localhost:9500/metrics
+curl http://localhost:9100/metrics
+sudo vim prometheus.yml 
+sudo kill -HUP 4796
+sudo vim prometheus.yml 
+sudo kill -HUP 4796
+./prometheus --config.file=prometheus.yml 
+sudo kill -HUP 4796
+sudo vim prometheus.yml 
+./prometheus --config.file=prometheus.yml 
+sudo kill -HUP 4796
+sudo vim prometheus.yml 
+killall -HUP prometheus
+journalctl -eu prometheus
+sudo vim prometheus.yml 
+killall -HUP prometheus
+journalctl -eu prometheus
+./prometheus --config.file=prometheus.yml 
+killall -HUP prometheus
+ps -eaf | grep
+ps -eaf | grep no
+killall -term prometheus
+killall -Term prometheus
+kill -Term prometheus
+kill -Term 10270
+sudo kill -Term 10270
+ps -eaf | grep no
+sudo kill -Term 13719
+sudo systemctl daemon-reload
+ps -eaf | grep no
+sudo kill -Term 13786
+ps -eaf | grep no
+systemctl restart node_exporter
+sudo systemctl restart node_exporter
+netstat -tulpn | grep :9100
+netstat -tulpn
+sudo netstat -tulpn
+curl http://localhost:9100/metrics
+sudo ufw app list
+sudo systemctl restart node_exporter
+ps -eaf | grep no
+killall -HUP prometheus
+ls
+vim prometheus.yml 
+sudo ufw status
+./node_exporter -log.level debug -web.listen-address ":9101"
+ls
+cd ..
+ls
+killall -HUP prometheus
+journalctl -eu prometheus
+killall -HUP prometheus
+vim prometheus.yml 
+ls
+cd prometheus
+ls
+vim prometheus.yml 
+killall -HUP prometheus
+vim prometheus.yml 
+killall -HUP prometheus
+vim prometheus.yml 
+killall -HUP prometheus
+vim prometheus.yml 
+killall -HUP prometheus
+http://20.211.185.153/curl http://20.211.185.153:9100/metrics
+curl http://20.58.164.44:9100/metrics
+ping 20.58.164.44
+vim /etc/hosts
+ping mgmt-b.foo.org.nz
+curl http://mgmt-b.foo.org.nz:9100/metrics
+vim prometheus.yml 
+killall -HUP prometheus
+vim prometheus.yml 
+killall -HUP prometheus
+vim prometheus.yml 
+killall -HUP prometheus
+vim prometheus.yml 
+ls
+cd  /etc/systemd/system
+ls
+cd ~
+wget https://github.com/prometheus/node_exporter/releases/download/v1.3.1/node_exporter-1.3.1.linux-amd64.tar.gz
+tar xvfz node_exporter-*.*-amd64.tar.gz
+ls
+mv node_exporter-1.3.1.linux-amd64 node-exporter
+ls
+cd  /etc/systemd/system
+sudo vim  node-exporter.service
+cd ~
+ls
+sudo mv node-exporter/ /etc
+l
+cd /etc
+ls
+sudo systemctl daemon-reload
+
+sudo systemctl enable node-exporter
+sudo systemctl status node-exporter
+sudo systemctl restart node-exporter
+cd  /etc/systemd/system
+ls
+sudo rm node-exporter.service 
 sudo systemctl daemon-reload
 sudo systemctl restart node-exporter
-sudo systemctl status node-exporter
-sudo systemctl enable node_exporter
-sudo systemctl enable node-exporter
-sudo reboot
-cd OE2-Group-Project/Scripts/db/
+exit
+cd OE2-Group-Project/Scripts/backup/
 ls
 sudo nano backup.sh 
 cd /etc/systemd/system/
 ls
-cd ~/OE2-Group-Project/Scripts/db/
+cd ~
+ls
+cd OE2-Group-Project/Scripts/backup/
 sudo nano backup.sh 
+cd ~
+sudo rm node_exporter-1.3.1.linux-amd64.tar.gz 
+sudo rm alertmanager-0.24.0.linux-amd64.tar.gz 
+ls
 exit
 sudo apt install sysdig
-sudo csysdig
-sudo csysdig -h
-sudo csysdig --logfile=~/csysdig.txt
-ls
-sudo rm node_exporter-1.3.1.linux-amd64.tar.gz 
-touch csysdig.txt
-ls
-sudo csysdig --logfile=~/csysdig.txt
-sudo csysdig --logfile=csysdig.txt
-ls
-cat csysdig.txt 
-sudo csysdig -h
-sudo csysdig -l
-sudo csysdig syslog.severity.str
-sudo csysdig -l
-sudo csysdig -h
-sudo csysdig -A syslog.severity.str
-sudo csysdig -l
-sudo sysdig -c echo_fds
-sudo sysdig -w extime.scap -c proc_exec_time
-sudo sysdig -c spy_logs
-sudo sysdig -c list_login_shells 
-sudo sysdig -c spy_users
-sudo sysdig -c spy_users -s 3000 -w trace.scap
-sudo sysdig -c spy_users -s 3000 -w trace.scap &
-sudo sysdig -r trace.scap
-to
-sudo kill 27176
-sudo csysdig
-ls /usr/share/sysdig/chisels
-sudo sysdig -h
-sudo sysdig -lv
-sudo sysdig -h
-sudo sysdig process.name=prometheus evt.failed=true
-sudo sysdig process.name=puppet evt.failed=true
-sudo sysdig evt.failed=true
-sudo sysdig process.name=mysqld evt.failed=true
-sudo sysdig process.name=ntpd evt.failed=true
-sudo sysdig proc.name=ntpd evt.failed=true
-sudo sysdig proc.name=ntpd and evt.failed=true
-sudo sysdig -cl
-sudo sysdig spy_users
-sudo sysdig -c spy_users
-sudo sysdig -c spy_users -h
-sudo sysdig -c spy_users -L
-sudo sysdig -c spy_users -h
-sudo sysdig -c spy_users -S
-sudo sysdig spy_users -S -w
-sudo sysdig -S spy_users
-sudo sysdig -c spy_users 
-sudo sysdig -c spy_users -S and evt.failed=true -w dumpfile.scap
-sudo sysdig -c spy_users -w dumpfile.scap evt.failed=true
-ls -al
-cat dumpfile.scap 
-sudo sysdig -c spy_users -w dumpfile.scap evt.failed=true -S
-sudo sysdig -c spy_users -w dumpfile.scap evt.failed=true &
-sudo sysdig -r dumpfile.scap
-sudo sysdig spy_users -w dumpfile.scap evt.failed=true &
-sudo sysdig -c spy_users -w dumpfile.scap evt.failed=true &
-top
-sudo kill 27621
-sudo kill 27660
-sudo sysdig -c spy_users -w dumpfile.scap evt.failed=true &
-top
-sudo kill 27678
-sudo sysdig -r dumpfile.scap
-cd OE2-Group-Project/Scripts/db/
-sudo nano backup.sh 
-cd /etc/
-ls
-cd ~
-ls
-sudo chown -R bitstudent ~/OE2-Group-Project/Db-VM
-cd /etc/systemd/system
-ls
-cd ~/OE2-Group-Project/
-git pull
+sudo csysdig 
 exit
-cd OE2-Group-Project/
-git pull
-ls -al
-cd .git/
-ls -al
-cd ..
-ls 
-git pull
-cd .git/
-ls -al
-cd ..
-ls 
-sudo nano Scripts/db/backup.sh 
-bash Scripts/db/backup.sh 
-cd /etc/
-ls -al
-ls
-sudo mv node_exporter/ node-exporter
-ls
-cd ~
-cd OE2-Group-Project/
-bash Scripts/db/backup.sh 
+cd OE2-Group-Project/Scripts/backup/
+sudo nano backup.sh 
 exit
-ls
-cd /etc/puppet/
-ls
-cd code/
-ls
-ifconf
-ifconfig
-ssh bitstudent@20.58.164.44
-exit
-ls
-sudo vim rsync 
-cd /etc/
-ls
-cd ~
-ls
-vim rsync 
-ls
-exit
-ls
-vim hostConf 
-ls
-mod
-ls
-cd /etc
-ls
-cd puppet/
-ls
-vim hiera.yaml 
-ls
-vim puppet.conf 
-vim auth.conf 
-ls
-ls code/
-ls
-cd my
-ls
-cd ..
-cd mysql/
-ls
-vim mariadb.cnf 
-vim mariadb.conf.d/
-cd mariadb.conf.d/
-ls
-cd ..
-ls
-cd conf.d/
-ls
-vim mysql
-vim mysql.cnf 
-vim mysqldump.cnf 
-ks
-ls
-cd ..
-ls
-cd ..
-ls
-cd puppet/
-ls
-cd ~/OE2-Group-Project/
-cd Scripts/
-ls
-cd ..
-ls
-git pull
-cd /home/bitstudent/OE2-Group-Project/Mgmt-VM/puppet/code/modules/rsync/files
-ls
-./restore.sh 
-vim restore.sh 
-./restore.sh clear
-clear
-./restore.sh
-clear
-./restore.sh
-vim restore.sh 
-./restore.sh
-git stash
-ls
-vim restore.sh 
-./restore.sh
-git stash
-git status
-ls
-cd OE2-Group-Project/
-git status
-cd ~/OE2-Group-Project/
-git pull
-sudo vim  Mgmt-VM/puppet/code/modules/rsync/files/restore.sh   
-cd  Mgmt-VM/puppet/code/modules/rsync/files
-./restore.sh 
-ls
-sudo vim restore.sh 
-clear
-./restore.sh 
-ls
-sudo vim restore.sh 
-pwd
-cd ~/OE2-Group-Project/
-git pull
-Mgmt-VM/puppet/code/modules/rsync/files/restore.sh 
-ls
-git pull
-Mgmt-VM/puppet/code/modules/rsync/files/restore.sh 
-pwd
-ls
-git pull
-Mgmt-VM/puppet/code/modules/rsync/files/restore.sh 
-ls
-cd /etc/
-ls
-respup
-statpup
-ls
-sudo mkdir backup
-ls
-respup
-cd backup/
-ls
-respup
-statpup
-respup
-statpup
-respup
-statpup
-respup
-statpup
-ls
-pwd
-respup
-ls
-ls -la
-ls
-sudo rm restore.sh 
-ls
-cd ..
-respup
-statpup 
-ls
-ls backup/
-ls corn.d
-ls
-cd cron.d
-ls
-sudo reboot
-sudo mysqldump --all-databases --add-drop-table > /home/bitstudent/backup-file.sql
-ls
-ls -al
-sudo mkdir mysql-backup
-ls -al
-sudo chown bitstudent mysql-backup/
-sudo chgrp bitstudent mysql-backup/
-sudo chmod mysql-backup 770 -R
-sudo chmod 770 -R mysql-backup/
-ls -al
-sudo rm csysdig.txt 
-sudo rm extime.scap 
-sudo rm trace.scap 
-sudo rm test.2022-05-08 
-sudo rm test
-ls -al
-sudo rm backup-file.sql 
-sudo rm dumpfile.scap 
-ls -al
-sudo rm hostConf 
-sudo rm rsync 
-ls -al
-SQLDATE=`date +%d%m%Y%H%M%S`
-sudo mysqldump --all-databases --add-drop-table > "~/mysql-backup/$SQLDATE.sql"
-sudo mysqldump --all-databases --add-drop-table > ~/mysql-backup/$SQLDATE.sql
-ls -al
-cd mysql-backup/
-ls -al
-sudo chown -R bitstudent mysql-backup
-sudo chgrp -R bitstudent mysql-backup
-sudo chown -R bitstudent ~/mysql-backup
-sudo chgrp -R bitstudent ~/mysql-backup
-sudo chmod ~/mysql-backup 770 -R
-sudo chmod mysql-backup 770 -R
-ls -al
-cd ..
-ls
-ls -al
-sudo chmod mysql-backup 770 -R
-sudo chmod mysql-backup/ 770 -R
-sudo chmod 770 -R ~/mysql-backup/
-code
-ls
-cd OE2-Group-Project/Mgmt-VM/
-ls
-cd puppet/
-ls
-cd code/
-ls
-cd modules/rsync/
-ls
-cd files/
-ls
-git rm -r app/
-git rm -r backup/
-git rm -r db/
-git rm -r mgmt/
-ls
-bash restore.sh 
-budb
-ls
-exit
-ls
-cd OE2-Group-Project/
-ls
-cd Db-VM/
-ls
-cd ..
-ls
-cd Mgmt-VM/
-ls
-cd puppet/code/modules/
-ls
-cd rsync/
-cd files/
-ls
-./restore.sh 
-mysql
-sudo mysql
-ls
-mysql
-sudo mysqldump --skip-extended-insert --all-databases --add-drop-table > /home/bitstudent/mysql-backup/$MYSQLFOLDER/mysql.sql
-ls
-cd mysql-backup/
-ls
-cd ..
-sudo rm -r mysql-backup/
-sudo mysqldump --skip-extended-insert --all-databases --add-drop-table > /home/bitstudent/mysql-backup/$MYSQLFOLDER/mysql.sql
-sudo mkdir mysql-backup
-sudo chgrp bitstudent mysql-backup/
-sudo chown bitstudent mysql-backup/
-sudo mysqldump --skip-extended-insert --all-databases --add-drop-table > /home/bitstudent/mysql-backup/$MYSQLFOLDER/mysql.sql
-ls
-cd mysql-backup/
-ls
-ls
-cd mysql-backup/
-ls
-rm test 
-ls
-cd ~/OE2-Group-Project/
-git pull
-ls
-cd ~
-ls
-cd mysql-backup/
-ls
-l
-ls
-pwd
-ls
-touch test
-ls
-rm test 
-ls
-sudo touch test2
-ls
-rm test2 
-ls
-pwd
-ls
-cd ~/OE2-Group-Project/
-ls
-git pull
-cd ~
-ls
-cd mysql-backup/
-ls
-pwd
-ls
-sudo touch test1
-ls
-rm test1 
-ls
-cd ~/OE2-Group-Project/
-ls
-git pull
-cd ~
-ls
-cd mysql-backup/
-ls
-rm -r 15052022
-ls
-cd ~/OE2-Group-Project/
-ls
-git pull
-ls
-cd ~
-ls
-cd mysql-backup/
-ls
-cd ~/OE2-Group-Project/
-git pull
-ls
-cd ~
-ls
-cd mysql-backup/
-ls
-cd 15052022/
-ls
-touch mysql.sql
-;s
-ls
-rm mysql.sql 
-ls
-cd ~/OE2-Group-Project/
-git pull
-cd ~
-ls
-cd mysql-backup/
-ls
-cd 15052022/
-ls
-cd ~
-cd OE2-Group-Project/
-git pull
-ls
-git pull
-cd ~
-ls
-cd mysql-backup/
-ls
-cd ..
-ls
-cd OE2-Group-Project/
-git pull
-cd 
-cd ~
-ls
-ls -la
-ls
-cd mysql-backup/
-ls
-rm mysql.sql 
-ls
-touch test
-ls
-rm test 
-ls
-lsls
-ls
-touch test2 
-ls
-la
-touch test1
-ls
-ls -la
-ls
-rm test1 
-l
-ls
-sudo mv sqlbackup.sql backup.sql
-l
-ls
-rm sqlbackup.sql 
-ls
-rm sqlbackup.sql 
-rm backup.sql 
-ls
-rm test2 
-ls
-sudo vim 15052022222929.sql 
-ls
-ls
-cd OE2-Group-Project/
-ls
-cd ..
-ls
-cd OE2-Group-Project/
-git pull
-cd Mgmt-VM/
-ls
-cd puppet/code/modules/rsync/files/
-./restore.sh 
-ls
-ls ~/
-cd ~
-cd mysql-backup/
-ls
-vim 15052022085325.sql 
-ls
-touch test
-ls
-cd ~/OE2-Group-Project/
-cd Mgmt-VM/
-ls
-cd puppet/code/modules/rsync/files/
-./restore.sh 
-ls
-./restore.sh 
-ls
-./restore.sh 
-cd ~/OE2-Group-Project/
-git pull
-cd ~/OE2-Group-Project/Mgmt-VM/puppet/code/modules/rsync/files
-./restore.sh 
-ls
-vim restore.sh 
-./restore.sh 
-ls
-./restore.sh 
-cd ~/home/bitstudent/mysql-backup
-cd ~
-;s
-ls
-cd mysql-backup/
-ls
-cd ~/OE2-Group-Project/Mgmt-VM/puppet/code/modules/rsync/files
-./restore.sh 
-ls
-vim restore.sh 
-ls
-cd ~/home/bitstudent/mysql-backup
-cd /home/bitstudent/mysql-backup
-ls
-cd ~/OE2-Group-Project/Mgmt-VM/puppet/code/modules/rsync/files
-ls
-./restore.sh 
-vim restore.sh 
-./restore.sh 
-ls
-./restore.sh 
-ls
-./restore.sh 
-ls
-./restore.sh 
-ls
-./restore.sh 
-vim restore.sh 
-./restore.sh 
-ls
-./restore.sh 
-vim restore.sh 
-./restore.sh 
-vim restore.sh 
-./restore.sh 
-vim restore.sh 
-./restore.sh 
-ls
-vim restore.sh 
-cd OE2-Group-Project/
-ls
-cd Mgmt-VM/
-ls
-cd puppet/code/modules/rsync/ls
-cd puppet/code/modules/rsync/files/
-ls
-sudo vim restore.sh 
-vim restore.sh 
-grep -ic cron /var/log/* | grep -v :0
-sudo grep -ic cron /var/log/* | grep -v :0
-grep -ic cron /var/log/* | grep -v :0
-grep cron /etc/rsyslog.conf
-systemctl status cron
-sudo grep –a “Cron.sh” /var/log/syslog
-sudo grep –a “restore.sh” /var/log/syslog
-sudo grep –a “backup.sh” /var/log/syslog
-sudo grep -i certbot /var/log/syslog
-sudo ag certbot /var/log/syslog
-syslog
-sudo grep -i certbot /var/log/syslog
-ls
-sudo sysdig
-sudo csysdig
-ls
-exit
-vim log.log 
-ls
-cd /etc/backup/
-ls
-vim restore.sh 
-ls
-cd ~
-ls
-vim log.log 
-ls 
-cd /etc/backup/
-./restore.sh 
-cd ~
-ls
-vim log.log 
-ls
-vim log.log 
-crontab -e
-cd /etc/backup/
-ls
-rm restore
-sudo rm restore
-ls -ls
-ls -la
-ls
-cd ~
-ls
-crontab -e 
-ls
-vim log.log 
-crontab -e 
-ls
-pwd
-ls
-cd .ssh
-ls
-cat ~/.ssh/db_key.pub >> ~/.ssh/authorized_keys
-ls
-cat ~/.ssh/restore.key.pub >> ~/.ssh/authorized_keys
-ls
-cd ~
-ls
-la
-ls
-mkdir db
-ls
-cd db/
-ks
-ls
-cd .
-ls
-cd ..
-ls
-cd /etc/
-ls
-cd mysql/
-ls
-ls -la
-cd ..
-ls l-a
-ls -la
-cd ~
-ls
-cd db/
-ls
-cd ..
-ls
-ls -la
-ls
-chmod o+w db/
-ls
-ls -la
-ls
-cd db/
-ls
-rsync -avzhe ssh groupb@restore-b.foo.org.nz:/home/bitstudent/db /backup/db
-rsync -avzhe ssh groupb@restore-b.foo.org.nz:db /backup/db
-rsync -avzhe ssh groupb@restore-b.foo.org.nz:backup /backup/db
-rsync -avzhe ssh groupb@restore-b.foo.org.nz:backup /home/bitstudent/db
-ls
-cd ..
-ls
-cd db
-ls
-cd backup/
-ls
-rsync -avzhe ssh groupb@restore-b.foo.org.nz:backup/db /home/bitstudent/db
-ls
-cd ..
-ls
-rsync -avzhe ssh groupb@restore-b.foo.org.nz:backup/db /home/bitstudent/dbls
-ls
-cd db
-ls
-ls -la
-ls
-rsync -hvrPt ssh groupb@restore-b.foo.org.nz:backup/db /home/bitstudent/dbls
-rsync -tP ssh groupb@restore-b.foo.org.nz:backup/db /home/bitstudent/dbls
-rsync -avzhe ssh groupb@restore-b.foo.org.nz:backup/db /home/bitstudent/dbls
-ls
-cd ..
-s
-l
-ls
-rsync -avzhe ssh groupb@restore-b.foo.org.nz:backup/db /home/bitstudent/dbls
-cd db
-ls
-rm -r *
-sudo rm -r *
-cd ..
-rsync -avzhe ssh groupb@restore-b.foo.org.nz:backup/db /home/bitstudent/dbls
-ls
-cd db/
-ls
-cd ..
-ls
-l
-ls
-rsync -avzhe ssh groupb@restore-b.foo.org.nz:backup/db /home/bitstudent/db
-ls
-cd db/
-ls
-rsync -avzhe ssh groupb@restore-b.foo.org.nz:backup/db /home/bitstudent/db
-ls
-sudo rm -r *
-rsync -avzhe ssh groupb@restore-b.foo.org.nz:backup/db /home/bitstudent/db
-ls
-rsync -avzhe ssh groupb@restore-b.foo.org.nz:backup/db /home/bitstudent/db
-ls
-rsync -avzhe ssh groupb@restore-b.foo.org.nz:backup/db /home/bitstudent/db
-vim xxx 
-ls
-cd /etc/backup/
-vim restore.sh 
-sudo vim restore.sh 
-ls
-cd ~
-ls
-mkdir test
-ls
-cd test/
-ls
-touch test 1
-touch test 2
-ls
-touch test2
-ls
-cd /etc/backup/
-./restore.sh 
-ls
-cd ~
-ls
-cd test/
-ls
-rm test
-ls
-cd /etc/ba
-cd /etc/backup/
-./restore.sh 
-ls
-cd ~
-ls
-cd test/
-ls
-vim test2 
-cd /etc/backup/
-./restore.sh 
-ls
-cd ..
-ls
-cd ~
-ls
-cd mysql-backup/
-ls
-rsync -avzhe ssh groupb@restore-b.foo.org.nz:backup/db /home/bitstudent/dbls
-cd ~
-ls
-cd test/
-ls
-vim test2 
-rsync -avzhe ssh groupb@restore-b.foo.org.nz:backup/db /home/bitstudent/dbls
-ls
-cd /etc/backup/
-./restore.sh 
-cd ~
-ls
-cd test/
-ls
-vim test2 
-cd /etc/backup/
-./restore.sh 
-ls
-cd ~
-l
-cd test/
-vim test2 
-cd /etc/backup/
-./restore.sh 
-ls
-cd ~
-ls
-cd test/
-ls
-rm 1
-rm 2
-ls
-./etc/backup/restore.sh
-bash ./etc/backup/restore.sh
-ls
-touch test1
-ls
-cd /etc/backup
-./restore.sh 
-ls
-cd ~
-sl
-ls
-cd db
-l
-cd ..
-,s
-ls
-cd test/
-ls
-rm * 
-ls
-touch testA testB
-ls
-cd /etc/backup/
-./restore.sh 
-vim restore.sh 
-sudo bim restore.sh 
-sudo vim restore.sh 
-./restore.sh 
-cd ~
-ls
-cd test/
-ls
-sudo vim testA 
-cd /etc/backup/
-./restore.sh 
-cd ~
-ls
-cd test/
-ls
-vim testA
-cd /etc/backup/
-sudo vim restore.sh 
-ssh groupb@20.211.191.46
-cd /etc/mysql/debian.cnf
-cd /etc/mysql/
-ls
-vim debian.cnf 
-sudo vim debian.cnf 
-cd /etc/backup/
-sudo vim restore.sh 
-./restore.sh 
-sudo vim restore.sh 
-./restore.sh 
-sudo vim restore.sh 
-./restore.sh 
-sudo vim restore.sh 
-./restore.sh 
-sudo vim restore.sh 
-ls
-cd !
-cd ~
-tar -zcf /home/bitstudent/test/backup-$(date +%Y%m%d).tar.gz -C /etc/mysql
-cd /etc/mysql
-tar -zcf /home/bitstudent/test/backup-$(date +%Y%m%d).tar.gz -C /etc/mysql
-tar -zcf /home/bitstudent/test/backup-$(date +%Y%m%d).tar.gz -C /etc/mysql/
-tar -zcf /home/bitstudent/test/backup-$(date +%Y%m%d).tar.gz -C /etc/mysql
-cd ~
-ls
-cd test/
-ls
-pwd
-tar -zcf /home/bitstudent/test/backup-$(date +%Y%m%d).tar.gz -C /etc/mysql
-sudo tar -zcf /home/bitstudent/test/backup-$(date +%Y%m%d).tar.gz -C /etc/mysql
-sudo tar -zcf /home/bitstudent/test/backup-$(date +%Y%m%d).tar.gz -C /etc/mysql .
-ls
-tar -xvf backup-20220518.tar.gz 
-ls
-rm -r *
-sudo rm -r *
-ls
-sudo tar -zcf /home/bitstudent/test/backup-$(date +%Y%m%d).tar.gz -C /etc/mysql .
-ls
-tar -tvf backup-20220518.tar.gz 
-ls
-sudo tar -zcf /home/bitstudent/test/backup-$(date +%Y%m%d).tar.gz -C /etc/mysql 
-sudo tar -zcf /home/bitstudent/test/backup-$(date +%Y%m%d).tar.gz -C /etc/mysql
-sudo tar -zcf /home/bitstudent/test/backup-$(date +%Y%m%d).tar.gz -C /etc/mysql .
-ls
-sudo tar -zcf /home/bitstudent/test/backup-$(date +%Y%m%d).tar.gz  /etc/mysql .
-ls
-rm backup-20220518.tar.gz 
-sudo rm backup-20220518.tar.gz 
-sudo tar -zcf /home/bitstudent/test/backup-$(date +%Y%m%d).tar.gz  /etc/mysql
-sudo tar -zcf /home/bitstudent/test/backup-$(date +%Y%m%d).tar.gz  /etc/mysql .
-ls
-tar -tvf backup-20220518.tar.gz 
-ls
-rm backup-20220518.tar.gz 
-ls
-sudo rm backup-20220518.tar.gz 
-ls
-tar -zcf /home/bitstudent/test/backup-$(date +%Y%m%d).tar.gz  ./etc/mysql .
-ls
-tar -tvf backup-20220518.tar.gz 
-tar -zcf /home/bitstudent/test/backup-$(date +%Y%m%d).tar.gz /etc/mysql
-sudo tar -zcf /home/bitstudent/test/backup-$(date +%Y%m%d).tar.gz /etc/mysql
-ls
-tar -tvf backup-20220518.tar.gz 
-ls
-tar -xvf backup-20220518.tar.gz 
-ls
-cd etc/
-ls
-cd mysql/
-ls
-cd ..
-ls
-rm -r 
-sudo rm -r  *
-sudo tar -zcf /home/bitstudent/test/backup-$(date +%Y%m%d).tar.gz /mysql
-sudo tar -zcf /home/bitstudent/test/backup-$(date +%Y%m%d).tar.gz etc/mysql
-sudo tar -zcf /home/bitstudent/test/backup-$(date +%Y%m%d).tar.gz /etc/mysql
-ls
-tar -xvf backup-20220518.tar.gz 
-ls
-sudo tar -zcf /home/bitstudent/test/backup-$(date +%Y%m%d).tar.gz --directory=/etc/mysql
-sudo tar -zcf /home/bitstudent/test/backup-$(date +%Y%m%d).tar.gz --directory=/etc/mysql .
-ls
-sudo rm -r *
-sudo tar -zcf /home/bitstudent/test/backup-$(date +%Y%m%d).tar.gz --directory=/etc/mysql .
-ls
-tar -xvf backup-20220518.tar.gz 
-ls
-sudo rm -r *
-sudo tar -zcf /home/bitstudent/test/backup-$(date +%Y%m%d).tar.gz --directory=/etc /mysql .
-ls
-tar -xvf backup-20220518.tar.gz 
-ls
-sudo rm -r *
-ls
-sudo tar -zcf /home/bitstudent/test/backup-$(date +%Y%m%d).tar.gz --directory=/etc/mysql
-sudo tar -zcf /home/bitstudent/test/backup-$(date +%Y%m%d).tar.gz -C /etc/mysql .
-ls
-tar -xvzf backup-20220518.tar.gz 
-ls
-tar -xvzf tgz backup-20220518.tar.gz 
-sudo rm -r *
-tar -xvzf backup-20220518.tar.gz --strip=1
-ls
-sudo tar -zcf /home/bitstudent/test/backup-$(date +%Y%m%d).tar.gz --directory=/etc/mysql
-sudo tar -zcf /home/bitstudent/test/backup-$(date +%Y%m%d).tar.gz --directory=/etc/mysql .
-tar -xvzf backup-20220518.tar.gz --strip=1
-ls
-sudo rm -r *
-ls
-sudo tar -zcf /home/bitstudent/test/backup-$(date +%Y%m%d).tar.gz --directory=/etc/mysql/
-sudo tar -zcf /home/bitstudent/test/backup-$(date +%Y%m%d).tar.gz --directory=/etc/mysql/ .
-ls
-tar -xvzf backup-20220518.tar.gz --strip=1
-ls
-sudo rm -r *
-ls
-lsls
-ls
-touch test3 test4
-ls
-cd /etc/backup/
-ls
-vim restore.sh 
-sudo vim restore.sh 
-./restore.sh 
-ls
-cd ~
-ls
-touch test.sh
-vim test.sh 
-chmod +x test.sh 
-./test
-./test.sh 
-vim test.sh 
-./test.sh 
-ls
-vim test.sh 
-./test.sh 
-vim test.sh 
-rm test.sh 
-ls
-cd dbls/
-ls
-cd ..
-ls
-rm dbls/
-rm dbls/ -r
-sudo rm dbls/ -r
-touch test
-vim test/
-l
-vim backup.sh
-chmod +x backup.sh 
-./backup.sh 
-vim backup.sh
-./backup.sh 
-vim backup.sh
-./backup.sh 
-vim backup.sh
-./backup.sh 
-ls
-vim backup.sh
-./backup.sh 
-vim backup.sh
-./backup.sh 
-vim backup.sh
-./backup.sh 
-vim backup.sh
-./backup.sh 
-ls
-vim backup.sh
-./backup.sh 
-ls
-cd mysql-backup/
-ls
-cd ..
-ls
-vim backup.sh
-./backup.sh 
-vim backup.sh
-./backup.sh 
-vim backup.sh
-ls
-rm backup.sh 
-ls
-statpup
-cd OE2-Group-Project/Scripts/db/
-ls
-ls -al
-./backup.sh 
-crontab -e
-exit
-sudo cat /var/log/cron.log
-crontab -e
-sudo nano /etc/rsyslog.d/50-default.conf
-sudo -i
-sudo nano /etc/rsyslog.d/50-default.conf
-sudo cat /var/log/cron.log
-sudo cat /var/log/user.log
-sudo chgrp adm /var/log/cron.log
-sudo chown syslog /var/log/cron.log
-sudo chmod 775 /var/log/cron.log
-sudo chmod 775 /var/log/user.log
-sudo chown syslog /var/log/user.log
-sudo chgrp adm /var/log/user.log
-sudo cat /var/log/user.log
-sudo cat /var/log/cron.log
-cd ~/OE2-Group-Project/Scripts/db
-./backup.sh 
-ls
-sudo nano backup.sh 
-./backup.sh 
-exit
-sudo cat /var/log/user.log
-cd ~/OE2-Group-Project/
-ls
-cd ls
-ls
-cd Db-VM/
-cd ../Scripts/db
-ls
-sudo nano backup.sh 
-budb
-crontab -e
-ls
-cd ../
-ls
-cd ..
-ls
-cd Db-VM/
-ls
-sudo nano crontab.txt 
-budb
-cd /var/log
-ls
-ls -al
-sudo nano /etc/rsyslog.d/50-default.conf
-cd /var/log
-sudo nano touch daemon.log
-ls -al
-sudo chgrp adm /var/log/daemon.log
-sudo chown syslog /var/log/daemon.log
-sudo chmod 775 /var/log/daemon.log
-sudo systemctl restart rsyslog
-sudo systemctl status rsyslog
-sudo cat /var/log/daemon.log
-sudo cat /var/log/cron.log
-sudo cat /var/log/daemon.log
-cd ~/OE2-Group-Project/Scripts/db
-sudo nano backup.sh 
-budb
-exit
-sudo nano /etc/rsyslog.d/50-default.conf
-cd /var/log/
-ls
-cat auth.log
-cat auth.log.1
-cat monit.log 
-ls
-cat syslog
-cd ~/OE2-Group-Project/Scripts/db
-ls
-sudo nano backup.sh 
-budb
-crontab -e
-sudo nano /etc/logrotate.d/rsyslog 
-sudo systemctl restart rsyslog
-sudo systemctl status rsyslog
-sudo nano /etc/logrotate.d/rsyslog 
-sudo systemctl restart rsyslog
-sudo systemctl status rsyslog
-sudo nano backup.sh 
-budb
-sudo nano backup.sh 
-budb
-cd ../../Db-VM/
-ls
-mkdir Logs
-sudo rm Logs 
-mkdir Logs
-ls
-ls -al
-sudo mv 50-default.conf Logs/
-sudo mv cron.log Logs/
-sudo mv daemon.log Logs/
-cd Logs/
-ls
-cd ..
-git add .
-git status
-cd Scripts/db
-ls
-sudo nano backup.sh 
-budb
-cd ../../
-ls
-cd Db-VM/
-ls
-sudo mv user.log Logs/
-ls
-git add .
-cd ~
-cat /var/log/cron.log 
-exit
-sudo nano OE2-Group-Project/Scripts/db/backup.sh 
-crontab -e
-ls -al
-cd OE2-Group-Project/Scripts/db
-ls -al
-cd /etc
-cd backup/
-ls -al
-crontab -e
-cd ~/OE2-Group-Project/Scripts/db
-backup.sh
-./backup.sh 
-sudo nano backup.sh 
-cd /var/log
-ls -al
-cat user.log 
-cat daemon.log 
-cat cron.log 
-cd ~
-ls
-cd /var/log
-ls
-cat cron.log 
-cat daemon.log 
-sudo nano /etc/logrotate.d/rsyslog 
-cat daemon.log 
-cat cron.log 
-cat daemon.log 
-cat cron.log 
-cat user.log 
-cat cron.log 
-cat daemon.log 
-exit
-cd ..
-cd /etc
-cd nagios-plugins/
-ls
-cd config/
-ls
-vim check_nrpe.cfg 
-cd ..
-ls
-respup 
-ls
-cd config/
-ls
-vim check_nrpe.cfg 
-sudo vim check_nrpe.cfg 
-cd ..
-lks
-ls
-cd nagios
-ls
-vim nagios_service.cfg 
-vim nrpe.cfg 
-ls
-vim nrpe.cfg 
-respup
-sudo systemctl restart nagios-nrpe-server
-respup
-vim /etc/hosts
-ls
-sudo vim nrpe.cfg 
-sudo systemctl status nagios-nrpe-server
-respup
-sudo systemctl restart nagios-nrpe-server
-sudo systemctl status nagios-nrpe-server
-sudo systemctl restart nagios-nrpe-server
-sudo systemctl status nagios-nrpe-server
-respup
-sudo systemctl status nagios-nrpe-server
-sudo vim nrpe.cfg 
-site
-sudo systemctl restart nagios-nrpe-server
-sudo systemctl status nagios-nrpe-server
-respup
-sudo systemctl restart nagios-nrpe-server
-sudo systemctl status nagios-nrpe-server
-sudo systemctl restart nagios-nrpe-server
-sudo systemctl status nagios-nrpe-server
-sudo vim nrpe.cfg 
-exit
-ls
-sudo systemctl status rsync
-ls
-sudo systemctl status rsync
-sudo reboot
-budb
-crontab -e
-cd /etc/backup
-ls
-ls -al
-sudo chmod g+w daily -r
-sudo chmod +w daily -r
-sudo chmod g+w daily -r
-sudo chmod g+w daily
-ls -al
-sudo chmod 777 daily
-ls -al
-sudo chmod 774 daily -r
-sudo chmod 774 daily/
-ls -al
-sudo chmod 775 daily/
-ls -al
-sudo chmod 775 weekly/
-ls -al
-cd daily/
-ls -al
-cd ..
-sudo chmod 775 weekly/ -r'
-sudo chmod 775 weekly/ -r
-sudo chmod 775 -R weekly/
-sudo chmod 775 -R daily/
-ls -al daily/
-cd ..
-ls -al
-cd backup/
-ls -al
-budb
-cd ~/OE2-Group-Project/Scripts/
-cd db
-sudo nano backup.sh 
-budb
-cd /var/log
-;s
-ls
-ls -al
-sudo systemctl restart rsyslog
-sudo systemctl status rsyslog
-sudo cat /var/log/cron.log
-sudo nano /etc/rsyslog.d/50-default.conf
-sudo systemctl restart rsyslog
-sudo systemctl status rsyslog
-sudo cat /var/log/cron.log
-sudo cat /var/log/user.log
-sudo cat /var/log/daemon.log
-sudo cat /var/log/user.log
-sudo cat /var/log/daemon.log
-sudo cat /var/log/cron.log
-sudo nano /etc/rsyslog.d/50-default.conf
-sudo systemctl restart rsyslog
-sudo systemctl status rsyslog
-sudo cat /var/log/cron.log
-sudo cat /var/log/daemon.log
-sudo cat /var/log/user.log 
-sudo cat /var/log/daemon.log
-sudo cat /var/log/user.log 
-sudo cat /var/log/cron.log
-cd ~/OE2-Group-Project/Scripts/
-cd db
-sudo nano backup.sh 
-budb
-sudo nano backup.sh 
-cd ../mgmt/
-sudo nano backup.sh 
-budb
-cd ../backup/
-sudo nano backup.sh 
-cd ../app
-sudo nano backup.sh 
-cd ../db
-sudo nano backup.sh 
-budb
-cd ../../
-git pull
-exit
-crontab -e
-exit
-ls
 statpup
 statnag
-cat /var/log/user.log 
+cd OE2-Group-Project/
+git pull
+cd Mgmt-VM/
 ls
-sudo systemctl status resync
-sudo systemctl status rsync
-cat /var/log/user.log 
+cd node_exporter/
+ls
+cd ..
+sudo rm -r prometheus-plugins/
+sudo rm services 
+cd ..
+git pull
+cd Mgmt-VM/
+ls -al
+cd ..
+exit
+cd OE2-Group-Project/Scripts/
+ls -al
+cd backup/
+ls -al
+sudo nano backup.sh 
+exit
+cd OE2-Group-Project/
+git pull
+cd ..
+sudo rm OE2-Group-Project/
+sudo rm OE2-Group-Project/ -r
+git clone https://github.com/leggant/OE2-Group-Project.git
+ls -al
+cd OE2-Group-Project/
+ls -al
+cd .git
+ls -al
+cd ..
+cd Scripts/
+ls -ak
+ls -al
+cd backup/
+ls -al
+sudo nano backup.sh 
+cd ..
+cd..
+cd ..
+ls 
+git add ,
+git add .
+git status
+git commit -m "backup: correct script path" -m "backup-b"
+git push
+cd Scripts/backup/
+sudo nano backup.sh 
+cd ~/OE2-Group-Project/
+git add .
+git commit -m "backup: correct script path" -m "backup-b"
+git push
+ls -al
+cd .git
+ls -al
+cd ..
+cd Scripts/backup/
+cd ~/OE2-Group-Project/
+git pull
+exit
+cd OE2-Group-Project/
+bash Scripts/backup/backup.sh 
+cd .git
+ls -al
+cd ..
+cd Scripts/
+ls -al
+cd backup/
+ls -al
 cd /etc
+cd prometheus-plugins/
+ls
+cd ..
+ls
+cd ~/OE2-Group-Project/Scripts/
+cd backup/
+sudo nano backup.sh 
+bash backup.sh
+sudo vi ~/.bashrc
+source ~/.bashrc
+bubup
+exit
+sudo vi ~/.bashrc
+exit
+sudo vi ~/.bashrc
+exit
+sudo reboot
+exit
+cd OE2-Group-Project/Scripts/backup/
+sudo nano history.sh
+sudo nano backup.sh 
+sudo nano history.sh
+sudo nano backup.sh 
+sudo nano history.sh
+sudo nano backup.sh 
+sudo nano history.sh
+bash history.sh 
+cd ../..
+ls
+git status
+cd OE2-Group-Project/
+git pull
+Mgmt-VM/puppet/code/modules/rsync/files/restore.sh 
+sudo vim Mgmt-VM/puppet/code/modules/rsync/files/restore.sh 
+Mgmt-VM/puppet/code/modules/rsync/files/restore.sh 
+sudo vim Mgmt-VM/puppet/code/modules/rsync/files/restore.sh 
+Mgmt-VM/puppet/code/modules/rsync/files/restore.sh 
+sudo vim Mgmt-VM/puppet/code/modules/rsync/files/restore.sh 
+Mgmt-VM/puppet/code/modules/rsync/files/restore.sh 
+sudo vim Mgmt-VM/puppet/code/modules/rsync/files/restore.sh 
+Mgmt-VM/puppet/code/modules/rsync/files/restore.sh 
+ls
+exit
+ls
+exit
+cd /etc/backup/
+ls
+crontab -e
+sudo reboot
+crontab -e
+cd ~/OE2-Group-Project/Scripts/backup/
 ls
 ls -al
-cd rsyslog.d/
-ls -al
+./backup.sh 
 cd ..
-sudo systemctl restart rsync
-sudo systemctl status rsync
-cat /var/log/user.log 
+le
+cd ~
+ls
+statpup
+exit
+crontab -e
+sudo nano /etc/rsyslog.d/50-default.conf
+sudo nano /var/log/cron.log
+sudo nano /var/log/user.log
+sudo systemctl restart rsyslog
+sudo systemctl status rsyslog
+sudo cat /var/log/user.log
+cat /var/log/user.log
+grep 'cron|CRON' /var/log/syslog | less
+sudo systemctl status rsyslog
+cat /var/log/cron.log
+cat /var/log/user.log
+cd /var/log
+ls -al
+sudo chmod 755 user.log
+ls -al
+sudo chmod 755 cron.log
+ls -al
+sudo systemctl restart rsyslog
+sudo systemctl status rsyslog
+ls -al
 sudo -i
-cd /home
+exit
+cat /var/log/user.log
+sudo cat /var/log/user.log
 ls
-cd ~
-ls
-respup
-statpup
-cat /var/log/user.log 
-sudo systemctl restart rsync
-sudo systemctl status rsync
-cat /var/log/user.log 
-cd /etc/backup/
-ls
-./restore.sh 
-ls
-cd daily/
+cd /var/log/
 ls
 ls -al
-cd ..
+sudo vi /etc/rsyslog.d/50-default.conf
+rsyslogd -v
+sudo nano /etc/rsyslog.conf
+sudo chgrp adm /var/log/cron.log
+sudo chown syslog /var/log/cron.log
+sudo chown syslog /var/log/user.log
+sudo chgrp adm /var/log/user.log
+sudo systemctl restart rsyslog
+sudo systemctl status rsyslog
+cd ~
+ls
+sudo cat /var/log/cron.log
+sudo cat /var/log/user.log
+ls -al /var/log
+sudo chmod 766 cron.log
+sudo chmod 766 /var/log/cron.log
+sudo chmod 766 /var/log/user.log
+ls -al /var/log
+sudo chmod 777 /var/log/user.log
+sudo chmod 777 /var/log/cron.log
+sudo chmod 775 /var/log/cron.log
+sudo chmod 775 /var/log/user.log
+ls -al /var/log
+sudo systemctl restart rsyslog
+sudo systemctl status rsyslog
+sudo cat /var/log/cron.log
+sudo cat /var/log/user.log
+exit
+sudo cat /var/log/user.log
+sudo cat /var/log/cron.log
+exit
+crontab -e
+exit
+crontab -e
+sudo cat /var/log/user.log
+sudo cat /var/log/cron.log
+sudo cat /var/log/user.log
+sudo nano ~/OE2-Group-Project/Scripts/backup/backup.sh 
+bash ~/OE2-Group-Project/Scripts/backup/backup.sh 
+sudo cat /var/log/user.log
+cd /var/log
+ls
+ls -al
+cd ~
+ls
+sudo vi /etc/rsyslog.d/50-default.conf
+sudo systemctl restart rsyslog
+sudo systemctl status rsyslog
+sudo vi /etc/rsyslog.d/50-default.conf
+sudo nano /etc/rsyslog.d/50-default.conf
+sudo systemctl restart rsyslog
+sudo systemctl status rsyslog
+sudo cat /var/log/user.log
+sudo cat /var/log/cron.log
+sudo systemctl stop cron.d
+sudo systemctl stop cron
+sudo cat /var/log/cron.log
+sudo systemctl restart cron
+sudo cat /var/log/cron.log
+sudo nano /etc/rsyslog.d/50-default.conf
+sudo systemctl restart rsyslog
+sudo systemctl status rsyslog
+sudo cat /var/log/cron.log
+sudo systemctl stop cron
+sudo cat /var/log/cron.log
+sudo systemctl restart rsyslog
+sudo systemctl restart cron
+sudo cat /var/log/cron.log
+crontab -e
+sudo cat /var/log/cron.log
+sudo nano /etc/rsyslog.d/50-default.conf
+crontab -e
+sudo cat /var/log/cron.log
+crontab -e
+sudo cat /var/log/cron.log
+crontab -e
+sudo cat /var/log/cron.log
+crontab -e
+sudo nano /etc/rsyslog.d/50-default.conf
+sudo nano /var/log/daemon.log
+cd /var/log
+ls
+sudo chgrp adm /var/log/daemon.log 
+sudo chown syslog /var/log/daemon.log 
+sudo chmod 775 /var/log/daemon.log 
+sudo systemctl restart rsyslog
+sudo systemctl status rsyslog
+sudo nano /etc/rsyslog.d/50-default.conf
+sudo systemctl restart rsyslog
+sudo systemctl status rsyslog
+sudo cat /var/log/cron.log
+crontab -e
+sudo nano /etc/rsyslog.d/50-default.conf
+sudo systemctl restart rsyslog
+sudo systemctl status rsyslog
+sudo cat /var/log/cron.log
+sudo cat /var/log/user.log
+sudo cat /var/log/daemon.log
+sudo cat /var/log/user.log
+ls -al
+sudo chown root /var/log/user.log 
+sudo chgrp root /var/log/user.log 
+sudo systemctl restart rsyslog
+sudo systemctl status rsyslog
+sudo cat /var/log/user.log
+sudo systemctl status rsyslog
+sudo cat /var/log/user.log
+sudo nano /etc/rsyslog.d/50-default.conf
+sudo systemctl restart rsyslog
+sudo systemctl status rsyslog
+sudo cat /var/log/user.log
+
+sudo cat /var/log/user.log
+sudo systemctl status rsyslog
+sudo cat /var/log/user.log
+sudo cat /var/log/cron.log
+sudo cat /var/log/user.log
+sudo cat /var/log/daemon.log
+exit
+logout
+sudo nano /etc/rsyslog.d/50-default.conf
+cd /var/log
+ls
 ls -al
 crontab -e
-sudo bash /etc/backup/daily.sh
-ssh groupb@20.211.191.46
-sudo bash /etc/backup/weekly.sh
-./etc/backup/weekly.sh
-bash ./etc/backup/weekly.sh
-sudo bash ./etc/backup/weekly.sh
-./weekly.sh
-~
-cd ~
-./etc/backup/weekly.sh
-bash ./etc/backup/weekly.sh
-crontab -e
+cd ~/OE2-Group-Project/Backup-VM/
+cd ../Scripts/backup/
 ls
-cd /etc/backup/
+sudo nano backup.sh 
+cat /var/log/cron.log 
+bubup
+cd /var/log
 ls
-./weekly.sh
+ls -al
+sudo chown syslog user.log 
+sudo chgrp adm user.log 
+sudo systemctl restart rsyslog
+sudo systemctl status rsyslog
+ls -al
+cat user.log 
+exit
+sudo systemctl status rsyslog
+cd /var/log
+cat user.log 
+ls -al
+sudo nano /etc/rsyslog.d/50-default.conf
+sudo systemctl restart rsyslog
+sudo systemctl status rsyslog
+cat user.log 
+sudo systemctl status rsyslog
+cat user.log 
+sudo systemctl status rsyslog
+cat user.log 
+exit
+cat user.log 
+sudo nano /etc/rsyslog.d/50-default.conf
+cd ~/OE2-Group-Project/Scripts/backup/
+sudo nano backup.sh 
 crontab -e
-bash /etc/backup/restore.sh 
-crontab -e
-respup
+cd ../../Backup-VM/
 ls
-respup
+mkdir Logs
+sudo mv user.log Logs/
+sudo mv daemon.log Logs/
+sudo mv cron Logs/
+sudo mv cron.log Logs/
+ls
+cd ../Scripts/backup/
+ls
+sudo nano backup.sh 
+bubup
+exit
+cd OE2-Group-Project/Scripts/
+sudo nano backup/
+sudo nano backup/backup.sh 
+exit
+sudo systemctl restart nagios-nrpe-server
+sudo systemctl status nagios-nrpe-server
+$HOST
+$HOSTNAME
+$HOST
+HOST
+$home
+localhost
 statpup
+statnag
+statpup
+sudo systemctl status nagios-nrpe-server
+respup
+sudo systemctl status nagios-nrpe-server
+sudo systemctl restart nagios-nrpe-server
+sudo systemctl status nagios-nrpe-server
+sudo systemctl restart nagios-nrpe-server
+respup
+sudo systemctl status nagios-nrpe-server
+respup
+sudo systemctl status nagios-nrpe-server
+sudo systemctl restart nagios-nrpe-server
+sudo systemctl status nagios-nrpe-server
+sudo systemctl restart nagios-nrpe-server
+respup
+sudo systemctl restart nagios-nrpe-server
+sudo systemctl status nagios-nrpe-server
+exit
+sudo nano /etc/rsyslog.d/50-default.conf
+cd ~/OE2-Group-Project/
+git pull
+exit
+bubup
+exit
+respup
 ls
 respup
-statpup
 ls
 sudo rm log.log 
-ls
-sudo rm -r test/
-sudo rm -r mysql-backup/
-ls
-respup
-statpup
-ls
-cd OE2-Group-Project/Scripts/db
+ls -al
+cd ~/OE2-Group-Project/Scripts/backup/
 sudo nano backup.sh 
 ./backup.sh 
 sudo nano backup.sh 
+./backup.sh 
+git pull
+git stash
+git pull
+sudo git pull
+sudo git stash
+cd ../../
+sudo git pull
+git stash apply
+git status
+cd Scripts/backup/
+sudo nano backup.sh 
+./backup.sh 
+sudo nano backup.sh 
+./backup.sh 
+sudo nano backup.sh 
+./backup.sh 
+cd /var/log
+cd ~/OE2-Group-Project/Scripts/backup/
+sudo nano backup.sh 
+./backup.sh 
 exit
-sudo reboot
-cat /var/log/cron.log 
-netdata -h
-sudo systemctl stop netdata
-sudo systemctl status netdata
-sudo killall netdata
-ps aux| grep netdata
-sudo killall netdata
-sudo systemctl status netdata
+cat /var/log/cron.log
+exit
 sudo systemctl mask netdata
-sudo systemctl status netdata
-sudo reboot
-cat /var/log/cron.log 
-budb
-crontab -e
-cd /etc/backup/
-./restore.sh 
-sudo ./restore.sh 
-ls 
-sudo mkdir mysql-backup
 respup
-./restore.sh 
-crontab -e
-cat /var/log/cron.log 
-respup
-cat /var/log/cron.log 
-ls
-./restore.sh 
-./daily
-./daily.sh 
-cd /etc/backup/
-ls
-cd mysql-backup/
-ls
-respup
-ls
-cd ..
-ls
-./restore.sh 
-ls
-cd mysql-backup/
-ls
-sudo rm sqlbackup.sql 
-cd ..
-ls
-sudo rm sqlbackup.sql 
-./restore.sh 
-ls
-cd mysql-backup/
-ls
-cd ..
-ls
-respup
-cat /var/log/cron.log 
-exit
-crontab -e
-cat /var/log/cron.log 
-respup
-cd ~
-ls
 ls -al
-sudo rm sqlbackup.sql 
+cd /etc/backup
 ls
+./restore.sh 
+./daily.sh 
+./weekly.sh 
+crontab -e
 exit
-mysql -u root -p
-mysql -u bitstudent -p
-sudo mysql -u root -p
-sudo mysqldump --skip-extended-insert --all-databases --add-drop-table > sqlbackup.sql
-ls
-sudo mysql -u root -p
+./OE2-Group-Project/Scripts/backup/backup.sh 
+sudo ./OE2-Group-Project/Scripts/backup/backup.sh 
+git stash
+sudo ./OE2-Group-Project/Scripts/backup/backup.sh 
+git status
+sudo ./OE2-Group-Project/Scripts/backup/backup.sh 
+cd OE2-Group-Project/
+git status
+git pull
+exit
