@@ -17257,3 +17257,833 @@ May 28 02:09:19 app-b systemd[1]: Starting Clean php session files...
 May 28 02:09:19 app-b sessionclean[25838]: PHP Warning:  Module 'pdo_mysql' already loaded in Unknown on line 0
 May 28 02:09:19 app-b sessionclean[25838]: PHP Warning:  Module 'pdo_mysql' already loaded in Unknown on line 0
 May 28 02:09:19 app-b systemd[1]: Started Clean php session files.
+May 28 02:11:00 app-b nrpe[26076]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 34007
+May 28 02:11:00 app-b nrpe[26076]: Connection from 10.6.0.6 port 34007
+May 28 02:11:00 app-b nrpe[26076]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
+May 28 02:11:00 app-b nrpe[26076]: is_an_allowed_host (AF_INET): host is in allowed host list!
+May 28 02:11:00 app-b nrpe[26076]: Host address is in allowed_hosts
+May 28 02:11:00 app-b nrpe[26076]: Host 10.6.0.6 is asking for command 'check_ping' to be run...
+May 28 02:11:00 app-b nrpe[26076]: Running command: /usr/lib/nagios/plugins/check_ping -H localhost -w 10,2% -c 20,5%
+May 28 02:11:00 app-b nrpe[26077]: WARNING: my_system() seteuid(0): Operation not permitted
+May 28 02:11:04 app-b nrpe[26076]: Command completed with return code 0 and output: PING OK - Packet loss = 0%, RTA = 0.05 ms|rta=0.048000ms;10.000000;20.000000;0.000000 pl=0%;2;5;0
+May 28 02:11:04 app-b nrpe[26076]: Return Code: 0, Output: PING OK - Packet loss = 0%, RTA = 0.05 ms|rta=0.048000ms;10.000000;20.000000;0.000000 pl=0%;2;5;0
+May 28 02:11:04 app-b nrpe[26076]: Connection from 10.6.0.6 closed.
+May 28 02:11:35 app-b nrpe[26092]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 48855
+May 28 02:11:35 app-b nrpe[26092]: Connection from 10.6.0.6 port 48855
+May 28 02:11:35 app-b nrpe[26092]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
+May 28 02:11:35 app-b nrpe[26092]: is_an_allowed_host (AF_INET): host is in allowed host list!
+May 28 02:11:35 app-b nrpe[26092]: Host address is in allowed_hosts
+May 28 02:11:35 app-b nrpe[26092]: Host 10.6.0.6 is asking for command 'check_hd' to be run...
+May 28 02:11:35 app-b nrpe[26092]: Running command: /usr/lib/nagios/plugins/check_disk -w 20% -c 10% -p /dev/sda1
+May 28 02:11:35 app-b nrpe[26093]: WARNING: my_system() seteuid(0): Operation not permitted
+May 28 02:11:35 app-b nrpe[26092]: Command completed with return code 0 and output: DISK OK - free space: /var/tmp 24130 MB (81% inode=93%);| /var/tmp=5452MB;23678;26638;0;29598
+May 28 02:11:35 app-b nrpe[26092]: Return Code: 0, Output: DISK OK - free space: /var/tmp 24130 MB (81% inode=93%);| /var/tmp=5452MB;23678;26638;0;29598
+May 28 02:11:35 app-b nrpe[26092]: Connection from 10.6.0.6 closed.
+May 28 02:12:53 app-b nrpe[26106]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 19160
+May 28 02:12:53 app-b nrpe[26106]: Connection from 10.6.0.6 port 19160
+May 28 02:12:53 app-b nrpe[26106]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
+May 28 02:12:53 app-b nrpe[26106]: is_an_allowed_host (AF_INET): host is in allowed host list!
+May 28 02:12:53 app-b nrpe[26106]: Host address is in allowed_hosts
+May 28 02:12:53 app-b nrpe[26106]: Host 10.6.0.6 is asking for command 'check_users' to be run...
+May 28 02:12:53 app-b nrpe[26106]: Running command: /usr/lib/nagios/plugins/check_users -w 0 -c 2
+May 28 02:12:53 app-b nrpe[26107]: WARNING: my_system() seteuid(0): Operation not permitted
+May 28 02:12:53 app-b nrpe[26106]: Command completed with return code 0 and output: USERS OK - 0 users currently logged in |users=0;0;2;0
+May 28 02:12:53 app-b nrpe[26106]: Return Code: 0, Output: USERS OK - 0 users currently logged in |users=0;0;2;0
+May 28 02:12:53 app-b nrpe[26106]: Connection from 10.6.0.6 closed.
+May 28 02:14:20 app-b python3[1176]: 2022-05-28T02:14:20.575651Z INFO ExtHandler ExtHandler Checking for agent updates (family: Prod)
+May 28 02:14:20 app-b python3[1176]: 2022-05-28T02:14:20.626609Z INFO ExtHandler ExtHandler [HEARTBEAT] Agent WALinuxAgent-2.7.1.0 is running as the goal state agent [DEBUG HeartbeatCounter: 36;HeartbeatId: FFE01850-4B2F-4B0C-A2D0-D04025E24ECA;DroppedPackets: 0;UpdateGSErrors: 0;AutoUpdate: 1]
+May 28 02:16:00 app-b nrpe[26149]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 31961
+May 28 02:16:00 app-b nrpe[26149]: Connection from 10.6.0.6 port 31961
+May 28 02:16:00 app-b nrpe[26149]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
+May 28 02:16:00 app-b nrpe[26149]: is_an_allowed_host (AF_INET): host is in allowed host list!
+May 28 02:16:00 app-b nrpe[26149]: Host address is in allowed_hosts
+May 28 02:16:00 app-b nrpe[26149]: Host 10.6.0.6 is asking for command 'check_ping' to be run...
+May 28 02:16:00 app-b nrpe[26149]: Running command: /usr/lib/nagios/plugins/check_ping -H localhost -w 10,2% -c 20,5%
+May 28 02:16:00 app-b nrpe[26150]: WARNING: my_system() seteuid(0): Operation not permitted
+May 28 02:16:04 app-b nrpe[26149]: Command completed with return code 0 and output: PING OK - Packet loss = 0%, RTA = 0.06 ms|rta=0.061000ms;10.000000;20.000000;0.000000 pl=0%;2;5;0
+May 28 02:16:04 app-b nrpe[26149]: Return Code: 0, Output: PING OK - Packet loss = 0%, RTA = 0.06 ms|rta=0.061000ms;10.000000;20.000000;0.000000 pl=0%;2;5;0
+May 28 02:16:04 app-b nrpe[26149]: Connection from 10.6.0.6 closed.
+May 28 02:16:22 app-b puppet-agent[26155]: (/Stage[main]/Rsync::Config/File[/home/bitstudent/daily.log]/content) content changed '{md5}1c990c4ae4cdd3c39086c796aa5d5562' to '{md5}d41d8cd98f00b204e9800998ecf8427e'
+May 28 02:16:22 app-b puppet-agent[26155]: (/Stage[main]/Rsync::Config/File[/home/bitstudent/weekly.log]/content) content changed '{md5}a8ee84078fab02fcc3b91d7e67d15144' to '{md5}d41d8cd98f00b204e9800998ecf8427e'
+May 28 02:16:23 app-b puppet-agent[26155]: Applied catalog in 0.61 seconds
+May 28 02:16:35 app-b nrpe[26188]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 46809
+May 28 02:16:35 app-b nrpe[26188]: Connection from 10.6.0.6 port 46809
+May 28 02:16:35 app-b nrpe[26188]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
+May 28 02:16:35 app-b nrpe[26188]: is_an_allowed_host (AF_INET): host is in allowed host list!
+May 28 02:16:35 app-b nrpe[26188]: Host address is in allowed_hosts
+May 28 02:16:35 app-b nrpe[26188]: Host 10.6.0.6 is asking for command 'check_hd' to be run...
+May 28 02:16:35 app-b nrpe[26188]: Running command: /usr/lib/nagios/plugins/check_disk -w 20% -c 10% -p /dev/sda1
+May 28 02:16:35 app-b nrpe[26189]: WARNING: my_system() seteuid(0): Operation not permitted
+May 28 02:16:35 app-b nrpe[26188]: Command completed with return code 0 and output: DISK OK - free space: /var/tmp 24130 MB (81% inode=93%);| /var/tmp=5452MB;23678;26638;0;29598
+May 28 02:16:35 app-b nrpe[26188]: Return Code: 0, Output: DISK OK - free space: /var/tmp 24130 MB (81% inode=93%);| /var/tmp=5452MB;23678;26638;0;29598
+May 28 02:16:35 app-b nrpe[26188]: Connection from 10.6.0.6 closed.
+May 28 02:17:53 app-b nrpe[26210]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 16090
+May 28 02:17:53 app-b nrpe[26210]: Connection from 10.6.0.6 port 16090
+May 28 02:17:53 app-b nrpe[26210]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
+May 28 02:17:53 app-b nrpe[26210]: is_an_allowed_host (AF_INET): host is in allowed host list!
+May 28 02:17:53 app-b nrpe[26210]: Host address is in allowed_hosts
+May 28 02:17:53 app-b nrpe[26210]: Host 10.6.0.6 is asking for command 'check_users' to be run...
+May 28 02:17:53 app-b nrpe[26210]: Running command: /usr/lib/nagios/plugins/check_users -w 0 -c 2
+May 28 02:17:53 app-b nrpe[26211]: WARNING: my_system() seteuid(0): Operation not permitted
+May 28 02:17:53 app-b nrpe[26210]: Command completed with return code 0 and output: USERS OK - 0 users currently logged in |users=0;0;2;0
+May 28 02:17:53 app-b nrpe[26210]: Return Code: 0, Output: USERS OK - 0 users currently logged in |users=0;0;2;0
+May 28 02:17:53 app-b nrpe[26210]: Connection from 10.6.0.6 closed.
+May 28 02:21:00 app-b nrpe[26256]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 30939
+May 28 02:21:00 app-b nrpe[26256]: Connection from 10.6.0.6 port 30939
+May 28 02:21:00 app-b nrpe[26256]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
+May 28 02:21:00 app-b nrpe[26256]: is_an_allowed_host (AF_INET): host is in allowed host list!
+May 28 02:21:00 app-b nrpe[26256]: Host address is in allowed_hosts
+May 28 02:21:00 app-b nrpe[26256]: Host 10.6.0.6 is asking for command 'check_ping' to be run...
+May 28 02:21:00 app-b nrpe[26256]: Running command: /usr/lib/nagios/plugins/check_ping -H localhost -w 10,2% -c 20,5%
+May 28 02:21:00 app-b nrpe[26257]: WARNING: my_system() seteuid(0): Operation not permitted
+May 28 02:21:04 app-b nrpe[26256]: Command completed with return code 0 and output: PING OK - Packet loss = 0%, RTA = 0.06 ms|rta=0.058000ms;10.000000;20.000000;0.000000 pl=0%;2;5;0
+May 28 02:21:04 app-b nrpe[26256]: Return Code: 0, Output: PING OK - Packet loss = 0%, RTA = 0.06 ms|rta=0.058000ms;10.000000;20.000000;0.000000 pl=0%;2;5;0
+May 28 02:21:04 app-b nrpe[26256]: Connection from 10.6.0.6 closed.
+May 28 02:21:35 app-b nrpe[26267]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 45787
+May 28 02:21:35 app-b nrpe[26267]: Connection from 10.6.0.6 port 45787
+May 28 02:21:35 app-b nrpe[26267]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
+May 28 02:21:35 app-b nrpe[26267]: is_an_allowed_host (AF_INET): host is in allowed host list!
+May 28 02:21:35 app-b nrpe[26267]: Host address is in allowed_hosts
+May 28 02:21:35 app-b nrpe[26267]: Host 10.6.0.6 is asking for command 'check_hd' to be run...
+May 28 02:21:35 app-b nrpe[26267]: Running command: /usr/lib/nagios/plugins/check_disk -w 20% -c 10% -p /dev/sda1
+May 28 02:21:35 app-b nrpe[26268]: WARNING: my_system() seteuid(0): Operation not permitted
+May 28 02:21:35 app-b nrpe[26267]: Command completed with return code 0 and output: DISK OK - free space: /var/tmp 24130 MB (81% inode=93%);| /var/tmp=5452MB;23678;26638;0;29598
+May 28 02:21:35 app-b nrpe[26267]: Return Code: 0, Output: DISK OK - free space: /var/tmp 24130 MB (81% inode=93%);| /var/tmp=5452MB;23678;26638;0;29598
+May 28 02:21:35 app-b nrpe[26267]: Connection from 10.6.0.6 closed.
+May 28 02:22:16 app-b python3[1176]: 2022-05-28T02:22:16.334056Z INFO CollectLogsHandler ExtHandler Starting log collection...
+May 28 02:22:16 app-b systemd[1]: Started /usr/bin/python3 -u bin/WALinuxAgent-2.7.1.0-py2.7.egg -collect-logs.
+May 28 02:22:29 app-b python3[1176]: 2022-05-28T02:22:29.003709Z INFO CollectLogsHandler ExtHandler Successfully collected logs. Archive size: 925503 b, elapsed time: 12669 ms.
+May 28 02:22:29 app-b python3[1176]: 2022-05-28T02:22:29.033731Z INFO CollectLogsHandler ExtHandler Successfully uploaded logs.
+May 28 02:22:53 app-b nrpe[26287]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 15068
+May 28 02:22:53 app-b nrpe[26287]: Connection from 10.6.0.6 port 15068
+May 28 02:22:53 app-b nrpe[26287]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
+May 28 02:22:53 app-b nrpe[26287]: is_an_allowed_host (AF_INET): host is in allowed host list!
+May 28 02:22:53 app-b nrpe[26287]: Host address is in allowed_hosts
+May 28 02:22:53 app-b nrpe[26287]: Host 10.6.0.6 is asking for command 'check_users' to be run...
+May 28 02:22:53 app-b nrpe[26287]: Running command: /usr/lib/nagios/plugins/check_users -w 0 -c 2
+May 28 02:22:53 app-b nrpe[26288]: WARNING: my_system() seteuid(0): Operation not permitted
+May 28 02:22:53 app-b nrpe[26287]: Command completed with return code 0 and output: USERS OK - 0 users currently logged in |users=0;0;2;0
+May 28 02:22:53 app-b nrpe[26287]: Return Code: 0, Output: USERS OK - 0 users currently logged in |users=0;0;2;0
+May 28 02:22:53 app-b nrpe[26287]: Connection from 10.6.0.6 closed.
+May 28 02:26:00 app-b nrpe[26329]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 27357
+May 28 02:26:00 app-b nrpe[26329]: Connection from 10.6.0.6 port 27357
+May 28 02:26:00 app-b nrpe[26329]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
+May 28 02:26:00 app-b nrpe[26329]: is_an_allowed_host (AF_INET): host is in allowed host list!
+May 28 02:26:00 app-b nrpe[26329]: Host address is in allowed_hosts
+May 28 02:26:00 app-b nrpe[26329]: Host 10.6.0.6 is asking for command 'check_ping' to be run...
+May 28 02:26:00 app-b nrpe[26329]: Running command: /usr/lib/nagios/plugins/check_ping -H localhost -w 10,2% -c 20,5%
+May 28 02:26:00 app-b nrpe[26330]: WARNING: my_system() seteuid(0): Operation not permitted
+May 28 02:26:04 app-b nrpe[26329]: Command completed with return code 0 and output: PING OK - Packet loss = 0%, RTA = 0.07 ms|rta=0.070000ms;10.000000;20.000000;0.000000 pl=0%;2;5;0
+May 28 02:26:04 app-b nrpe[26329]: Return Code: 0, Output: PING OK - Packet loss = 0%, RTA = 0.07 ms|rta=0.070000ms;10.000000;20.000000;0.000000 pl=0%;2;5;0
+May 28 02:26:04 app-b nrpe[26329]: Connection from 10.6.0.6 closed.
+May 28 02:26:35 app-b nrpe[26345]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 40157
+May 28 02:26:35 app-b nrpe[26345]: Connection from 10.6.0.6 port 40157
+May 28 02:26:35 app-b nrpe[26345]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
+May 28 02:26:35 app-b nrpe[26345]: is_an_allowed_host (AF_INET): host is in allowed host list!
+May 28 02:26:35 app-b nrpe[26345]: Host address is in allowed_hosts
+May 28 02:26:35 app-b nrpe[26345]: Host 10.6.0.6 is asking for command 'check_hd' to be run...
+May 28 02:26:35 app-b nrpe[26345]: Running command: /usr/lib/nagios/plugins/check_disk -w 20% -c 10% -p /dev/sda1
+May 28 02:26:35 app-b nrpe[26346]: WARNING: my_system() seteuid(0): Operation not permitted
+May 28 02:26:35 app-b nrpe[26345]: Command completed with return code 0 and output: DISK OK - free space: /var/tmp 24130 MB (81% inode=93%);| /var/tmp=5452MB;23678;26638;0;29598
+May 28 02:26:35 app-b nrpe[26345]: Return Code: 0, Output: DISK OK - free space: /var/tmp 24130 MB (81% inode=93%);| /var/tmp=5452MB;23678;26638;0;29598
+May 28 02:26:35 app-b nrpe[26345]: Connection from 10.6.0.6 closed.
+May 28 02:27:53 app-b nrpe[26359]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 9438
+May 28 02:27:53 app-b nrpe[26359]: Connection from 10.6.0.6 port 9438
+May 28 02:27:53 app-b nrpe[26359]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
+May 28 02:27:53 app-b nrpe[26359]: is_an_allowed_host (AF_INET): host is in allowed host list!
+May 28 02:27:53 app-b nrpe[26359]: Host address is in allowed_hosts
+May 28 02:27:53 app-b nrpe[26359]: Host 10.6.0.6 is asking for command 'check_users' to be run...
+May 28 02:27:53 app-b nrpe[26359]: Running command: /usr/lib/nagios/plugins/check_users -w 0 -c 2
+May 28 02:27:53 app-b nrpe[26360]: WARNING: my_system() seteuid(0): Operation not permitted
+May 28 02:27:53 app-b nrpe[26359]: Command completed with return code 0 and output: USERS OK - 0 users currently logged in |users=0;0;2;0
+May 28 02:27:53 app-b nrpe[26359]: Return Code: 0, Output: USERS OK - 0 users currently logged in |users=0;0;2;0
+May 28 02:27:53 app-b nrpe[26359]: Connection from 10.6.0.6 closed.
+May 28 02:31:00 app-b nrpe[26400]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 22751
+May 28 02:31:00 app-b nrpe[26400]: Connection from 10.6.0.6 port 22751
+May 28 02:31:00 app-b nrpe[26400]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
+May 28 02:31:00 app-b nrpe[26400]: is_an_allowed_host (AF_INET): host is in allowed host list!
+May 28 02:31:00 app-b nrpe[26400]: Host address is in allowed_hosts
+May 28 02:31:00 app-b nrpe[26400]: Host 10.6.0.6 is asking for command 'check_ping' to be run...
+May 28 02:31:00 app-b nrpe[26400]: Running command: /usr/lib/nagios/plugins/check_ping -H localhost -w 10,2% -c 20,5%
+May 28 02:31:00 app-b nrpe[26401]: WARNING: my_system() seteuid(0): Operation not permitted
+May 28 02:31:04 app-b nrpe[26400]: Command completed with return code 0 and output: PING OK - Packet loss = 0%, RTA = 0.05 ms|rta=0.051000ms;10.000000;20.000000;0.000000 pl=0%;2;5;0
+May 28 02:31:04 app-b nrpe[26400]: Return Code: 0, Output: PING OK - Packet loss = 0%, RTA = 0.05 ms|rta=0.051000ms;10.000000;20.000000;0.000000 pl=0%;2;5;0
+May 28 02:31:04 app-b nrpe[26400]: Connection from 10.6.0.6 closed.
+May 28 02:31:35 app-b nrpe[26416]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 37599
+May 28 02:31:35 app-b nrpe[26416]: Connection from 10.6.0.6 port 37599
+May 28 02:31:35 app-b nrpe[26416]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
+May 28 02:31:35 app-b nrpe[26416]: is_an_allowed_host (AF_INET): host is in allowed host list!
+May 28 02:31:35 app-b nrpe[26416]: Host address is in allowed_hosts
+May 28 02:31:35 app-b nrpe[26416]: Host 10.6.0.6 is asking for command 'check_hd' to be run...
+May 28 02:31:35 app-b nrpe[26416]: Running command: /usr/lib/nagios/plugins/check_disk -w 20% -c 10% -p /dev/sda1
+May 28 02:31:35 app-b nrpe[26417]: WARNING: my_system() seteuid(0): Operation not permitted
+May 28 02:31:35 app-b nrpe[26416]: Command completed with return code 0 and output: DISK OK - free space: /var/tmp 24130 MB (81% inode=93%);| /var/tmp=5452MB;23678;26638;0;29598
+May 28 02:31:35 app-b nrpe[26416]: Return Code: 0, Output: DISK OK - free space: /var/tmp 24130 MB (81% inode=93%);| /var/tmp=5452MB;23678;26638;0;29598
+May 28 02:31:35 app-b nrpe[26416]: Connection from 10.6.0.6 closed.
+May 28 02:32:53 app-b nrpe[26430]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 6880
+May 28 02:32:53 app-b nrpe[26430]: Connection from 10.6.0.6 port 6880
+May 28 02:32:53 app-b nrpe[26430]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
+May 28 02:32:53 app-b nrpe[26430]: is_an_allowed_host (AF_INET): host is in allowed host list!
+May 28 02:32:53 app-b nrpe[26430]: Host address is in allowed_hosts
+May 28 02:32:53 app-b nrpe[26430]: Host 10.6.0.6 is asking for command 'check_users' to be run...
+May 28 02:32:53 app-b nrpe[26430]: Running command: /usr/lib/nagios/plugins/check_users -w 0 -c 2
+May 28 02:32:53 app-b nrpe[26431]: WARNING: my_system() seteuid(0): Operation not permitted
+May 28 02:32:53 app-b nrpe[26430]: Command completed with return code 0 and output: USERS OK - 0 users currently logged in |users=0;0;2;0
+May 28 02:32:53 app-b nrpe[26430]: Return Code: 0, Output: USERS OK - 0 users currently logged in |users=0;0;2;0
+May 28 02:32:53 app-b nrpe[26430]: Connection from 10.6.0.6 closed.
+May 28 02:36:00 app-b nrpe[26477]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 19681
+May 28 02:36:00 app-b nrpe[26477]: Connection from 10.6.0.6 port 19681
+May 28 02:36:00 app-b nrpe[26477]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
+May 28 02:36:00 app-b nrpe[26477]: is_an_allowed_host (AF_INET): host is in allowed host list!
+May 28 02:36:00 app-b nrpe[26477]: Host address is in allowed_hosts
+May 28 02:36:00 app-b nrpe[26477]: Host 10.6.0.6 is asking for command 'check_ping' to be run...
+May 28 02:36:00 app-b nrpe[26477]: Running command: /usr/lib/nagios/plugins/check_ping -H localhost -w 10,2% -c 20,5%
+May 28 02:36:00 app-b nrpe[26478]: WARNING: my_system() seteuid(0): Operation not permitted
+May 28 02:36:04 app-b nrpe[26477]: Command completed with return code 0 and output: PING OK - Packet loss = 0%, RTA = 0.05 ms|rta=0.055000ms;10.000000;20.000000;0.000000 pl=0%;2;5;0
+May 28 02:36:04 app-b nrpe[26477]: Return Code: 0, Output: PING OK - Packet loss = 0%, RTA = 0.05 ms|rta=0.055000ms;10.000000;20.000000;0.000000 pl=0%;2;5;0
+May 28 02:36:04 app-b nrpe[26477]: Connection from 10.6.0.6 closed.
+May 28 02:36:35 app-b nrpe[26488]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 35041
+May 28 02:36:35 app-b nrpe[26488]: Connection from 10.6.0.6 port 35041
+May 28 02:36:35 app-b nrpe[26488]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
+May 28 02:36:35 app-b nrpe[26488]: is_an_allowed_host (AF_INET): host is in allowed host list!
+May 28 02:36:35 app-b nrpe[26488]: Host address is in allowed_hosts
+May 28 02:36:35 app-b nrpe[26488]: Host 10.6.0.6 is asking for command 'check_hd' to be run...
+May 28 02:36:35 app-b nrpe[26488]: Running command: /usr/lib/nagios/plugins/check_disk -w 20% -c 10% -p /dev/sda1
+May 28 02:36:35 app-b nrpe[26489]: WARNING: my_system() seteuid(0): Operation not permitted
+May 28 02:36:35 app-b nrpe[26488]: Command completed with return code 0 and output: DISK OK - free space: /var/tmp 24130 MB (81% inode=93%);| /var/tmp=5452MB;23678;26638;0;29598
+May 28 02:36:35 app-b nrpe[26488]: Return Code: 0, Output: DISK OK - free space: /var/tmp 24130 MB (81% inode=93%);| /var/tmp=5452MB;23678;26638;0;29598
+May 28 02:36:35 app-b nrpe[26488]: Connection from 10.6.0.6 closed.
+May 28 02:37:53 app-b nrpe[26502]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 4834
+May 28 02:37:53 app-b nrpe[26502]: Connection from 10.6.0.6 port 4834
+May 28 02:37:53 app-b nrpe[26502]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
+May 28 02:37:53 app-b nrpe[26502]: is_an_allowed_host (AF_INET): host is in allowed host list!
+May 28 02:37:53 app-b nrpe[26502]: Host address is in allowed_hosts
+May 28 02:37:53 app-b nrpe[26502]: Host 10.6.0.6 is asking for command 'check_users' to be run...
+May 28 02:37:53 app-b nrpe[26502]: Running command: /usr/lib/nagios/plugins/check_users -w 0 -c 2
+May 28 02:37:53 app-b nrpe[26503]: WARNING: my_system() seteuid(0): Operation not permitted
+May 28 02:37:53 app-b nrpe[26502]: Command completed with return code 0 and output: USERS OK - 0 users currently logged in |users=0;0;2;0
+May 28 02:37:53 app-b nrpe[26502]: Return Code: 0, Output: USERS OK - 0 users currently logged in |users=0;0;2;0
+May 28 02:37:53 app-b nrpe[26502]: Connection from 10.6.0.6 closed.
+May 28 02:39:19 app-b systemd[1]: Starting Clean php session files...
+May 28 02:39:19 app-b sessionclean[26529]: PHP Warning:  Module 'pdo_mysql' already loaded in Unknown on line 0
+May 28 02:39:19 app-b sessionclean[26529]: PHP Warning:  Module 'pdo_mysql' already loaded in Unknown on line 0
+May 28 02:39:19 app-b systemd[1]: Started Clean php session files.
+May 28 02:41:00 app-b nrpe[26647]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 17123
+May 28 02:41:00 app-b nrpe[26647]: Connection from 10.6.0.6 port 17123
+May 28 02:41:00 app-b nrpe[26647]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
+May 28 02:41:00 app-b nrpe[26647]: is_an_allowed_host (AF_INET): host is in allowed host list!
+May 28 02:41:00 app-b nrpe[26647]: Host address is in allowed_hosts
+May 28 02:41:00 app-b nrpe[26647]: Host 10.6.0.6 is asking for command 'check_ping' to be run...
+May 28 02:41:00 app-b nrpe[26647]: Running command: /usr/lib/nagios/plugins/check_ping -H localhost -w 10,2% -c 20,5%
+May 28 02:41:00 app-b nrpe[26648]: WARNING: my_system() seteuid(0): Operation not permitted
+May 28 02:41:04 app-b nrpe[26647]: Command completed with return code 0 and output: PING OK - Packet loss = 0%, RTA = 0.05 ms|rta=0.047000ms;10.000000;20.000000;0.000000 pl=0%;2;5;0
+May 28 02:41:04 app-b nrpe[26647]: Return Code: 0, Output: PING OK - Packet loss = 0%, RTA = 0.05 ms|rta=0.047000ms;10.000000;20.000000;0.000000 pl=0%;2;5;0
+May 28 02:41:04 app-b nrpe[26647]: Connection from 10.6.0.6 closed.
+May 28 02:41:35 app-b nrpe[26662]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 31971
+May 28 02:41:35 app-b nrpe[26662]: Connection from 10.6.0.6 port 31971
+May 28 02:41:35 app-b nrpe[26662]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
+May 28 02:41:35 app-b nrpe[26662]: is_an_allowed_host (AF_INET): host is in allowed host list!
+May 28 02:41:35 app-b nrpe[26662]: Host address is in allowed_hosts
+May 28 02:41:35 app-b nrpe[26662]: Host 10.6.0.6 is asking for command 'check_hd' to be run...
+May 28 02:41:35 app-b nrpe[26662]: Running command: /usr/lib/nagios/plugins/check_disk -w 20% -c 10% -p /dev/sda1
+May 28 02:41:35 app-b nrpe[26664]: WARNING: my_system() seteuid(0): Operation not permitted
+May 28 02:41:35 app-b nrpe[26662]: Command completed with return code 0 and output: DISK OK - free space: /var/tmp 24130 MB (81% inode=93%);| /var/tmp=5452MB;23678;26638;0;29598
+May 28 02:41:35 app-b nrpe[26662]: Return Code: 0, Output: DISK OK - free space: /var/tmp 24130 MB (81% inode=93%);| /var/tmp=5452MB;23678;26638;0;29598
+May 28 02:41:35 app-b nrpe[26662]: Connection from 10.6.0.6 closed.
+May 28 02:42:53 app-b nrpe[26678]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 1764
+May 28 02:42:53 app-b nrpe[26678]: Connection from 10.6.0.6 port 1764
+May 28 02:42:53 app-b nrpe[26678]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
+May 28 02:42:53 app-b nrpe[26678]: is_an_allowed_host (AF_INET): host is in allowed host list!
+May 28 02:42:53 app-b nrpe[26678]: Host address is in allowed_hosts
+May 28 02:42:53 app-b nrpe[26678]: Host 10.6.0.6 is asking for command 'check_users' to be run...
+May 28 02:42:53 app-b nrpe[26678]: Running command: /usr/lib/nagios/plugins/check_users -w 0 -c 2
+May 28 02:42:53 app-b nrpe[26679]: WARNING: my_system() seteuid(0): Operation not permitted
+May 28 02:42:53 app-b nrpe[26678]: Command completed with return code 0 and output: USERS OK - 0 users currently logged in |users=0;0;2;0
+May 28 02:42:53 app-b nrpe[26678]: Return Code: 0, Output: USERS OK - 0 users currently logged in |users=0;0;2;0
+May 28 02:42:53 app-b nrpe[26678]: Connection from 10.6.0.6 closed.
+May 28 02:44:21 app-b python3[1176]: 2022-05-28T02:44:21.792095Z INFO ExtHandler ExtHandler [HEARTBEAT] Agent WALinuxAgent-2.7.1.0 is running as the goal state agent [DEBUG HeartbeatCounter: 37;HeartbeatId: FFE01850-4B2F-4B0C-A2D0-D04025E24ECA;DroppedPackets: 0;UpdateGSErrors: 0;AutoUpdate: 1]
+May 28 02:46:00 app-b nrpe[26721]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 14053
+May 28 02:46:00 app-b nrpe[26721]: Connection from 10.6.0.6 port 14053
+May 28 02:46:00 app-b nrpe[26721]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
+May 28 02:46:00 app-b nrpe[26721]: is_an_allowed_host (AF_INET): host is in allowed host list!
+May 28 02:46:00 app-b nrpe[26721]: Host address is in allowed_hosts
+May 28 02:46:00 app-b nrpe[26721]: Host 10.6.0.6 is asking for command 'check_ping' to be run...
+May 28 02:46:00 app-b nrpe[26721]: Running command: /usr/lib/nagios/plugins/check_ping -H localhost -w 10,2% -c 20,5%
+May 28 02:46:00 app-b nrpe[26722]: WARNING: my_system() seteuid(0): Operation not permitted
+May 28 02:46:04 app-b nrpe[26721]: Command completed with return code 0 and output: PING OK - Packet loss = 0%, RTA = 0.05 ms|rta=0.051000ms;10.000000;20.000000;0.000000 pl=0%;2;5;0
+May 28 02:46:04 app-b nrpe[26721]: Return Code: 0, Output: PING OK - Packet loss = 0%, RTA = 0.05 ms|rta=0.051000ms;10.000000;20.000000;0.000000 pl=0%;2;5;0
+May 28 02:46:04 app-b nrpe[26721]: Connection from 10.6.0.6 closed.
+May 28 02:46:23 app-b puppet-agent[26726]: Applied catalog in 0.48 seconds
+May 28 02:46:35 app-b nrpe[26765]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 28901
+May 28 02:46:35 app-b nrpe[26765]: Connection from 10.6.0.6 port 28901
+May 28 02:46:35 app-b nrpe[26765]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
+May 28 02:46:35 app-b nrpe[26765]: is_an_allowed_host (AF_INET): host is in allowed host list!
+May 28 02:46:35 app-b nrpe[26765]: Host address is in allowed_hosts
+May 28 02:46:35 app-b nrpe[26765]: Host 10.6.0.6 is asking for command 'check_hd' to be run...
+May 28 02:46:35 app-b nrpe[26765]: Running command: /usr/lib/nagios/plugins/check_disk -w 20% -c 10% -p /dev/sda1
+May 28 02:46:35 app-b nrpe[26767]: WARNING: my_system() seteuid(0): Operation not permitted
+May 28 02:46:35 app-b nrpe[26765]: Command completed with return code 0 and output: DISK OK - free space: /var/tmp 24130 MB (81% inode=93%);| /var/tmp=5452MB;23678;26638;0;29598
+May 28 02:46:35 app-b nrpe[26765]: Return Code: 0, Output: DISK OK - free space: /var/tmp 24130 MB (81% inode=93%);| /var/tmp=5452MB;23678;26638;0;29598
+May 28 02:46:35 app-b nrpe[26765]: Connection from 10.6.0.6 closed.
+May 28 02:47:53 app-b nrpe[26780]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 63717
+May 28 02:47:53 app-b nrpe[26780]: Connection from 10.6.0.6 port 63717
+May 28 02:47:53 app-b nrpe[26780]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
+May 28 02:47:53 app-b nrpe[26780]: is_an_allowed_host (AF_INET): host is in allowed host list!
+May 28 02:47:53 app-b nrpe[26780]: Host address is in allowed_hosts
+May 28 02:47:53 app-b nrpe[26780]: Host 10.6.0.6 is asking for command 'check_users' to be run...
+May 28 02:47:53 app-b nrpe[26780]: Running command: /usr/lib/nagios/plugins/check_users -w 0 -c 2
+May 28 02:47:53 app-b nrpe[26781]: WARNING: my_system() seteuid(0): Operation not permitted
+May 28 02:47:53 app-b nrpe[26780]: Command completed with return code 0 and output: USERS OK - 0 users currently logged in |users=0;0;2;0
+May 28 02:47:53 app-b nrpe[26780]: Return Code: 0, Output: USERS OK - 0 users currently logged in |users=0;0;2;0
+May 28 02:47:53 app-b nrpe[26780]: Connection from 10.6.0.6 closed.
+May 28 02:51:00 app-b nrpe[26821]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 10471
+May 28 02:51:00 app-b nrpe[26821]: Connection from 10.6.0.6 port 10471
+May 28 02:51:00 app-b nrpe[26821]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
+May 28 02:51:00 app-b nrpe[26821]: is_an_allowed_host (AF_INET): host is in allowed host list!
+May 28 02:51:00 app-b nrpe[26821]: Host address is in allowed_hosts
+May 28 02:51:00 app-b nrpe[26821]: Host 10.6.0.6 is asking for command 'check_ping' to be run...
+May 28 02:51:00 app-b nrpe[26821]: Running command: /usr/lib/nagios/plugins/check_ping -H localhost -w 10,2% -c 20,5%
+May 28 02:51:00 app-b nrpe[26822]: WARNING: my_system() seteuid(0): Operation not permitted
+May 28 02:51:04 app-b nrpe[26821]: Command completed with return code 0 and output: PING OK - Packet loss = 0%, RTA = 0.08 ms|rta=0.076000ms;10.000000;20.000000;0.000000 pl=0%;2;5;0
+May 28 02:51:04 app-b nrpe[26821]: Return Code: 0, Output: PING OK - Packet loss = 0%, RTA = 0.08 ms|rta=0.076000ms;10.000000;20.000000;0.000000 pl=0%;2;5;0
+May 28 02:51:04 app-b nrpe[26821]: Connection from 10.6.0.6 closed.
+May 28 02:51:35 app-b nrpe[26837]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 23271
+May 28 02:51:35 app-b nrpe[26837]: Connection from 10.6.0.6 port 23271
+May 28 02:51:35 app-b nrpe[26837]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
+May 28 02:51:35 app-b nrpe[26837]: is_an_allowed_host (AF_INET): host is in allowed host list!
+May 28 02:51:35 app-b nrpe[26837]: Host address is in allowed_hosts
+May 28 02:51:35 app-b nrpe[26837]: Host 10.6.0.6 is asking for command 'check_hd' to be run...
+May 28 02:51:35 app-b nrpe[26837]: Running command: /usr/lib/nagios/plugins/check_disk -w 20% -c 10% -p /dev/sda1
+May 28 02:51:35 app-b nrpe[26838]: WARNING: my_system() seteuid(0): Operation not permitted
+May 28 02:51:35 app-b nrpe[26837]: Command completed with return code 0 and output: DISK OK - free space: /var/tmp 24130 MB (81% inode=93%);| /var/tmp=5452MB;23678;26638;0;29598
+May 28 02:51:35 app-b nrpe[26837]: Return Code: 0, Output: DISK OK - free space: /var/tmp 24130 MB (81% inode=93%);| /var/tmp=5452MB;23678;26638;0;29598
+May 28 02:51:35 app-b nrpe[26837]: Connection from 10.6.0.6 closed.
+May 28 02:52:53 app-b nrpe[26856]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 58087
+May 28 02:52:53 app-b nrpe[26856]: Connection from 10.6.0.6 port 58087
+May 28 02:52:53 app-b nrpe[26856]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
+May 28 02:52:53 app-b nrpe[26856]: is_an_allowed_host (AF_INET): host is in allowed host list!
+May 28 02:52:53 app-b nrpe[26856]: Host address is in allowed_hosts
+May 28 02:52:53 app-b nrpe[26856]: Host 10.6.0.6 is asking for command 'check_users' to be run...
+May 28 02:52:53 app-b nrpe[26856]: Running command: /usr/lib/nagios/plugins/check_users -w 0 -c 2
+May 28 02:52:53 app-b nrpe[26857]: WARNING: my_system() seteuid(0): Operation not permitted
+May 28 02:52:53 app-b nrpe[26856]: Command completed with return code 0 and output: USERS OK - 0 users currently logged in |users=0;0;2;0
+May 28 02:52:53 app-b nrpe[26856]: Return Code: 0, Output: USERS OK - 0 users currently logged in |users=0;0;2;0
+May 28 02:52:53 app-b nrpe[26856]: Connection from 10.6.0.6 closed.
+May 28 02:56:00 app-b nrpe[26897]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 4841
+May 28 02:56:00 app-b nrpe[26897]: Connection from 10.6.0.6 port 4841
+May 28 02:56:00 app-b nrpe[26897]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
+May 28 02:56:00 app-b nrpe[26897]: is_an_allowed_host (AF_INET): host is in allowed host list!
+May 28 02:56:00 app-b nrpe[26897]: Host address is in allowed_hosts
+May 28 02:56:00 app-b nrpe[26897]: Host 10.6.0.6 is asking for command 'check_ping' to be run...
+May 28 02:56:00 app-b nrpe[26897]: Running command: /usr/lib/nagios/plugins/check_ping -H localhost -w 10,2% -c 20,5%
+May 28 02:56:00 app-b nrpe[26898]: WARNING: my_system() seteuid(0): Operation not permitted
+May 28 02:56:04 app-b nrpe[26897]: Command completed with return code 0 and output: PING OK - Packet loss = 0%, RTA = 0.05 ms|rta=0.048000ms;10.000000;20.000000;0.000000 pl=0%;2;5;0
+May 28 02:56:04 app-b nrpe[26897]: Return Code: 0, Output: PING OK - Packet loss = 0%, RTA = 0.05 ms|rta=0.048000ms;10.000000;20.000000;0.000000 pl=0%;2;5;0
+May 28 02:56:04 app-b nrpe[26897]: Connection from 10.6.0.6 closed.
+May 28 02:56:35 app-b nrpe[26912]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 19689
+May 28 02:56:35 app-b nrpe[26912]: Connection from 10.6.0.6 port 19689
+May 28 02:56:35 app-b nrpe[26912]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
+May 28 02:56:35 app-b nrpe[26912]: is_an_allowed_host (AF_INET): host is in allowed host list!
+May 28 02:56:35 app-b nrpe[26912]: Host address is in allowed_hosts
+May 28 02:56:35 app-b nrpe[26912]: Host 10.6.0.6 is asking for command 'check_hd' to be run...
+May 28 02:56:35 app-b nrpe[26912]: Running command: /usr/lib/nagios/plugins/check_disk -w 20% -c 10% -p /dev/sda1
+May 28 02:56:35 app-b nrpe[26914]: WARNING: my_system() seteuid(0): Operation not permitted
+May 28 02:56:35 app-b nrpe[26912]: Command completed with return code 0 and output: DISK OK - free space: /var/tmp 24130 MB (81% inode=93%);| /var/tmp=5452MB;23678;26638;0;29598
+May 28 02:56:35 app-b nrpe[26912]: Return Code: 0, Output: DISK OK - free space: /var/tmp 24130 MB (81% inode=93%);| /var/tmp=5452MB;23678;26638;0;29598
+May 28 02:56:35 app-b nrpe[26912]: Connection from 10.6.0.6 closed.
+May 28 02:57:53 app-b nrpe[26927]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 54505
+May 28 02:57:53 app-b nrpe[26927]: Connection from 10.6.0.6 port 54505
+May 28 02:57:53 app-b nrpe[26927]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
+May 28 02:57:53 app-b nrpe[26927]: is_an_allowed_host (AF_INET): host is in allowed host list!
+May 28 02:57:53 app-b nrpe[26927]: Host address is in allowed_hosts
+May 28 02:57:53 app-b nrpe[26927]: Host 10.6.0.6 is asking for command 'check_users' to be run...
+May 28 02:57:53 app-b nrpe[26927]: Running command: /usr/lib/nagios/plugins/check_users -w 0 -c 2
+May 28 02:57:53 app-b nrpe[26928]: WARNING: my_system() seteuid(0): Operation not permitted
+May 28 02:57:53 app-b nrpe[26927]: Command completed with return code 0 and output: USERS OK - 0 users currently logged in |users=0;0;2;0
+May 28 02:57:53 app-b nrpe[26927]: Return Code: 0, Output: USERS OK - 0 users currently logged in |users=0;0;2;0
+May 28 02:57:53 app-b nrpe[26927]: Connection from 10.6.0.6 closed.
+May 28 03:01:00 app-b nrpe[26973]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 1259
+May 28 03:01:00 app-b nrpe[26973]: Connection from 10.6.0.6 port 1259
+May 28 03:01:00 app-b nrpe[26973]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
+May 28 03:01:00 app-b nrpe[26973]: is_an_allowed_host (AF_INET): host is in allowed host list!
+May 28 03:01:00 app-b nrpe[26973]: Host address is in allowed_hosts
+May 28 03:01:00 app-b nrpe[26973]: Host 10.6.0.6 is asking for command 'check_ping' to be run...
+May 28 03:01:00 app-b nrpe[26973]: Running command: /usr/lib/nagios/plugins/check_ping -H localhost -w 10,2% -c 20,5%
+May 28 03:01:00 app-b nrpe[26974]: WARNING: my_system() seteuid(0): Operation not permitted
+May 28 03:01:04 app-b nrpe[26973]: Command completed with return code 0 and output: PING OK - Packet loss = 0%, RTA = 0.05 ms|rta=0.051000ms;10.000000;20.000000;0.000000 pl=0%;2;5;0
+May 28 03:01:04 app-b nrpe[26973]: Return Code: 0, Output: PING OK - Packet loss = 0%, RTA = 0.05 ms|rta=0.051000ms;10.000000;20.000000;0.000000 pl=0%;2;5;0
+May 28 03:01:04 app-b nrpe[26973]: Connection from 10.6.0.6 closed.
+May 28 03:01:35 app-b nrpe[26988]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 16107
+May 28 03:01:35 app-b nrpe[26988]: Connection from 10.6.0.6 port 16107
+May 28 03:01:35 app-b nrpe[26988]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
+May 28 03:01:35 app-b nrpe[26988]: is_an_allowed_host (AF_INET): host is in allowed host list!
+May 28 03:01:35 app-b nrpe[26988]: Host address is in allowed_hosts
+May 28 03:01:35 app-b nrpe[26988]: Host 10.6.0.6 is asking for command 'check_hd' to be run...
+May 28 03:01:35 app-b nrpe[26988]: Running command: /usr/lib/nagios/plugins/check_disk -w 20% -c 10% -p /dev/sda1
+May 28 03:01:35 app-b nrpe[26990]: WARNING: my_system() seteuid(0): Operation not permitted
+May 28 03:01:35 app-b nrpe[26988]: Command completed with return code 0 and output: DISK OK - free space: /var/tmp 24130 MB (81% inode=93%);| /var/tmp=5452MB;23678;26638;0;29598
+May 28 03:01:35 app-b nrpe[26988]: Return Code: 0, Output: DISK OK - free space: /var/tmp 24130 MB (81% inode=93%);| /var/tmp=5452MB;23678;26638;0;29598
+May 28 03:01:35 app-b nrpe[26988]: Connection from 10.6.0.6 closed.
+May 28 03:02:53 app-b nrpe[27003]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 50923
+May 28 03:02:53 app-b nrpe[27003]: Connection from 10.6.0.6 port 50923
+May 28 03:02:53 app-b nrpe[27003]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
+May 28 03:02:53 app-b nrpe[27003]: is_an_allowed_host (AF_INET): host is in allowed host list!
+May 28 03:02:53 app-b nrpe[27003]: Host address is in allowed_hosts
+May 28 03:02:53 app-b nrpe[27003]: Host 10.6.0.6 is asking for command 'check_users' to be run...
+May 28 03:02:53 app-b nrpe[27003]: Running command: /usr/lib/nagios/plugins/check_users -w 0 -c 2
+May 28 03:02:53 app-b nrpe[27004]: WARNING: my_system() seteuid(0): Operation not permitted
+May 28 03:02:53 app-b nrpe[27003]: Command completed with return code 0 and output: USERS OK - 0 users currently logged in |users=0;0;2;0
+May 28 03:02:53 app-b nrpe[27003]: Return Code: 0, Output: USERS OK - 0 users currently logged in |users=0;0;2;0
+May 28 03:02:53 app-b nrpe[27003]: Connection from 10.6.0.6 closed.
+May 28 03:06:00 app-b nrpe[27045]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 63724
+May 28 03:06:00 app-b nrpe[27045]: Connection from 10.6.0.6 port 63724
+May 28 03:06:00 app-b nrpe[27045]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
+May 28 03:06:00 app-b nrpe[27045]: is_an_allowed_host (AF_INET): host is in allowed host list!
+May 28 03:06:00 app-b nrpe[27045]: Host address is in allowed_hosts
+May 28 03:06:00 app-b nrpe[27045]: Host 10.6.0.6 is asking for command 'check_ping' to be run...
+May 28 03:06:00 app-b nrpe[27045]: Running command: /usr/lib/nagios/plugins/check_ping -H localhost -w 10,2% -c 20,5%
+May 28 03:06:00 app-b nrpe[27046]: WARNING: my_system() seteuid(0): Operation not permitted
+May 28 03:06:04 app-b nrpe[27045]: Command completed with return code 0 and output: PING OK - Packet loss = 0%, RTA = 0.06 ms|rta=0.064000ms;10.000000;20.000000;0.000000 pl=0%;2;5;0
+May 28 03:06:04 app-b nrpe[27045]: Return Code: 0, Output: PING OK - Packet loss = 0%, RTA = 0.06 ms|rta=0.064000ms;10.000000;20.000000;0.000000 pl=0%;2;5;0
+May 28 03:06:04 app-b nrpe[27045]: Connection from 10.6.0.6 closed.
+May 28 03:06:35 app-b nrpe[27055]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 13037
+May 28 03:06:35 app-b nrpe[27055]: Connection from 10.6.0.6 port 13037
+May 28 03:06:35 app-b nrpe[27055]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
+May 28 03:06:35 app-b nrpe[27055]: is_an_allowed_host (AF_INET): host is in allowed host list!
+May 28 03:06:35 app-b nrpe[27055]: Host address is in allowed_hosts
+May 28 03:06:35 app-b nrpe[27055]: Host 10.6.0.6 is asking for command 'check_hd' to be run...
+May 28 03:06:35 app-b nrpe[27055]: Running command: /usr/lib/nagios/plugins/check_disk -w 20% -c 10% -p /dev/sda1
+May 28 03:06:35 app-b nrpe[27057]: WARNING: my_system() seteuid(0): Operation not permitted
+May 28 03:06:35 app-b nrpe[27055]: Command completed with return code 0 and output: DISK OK - free space: /var/tmp 24130 MB (81% inode=93%);| /var/tmp=5452MB;23678;26638;0;29598
+May 28 03:06:35 app-b nrpe[27055]: Return Code: 0, Output: DISK OK - free space: /var/tmp 24130 MB (81% inode=93%);| /var/tmp=5452MB;23678;26638;0;29598
+May 28 03:06:35 app-b nrpe[27055]: Connection from 10.6.0.6 closed.
+May 28 03:07:53 app-b nrpe[27075]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 47853
+May 28 03:07:53 app-b nrpe[27075]: Connection from 10.6.0.6 port 47853
+May 28 03:07:53 app-b nrpe[27075]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
+May 28 03:07:53 app-b nrpe[27075]: is_an_allowed_host (AF_INET): host is in allowed host list!
+May 28 03:07:53 app-b nrpe[27075]: Host address is in allowed_hosts
+May 28 03:07:53 app-b nrpe[27075]: Host 10.6.0.6 is asking for command 'check_users' to be run...
+May 28 03:07:53 app-b nrpe[27075]: Running command: /usr/lib/nagios/plugins/check_users -w 0 -c 2
+May 28 03:07:53 app-b nrpe[27076]: WARNING: my_system() seteuid(0): Operation not permitted
+May 28 03:07:53 app-b nrpe[27075]: Command completed with return code 0 and output: USERS OK - 0 users currently logged in |users=0;0;2;0
+May 28 03:07:53 app-b nrpe[27075]: Return Code: 0, Output: USERS OK - 0 users currently logged in |users=0;0;2;0
+May 28 03:07:53 app-b nrpe[27075]: Connection from 10.6.0.6 closed.
+May 28 03:09:19 app-b systemd[1]: Starting Clean php session files...
+May 28 03:09:19 app-b sessionclean[27097]: PHP Warning:  Module 'pdo_mysql' already loaded in Unknown on line 0
+May 28 03:09:19 app-b sessionclean[27097]: PHP Warning:  Module 'pdo_mysql' already loaded in Unknown on line 0
+May 28 03:09:19 app-b systemd[1]: Started Clean php session files.
+May 28 03:11:00 app-b nrpe[27209]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 41600
+May 28 03:11:00 app-b nrpe[27209]: Connection from 10.6.0.6 port 41600
+May 28 03:11:00 app-b nrpe[27209]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
+May 28 03:11:00 app-b nrpe[27209]: is_an_allowed_host (AF_INET): host is in allowed host list!
+May 28 03:11:00 app-b nrpe[27209]: Host address is in allowed_hosts
+May 28 03:11:00 app-b nrpe[27209]: Host 10.6.0.6 is asking for command 'check_ping' to be run...
+May 28 03:11:00 app-b nrpe[27209]: Running command: /usr/lib/nagios/plugins/check_ping -H localhost -w 10,2% -c 20,5%
+May 28 03:11:00 app-b nrpe[27210]: WARNING: my_system() seteuid(0): Operation not permitted
+May 28 03:11:04 app-b nrpe[27209]: Command completed with return code 0 and output: PING OK - Packet loss = 0%, RTA = 0.05 ms|rta=0.047000ms;10.000000;20.000000;0.000000 pl=0%;2;5;0
+May 28 03:11:04 app-b nrpe[27209]: Return Code: 0, Output: PING OK - Packet loss = 0%, RTA = 0.05 ms|rta=0.047000ms;10.000000;20.000000;0.000000 pl=0%;2;5;0
+May 28 03:11:04 app-b nrpe[27209]: Connection from 10.6.0.6 closed.
+May 28 03:11:35 app-b nrpe[27219]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 56448
+May 28 03:11:35 app-b nrpe[27219]: Connection from 10.6.0.6 port 56448
+May 28 03:11:35 app-b nrpe[27219]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
+May 28 03:11:35 app-b nrpe[27219]: is_an_allowed_host (AF_INET): host is in allowed host list!
+May 28 03:11:35 app-b nrpe[27219]: Host address is in allowed_hosts
+May 28 03:11:35 app-b nrpe[27219]: Host 10.6.0.6 is asking for command 'check_hd' to be run...
+May 28 03:11:35 app-b nrpe[27219]: Running command: /usr/lib/nagios/plugins/check_disk -w 20% -c 10% -p /dev/sda1
+May 28 03:11:35 app-b nrpe[27220]: WARNING: my_system() seteuid(0): Operation not permitted
+May 28 03:11:35 app-b nrpe[27219]: Command completed with return code 0 and output: DISK OK - free space: /var/tmp 24130 MB (81% inode=93%);| /var/tmp=5452MB;23678;26638;0;29598
+May 28 03:11:35 app-b nrpe[27219]: Return Code: 0, Output: DISK OK - free space: /var/tmp 24130 MB (81% inode=93%);| /var/tmp=5452MB;23678;26638;0;29598
+May 28 03:11:35 app-b nrpe[27219]: Connection from 10.6.0.6 closed.
+May 28 03:12:53 app-b nrpe[27234]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 26753
+May 28 03:12:53 app-b nrpe[27234]: Connection from 10.6.0.6 port 26753
+May 28 03:12:53 app-b nrpe[27234]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
+May 28 03:12:53 app-b nrpe[27234]: is_an_allowed_host (AF_INET): host is in allowed host list!
+May 28 03:12:53 app-b nrpe[27234]: Host address is in allowed_hosts
+May 28 03:12:53 app-b nrpe[27234]: Host 10.6.0.6 is asking for command 'check_users' to be run...
+May 28 03:12:53 app-b nrpe[27234]: Running command: /usr/lib/nagios/plugins/check_users -w 0 -c 2
+May 28 03:12:53 app-b nrpe[27235]: WARNING: my_system() seteuid(0): Operation not permitted
+May 28 03:12:53 app-b nrpe[27234]: Command completed with return code 0 and output: USERS OK - 0 users currently logged in |users=0;0;2;0
+May 28 03:12:53 app-b nrpe[27234]: Return Code: 0, Output: USERS OK - 0 users currently logged in |users=0;0;2;0
+May 28 03:12:53 app-b nrpe[27234]: Connection from 10.6.0.6 closed.
+May 28 03:14:23 app-b python3[1176]: 2022-05-28T03:14:23.239885Z INFO ExtHandler ExtHandler Checking for agent updates (family: Prod)
+May 28 03:14:23 app-b python3[1176]: 2022-05-28T03:14:23.287789Z INFO ExtHandler ExtHandler [HEARTBEAT] Agent WALinuxAgent-2.7.1.0 is running as the goal state agent [DEBUG HeartbeatCounter: 38;HeartbeatId: FFE01850-4B2F-4B0C-A2D0-D04025E24ECA;DroppedPackets: 0;UpdateGSErrors: 0;AutoUpdate: 1]
+May 28 03:16:00 app-b nrpe[27287]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 39554
+May 28 03:16:00 app-b nrpe[27287]: Connection from 10.6.0.6 port 39554
+May 28 03:16:00 app-b nrpe[27287]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
+May 28 03:16:00 app-b nrpe[27287]: is_an_allowed_host (AF_INET): host is in allowed host list!
+May 28 03:16:00 app-b nrpe[27287]: Host address is in allowed_hosts
+May 28 03:16:00 app-b nrpe[27287]: Host 10.6.0.6 is asking for command 'check_ping' to be run...
+May 28 03:16:00 app-b nrpe[27287]: Running command: /usr/lib/nagios/plugins/check_ping -H localhost -w 10,2% -c 20,5%
+May 28 03:16:00 app-b nrpe[27288]: WARNING: my_system() seteuid(0): Operation not permitted
+May 28 03:16:04 app-b nrpe[27287]: Command completed with return code 0 and output: PING OK - Packet loss = 0%, RTA = 0.05 ms|rta=0.052000ms;10.000000;20.000000;0.000000 pl=0%;2;5;0
+May 28 03:16:04 app-b nrpe[27287]: Return Code: 0, Output: PING OK - Packet loss = 0%, RTA = 0.05 ms|rta=0.052000ms;10.000000;20.000000;0.000000 pl=0%;2;5;0
+May 28 03:16:04 app-b nrpe[27287]: Connection from 10.6.0.6 closed.
+May 28 03:16:23 app-b puppet-agent[27297]: Applied catalog in 0.50 seconds
+May 28 03:16:35 app-b nrpe[27335]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 52354
+May 28 03:16:35 app-b nrpe[27335]: Connection from 10.6.0.6 port 52354
+May 28 03:16:35 app-b nrpe[27335]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
+May 28 03:16:35 app-b nrpe[27335]: is_an_allowed_host (AF_INET): host is in allowed host list!
+May 28 03:16:35 app-b nrpe[27335]: Host address is in allowed_hosts
+May 28 03:16:35 app-b nrpe[27335]: Host 10.6.0.6 is asking for command 'check_hd' to be run...
+May 28 03:16:35 app-b nrpe[27335]: Running command: /usr/lib/nagios/plugins/check_disk -w 20% -c 10% -p /dev/sda1
+May 28 03:16:35 app-b nrpe[27336]: WARNING: my_system() seteuid(0): Operation not permitted
+May 28 03:16:35 app-b nrpe[27335]: Command completed with return code 0 and output: DISK OK - free space: /var/tmp 24130 MB (81% inode=93%);| /var/tmp=5452MB;23678;26638;0;29598
+May 28 03:16:35 app-b nrpe[27335]: Return Code: 0, Output: DISK OK - free space: /var/tmp 24130 MB (81% inode=93%);| /var/tmp=5452MB;23678;26638;0;29598
+May 28 03:16:35 app-b nrpe[27335]: Connection from 10.6.0.6 closed.
+May 28 03:17:53 app-b nrpe[27352]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 21635
+May 28 03:17:53 app-b nrpe[27352]: Connection from 10.6.0.6 port 21635
+May 28 03:17:53 app-b nrpe[27352]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
+May 28 03:17:53 app-b nrpe[27352]: is_an_allowed_host (AF_INET): host is in allowed host list!
+May 28 03:17:53 app-b nrpe[27352]: Host address is in allowed_hosts
+May 28 03:17:53 app-b nrpe[27352]: Host 10.6.0.6 is asking for command 'check_users' to be run...
+May 28 03:17:53 app-b nrpe[27352]: Running command: /usr/lib/nagios/plugins/check_users -w 0 -c 2
+May 28 03:17:53 app-b nrpe[27354]: WARNING: my_system() seteuid(0): Operation not permitted
+May 28 03:17:53 app-b nrpe[27352]: Command completed with return code 0 and output: USERS OK - 0 users currently logged in |users=0;0;2;0
+May 28 03:17:53 app-b nrpe[27352]: Return Code: 0, Output: USERS OK - 0 users currently logged in |users=0;0;2;0
+May 28 03:17:53 app-b nrpe[27352]: Connection from 10.6.0.6 closed.
+May 28 03:21:00 app-b nrpe[27395]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 33924
+May 28 03:21:00 app-b nrpe[27395]: Connection from 10.6.0.6 port 33924
+May 28 03:21:00 app-b nrpe[27395]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
+May 28 03:21:00 app-b nrpe[27395]: is_an_allowed_host (AF_INET): host is in allowed host list!
+May 28 03:21:00 app-b nrpe[27395]: Host address is in allowed_hosts
+May 28 03:21:00 app-b nrpe[27395]: Host 10.6.0.6 is asking for command 'check_ping' to be run...
+May 28 03:21:00 app-b nrpe[27395]: Running command: /usr/lib/nagios/plugins/check_ping -H localhost -w 10,2% -c 20,5%
+May 28 03:21:00 app-b nrpe[27396]: WARNING: my_system() seteuid(0): Operation not permitted
+May 28 03:21:04 app-b nrpe[27395]: Command completed with return code 0 and output: PING OK - Packet loss = 0%, RTA = 0.06 ms|rta=0.064000ms;10.000000;20.000000;0.000000 pl=0%;2;5;0
+May 28 03:21:04 app-b nrpe[27395]: Return Code: 0, Output: PING OK - Packet loss = 0%, RTA = 0.06 ms|rta=0.064000ms;10.000000;20.000000;0.000000 pl=0%;2;5;0
+May 28 03:21:04 app-b nrpe[27395]: Connection from 10.6.0.6 closed.
+May 28 03:21:35 app-b nrpe[27405]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 48772
+May 28 03:21:35 app-b nrpe[27405]: Connection from 10.6.0.6 port 48772
+May 28 03:21:35 app-b nrpe[27405]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
+May 28 03:21:35 app-b nrpe[27405]: is_an_allowed_host (AF_INET): host is in allowed host list!
+May 28 03:21:35 app-b nrpe[27405]: Host address is in allowed_hosts
+May 28 03:21:35 app-b nrpe[27405]: Host 10.6.0.6 is asking for command 'check_hd' to be run...
+May 28 03:21:35 app-b nrpe[27405]: Running command: /usr/lib/nagios/plugins/check_disk -w 20% -c 10% -p /dev/sda1
+May 28 03:21:35 app-b nrpe[27406]: WARNING: my_system() seteuid(0): Operation not permitted
+May 28 03:21:35 app-b nrpe[27405]: Command completed with return code 0 and output: DISK OK - free space: /var/tmp 24130 MB (81% inode=93%);| /var/tmp=5452MB;23678;26638;0;29598
+May 28 03:21:35 app-b nrpe[27405]: Return Code: 0, Output: DISK OK - free space: /var/tmp 24130 MB (81% inode=93%);| /var/tmp=5452MB;23678;26638;0;29598
+May 28 03:21:35 app-b nrpe[27405]: Connection from 10.6.0.6 closed.
+May 28 03:22:29 app-b python3[1176]: 2022-05-28T03:22:29.049204Z INFO CollectLogsHandler ExtHandler Starting log collection...
+May 28 03:22:29 app-b systemd[1]: Started /usr/bin/python3 -u bin/WALinuxAgent-2.7.1.0-py2.7.egg -collect-logs.
+May 28 03:22:41 app-b python3[1176]: 2022-05-28T03:22:41.905084Z INFO CollectLogsHandler ExtHandler Successfully collected logs. Archive size: 928429 b, elapsed time: 12855 ms.
+May 28 03:22:41 app-b python3[1176]: 2022-05-28T03:22:41.924133Z INFO CollectLogsHandler ExtHandler Successfully uploaded logs.
+May 28 03:22:53 app-b nrpe[27430]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 18053
+May 28 03:22:53 app-b nrpe[27430]: Connection from 10.6.0.6 port 18053
+May 28 03:22:53 app-b nrpe[27430]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
+May 28 03:22:53 app-b nrpe[27430]: is_an_allowed_host (AF_INET): host is in allowed host list!
+May 28 03:22:53 app-b nrpe[27430]: Host address is in allowed_hosts
+May 28 03:22:53 app-b nrpe[27430]: Host 10.6.0.6 is asking for command 'check_users' to be run...
+May 28 03:22:53 app-b nrpe[27430]: Running command: /usr/lib/nagios/plugins/check_users -w 0 -c 2
+May 28 03:22:53 app-b nrpe[27432]: WARNING: my_system() seteuid(0): Operation not permitted
+May 28 03:22:53 app-b nrpe[27430]: Command completed with return code 0 and output: USERS OK - 0 users currently logged in |users=0;0;2;0
+May 28 03:22:53 app-b nrpe[27430]: Return Code: 0, Output: USERS OK - 0 users currently logged in |users=0;0;2;0
+May 28 03:22:53 app-b nrpe[27430]: Connection from 10.6.0.6 closed.
+May 28 03:26:00 app-b nrpe[27472]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 30342
+May 28 03:26:00 app-b nrpe[27472]: Connection from 10.6.0.6 port 30342
+May 28 03:26:00 app-b nrpe[27472]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
+May 28 03:26:00 app-b nrpe[27472]: is_an_allowed_host (AF_INET): host is in allowed host list!
+May 28 03:26:00 app-b nrpe[27472]: Host address is in allowed_hosts
+May 28 03:26:00 app-b nrpe[27472]: Host 10.6.0.6 is asking for command 'check_ping' to be run...
+May 28 03:26:00 app-b nrpe[27472]: Running command: /usr/lib/nagios/plugins/check_ping -H localhost -w 10,2% -c 20,5%
+May 28 03:26:00 app-b nrpe[27473]: WARNING: my_system() seteuid(0): Operation not permitted
+May 28 03:26:04 app-b nrpe[27472]: Command completed with return code 0 and output: PING OK - Packet loss = 0%, RTA = 0.05 ms|rta=0.051000ms;10.000000;20.000000;0.000000 pl=0%;2;5;0
+May 28 03:26:04 app-b nrpe[27472]: Return Code: 0, Output: PING OK - Packet loss = 0%, RTA = 0.05 ms|rta=0.051000ms;10.000000;20.000000;0.000000 pl=0%;2;5;0
+May 28 03:26:04 app-b nrpe[27472]: Connection from 10.6.0.6 closed.
+May 28 03:26:35 app-b nrpe[27483]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 45190
+May 28 03:26:35 app-b nrpe[27483]: Connection from 10.6.0.6 port 45190
+May 28 03:26:35 app-b nrpe[27483]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
+May 28 03:26:35 app-b nrpe[27483]: is_an_allowed_host (AF_INET): host is in allowed host list!
+May 28 03:26:35 app-b nrpe[27483]: Host address is in allowed_hosts
+May 28 03:26:35 app-b nrpe[27483]: Host 10.6.0.6 is asking for command 'check_hd' to be run...
+May 28 03:26:35 app-b nrpe[27483]: Running command: /usr/lib/nagios/plugins/check_disk -w 20% -c 10% -p /dev/sda1
+May 28 03:26:35 app-b nrpe[27484]: WARNING: my_system() seteuid(0): Operation not permitted
+May 28 03:26:35 app-b nrpe[27483]: Command completed with return code 0 and output: DISK OK - free space: /var/tmp 24130 MB (81% inode=93%);| /var/tmp=5452MB;23678;26638;0;29598
+May 28 03:26:35 app-b nrpe[27483]: Return Code: 0, Output: DISK OK - free space: /var/tmp 24130 MB (81% inode=93%);| /var/tmp=5452MB;23678;26638;0;29598
+May 28 03:26:35 app-b nrpe[27483]: Connection from 10.6.0.6 closed.
+May 28 03:27:53 app-b nrpe[27502]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 14471
+May 28 03:27:53 app-b nrpe[27502]: Connection from 10.6.0.6 port 14471
+May 28 03:27:53 app-b nrpe[27502]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
+May 28 03:27:53 app-b nrpe[27502]: is_an_allowed_host (AF_INET): host is in allowed host list!
+May 28 03:27:53 app-b nrpe[27502]: Host address is in allowed_hosts
+May 28 03:27:53 app-b nrpe[27502]: Host 10.6.0.6 is asking for command 'check_users' to be run...
+May 28 03:27:53 app-b nrpe[27502]: Running command: /usr/lib/nagios/plugins/check_users -w 0 -c 2
+May 28 03:27:53 app-b nrpe[27504]: WARNING: my_system() seteuid(0): Operation not permitted
+May 28 03:27:53 app-b nrpe[27502]: Command completed with return code 0 and output: USERS OK - 0 users currently logged in |users=0;0;2;0
+May 28 03:27:53 app-b nrpe[27502]: Return Code: 0, Output: USERS OK - 0 users currently logged in |users=0;0;2;0
+May 28 03:27:53 app-b nrpe[27502]: Connection from 10.6.0.6 closed.
+May 28 03:31:00 app-b nrpe[27549]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 26760
+May 28 03:31:00 app-b nrpe[27549]: Connection from 10.6.0.6 port 26760
+May 28 03:31:00 app-b nrpe[27549]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
+May 28 03:31:00 app-b nrpe[27549]: is_an_allowed_host (AF_INET): host is in allowed host list!
+May 28 03:31:00 app-b nrpe[27549]: Host address is in allowed_hosts
+May 28 03:31:00 app-b nrpe[27549]: Host 10.6.0.6 is asking for command 'check_ping' to be run...
+May 28 03:31:00 app-b nrpe[27549]: Running command: /usr/lib/nagios/plugins/check_ping -H localhost -w 10,2% -c 20,5%
+May 28 03:31:00 app-b nrpe[27550]: WARNING: my_system() seteuid(0): Operation not permitted
+May 28 03:31:04 app-b nrpe[27549]: Command completed with return code 0 and output: PING OK - Packet loss = 0%, RTA = 0.05 ms|rta=0.051000ms;10.000000;20.000000;0.000000 pl=0%;2;5;0
+May 28 03:31:04 app-b nrpe[27549]: Return Code: 0, Output: PING OK - Packet loss = 0%, RTA = 0.05 ms|rta=0.051000ms;10.000000;20.000000;0.000000 pl=0%;2;5;0
+May 28 03:31:04 app-b nrpe[27549]: Connection from 10.6.0.6 closed.
+May 28 03:31:35 app-b nrpe[27564]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 41608
+May 28 03:31:35 app-b nrpe[27564]: Connection from 10.6.0.6 port 41608
+May 28 03:31:35 app-b nrpe[27564]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
+May 28 03:31:35 app-b nrpe[27564]: is_an_allowed_host (AF_INET): host is in allowed host list!
+May 28 03:31:35 app-b nrpe[27564]: Host address is in allowed_hosts
+May 28 03:31:35 app-b nrpe[27564]: Host 10.6.0.6 is asking for command 'check_hd' to be run...
+May 28 03:31:35 app-b nrpe[27564]: Running command: /usr/lib/nagios/plugins/check_disk -w 20% -c 10% -p /dev/sda1
+May 28 03:31:35 app-b nrpe[27565]: WARNING: my_system() seteuid(0): Operation not permitted
+May 28 03:31:35 app-b nrpe[27564]: Command completed with return code 0 and output: DISK OK - free space: /var/tmp 24130 MB (81% inode=93%);| /var/tmp=5452MB;23678;26638;0;29598
+May 28 03:31:35 app-b nrpe[27564]: Return Code: 0, Output: DISK OK - free space: /var/tmp 24130 MB (81% inode=93%);| /var/tmp=5452MB;23678;26638;0;29598
+May 28 03:31:35 app-b nrpe[27564]: Connection from 10.6.0.6 closed.
+May 28 03:32:53 app-b nrpe[27583]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 10889
+May 28 03:32:53 app-b nrpe[27583]: Connection from 10.6.0.6 port 10889
+May 28 03:32:53 app-b nrpe[27583]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
+May 28 03:32:53 app-b nrpe[27583]: is_an_allowed_host (AF_INET): host is in allowed host list!
+May 28 03:32:53 app-b nrpe[27583]: Host address is in allowed_hosts
+May 28 03:32:53 app-b nrpe[27583]: Host 10.6.0.6 is asking for command 'check_users' to be run...
+May 28 03:32:53 app-b nrpe[27583]: Running command: /usr/lib/nagios/plugins/check_users -w 0 -c 2
+May 28 03:32:53 app-b nrpe[27584]: WARNING: my_system() seteuid(0): Operation not permitted
+May 28 03:32:53 app-b nrpe[27583]: Command completed with return code 0 and output: USERS OK - 0 users currently logged in |users=0;0;2;0
+May 28 03:32:53 app-b nrpe[27583]: Return Code: 0, Output: USERS OK - 0 users currently logged in |users=0;0;2;0
+May 28 03:32:53 app-b nrpe[27583]: Connection from 10.6.0.6 closed.
+May 28 03:36:00 app-b nrpe[27625]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 23690
+May 28 03:36:00 app-b nrpe[27625]: Connection from 10.6.0.6 port 23690
+May 28 03:36:00 app-b nrpe[27625]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
+May 28 03:36:00 app-b nrpe[27625]: is_an_allowed_host (AF_INET): host is in allowed host list!
+May 28 03:36:00 app-b nrpe[27625]: Host address is in allowed_hosts
+May 28 03:36:00 app-b nrpe[27625]: Host 10.6.0.6 is asking for command 'check_ping' to be run...
+May 28 03:36:00 app-b nrpe[27625]: Running command: /usr/lib/nagios/plugins/check_ping -H localhost -w 10,2% -c 20,5%
+May 28 03:36:00 app-b nrpe[27626]: WARNING: my_system() seteuid(0): Operation not permitted
+May 28 03:36:04 app-b nrpe[27625]: Command completed with return code 0 and output: PING OK - Packet loss = 0%, RTA = 0.06 ms|rta=0.057000ms;10.000000;20.000000;0.000000 pl=0%;2;5;0
+May 28 03:36:04 app-b nrpe[27625]: Return Code: 0, Output: PING OK - Packet loss = 0%, RTA = 0.06 ms|rta=0.057000ms;10.000000;20.000000;0.000000 pl=0%;2;5;0
+May 28 03:36:04 app-b nrpe[27625]: Connection from 10.6.0.6 closed.
+May 28 03:36:35 app-b nrpe[27635]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 38538
+May 28 03:36:35 app-b nrpe[27635]: Connection from 10.6.0.6 port 38538
+May 28 03:36:35 app-b nrpe[27635]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
+May 28 03:36:35 app-b nrpe[27635]: is_an_allowed_host (AF_INET): host is in allowed host list!
+May 28 03:36:35 app-b nrpe[27635]: Host address is in allowed_hosts
+May 28 03:36:35 app-b nrpe[27635]: Host 10.6.0.6 is asking for command 'check_hd' to be run...
+May 28 03:36:35 app-b nrpe[27635]: Running command: /usr/lib/nagios/plugins/check_disk -w 20% -c 10% -p /dev/sda1
+May 28 03:36:35 app-b nrpe[27636]: WARNING: my_system() seteuid(0): Operation not permitted
+May 28 03:36:35 app-b nrpe[27635]: Command completed with return code 0 and output: DISK OK - free space: /var/tmp 24130 MB (81% inode=93%);| /var/tmp=5452MB;23678;26638;0;29598
+May 28 03:36:35 app-b nrpe[27635]: Return Code: 0, Output: DISK OK - free space: /var/tmp 24130 MB (81% inode=93%);| /var/tmp=5452MB;23678;26638;0;29598
+May 28 03:36:35 app-b nrpe[27635]: Connection from 10.6.0.6 closed.
+May 28 03:37:53 app-b nrpe[27654]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 8843
+May 28 03:37:53 app-b nrpe[27654]: Connection from 10.6.0.6 port 8843
+May 28 03:37:53 app-b nrpe[27654]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
+May 28 03:37:53 app-b nrpe[27654]: is_an_allowed_host (AF_INET): host is in allowed host list!
+May 28 03:37:53 app-b nrpe[27654]: Host address is in allowed_hosts
+May 28 03:37:53 app-b nrpe[27654]: Host 10.6.0.6 is asking for command 'check_users' to be run...
+May 28 03:37:53 app-b nrpe[27654]: Running command: /usr/lib/nagios/plugins/check_users -w 0 -c 2
+May 28 03:37:53 app-b nrpe[27655]: WARNING: my_system() seteuid(0): Operation not permitted
+May 28 03:37:53 app-b nrpe[27654]: Command completed with return code 0 and output: USERS OK - 0 users currently logged in |users=0;0;2;0
+May 28 03:37:53 app-b nrpe[27654]: Return Code: 0, Output: USERS OK - 0 users currently logged in |users=0;0;2;0
+May 28 03:37:53 app-b nrpe[27654]: Connection from 10.6.0.6 closed.
+May 28 03:39:58 app-b systemd[1]: Starting Clean php session files...
+May 28 03:39:58 app-b sessionclean[27683]: PHP Warning:  Module 'pdo_mysql' already loaded in Unknown on line 0
+May 28 03:39:58 app-b sessionclean[27683]: PHP Warning:  Module 'pdo_mysql' already loaded in Unknown on line 0
+May 28 03:39:58 app-b systemd[1]: Started Clean php session files.
+May 28 03:41:00 app-b nrpe[27792]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 21132
+May 28 03:41:00 app-b nrpe[27792]: Connection from 10.6.0.6 port 21132
+May 28 03:41:00 app-b nrpe[27792]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
+May 28 03:41:00 app-b nrpe[27792]: is_an_allowed_host (AF_INET): host is in allowed host list!
+May 28 03:41:00 app-b nrpe[27792]: Host address is in allowed_hosts
+May 28 03:41:00 app-b nrpe[27792]: Host 10.6.0.6 is asking for command 'check_ping' to be run...
+May 28 03:41:00 app-b nrpe[27792]: Running command: /usr/lib/nagios/plugins/check_ping -H localhost -w 10,2% -c 20,5%
+May 28 03:41:00 app-b nrpe[27793]: WARNING: my_system() seteuid(0): Operation not permitted
+May 28 03:41:04 app-b nrpe[27792]: Command completed with return code 0 and output: PING OK - Packet loss = 0%, RTA = 0.06 ms|rta=0.058000ms;10.000000;20.000000;0.000000 pl=0%;2;5;0
+May 28 03:41:04 app-b nrpe[27792]: Return Code: 0, Output: PING OK - Packet loss = 0%, RTA = 0.06 ms|rta=0.058000ms;10.000000;20.000000;0.000000 pl=0%;2;5;0
+May 28 03:41:04 app-b nrpe[27792]: Connection from 10.6.0.6 closed.
+May 28 03:41:35 app-b nrpe[27802]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 33932
+May 28 03:41:35 app-b nrpe[27802]: Connection from 10.6.0.6 port 33932
+May 28 03:41:35 app-b nrpe[27802]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
+May 28 03:41:35 app-b nrpe[27802]: is_an_allowed_host (AF_INET): host is in allowed host list!
+May 28 03:41:35 app-b nrpe[27802]: Host address is in allowed_hosts
+May 28 03:41:35 app-b nrpe[27802]: Host 10.6.0.6 is asking for command 'check_hd' to be run...
+May 28 03:41:35 app-b nrpe[27802]: Running command: /usr/lib/nagios/plugins/check_disk -w 20% -c 10% -p /dev/sda1
+May 28 03:41:35 app-b nrpe[27803]: WARNING: my_system() seteuid(0): Operation not permitted
+May 28 03:41:35 app-b nrpe[27802]: Command completed with return code 0 and output: DISK OK - free space: /var/tmp 24130 MB (81% inode=93%);| /var/tmp=5452MB;23678;26638;0;29598
+May 28 03:41:35 app-b nrpe[27802]: Return Code: 0, Output: DISK OK - free space: /var/tmp 24130 MB (81% inode=93%);| /var/tmp=5452MB;23678;26638;0;29598
+May 28 03:41:35 app-b nrpe[27802]: Connection from 10.6.0.6 closed.
+May 28 03:42:53 app-b nrpe[27816]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 3725
+May 28 03:42:53 app-b nrpe[27816]: Connection from 10.6.0.6 port 3725
+May 28 03:42:53 app-b nrpe[27816]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
+May 28 03:42:53 app-b nrpe[27816]: is_an_allowed_host (AF_INET): host is in allowed host list!
+May 28 03:42:53 app-b nrpe[27816]: Host address is in allowed_hosts
+May 28 03:42:53 app-b nrpe[27816]: Host 10.6.0.6 is asking for command 'check_users' to be run...
+May 28 03:42:53 app-b nrpe[27816]: Running command: /usr/lib/nagios/plugins/check_users -w 0 -c 2
+May 28 03:42:53 app-b nrpe[27817]: WARNING: my_system() seteuid(0): Operation not permitted
+May 28 03:42:53 app-b nrpe[27816]: Command completed with return code 0 and output: USERS OK - 0 users currently logged in |users=0;0;2;0
+May 28 03:42:53 app-b nrpe[27816]: Return Code: 0, Output: USERS OK - 0 users currently logged in |users=0;0;2;0
+May 28 03:42:53 app-b nrpe[27816]: Connection from 10.6.0.6 closed.
+May 28 03:44:24 app-b python3[1176]: 2022-05-28T03:44:24.574551Z INFO ExtHandler ExtHandler [HEARTBEAT] Agent WALinuxAgent-2.7.1.0 is running as the goal state agent [DEBUG HeartbeatCounter: 39;HeartbeatId: FFE01850-4B2F-4B0C-A2D0-D04025E24ECA;DroppedPackets: 0;UpdateGSErrors: 0;AutoUpdate: 1]
+May 28 03:46:00 app-b nrpe[27863]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 16014
+May 28 03:46:00 app-b nrpe[27863]: Connection from 10.6.0.6 port 16014
+May 28 03:46:00 app-b nrpe[27863]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
+May 28 03:46:00 app-b nrpe[27863]: is_an_allowed_host (AF_INET): host is in allowed host list!
+May 28 03:46:00 app-b nrpe[27863]: Host address is in allowed_hosts
+May 28 03:46:00 app-b nrpe[27863]: Host 10.6.0.6 is asking for command 'check_ping' to be run...
+May 28 03:46:00 app-b nrpe[27863]: Running command: /usr/lib/nagios/plugins/check_ping -H localhost -w 10,2% -c 20,5%
+May 28 03:46:00 app-b nrpe[27864]: WARNING: my_system() seteuid(0): Operation not permitted
+May 28 03:46:04 app-b nrpe[27863]: Command completed with return code 0 and output: PING OK - Packet loss = 0%, RTA = 0.06 ms|rta=0.061000ms;10.000000;20.000000;0.000000 pl=0%;2;5;0
+May 28 03:46:04 app-b nrpe[27863]: Return Code: 0, Output: PING OK - Packet loss = 0%, RTA = 0.06 ms|rta=0.061000ms;10.000000;20.000000;0.000000 pl=0%;2;5;0
+May 28 03:46:04 app-b nrpe[27863]: Connection from 10.6.0.6 closed.
+May 28 03:46:22 app-b puppet-agent[27875]: Applied catalog in 0.48 seconds
+May 28 03:46:35 app-b nrpe[27913]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 30862
+May 28 03:46:35 app-b nrpe[27913]: Connection from 10.6.0.6 port 30862
+May 28 03:46:35 app-b nrpe[27913]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
+May 28 03:46:35 app-b nrpe[27913]: is_an_allowed_host (AF_INET): host is in allowed host list!
+May 28 03:46:35 app-b nrpe[27913]: Host address is in allowed_hosts
+May 28 03:46:35 app-b nrpe[27913]: Host 10.6.0.6 is asking for command 'check_hd' to be run...
+May 28 03:46:35 app-b nrpe[27913]: Running command: /usr/lib/nagios/plugins/check_disk -w 20% -c 10% -p /dev/sda1
+May 28 03:46:35 app-b nrpe[27914]: WARNING: my_system() seteuid(0): Operation not permitted
+May 28 03:46:35 app-b nrpe[27913]: Command completed with return code 0 and output: DISK OK - free space: /var/tmp 24130 MB (81% inode=93%);| /var/tmp=5452MB;23678;26638;0;29598
+May 28 03:46:35 app-b nrpe[27913]: Return Code: 0, Output: DISK OK - free space: /var/tmp 24130 MB (81% inode=93%);| /var/tmp=5452MB;23678;26638;0;29598
+May 28 03:46:35 app-b nrpe[27913]: Connection from 10.6.0.6 closed.
+May 28 03:47:53 app-b nrpe[27927]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 143
+May 28 03:47:53 app-b nrpe[27927]: Connection from 10.6.0.6 port 143
+May 28 03:47:53 app-b nrpe[27927]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
+May 28 03:47:53 app-b nrpe[27927]: is_an_allowed_host (AF_INET): host is in allowed host list!
+May 28 03:47:53 app-b nrpe[27927]: Host address is in allowed_hosts
+May 28 03:47:53 app-b nrpe[27927]: Host 10.6.0.6 is asking for command 'check_users' to be run...
+May 28 03:47:53 app-b nrpe[27927]: Running command: /usr/lib/nagios/plugins/check_users -w 0 -c 2
+May 28 03:47:53 app-b nrpe[27928]: WARNING: my_system() seteuid(0): Operation not permitted
+May 28 03:47:53 app-b nrpe[27927]: Command completed with return code 0 and output: USERS OK - 0 users currently logged in |users=0;0;2;0
+May 28 03:47:53 app-b nrpe[27927]: Return Code: 0, Output: USERS OK - 0 users currently logged in |users=0;0;2;0
+May 28 03:47:53 app-b nrpe[27927]: Connection from 10.6.0.6 closed.
+May 28 03:51:00 app-b nrpe[27972]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 12432
+May 28 03:51:00 app-b nrpe[27972]: Connection from 10.6.0.6 port 12432
+May 28 03:51:00 app-b nrpe[27972]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
+May 28 03:51:00 app-b nrpe[27972]: is_an_allowed_host (AF_INET): host is in allowed host list!
+May 28 03:51:00 app-b nrpe[27972]: Host address is in allowed_hosts
+May 28 03:51:00 app-b nrpe[27972]: Host 10.6.0.6 is asking for command 'check_ping' to be run...
+May 28 03:51:00 app-b nrpe[27972]: Running command: /usr/lib/nagios/plugins/check_ping -H localhost -w 10,2% -c 20,5%
+May 28 03:51:00 app-b nrpe[27973]: WARNING: my_system() seteuid(0): Operation not permitted
+May 28 03:51:04 app-b nrpe[27972]: Command completed with return code 0 and output: PING OK - Packet loss = 0%, RTA = 0.06 ms|rta=0.065000ms;10.000000;20.000000;0.000000 pl=0%;2;5;0
+May 28 03:51:04 app-b nrpe[27972]: Return Code: 0, Output: PING OK - Packet loss = 0%, RTA = 0.06 ms|rta=0.065000ms;10.000000;20.000000;0.000000 pl=0%;2;5;0
+May 28 03:51:04 app-b nrpe[27972]: Connection from 10.6.0.6 closed.
+May 28 03:51:35 app-b nrpe[27989]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 27280
+May 28 03:51:35 app-b nrpe[27989]: Connection from 10.6.0.6 port 27280
+May 28 03:51:35 app-b nrpe[27989]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
+May 28 03:51:35 app-b nrpe[27989]: is_an_allowed_host (AF_INET): host is in allowed host list!
+May 28 03:51:35 app-b nrpe[27989]: Host address is in allowed_hosts
+May 28 03:51:35 app-b nrpe[27989]: Host 10.6.0.6 is asking for command 'check_hd' to be run...
+May 28 03:51:35 app-b nrpe[27989]: Running command: /usr/lib/nagios/plugins/check_disk -w 20% -c 10% -p /dev/sda1
+May 28 03:51:35 app-b nrpe[27990]: WARNING: my_system() seteuid(0): Operation not permitted
+May 28 03:51:35 app-b nrpe[27989]: Command completed with return code 0 and output: DISK OK - free space: /var/tmp 24130 MB (81% inode=93%);| /var/tmp=5452MB;23678;26638;0;29598
+May 28 03:51:35 app-b nrpe[27989]: Return Code: 0, Output: DISK OK - free space: /var/tmp 24130 MB (81% inode=93%);| /var/tmp=5452MB;23678;26638;0;29598
+May 28 03:51:35 app-b nrpe[27989]: Connection from 10.6.0.6 closed.
+May 28 03:52:53 app-b nrpe[28003]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 62096
+May 28 03:52:53 app-b nrpe[28003]: Connection from 10.6.0.6 port 62096
+May 28 03:52:53 app-b nrpe[28003]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
+May 28 03:52:53 app-b nrpe[28003]: is_an_allowed_host (AF_INET): host is in allowed host list!
+May 28 03:52:53 app-b nrpe[28003]: Host address is in allowed_hosts
+May 28 03:52:53 app-b nrpe[28003]: Host 10.6.0.6 is asking for command 'check_users' to be run...
+May 28 03:52:53 app-b nrpe[28003]: Running command: /usr/lib/nagios/plugins/check_users -w 0 -c 2
+May 28 03:52:53 app-b nrpe[28004]: WARNING: my_system() seteuid(0): Operation not permitted
+May 28 03:52:53 app-b nrpe[28003]: Command completed with return code 0 and output: USERS OK - 0 users currently logged in |users=0;0;2;0
+May 28 03:52:53 app-b nrpe[28003]: Return Code: 0, Output: USERS OK - 0 users currently logged in |users=0;0;2;0
+May 28 03:52:53 app-b nrpe[28003]: Connection from 10.6.0.6 closed.
+May 28 03:56:00 app-b nrpe[28043]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 8850
+May 28 03:56:00 app-b nrpe[28043]: Connection from 10.6.0.6 port 8850
+May 28 03:56:00 app-b nrpe[28043]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
+May 28 03:56:00 app-b nrpe[28043]: is_an_allowed_host (AF_INET): host is in allowed host list!
+May 28 03:56:00 app-b nrpe[28043]: Host address is in allowed_hosts
+May 28 03:56:00 app-b nrpe[28043]: Host 10.6.0.6 is asking for command 'check_ping' to be run...
+May 28 03:56:00 app-b nrpe[28043]: Running command: /usr/lib/nagios/plugins/check_ping -H localhost -w 10,2% -c 20,5%
+May 28 03:56:00 app-b nrpe[28044]: WARNING: my_system() seteuid(0): Operation not permitted
+May 28 03:56:04 app-b nrpe[28043]: Command completed with return code 0 and output: PING OK - Packet loss = 0%, RTA = 0.05 ms|rta=0.048000ms;10.000000;20.000000;0.000000 pl=0%;2;5;0
+May 28 03:56:04 app-b nrpe[28043]: Return Code: 0, Output: PING OK - Packet loss = 0%, RTA = 0.05 ms|rta=0.048000ms;10.000000;20.000000;0.000000 pl=0%;2;5;0
+May 28 03:56:04 app-b nrpe[28043]: Connection from 10.6.0.6 closed.
+May 28 03:56:35 app-b nrpe[28055]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 23698
+May 28 03:56:35 app-b nrpe[28055]: Connection from 10.6.0.6 port 23698
+May 28 03:56:35 app-b nrpe[28055]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
+May 28 03:56:35 app-b nrpe[28055]: is_an_allowed_host (AF_INET): host is in allowed host list!
+May 28 03:56:35 app-b nrpe[28055]: Host address is in allowed_hosts
+May 28 03:56:35 app-b nrpe[28055]: Host 10.6.0.6 is asking for command 'check_hd' to be run...
+May 28 03:56:35 app-b nrpe[28055]: Running command: /usr/lib/nagios/plugins/check_disk -w 20% -c 10% -p /dev/sda1
+May 28 03:56:35 app-b nrpe[28056]: WARNING: my_system() seteuid(0): Operation not permitted
+May 28 03:56:35 app-b nrpe[28055]: Command completed with return code 0 and output: DISK OK - free space: /var/tmp 24130 MB (81% inode=93%);| /var/tmp=5452MB;23678;26638;0;29598
+May 28 03:56:35 app-b nrpe[28055]: Return Code: 0, Output: DISK OK - free space: /var/tmp 24130 MB (81% inode=93%);| /var/tmp=5452MB;23678;26638;0;29598
+May 28 03:56:35 app-b nrpe[28055]: Connection from 10.6.0.6 closed.
+May 28 03:57:53 app-b nrpe[28070]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 58514
+May 28 03:57:53 app-b nrpe[28070]: Connection from 10.6.0.6 port 58514
+May 28 03:57:53 app-b nrpe[28070]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
+May 28 03:57:53 app-b nrpe[28070]: is_an_allowed_host (AF_INET): host is in allowed host list!
+May 28 03:57:53 app-b nrpe[28070]: Host address is in allowed_hosts
+May 28 03:57:53 app-b nrpe[28070]: Host 10.6.0.6 is asking for command 'check_users' to be run...
+May 28 03:57:53 app-b nrpe[28070]: Running command: /usr/lib/nagios/plugins/check_users -w 0 -c 2
+May 28 03:57:53 app-b nrpe[28071]: WARNING: my_system() seteuid(0): Operation not permitted
+May 28 03:57:53 app-b nrpe[28070]: Command completed with return code 0 and output: USERS OK - 0 users currently logged in |users=0;0;2;0
+May 28 03:57:53 app-b nrpe[28070]: Return Code: 0, Output: USERS OK - 0 users currently logged in |users=0;0;2;0
+May 28 03:57:53 app-b nrpe[28070]: Connection from 10.6.0.6 closed.
+May 28 04:00:19 app-b systemd[1]: Starting Daily apt download activities...
+May 28 04:00:40 app-b systemd[1]: Started Daily apt download activities.
+May 28 04:01:00 app-b nrpe[28743]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 5268
+May 28 04:01:00 app-b nrpe[28743]: Connection from 10.6.0.6 port 5268
+May 28 04:01:00 app-b nrpe[28743]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
+May 28 04:01:00 app-b nrpe[28743]: is_an_allowed_host (AF_INET): host is in allowed host list!
+May 28 04:01:00 app-b nrpe[28743]: Host address is in allowed_hosts
+May 28 04:01:00 app-b nrpe[28743]: Host 10.6.0.6 is asking for command 'check_ping' to be run...
+May 28 04:01:00 app-b nrpe[28743]: Running command: /usr/lib/nagios/plugins/check_ping -H localhost -w 10,2% -c 20,5%
+May 28 04:01:00 app-b nrpe[28745]: WARNING: my_system() seteuid(0): Operation not permitted
+May 28 04:01:04 app-b nrpe[28743]: Command completed with return code 0 and output: PING OK - Packet loss = 0%, RTA = 0.05 ms|rta=0.051000ms;10.000000;20.000000;0.000000 pl=0%;2;5;0
+May 28 04:01:04 app-b nrpe[28743]: Return Code: 0, Output: PING OK - Packet loss = 0%, RTA = 0.05 ms|rta=0.051000ms;10.000000;20.000000;0.000000 pl=0%;2;5;0
+May 28 04:01:04 app-b nrpe[28743]: Connection from 10.6.0.6 closed.
+May 28 04:01:35 app-b nrpe[28761]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 20116
+May 28 04:01:35 app-b nrpe[28761]: Connection from 10.6.0.6 port 20116
+May 28 04:01:35 app-b nrpe[28761]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
+May 28 04:01:35 app-b nrpe[28761]: is_an_allowed_host (AF_INET): host is in allowed host list!
+May 28 04:01:35 app-b nrpe[28761]: Host address is in allowed_hosts
+May 28 04:01:35 app-b nrpe[28761]: Host 10.6.0.6 is asking for command 'check_hd' to be run...
+May 28 04:01:35 app-b nrpe[28761]: Running command: /usr/lib/nagios/plugins/check_disk -w 20% -c 10% -p /dev/sda1
+May 28 04:01:35 app-b nrpe[28762]: WARNING: my_system() seteuid(0): Operation not permitted
+May 28 04:01:35 app-b nrpe[28761]: Command completed with return code 0 and output: DISK OK - free space: /var/tmp 24130 MB (81% inode=93%);| /var/tmp=5452MB;23678;26638;0;29598
+May 28 04:01:35 app-b nrpe[28761]: Return Code: 0, Output: DISK OK - free space: /var/tmp 24130 MB (81% inode=93%);| /var/tmp=5452MB;23678;26638;0;29598
+May 28 04:01:35 app-b nrpe[28761]: Connection from 10.6.0.6 closed.
+May 28 04:02:53 app-b nrpe[28776]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 54932
+May 28 04:02:53 app-b nrpe[28776]: Connection from 10.6.0.6 port 54932
+May 28 04:02:53 app-b nrpe[28776]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
+May 28 04:02:53 app-b nrpe[28776]: is_an_allowed_host (AF_INET): host is in allowed host list!
+May 28 04:02:53 app-b nrpe[28776]: Host address is in allowed_hosts
+May 28 04:02:53 app-b nrpe[28776]: Host 10.6.0.6 is asking for command 'check_users' to be run...
+May 28 04:02:53 app-b nrpe[28776]: Running command: /usr/lib/nagios/plugins/check_users -w 0 -c 2
+May 28 04:02:53 app-b nrpe[28777]: WARNING: my_system() seteuid(0): Operation not permitted
+May 28 04:02:53 app-b nrpe[28776]: Command completed with return code 0 and output: USERS OK - 0 users currently logged in |users=0;0;2;0
+May 28 04:02:53 app-b nrpe[28776]: Return Code: 0, Output: USERS OK - 0 users currently logged in |users=0;0;2;0
+May 28 04:02:53 app-b nrpe[28776]: Connection from 10.6.0.6 closed.
+May 28 04:06:00 app-b nrpe[28821]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 2198
+May 28 04:06:00 app-b nrpe[28821]: Connection from 10.6.0.6 port 2198
+May 28 04:06:00 app-b nrpe[28821]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
+May 28 04:06:00 app-b nrpe[28821]: is_an_allowed_host (AF_INET): host is in allowed host list!
+May 28 04:06:00 app-b nrpe[28821]: Host address is in allowed_hosts
+May 28 04:06:00 app-b nrpe[28821]: Host 10.6.0.6 is asking for command 'check_ping' to be run...
+May 28 04:06:00 app-b nrpe[28821]: Running command: /usr/lib/nagios/plugins/check_ping -H localhost -w 10,2% -c 20,5%
+May 28 04:06:00 app-b nrpe[28823]: WARNING: my_system() seteuid(0): Operation not permitted
+May 28 04:06:04 app-b nrpe[28821]: Command completed with return code 0 and output: PING OK - Packet loss = 0%, RTA = 0.05 ms|rta=0.050000ms;10.000000;20.000000;0.000000 pl=0%;2;5;0
+May 28 04:06:04 app-b nrpe[28821]: Return Code: 0, Output: PING OK - Packet loss = 0%, RTA = 0.05 ms|rta=0.050000ms;10.000000;20.000000;0.000000 pl=0%;2;5;0
+May 28 04:06:04 app-b nrpe[28821]: Connection from 10.6.0.6 closed.
+May 28 04:06:35 app-b nrpe[28839]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 14486
+May 28 04:06:35 app-b nrpe[28839]: Connection from 10.6.0.6 port 14486
+May 28 04:06:35 app-b nrpe[28839]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
+May 28 04:06:35 app-b nrpe[28839]: is_an_allowed_host (AF_INET): host is in allowed host list!
+May 28 04:06:35 app-b nrpe[28839]: Host address is in allowed_hosts
+May 28 04:06:35 app-b nrpe[28839]: Host 10.6.0.6 is asking for command 'check_hd' to be run...
+May 28 04:06:35 app-b nrpe[28839]: Running command: /usr/lib/nagios/plugins/check_disk -w 20% -c 10% -p /dev/sda1
+May 28 04:06:35 app-b nrpe[28840]: WARNING: my_system() seteuid(0): Operation not permitted
+May 28 04:06:35 app-b nrpe[28839]: Command completed with return code 0 and output: DISK OK - free space: /var/tmp 24130 MB (81% inode=93%);| /var/tmp=5452MB;23678;26638;0;29598
+May 28 04:06:35 app-b nrpe[28839]: Return Code: 0, Output: DISK OK - free space: /var/tmp 24130 MB (81% inode=93%);| /var/tmp=5452MB;23678;26638;0;29598
+May 28 04:06:35 app-b nrpe[28839]: Connection from 10.6.0.6 closed.
+May 28 04:07:53 app-b nrpe[28858]: CONN_CHECK_PEER: checking if host is allowed: 10.6.0.6 port 49814
+May 28 04:07:53 app-b nrpe[28858]: Connection from 10.6.0.6 port 49814
+May 28 04:07:53 app-b nrpe[28858]: is_an_allowed_host (AF_INET): is host >10.6.0.6< an allowed host >mgmt-b.foo.org.nz<
+May 28 04:07:53 app-b nrpe[28858]: is_an_allowed_host (AF_INET): host is in allowed host list!
+May 28 04:07:53 app-b nrpe[28858]: Host address is in allowed_hosts
+May 28 04:07:53 app-b nrpe[28858]: Host 10.6.0.6 is asking for command 'check_users' to be run...
+May 28 04:07:53 app-b nrpe[28858]: Running command: /usr/lib/nagios/plugins/check_users -w 0 -c 2
+May 28 04:07:53 app-b nrpe[28859]: WARNING: my_system() seteuid(0): Operation not permitted
+May 28 04:07:53 app-b nrpe[28858]: Command completed with return code 0 and output: USERS OK - 0 users currently logged in |users=0;0;2;0
+May 28 04:07:53 app-b nrpe[28858]: Return Code: 0, Output: USERS OK - 0 users currently logged in |users=0;0;2;0
+May 28 04:07:53 app-b nrpe[28858]: Connection from 10.6.0.6 closed.
+May 28 04:09:19 app-b systemd[1]: Starting Clean php session files...
+May 28 04:09:19 app-b sessionclean[28885]: PHP Warning:  Module 'pdo_mysql' already loaded in Unknown on line 0
+May 28 04:09:20 app-b sessionclean[28885]: PHP Warning:  Module 'pdo_mysql' already loaded in Unknown on line 0
+May 28 04:09:20 app-b systemd[1]: Started Clean php session files.
