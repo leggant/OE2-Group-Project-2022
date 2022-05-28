@@ -1388,3 +1388,9 @@ May 28 01:58:44 mgmt-b nagios3: SERVICE ALERT: db-b.foo.org.nz;check users-login
 May 28 02:01:34 mgmt-b nagios3: SERVICE ALERT: backup-b.foo.org.nz;check users-login;WARNING;SOFT;1;USERS WARNING - 1 users currently logged in
 May 28 02:02:34 mgmt-b nagios3: SERVICE ALERT: backup-b.foo.org.nz;check users-login;WARNING;SOFT;2;USERS WARNING - 1 users currently logged in
 May 28 02:03:34 mgmt-b nagios3: SERVICE ALERT: backup-b.foo.org.nz;check users-login;OK;SOFT;3;USERS OK - 0 users currently logged in
+May 28 02:18:44 mgmt-b nagios3: SERVICE ALERT: db-b.foo.org.nz;check users-login;WARNING;SOFT;1;USERS WARNING - 1 users currently logged in
+May 28 02:19:44 mgmt-b nagios3: SERVICE ALERT: db-b.foo.org.nz;check users-login;WARNING;SOFT;2;USERS WARNING - 1 users currently logged in
+May 28 02:20:44 mgmt-b nagios3: SERVICE ALERT: db-b.foo.org.nz;check users-login;WARNING;HARD;3;USERS WARNING - 1 users currently logged in
+May 28 02:20:44 mgmt-b nagios3: SERVICE NOTIFICATION: slack;db-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 28 02:20:44 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;db-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 28 02:20:44 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;db-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in

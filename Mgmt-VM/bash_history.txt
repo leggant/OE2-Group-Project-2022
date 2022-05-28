@@ -1,36 +1,3 @@
-bash restore.sh 
-sudo vim restore.sh 
-bash restore.sh 
-sudo vim restore.sh 
-bash restore.sh 
-sudo vim restore.sh 
-sudo vim to_backup.txt 
-sudo vim restore.sh 
-bash restore.sh 
-sudo vim restore.sh 
-ls
-sudo mv backup
-sudo mv to_backup.txt backup
-ls
-ls -la
-cd backup/
-ls
-cd ..
-ls
-sudo mv backup/backup ../backupfile 
-sudo mv backup/to_backup.txt ../backupfile 
-ls
-ls backup/
-ls
-sudo touch backup
-ls
-sudo touch backupfile
-ls
-vim backupfile 
-sudo vim backupfile 
-sudo vim restore.sh 
-./restore.sh 
-sudo vim restore.sh 
 ./restore.sh 
 cler
 sudo vim restore.sh 
@@ -1998,3 +1965,36 @@ ls
 /usr/lib/nagios/plugins/check_ping -w 5 -c 10 -H app-b.foo.org.nz -p 3306
 /usr/lib/nagios/plugins/check_tcp -w 5 -c 10 -H app-b.foo.org.nz -p 3306
 /usr/lib/nagios/plugins/check_tcp -w 5 -c 10 -H mgmt-b.foo.org.nz -p 3306
+mod
+cd rsync/files/
+sudo nano restore.sh 
+agentupdate
+sudo nano restore.sh 
+cd ../manifests/
+sudo nano config.pp 
+agentupdate
+cd ../files/
+sudo nano restore.sh 
+sudo nano daily.sh 
+sudo nano restore.sh 
+sudo nano daily.sh 
+sudo nano weekly.sh 
+agentupdate
+sudo nano restore.sh 
+agentupdate
+sudo nano weekly.sh 
+sudo nano daily.sh 
+agentupdate
+exit
+agentupdate
+resmas
+respup
+ls -al
+cd /etc/backup/
+./restore.sh 
+./daily.sh 
+./weekly.sh 
+ls -al
+cd ~
+ls -al
+./OE2-Group-Project/Scripts/mgmt/backup.sh 

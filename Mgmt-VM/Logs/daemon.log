@@ -1195,3 +1195,29 @@ May 28 02:03:04 mgmt-b puppet-agent[13204]: Starting Puppet client version 5.4.0
 May 28 02:03:04 mgmt-b systemd[1]: Started Puppet agent.
 May 28 02:03:05 mgmt-b puppet-master[13167]: Compiled catalog for mgmt-b.foo.org.nz in environment production in 0.54 seconds
 May 28 02:03:06 mgmt-b puppet-agent[13211]: Applied catalog in 0.55 seconds
+May 28 02:09:04 mgmt-b systemd[1]: Starting Clean php session files...
+May 28 02:09:04 mgmt-b systemd[1]: Started Clean php session files.
+May 28 02:12:32 mgmt-b python3[1103]: 2022-05-28T02:12:32.410427Z INFO ExtHandler ExtHandler Checking for agent updates (family: Prod)
+May 28 02:12:32 mgmt-b python3[1103]: 2022-05-28T02:12:32.454606Z INFO ExtHandler ExtHandler [HEARTBEAT] Agent WALinuxAgent-2.7.1.0 is running as the goal state agent [DEBUG HeartbeatCounter: 136;HeartbeatId: 8199D043-6892-4C72-9663-AB8B3E13B5D1;DroppedPackets: 0;UpdateGSErrors: 0;AutoUpdate: 1]
+May 28 02:16:22 mgmt-b puppet-master[13167]: Compiled catalog for app-b.foo.org.nz in environment production in 0.06 seconds
+May 28 02:27:36 mgmt-b puppet-master[13167]: Compiled catalog for db-b.foo.org.nz in environment production in 0.06 seconds
+May 28 02:28:25 mgmt-b puppet-master[13167]: Compiled catalog for backup-b.foo.org.nz in environment production in 0.05 seconds
+May 28 02:28:34 mgmt-b systemd[1]: Stopping User Manager for UID 1000...
+May 28 02:28:34 mgmt-b systemd[10941]: Stopped target Default.
+May 28 02:28:34 mgmt-b systemd[10941]: Stopped target Basic System.
+May 28 02:28:34 mgmt-b systemd[10941]: Stopped target Paths.
+May 28 02:28:34 mgmt-b systemd[10941]: Stopped target Sockets.
+May 28 02:28:34 mgmt-b systemd[10941]: Closed GnuPG cryptographic agent (ssh-agent emulation).
+May 28 02:28:34 mgmt-b systemd[10941]: Closed GnuPG cryptographic agent and passphrase cache (access for web browsers).
+May 28 02:28:34 mgmt-b systemd[10941]: Closed GnuPG network certificate management daemon.
+May 28 02:28:34 mgmt-b systemd[10941]: Closed D-Bus User Message Bus Socket.
+May 28 02:28:34 mgmt-b systemd[10941]: Closed GnuPG cryptographic agent and passphrase cache.
+May 28 02:28:34 mgmt-b systemd[10941]: Stopped target Timers.
+May 28 02:28:34 mgmt-b systemd[10941]: Closed GnuPG cryptographic agent and passphrase cache (restricted).
+May 28 02:28:34 mgmt-b systemd[10941]: Closed REST API socket for snapd user session agent.
+May 28 02:28:34 mgmt-b systemd[10941]: Reached target Shutdown.
+May 28 02:28:34 mgmt-b systemd[10941]: Starting Exit the Session...
+May 28 02:28:34 mgmt-b systemd[10941]: Received SIGRTMIN+24 from PID 14333 (kill).
+May 28 02:28:34 mgmt-b systemd[1]: user@1000.service: Killing process 14333 (kill) with signal SIGKILL.
+May 28 02:28:34 mgmt-b systemd[1]: Stopped User Manager for UID 1000.
+May 28 02:28:34 mgmt-b systemd[1]: Removed slice User Slice of bitstudent.
