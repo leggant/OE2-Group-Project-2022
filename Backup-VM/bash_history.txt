@@ -1710,3 +1710,12 @@ exit
 cat /var/log/cron.log
 exit
 sudo systemctl mask netdata
+respup
+ls -al
+cd /etc/backup
+ls
+./restore.sh 
+./daily.sh 
+./weekly.sh 
+crontab -e
+exit
