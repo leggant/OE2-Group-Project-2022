@@ -112,3 +112,48 @@ May 27 12:10:04 app-b rsyncd[9212]: file has vanished: "/home/groupb/backup/app/
 May 27 12:10:04 app-b rsyncd[9212]: total: matches=7429  hash_hits=18210  false_alarms=0 data=184671
 May 27 12:10:04 app-b rsyncd[9212]: sent 214.61K bytes  received 23.85K bytes  158.97K bytes/sec
 May 27 12:10:04 app-b rsyncd[9212]: total size is 29.37M  speedup is 123.15
+May 28 06:37:12 app-b os-prober: debug: running /usr/lib/os-probes/50mounted-tests on /dev/sda14
+May 28 06:37:12 app-b 50mounted-tests: debug: /dev/sda14 type not recognised; skipping
+May 28 06:37:12 app-b os-prober: debug: os detected by /usr/lib/os-probes/50mounted-tests
+May 28 06:37:12 app-b os-prober: debug: running /usr/lib/os-probes/mounted/05efi on mounted /dev/sda15
+May 28 06:37:12 app-b 05efi: debug: /dev/sda15 is a FAT32 partition
+May 28 06:37:12 app-b 05efi: debug: /dev/sda15 partition scheme is gpt
+May 28 06:37:12 app-b 05efi: debug: /dev/sda15 partition type is c12a7328-f81f-11d2-ba4b-00a0c93ec93b
+May 28 06:37:12 app-b 05efi: debug: running subtest /usr/lib/os-probes/mounted/efi/10elilo
+May 28 06:37:12 app-b 05efi: debug: running subtest /usr/lib/os-probes/mounted/efi/20microsoft
+May 28 06:37:12 app-b os-prober: debug: running /usr/lib/os-probes/mounted/10freedos on mounted /dev/sda15
+May 28 06:37:12 app-b 10freedos: debug: /dev/sda15 is a FAT32 partition
+May 28 06:37:12 app-b os-prober: debug: running /usr/lib/os-probes/mounted/10qnx on mounted /dev/sda15
+May 28 06:37:12 app-b 10qnx: debug: /dev/sda15 is not a QNX4 partition: exiting
+May 28 06:37:12 app-b os-prober: debug: running /usr/lib/os-probes/mounted/20macosx on mounted /dev/sda15
+May 28 06:37:12 app-b macosx-prober: debug: /dev/sda15 is not an HFS+ partition: exiting
+May 28 06:37:12 app-b os-prober: debug: running /usr/lib/os-probes/mounted/20microsoft on mounted /dev/sda15
+May 28 06:37:12 app-b 20microsoft: debug: Skipping legacy bootloaders on UEFI system
+May 28 06:37:12 app-b os-prober: debug: running /usr/lib/os-probes/mounted/30utility on mounted /dev/sda15
+May 28 06:37:12 app-b 30utility: debug: /dev/sda15 is a FAT32 partition
+May 28 06:37:12 app-b os-prober: debug: running /usr/lib/os-probes/mounted/40lsb on mounted /dev/sda15
+May 28 06:37:12 app-b os-prober: debug: running /usr/lib/os-probes/mounted/70hurd on mounted /dev/sda15
+May 28 06:37:12 app-b os-prober: debug: running /usr/lib/os-probes/mounted/80minix on mounted /dev/sda15
+May 28 06:37:12 app-b os-prober: debug: running /usr/lib/os-probes/mounted/83haiku on mounted /dev/sda15
+May 28 06:37:12 app-b 83haiku: debug: /dev/sda15 is not a BeFS partition: exiting
+May 28 06:37:12 app-b os-prober: debug: running /usr/lib/os-probes/mounted/90linux-distro on mounted /dev/sda15
+May 28 06:37:12 app-b os-prober: debug: running /usr/lib/os-probes/mounted/90solaris on mounted /dev/sda15
+May 28 06:37:12 app-b os-prober: debug: running /usr/lib/os-probes/mounted/05efi on mounted /dev/sdb1
+May 28 06:37:12 app-b 05efi: debug: /dev/sdb1 is ext4 partition: exiting
+May 28 06:37:12 app-b os-prober: debug: running /usr/lib/os-probes/mounted/10freedos on mounted /dev/sdb1
+May 28 06:37:12 app-b 10freedos: debug: /dev/sdb1 is not a FAT partition: exiting
+May 28 06:37:12 app-b os-prober: debug: running /usr/lib/os-probes/mounted/10qnx on mounted /dev/sdb1
+May 28 06:37:12 app-b 10qnx: debug: /dev/sdb1 is not a QNX4 partition: exiting
+May 28 06:37:12 app-b os-prober: debug: running /usr/lib/os-probes/mounted/20macosx on mounted /dev/sdb1
+May 28 06:37:12 app-b macosx-prober: debug: /dev/sdb1 is not an HFS+ partition: exiting
+May 28 06:37:12 app-b os-prober: debug: running /usr/lib/os-probes/mounted/20microsoft on mounted /dev/sdb1
+May 28 06:37:12 app-b 20microsoft: debug: Skipping legacy bootloaders on UEFI system
+May 28 06:37:12 app-b os-prober: debug: running /usr/lib/os-probes/mounted/30utility on mounted /dev/sdb1
+May 28 06:37:12 app-b 30utility: debug: /dev/sdb1 is not a FAT partition: exiting
+May 28 06:37:12 app-b os-prober: debug: running /usr/lib/os-probes/mounted/40lsb on mounted /dev/sdb1
+May 28 06:37:12 app-b os-prober: debug: running /usr/lib/os-probes/mounted/70hurd on mounted /dev/sdb1
+May 28 06:37:12 app-b os-prober: debug: running /usr/lib/os-probes/mounted/80minix on mounted /dev/sdb1
+May 28 06:37:12 app-b os-prober: debug: running /usr/lib/os-probes/mounted/83haiku on mounted /dev/sdb1
+May 28 06:37:12 app-b 83haiku: debug: /dev/sdb1 is not a BeFS partition: exiting
+May 28 06:37:12 app-b os-prober: debug: running /usr/lib/os-probes/mounted/90linux-distro on mounted /dev/sdb1
+May 28 06:37:12 app-b os-prober: debug: running /usr/lib/os-probes/mounted/90solaris on mounted /dev/sdb1
