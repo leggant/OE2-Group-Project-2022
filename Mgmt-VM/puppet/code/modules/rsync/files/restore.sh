@@ -29,28 +29,23 @@ done
 elif [ $host == $db ]
 then
 echo " db vm"
-#~bash throw errer
-# this needs update
-sudo chown -R bitstudent ~/mysql-backup
-sudo chgrp -R bitstudent ~/mysql-backup
-sudo chmod 770 -R ~/mysql-backup/
 BUDIR="
 /etc/node-exporter
 /etc/nagios
 /etc/nagios-plugins
 /etc/mysql
 /etc/puppet
-/home/bitstudent/mysql-backup
+/etc/backup/mysql-backup
 "
 sudo chmod o+rx /etc/mysql/debian.cnf
 
 # MYSQL BACKUP
 MYSQLDATE=`date +%d%m%Y%H%M%S`
-cd /etc/backup
+cd /etc/backup/mysql-backup
 sudo mysqldump  --skip-extended-insert --all-databases --add-drop-table > sqlbackup.sql
-sudo chown  bitstudent /etc/backup/sqlbackup.sql
-sudo chgrp  bitstudent /etc/backup/sqlbackup.sql 
-sudo chmod 770 /etc/backup/sqlbackup.sql
+sudo chown bitstudent -R /etc/backup/mysql-backup
+sudo chgrp  bitstudent -R /etc/backup/mysql-backup 
+sudo chmod 770 -R /etc/backup/mysql-backup
 
 # the name of the backup machine
 BSERVER=groupb

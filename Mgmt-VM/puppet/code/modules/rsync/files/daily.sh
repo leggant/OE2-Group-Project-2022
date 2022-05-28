@@ -37,12 +37,11 @@ BUDIR="
 /etc/nagios-plugins
 /etc/mysql
 /etc/puppet
-/home/bitstudent/mysql-backup
+/etc/backup/mysql-backup
 "
 
 sudo chmod o+rx /etc/mysql/debian.cnf
 # MYSQL BACKUP
-MYSQLDATE=`date +%d%m%Y%H%M%S`
 cd $backupdir
 sudo mysqldump --skip-extended-insert --all-databases --add-drop-table > sqlbackup.sql
 sudo zip -r $backupdir/backup-$(date +%Y%m%d).zip $BUDIR 

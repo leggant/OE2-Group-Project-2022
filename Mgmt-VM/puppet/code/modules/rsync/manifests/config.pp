@@ -26,17 +26,23 @@ file { '/etc/backup/weekly.sh':
 file { '/home/bitstudent/rsync.log':
         ensure => present,
         source => 'puppet:///modules/rsync/rsync.log',
-        mode => '0775',
+        mode => '0770',
+	group => 'bitstudent',
+        owner => 'bitstudent',
 }
 file { '/home/bitstudent/daily.log':
         ensure => present,
         source => 'puppet:///modules/rsync/daily.log',
-        mode => '0775',
+        mode => '0770',
+	group => 'bitstudent',
+        owner => 'bitstudent',
 }
 file { '/home/bitstudent/weekly.log':
         ensure => present,
         source => 'puppet:///modules/rsync/weekly.log',
-        mode => '0775',
+        mode => '0770',
+	group => 'bitstudent',
+	owner => 'bitstudent',
 }
 }
 
