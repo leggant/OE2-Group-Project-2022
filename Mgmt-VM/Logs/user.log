@@ -1394,3 +1394,8 @@ May 28 02:20:44 mgmt-b nagios3: SERVICE ALERT: db-b.foo.org.nz;check users-login
 May 28 02:20:44 mgmt-b nagios3: SERVICE NOTIFICATION: slack;db-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
 May 28 02:20:44 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;db-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
 May 28 02:20:44 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;db-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 28 02:30:44 mgmt-b nagios3: SERVICE ALERT: db-b.foo.org.nz;check users-login;OK;HARD;3;USERS OK - 0 users currently logged in
+May 28 02:30:44 mgmt-b nagios3: SERVICE FLAPPING ALERT: db-b.foo.org.nz;check users-login;STARTED; Service appears to have started flapping (21.8% change >= 20.0% threshold)
+May 28 02:55:14 mgmt-b nagios3: Auto-save of retention data completed successfully.
+May 28 03:55:14 mgmt-b nagios3: Auto-save of retention data completed successfully.
+May 28 04:00:44 mgmt-b nagios3: SERVICE FLAPPING ALERT: db-b.foo.org.nz;check users-login;STOPPED; Service appears to have stopped flapping (3.9% change < 5.0% threshold)
