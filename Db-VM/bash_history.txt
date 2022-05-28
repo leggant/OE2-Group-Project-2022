@@ -1,37 +1,4 @@
 sudo vi ~/.bashrc
-source ~/.bashrc
-budb
-cd /etc
-ls
-exit
-budb
-cd ~/OE2-Group-Project/Scripts/db
-ls -al
-sudo nano backup.sh 
-sudo vi ~/.bashrc
-budb
-cd /etc
-ls
-cd apache2/
-ls
-sudo nano backup.sh 
-sudo vi ~/.bashrc
-sudo nano backup.sh 
-cd ~/OE2-Group-Project/Scripts/db
-sudo nano backup.sh 
-budb
-budb
-cd ~/OE2-Group-Project/Scripts/db
-ls -al
-sudo nano backup.sh 
-sudo vi ~/.bashrc
-budb
-cd /etc
-ls
-cd apache2/
-ls
-sudo nano backup.sh 
-sudo vi ~/.bashrc
 sudo nano backup.sh 
 cd ~/OE2-Group-Project/Scripts/db
 sudo nano backup.sh 
@@ -1998,3 +1965,36 @@ ls
 crontab -e
 bash /etc/backup/restore.sh 
 crontab -e
+respup
+ls
+respup
+statpup
+ls
+respup
+statpup
+ls
+sudo rm log.log 
+ls
+sudo rm -r test/
+sudo rm -r mysql-backup/
+ls
+respup
+statpup
+ls
+cd OE2-Group-Project/Scripts/db
+sudo nano backup.sh 
+./backup.sh 
+sudo nano backup.sh 
+exit
+sudo reboot
+cat /var/log/cron.log 
+netdata -h
+sudo systemctl stop netdata
+sudo systemctl status netdata
+sudo killall netdata
+ps aux| grep netdata
+sudo killall netdata
+sudo systemctl status netdata
+sudo systemctl mask netdata
+sudo systemctl status netdata
+sudo reboot
