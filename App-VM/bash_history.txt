@@ -1,7 +1,3 @@
-132692 04:17:27.598668054 0 sysdig (25722) > write fd=1 size=123 
-132693 04:17:27.598670854 0 sysdig (25722) > switch next=25194 pgft_maj=0 pgft_min=1465 vm_size=136228 vm_rss=16096 vm_swap=0 
-132694 04:17:27.598672354 0 <NA> (25194) > switch next=25722(sysdig) pgft_maj=0 pgft_min=0 vm_size=0 vm_rss=0 vm_swap=0 
-132695 04:17:27.598673754 0 sysdig (25722) > switch next=25194 pgft_maj=0 pgft_min=1465 vm_size=136228 vm_rss=16096 vm_swap=0 
 132696 04:17:27.598674754 0 <NA> (25194) > switch next=25722(sysdig) pgft_maj=0 pgft_min=0 vm_size=0 vm_rss=0 vm_swap=0 
 132697 04:17:27.598677054 0 sysdig (25722) > stat 
 132698 04:17:27.598678554 0 sysdig (25722) < stat res=0 path=/etc/localtime 
@@ -1998,3 +1994,7 @@ sudo apt-get install libdbd-mysql-perl
 ./check_mysql_health -H db-b.foo.org.nz --user root --password P@ssw0rd --mode uptime
 ./check_mysql_health -H db-b.foo.org.nz --user nagios --password nagios --mode uptime
 ./check_mysql_health -H db-b.foo.org.nz --user owncloud --password P@ssw0rd  --mode uptime
+cd /etc/backup/
+./daily.sh 
+./restore.sh 
+exit
