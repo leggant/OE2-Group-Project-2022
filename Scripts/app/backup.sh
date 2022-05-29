@@ -38,7 +38,6 @@ sudo cp /etc/systemd/system/node-exporter.service ~/OE2-Group-Project/App-VM/nod
 sudo cp /etc/rsyslog.d/50-default.conf ~/OE2-Group-Project/App-VM/Logs
 sudo cp /var/log/user.log ~/OE2-Group-Project/App-VM/Logs
 sudo cp /var/log/cron.log ~/OE2-Group-Project/App-VM/Logs
-sudo cp /var/log/daemon.log ~/OE2-Group-Project/App-VM/Logs
 sudo cp ~/rsync.log ~/OE2-Group-Project/App-VM/Logs
 sudo cp ~/daily.log ~/OE2-Group-Project/App-VM/Logs
 sudo cp ~/weekly.log ~/OE2-Group-Project/App-VM/Logs
