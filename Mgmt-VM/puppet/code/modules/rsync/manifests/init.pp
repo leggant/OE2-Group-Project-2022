@@ -1,3 +1,3 @@
 class rsync {
-        include rsync::config
+        include rsync::config, rsync::service
 }
