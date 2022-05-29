@@ -5,7 +5,12 @@ file { '/etc/backup':
     group  => 'bitstudent',
     mode   => '0750',
   }
- 
+file { '/etc/rsyncd.conf':
+    ensure => 'present',
+    owner  => 'root',
+    group  => 'root',
+    mode   => '0644',
+ } 
 file { '/etc/backup/restore.sh':
         ensure => present,
         source => 'puppet:///modules/rsync/restore.sh',

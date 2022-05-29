@@ -1,4 +1,3 @@
-./restore.sh 
 cler
 sudo vim restore.sh 
 ls
@@ -1998,3 +1997,4 @@ ls -al
 cd ~
 ls -al
 ./OE2-Group-Project/Scripts/mgmt/backup.sh 
+sudo reboot

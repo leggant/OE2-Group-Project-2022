@@ -1543,3 +1543,23 @@ May 29 06:31:37 mgmt-b 83haiku: debug: /dev/sdb1 is not a BeFS partition: exitin
 May 29 06:31:37 mgmt-b os-prober: debug: running /usr/lib/os-probes/mounted/90linux-distro on mounted /dev/sdb1
 May 29 06:31:37 mgmt-b os-prober: debug: running /usr/lib/os-probes/mounted/90solaris on mounted /dev/sdb1
 May 29 06:55:14 mgmt-b nagios3: Auto-save of retention data completed successfully.
+May 29 07:55:14 mgmt-b nagios3: Auto-save of retention data completed successfully.
+May 29 08:07:52 mgmt-b KVP: KVP starting; pid is:531
+May 29 08:07:52 mgmt-b KVP: KVP LIC Version: 3.1
+May 29 08:07:52 mgmt-b kernel: [    8.428269] Started bpfilter
+May 29 08:07:53 mgmt-b nagios3: Nagios 3.5.1 starting... (PID=1249)
+May 29 08:07:53 mgmt-b nagios3: Local time is Sun May 29 08:07:53 UTC 2022
+May 29 08:07:53 mgmt-b nagios3: LOG VERSION: 2.0
+May 29 08:07:53 mgmt-b nagios3: Finished daemonizing... (New PID=1276)
+May 29 08:23:33 mgmt-b nagios3: SERVICE ALERT: backup-b.foo.org.nz;check users-login;WARNING;SOFT;1;USERS WARNING - 1 users currently logged in
+May 29 08:24:13 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;check users-login;WARNING;SOFT;1;USERS WARNING - 1 users currently logged in
+May 29 08:24:33 mgmt-b nagios3: SERVICE ALERT: backup-b.foo.org.nz;check users-login;WARNING;SOFT;2;USERS WARNING - 1 users currently logged in
+May 29 08:25:13 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;check users-login;WARNING;SOFT;2;USERS WARNING - 1 users currently logged in
+May 29 08:25:33 mgmt-b nagios3: SERVICE ALERT: backup-b.foo.org.nz;check users-login;WARNING;HARD;3;USERS WARNING - 1 users currently logged in
+May 29 08:25:33 mgmt-b nagios3: SERVICE NOTIFICATION: slack;backup-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 29 08:25:33 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;backup-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 29 08:25:34 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;backup-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 29 08:26:13 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;check users-login;WARNING;HARD;3;USERS WARNING - 1 users currently logged in
+May 29 08:26:13 mgmt-b nagios3: SERVICE NOTIFICATION: slack;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 29 08:26:13 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 29 08:26:13 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in

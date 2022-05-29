@@ -19,7 +19,7 @@ BDIR="
 "
 
 sudo zip -r $backupdir/backup-$(date +%Y%m%d).zip $BDIR 
-sudo find $backupdir/* -mtime +7 -delete
+sudo find $backupdir/* -ctime +7 -delete
 # the name of the backup machine
 BSERVER=groupb
 USERX=restore-b.foo.org.nz
@@ -45,7 +45,7 @@ sudo chmod o+rx /etc/mysql/debian.cnf
 cd $backupdir
 sudo mysqldump --skip-extended-insert --all-databases --add-drop-table > sqlbackup.sql
 sudo zip -r $backupdir/backup-$(date +%Y%m%d).zip $BUDIR 
-sudo find $backupdir/* -mtime +7 -delete
+sudo find $backupdir/* -ctime +7 -delete
 # the name of the backup machine
 BSERVER=groupb
 USERX=restore-b.foo.org.nz
@@ -64,7 +64,7 @@ BDIR="
 "
 sudo chmod o+rx /var/www/owncloud/data -R
 sudo zip -r $backupdir/backup-$(date +%Y%m%d).zip $BDIR 
-sudo find $backupdir/* -mtime +7 -delete
+sudo find $backupdir/* -ctime +7 -delete
 BSERVER=groupb
 USERX=restore-b.foo.org.nz
 OPTS="-haAXuv -v --progress --delete --log-file=/home/bitstudent/daily.log --backup-dir=~/backup/app/daily"
@@ -93,7 +93,7 @@ BDIR="
 "
 # the name of the backup machine
 sudo zip -r $backupdir/backup-$(date +%Y%m%d).zip $BDIR
-sudo find $backupdir/* -mtime +7 -delete
+sudo find $backupdir/* -ctime +7 -delete
 BSERVER=groupb
 USERX=restore-b.foo.org.nz
 OPTS="-haAXuv -v --progress --delete --log-file=/home/bitstudent/daily.log --backup-dir=~/backup/backup/daily"
