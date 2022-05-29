@@ -1,5 +1,3 @@
-132696 04:17:27.598674754 0 <NA> (25194) > switch next=25722(sysdig) pgft_maj=0 pgft_min=0 vm_size=0 vm_rss=0 vm_swap=0 
-132697 04:17:27.598677054 0 sysdig (25722) > stat 
 132698 04:17:27.598678554 0 sysdig (25722) < stat res=0 path=/etc/localtime 
 132699 04:17:27.598682754 0 sysdig (25722) > write fd=1 size=91 
 132700 04:17:27.598684554 0 sysdig (25722) > switch next=25194 pgft_maj=0 pgft_min=1465 vm_size=136228 vm_rss=16096 vm_swap=0 
@@ -1997,4 +1995,6 @@ sudo apt-get install libdbd-mysql-perl
 cd /etc/backup/
 ./daily.sh 
 ./restore.sh 
+exit
+clear
 exit
