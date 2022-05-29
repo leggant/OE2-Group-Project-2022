@@ -134,4 +134,11 @@ class nagios::config {
         members => 'db-b.foo.org.nz'
         }	
 
+	nagios_hostgroup {"mgmt-b":
+        target => "/etc/nagios3/conf.d/ppt_hostgroups.cfg",
+        mode => "0444",
+        alias => 'mgmt-b',
+        members => 'mgmt-b.foo.org.nz'
+        }
+
 }
