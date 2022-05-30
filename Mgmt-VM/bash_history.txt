@@ -1423,3 +1423,250 @@ cd conf.d//usr/lib/nagios/plugins/check_http -H localhost -u /owncloud -a admin:
 /usr/lib/nagios/plugins/check_http -H app-b.foo.org.nz -u /owncloud -a admin:Oe2b_2022 -w 10,2% -c 20,5%
 /usr/lib/nagios/plugins/check_http -H localhost -u /nagios3/ -a nagiosadmin:Oe2b2022
 /usr/lib/nagios/plugins/check_http -H app-b.foo.org.nz -u /owncloud -a admin:Oe2b_2022 -w 10,2% -c 20,5%
+statpup
+mod 
+cd rsync/manifests/
+ls
+sudo nano config.pp 
+agentupdate
+statmas
+statpup
+ls -al
+cd ../../
+ls
+cd ~
+ls
+ls -al
+sudo rm :q
+ls
+ls -a;
+ls -al
+ls
+ls -al
+ls
+cd /etc/nagios-plugins/config/
+ls
+cd ../../nagios
+ls
+cd nrpe.d/
+ls
+cd ../../nagios3/
+ls
+cd conf.d/
+ls
+cd ../
+cd /var/lib
+ls
+cd nagios3/
+cd ../
+cd ~
+cd /etc/
+ls
+cd nagios
+ls
+cd nrpe.d/
+ls
+cd ..
+ls
+cd ../nagios-plugins/
+ls
+cd config/
+ls
+ifconfig
+tcp --help
+netstat
+~/OE2-Group-Project/Scripts/mgmt/
+cd ~/OE2-Group-Project/Scripts/mgmt/
+ls
+cd ../
+ls
+cd app/
+ls
+cd ..
+mod
+ls
+cd nagios/
+cd files/
+ls
+cd ../manifests/
+ls
+sudo nano config.pp 
+sudo nano service.pp 
+cd ../
+ls
+cd ..
+ls
+sudo mkdir node_exporter
+cd node_exporter/
+sudo mkdir files manifests
+cd manifests/
+sudo touch config.pp init.pp service.pp
+ls
+cd ..
+ls
+cd files/
+ls
+sudo cp /etc/systemd/system/node-exporter.service .
+ls
+cd ../manifests/
+ls
+sudo nano config.pp 
+sudo nano init.pp
+sudo nano config.pp 
+cd ..
+ls
+cd ..
+sudo mv node_exporter/ node-exporter/
+ld
+ls
+cd node-exporter/
+ls
+cd files/
+ls
+cd ..
+cd manifests/
+ls
+sudo rm service.pp 
+ls
+site
+agentupdate
+site
+mod
+cd node-exporter/
+ls
+cd manifests/
+ls
+sudo nano init.pp 
+sudo nano config.pp 
+ls
+sudo nano config.pp 
+sudo nano init.pp 
+cd ../..
+ls
+cd node-exporter/manifests/
+ls
+sudo nano config.pp 
+site
+agentupdate
+site
+agentupdate
+site
+agentupdate
+site
+agentupdate
+resmas
+statmas
+statnag'
+;
+statnag
+mod
+cd node-exporter/
+cd files/
+ls
+sudo cp /etc/node-exporter -R .
+ls
+sudo cp /etc/node-exporter/ -R .
+ls
+cd node-exporter/
+ls
+cd ..
+ls
+cd ..
+cd manifests/
+sudo nano config.pp 
+cd ../files/
+ls
+agentupdate
+resmas
+mod
+ls
+cd node-exporter/
+ls
+cd files/
+ls
+cd ...
+cd ../manifests/
+ls
+sudo nano config.pp 
+site
+mod
+cd node-exporter/
+cd files/
+ls
+sudo mv node-exporter node_exporter
+ls
+cd ../manifests/
+cd ../files/node_exporter
+ls
+cd ../../manifests/
+ls
+sudo nano config.pp 
+site
+agentupdate
+cd ~
+ls
+ls -al
+mod
+ls
+cd rsync/files/
+cd ../manifests/
+sudo nano config.pp 
+cd ../../
+ls
+sudo mv node-exporter/ node_exporter
+cd node_exporter/
+ls
+cd files/
+ls
+cd ..
+cd manifests/
+sudo nano config.pp 
+agentupdate
+resmas
+cd ~
+ls
+cd /etc
+ls
+mod
+ls
+cd node_exporter/
+ls
+cd ~
+ls
+ls -la
+mod
+cd rsync/manifests/
+ls
+sudo nano config.pp 
+agentupdate
+sudo nano config.pp 
+agentupdate
+cd ~
+ls
+ls -al
+statpup
+cd OE2-Group-Project/M
+cd OE2-Group-Project/Mgmt-VM/
+ls
+cd ../Scripts/mgmt/
+sudo nano backup.sh 
+sudo nano ../app/backup.sh 
+sudo nano ../db/backup.sh 
+sudo nano ../mgmt/backup.sh 
+sudo nano ../backup/backup.sh 
+git status
+cd ..
+ls
+cd ..
+ls
+git status
+git add .
+git commit -m "updated gh backup scripts"
+git push
+bumgmt
+cd Scripts/mgmt/
+sudo nano backup.sh 
+sudo nano ../app/backup.sh 
+sudo nano ../db/backup.sh 
+sudo nano ../backup/backup.sh 
+bumgmt
