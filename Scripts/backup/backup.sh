@@ -25,7 +25,6 @@ sudo cp /etc/puppet/ ~/OE2-Group-Project/Backup-VM/ -r
 sudo cp /etc/hosts ~/OE2-Group-Project/Backup-VM/hosts
 sudo chmod go+r ~/OE2-Group-Project/Backup-VM/hosts
 sudo cp /etc/puppet/ ~/OE2-Group-Project/Backup-VM/ -r
-cat '' > ~/OE2-Group-Project/Backup-VM/bash_history.txt
 sudo cp ~/.bash_history ~/OE2-Group-Project/Backup-VM/bash_history.txt
 sudo chmod go+r ~/OE2-Group-Project/Backup-VM/bash_history.txt
 sudo cp ~/.bashrc ~/OE2-Group-Project/Backup-VM/bashrc

@@ -27,7 +27,6 @@ sudo cp /etc/hosts ~/OE2-Group-Project/Mgmt-VM/hosts
 sudo chmod go+r ~/OE2-Group-Project/Mgmt-VM/hosts
 sudo cp /etc/nagios3 -r ~/OE2-Group-Project/Mgmt-VM/ -r
 sudo cp /etc/php/7.2/cgi/php.ini ~/OE2-Group-Project/Mgmt-VM/php.ini
-cat '' > ~/OE2-Group-Project/Mgmt-VM/bash_history.txt
 sudo cp ~/.bash_history ~/OE2-Group-Project/Mgmt-VM/bash_history.txt
 sudo chmod go+r ~/OE2-Group-Project/Mgmt-VM/bash_history.txt
 sudo cp ~/.bashrc ~/OE2-Group-Project/Mgmt-VM/bashrc
