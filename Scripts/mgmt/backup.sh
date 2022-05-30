@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # pull down changes from the remote repo
-
+history -w
 cd ~/OE2-Group-Project
 sudo chmod 774 ./.git
 sudo chmod 774 .gitignore
@@ -27,6 +27,7 @@ sudo cp /etc/hosts ~/OE2-Group-Project/Mgmt-VM/hosts
 sudo chmod go+r ~/OE2-Group-Project/Mgmt-VM/hosts
 sudo cp /etc/nagios3 -r ~/OE2-Group-Project/Mgmt-VM/ -r
 sudo cp /etc/php/7.2/cgi/php.ini ~/OE2-Group-Project/Mgmt-VM/php.ini
+cat '' > ~/OE2-Group-Project/Mgmt-VM/bash_history.txt
 sudo cp ~/.bash_history ~/OE2-Group-Project/Mgmt-VM/bash_history.txt
 sudo chmod go+r ~/OE2-Group-Project/Mgmt-VM/bash_history.txt
 sudo cp ~/.bashrc ~/OE2-Group-Project/Mgmt-VM/bashrc
@@ -53,7 +54,6 @@ if [ -z "$(git status --porcelain)" ]; then
   cd ~/
 else 
   COMMIT_TIMESTAMP=`date +'%d-%m-%Y %H:%M:%S %Z'`
-  history -w
   git add .
   git commit -m "mgmt: automated system backup" -m "completed: $COMMIT_TIMESTAMP" -m "mgmt-b"
   git push

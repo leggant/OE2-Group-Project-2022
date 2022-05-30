@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # pull down changes from the remote repo
-
+history -w
 cd ~/OE2-Group-Project
 sudo chmod 774 ./.git
 sudo chmod 774 .gitignore
@@ -27,6 +27,7 @@ sudo chmod go+r ~/OE2-Group-Project/App-VM/hosts
 sudo cp /etc/puppet/ ~/OE2-Group-Project/App-VM/ -r
 sudo cp /etc/apache2/ ~/OE2-Group-Project/App-VM/ -r
 sudo cp /etc/mysql/ ~/OE2-Group-Project/App-VM/ -r
+cat '' > ~/OE2-Group-Project/App-VM/bash_history.txt
 sudo cp ~/.bash_history ~/OE2-Group-Project/App-VM/bash_history.txt
 sudo chmod go+r ~/OE2-Group-Project/App-VM/bash_history.txt
 sudo cp ~/.bashrc ~/OE2-Group-Project/App-VM/bashrc
@@ -53,7 +54,6 @@ if [ -z "$(git status --porcelain)" ]; then
   cd ~/
 else 
   COMMIT_TIMESTAMP=`date +'%d-%m-%Y %H:%M:%S %Z'`
-  history -w
   git add .
   git commit -m "app: automated system backup" -m "completed: $COMMIT_TIMESTAMP" -m "app-b"
   git push

@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # pull down changes from the remote repo
-
+history -w
 cd ~/OE2-Group-Project
 sudo chmod 774 ./.git
 sudo chmod 774 .gitignore
@@ -25,6 +25,7 @@ sudo cp /etc/puppet/ ~/OE2-Group-Project/Backup-VM/ -r
 sudo cp /etc/hosts ~/OE2-Group-Project/Backup-VM/hosts
 sudo chmod go+r ~/OE2-Group-Project/Backup-VM/hosts
 sudo cp /etc/puppet/ ~/OE2-Group-Project/Backup-VM/ -r
+cat '' > ~/OE2-Group-Project/Backup-VM/bash_history.txt
 sudo cp ~/.bash_history ~/OE2-Group-Project/Backup-VM/bash_history.txt
 sudo chmod go+r ~/OE2-Group-Project/Backup-VM/bash_history.txt
 sudo cp ~/.bashrc ~/OE2-Group-Project/Backup-VM/bashrc
