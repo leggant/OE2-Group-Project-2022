@@ -138,7 +138,20 @@ class nagios::config {
         target => "/etc/nagios3/conf.d/ppt_hostgroups.cfg",
         mode => "0444",
         alias => 'mgmt-b',
-        members => 'mgmt-b.foo.org.nz'
+        members => 'localhost'
         }
 
+        nagios_hostgroup {"owncloud-b":
+        target => "/etc/nagios3/conf.d/ppt_hostgroups.cfg",
+        mode => "0444",
+        alias => 'owncloud-b',
+        members => 'app-b.foo.org.nz'
+        }
+
+        nagios_hostgroup {"check-owncloud-b":
+        target => "/etc/nagios3/conf.d/ppt_hostgroups.cfg",
+        mode => "0444",
+        alias => 'check-owncloud-b',
+        members => 'app-b.foo.org.nz'
+        }
 }

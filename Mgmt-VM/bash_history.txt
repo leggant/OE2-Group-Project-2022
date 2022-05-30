@@ -1,1119 +1,3 @@
-cd rsync/
-ls
-cd files/
-ls
-vim restore.sh 
-l
-pwd
-l
-ls
-cd ..
-ls
-cd manifests/
-ls
-vim config.pp 
-ls
-sudo vim config.pp 
-s
-ls
-vim config.pp 
-sudo vim config.pp 
-sudo vim init.pp 
-ls
-vim config.pp 
-resmas
-respup
-statpup
-ls
-respup
-statpup
-site
-respup
-statpup
-:q
-ls
-sudo vim config.pp 
-agentupdate 
-ls
-sudo vim config.pp 
-agentupdate 
-sudo vim config.pp 
-agentupdate 
-sudo vim config.pp 
-agentupdate 
-sudo vim config.pp 
-agentupdate 
-sudo vim config.pp 
-agentupdate 
-sudo vim config.pp 
-agentupdate 
-ls
-sudo vim config.pp 
-agentupdate 
-sudo vim config.pp 
-agentupdate 
-sudo vim config.pp 
-agentupdate 
-sudo vim config.pp 
-agentupdate 
-sudo vim config.pp 
-agentupdate 
-sudo vim config.pp 
-agentupdate 
-resmas
-statmas 
-sudo vim config.pp 
-statmas 
-agentupdate 
-sudo vim config.pp 
-agentupdate 
-sudo vim config.pp 
-agentupdate 
-sudo vim config.pp 
-agentupdate 
-sudo vim config.pp 
-agentupdate 
-sudo vim config.pp 
-agentupdate 
-sudo vim config.pp 
-agentupdate 
-sudo vim config.pp 
-ls
-sudo vim config.pp 
-cd /etc/
-ls
-cd cron.hourly/
-ls
-pwd
-ls
-pwd
-exit
-w
-ls
-cd /etc
-ls
-cd bash_completion.d/
-ls
-site
-resmas
-respup
-agentupdate 
-site
-resmas
-site
-respup
-agentupdate 
-ls
-pwd
-cd ..
-ls
-cd backup/
-ls
-vim restore 
-cd ..
-cd cron.hourly/
-ls
-mod
-cd rsync/files/
-sudo vim restore.sh 
-mod
-ls
-cd rsync/
-ls
-cd manifests/
-ls
-sudo vim config.pp 
-w
-sudo vim config.pp 
-agentupdate 
-Mymensingh1857
-sudo vim config.pp 
-w
-ls
-sudo vim config.pp 
-w
-sudo vim config.pp 
-Mymensingh1857
-sudo vim config.pp 
-cd ~
-ls
-pwd
-sudo vim config.pp 
-mod
-ls
-cd rsync/
-ls
-cd files/
-ls
-sudo vim restore.sh 
-mod
-cd rsync/
-ls
-cd files/
-ls
-mod
-ls
-cd rsync/files/
-ls
-cd ..
-ls
-cd manifests/
-l
-sudo vim config.pp 
-agentupdate 
-sudo vim config.pp 
-mod
-ls
-mod
-cd ~
-ls
-mod
-ls
-cd rsync/
-ls
-cd manifests/
-vim config.pp 
-sudo reboot
-mod
-ls
-cd rsync/
-cd files/
-ls
-cd app
-la
-cd ..
-sudo rm app
-sudo rm -r app
-sudo rm -r backup
-sudo rm -r db
-sudo rm -r mgmt
-ls 
-sudo nano restore.sh 
-bumgmt
-ls
-cd ~/OE2-Group-Project/
-git status
-git pull
-cd Mgmt-VM/
-ls
-cd puppet/
-ls
-cd code/
-ls
-cd modules/
-ls
-cd rsync/
-ls
-cd files/
-ls
-git rm -r app
-git rm -r backup
-git rm -r db
-git rm -r mgmt
-git status
-cd ~/OE2-Group-Project/
-ls
-git add .
-git status
-git commit -m "mgmt: removed includes/excludes txt files" -m "from rsync module" -m "mgmt-b"
-git push
-ls
-git pull
-cd Mgmt-VM/puppet/code/modules/rsync/files/
-ls
-code
-mod
-cd rsync/
-cd files/
-sudo nano restore.sh 
-bumgmt
-ls
-sudo nano restore.sh 
-bumgmt
-sudo nano restore.sh 
-bumgmt
-./restore.sh 
-sudo nano restore.sh 
-bumgmt
-sudo nano restore.sh 
-bumgmt
-sudo nano restore.sh 
-bumgmt
-sudo nano restore.sh 
-bumgmt
-sudo nano restore.sh 
-bumgmt
-ls
-./restore.sh 
-sudo nano restore.sh 
-bumgmt
-sudo nano restore.sh 
-bumgmt
-sudo nano restore.sh 
-bumgmt
-sudo nano restore.sh 
-bumgmt
-sudo nano restore.sh 
-bumgmt
-sudo nano restore.sh 
-bumgmt
-sudo nano restore.sh 
-bumgmt
-sudo nano restore.sh 
-#
-sudo nano restore.sh 
-cd OE2-Group-Project/
-ls
-cd Scripts/mgmt/
-ls
-ls -al
-./backup.sh 
-cat backup.sh 
-crontab -e
-cd ~
-ls
-cd cron/
-ls
-cd ..
-ls
-sudo rm puppet_old 
-sudo rm cron/ -r
-ls
-ssh bitstudent@20.211.185.153
-exit
-crontab -e
-cd ../
-ls
-cd ~
-ls
-cd OE2-Group-Project/Mgmt-VM/
-ls
-sudo nano crontab.txt 
-cd ..
-ls
-sudo nano /etc/rsyslog.d/50-default.conf
-sudo vi /var/log/cron.log
-sudo systemctl restart rsyslog
-sudo systemctl status rsyslog
-cat /var/log/cron.log
-cd ~/OE2-Group-Project/Scripts/mgmt/
-sudo nano backup.sh 
-./backup.sh 
-exit
-crontab -e
-cd ~/OE2-Group-Project/Scripts/mgmt/
-cd 
-cd ~/OE2-Group-Project/Mgmt-VM/
-sudo nano crontab.txt 
-bumgmt
-sudo systemctl restart rsyslog
-sudo systemctl status rsyslog
-cat /var/log/cron.log
-sudo nano /etc/rsyslog.d/50-default.conf
-cat /var/log/cron.log
-sudo systemctl status rsyslog
-cat /var/log/cron.log
-cd /var/log
-ls
-ls -al
-sudo chgrp adm /var/log/cron.log
-sudo chown syslog /var/log/cron.log
-sudo chmod 775 /var/log/cron.log
-sudo systemctl restart rsyslog
-sudo systemctl status rsyslog
-cat /var/log/cron.log
-sudo systemctl status rsyslog
-sudo nano /etc/rsyslog.d/50-default.conf
-sudo systemctl restart rsyslog
-sudo systemctl status rsyslog
-ls -al
-sudo systemctl status rsyslog
-ls -al
-sudo nano user.log
-sudo chmod 775 /var/log/user.log
-sudo chown syslog /var/log/user.log
-sudo chgrp adm /var/log/user.log
-sudo systemctl restart rsyslog
-sudo systemctl status rsyslog
-crontab -e
-cd ~/OE2-Group-Project/Mgmt-VM/
-ls
-sudo nano crontab.txt 
-sudo systemctl status rsyslog
-cat /var/log/cron.log
-cat /var/log/user.log
-sudo nano /etc/rsyslog.d/50-default.conf
-sudo systemctl restart rsyslog
-sudo systemctl status rsyslog
-sudo nano /etc/rsyslog.d/50-default.conf
-sudo systemctl restart rsyslog
-sudo systemctl status rsyslog
-sudo nano /etc/rsyslog.d/50-default.conf
-sudo systemctl restart rsyslog
-sudo systemctl status rsyslog
-sudo nano /etc/rsyslog.d/50-default.conf
-sudo systemctl restart rsyslog
-sudo systemctl status rsyslog
-exit
-sudo apt install -y monit
-sudo vim /etc/monit/monitrc
-sudo monit
-sudo monit status
-sudo monit
-sudo monit status
-sudo vim /etc/monit/monitrc
-sudo monit
-sudo monit status
-sudo vim /etc/monit/monitrc
-systemctl restart monit.service
-sudo systemctl restart monit.service
-sudo systemctl status monit.service
-sudo monit status
-sudo vim /etc/monit/monitrc
-sudo monit status
-sudo systemctl restart monit.service
-sudo monit status
-sudo systemctl status monit.service
-sudo vim /etc/monit/monitrc
-sudo systemctl restart monit.service
-sudo vim /etc/monit/monitrc
-sudo monit summary
-sudo monit -t
-sudo lsof -i -P -n | grep LISTEN
-sudo vim /etc/monit/monitrc
-sudo systemctl restart monit.service
-sudo monit summary
-sudo lsof -i -P -n | grep LISTEN
-sudo systemctl status monit.service
-sudo lsof -i -P -n | grep LISTEN
-sudo vim /etc/monit/monitrc
-sudo systemctl restart monit.service
-sudo vim /etc/monit/monitrc
-sudo systemctl restart monit.service
-sudo vim /etc/monit/monitrc
-sudo systemctl restart monit.service
-sudo systemctl status monit.service
-sudo lsof -i -P -n | grep LISTEN
-sudo vim /etc/monit/monitrc
-sudo systemctl restart monit.service
-sudo vim /etc/monit/monitrc
-sudo systemctl restart monit.service
-sudo systemctl status monit.service
-sudo vim /etc/monit/monitrc
-sudo lsof -i -P -n | grep LISTEN
-hostname
-sudo systemctl status monit.service
-ls
-sudo vim /etc/monit/monitrc
-sudo systemctl status nginx
-sudo vim /etc/monit/monitrc
-sudo monit summary
-sudo monit status
-sudo systemctl restart apache2
-sudo monit status
-sudo systemctl stop apache2
-sudo monit status
-sudo systemctl restart apache2
-sudo monit status
-vim /etc/monit/monitrc
-sudo vim /etc/monit/monitrc
-monit start all
-sudo monit start all
-sudo vim /etc/monit/monitrc
-sudo monit start all
-sudo vim /etc/monit/monitrc
-sudo monit start all
-sudo vim /etc/monit/monitrc
-sudo monit start all
-sudo monit status
-sudo vim /etc/monit/monitrc
-sudo service monit restart
-sudo monit status
-sudo vim /etc/monit/monitrc
-sudo monit status
-sudo monit start all
-sudo monit status
-sudo systemctl restart monit.service
-sudo systemctl status monit.service
-sudo monit status
-sudo vim /etc/monit/monitrc
-sudo systemctl restart monit.service
-sudo monit status
-sudo systemctl status monit.service
-sudo vim /etc/monit/monitrc
-sudo systemctl restart monit.service
-sudo vim /etc/monit/monitrc
-hostname
-sudo vim /etc/monit/monitrc
-sudo systemctl restart monit.service
-sudo systemctl status monit.service
-sudo vim /etc/monit/monitrc
-sudo systemctl status monit.service
-sudo systemctl restart monit.service
-sudo vim /etc/monit/monitrc
-sudo systemctl restart monit.service
-sudo vim /etc/monit/monitrc
-sudo systemctl restart monit.service
-sudo systemctl status monit.service
-ssh -L 1234:localhost:2812 bitstudent@20.58.164.44
-ssh -L 8383:localhost:2812 bitstudent@20.58.164.44
-ls
-sudo vim /etc/monit/monitrc
-vim /var/log/monit.log
-sudo vim /etc/monit/monitrc
-sudo systemctl restart monit.service
-sudo systemctl status monit.service
-sudo vim /etc/monit/monitrc
-vim /var/log/monit.log
-sudo vim /etc/monit/monitrc
-sudo systemctl restart monit.service
-sudo vim /etc/monit/monitrc
-vim /var/log/monit.log
-sudo systemctl restart monit.service
-sudo vim /etc/monit/monitrc
-sudo systemctl restart monit.service
-vim /var/log/monit.log
-sudo vim /etc/monit/monitrc
-getaddrinfo
-sudo vim /etc/monit/monitrc
-vim /var/log/monit.log
-sudo apt-get install monit
-monit
-sudo chmod 777 /etc/monit/monitrc’.
-sudo chmod 777 /etc/monit/monitrc
-monit
-sudo chmod 777 /etc/monit/monitrc
-monit
-sudo chown bitstudent /etc/monit/monitrc
-monit
-sudo chmod 0777 /etc/monit/monitrc
-monit
-sudo chmod 666 /etc/monit/monitrc
-monit
-sudo chmod 0777 /etc/monit/monitrc
-monit
-sudo chmod 0700 /etc/monit/monitrc
-monit
-sudo chmod 0732 /etc/monit/monitrc
-monit
-sudo chmod 0700 /etc/monit/monitrc
-monit
-sudo moni
-sudo monit
-sudo chown root /etc/monit/monitrc
-sudo monit
-sudo vim /etc/monit/monitrc
-sudo systemctl restart monit.service
-sudo systemctl status monit.service
-monit start all
-sudo monit start all
-monit status
-sudo monit status
-sudo netstat -tulpn | grep LISTEN
-sudo lsof -i -P -n | grep LISTEN
-sudo vim /etc/monit/monitrc
-sudo ufw allow 2812
-
-monit status
-sudo systemctl status monit.service
-sudo vim /etc/monit/monitrc
-sudo systemctl restart monit.service
-sudo systemctl status monit.service
-sudo vim /etc/monit/monitrc
-sudo chown root /etc/monit/monitrc
-sudo systemctl restart monit.service
-sudo monit -t
-sudo monit status
-sudo monit reload
-grep "socket" /etc/mysql/my.cnf
-sudo vim /etc/monit/monitrc
-sudo monit reload
-cd /etc/
-ls
-cd mysql/
-ls
-sudo vim /etc/monit/monitrc
-ls
-cd conf.d/
-ls
-cd ..
-ls
-cd ..
-ls
-sudo systemctl status mariadb
-sudo systemctl status mysql
-sudo systemctl status mysqld
-sudo systemctl status mysql
-sudo systemctl status mysqld
-sudo vim /etc/monit/monitrc
-sudo systemctl stop puppetmaster.service 
-statmas
-resmas
-statmas
-sudo systemctl stop monit
-sudo apt install netdata
-nano /etc/netdata/netdata.conf
-systemctl restart netdata
-sudo systemctl restart netdata
-nano /etc/netdata/netdata.conf
-sudo vim /etc/netdata/netdata.conf 
-sudo systemctl restart netdata
-sudo vim /etc/netdata/netdata.conf 
-netstat
-curl --o info.csv http://localhost:19999/api/v1/info
-sudo iptables -L
-sudo ufw 1999
-sudo vim /etc/netdata/netdata.conf 
-sudo ufw 1999
-firewall-cmd --list-ports
-sudo iptables -S 
-sudo iptables -L
-sudo ufw allow 19999
-curl --o info.csv http://localhost:19999/api/v1/info
-curl -o info.csv http://localhost:19999/api/v1/info
-sudo vim /etc/netdata/netdata.conf 
-sudo systemctl restart netdata
-curl -o info.csv http://localhost:19999/api/v1/info
-sudo lsof -i -P -n | grep LISTEN
-sudo systemctl status netdata
-sudo vim /etc/netdata/netdata.conf 
-vim /etc/hosts
-sudo vim /etc/netdata/netdata.conf 
-sudo systemctl restart netdata
-sudo systemctl status netdata
-sudo lsof -i -P -n | grep LISTEN
-sudo vim /etc/netdata/netdata.conf 
-sudo vim netdata.conf
-sudo vim /etc/netdata/netdata.conf 
-sudo systemctl restart netdata
-sudo systemctl status netdata
-sudo vim /etc/netdata/netdata.conf 
-sudo systemctl restart netdata
-sudo systemctl status netdata
-sudo lsof -i -P -n | grep LISTEN
-wget -O /tmp/netdata-kickstart.sh https://my-netdata.io/kickstart.sh && sh /tmp/netdata-kickstart.sh
-sudo apt-get remove monit
-sudo apt-get remove netdata
-wget -O /tmp/netdata-kickstart.sh https://my-netdata.io/kickstart.sh && sh /tmp/netdata-kickstart.sh
-sudo vim /etc/netdata/netdata.conf 
-sudo lsof -i -P -n | grep LISTEN
-cd /etc/netdata/
-ls
-vim netdata.conf 
-cd /etc/netdata
-sudo ./edit-config go.d/apache.conf
-$ sudo ./edit-config netdata.conf
-ls
-sudo vim netdata.conf 
-cd /etc/apache2/
-ls
-cd sites-available/
-ls
-vim 000-default.conf 
-vim default-ssl.conf 
-sudo vim  default-ssl.conf 
-sudo systemctl restart apache2
-sudo vim  default-ssl.conf 
-ls
-vim 000-default.conf 
-cd ..
-ls
-vim apache2.conf 
-vim ports.conf 
-cd sites-enabled/
-ls
-vim 000-default.conf 
-ls
-cd ..
-ls
-cd sites-available/
-ls
-sudo vim default-ssl.conf 
-sudo systemctl restart apache2
-sudo vim default-ssl.conf 
-sudo systemctl restart apache2
-sudo service netdata restart && sudo service apache2 restart
-sudo systemctl restart apache2
-sudo systemctl restart netdata
-sudo systemctl status netdata
-sudo systemctl start netdata
-systemctl unmask netdata
-sudo systemctl unmask netdata
-sudo systemctl start netdata
-sudo systemctl status netdata
-sudo systemctl enable netdata
-sudo systemctl status netdata
-sudo systemctl start netdata
-sudo systemctl status netdata
-sudo apt-get remove netdata 
-cd /etc
-cd/netdata
-ls
-cd netdata/
-cd ..
-sudo rm -r netdata/
-wget -O /tmp/netdata-kickstart.sh https://my-netdata.io/kickstart.sh && sh /tmp/netdata-kickstart.sh --disable-telemetry
-ls
-wget -O /tmp/netdata-kickstart.sh https://my-netdata.io/kickstart.sh && sh /tmp/netdata-kickstart.sh --disable-telemetry
-wget -O /tmp/netdata-kickstart.sh https://my-netdata.io/kickstart.sh && sh /tmp/netdata-kickstart.sh --reinstall
-sudo systemctl status netdata
-ls
-cd netplan/
-ls
-cd ..
-ls
-sudo systemctl status netdata
-vim /opt/netdata/etc/netdata/
-sudo vim /opt/netdata/etc/netdata/netdata.conf 
-sudo systemctl restart netdata
-sudo systemctl status netdata
-sudo vim /opt/netdata/etc/netdata/netdata.conf 
-sudo systemctl restart netdata
-sudo vim /opt/netdata/etc/netdata/netdata.conf 
-sudo systemctl status netdata
-sudo ss -ntlp | grep 19999
-ps faxu | grep "[n]etdata"
-sudo ss -ntlp | grep 19999
-curl 'http://localhost:19999/'
-netstat -tnlp
-sudo netstat -tnlp
-sudo lsof -i -P -n | grep LISTEN
-sudo ufw allow 19999
-sudo vim /opt/netdata/etc/netdata/netdata.conf 
-sudo systemctl status netdata
-sudo lsof -i -P -n | grep LISTEN
-sudo systemctl status netdata
-cd /opt/netdata/etc/netdata/
-ls
-ls -la
-sudo vim .environment 
-netdata-uninstaller.sh
-ls -la
-wget https://raw.githubusercontent.com/netdata/netdata/master/packaging/installer/netdata-uninstaller.sh
-chmod +x ./netdata-uninstaller.sh
-sudo vim .environment 
-sudo wget -O /tmp/netdata-kickstart.sh https://my-netdata.io/kickstart.sh && sh /tmp/netdata-kickstart.sh --reinstall
-sudo systemctl status netdata
-sudo systemctl restart netdata
-sudo systemctl status netdata
-sudo lsof -i -P -n | grep LISTEN
-ip add
-netstat
-curl --o info.csv http://localhost:19999/api/v1/info
-netstat -avntp| grep 19999
-curl -o info.csv http://localhost:19999/api/v1/info
-sudo curl -o info.csv http://localhost:19999/api/v1/info
-ls
-cd ~
-sudo systemctl status netdata
-dnsdomainname
-cd /etc/apache2/
-cd sites-available/
-ls
-sudo vim 000-default.conf 
-sudo vim default-ssl.conf 
-sudo systemctl restart apache2
-sudo vim default-ssl.conf 
-sudo systemctl status apache2
-sudo vim 000-default.conf 
-sudo systemctl status apache2
-sudo systemctl restart apache2
-sudo systemctl status apache2
-sudo vim 000-default.conf 
-sudo systemctl restart apache2
-sudo vim 000-default.conf 
-sudo systemctl status apache2
-sudo a2enmod proxy
-sudo systemctl status apache2
-sudo a2enmod proxy_http
-sudo a2enmod rewrite
-sudo systemctl restart apache2
-sudo systemctl status apache2
-sudo vim 000-default.conf 
-sudo systemctl restart apache2
-sudo vim 000-default.conf 
-sudo systemctl status apache2
-ls
-cd /etc/netdata
-ls
-cd /etc
-cd /opt/netdata/etc/netdata/
-ls
-/opt/netdata/etc/netdata/ health_alarm_notify.conf
-sudo vim /opt/netdata/etc/netdata/ health_alarm_notify.conf
-cd  /opt/netdata/etc/netdata/
-ls
-cd health.d/
-ls
-wget -O /tmp/netdata-kickstart.sh https://my-netdata.io/kickstart.sh && sh /tmp/netdata-kickstart.sh --claim-token UKa3XCJhRcC9l1j4Zy2yZ1tG0QQ4cWYl1ShYADL-Y8xv2QVlnGcbnUjNvz3VScwYQukNDqGPGtEoEkEfzlk-zGpq47yQgNYFUvSP3uN0cWVXG8JYiINEtalylbo14Xx0d8CgeYo --claim-url https://app.netdata.cloud
-ls
-cd /etc/apache2/
-cd sites-available/
-ls
-sudo vim 000-default.conf 
-sudo nano /etc/rsyslog.d/50-default.conf
-ls
-sudo nano /var/log/daemon.log
-sudo nano /var/log/user.log
-sudo nano /var/log/cron.log
-cd /var/log
-sudo chgrp adm /var/log/daemon.log
-sudo chown syslog /var/log/daemon.log
-sudo chmod 775 /var/log/daemon.log
-sudo systemctl restart rsyslog
-sudo systemctl status rsyslog
-cd ~/OE2-Group-Project/Scripts/mgmt/
-sudo nano backup.sh 
-cd ../../Mgmt-VM/
-ls
-mkdir
-mkdir Logs
-sudo mv cron.log Logs/
-ls
-cd ..
-bumgmt
-cd /var/log
-ls -al
-sudo nano /etc/logrotate.d/rsyslog 
-cat user.log 
-crontab -e
-cd ~/OE2-Group-Project/Scripts/mgmt/
-sudo nano backup.sh 
-cd ~/OE2-Group-Project/Mgmt-VM/
-ls
-cd ../Scripts/mgmt
-sudo nano backup.sh 
-exit
-mod
-ls
-cd nagios/
-cd manifests/
-ls
-sudo nano config.pp 
-resnag
-statnag
-sudo nano config.pp 
-cd /etc/nagios3/conf.d/
-ls
-sudo nano ppt_hostgroups.cfg 
-agentupdate
-sudo nano ppt_hostgroups.cfg 
-resnag
-mod
-cd nagios/
-ls
-cd manifests/
-ls
-sudo nano config.pp 
-cd /etc/nagios3/conf.d/
-ls
-sudo nano ppt_services.cfg 
-cd etc
-cd /etc/nagios
-ls
-sudo nano nrpe.cfg 
-cd /usr/lib/nagios/plugins
-ls -al
-sudo nano check_http 
-sudo nano check_nrpe 
-cd /etc/nagios
-ls
-sudo nano nrpe.cfg 
-cd /usr/lib/nagios/plugins
-ls -al
-sudo nagios3 -v /etc/nagios3/nagios.cfg
-cd /etc/nagios
-ls
-mod
-cd nagios/
-cd manifests/
-ls
-sudo nano config.pp 
-cd /etc/nagios
-ls
-sudo nano nrpe.cfg 
-cd nrpe.d/
-ls
-ls -al
-cd..
-cd ..
-ls
-sudo nano nrpe.cfg 
-sudo nagios3 -v /etc/nagios3/nagios.cfg
-mod
-cd nrpe
-cd ../nagios/
-;s
-ls
-cd manifests/
-sudo nano config.pp 
-statnag
-cd /etc/nagios-plugins/
-ls
-cd config/
-ls
-cd ../../nagios3/
-ls
-cd conf.d/
-ls
-cd ..
-ls
-sudo nano nrpe.cfg 
-cd /temp
-cd tmp
-cd /tmp
-sudo wget --no-check-certificate -O nagios-plugins.tar.gz https://github.com/nagios-plugins/nagios-plugins/archive/release-2.4.0.tar.gz
-tar zxf nagios-plugins.tar.gz
-cd /tmp/nagios-plugins-release-2.4.0/
-sudo ./tools/setup
-sudo ./configure
-sudo make
-sudo make install
-cd /usr/local/nagios/libexec
-ls
-check_uptime
-/usr/local/nagios/libexec/check_ping mgmt-b.foo.org.nz
-/usr/local/nagios/libexec/check_apt
-/usr/local/nagios/libexec/check_host
-/usr/local/nagios/libexec/check_host mgmt-b.foo.org.nz
-/usr/local/nagios/libexec/check_host
-/usr/local/nagios/libexec/check_nrpe
-/usr/local/nagios/libexec/check_nrpe 
-/usr/local/nagios/libexec/check_tcp
-/usr/local/nagios/libexec/check_users 
-/usr/local/nagios/libexec/check_users -w puppet
-/usr/local/nagios/libexec/check_users -w bitstudent -c puppet
-sudo apt-get update
-sudo apt-get install -y autoconf gcc libc6 libmcrypt-dev make libssl-dev wget bc gawk dc build-essential snmp libnet-snmp-perl gettext
-cd /tmp/nagios-plugins-release-2.4.0/
-sudo ./tools/setup
-sudo ./configure
-sudo make
-sudo make install
-cd /usr/local/nagios/libexec
-ls
-/usr/local/nagios/libexec/check_nrpe 
-/usr/local/nagios/libexec/check_nrpe
-bash /usr/local/nagios/libexec/check_nrpe
-check_nrpe
-./check_nrpe
-./check_nagios 
-./check_nagios mgmt-b.foo.org.nz
-./check_nagios 30
-ls -al
-check_apt
-./check_apt
-./check_http
-./check_nagios --help
-check_nagios -t 20 -e 5 -F /usr/local/nagios/var/status.log -C /usr/local/nagios/bin/nagios
-./check_nagios -t 20 -e 5 -F /usr/local/nagios/var/status.log -C /usr/local/nagios/bin/nagios
-sudo ./check_nagios -t 20 -e 5 -F /usr/local/nagios/var/status.log -C /usr/local/nagios/bin/nagios
-sudo ./check_nagios -t 20 -e 5 -F /usr/log/status.log -C /usr/local/nagios/bin/nagios
-cd /var/lib/puppet/
-sudo cd /var/lib/
-sudo -i
-sudo reboot
-cd /var/lib/puppet/
-cd /usr/local/nagios/libexec/
-ls
-./check_uptime
-./check_uptime.pl 
-./check_nagios 
-./check_nagios --help
-./check_nagios -t 20 -e 5
-check_nagios -t 20 -e 5 -F /usr/local/nagios/var/status.log -C /usr/local/nagios/bin/nagios
-./check_nagios -t 20 -e 5 -F /usr/local/nagios/var/status.log -C /usr/local/nagios/bin/nagios
-./check_nagios -t 20 -e 5 -F /usr/local/nagios/var/status.log -C /usr/local/nagios/bin/nagios .
-./check_nagios -t 20 -e 5 -F /usr/local/nagios/var/status.log -C /usr/local/nagios/bin/nagios
-cd /usr/local/nagios/var/status.log
-cd /usr/local/nagios/var/
-cd /usr/local/nagios/
-ls
-ls -la
-cd libexec/
-ls
-cd /etc/nagios
-ls
-vim nrpe.cfg 
-cd /usr
-cd local/
-cd nagios/
-s
-ls
-cd share/
-ls
-cd locale/
-ls
-cd de/
-ls
-cd lc
-cd LC_MESSAGES/
-ls
-vim nagios-plugins.mo 
-cd ..
-ls
-cd libexec/
-ls
-cd ,,
-cd ~
-ls
-cd /usr/local/nagios/
-ls
-mod
-cd nrpe
-ls
-cd files/
-sudo vim nrpe.cfg 
-/usr/local/nagios/libexec/check_nrpe -H localhost
-cd /usr/local/nagios/libexec
-ls
-/usr/local/nagios/libexec/check_nrpe -H localhost
-pwd
-/usr/local/nagios/libexec/check_nrpe -H localhostmo:
-mod
-cd nrpe
-ls
-cd files/
-ls
-sudo vim nrpe.cfg 
-cd ../manifests/
-ls
-sudo vim service.pp 
-/usr/local/nagios/libexec/check_nrpe -H localhost
-/usr/local/nagios/libexec/check_users -w 5 -c 10
-/usr/local/nagios/libexec/check_disk -w 20% -c 10% -p /dev/hda1
-ls
-vim config.pp 
-vim service.pp 
-cd /usr/local/nagios/libexec/
-sudo wget https://exchange.nagios.org/components/com_mtree/attachment.php?link_id=2138&cf_id=29
-ls
-sudo rm wget-log 
-ls
-sudo wget https://exchange.nagios.org/components/com_mtree/attachment.php?link_id=2138&cf_id=29
-ls
-rm 'attachment.php?link_id=2138
-ls
-sudo rm wget-log 
-ls
-sudo rm 'attachment.php?link_id=2138'
-sudo rm 'attachment.php?link_id=2138.1' 
-ls
-clerar
-clear
-ls
-mod
-ls
-cd nrpe
-cd manifests/
-sudo vim config.pp 
-cd ../../
-cd ..
-cd modules/
-cd n
-cd nagios/
-cd manifests/
-sudo vim config.pp 
-cd /etc/nagios
-vim nrpe.cfg 
-/usr/lib/nagios/plugins/check_memmory
-cd /usr/lib/nagios/plugins
-ls
-cd ..
-ls
-cd ..
-ls
-cd nagios3/
-ls
-cd ..
-/usr/lib/nagios/plugins/check_http www.google.com
-uptime
-/usr/lib/nagios/plugins/check_http 20.53.250.76
-/usr/lib/nagios/plugins/check_http 20.53.250.76/index.php/login
-/usr/lib/nagios/plugins/check_http 20.53.250.76/index.php
-/usr/lib/nagios/plugins/check_http 20.53.250.76
-ping 20.53.250.76
-/usr/lib/nagios/plugins/check_http app-b.foo.org.nz
-/usr/lib/nagios/plugins/check_http app-b.foo.org.nz/index.php
-/usr/lib/nagios/plugins/check_http app-b.foo.org.nz
-/usr/lib/nagios/plugins/check_http app-b.foo.org.nz/index.php/login
-cd nagios
-ls
-cd plugins/
-ls
-cd ~
-cd /etc
-ls
-cd n
-cd nagios
-ls
-cd nrpe.d/
-ls
-cd ..
-ls
-cd nagios3/
-ls
-vim nrpe.cfg 
-cd conf.d/
-ls
-cd ..
-ls
-vim cgi.cfg 
-cd /usr/lib/nagios/plugins/
-ls
-./nagios.pl 
-ls
-mod
-ls
-cd nrpe
-cd files/
-ls
-vim nrpe.cfg 
-cd ../
-cd manifests/
-sudo vim config.pp 
-sudo vim service.pp 
-vim config.pp 
-sudo vim service.pp 
-sudo vim config.pp 
-cd ..
-cd files/
-sudo vim nrpe.cfg 
-agentupdate 
-uptime
-resnag
-resmas
-respup
-statmas
-statpup
-:q
-statnag
-mod
-ls
-cd nagios/
-l
-cd manifests/
-sudo vim n
-sudo vim config.pp 
-sudo vim /etc/nagios3/conf.d/ppt_hostgroups.cfg
-mod
-cd nrpe
-ls
-cd files/
-ls
-sudo vim nrpe.cfg 
-cd ..
-cd manifests/
-sudo vim config.pp 
-sudo vim service.pp 
-agentupdate 
-respup 
-resmas 
-statnag
-cd ..
-ls
-cd files/
-sudo vim nrpe.cfg nrpe.cfg 
 ls
 uptime
 ls
@@ -1998,3 +882,544 @@ statpup
 statnag
 sudo systemctl status apache2.service 
 exit
+statmas
+statpup
+statnag
+csysdig
+sudo csysdig
+cd usr/lib/nagios
+cd /usr/lib/nagios
+ls
+cd plugins/
+ls
+nagios.pl
+ls
+./nagios.pl 
+./check_log
+./check_log -F nagios.log
+./check_nagios 
+cat check_nagios 
+./check_nagios 
+check_nagios 
+check_nagios
+ls
+./check_nagios 
+./check_nagios --help
+./check_nagios -F /var/log/nagios3/nagios.log 
+check_nagios -t 20 -e 5 -F /usr/local/nagios/var/status.log -C /usr/local/nagios/bin/nagios
+./check_nagios -t 20 -e 5 -F /usr/local/nagios/var/status.log -C /usr/local/nagios/bin/nagios
+sudo ./check_nagios -t 20 -e 5 -F /var/status.log -C /usr/local/nagios/bin/nagios
+cd /usr/local/nagios/bin/
+cd /var/log
+ls
+cat /usr/local/nagios/var/status.log
+cd /usr/local/nagios/var
+cd /usr/local/nagios
+ls
+cd share/
+ls
+cd //
+cd ..
+cd /
+cd /usr/local/nagios
+ls
+cd /var/log/nagios3/
+ls
+./usr/lib/nagios/check_nagios -t 20 -e 5 -F /var/log/nagios3/nagios.log -C /usr/libocal/nagios/bin/nagios
+/usr/lib/nagios/check_nagios -t 20 -e 5 -F /var/log/nagios3/nagios.log -C /usr/libocal/nagios/bin/nagios
+cd /usr/lib/nagios/plugins/
+./check_nagios -t 20 -e 5 -F /var/log/nagios3/nagios.log -C /usr/libocal/nagios/bin/nagios
+./check_nagios -t 20 -e 5 -F /var/log/nagios3/nagios.log -C /usr/lib/nagios
+./check_nagios -t 20 -e 5 -F /var/log/nagios3/nagios.log
+./check_nagios -t 20 -e 5 -F /var/log/nagios3/nagios.log -C /etc/nagios
+./check_nagios -t 20 -e 5 -F /var/log/nagios3/nagios.log -C /etc/nagios --help
+./check_nagios -t 20 -e 5 -F /var/log/nagios3/nagios.log -C /etc/nagios --extra-opts
+./check_nagios -t 20 -e 5 -F /var/log/nagios3/nagios.log -C /etc/nagios
+statnag
+sudo csysdig
+./check_nagios -t 20 -e 5 -F /var/log/nagios3/nagios.log -C /etc/nagios
+/usr/lib/nagios/plugins/check_nagios -t 20 -e 5 -F /var/log/nagios3/nagios.log -C /etc/nagios
+cat var/log/nagios3/nagios.log
+/usr/lib/nagios/plugins/check_nagios -t 20 -e 5 -F /var/log/nagios3/nagios.log -C /etc/nagios
+ls
+cd /etc/
+ls
+cd nagios-plugins/
+ls
+cd config/
+ls
+mod
+cd nrpe
+ls
+cd files/
+ls
+cd ../manifests/
+ls
+sudo nano config.pp 
+sudo nano service.pp 
+cd /etc/nagios3/
+ls
+cd conf.d/
+ls
+sudo nano ppt_services.cfg 
+cd ..
+ls
+sudo nano commands.cfg 
+mod
+ls
+cd nrpe_nagios/
+ls
+cd manifests/
+ls
+cd /usr/lib/
+ls
+cd nagios3/
+ls
+cd ../nagios
+ls
+cd plugins/
+ls
+sudo systemctl restart nagios-nrpe-server
+ifconfig
+sudo systemctl status nagios-nrpe-server
+sudo systemctl stop nagios-nrpe-server
+sudo systemctl start nagios-nrpe-server
+sudo systemctl status nagios-nrpe-server
+resnag
+statnag
+ifconfig lo:1 127.0.0.10 netmask 255.0.0.0 up
+sudo ifconfig lo:1 127.0.0.10 netmask 255.0.0.0 up
+ifconfig
+hosts
+sudo nano hosts
+/etc/hosts
+sudo nano /etc/hosts
+sudo nano /etc/hosts.allow 
+statpup
+statnag
+history -w
+cd /etc/nagios-plugins/
+ls
+cd config/
+ls
+statnag
+top
+ps -eo pid,comm,lstart,etime,time,args
+wget https://raw.githubusercontent.com/jonschipp/nagios-plugins/master/check_service.sh
+ls
+sudo wget https://raw.githubusercontent.com/jonschipp/nagios-plugins/master/check_service.sh
+ls
+sudo o+ check_service.sh 
+sudo +x check_service.sh 
+sudo o+x check_service.sh 
+sudo chmod +x check_service.sh 
+./check_service.sh 
+vim check_service.sh 
+./check_service.sh -o linux -s sshd
+./check_service.sh -o linux -s nagios
+./check_service.sh -o linux -s nagios3
+./check_service.sh -o linux -s tcp
+./check_service.sh -o linux -s sshd
+./check_service.sh -o linux -s http
+./check_service.sh -o linux -s https
+./check_service.sh -o linux -s http.service
+./check_service.sh -o linux -s httpd
+./check_service.sh -o linux -t "service rsyslog status"
+/usr/lib/nagios/plugins/check_service.sh -o linux -t "service rsyslog status"
+ls
+/usr/lib/nagios/plugins/check_http -H localhost -u /nagios3/
+/usr/lib/nagios/plugins/check_http -H localhost -u /nagios3/ -a nagiosadmin:Oe2b2022
+mod
+ls
+cd nagios/
+ls
+cd manifests/
+ls
+sudo vim config.pp 
+sudo vim service.pp 
+cd ..
+cd nrpe
+ls
+cd manifests/
+ls
+vim service.pp 
+ls
+/usr/lib/nagios/plugins/check_http -H app-b.foo.org.nz -u /nagios3/ -a nagiosadmin:Oe2b2022
+/usr/lib/nagios/plugins/check_http -H app-b.foo.org.nz 
+/usr/lib/nagios/plugins/check_http -H app-b.foo.org.nz -p 80
+/usr/lib/nagios/plugins/check_nrpe check_http -H app-b.foo.org.nz -p 80
+/usr/lib/nagios/plugins/check_nrpe check_http -H app-b.foo.org.nz 
+/usr/lib/nagios/plugins/check_nrpe check_http -H app-b.foo.org.nz -u /nagios3/
+/usr/lib/nagios/plugins/check_nrpe check_http -H app-b.foo.org.nz 
+/usr/lib/nagios/plugins/check_nrpe check_http -H app-b.foo.org.nz -u /nagios3/ -a nagiosadmin:Oe2b2022
+/usr/lib/nagios/plugins/check_http -H app-b.foo.org.nz -u /nagios3/ -a nagiosadmin:Oe2b2022
+/usr/lib/nagios/plugins/check_http -H app-b.foo.org.nz -u /nagios3/ -a nagiosadmin:Oe2b2022 -p80
+/usr/lib/nagios/plugins/check_http -H 20.53.250.76
+/usr/lib/nagios/plugins/check_http -H 20.53.250.76 -p 80
+/usr/lib/nagios/plugins/check_http -H app-b.foo.org.nz -p 80
+/usr/lib/nagios/plugins/check_http -H app-b.foo.org.nz -u /nagios3/ -a nagiosadmin:Oe2b2022
+/usr/lib/nagios/plugins/check_http -H localhost -u /nagios3/ -a nagiosadmin:Oe2b2022
+cd /etc/nagios-plugins/
+cd config/
+l;s
+ls
+./check_service.sh puppet
+./check_service.sh puppet.service
+./check_service.sh puppetmaster
+statmas
+./check_service.sh puppet-master
+./check_service.sh -o linux -s  puppet-master
+./check_service.sh -o linux -s puppet-master
+/usr/lib/nagios/plugins/check_http -H localhost -u /nagios3/ -a nagiosadmin:Oe2b2022
+cd /etc/nagios
+ls
+sudo vim nrpe.cfg 
+mod
+ls
+cd n
+cd nrpe
+ls
+cd files/
+ls
+sudo vim nrpe.cfg 
+/usr/lib/nagios/plugins/check_service -o linux -s puppet-master
+./usr/lib/nagios/plugins/check_service -o linux -s puppet-master
+/usr/lib/nagios/plugins/check_service -o linux -s puppet-master
+cd /etc/nagios-plugins/config/
+/usr/lib/nagios/plugins/check_service -o linux -s puppet-master
+ls
+/usr/lib/nagios/plugins/check_service.sh -o linux -s puppet-master
+sudo chmod +x check_puppet_agent 
+./check_puppet_agent 
+ls
+/etc/nagios-plugins/check_service.sh -o linux -s puppet-master
+/etc/nagios-plugins/config/check_service.sh -o linux -s puppet-master
+mod
+cd nrpe
+cd files/
+sudo vim
+sudo vim nrpe.cfg
+cd ..
+cd manifests/
+sudo vim service.pp 
+agentupdate 
+respup
+resmas
+resnag
+statpup 
+statnag
+cd /etc/nagios3/
+ls
+cd ..
+ls
+cd nagios
+ls
+cd ..
+cd nagios3/
+ls
+cd conf.d/
+ls
+vim localhost_nagios2.cfg 
+ls
+cd /etc/nagios
+vim nrpe.cfg 
+ls
+vim nrpe
+vim nrpe.cfg 
+cd /etc/nagios3/
+ls
+cd conf.d/
+ls
+vim ppt_services.cfg 
+sudo systemctl restart nrpe
+sudo systemctl restart nagios-nrpe-server.service 
+resnag
+ls
+sudo systemctl restart nagios-nrpe-server.service 
+resnag
+mod
+ls
+cd nagios/
+ls
+cd manifests/
+ls
+sudo vim config.pp 
+agentupdate 
+cd /etc/nagios3/conf.d/
+ls
+vim ppt_host
+vim ppt_hostgroups.cfg 
+sudo systemctl restart nagios-nrpe-server.service 
+resnag
+statnag
+vim ppt_hostgroups.cfg 
+ld
+ls
+vim contacts_nagios2.cfg 
+vim ppt_contactgroups.cfg 
+mod
+cd nrpe
+ls
+cd manifests/
+ls
+vim service.pp 
+vim config.pp 
+respup
+statpup
+cd /etc/nagios
+vim nrpe.cfg 
+mod
+cd n
+cd nrpe
+cd files/
+vim nrpe.cfg 
+cd ..
+ls
+cd nagios/
+ls
+cd manifests/
+sudo vim config.pp 
+agentupdate 
+statmas 
+statpup 
+statnag
+respup
+statpup 
+resnag
+ls
+sudo vim service.pp 
+cd ..
+cd nrpe
+cd manifests/
+sudo vim service.pp 
+agentupdate 
+resnag
+statnag
+sudo vim service.pp 
+cd ..
+cd files/
+sudo vim nrpe.cfg 
+agentupdate 
+respup
+resnag
+statpup
+statnag
+resnag
+statnag
+ls
+vim nrpe.cfg 
+/usr/lib/nagios/plugins/check_http -H localhost -u /nagios3/ -a nagiosadmin:Oe2b2022
+cd ..
+ls
+cd manifests/
+vim config.pp 
+cd ..
+ls
+cd nagios/
+ls
+cd manifests/
+ls
+vim service.pp 
+cd ..
+cd nrpe
+cd manifests/
+vim service.pp 
+cd ..
+cd nagios/
+ls
+cd manifests/
+sudo vim service.pp 
+sudo vim config.pp 
+agentupdate 
+resnag
+sudo vim config.pp 
+resnag
+sudo vim config.pp 
+cd /etc/nagios
+ls
+sudo vim nrpe.cfg 
+mod
+ls
+cd nrpe
+cd files/
+sudo vim nrpe.cfg 
+agentupdate 
+resnag 
+sudo systemctl restart nagios-nrpe-server.service 
+statpup
+statnag
+statpup
+statnag
+cd ..
+cd nagios/
+ls
+cd manifests/
+sudo vim config.pp 
+agentupdate 
+sudo systemctl restart nagios-nrpe-server.service 
+statnag 
+resnag
+statpup
+statnag
+ls
+vim service.pp 
+cd ..
+cd nrpe
+ls
+cd manifests/
+ls
+sudo vim service.pp 
+agentupdate 
+respup
+resnag
+resmas 
+sudo systemctl restart nagios-nrpe-server.service 
+mod
+cd nrpe
+ls
+cd files/
+sudo vim nrpe.cfg 
+cd ..
+cd manifests/
+sudo vim service.pp 
+agentupdate 
+resnag
+respup
+resmas
+sudo systemctl restart nagios-nrpe-server.service 
+ls
+vim service.pp 
+sudo systemctl restart nagios-nrpe-server.service 
+resnag
+vim service.pp 
+vim config.pp 
+ls'
+cd ..
+ls
+cd nrpe_nagios/
+l
+cd manifests/
+ls
+vim config.pp 
+sudo vim config.pp 
+agentupdate 
+statpup
+resnat
+resns
+resnr
+resnag
+statnag
+statpup
+resnag
+resnr
+ls
+cd ..
+ls
+cd ..
+ls
+cd nrpe
+ls
+cd manifests/
+sudo vim service.pp 
+agentupdate 
+resnr
+resnag
+respup
+resnag 
+resnr
+ls
+cd ..
+ls
+cd files/
+;s
+ls
+sudo vim nrpe.cfg 
+ls
+sudo vim nrpe.cfg 
+agentupdate 
+resnag
+respup
+resmas
+resnr
+resnag
+sudo vim nrpe.cfg 
+/etc/nagios-plugins/config/check_service.sh -o linux -s puppet-master
+/etc/nagios-plugins/config/check_service.sh -o linux -s apache2
+cd /etc/nagios
+vim nrpe
+vim nrpe.
+vim nrpe.cfg 
+mod
+cd nrpe
+cd files/
+vim nrpe.cfg 
+sudo vim nrpe.cfg 
+ls
+sudo vim nrpe.cfg 
+/etc/nagios-plugins/config/check_service.sh -o linux -s apache2
+sudo vim nrpe.cfg 
+cd /etc/nagios-plugins/config/
+ls
+cd /etc/nagios
+vim nrpe.cfg 
+/etc/nagios-plugins/config/check_service.sh -o linux -s apache2
+/etc/nagios-plugins/config/check_service.sh -o linux -t "systemctl list-units --state=failed"
+statpup
+/etc/nagios-plugins/config/check_service.sh -o linux -t "systemctl list-units --state=failed"
+/etc/nagios-plugins/config/check_service.sh -o linux -t "systemctl list-units --state=failed --all"
+/etc/nagios-plugins/config/check_service.sh -o linux -s apache2
+/etc/nagios-plugins/config/check_service.sh -o linux -s apache2 -w %0 
+/etc/nagios-plugins/config/check_service.sh -o linux -s apache2 --state=faild 
+/etc/nagios-plugins/config/check_service.sh -o linux -s apache2 --state=actice 
+/etc/nagios-plugins/config/check_service.sh -o linux -s apache2 --state=active 
+/etc/nagios-plugins/config/check_service.sh -o linux -s apache2 -state=active 
+/etc/nagios-plugins/config/check_service.sh -o linux -s apache2 -state
+/etc/nagios-plugins/config/check_service.sh -o linux -s apache2 - state
+/etc/nagios-plugins/config/check_service.sh -o linux -s apache2 - state = active
+/etc/nagios-plugins/config/check_service.sh -o linux -s apache2 
+/etc/nagios-plugins/config/check_service.sh -o linux -s apache2
+/usr/lib/nagios/plugins/check_procs -c 1: -w 3: -C spamd
+/usr/lib/nagios/plugins/check_procs -c 1: -w 3
+/usr/lib/nagios/plugins/check_procs -C vmtoolsd -c 1:1
+/usr/lib/nagios/plugins/check_procs -C sshd -c 1:1
+/usr/lib/nagios/plugins/check_procs -C apache2 -c 1:1
+/usr/lib/nagios/plugins/check_nrpe -H 10.25.14.10 -c check_process -a process=spoolsv.exe show-all
+/usr/lib/nagios/plugins/check_nrpe -H app-b.foo.org.nz -c check_process -a process=spoolsv.exe show-all
+/usr/lib/nagios/plugins/check_nrpe -H app-b.foo.org.nz -c check_http
+cd /etc/nagios3/
+ls
+cd conf.d/
+ls
+vim ppt_services.cfg 
+vim ppt_hostgroups.cfg 
+mod
+ls
+cd nrpe
+ls
+cd ..
+cd nagios/
+ls
+cd files/
+ls
+vim nagios.cfg 
+cd..
+cd ..
+ls
+cd manifests/
+vim config.pp 
+cd ..
+cd manifests/
+vim service.pp 
+mod
+cd nrpe
+cd manifests/
+vim service.pp 
+resnag
+resmas
+respup
+resnr
+cd conf.d//usr/lib/nagios/plugins/check_http -H localhost -u /owncloud -a admin:Oe2b_2022 -w 10,2% -c 20,5%
+/usr/lib/nagios/plugins/check_http -H localhost -u /owncloud -a admin:Oe2b_2022 -w 10,2% -c 20,5%
+/usr/lib/nagios/plugins/check_http -H app-b.foo.org.nz -u /owncloud -a admin:Oe2b_2022 -w 10,2% -c 20,5%
+/usr/lib/nagios/plugins/check_http -H localhost -u /nagios3/ -a nagiosadmin:Oe2b2022
+/usr/lib/nagios/plugins/check_http -H app-b.foo.org.nz -u /owncloud -a admin:Oe2b_2022 -w 10,2% -c 20,5%

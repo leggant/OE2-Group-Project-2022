@@ -1730,3 +1730,254 @@ May 29 22:29:30 mgmt-b nagios3: Nagios 3.5.1 starting... (PID=5512)
 May 29 22:29:30 mgmt-b nagios3: Local time is Sun May 29 22:29:30 UTC 2022
 May 29 22:29:30 mgmt-b nagios3: LOG VERSION: 2.0
 May 29 22:29:30 mgmt-b nagios3: Finished daemonizing... (New PID=5515)
+May 29 22:31:00 mgmt-b nagios3: SERVICE ALERT: mgmt-b.foo.org.nz;check nagios alive;OK;SOFT;3;HTTP OK: HTTP/1.1 200 OK - 1065 bytes in 0.001 second response time
+May 29 22:31:59 mgmt-b nagios3: Caught SIGTERM, shutting down...
+May 29 22:31:59 mgmt-b nagios3: Successfully shutdown... (PID=5515)
+May 29 22:31:59 mgmt-b nagios3: Nagios 3.5.1 starting... (PID=6170)
+May 29 22:31:59 mgmt-b nagios3: Local time is Sun May 29 22:31:59 UTC 2022
+May 29 22:31:59 mgmt-b nagios3: LOG VERSION: 2.0
+May 29 22:31:59 mgmt-b nagios3: Finished daemonizing... (New PID=6173)
+May 29 22:32:19 mgmt-b nagios3: SERVICE NOTIFICATION: slack;db-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 29 22:32:19 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;db-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 29 22:32:20 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;db-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 29 22:39:55 mgmt-b nagios3: Caught SIGTERM, shutting down...
+May 29 22:39:55 mgmt-b nagios3: Successfully shutdown... (PID=6173)
+May 29 22:39:56 mgmt-b nagios3: Nagios 3.5.1 starting... (PID=7016)
+May 29 22:39:56 mgmt-b nagios3: Local time is Sun May 29 22:39:56 UTC 2022
+May 29 22:39:56 mgmt-b nagios3: LOG VERSION: 2.0
+May 29 22:39:56 mgmt-b nagios3: Finished daemonizing... (New PID=7025)
+May 29 22:52:26 mgmt-b nagios3: SERVICE ALERT: db-b.foo.org.nz;check users-login;OK;HARD;3;USERS OK - 0 users currently logged in
+May 29 22:53:06 mgmt-b nagios3: SERVICE NOTIFICATION: slack;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 29 22:53:06 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 29 22:53:06 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 29 23:01:39 mgmt-b nagios3: Caught SIGTERM, shutting down...
+May 29 23:01:39 mgmt-b nagios3: Successfully shutdown... (PID=7025)
+May 29 23:01:39 mgmt-b nagios3: Nagios 3.5.1 starting... (PID=8443)
+May 29 23:01:39 mgmt-b nagios3: Local time is Sun May 29 23:01:39 UTC 2022
+May 29 23:01:39 mgmt-b nagios3: LOG VERSION: 2.0
+May 29 23:01:39 mgmt-b nagios3: Finished daemonizing... (New PID=8444)
+May 29 23:02:49 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;check apache status;UNKNOWN;SOFT;1;NRPE: Command 'check_apache2' not defined
+May 29 23:03:49 mgmt-b nagios3: SERVICE ALERT: backup-b.foo.org.nz;check apache status;UNKNOWN;SOFT;1;NRPE: Command 'check_apache2' not defined
+May 29 23:03:49 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;check apache status;UNKNOWN;SOFT;2;NRPE: Command 'check_apache2' not defined
+May 29 23:04:49 mgmt-b nagios3: SERVICE ALERT: db-b.foo.org.nz;check apache status;UNKNOWN;SOFT;1;NRPE: Command 'check_apache2' not defined
+May 29 23:04:49 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;check apache status;UNKNOWN;HARD;3;NRPE: Command 'check_apache2' not defined
+May 29 23:04:49 mgmt-b nagios3: SERVICE NOTIFICATION: slack;app-b.foo.org.nz;check apache status;UNKNOWN;notify-service-by-slack;NRPE: Command check_apache2 not defined
+May 29 23:04:49 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;app-b.foo.org.nz;check apache status;UNKNOWN;notify-service-by-slack;NRPE: Command check_apache2 not defined
+May 29 23:04:50 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;app-b.foo.org.nz;check apache status;UNKNOWN;notify-service-by-slack;NRPE: Command check_apache2 not defined
+May 29 23:04:50 mgmt-b nagios3: SERVICE ALERT: backup-b.foo.org.nz;check apache status;UNKNOWN;SOFT;2;NRPE: Command 'check_apache2' not defined
+May 29 23:05:49 mgmt-b nagios3: SERVICE ALERT: db-b.foo.org.nz;check apache status;UNKNOWN;SOFT;2;NRPE: Command 'check_apache2' not defined
+May 29 23:05:49 mgmt-b nagios3: SERVICE ALERT: backup-b.foo.org.nz;check apache status;UNKNOWN;HARD;3;NRPE: Command 'check_apache2' not defined
+May 29 23:05:49 mgmt-b nagios3: SERVICE NOTIFICATION: slack;backup-b.foo.org.nz;check apache status;UNKNOWN;notify-service-by-slack;NRPE: Command check_apache2 not defined
+May 29 23:05:49 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;backup-b.foo.org.nz;check apache status;UNKNOWN;notify-service-by-slack;NRPE: Command check_apache2 not defined
+May 29 23:05:49 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;backup-b.foo.org.nz;check apache status;UNKNOWN;notify-service-by-slack;NRPE: Command check_apache2 not defined
+May 29 23:06:24 mgmt-b nagios3: Caught SIGTERM, shutting down...
+May 29 23:06:24 mgmt-b nagios3: Successfully shutdown... (PID=8444)
+May 29 23:06:25 mgmt-b nagios3: Nagios 3.5.1 starting... (PID=9008)
+May 29 23:06:25 mgmt-b nagios3: Local time is Sun May 29 23:06:25 UTC 2022
+May 29 23:06:25 mgmt-b nagios3: LOG VERSION: 2.0
+May 29 23:06:25 mgmt-b nagios3: Finished daemonizing... (New PID=9012)
+May 29 23:06:45 mgmt-b nagios3: SERVICE ALERT: db-b.foo.org.nz;check apache status;UNKNOWN;HARD;3;NRPE: Command 'check_apache2' not defined
+May 29 23:06:45 mgmt-b nagios3: SERVICE NOTIFICATION: slack;db-b.foo.org.nz;check apache status;UNKNOWN;notify-service-by-slack;NRPE: Command check_apache2 not defined
+May 29 23:06:45 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;db-b.foo.org.nz;check apache status;UNKNOWN;notify-service-by-slack;NRPE: Command check_apache2 not defined
+May 29 23:06:46 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;db-b.foo.org.nz;check apache status;UNKNOWN;notify-service-by-slack;NRPE: Command check_apache2 not defined
+May 29 23:07:05 mgmt-b nagios3: SERVICE ALERT: backup-b.foo.org.nz;check users-login;WARNING;SOFT;1;USERS WARNING - 1 users currently logged in
+May 29 23:08:05 mgmt-b nagios3: SERVICE ALERT: backup-b.foo.org.nz;check users-login;WARNING;SOFT;2;USERS WARNING - 1 users currently logged in
+May 29 23:09:05 mgmt-b nagios3: SERVICE ALERT: backup-b.foo.org.nz;check users-login;WARNING;HARD;3;USERS WARNING - 1 users currently logged in
+May 29 23:09:05 mgmt-b nagios3: SERVICE NOTIFICATION: slack;backup-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 29 23:09:05 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;backup-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 29 23:09:06 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;backup-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 29 23:19:59 mgmt-b nagios3: Caught SIGTERM, shutting down...
+May 29 23:19:59 mgmt-b nagios3: Successfully shutdown... (PID=9012)
+May 29 23:19:59 mgmt-b nagios3: Nagios 3.5.1 starting... (PID=10151)
+May 29 23:19:59 mgmt-b nagios3: Local time is Sun May 29 23:19:59 UTC 2022
+May 29 23:19:59 mgmt-b nagios3: LOG VERSION: 2.0
+May 29 23:19:59 mgmt-b nagios3: Finished daemonizing... (New PID=10153)
+May 29 23:20:33 mgmt-b nagios3: Caught SIGTERM, shutting down...
+May 29 23:20:33 mgmt-b nagios3: Successfully shutdown... (PID=10153)
+May 29 23:20:33 mgmt-b nagios3: Nagios 3.5.1 starting... (PID=10269)
+May 29 23:20:33 mgmt-b nagios3: Local time is Sun May 29 23:20:33 UTC 2022
+May 29 23:20:33 mgmt-b nagios3: LOG VERSION: 2.0
+May 29 23:20:33 mgmt-b nagios3: Finished daemonizing... (New PID=10273)
+May 29 23:21:15 mgmt-b nagios3: Caught SIGTERM, shutting down...
+May 29 23:21:15 mgmt-b nagios3: Successfully shutdown... (PID=10273)
+May 29 23:21:15 mgmt-b nagios3: Nagios 3.5.1 starting... (PID=10422)
+May 29 23:21:15 mgmt-b nagios3: Local time is Sun May 29 23:21:15 UTC 2022
+May 29 23:21:15 mgmt-b nagios3: LOG VERSION: 2.0
+May 29 23:21:15 mgmt-b nagios3: Finished daemonizing... (New PID=10426)
+May 29 23:24:45 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;check apache status;OK;HARD;3;Active: inactive (dead) since Sun 2022-05-29 21:08:09 UTC: 2h 16min ago
+May 29 23:25:47 mgmt-b nagios3: Caught SIGTERM, shutting down...
+May 29 23:25:47 mgmt-b nagios3: Successfully shutdown... (PID=10426)
+May 29 23:25:47 mgmt-b nagios3: Nagios 3.5.1 starting... (PID=10846)
+May 29 23:25:47 mgmt-b nagios3: Local time is Sun May 29 23:25:47 UTC 2022
+May 29 23:25:47 mgmt-b nagios3: LOG VERSION: 2.0
+May 29 23:25:47 mgmt-b nagios3: Warning: Duplicate definition found for service 'check apache status' on host 'backup-b.foo.org.nz' (config file '/etc/nagios3/conf.d/ppt_services.cfg', starting on line 109)
+May 29 23:25:47 mgmt-b nagios3: Warning: Duplicate definition found for service 'check apache status' on host 'app-b.foo.org.nz' (config file '/etc/nagios3/conf.d/ppt_services.cfg', starting on line 124)
+May 29 23:25:47 mgmt-b nagios3: Warning: Duplicate definition found for service 'check apache status' on host 'db-b.foo.org.nz' (config file '/etc/nagios3/conf.d/ppt_services.cfg', starting on line 124)
+May 29 23:25:47 mgmt-b nagios3: Finished daemonizing... (New PID=10850)
+May 29 23:28:07 mgmt-b nagios3: SERVICE NOTIFICATION: slack;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 2 users currently logged in
+May 29 23:28:07 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 2 users currently logged in
+May 29 23:28:07 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 2 users currently logged in
+May 29 23:32:27 mgmt-b nagios3: SERVICE ALERT: db-b.foo.org.nz;check users-login;WARNING;SOFT;1;USERS WARNING - 1 users currently logged in
+May 29 23:33:27 mgmt-b nagios3: SERVICE ALERT: db-b.foo.org.nz;check users-login;WARNING;SOFT;2;USERS WARNING - 1 users currently logged in
+May 29 23:34:23 mgmt-b nagios3: Caught SIGTERM, shutting down...
+May 29 23:34:23 mgmt-b nagios3: Successfully shutdown... (PID=10850)
+May 29 23:34:23 mgmt-b nagios3: Nagios 3.5.1 starting... (PID=11549)
+May 29 23:34:23 mgmt-b nagios3: Local time is Sun May 29 23:34:23 UTC 2022
+May 29 23:34:23 mgmt-b nagios3: LOG VERSION: 2.0
+May 29 23:34:23 mgmt-b nagios3: Warning: Duplicate definition found for service 'check apache status' on host 'backup-b.foo.org.nz' (config file '/etc/nagios3/conf.d/ppt_services.cfg', starting on line 109)
+May 29 23:34:23 mgmt-b nagios3: Warning: Duplicate definition found for service 'check apache status' on host 'app-b.foo.org.nz' (config file '/etc/nagios3/conf.d/ppt_services.cfg', starting on line 124)
+May 29 23:34:23 mgmt-b nagios3: Warning: Duplicate definition found for service 'check apache status' on host 'db-b.foo.org.nz' (config file '/etc/nagios3/conf.d/ppt_services.cfg', starting on line 124)
+May 29 23:34:23 mgmt-b nagios3: Finished daemonizing... (New PID=11553)
+May 29 23:34:33 mgmt-b nagios3: SERVICE ALERT: db-b.foo.org.nz;check users-login;WARNING;HARD;3;USERS WARNING - 1 users currently logged in
+May 29 23:34:33 mgmt-b nagios3: SERVICE NOTIFICATION: slack;db-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 29 23:34:33 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;db-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 29 23:34:33 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;db-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 29 23:39:13 mgmt-b nagios3: SERVICE NOTIFICATION: slack;backup-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 2 users currently logged in
+May 29 23:39:13 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;backup-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 2 users currently logged in
+May 29 23:39:14 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;backup-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 2 users currently logged in
+May 29 23:40:43 mgmt-b nagios3: SERVICE NOTIFICATION: slack;backup-b.foo.org.nz;check apache status;UNKNOWN;notify-service-by-slack;NRPE: Command check_apache2 not defined
+May 29 23:40:43 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;backup-b.foo.org.nz;check apache status;UNKNOWN;notify-service-by-slack;NRPE: Command check_apache2 not defined
+May 29 23:40:44 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;backup-b.foo.org.nz;check apache status;UNKNOWN;notify-service-by-slack;NRPE: Command check_apache2 not defined
+May 29 23:41:43 mgmt-b nagios3: SERVICE NOTIFICATION: slack;db-b.foo.org.nz;check apache status;UNKNOWN;notify-service-by-slack;NRPE: Command check_apache2 not defined
+May 29 23:41:43 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;db-b.foo.org.nz;check apache status;UNKNOWN;notify-service-by-slack;NRPE: Command check_apache2 not defined
+May 29 23:41:43 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;db-b.foo.org.nz;check apache status;UNKNOWN;notify-service-by-slack;NRPE: Command check_apache2 not defined
+May 29 23:52:35 mgmt-b nagios3: Caught SIGTERM, shutting down...
+May 29 23:52:35 mgmt-b nagios3: Successfully shutdown... (PID=11553)
+May 29 23:52:35 mgmt-b nagios3: Nagios 3.5.1 starting... (PID=12827)
+May 29 23:52:35 mgmt-b nagios3: Local time is Sun May 29 23:52:35 UTC 2022
+May 29 23:52:35 mgmt-b nagios3: LOG VERSION: 2.0
+May 29 23:52:35 mgmt-b nagios3: Warning: Duplicate definition found for service 'check apache status' on host 'app-b.foo.org.nz' (config file '/etc/nagios3/conf.d/ppt_services.cfg', starting on line 109)
+May 29 23:52:35 mgmt-b nagios3: Warning: Duplicate definition found for service 'check apache status' on host 'db-b.foo.org.nz' (config file '/etc/nagios3/conf.d/ppt_services.cfg', starting on line 124)
+May 29 23:52:35 mgmt-b nagios3: Finished daemonizing... (New PID=12830)
+May 29 23:58:17 mgmt-b nagios3: Caught SIGTERM, shutting down...
+May 29 23:58:17 mgmt-b nagios3: Successfully shutdown... (PID=12830)
+May 29 23:58:17 mgmt-b nagios3: Nagios 3.5.1 starting... (PID=13275)
+May 29 23:58:17 mgmt-b nagios3: Local time is Sun May 29 23:58:17 UTC 2022
+May 29 23:58:17 mgmt-b nagios3: LOG VERSION: 2.0
+May 29 23:58:17 mgmt-b nagios3: Warning: Duplicate definition found for service 'check apache status' on host 'app-b.foo.org.nz' (config file '/etc/nagios3/conf.d/ppt_services.cfg', starting on line 109)
+May 29 23:58:17 mgmt-b nagios3: Finished daemonizing... (New PID=13279)
+May 30 00:00:00 mgmt-b nagios3: LOG ROTATION: DAILY
+May 30 00:00:00 mgmt-b nagios3: LOG VERSION: 2.0
+May 30 00:00:00 mgmt-b nagios3: CURRENT HOST STATE: app-b.foo.org.nz;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 1.15 ms
+May 30 00:00:00 mgmt-b nagios3: CURRENT HOST STATE: backup-b.foo.org.nz;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 1.32 ms
+May 30 00:00:00 mgmt-b nagios3: CURRENT HOST STATE: db-b.foo.org.nz;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 1.74 ms
+May 30 00:00:00 mgmt-b nagios3: CURRENT HOST STATE: localhost;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.05 ms
+May 30 00:00:00 mgmt-b nagios3: CURRENT HOST STATE: mgmt-b.foo.org.nz;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.03 ms
+May 30 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: app-b.foo.org.nz;Remote disk servers;OK;HARD;1;DISK OK - free space: /var/tmp 24264 MB (82% inode=93%):
+May 30 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: app-b.foo.org.nz;check apache status;OK;HARD;1;Active: active (running) since Sun 2022-05-29 23:46:35 UTC: 13min ago
+May 30 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: app-b.foo.org.nz;check hosts alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.05 ms
+May 30 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: app-b.foo.org.nz;check users-login;WARNING;HARD;3;USERS WARNING - 2 users currently logged in
+May 30 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: app-b.foo.org.nz;ssh servers;OK;HARD;1;SSH OK - OpenSSH_7.6p1 Ubuntu-4ubuntu0.6 (protocol 2.0)
+May 30 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: backup-b.foo.org.nz;Remote disk servers;OK;HARD;1;DISK OK - free space: /var/tmp 22983 MB (77% inode=94%):
+May 30 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: backup-b.foo.org.nz;check apache status;UNKNOWN;HARD;3;NRPE: Command 'check_apache2' not defined
+May 30 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: backup-b.foo.org.nz;check hosts alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.05 ms
+May 30 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: backup-b.foo.org.nz;check users-login;WARNING;HARD;3;USERS WARNING - 2 users currently logged in
+May 30 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: backup-b.foo.org.nz;ssh servers;OK;HARD;1;SSH OK - OpenSSH_7.6p1 Ubuntu-4ubuntu0.6 (protocol 2.0)
+May 30 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: db-b.foo.org.nz;MariaDB servers;OK;HARD;1;Uptime: 229131  Threads: 1  Questions: 68172  Slow queries: 0  Opens: 1208  Flush tables: 1  Open tables: 162  Queries per second avg: 0.297
+May 30 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: db-b.foo.org.nz;Remote disk servers;OK;HARD;1;DISK OK - free space: /var/tmp 24629 MB (83% inode=94%):
+May 30 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: db-b.foo.org.nz;check apache status;UNKNOWN;HARD;3;NRPE: Command 'check_apache2' not defined
+May 30 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: db-b.foo.org.nz;check hosts alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.04 ms
+May 30 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: db-b.foo.org.nz;check users-login;WARNING;HARD;3;USERS WARNING - 1 users currently logged in
+May 30 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: db-b.foo.org.nz;ssh servers;OK;HARD;1;SSH OK - OpenSSH_7.6p1 Ubuntu-4ubuntu0.6 (protocol 2.0)
+May 30 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: localhost;Current Load;OK;HARD;1;OK - load average: 0.06, 0.02, 0.00
+May 30 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: localhost;Current Users;OK;HARD;1;USERS OK - 3 users currently logged in
+May 30 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: localhost;Disk Space;OK;HARD;1;DISK OK
+May 30 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: localhost;HTTP;OK;HARD;1;HTTP OK: HTTP/1.1 200 OK - 11192 bytes in 0.001 second response time
+May 30 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: localhost;SSH;OK;HARD;1;SSH OK - OpenSSH_7.6p1 Ubuntu-4ubuntu0.6 (protocol 2.0)
+May 30 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: localhost;Total Processes;OK;HARD;1;PROCS OK: 130 processes
+May 30 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: localhost;check nagios alive;OK;HARD;1;HTTP OK: HTTP/1.1 200 OK - 1065 bytes in 0.003 second response time
+May 30 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: localhost;check puppet-master;OK;HARD;1;Active: active (running) since Sun 2022-05-29 23:51:54 UTC: 4min 9s ago
+May 30 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: mgmt-b.foo.org.nz;ssh servers;OK;HARD;1;SSH OK - OpenSSH_7.6p1 Ubuntu-4ubuntu0.6 (protocol 2.0)
+May 30 00:03:07 mgmt-b nagios3: SERVICE NOTIFICATION: slack;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 2 users currently logged in
+May 30 00:03:07 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 2 users currently logged in
+May 30 00:03:07 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 2 users currently logged in
+May 30 00:06:27 mgmt-b nagios3: SERVICE NOTIFICATION: slack;db-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 2 users currently logged in
+May 30 00:06:27 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;db-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 2 users currently logged in
+May 30 00:06:28 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;db-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 2 users currently logged in
+May 30 00:06:47 mgmt-b nagios3: SERVICE ALERT: db-b.foo.org.nz;check apache status;CRITICAL;HARD;3;Unit apache2.service could not be found.
+May 30 00:06:47 mgmt-b nagios3: SERVICE NOTIFICATION: slack;db-b.foo.org.nz;check apache status;CRITICAL;notify-service-by-slack;Unit apache2.service could not be found.
+May 30 00:06:47 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;db-b.foo.org.nz;check apache status;CRITICAL;notify-service-by-slack;Unit apache2.service could not be found.
+May 30 00:06:47 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;db-b.foo.org.nz;check apache status;CRITICAL;notify-service-by-slack;Unit apache2.service could not be found.
+May 30 00:08:42 mgmt-b nagios3: Caught SIGTERM, shutting down...
+May 30 00:08:42 mgmt-b nagios3: Successfully shutdown... (PID=13279)
+May 30 00:08:42 mgmt-b nagios3: Nagios 3.5.1 starting... (PID=14374)
+May 30 00:08:42 mgmt-b nagios3: Local time is Mon May 30 00:08:42 UTC 2022
+May 30 00:08:42 mgmt-b nagios3: LOG VERSION: 2.0
+May 30 00:08:42 mgmt-b nagios3: Finished daemonizing... (New PID=14378)
+May 30 00:14:12 mgmt-b nagios3: SERVICE NOTIFICATION: slack;backup-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 2 users currently logged in
+May 30 00:14:12 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;backup-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 2 users currently logged in
+May 30 00:14:12 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;backup-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 2 users currently logged in
+May 30 00:24:07 mgmt-b nagios3: Caught SIGTERM, shutting down...
+May 30 00:24:07 mgmt-b nagios3: Successfully shutdown... (PID=14378)
+May 30 00:24:07 mgmt-b nagios3: Nagios 3.5.1 starting... (PID=15689)
+May 30 00:24:07 mgmt-b nagios3: Local time is Mon May 30 00:24:07 UTC 2022
+May 30 00:24:07 mgmt-b nagios3: LOG VERSION: 2.0
+May 30 00:24:07 mgmt-b nagios3: Finished daemonizing... (New PID=15692)
+May 30 00:25:17 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;check owncloud status;UNKNOWN;SOFT;1;NRPE: Command 'check_owncloud' not defined
+May 30 00:26:17 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;check owncloud status;UNKNOWN;SOFT;2;NRPE: Command 'check_owncloud' not defined
+May 30 00:27:17 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;check owncloud status;OK;SOFT;3;HTTP OK: HTTP/1.1 301 Moved Permanently - 707 bytes in 0.001 second response time
+May 30 00:27:28 mgmt-b nagios3: Caught SIGTERM, shutting down...
+May 30 00:27:28 mgmt-b nagios3: Successfully shutdown... (PID=15692)
+May 30 00:27:28 mgmt-b nagios3: Nagios 3.5.1 starting... (PID=16132)
+May 30 00:27:28 mgmt-b nagios3: Local time is Mon May 30 00:27:28 UTC 2022
+May 30 00:27:28 mgmt-b nagios3: LOG VERSION: 2.0
+May 30 00:27:28 mgmt-b nagios3: Finished daemonizing... (New PID=16136)
+May 30 00:32:18 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;check owncloud status;CRITICAL;SOFT;1;connect to address localhost and port 80: Connection refused
+May 30 00:32:23 mgmt-b nagios3: Caught SIGTERM, shutting down...
+May 30 00:32:23 mgmt-b nagios3: Successfully shutdown... (PID=16136)
+May 30 00:32:23 mgmt-b nagios3: Nagios 3.5.1 starting... (PID=16604)
+May 30 00:32:23 mgmt-b nagios3: Local time is Mon May 30 00:32:23 UTC 2022
+May 30 00:32:23 mgmt-b nagios3: LOG VERSION: 2.0
+May 30 00:32:23 mgmt-b nagios3: Finished daemonizing... (New PID=16608)
+May 30 00:33:13 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;check owncloud status;OK;SOFT;2;HTTP OK: HTTP/1.1 301 Moved Permanently - 707 bytes in 0.001 second response time
+May 30 00:36:33 mgmt-b nagios3: SERVICE NOTIFICATION: slack;db-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 2 users currently logged in
+May 30 00:36:33 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;db-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 2 users currently logged in
+May 30 00:36:33 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;db-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 2 users currently logged in
+May 30 00:38:03 mgmt-b nagios3: SERVICE NOTIFICATION: slack;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 2 users currently logged in
+May 30 00:38:03 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 2 users currently logged in
+May 30 00:38:04 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 2 users currently logged in
+May 30 00:46:13 mgmt-b nagios3: SERVICE NOTIFICATION: slack;backup-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 2 users currently logged in
+May 30 00:46:13 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;backup-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 2 users currently logged in
+May 30 00:46:13 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;backup-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 2 users currently logged in
+May 30 00:58:03 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;check users-login;OK;HARD;3;USERS OK - 0 users currently logged in
+May 30 01:06:33 mgmt-b nagios3: SERVICE NOTIFICATION: slack;db-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 30 01:06:33 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;db-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 30 01:06:33 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;db-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 30 01:08:13 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;check owncloud status;CRITICAL;SOFT;1;connect to address localhost and port 80: Connection refused
+May 30 01:09:13 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;check owncloud status;CRITICAL;SOFT;2;connect to address localhost and port 80: Connection refused
+May 30 01:10:13 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;check owncloud status;CRITICAL;HARD;3;connect to address localhost and port 80: Connection refused
+May 30 01:10:13 mgmt-b nagios3: SERVICE NOTIFICATION: slack;app-b.foo.org.nz;check owncloud status;CRITICAL;notify-service-by-slack;connect to address localhost and port 80: Connection refused
+May 30 01:10:13 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;app-b.foo.org.nz;check owncloud status;CRITICAL;notify-service-by-slack;connect to address localhost and port 80: Connection refused
+May 30 01:10:13 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;app-b.foo.org.nz;check owncloud status;CRITICAL;notify-service-by-slack;connect to address localhost and port 80: Connection refused
+May 30 01:16:13 mgmt-b nagios3: SERVICE NOTIFICATION: slack;backup-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 30 01:16:13 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;backup-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 30 01:16:13 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;backup-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 30 01:18:03 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;check users-login;WARNING;SOFT;1;USERS WARNING - 1 users currently logged in
+May 30 01:19:03 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;check users-login;WARNING;SOFT;2;USERS WARNING - 1 users currently logged in
+May 30 01:20:03 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;check users-login;WARNING;HARD;3;USERS WARNING - 1 users currently logged in
+May 30 01:20:03 mgmt-b nagios3: SERVICE NOTIFICATION: slack;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 30 01:20:03 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 30 01:20:03 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 30 01:32:23 mgmt-b nagios3: Auto-save of retention data completed successfully.
+May 30 01:36:33 mgmt-b nagios3: SERVICE NOTIFICATION: slack;db-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 30 01:36:33 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;db-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 30 01:36:33 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;db-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 30 01:40:13 mgmt-b nagios3: SERVICE NOTIFICATION: slack;app-b.foo.org.nz;check owncloud status;CRITICAL;notify-service-by-slack;connect to address localhost and port 80: Connection refused
+May 30 01:40:13 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;app-b.foo.org.nz;check owncloud status;CRITICAL;notify-service-by-slack;connect to address localhost and port 80: Connection refused
+May 30 01:40:13 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;app-b.foo.org.nz;check owncloud status;CRITICAL;notify-service-by-slack;connect to address localhost and port 80: Connection refused
+May 30 01:46:13 mgmt-b nagios3: SERVICE NOTIFICATION: slack;backup-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 30 01:46:13 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;backup-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 30 01:46:14 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;backup-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 30 01:50:03 mgmt-b nagios3: SERVICE NOTIFICATION: slack;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 30 01:50:03 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 30 01:50:03 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 30 01:50:13 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;check owncloud status;OK;HARD;3;HTTP OK: HTTP/1.1 301 Moved Permanently - 707 bytes in 0.005 second response time
+May 30 02:06:33 mgmt-b nagios3: SERVICE NOTIFICATION: slack;db-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 30 02:06:33 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;db-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 30 02:06:33 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;db-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 30 02:16:13 mgmt-b nagios3: SERVICE NOTIFICATION: slack;backup-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 30 02:16:13 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;backup-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 30 02:16:13 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;backup-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 30 02:20:03 mgmt-b nagios3: SERVICE NOTIFICATION: slack;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 30 02:20:03 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+May 30 02:20:03 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
