@@ -1,15 +1,3 @@
-132764 04:17:27.598768354 0 sshd (17906) > clock_gettime 
-132765 04:17:27.598768654 0 sshd (17906) < clock_gettime 
-132766 04:17:27.598769454 0 sshd (17906) > select 
-132767 04:17:27.598770654 0 sshd (17906) < select res=1 
-132768 04:17:27.598771354 0 sshd (17906) > clock_gettime 
-132769 04:17:27.598771554 0 sshd (17906) < clock_gettime 
-132770 04:17:27.598772254 0 sshd (17906) > rt_sigprocmask 
-132771 04:17:27.598772554 0 sshd (17906) < rt_sigprocmask 
-132772 04:17:27.598773154 0 sshd (17906) > rt_sigprocmask 
-132773 04:17:27.598773354 0 sshd (17906) < rt_sigprocmask 
-132774 04:17:27.598774054 0 sshd (17906) > clock_gettime 
-132775 04:17:27.598774354 0 sshd (17906) < clock_gettime 
 132776 04:17:27.598775054 0 sshd (17906) > write fd=3(<4t>202.49.0.75:51813->10.6.0.5:22) size=260 
 132777 04:17:27.598779354 0 sshd (17906) > clock_gettime 
 132778 04:17:27.598779654 0 sshd (17906) < clock_gettime 
@@ -1998,3 +1986,15 @@ sudo systemctl start apache2.service
 sudo systemctl status apache2.service 
 sudo systemctl stop apache2.service 
 sudo systemctl start apache2.service 
+sudo nano /var/log/user.log
+sudo nano /var/log/auth.log
+sudo nano /var/log/user.log
+sudo nano /var/log/auth.log
+cd OE2-Group-Project/Scripts/backup/
+ls
+sudo nano backup.sh 
+finger manager
+sudo nano /var/log/daemon.log
+cat /var/log/daemon.log | grep Manager
+sudo nano /var/log/daemon.log
+sudo vim /var/log/daemon.log
