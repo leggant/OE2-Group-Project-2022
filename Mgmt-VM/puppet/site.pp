@@ -4,7 +4,6 @@ node 'db-b.foo.org.nz' {
     include mariadb
     include rsync    
     include nrpe_nagios
-    include nodeexporter
     service { 'puppet': ensure => 'running', enable => true }
     package { 'vim': ensure => present }
 }
@@ -21,7 +20,6 @@ node 'app-b.foo.org.nz' {
     include rsync
     include ntp_service
     include nrpe_nagios
-    include nodeexporter
     service { 'puppet': ensure => 'running', enable => true }
     package { 'vim': ensure => present }
     package { 'mysql-server': ensure => present }
