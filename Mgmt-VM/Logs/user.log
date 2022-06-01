@@ -226,3 +226,57 @@ May 31 18:32:23 mgmt-b nagios3: Auto-save of retention data completed successful
 May 31 19:32:23 mgmt-b nagios3: Auto-save of retention data completed successfully.
 May 31 20:32:23 mgmt-b nagios3: Auto-save of retention data completed successfully.
 May 31 21:32:23 mgmt-b nagios3: Auto-save of retention data completed successfully.
+May 31 22:32:23 mgmt-b nagios3: Auto-save of retention data completed successfully.
+May 31 23:32:23 mgmt-b nagios3: Auto-save of retention data completed successfully.
+Jun  1 00:00:00 mgmt-b nagios3: LOG ROTATION: DAILY
+Jun  1 00:00:00 mgmt-b nagios3: LOG VERSION: 2.0
+Jun  1 00:00:00 mgmt-b nagios3: CURRENT HOST STATE: app-b.foo.org.nz;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.85 ms
+Jun  1 00:00:00 mgmt-b nagios3: CURRENT HOST STATE: backup-b.foo.org.nz;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 1.39 ms
+Jun  1 00:00:00 mgmt-b nagios3: CURRENT HOST STATE: db-b.foo.org.nz;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 1.83 ms
+Jun  1 00:00:00 mgmt-b nagios3: CURRENT HOST STATE: localhost;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.06 ms
+Jun  1 00:00:00 mgmt-b nagios3: CURRENT HOST STATE: mgmt-b.foo.org.nz;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.03 ms
+Jun  1 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: app-b.foo.org.nz;Remote disk servers;OK;HARD;1;DISK OK - free space: /var/tmp 24143 MB (81% inode=93%):
+Jun  1 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: app-b.foo.org.nz;check apache status;OK;HARD;1;Active: active (running) since Mon 2022-05-30 22:46:13 UTC: 1 day 1h ago
+Jun  1 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: app-b.foo.org.nz;check hosts alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.05 ms
+Jun  1 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: app-b.foo.org.nz;check owncloud status;OK;HARD;1;HTTP OK: HTTP/1.1 301 Moved Permanently - 707 bytes in 0.004 second response time
+Jun  1 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: app-b.foo.org.nz;check users-login;OK;HARD;1;USERS OK - 0 users currently logged in
+Jun  1 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: app-b.foo.org.nz;ssh servers;OK;HARD;1;SSH OK - OpenSSH_7.6p1 Ubuntu-4ubuntu0.6 (protocol 2.0)
+Jun  1 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: backup-b.foo.org.nz;Remote disk servers;OK;HARD;1;DISK OK - free space: /var/tmp 22688 MB (76% inode=94%):
+Jun  1 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: backup-b.foo.org.nz;check hosts alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.05 ms
+Jun  1 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: backup-b.foo.org.nz;check users-login;OK;HARD;1;USERS OK - 0 users currently logged in
+Jun  1 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: backup-b.foo.org.nz;ssh servers;OK;HARD;1;SSH OK - OpenSSH_7.6p1 Ubuntu-4ubuntu0.6 (protocol 2.0)
+Jun  1 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: db-b.foo.org.nz;MariaDB servers;OK;HARD;1;Uptime: 167076  Threads: 1  Questions: 28109  Slow queries: 0  Opens: 166  Flush tables: 1  Open tables: 160  Queries per second avg: 0.168
+Jun  1 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: db-b.foo.org.nz;Remote disk servers;OK;HARD;1;DISK OK - free space: /var/tmp 24525 MB (82% inode=94%):
+Jun  1 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: db-b.foo.org.nz;check hosts alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.05 ms
+Jun  1 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: db-b.foo.org.nz;check users-login;OK;HARD;1;USERS OK - 0 users currently logged in
+Jun  1 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: db-b.foo.org.nz;ssh servers;OK;HARD;1;SSH OK - OpenSSH_7.6p1 Ubuntu-4ubuntu0.6 (protocol 2.0)
+Jun  1 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: localhost;Current Load;OK;HARD;1;OK - load average: 0.00, 0.00, 0.00
+Jun  1 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: localhost;Current Users;OK;HARD;1;USERS OK - 0 users currently logged in
+Jun  1 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: localhost;Disk Space;OK;HARD;1;DISK OK
+Jun  1 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: localhost;HTTP;OK;HARD;1;HTTP OK: HTTP/1.1 200 OK - 11192 bytes in 0.001 second response time
+Jun  1 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: localhost;SSH;OK;HARD;1;SSH OK - OpenSSH_7.6p1 Ubuntu-4ubuntu0.6 (protocol 2.0)
+Jun  1 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: localhost;Total Processes;OK;HARD;1;PROCS OK: 114 processes
+Jun  1 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: localhost;check nagios alive;OK;HARD;1;HTTP OK: HTTP/1.1 200 OK - 1065 bytes in 0.002 second response time
+Jun  1 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: localhost;check puppet-master;OK;HARD;1;Active: active (running) since Tue 2022-05-31 05:49:26 UTC: 18h ago
+Jun  1 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: mgmt-b.foo.org.nz;ssh servers;OK;HARD;1;SSH OK - OpenSSH_7.6p1 Ubuntu-4ubuntu0.6 (protocol 2.0)
+Jun  1 00:00:03 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;check users-login;WARNING;SOFT;1;USERS WARNING - 1 users currently logged in
+Jun  1 00:01:03 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;check users-login;WARNING;SOFT;2;USERS WARNING - 1 users currently logged in
+Jun  1 00:02:03 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;check users-login;WARNING;HARD;3;USERS WARNING - 1 users currently logged in
+Jun  1 00:02:03 mgmt-b nagios3: SERVICE NOTIFICATION: slack;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+Jun  1 00:02:03 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+Jun  1 00:02:04 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+Jun  1 00:32:03 mgmt-b nagios3: SERVICE NOTIFICATION: slack;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+Jun  1 00:32:03 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+Jun  1 00:32:04 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+Jun  1 00:32:23 mgmt-b nagios3: Auto-save of retention data completed successfully.
+Jun  1 01:02:03 mgmt-b nagios3: SERVICE NOTIFICATION: slack;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+Jun  1 01:02:03 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+Jun  1 01:02:03 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+Jun  1 01:32:03 mgmt-b nagios3: SERVICE NOTIFICATION: slack;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+Jun  1 01:32:03 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+Jun  1 01:32:03 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+Jun  1 01:32:23 mgmt-b nagios3: Auto-save of retention data completed successfully.
+Jun  1 02:02:03 mgmt-b nagios3: SERVICE NOTIFICATION: slack;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+Jun  1 02:02:03 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+Jun  1 02:02:03 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+Jun  1 02:22:03 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;check users-login;OK;HARD;3;USERS OK - 0 users currently logged in
