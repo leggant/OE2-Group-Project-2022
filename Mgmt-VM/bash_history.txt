@@ -1670,3 +1670,70 @@ sudo nano ../app/backup.sh
 sudo nano ../db/backup.sh 
 sudo nano ../backup/backup.sh 
 bumgmt
+statmas
+statpup
+statnag
+mod
+ls
+cd nagios/
+ls
+cd /etc/nagios-plugins/
+ls
+cd config/
+ls
+./check_service.sh -o linux -s puppet-master
+./check_service.sh -o linux -s puppet
+./check_service.sh --help
+./check_service.sh -help
+./check_service.sh -t -
+./check_service.sh -o linux -s puppet -t
+./check_service.sh -o linux -t puppet
+./check_service.sh -o linux -s puppet -t status
+./check_service.sh -o linux -s puppet -l
+./check_service.sh -o linux -s puppet-master -l
+./check_service.sh -o linux -s puppet-master -t
+./check_service.sh -o linux -t puppet-master
+./check_service.sh -o linux -s puppet-master -t -help
+./check_service.sh -h
+./check_service.sh -o linux -s puppet-master -t 'systemctl status'
+./check_service.sh -o linux -s puppet-master -t 'systemctl status list-units --state=failed'
+./check_service.sh -o linux -s puppet-master -t 'systemctl status list-units'
+./check_service.sh -o linux -s puppet-master -t 'systemctl status'
+./check_service.sh -o linux -s puppet-master -t 'systemctl status state'
+./check_service.sh -o linux -s puppet-master -t 'systemctl status --state=failed'
+./check_service.sh -o linux -s puppet-master -t 'systemctl status --state=active'
+./check_service.sh -o linux -s puppet-master -t 'systemctl status --state=warning'
+./check_service.sh -o linux -s puppet-master -t 'service nagios status'
+./check_service.sh -o linux -s puppet-master -t 'service nagios3 status'
+./check_service.sh -o linux -s puppet-master -t 'service apache2 status'
+./check_service.sh -o linux -s puppet-master -t 'service php status'
+./check_service.sh -o linux -s puppet-master -t 'service mysqld status'
+./check_service.sh -o linux -s puppet-master -t 'service mysql status'
+./check_service.sh -o linux -s puppet-master -t 'service apache status'
+./check_service.sh -o linux -s puppet-master -t 'service apache2 status'
+./check_service.sh -o linux -s puppet-master -t 'service puppet-master status'
+./check_service.sh -o linux -t 'service rsyslog status'
+./check_service.sh -o linux -t 'service rsyslog status' -h
+./check_service.sh -o linux -t 'service rsyslog status'
+./check_service.sh -o linux -t 'service rsyslog status --state=Active'
+./check_service.sh -o linux -t 'service rsyslog status --state=Error'
+./check_service.sh -o linux -t 'service rsyslog status --state'
+./check_service.sh | grep ssh
+sudo systemctl | grep ssh
+sudo systemctl | grep puppet
+sudo systemctl | grep puppet -h
+sudo systemctl --status | grep puppet
+sudo systemctl -h | grep puppet
+sudo systemctl status puppet-master -l
+sudo systemctl status puppet-master --full
+sudo systemctl status puppet-master --error
+sudo systemctl status puppet-master --status
+sudo systemctl status puppet-master --help
+sudo systemctl status puppet-master --failed
+exit
+statmas
+statpup
+statmas
+statnag
+statpup
+exit
