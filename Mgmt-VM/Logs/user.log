@@ -430,3 +430,9 @@ Jun  2 08:10:49 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;app-b.foo.or
 Jun  2 08:28:09 mgmt-b nagios3: SERVICE NOTIFICATION: slack;db-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
 Jun  2 08:28:09 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;db-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
 Jun  2 08:28:09 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;db-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+Jun  2 08:35:49 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;check users-login;OK;HARD;3;USERS OK - 0 users currently logged in
+Jun  2 08:37:59 mgmt-b nagios3: SERVICE ALERT: backup-b.foo.org.nz;check users-login;OK;HARD;3;USERS OK - 0 users currently logged in
+Jun  2 08:38:09 mgmt-b nagios3: SERVICE ALERT: db-b.foo.org.nz;check users-login;OK;HARD;3;USERS OK - 0 users currently logged in
+Jun  2 08:41:29 mgmt-b nagios3: Auto-save of retention data completed successfully.
+Jun  2 09:41:29 mgmt-b nagios3: Auto-save of retention data completed successfully.
+Jun  2 10:41:29 mgmt-b nagios3: Auto-save of retention data completed successfully.
