@@ -1,6 +1,14 @@
-2022/05/31 00:15:16 [21147] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-2022/05/31 00:15:16 [21147] rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
-2022/06/01 00:15:16 [13661] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-2022/06/01 00:15:16 [13661] rsync error: unexplained error (code 255) at io.c(235) [sender=3.1.2]
-2022/06/02 00:15:16 [5929] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
-2022/06/02 00:15:16 [5929] rsync error: unexplained error (code 255) at io.c(235) [sender=3.1.2]
+2022/06/01 00:15:03 [2396] building file list
+2022/06/01 00:15:03 [2396] (new) backup_dir is /home/groupb/backup/db/backup/daily
+2022/06/01 00:15:03 [2396] delta-transmission enabled
+2022/06/01 00:15:03 [2396] <f+++++++++ backup-20220601.zip
+2022/06/01 00:15:03 [2396] total: matches=0  hash_hits=0  false_alarms=0 data=9223706
+2022/06/01 00:15:03 [2396] sent 9.23M bytes  received 126 bytes  18.45M bytes/sec
+2022/06/01 00:15:03 [2396] total size is 9.22M  speedup is 1.00
+2022/06/02 00:15:02 [29689] building file list
+2022/06/02 00:15:02 [29689] (new) backup_dir is /home/groupb/backup/db/backup/daily
+2022/06/02 00:15:02 [29689] delta-transmission enabled
+2022/06/02 00:15:02 [29689] <f+++++++++ backup-20220602.zip
+2022/06/02 00:15:02 [29689] total: matches=0  hash_hits=0  false_alarms=0 data=9224656
+2022/06/02 00:15:02 [29689] sent 9.23M bytes  received 126 bytes  18.45M bytes/sec
+2022/06/02 00:15:02 [29689] total size is 9.22M  speedup is 1.00
