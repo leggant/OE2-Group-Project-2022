@@ -1,31 +1,4 @@
 statpup
-res mysql
-stat mysql
-statpup
-respup
-statpup
-respup
-statpup
-respup
-statpup
-respup
-statpup
-respup
-res mysql
-statpup
-sudo systemctl start mysql
-stat mysql
-statpup
-respup
-statpup
-respup
-statpup
-respup
-statpup
-respup
-statpup
-res mysql
-statpup
 respup
 statpup
 res mysql
@@ -1998,3 +1971,30 @@ vim nrpe.cfg
 statpup
 respup
 statpup
+ls
+ls -al
+crontab -e
+sudo nano OE2-Group-Project/Scripts/db/backup.sh 
+cd /etc/backup/
+ls
+cd mysql-backup/
+ls
+ls -al
+sudo nano ~/OE2-Group-Project/Scripts/db/backup.sh 
+~/OE2-Group-Project/Scripts/db/backup.sh 
+respup
+statpup
+ls
+cd ~
+ls
+sudo rm sqlbackup.sql 
+ls
+sudo nano  /etc/logrotate.conf
+sudo cp /etc/logrotate.conf ~/OE2-Group-Project/Db-VM/Logs
+cd /etc
+ls
+sudo nano logrotate.conf 
+sudo service rsyslog restart
+ls
+cd ~
+ls
