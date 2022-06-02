@@ -1,98 +1,3 @@
-sudo vi ~/.bashrc
-sudo nano backup.sh 
-cd ~/OE2-Group-Project/Scripts/db
-sudo nano backup.sh 
-budb
-mysql -u root -p P@ssw0rd
-mysql -u root -p
-sudo mysql -u root -p
-respup
-sudo mysql -u root -p
-sudo mysql -u root -p P@ssw0rd
-sudo mysql -u root -p 
-sudo mysql -u root -p ?
-sudo mysql -u root -p /h
-sudo mysql --user=root --password=P@ssw0rd
-respup
-sudo mysql --user=root --password=P@ssw0rd
-statpup
-respup
-statpup
-respup
-statpup
-sudo mysql --user=root --password=P@ssw0rd -e "select count(*) from owncloud;"
-sudo mysql owncloud --user=root --password=P@ssw0rd -e "select count(*) from owncloud;"
-sudo mysql owncloud --user=root --password=P@ssw0rd -e "select count(*);"
-sudo mysql owncloud --user=root --password=P@ssw0rd
-sudo mysql --user=root --password=P@ssw0rd -e "Create database testdb;"
-sudo mysql --user=root --password=P@ssw0rd
-respup
-statpup
-respup
-statpup
-sudo mysql --user=root --password=P@ssw0rd
-respup
-statpup
-respup
-statpup
-respup
-statpup
-respup
-statpup
-respup
-statpup
-respup
-statpup
-sudo mysql --user=root --password=P@ssw0rd
-sudo mysql --user=root -p
-respup
-sudo systemctl restart mysql-service
-sudo systemctl restart mysql
-sudo systemctl status mysql
-sudo mysql --user=root -p
-respup
-statpup
-sudo mysql --user=root -p
-sudo systemctl restart mysql
-respup
-statpup
-sudo systemctl status mysql
-sudo systemctl start mysql
-sudo systemctl status mysql
-sudo mysql --user=root -p
-respup
-statpup
-respup
-statpup
-respup
-statpup
-respup
-statpup
-sudo systemctl restart mysql
-statpup
-respup
-statpup
-respup
-statpup
-respup
-stat mysql
-sudo systemctl start mysql
-stat mysql
-respup
-statpup
-stat mysql
-respup
-statpup
-stat mysql-client
-respup
-statpup
-sudo systemctl start mysql
-statpup
-sudo systemctl restart mysql
-statpup
-sudo systemctl status mysql
-statpup
-respup
 statpup
 res mysql
 stat mysql
@@ -1998,3 +1903,98 @@ sudo systemctl status netdata
 sudo systemctl mask netdata
 sudo systemctl status netdata
 sudo reboot
+cat /var/log/cron.log 
+budb
+crontab -e
+cd /etc/backup/
+./restore.sh 
+sudo ./restore.sh 
+ls 
+sudo mkdir mysql-backup
+respup
+./restore.sh 
+crontab -e
+cat /var/log/cron.log 
+respup
+cat /var/log/cron.log 
+ls
+./restore.sh 
+./daily
+./daily.sh 
+cd /etc/backup/
+ls
+cd mysql-backup/
+ls
+respup
+ls
+cd ..
+ls
+./restore.sh 
+ls
+cd mysql-backup/
+ls
+sudo rm sqlbackup.sql 
+cd ..
+ls
+sudo rm sqlbackup.sql 
+./restore.sh 
+ls
+cd mysql-backup/
+ls
+cd ..
+ls
+respup
+cat /var/log/cron.log 
+exit
+crontab -e
+cat /var/log/cron.log 
+respup
+cd ~
+ls
+ls -al
+sudo rm sqlbackup.sql 
+ls
+exit
+mysql -u root -p
+mysql -u bitstudent -p
+sudo mysql -u root -p
+sudo mysqldump --skip-extended-insert --all-databases --add-drop-table > sqlbackup.sql
+ls
+sudo mysql -u root -p
+cd /etc/backup/
+./daily.sh 
+./restore.sh 
+exit
+ls
+cd /etc/nagios-plugins/
+cd config/
+ls
+cd ..
+ls
+cd ..
+ls
+cd nagios
+ls
+vim nrpe.cfg 
+cd ..
+cd nagios-plugins/
+cd config/
+ls
+/usr/lib/nagios/plugins/check_tcp 10.6.0.4
+/usr/lib/nagios/plugins/check_tcp -H 10.6.0.4 -p 9100
+
+/usr/lib/nagios/plugins/check_tcp -H 10.6.0.4 -p 9100
+netstat -a
+/usr/lib/nagios/plugins/check_tcp -H 10.6.0.4 -p 9100
+mod
+/usr/lib/nagios/plugins/check_tcp -H 10.6.0.4 -p 9000
+/usr/lib/nagios/plugins/check_tcp -H 10.6.0.4 -p 9100
+ls
+cd /etc/nagios
+ls
+vim nrpe.cfg 
+respup
+vim nrpe.cfg 
+statpup
+respup
+statpup

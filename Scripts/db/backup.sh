@@ -38,6 +38,7 @@ sudo cp /etc/node-exporter ~/OE2-Group-Project/Db-VM/node-exporter -r
 sudo cp /etc/systemd/system/node-exporter.service ~/OE2-Group-Project/Db-VM/node-exporter/node-exporter.service
 sudo cp /var/log/cron.log ~/OE2-Group-Project/Db-VM/Logs
 sudo cp /var/log/user.log ~/OE2-Group-Project/Db-VM/Logs
+sudo cp /etc/backup/mysql-backup/sqlbackup.sql ~/OE2-Group-Project/Db-VM/sqlbackup.sql
 sudo cp ~/rsync.log ~/OE2-Group-Project/Db-VM/Logs
 sudo cp ~/daily.log ~/OE2-Group-Project/Db-VM/Logs
 sudo cp ~/weekly.log ~/OE2-Group-Project/Db-VM/Logs

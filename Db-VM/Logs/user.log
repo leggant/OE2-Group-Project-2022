@@ -652,3 +652,137 @@ May 28 00:15:03 db-b rsyncd[17856]: <f+++++++++ backup-20220528.zip
 May 28 00:15:03 db-b rsyncd[17856]: total: matches=0  hash_hits=0  false_alarms=0 data=9059618
 May 28 00:15:03 db-b rsyncd[17856]: sent 9.06M bytes  received 120 bytes  6.04M bytes/sec
 May 28 00:15:03 db-b rsyncd[17856]: total size is 9.06M  speedup is 1.00
+May 28 01:15:21 db-b rsyncd[19112]: rsync: failed to open log-file /home/bitstudent/rsync.log: Permission denied (13)
+May 28 01:15:21 db-b rsyncd[19112]: Ignoring "log file" setting.
+May 28 01:15:22 db-b rsyncd[19112]: building file list
+May 28 01:15:22 db-b rsyncd[19112]: (new) backup_dir is /home/groupb/backup/db/backup-28-05-2022-01-15-21
+May 28 01:15:22 db-b rsyncd[19112]: delta-transmission enabled
+May 28 01:15:22 db-b rsyncd[19112]: node-exporter/LICENSE is uptodate
+May 28 01:15:22 db-b rsyncd[19112]: node-exporter/NOTICE is uptodate
+May 28 01:15:22 db-b rsyncd[19112]: node-exporter/node_exporter is uptodate
+May 28 01:15:22 db-b rsyncd[19112]: total: matches=0  hash_hits=0  false_alarms=0 data=0
+May 28 01:15:22 db-b rsyncd[19112]: sent 169 bytes  received 253 bytes  281.33 bytes/sec
+May 28 01:15:22 db-b rsyncd[19112]: total size is 18.24M  speedup is 43,224.52
+May 28 01:15:22 db-b rsyncd[19114]: rsync: failed to open log-file /home/bitstudent/rsync.log: Permission denied (13)
+May 28 01:15:22 db-b rsyncd[19114]: Ignoring "log file" setting.
+May 28 01:15:23 db-b rsyncd[19114]: building file list
+May 28 01:15:23 db-b rsyncd[19114]: (new) backup_dir is /home/groupb/backup/db/backup-28-05-2022-01-15-21
+May 28 01:15:23 db-b rsyncd[19114]: delta-transmission enabled
+May 28 01:15:23 db-b rsyncd[19114]: nagios/nagios_service.cfg is uptodate
+May 28 01:15:23 db-b rsyncd[19114]: nagios/nrpe.cfg is uptodate
+May 28 01:15:23 db-b rsyncd[19114]: nagios/nrpe_local.cfg is uptodate
+May 28 01:15:23 db-b rsyncd[19114]: total: matches=0  hash_hits=0  false_alarms=0 data=0
+May 28 01:15:23 db-b rsyncd[19114]: sent 214 bytes  received 250 bytes  309.33 bytes/sec
+May 28 01:15:23 db-b rsyncd[19114]: total size is 13.13K  speedup is 28.30
+May 28 01:15:23 db-b rsyncd[19116]: rsync: failed to open log-file /home/bitstudent/rsync.log: Permission denied (13)
+May 28 01:15:23 db-b rsyncd[19116]: Ignoring "log file" setting.
+May 28 01:15:23 db-b rsyncd[19116]: building file list
+May 28 01:15:23 db-b rsyncd[19116]: (new) backup_dir is /home/groupb/backup/db/backup-28-05-2022-01-15-21
+May 28 01:15:23 db-b rsyncd[19116]: delta-transmission enabled
+May 28 01:15:23 db-b rsyncd[19116]: nagios-plugins/config/apt.cfg is uptodate
+May 28 01:15:23 db-b rsyncd[19116]: nagios-plugins/config/check_nrpe.cfg is uptodate
+May 28 01:15:23 db-b rsyncd[19116]: nagios-plugins/config/dhcp.cfg is uptodate
+May 28 01:15:23 db-b rsyncd[19116]: nagios-plugins/config/disk.cfg is uptodate
+May 28 01:15:23 db-b rsyncd[19116]: nagios-plugins/config/dummy.cfg is uptodate
+May 28 01:15:23 db-b rsyncd[19116]: nagios-plugins/config/ftp.cfg is uptodate
+May 28 01:15:23 db-b rsyncd[19116]: nagios-plugins/config/http.cfg is uptodate
+May 28 01:15:23 db-b rsyncd[19116]: nagios-plugins/config/load.cfg is uptodate
+May 28 01:15:23 db-b rsyncd[19116]: nagios-plugins/config/mail.cfg is uptodate
+May 28 01:15:23 db-b rsyncd[19116]: nagios-plugins/config/news.cfg is uptodate
+May 28 01:15:23 db-b rsyncd[19116]: nagios-plugins/config/ntp.cfg is uptodate
+May 28 01:15:23 db-b rsyncd[19116]: nagios-plugins/config/ping.cfg is uptodate
+May 28 01:15:23 db-b rsyncd[19116]: nagios-plugins/config/procs.cfg is uptodate
+May 28 01:15:23 db-b rsyncd[19116]: nagios-plugins/config/real.cfg is uptodate
+May 28 01:15:23 db-b rsyncd[19116]: nagios-plugins/config/ssh.cfg is uptodate
+May 28 01:15:23 db-b rsyncd[19116]: nagios-plugins/config/tcp_udp.cfg is uptodate
+May 28 01:15:23 db-b rsyncd[19116]: nagios-plugins/config/telnet.cfg is uptodate
+May 28 01:15:23 db-b rsyncd[19116]: nagios-plugins/config/users.cfg is uptodate
+May 28 01:15:23 db-b rsyncd[19116]: total: matches=0  hash_hits=0  false_alarms=0 data=0
+May 28 01:15:23 db-b rsyncd[19116]: sent 484 bytes  received 1.04K bytes  3.05K bytes/sec
+May 28 01:15:23 db-b rsyncd[19116]: total size is 15.58K  speedup is 10.23
+May 28 01:15:23 db-b rsyncd[19118]: rsync: failed to open log-file /home/bitstudent/rsync.log: Permission denied (13)
+May 28 01:15:23 db-b rsyncd[19118]: Ignoring "log file" setting.
+May 28 01:15:23 db-b rsyncd[19118]: building file list
+May 28 01:15:23 db-b rsyncd[19118]: (new) backup_dir is /home/groupb/backup/db/backup-28-05-2022-01-15-21
+May 28 01:15:23 db-b rsyncd[19118]: delta-transmission enabled
+May 28 01:15:23 db-b rsyncd[19118]: mysql/debian-start is uptodate
+May 28 01:15:23 db-b rsyncd[19118]: mysql/debian.cnf is uptodate
+May 28 01:15:23 db-b rsyncd[19118]: mysql/mariadb.cnf is uptodate
+May 28 01:15:23 db-b rsyncd[19118]: mysql/my.cnf is uptodate
+May 28 01:15:23 db-b rsyncd[19118]: mysql/my.cnf.fallback is uptodate
+May 28 01:15:23 db-b rsyncd[19118]: mysql/conf.d/mysql.cnf is uptodate
+May 28 01:15:23 db-b rsyncd[19118]: mysql/conf.d/mysqldump.cnf is uptodate
+May 28 01:15:23 db-b rsyncd[19118]: mysql/mariadb.conf.d/50-client.cnf is uptodate
+May 28 01:15:23 db-b rsyncd[19118]: mysql/mariadb.conf.d/50-mysql-clients.cnf is uptodate
+May 28 01:15:23 db-b rsyncd[19118]: mysql/mariadb.conf.d/50-mysqld_safe.cnf is uptodate
+May 28 01:15:23 db-b rsyncd[19118]: mysql/mariadb.conf.d/50-server.cnf is uptodate
+May 28 01:15:23 db-b rsyncd[19118]: total: matches=0  hash_hits=0  false_alarms=0 data=0
+May 28 01:15:23 db-b rsyncd[19118]: sent 517 bytes  received 633 bytes  2.30K bytes/sec
+May 28 01:15:23 db-b rsyncd[19118]: total size is 9.18K  speedup is 7.98
+May 28 01:15:24 db-b rsyncd[19120]: rsync: failed to open log-file /home/bitstudent/rsync.log: Permission denied (13)
+May 28 01:15:24 db-b rsyncd[19120]: Ignoring "log file" setting.
+May 28 01:15:24 db-b rsyncd[19120]: building file list
+May 28 01:15:24 db-b rsyncd[19120]: (new) backup_dir is /home/groupb/backup/db/backup-28-05-2022-01-15-21
+May 28 01:15:24 db-b rsyncd[19120]: delta-transmission enabled
+May 28 01:15:24 db-b rsyncd[19120]: puppet/auth.conf is uptodate
+May 28 01:15:24 db-b rsyncd[19120]: puppet/hiera.yaml is uptodate
+May 28 01:15:24 db-b rsyncd[19120]: puppet/puppet.conf is uptodate
+May 28 01:15:24 db-b rsyncd[19120]: puppet/code/.gitinclude is uptodate
+May 28 01:15:24 db-b rsyncd[19120]: total: matches=0  hash_hits=0  false_alarms=0 data=0
+May 28 01:15:24 db-b rsyncd[19120]: sent 231 bytes  received 283 bytes  342.67 bytes/sec
+May 28 01:15:24 db-b rsyncd[19120]: total size is 5.71K  speedup is 11.11
+May 28 01:15:24 db-b rsyncd[19127]: rsync: failed to open log-file /home/bitstudent/rsync.log: Permission denied (13)
+May 28 01:15:24 db-b rsyncd[19127]: Ignoring "log file" setting.
+May 28 01:15:25 db-b rsyncd[19127]: building file list
+May 28 01:15:25 db-b rsyncd[19127]: rsync: link_stat "/home/bitstudent/mysql-backup" failed: No such file or directory (2)
+May 28 01:15:25 db-b rsyncd[19127]: (new) backup_dir is /home/groupb/backup/db/backup-28-05-2022-01-15-21
+May 28 01:15:25 db-b rsyncd[19127]: delta-transmission enabled
+May 28 01:15:25 db-b rsyncd[19127]: total: matches=0  hash_hits=0  false_alarms=0 data=0
+May 28 01:15:25 db-b rsyncd[19127]: sent 18 bytes  received 117 bytes  90.00 bytes/sec
+May 28 01:15:25 db-b rsyncd[19127]: total size is 0  speedup is 0.00
+May 28 01:15:25 db-b rsyncd[19127]: rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1196) [sender=3.1.2]
+May 28 06:22:40 db-b os-prober: debug: running /usr/lib/os-probes/50mounted-tests on /dev/sda14
+May 28 06:22:40 db-b 50mounted-tests: debug: /dev/sda14 type not recognised; skipping
+May 28 06:22:40 db-b os-prober: debug: os detected by /usr/lib/os-probes/50mounted-tests
+May 28 06:22:40 db-b os-prober: debug: running /usr/lib/os-probes/mounted/05efi on mounted /dev/sda15
+May 28 06:22:40 db-b 05efi: debug: /dev/sda15 is a FAT32 partition
+May 28 06:22:40 db-b 05efi: debug: /dev/sda15 partition scheme is gpt
+May 28 06:22:40 db-b 05efi: debug: /dev/sda15 partition type is c12a7328-f81f-11d2-ba4b-00a0c93ec93b
+May 28 06:22:40 db-b 05efi: debug: running subtest /usr/lib/os-probes/mounted/efi/10elilo
+May 28 06:22:40 db-b 05efi: debug: running subtest /usr/lib/os-probes/mounted/efi/20microsoft
+May 28 06:22:40 db-b os-prober: debug: running /usr/lib/os-probes/mounted/10freedos on mounted /dev/sda15
+May 28 06:22:40 db-b 10freedos: debug: /dev/sda15 is a FAT32 partition
+May 28 06:22:40 db-b os-prober: debug: running /usr/lib/os-probes/mounted/10qnx on mounted /dev/sda15
+May 28 06:22:40 db-b 10qnx: debug: /dev/sda15 is not a QNX4 partition: exiting
+May 28 06:22:40 db-b os-prober: debug: running /usr/lib/os-probes/mounted/20macosx on mounted /dev/sda15
+May 28 06:22:40 db-b macosx-prober: debug: /dev/sda15 is not an HFS+ partition: exiting
+May 28 06:22:40 db-b os-prober: debug: running /usr/lib/os-probes/mounted/20microsoft on mounted /dev/sda15
+May 28 06:22:40 db-b 20microsoft: debug: Skipping legacy bootloaders on UEFI system
+May 28 06:22:40 db-b os-prober: debug: running /usr/lib/os-probes/mounted/30utility on mounted /dev/sda15
+May 28 06:22:40 db-b 30utility: debug: /dev/sda15 is a FAT32 partition
+May 28 06:22:40 db-b os-prober: debug: running /usr/lib/os-probes/mounted/40lsb on mounted /dev/sda15
+May 28 06:22:40 db-b os-prober: debug: running /usr/lib/os-probes/mounted/70hurd on mounted /dev/sda15
+May 28 06:22:40 db-b os-prober: debug: running /usr/lib/os-probes/mounted/80minix on mounted /dev/sda15
+May 28 06:22:40 db-b os-prober: debug: running /usr/lib/os-probes/mounted/83haiku on mounted /dev/sda15
+May 28 06:22:40 db-b 83haiku: debug: /dev/sda15 is not a BeFS partition: exiting
+May 28 06:22:40 db-b os-prober: debug: running /usr/lib/os-probes/mounted/90linux-distro on mounted /dev/sda15
+May 28 06:22:40 db-b os-prober: debug: running /usr/lib/os-probes/mounted/90solaris on mounted /dev/sda15
+May 28 06:22:40 db-b os-prober: debug: running /usr/lib/os-probes/mounted/05efi on mounted /dev/sdb1
+May 28 06:22:40 db-b 05efi: debug: /dev/sdb1 is ext4 partition: exiting
+May 28 06:22:40 db-b os-prober: debug: running /usr/lib/os-probes/mounted/10freedos on mounted /dev/sdb1
+May 28 06:22:40 db-b 10freedos: debug: /dev/sdb1 is not a FAT partition: exiting
+May 28 06:22:40 db-b os-prober: debug: running /usr/lib/os-probes/mounted/10qnx on mounted /dev/sdb1
+May 28 06:22:40 db-b 10qnx: debug: /dev/sdb1 is not a QNX4 partition: exiting
+May 28 06:22:40 db-b os-prober: debug: running /usr/lib/os-probes/mounted/20macosx on mounted /dev/sdb1
+May 28 06:22:40 db-b macosx-prober: debug: /dev/sdb1 is not an HFS+ partition: exiting
+May 28 06:22:40 db-b os-prober: debug: running /usr/lib/os-probes/mounted/20microsoft on mounted /dev/sdb1
+May 28 06:22:40 db-b 20microsoft: debug: Skipping legacy bootloaders on UEFI system
+May 28 06:22:40 db-b os-prober: debug: running /usr/lib/os-probes/mounted/30utility on mounted /dev/sdb1
+May 28 06:22:40 db-b 30utility: debug: /dev/sdb1 is not a FAT partition: exiting
+May 28 06:22:40 db-b os-prober: debug: running /usr/lib/os-probes/mounted/40lsb on mounted /dev/sdb1
+May 28 06:22:40 db-b os-prober: debug: running /usr/lib/os-probes/mounted/70hurd on mounted /dev/sdb1
+May 28 06:22:40 db-b os-prober: debug: running /usr/lib/os-probes/mounted/80minix on mounted /dev/sdb1
+May 28 06:22:40 db-b os-prober: debug: running /usr/lib/os-probes/mounted/83haiku on mounted /dev/sdb1
+May 28 06:22:40 db-b 83haiku: debug: /dev/sdb1 is not a BeFS partition: exiting
+May 28 06:22:40 db-b os-prober: debug: running /usr/lib/os-probes/mounted/90linux-distro on mounted /dev/sdb1
+May 28 06:22:40 db-b os-prober: debug: running /usr/lib/os-probes/mounted/90solaris on mounted /dev/sdb1
