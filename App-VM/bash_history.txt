@@ -1,45 +1,3 @@
-174126 04:17:27.676813986 0 <NA> (25194) > switch next=25722(sysdig) pgft_maj=0 pgft_min=0 vm_size=0 vm_rss=0 vm_swap=0 
-174127 04:17:27.676815386 0 sysdig (25722) > switch next=25194 pgft_maj=0 pgft_min=1465 vm_size=136228 vm_rss=16096 vm_swap=0 
-174128 04:17:27.676816386 0 <NA> (25194) > switch next=25722(sysdig) pgft_maj=0 pgft_min=0 vm_size=0 vm_rss=0 vm_swap=0 
-174129 04:17:27.676818686 0 sysdig (25722) > stat 
-174130 04:17:27.676820286 0 sysdig (25722) < stat res=0 path=/etc/localtime 
-174131 04:17:27.676824286 0 sysdig (25722) > write fd=1 size=123 
-174132 04:17:27.676826186 0 sysdig (25722) > switch next=25194 pgft_maj=0 pgft_min=1465 vm_size=136228 vm_rss=16096 vm_swap=0 
-174133 04:17:27.676827486 0 <NA> (25194) > switch next=17906(sshd) pgft_maj=0 pgft_min=0 vm_size=0 vm_rss=0 vm_swap=0 
-174134 04:17:27.676830086 0 sshd (17906) < select res=1 
-174135 04:17:27.676831086 0 sshd (17906) > clock_gettime 
-174136 04:17:27.676831486 0 sshd (17906) < clock_gettime 
-174137 04:17:27.676832486 0 sshd (17906) > rt_sigprocmask 
-174138 04:17:27.676832786 0 sshd (17906) < rt_sigprocmask 
-174139 04:17:27.676833386 0 sshd (17906) > rt_sigprocmask 
-174140 04:17:27.676833586 0 sshd (17906) < rt_sigprocmask 
-174141 04:17:27.676834386 0 sshd (17906) > clock_gettime 
-174142 04:17:27.676834586 0 sshd (17906) < clock_gettime 
-174143 04:17:27.676835386 0 sshd (17906) > read fd=11(<f>/dev/ptmx) size=16384 
-174144 04:17:27.676839086 0 sshd (17906) > getpid 
-174145 04:17:27.676839386 0 sshd (17906) < getpid 
-174146 04:17:27.676842186 0 sshd (17906) > clock_gettime 
-174147 04:17:27.676842586 0 sshd (17906) < clock_gettime 
-174148 04:17:27.676843286 0 sshd (17906) > select 
-174149 04:17:27.676844486 0 sshd (17906) < select res=1 
-174150 04:17:27.676845186 0 sshd (17906) > clock_gettime 
-174151 04:17:27.676845486 0 sshd (17906) < clock_gettime 
-174152 04:17:27.676846086 0 sshd (17906) > rt_sigprocmask 
-174153 04:17:27.676846386 0 sshd (17906) < rt_sigprocmask 
-174154 04:17:27.676846986 0 sshd (17906) > rt_sigprocmask 
-174155 04:17:27.676847286 0 sshd (17906) < rt_sigprocmask 
-174156 04:17:27.676847886 0 sshd (17906) > clock_gettime 
-174157 04:17:27.676848186 0 sshd (17906) < clock_gettime 
-174158 04:17:27.676848886 0 sshd (17906) > write fd=3(<4t>202.49.0.75:51813->10.6.0.5:22) size=332 
-174159 04:17:27.676853186 0 sshd (17906) > clock_gettime 
-174160 04:17:27.676853486 0 sshd (17906) < clock_gettime 
-174161 04:17:27.676854186 0 sshd (17906) > select 
-174162 04:17:27.676856686 0 sshd (17906) > switch next=25722(sysdig) pgft_maj=0 pgft_min=213 vm_size=108120 vm_rss=5460 vm_swap=0 
-174163 04:17:27.676859186 0 sysdig (25722) > switch next=25194 pgft_maj=0 pgft_min=1465 vm_size=136228 vm_rss=16096 vm_swap=0 
-174164 04:17:27.676861086 0 <NA> (25194) > switch next=25722(sysdig) pgft_maj=0 pgft_min=0 vm_size=0 vm_rss=0 vm_swap=0 
-174165 04:17:27.676864086 0 sysdig (25722) > stat 
-174166 04:17:27.676866386 0 sysdig (25722) < stat res=0 path=/etc/localtime 
-174167 04:17:27.676871886 0 sysdig (25722) > write fd=1 size=121 
 174168 04:17:27.676874286 0 sysdig (25722) > switch next=25194 pgft_maj=0 pgft_min=1465 vm_size=136228 vm_rss=16096 vm_swap=0 
 174169 04:17:27.676875686 0 <NA> (25194) > switch next=25722(sysdig) pgft_maj=0 pgft_min=0 vm_size=0 vm_rss=0 vm_swap=0 
 174170 04:17:27.676877086 0 sysdig (25722) > switch next=25194 pgft_maj=0 pgft_min=1465 vm_size=136228 vm_rss=16096 vm_swap=0 
@@ -1997,4 +1955,46 @@ vim ports.conf
 ls
 cd conf-
 cd conf-available/
+ls
+respup
+statnaf
+statnag
+statnr
+statpup
+sudo nano /etc/logrotate.conf 
+sudo cp /etc/logrotate.conf ~/OE2-Group-Project/App-VM/Logs
+sudo service rsyslog restart
+sudo service rsyslog status
+cd /var/log
+ls
+cd ~
+ls
+cd /etc
+ls
+cd nagios-plugins/
+ls
+cd check_mysql_health-2.2.2/
+ls
+sudo rm t
+cd t
+ls
+cd ..
+ls
+cd /var
+ls
+cd lib
+ls
+cd nagios/
+ls
+cd ..
+ls
+cd www
+ls
+cd ..
+ls
+cd local
+ls
+cd ..
+ls
+cd /etc/
 ls
