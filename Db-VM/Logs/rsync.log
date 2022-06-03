@@ -1324,3 +1324,81 @@
 2022/06/02 22:40:04 [22873] total: matches=856  hash_hits=935  false_alarms=0 data=6441
 2022/06/02 22:40:04 [22873] sent 10.06K bytes  received 5.46K bytes  31.03K bytes/sec
 2022/06/02 22:40:04 [22873] total size is 739.18K  speedup is 47.65
+2022/06/03 02:40:02 [26844] building file list
+2022/06/03 02:40:02 [26844] (new) backup_dir is /home/groupb/backup/db/backup-03-06-2022-02-40-01
+2022/06/03 02:40:02 [26844] delta-transmission enabled
+2022/06/03 02:40:02 [26844] node-exporter/LICENSE is uptodate
+2022/06/03 02:40:02 [26844] node-exporter/NOTICE is uptodate
+2022/06/03 02:40:02 [26844] node-exporter/node_exporter is uptodate
+2022/06/03 02:40:02 [26844] total: matches=0  hash_hits=0  false_alarms=0 data=0
+2022/06/03 02:40:02 [26844] sent 170 bytes  received 253 bytes  282.00 bytes/sec
+2022/06/03 02:40:02 [26844] total size is 18.24M  speedup is 43,122.33
+2022/06/03 02:40:03 [26846] building file list
+2022/06/03 02:40:03 [26846] (new) backup_dir is /home/groupb/backup/db/backup-03-06-2022-02-40-01
+2022/06/03 02:40:03 [26846] delta-transmission enabled
+2022/06/03 02:40:03 [26846] nagios/nagios_service.cfg is uptodate
+2022/06/03 02:40:03 [26846] nagios/nrpe.cfg is uptodate
+2022/06/03 02:40:03 [26846] nagios/nrpe_local.cfg is uptodate
+2022/06/03 02:40:03 [26846] total: matches=0  hash_hits=0  false_alarms=0 data=0
+2022/06/03 02:40:03 [26846] sent 212 bytes  received 250 bytes  308.00 bytes/sec
+2022/06/03 02:40:03 [26846] total size is 13.55K  speedup is 29.34
+2022/06/03 02:40:03 [26848] building file list
+2022/06/03 02:40:03 [26848] (new) backup_dir is /home/groupb/backup/db/backup-03-06-2022-02-40-01
+2022/06/03 02:40:03 [26848] delta-transmission enabled
+2022/06/03 02:40:03 [26848] nagios-plugins/config/apt.cfg is uptodate
+2022/06/03 02:40:03 [26848] nagios-plugins/config/check_nrpe.cfg is uptodate
+2022/06/03 02:40:03 [26848] nagios-plugins/config/check_service.sh is uptodate
+2022/06/03 02:40:03 [26848] nagios-plugins/config/dhcp.cfg is uptodate
+2022/06/03 02:40:03 [26848] nagios-plugins/config/disk.cfg is uptodate
+2022/06/03 02:40:03 [26848] nagios-plugins/config/dummy.cfg is uptodate
+2022/06/03 02:40:03 [26848] nagios-plugins/config/ftp.cfg is uptodate
+2022/06/03 02:40:03 [26848] nagios-plugins/config/http.cfg is uptodate
+2022/06/03 02:40:03 [26848] nagios-plugins/config/load.cfg is uptodate
+2022/06/03 02:40:03 [26848] nagios-plugins/config/mail.cfg is uptodate
+2022/06/03 02:40:03 [26848] nagios-plugins/config/news.cfg is uptodate
+2022/06/03 02:40:03 [26848] nagios-plugins/config/ntp.cfg is uptodate
+2022/06/03 02:40:03 [26848] nagios-plugins/config/ping.cfg is uptodate
+2022/06/03 02:40:03 [26848] nagios-plugins/config/procs.cfg is uptodate
+2022/06/03 02:40:03 [26848] nagios-plugins/config/real.cfg is uptodate
+2022/06/03 02:40:03 [26848] nagios-plugins/config/ssh.cfg is uptodate
+2022/06/03 02:40:03 [26848] nagios-plugins/config/tcp_udp.cfg is uptodate
+2022/06/03 02:40:03 [26848] nagios-plugins/config/telnet.cfg is uptodate
+2022/06/03 02:40:03 [26848] nagios-plugins/config/users.cfg is uptodate
+2022/06/03 02:40:03 [26848] total: matches=0  hash_hits=0  false_alarms=0 data=0
+2022/06/03 02:40:03 [26848] sent 541 bytes  received 1.10K bytes  3.28K bytes/sec
+2022/06/03 02:40:03 [26848] total size is 25.90K  speedup is 15.81
+2022/06/03 02:40:04 [26850] building file list
+2022/06/03 02:40:04 [26850] (new) backup_dir is /home/groupb/backup/db/backup-03-06-2022-02-40-01
+2022/06/03 02:40:04 [26850] delta-transmission enabled
+2022/06/03 02:40:04 [26850] mysql/debian-start is uptodate
+2022/06/03 02:40:04 [26850] mysql/debian.cnf is uptodate
+2022/06/03 02:40:04 [26850] mysql/mariadb.cnf is uptodate
+2022/06/03 02:40:04 [26850] mysql/my.cnf is uptodate
+2022/06/03 02:40:04 [26850] mysql/my.cnf.fallback is uptodate
+2022/06/03 02:40:04 [26850] mysql/conf.d/mysql.cnf is uptodate
+2022/06/03 02:40:04 [26850] mysql/conf.d/mysqldump.cnf is uptodate
+2022/06/03 02:40:04 [26850] mysql/mariadb.conf.d/50-client.cnf is uptodate
+2022/06/03 02:40:04 [26850] mysql/mariadb.conf.d/50-mysql-clients.cnf is uptodate
+2022/06/03 02:40:04 [26850] mysql/mariadb.conf.d/50-mysqld_safe.cnf is uptodate
+2022/06/03 02:40:04 [26850] mysql/mariadb.conf.d/50-server.cnf is uptodate
+2022/06/03 02:40:04 [26850] total: matches=0  hash_hits=0  false_alarms=0 data=0
+2022/06/03 02:40:04 [26850] sent 517 bytes  received 633 bytes  766.67 bytes/sec
+2022/06/03 02:40:04 [26850] total size is 9.18K  speedup is 7.98
+2022/06/03 02:40:04 [26852] building file list
+2022/06/03 02:40:04 [26852] (new) backup_dir is /home/groupb/backup/db/backup-03-06-2022-02-40-01
+2022/06/03 02:40:04 [26852] delta-transmission enabled
+2022/06/03 02:40:04 [26852] puppet/auth.conf is uptodate
+2022/06/03 02:40:04 [26852] puppet/hiera.yaml is uptodate
+2022/06/03 02:40:04 [26852] puppet/puppet.conf is uptodate
+2022/06/03 02:40:04 [26852] puppet/code/.gitinclude is uptodate
+2022/06/03 02:40:04 [26852] total: matches=0  hash_hits=0  false_alarms=0 data=0
+2022/06/03 02:40:04 [26852] sent 227 bytes  received 283 bytes  1.02K bytes/sec
+2022/06/03 02:40:04 [26852] total size is 5.71K  speedup is 11.19
+2022/06/03 02:40:05 [26854] building file list
+2022/06/03 02:40:05 [26854] (new) backup_dir is /home/groupb/backup/db/backup-03-06-2022-02-40-01
+2022/06/03 02:40:05 [26854] delta-transmission enabled
+2022/06/03 02:40:05 [26854] <f.st...... mysql-backup/sqlbackup.sql
+2022/06/03 02:40:05 [26854] backed up mysql-backup/sqlbackup.sql to /home/groupb/backup/db/backup-03-06-2022-02-40-01/mysql-backup/sqlbackup.sql
+2022/06/03 02:40:05 [26854] total: matches=860  hash_hits=888  false_alarms=0 data=3016
+2022/06/03 02:40:05 [26854] sent 6.64K bytes  received 5.45K bytes  8.06K bytes/sec
+2022/06/03 02:40:05 [26854] total size is 739.18K  speedup is 61.15
