@@ -1,65 +1,3 @@
-174168 04:17:27.676874286 0 sysdig (25722) > switch next=25194 pgft_maj=0 pgft_min=1465 vm_size=136228 vm_rss=16096 vm_swap=0 
-174169 04:17:27.676875686 0 <NA> (25194) > switch next=25722(sysdig) pgft_maj=0 pgft_min=0 vm_size=0 vm_rss=0 vm_swap=0 
-174170 04:17:27.676877086 0 sysdig (25722) > switch next=25194 pgft_maj=0 pgft_min=1465 vm_size=136228 vm_rss=16096 vm_swap=0 
-174171 04:17:27.676878086 0 <NA> (25194) > switch next=25722(sysdig) pgft_maj=0 pgft_min=0 vm_size=0 vm_rss=0 vm_swap=0 
-174172 04:17:27.676880286 0 sysdig (25722) > stat 
-174173 04:17:27.676881886 0 sysdig (25722) < stat res=0 path=/etc/localtime 
-174174 04:17:27.676886286 0 sysdig (25722) > write fd=1 size=122 
-174175 04:17:27.676888186 0 sysdig (25722) > switch next=25194 pgft_maj=0 pgft_min=1465 vm_size=136228 vm_rss=16096 vm_swap=0 
-174176 04:17:27.676889486 0 <NA> (25194) > switch next=17906(sshd) pgft_maj=0 pgft_min=0 vm_size=0 vm_rss=0 vm_swap=0 
-174177 04:17:27.676891586 0 sshd (17906) < select res=1 
-174178 04:17:27.676892686 0 sshd (17906) > clock_gettime 
-174179 04:17:27.676893086 0 sshd (17906) < clock_gettime 
-174180 04:17:27.676893886 0 sshd (17906) > rt_sigprocmask 
-174181 04:17:27.676894286 0 sshd (17906) < rt_sigprocmask 
-174182 04:17:27.676894786 0 sshd (17906) > rt_sigprocmask 
-174183 04:17:27.676895086 0 sshd (17906) < rt_sigprocmask 
-174184 04:17:27.676895786 0 sshd (17906) > clock_gettime 
-174185 04:17:27.676896086 0 sshd (17906) < clock_gettime 
-174186 04:17:27.676896786 0 sshd (17906) > read fd=11(<f>/dev/ptmx) size=16384 
-174187 04:17:27.676899586 0 sshd (17906) > getpid 
-174188 04:17:27.676899786 0 sshd (17906) < getpid 
-174189 04:17:27.676902486 0 sshd (17906) > clock_gettime 
-174190 04:17:27.676902686 0 sshd (17906) < clock_gettime 
-174191 04:17:27.676903486 0 sshd (17906) > select 
-174192 04:17:27.676904686 0 sshd (17906) < select res=1 
-174193 04:17:27.676905386 0 sshd (17906) > clock_gettime 
-174194 04:17:27.676905686 0 sshd (17906) < clock_gettime 
-174195 04:17:27.676906386 0 sshd (17906) > rt_sigprocmask 
-174196 04:17:27.676906586 0 sshd (17906) < rt_sigprocmask 
-174197 04:17:27.676924887 0 sshd (17906) > rt_sigprocmask 
-174198 04:17:27.676925087 0 sshd (17906) < rt_sigprocmask 
-174199 04:17:27.676925787 0 sshd (17906) > clock_gettime 
-174200 04:17:27.676926087 0 sshd (17906) < clock_gettime 
-174201 04:17:27.676926787 0 sshd (17906) > write fd=3(<4t>202.49.0.75:51813->10.6.0.5:22) size=284 
-174202 04:17:27.676930587 0 sshd (17906) > clock_gettime 
-174203 04:17:27.676930887 0 sshd (17906) < clock_gettime 
-174204 04:17:27.676931487 0 sshd (17906) > select 
-174205 04:17:27.676934087 0 sshd (17906) > switch next=25722(sysdig) pgft_maj=0 pgft_min=213 vm_size=108120 vm_rss=5460 vm_swap=0 
-174206 04:17:27.676936487 0 sysdig (25722) > switch next=25194 pgft_maj=0 pgft_min=1465 vm_size=136228 vm_rss=16096 vm_swap=0 
-174207 04:17:27.676938287 0 <NA> (25194) > switch next=25722(sysdig) pgft_maj=0 pgft_min=0 vm_size=0 vm_rss=0 vm_swap=0 
-174208 04:17:27.676941287 0 sysdig (25722) > stat 
-174209 04:17:27.676943387 0 sysdig (25722) < stat res=0 path=/etc/localtime 
-174210 04:17:27.676948187 0 sysdig (25722) > write fd=1 size=106 
-174211 04:17:27.676950387 0 sysdig (25722) > switch next=25194 pgft_maj=0 pgft_min=1465 vm_size=136228 vm_rss=16096 vm_swap=0 
-174212 04:17:27.676951687 0 <NA> (25194) > switch next=25722(sysdig) pgft_maj=0 pgft_min=0 vm_size=0 vm_rss=0 vm_swap=0 
-174213 04:17:27.676953087 0 sysdig (25722) > switch next=25194 pgft_maj=0 pgft_min=1465 vm_size=136228 vm_rss=16096 vm_swap=0 
-174214 04:17:27.676953987 0 <NA> (25194) > switch next=25722(sysdig) pgft_maj=0 pgft_min=0 vm_size=0 vm_rss=0 vm_swap=0 
-174215 04:17:27.676955887 0 sysdig (25722) > stat 
-174216 04:17:27.676957287 0 sysdig (25722) < stat res=0 path=/etc/localtime 
-174217 04:17:27.676961487 0 sysdig (25722) > write fd=1 size=123 
-174218 04:17:27.676963287 0 sysdig (25722) > switch next=25194 pgft_maj=0 pgft_min=1465 vm_size=136228 vm_rss=16096 vm_swap=0 
-174219 04:17:27.676964587 0 <NA> (25194) > switch next=25722(sysdig) pgft_maj=0 pgft_min=0 vm_size=0 vm_rss=0 vm_swap=0 
-174220 04:17:27.676965987 0 sysdig (25722) > switch next=25194 pgft_maj=0 pgft_min=1465 vm_size=136228 vm_rss=16096 vm_swap=0 
-174221 04:17:27.676966887 0 <NA> (25194) > switch next=25722(sysdig) pgft_maj=0 pgft_min=0 vm_size=0 vm_rss=0 vm_swap=0 
-174222 04:17:27.676969087 0 sysdig (25722) > stat 
-174223 04:17:27.676970587 0 sysdig (25722) < stat res=0 path=/etc/localtime 
-174224 04:17:27.676974387 0 sysdig (25722) > write fd=1 size=91 
-174225 04:17:27.676976187 0 sysdig (25722) > switch next=25194 pgft_maj=0 pgft_min=1465 vm_size=136228 vm_rss=16096 vm_swap=0 
-174226 04:17:27.676977487 0 <NA> (25194) > switch next=25722(sysdig) pgft_maj=0 pgft_min=0 vm_size=0 vm_rss=0 vm_swap=0 
-174227 04:17:27.676978887 0 sysdig (25722) > switch next=25194 pgft_maj=0 pgft_min=1465 vm_size=136228 vm_rss=16096 vm_swap=0 
-174228 04:17:27.676979787 0 <NA> (25194) > switch next=25722(sysdig) pgft_maj=0 pgft_min=0 vm_size=0 vm_rss=0 vm_swap=0 
-174229 04:17:27.676981687 0 sysdig (25722) > stat 
 174230 04:17:27.676983187 0 sysdig (25722) < stat res=0 path=/etc/localtime 
 174231 04:17:27.676985987 0 sysdig (25722) > write fd=1 size=56 
 174232 04:17:27.676987487 0 sysdig (25722) > switch next=25194 pgft_maj=0 pgft_min=1465 vm_size=136228 vm_rss=16096 vm_swap=0 
@@ -1998,3 +1936,65 @@ cd ..
 ls
 cd /etc/
 ls
+statnag
+statnr
+statpup
+cat /var/log/daemon
+cat /var/log/daemon.log
+cat /var/log/user.log
+cat /var/log/auth.log.
+cat /var/log/e
+sudo systemctl status apache2
+statpup
+statnag
+statnr
+resnr
+statnr
+csysdig 
+sudo csysdig
+sudo systemctl status ntpd
+sudo service ntpd status
+
+cat /var/log
+cd var/log
+cd /var/log
+ls
+sudo systemctl restart apache2
+sudo systemctl status apache2
+cat daemon.log
+sudo systemctl status apache2
+sudo systemctl status nagios
+sudo systemctl status nagios3
+sudo csysdig --help
+sudo csysdig 
+cd /etc
+ls
+sudo nano ntp.conf 
+resmas
+respup
+statpup
+ls
+respup
+statpup
+sudo systemctl restart apache2
+sudo systemctl status apache2
+sudo csysdig
+sudo systemctl status apache2
+sudo systemctl restart nrpe
+sudo systemctl restart nrped
+resnr
+resnag
+sudo service xinetd status
+ps ax | grep nrpe
+sudo systemctl start /etc/nagios/nrpe.cfg
+cat /etc/nagios/nrpe.cfg 
+cd ~/OE2-Group-Project/Scripts/app/
+ls
+./owncloud_recovery.sh 
+sudo service mysql-server start
+sudo service mysql-server.service start
+sudo service mysql-server start
+sudo systemctl restart mysql-server
+sudo systemctl restart mysql
+sudo systemctl status mysql
+sudo reboot

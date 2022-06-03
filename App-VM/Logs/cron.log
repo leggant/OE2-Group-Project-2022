@@ -395,3 +395,18 @@ Jun  3 01:39:01 app-b CRON[16414]: (root) CMD (  [ -x /usr/lib/php/sessionclean 
 Jun  3 02:09:01 app-b CRON[17062]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
 Jun  3 02:10:01 app-b CRON[17081]: (bitstudent) CMD (sudo bash ~/OE2-Group-Project/Scripts/app/backup.sh)
 Jun  3 02:10:01 app-b CRON[17082]: (bitstudent) CMD (cd /etc/backup && ./restore.sh)
+Jun  3 02:10:03 app-b CRON[17079]: (CRON) info (No MTA installed, discarding output)
+Jun  3 02:10:05 app-b CRON[17080]: (CRON) info (No MTA installed, discarding output)
+Jun  3 02:17:01 app-b CRON[17312]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jun  3 02:39:01 app-b CRON[17797]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Jun  3 03:09:01 app-b CRON[19229]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Jun  3 03:17:01 app-b CRON[19652]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jun  3 03:39:01 app-b CRON[20555]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Jun  3 04:03:08 app-b systemd-timesyncd[734]: Network configuration changed, trying to establish connection.
+Jun  3 04:03:08 app-b systemd-timesyncd[734]: Network configuration changed, trying to establish connection.
+Jun  3 04:03:08 app-b systemd-timesyncd[734]: Network configuration changed, trying to establish connection.
+Jun  3 04:03:08 app-b systemd-timesyncd[734]: Network configuration changed, trying to establish connection.
+Jun  3 04:03:08 app-b cron[1086]: (CRON) INFO (pidfile fd = 3)
+Jun  3 04:03:08 app-b cron[1086]: (CRON) INFO (Running @reboot jobs)
+Jun  3 04:09:01 app-b CRON[2375]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Jun  3 04:10:01 app-b CRON[2485]: (bitstudent) CMD (sudo bash ~/OE2-Group-Project/Scripts/app/backup.sh)
