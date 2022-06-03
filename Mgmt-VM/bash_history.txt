@@ -1741,3 +1741,88 @@ statmas
 statpup
 statnag
 statnr
+statmas
+statnr
+statnag
+cat /var/log/auth.log
+site
+cat /var/log/daemon.log
+mod
+cd ntp_service/
+cd manifests/
+ls
+sudo nano init.pp 
+agentupdate
+remas
+resmas
+statmas
+cd ../templates/
+ls
+sudo nano ntp.conf.erb 
+agentupdate
+resmas
+statmas
+respup
+statpup
+statmas
+resnag
+resnr
+respup
+resmas
+statnag
+cd ../../nagios/
+ls
+cd files/
+ls
+sudo nano nagios.cfg 
+ls
+cd ../
+ls
+cd ..
+ls
+cd nrpe_nagios/
+ls
+cd /etc/nagios
+ls
+cd nrpe.d/
+ls
+cd ..
+sudo nano nrpe.cfg
+mod
+ls
+cd php/
+ls
+cd manifests/
+ls
+sudo nano config.pp 
+sudo nano init.pp 
+mod
+ls
+cd mariadb/
+ls
+cd files/
+ls
+ls -al
+cd ..
+ls -al
+cd ..
+ls -al
+ls -lisa
+sudo csysdig 
+site
+cd mariadb/
+ls
+cd files/
+ls
+cd ..
+cd manifests/
+ls
+sudo nano config.pp 
+cd ..
+ls
+cd ..4
+cd ..
+ls
+respup
+sudo reboot
+exit

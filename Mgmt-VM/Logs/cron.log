@@ -336,3 +336,16 @@ Jun  3 02:09:01 mgmt-b CRON[1892]: (root) CMD (  [ -x /usr/lib/php/sessionclean 
 Jun  3 02:10:01 mgmt-b CRON[2017]: (bitstudent) CMD (bash /etc/backup/restore.sh)
 Jun  3 02:17:01 mgmt-b CRON[2291]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
 Jun  3 02:30:01 mgmt-b CRON[2738]: (bitstudent) CMD (sudo bash ~/OE2-Group-Project/Scripts/mgmt/backup.sh)
+Jun  3 02:39:01 mgmt-b CRON[3250]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Jun  3 03:09:01 mgmt-b CRON[4787]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Jun  3 03:17:01 mgmt-b CRON[5179]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jun  3 03:39:01 mgmt-b CRON[6686]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Jun  3 04:01:24 mgmt-b systemd-timesyncd[744]: Network configuration changed, trying to establish connection.
+Jun  3 04:01:24 mgmt-b systemd-timesyncd[744]: Network configuration changed, trying to establish connection.
+Jun  3 04:01:24 mgmt-b systemd-timesyncd[744]: Network configuration changed, trying to establish connection.
+Jun  3 04:01:24 mgmt-b systemd-timesyncd[744]: Network configuration changed, trying to establish connection.
+Jun  3 04:01:24 mgmt-b cron[1137]: (CRON) INFO (pidfile fd = 3)
+Jun  3 04:01:24 mgmt-b cron[1137]: (CRON) INFO (Running @reboot jobs)
+Jun  3 04:09:01 mgmt-b CRON[2776]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Jun  3 04:17:01 mgmt-b CRON[3230]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jun  3 04:30:01 mgmt-b CRON[3701]: (bitstudent) CMD (sudo bash ~/OE2-Group-Project/Scripts/mgmt/backup.sh)
