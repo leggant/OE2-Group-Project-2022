@@ -3908,7 +3908,7 @@ CREATE TABLE `oc_authtoken` (
   PRIMARY KEY (`id`),
   UNIQUE KEY `authtoken_token_index` (`token`),
   KEY `authtoken_last_activity_index` (`last_activity`)
-) ENGINE=InnoDB AUTO_INCREMENT=42 DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -5420,4 +5420,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2022-06-03  2:40:01
+-- Dump completed on 2022-06-03  4:11:46
