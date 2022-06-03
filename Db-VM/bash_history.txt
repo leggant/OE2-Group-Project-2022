@@ -1,7 +1,3 @@
-stat mysql
-sudo mysql -u root -p
-statpup
-respup
 sudo mysql -u root -p
 respup
 sudo mysq
@@ -1998,3 +1994,7 @@ sudo systemctl status mysql.service
 sudo systemctl status mysqld.service 
 sudo ufw app list
 sudo ufw app info "Apache Full"
+ls
+cd /etc/nagios-plugins/
+ls
+sudo mysql
