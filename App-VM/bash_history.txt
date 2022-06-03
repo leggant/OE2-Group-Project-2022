@@ -1,98 +1,3 @@
-174230 04:17:27.676983187 0 sysdig (25722) < stat res=0 path=/etc/localtime 
-174231 04:17:27.676985987 0 sysdig (25722) > write fd=1 size=56 
-174232 04:17:27.676987487 0 sysdig (25722) > switch next=25194 pgft_maj=0 pgft_min=1465 vm_size=136228 vm_rss=16096 vm_swap=0 
-174233 04:17:27.676988687 0 <NA> (25194) > switch next=17906(sshd) pgft_maj=0 pgft_min=0 vm_size=0 vm_rss=0 vm_swap=0 
-174234 04:17:27.676990887 0 sshd (17906) < select res=1 
-174235 04:17:27.676991787 0 sshd (17906) > clock_gettime 
-174236 04:17:27.676992087 0 sshd (17906) < clock_gettime 
-174237 04:17:27.676993087 0 sshd (17906) > rt_sigprocmask 
-174238 04:17:27.676993387 0 sshd (17906) < rt_sigprocmask 
-174239 04:17:27.676993987 0 sshd (17906) > rt_sigprocmask 
-174240 04:17:27.676994187 0 sshd (17906) < rt_sigprocmask 
-174241 04:17:27.676994887 0 sshd (17906) > clock_gettime 
-174242 04:17:27.676995187 0 sshd (17906) < clock_gettime 
-174243 04:17:27.676995887 0 sshd (17906) > read fd=11(<f>/dev/ptmx) size=16384 
-174244 04:17:27.676999187 0 sshd (17906) > getpid 
-174245 04:17:27.676999487 0 sshd (17906) < getpid 
-174246 04:17:27.677002687 0 sshd (17906) > clock_gettime 
-174247 04:17:27.677003087 0 sshd (17906) < clock_gettime 
-174248 04:17:27.677003787 0 sshd (17906) > select 
-174249 04:17:27.677004887 0 sshd (17906) < select res=1 
-174250 04:17:27.677005487 0 sshd (17906) > clock_gettime 
-174251 04:17:27.677005787 0 sshd (17906) < clock_gettime 
-174252 04:17:27.677006387 0 sshd (17906) > rt_sigprocmask 
-174253 04:17:27.677006687 0 sshd (17906) < rt_sigprocmask 
-174254 04:17:27.677007287 0 sshd (17906) > rt_sigprocmask 
-174255 04:17:27.677007587 0 sshd (17906) < rt_sigprocmask 
-174256 04:17:27.677008187 0 sshd (17906) > clock_gettime 
-174257 04:17:27.677008487 0 sshd (17906) < clock_gettime 
-174258 04:17:27.677009087 0 sshd (17906) > write fd=3(<4t>202.49.0.75:51813->10.6.0.5:22) size=420 
-174259 04:17:27.677018787 0 sshd (17906) > clock_gettime 
-174260 04:17:27.677019087 0 sshd (17906) < clock_gettime 
-174261 04:17:27.677019887 0 sshd (17906) > select 
-174262 04:17:27.677022887 0 sshd (17906) > switch next=25722(sysdig) pgft_maj=0 pgft_min=213 vm_size=108120 vm_rss=5460 vm_swap=0 
-174263 04:17:27.677025587 0 sysdig (25722) > switch next=25194 pgft_maj=0 pgft_min=1465 vm_size=136228 vm_rss=16096 vm_swap=0 
-174264 04:17:27.677027587 0 <NA> (25194) > switch next=25722(sysdig) pgft_maj=0 pgft_min=0 vm_size=0 vm_rss=0 vm_swap=0 
-174265 04:17:27.677030987 0 sysdig (25722) > stat 
-174266 04:17:27.677033387 0 sysdig (25722) < stat res=0 path=/etc/localtime 
-174267 04:17:27.677037587 0 sysdig (25722) > write fd=1 size=56 
-174268 04:17:27.677039887 0 sysdig (25722) > switch next=25194 pgft_maj=0 pgft_min=1465 vm_size=136228 vm_rss=16096 vm_swap=0 
-174269 04:17:27.677041287 0 <NA> (25194) > switch next=25722(sysdig) pgft_maj=0 pgft_min=0 vm_size=0 vm_rss=0 vm_swap=0 
-174270 04:17:27.677042687 0 sysdig (25722) > switch next=25194 pgft_maj=0 pgft_min=1465 vm_size=136228 vm_rss=16096 vm_swap=0 
-174271 04:17:27.677043587 0 <NA> (25194) > switch next=25722(sysdig) pgft_maj=0 pgft_min=0 vm_size=0 vm_rss=0 vm_swap=0 
-174272 04:17:27.677045787 0 sysdig (25722) > stat 
-174273 04:17:27.677047187 0 sysdig (25722) < stat res=0 path=/etc/localtime 
-174274 04:17:27.677052387 0 sysdig (25722) > write fd=1 size=108 
-174275 04:17:27.677054288 0 sysdig (25722) > switch next=25194 pgft_maj=0 pgft_min=1465 vm_size=136228 vm_rss=16096 vm_swap=0 
-174276 04:17:27.677055588 0 <NA> (25194) > switch next=25722(sysdig) pgft_maj=0 pgft_min=0 vm_size=0 vm_rss=0 vm_swap=0 
-174277 04:17:27.677056988 0 sysdig (25722) > switch next=25194 pgft_maj=0 pgft_min=1465 vm_size=136228 vm_rss=16096 vm_swap=0 
-174278 04:17:27.677057988 0 <NA> (25194) > switch next=25722(sysdig) pgft_maj=0 pgft_min=0 vm_size=0 vm_rss=0 vm_swap=0 
-174279 04:17:27.677060188 0 sysdig (25722) > stat 
-174280 04:17:27.677061788 0 sysdig (25722) < stat res=0 path=/etc/localtime 
-174281 04:17:27.677065188 0 sysdig (25722) > write fd=1 size=75 
-174282 04:17:27.677066988 0 sysdig (25722) > switch next=25194 pgft_maj=0 pgft_min=1465 vm_size=136228 vm_rss=16096 vm_swap=0 
-174283 04:17:27.677068288 0 <NA> (25194) > switch next=17906(sshd) pgft_maj=0 pgft_min=0 vm_size=0 vm_rss=0 vm_swap=0 
-174284 04:17:27.677070788 0 sshd (17906) < select res=1 
-174285 04:17:27.677071888 0 sshd (17906) > clock_gettime 
-174286 04:17:27.677072288 0 sshd (17906) < clock_gettime 
-174287 04:17:27.677073288 0 sshd (17906) > rt_sigprocmask 
-174288 04:17:27.677073588 0 sshd (17906) < rt_sigprocmask 
-174289 04:17:27.677074288 0 sshd (17906) > rt_sigprocmask 
-174290 04:17:27.677074488 0 sshd (17906) < rt_sigprocmask 
-174291 04:17:27.677075188 0 sshd (17906) > clock_gettime 
-174292 04:17:27.677075388 0 sshd (17906) < clock_gettime 
-174293 04:17:27.677076188 0 sshd (17906) > read fd=11(<f>/dev/ptmx) size=16384 
-174294 04:17:27.677087988 0 sshd (17906) > getpid 
-174295 04:17:27.677088388 0 sshd (17906) < getpid 
-174296 04:17:27.677090888 0 sshd (17906) > clock_gettime 
-174297 04:17:27.677091288 0 sshd (17906) < clock_gettime 
-174298 04:17:27.677091988 0 sshd (17906) > select 
-174299 04:17:27.677093488 0 sshd (17906) < select res=1 
-174300 04:17:27.677094088 0 sshd (17906) > clock_gettime 
-174301 04:17:27.677094388 0 sshd (17906) < clock_gettime 
-174302 04:17:27.677094988 0 sshd (17906) > rt_sigprocmask 
-174303 04:17:27.677095388 0 sshd (17906) < rt_sigprocmask 
-174304 04:17:27.677095888 0 sshd (17906) > rt_sigprocmask 
-174305 04:17:27.677096188 0 sshd (17906) < rt_sigprocmask 
-174306 04:17:27.677096788 0 sshd (17906) > clock_gettime 
-174307 04:17:27.677097088 0 sshd (17906) < clock_gettime 
-174308 04:17:27.677097788 0 sshd (17906) > write fd=3(<4t>202.49.0.75:51813->10.6.0.5:22) size=276 
-174309 04:17:27.677102388 0 sshd (17906) > clock_gettime 
-174310 04:17:27.677102688 0 sshd (17906) < clock_gettime 
-174311 04:17:27.677103388 0 sshd (17906) > select 
-174312 04:17:27.677106388 0 sshd (17906) > switch next=25722(sysdig) pgft_maj=0 pgft_min=213 vm_size=108120 vm_rss=5460 vm_swap=0 
-174313 04:17:27.677109188 0 sysdig (25722) > switch next=25194 pgft_maj=0 pgft_min=1465 vm_size=136228 vm_rss=16096 vm_swap=0 
-174314 04:17:27.677111188 0 <NA> (25194) > switch next=25722(sysdig) pgft_maj=0 pgft_min=0 vm_size=0 vm_rss=0 vm_swap=0 
-174315 04:17:27.677117388 0 sysdig (25722) > stat 
-174316 04:17:27.677120088 0 sysdig (25722) < stat res=0 path=/etc/localtime 
-174317 04:17:27.677125188 0 sysdig (25722) > write fd=1 size=56 
-174318 04:17:27.677127388 0 sysdig (25722) > switch next=25194 pgft_maj=0 pgft_min=1465 vm_size=136228 vm_rss=16096 vm_swap=0 
-174319 04:17:27.677128788 0 <NA> (25194) > switch next=25722(sysdig) pgft_maj=0 pgft_min=0 vm_size=0 vm_rss=0 vm_swap=0 
-174320 04:17:27.677130188 0 sysdig (25722) > switch next=25194 pgft_maj=0 pgft_min=1465 vm_size=136228 vm_rss=16096 vm_swap=0 
-174321 04:17:27.677131188 0 <NA> (25194) > switch next=25722(sysdig) pgft_maj=0 pgft_min=0 vm_size=0 vm_rss=0 vm_swap=0 
-174322 04:17:27.677133388 0 sysdig (25722) > stat 
-174323 04:17:27.677134888 0 sysdig (25722) < stat res=0 path=/etc/localtime 
-174324 04:17:27.677138588 0 sysdig (25722) > write fd=1 size=74 
 174325 04:17:27.677140188 0 sysdig (25722) > switch next=25194 pgft_maj=0 pgft_min=1465 vm_size=136228 vm_rss=16096 vm_swap=0 
 174326 04:17:27.677141488 0 <NA> (25194) > switch next=25722(sysdig) pgft_maj=0 pgft_min=0 vm_size=0 vm_rss=0 vm_swap=0 
 174327 04:17:27.677142988 0 sysdig (25722) > switch next=25194 pgft_maj=0 pgft_min=1465 vm_size=136228 vm_rss=16096 vm_swap=0 
@@ -1998,3 +1903,98 @@ sudo systemctl restart mysql-server
 sudo systemctl restart mysql
 sudo systemctl status mysql
 sudo reboot
+la
+ls
+cd /var/www/owncloud/
+ls
+cd ..
+ls
+cd html/
+ls
+sudo touch phpinfo.php
+ls
+sudo vim phpinfo.php 
+/var/log/apache2/error.log
+sudo vim /var/log/apache2/error.log
+ls
+sudo vim phpinfo.php 
+ls
+sudo rm phpinfo.php 
+ls
+cd ~
+cd /etc/apache2/
+ls
+cd conf-
+cd conf-available/
+ls
+cd /var/www/owncloud/
+ls
+vim README.md 
+cd config/
+ls
+vim config.php 
+sudo vim config.
+sudo vim config.php 
+ls
+cd ..
+ls
+cd etc/
+ls
+cd ..
+cd settings/
+ls
+vim routes.php 
+ls
+vim users.php 
+vim Application.php 
+cd ..
+ls
+sudo -i
+cd /etc/nagios-plugins/
+ls
+cd check_mysql_health-2.2.2/
+ls
+cd plugins-scripts/
+ls
+cd Nagios/
+ls
+cd ..
+ls
+./check_mysql_health --mode connection-time --database owncloud -username 'owncloud' --password 'P@ssw0rd' --warning 1 --critical 5
+./check_mysql_health --mode connection-time --database owncloud -username 'root' --password 'P@ssw0rd' --warning 1 --critical 5
+./check_mysql_health --mode connection-time --database owncloud -username 'bitstudent' --password 'P@ssw0rd' --warning 1 --critical 5
+./check_mysql_health --mode connection-time --database owncloud -username owncloud --password P@ssw0rd --warning 1 --critical 5
+./check_mysql_health --mode connection-time --database owncloud -H db-b.foo.org.nz -username owncloud --password P@ssw0rd --warning 1 --critical 5
+./check_mysql_health --mode connected-users --database owncloud -H db-b.foo.org.nz -username owncloud --password P@ssw0rd --warning 1 --critical 5
+./check_mysql_health --mode database-online --database owncloud -H db-b.foo.org.nz -username owncloud --password P@ssw0rd --warning 1 --critical 5
+./check_mssql_health --mode database-online --database owncloud -H db-b.foo.org.nz -username owncloud --password P@ssw0rd --warning 1 --critical 5
+ls
+cd ..
+ls
+cd plugins-scripts/
+ls
+./check_mysql_health --mode connection-time --database owncloud -H db-b.foo.org.nz -username owncloud --password P@ssw0rd --warning 1 --critical 5
+./check_mysql_health --mode uptime --database owncloud -H db-b.foo.org.nz -username owncloud --password P@ssw0rd --warning 1 --critical 5
+./check_mysql_health --mode uptime --database owncloud -H db-b.foo.org.nz -username owncloud --password P@ssw0rd --warning 1 --critical %5
+./check_mysql_health --mode uptime --database owncloud -H db-b.foo.org.nz -username owncloud --password P@ssw0rd --warning 1 --critical %1
+./check_mysql_health --mode uptime --database owncloud -H db-b.foo.org.nz -username owncloud --password P@ssw0rd --warning %80 --critical %1
+./check_mysql_health --mode uptime --database owncloud -H db-b.foo.org.nz -username nagios --password P@ssw0rd --warning %80 --critical %1
+./check_mysql_health --mode uptime --database owncloud -H db-b.foo.org.nz -username owncloud --password P@ssw0rd --warning %80 --critical %1
+ls
+cd /etc/nagios
+ls
+vim nrpe.cfg 
+./check_mysql_health --mode uptime --database owncloud -H db-b.foo.org.nz -username owncloud --password P@ssw0rd --warning %80 --critical 3600
+ls
+sudo systemctl status mysql.service 
+sudo mysql
+-u www-data mysql
+cd /etc/apache2/
+ls
+cd sites-available/
+ls
+vim 000-default.conf 
+vim owncloud.conf 
+ls
+vim 000-default.conf 
+ls
