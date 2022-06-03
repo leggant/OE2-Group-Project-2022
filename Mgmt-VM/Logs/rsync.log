@@ -3925,3 +3925,173 @@
 2022/06/03 04:12:19 [3029] total: matches=0  hash_hits=0  false_alarms=0 data=0
 2022/06/03 04:12:19 [3029] sent 56 bytes  received 148 bytes  408.00 bytes/sec
 2022/06/03 04:12:19 [3029] total size is 180  speedup is 0.88
+2022/06/03 06:10:02 [8144] building file list
+2022/06/03 06:10:02 [8144] (new) backup_dir is /home/groupb/backup/mgmt/backup-03-06-2022-06-10-01
+2022/06/03 06:10:02 [8144] delta-transmission enabled
+2022/06/03 06:10:02 [8144] node-exporter/LICENSE is uptodate
+2022/06/03 06:10:02 [8144] node-exporter/NOTICE is uptodate
+2022/06/03 06:10:02 [8144] node-exporter/node_exporter is uptodate
+2022/06/03 06:10:02 [8144] total: matches=0  hash_hits=0  false_alarms=0 data=0
+2022/06/03 06:10:02 [8144] sent 165 bytes  received 255 bytes  280.00 bytes/sec
+2022/06/03 06:10:02 [8144] total size is 18.24M  speedup is 43,430.35
+2022/06/03 06:10:03 [8146] building file list
+2022/06/03 06:10:03 [8146] (new) backup_dir is /home/groupb/backup/mgmt/backup-03-06-2022-06-10-01
+2022/06/03 06:10:03 [8146] delta-transmission enabled
+2022/06/03 06:10:03 [8146] nagios/nrpe.cfg is uptodate
+2022/06/03 06:10:03 [8146] nagios/nrpe_local.cfg is uptodate
+2022/06/03 06:10:03 [8146] total: matches=0  hash_hits=0  false_alarms=0 data=0
+2022/06/03 06:10:03 [8146] sent 167 bytes  received 207 bytes  249.33 bytes/sec
+2022/06/03 06:10:03 [8146] total size is 13.38K  speedup is 35.78
+2022/06/03 06:10:04 [8150] building file list
+2022/06/03 06:10:04 [8150] (new) backup_dir is /home/groupb/backup/mgmt/backup-03-06-2022-06-10-01
+2022/06/03 06:10:04 [8150] delta-transmission enabled
+2022/06/03 06:10:04 [8150] nagios3/apache2.conf is uptodate
+2022/06/03 06:10:04 [8150] nagios3/cgi.cfg is uptodate
+2022/06/03 06:10:04 [8150] nagios3/commands.cfg is uptodate
+2022/06/03 06:10:04 [8150] nagios3/htpasswd.users is uptodate
+2022/06/03 06:10:04 [8150] nagios3/nagios.cfg is uptodate
+2022/06/03 06:10:04 [8150] nagios3/nrpe.cfg is uptodate
+2022/06/03 06:10:04 [8150] nagios3/resource.cfg is uptodate
+2022/06/03 06:10:04 [8150] nagios3/conf.d/contacts_nagios2.cfg is uptodate
+2022/06/03 06:10:04 [8150] nagios3/conf.d/extinfo_nagios2.cfg is uptodate
+2022/06/03 06:10:04 [8150] nagios3/conf.d/generic-host_nagios2.cfg is uptodate
+2022/06/03 06:10:04 [8150] nagios3/conf.d/generic-service_nagios2.cfg is uptodate
+2022/06/03 06:10:04 [8150] nagios3/conf.d/hostgroups_nagios2.cfg is uptodate
+2022/06/03 06:10:04 [8150] nagios3/conf.d/localhost_nagios2.cfg is uptodate
+2022/06/03 06:10:04 [8150] nagios3/conf.d/ppt_contactgroups.cfg is uptodate
+2022/06/03 06:10:04 [8150] nagios3/conf.d/ppt_contacts.cfg is uptodate
+2022/06/03 06:10:04 [8150] nagios3/conf.d/ppt_hostgroups.cfg is uptodate
+2022/06/03 06:10:04 [8150] nagios3/conf.d/ppt_hosts.cfg is uptodate
+2022/06/03 06:10:04 [8150] nagios3/conf.d/ppt_services.cfg is uptodate
+2022/06/03 06:10:04 [8150] nagios3/conf.d/services_nagios2.cfg is uptodate
+2022/06/03 06:10:04 [8150] nagios3/conf.d/timeperiods_nagios2.cfg is uptodate
+2022/06/03 06:10:04 [8150] nagios3/stylesheets/avail.css is uptodate
+2022/06/03 06:10:04 [8150] nagios3/stylesheets/checksanity.css is uptodate
+2022/06/03 06:10:04 [8150] nagios3/stylesheets/cmd.css is uptodate
+2022/06/03 06:10:04 [8150] nagios3/stylesheets/common.css is uptodate
+2022/06/03 06:10:04 [8150] nagios3/stylesheets/config.css is uptodate
+2022/06/03 06:10:04 [8150] nagios3/stylesheets/extinfo.css is uptodate
+2022/06/03 06:10:04 [8150] nagios3/stylesheets/histogram.css is uptodate
+2022/06/03 06:10:04 [8150] nagios3/stylesheets/history.css is uptodate
+2022/06/03 06:10:04 [8150] nagios3/stylesheets/ministatus.css is uptodate
+2022/06/03 06:10:04 [8150] nagios3/stylesheets/notifications.css is uptodate
+2022/06/03 06:10:04 [8150] nagios3/stylesheets/outages.css is uptodate
+2022/06/03 06:10:04 [8150] nagios3/stylesheets/showlog.css is uptodate
+2022/06/03 06:10:04 [8150] nagios3/stylesheets/status.css is uptodate
+2022/06/03 06:10:04 [8150] nagios3/stylesheets/statusmap.css is uptodate
+2022/06/03 06:10:04 [8150] nagios3/stylesheets/summary.css is uptodate
+2022/06/03 06:10:04 [8150] nagios3/stylesheets/tac.css is uptodate
+2022/06/03 06:10:04 [8150] nagios3/stylesheets/trends.css is uptodate
+2022/06/03 06:10:04 [8150] total: matches=0  hash_hits=0  false_alarms=0 data=0
+2022/06/03 06:10:04 [8150] sent 1.23K bytes  received 1.99K bytes  2.15K bytes/sec
+2022/06/03 06:10:04 [8150] total size is 140.35K  speedup is 43.52
+2022/06/03 06:10:04 [8152] building file list
+2022/06/03 06:10:04 [8152] (new) backup_dir is /home/groupb/backup/mgmt/backup-03-06-2022-06-10-01
+2022/06/03 06:10:04 [8152] delta-transmission enabled
+2022/06/03 06:10:04 [8152] nagios-plugins/config/apt.cfg is uptodate
+2022/06/03 06:10:04 [8152] nagios-plugins/config/breeze.cfg is uptodate
+2022/06/03 06:10:04 [8152] nagios-plugins/config/check_nrpe.cfg is uptodate
+2022/06/03 06:10:04 [8152] nagios-plugins/config/check_puppet_agent is uptodate
+2022/06/03 06:10:04 [8152] nagios-plugins/config/check_service.sh is uptodate
+2022/06/03 06:10:04 [8152] nagios-plugins/config/dhcp.cfg is uptodate
+2022/06/03 06:10:04 [8152] nagios-plugins/config/disk-smb.cfg is uptodate
+2022/06/03 06:10:04 [8152] nagios-plugins/config/disk.cfg is uptodate
+2022/06/03 06:10:04 [8152] nagios-plugins/config/dns.cfg is uptodate
+2022/06/03 06:10:04 [8152] nagios-plugins/config/dummy.cfg is uptodate
+2022/06/03 06:10:04 [8152] nagios-plugins/config/flexlm.cfg is uptodate
+2022/06/03 06:10:04 [8152] nagios-plugins/config/fping.cfg is uptodate
+2022/06/03 06:10:04 [8152] nagios-plugins/config/ftp.cfg is uptodate
+2022/06/03 06:10:04 [8152] nagios-plugins/config/games.cfg is uptodate
+2022/06/03 06:10:04 [8152] nagios-plugins/config/hppjd.cfg is uptodate
+2022/06/03 06:10:04 [8152] nagios-plugins/config/http.cfg is uptodate
+2022/06/03 06:10:04 [8152] nagios-plugins/config/ifstatus.cfg is uptodate
+2022/06/03 06:10:04 [8152] nagios-plugins/config/ldap.cfg is uptodate
+2022/06/03 06:10:04 [8152] nagios-plugins/config/load.cfg is uptodate
+2022/06/03 06:10:04 [8152] nagios-plugins/config/mail.cfg is uptodate
+2022/06/03 06:10:04 [8152] nagios-plugins/config/mailq.cfg is uptodate
+2022/06/03 06:10:04 [8152] nagios-plugins/config/mrtg.cfg is uptodate
+2022/06/03 06:10:04 [8152] nagios-plugins/config/mysql.cfg is uptodate
+2022/06/03 06:10:04 [8152] nagios-plugins/config/netware.cfg is uptodate
+2022/06/03 06:10:04 [8152] nagios-plugins/config/news.cfg is uptodate
+2022/06/03 06:10:04 [8152] nagios-plugins/config/nt.cfg is uptodate
+2022/06/03 06:10:04 [8152] nagios-plugins/config/ntp.cfg is uptodate
+2022/06/03 06:10:04 [8152] nagios-plugins/config/pgsql.cfg is uptodate
+2022/06/03 06:10:04 [8152] nagios-plugins/config/ping.cfg is uptodate
+2022/06/03 06:10:04 [8152] nagios-plugins/config/procs.cfg is uptodate
+2022/06/03 06:10:04 [8152] nagios-plugins/config/real.cfg is uptodate
+2022/06/03 06:10:04 [8152] nagios-plugins/config/rpc-nfs.cfg is uptodate
+2022/06/03 06:10:04 [8152] nagios-plugins/config/slack.cfg is uptodate
+2022/06/03 06:10:04 [8152] nagios-plugins/config/snmp.cfg is uptodate
+2022/06/03 06:10:04 [8152] nagios-plugins/config/ssh.cfg is uptodate
+2022/06/03 06:10:04 [8152] nagios-plugins/config/tcp_udp.cfg is uptodate
+2022/06/03 06:10:04 [8152] nagios-plugins/config/telnet.cfg is uptodate
+2022/06/03 06:10:04 [8152] nagios-plugins/config/users.cfg is uptodate
+2022/06/03 06:10:04 [8152] total: matches=0  hash_hits=0  false_alarms=0 data=0
+2022/06/03 06:10:04 [8152] sent 949 bytes  received 2.08K bytes  6.06K bytes/sec
+2022/06/03 06:10:04 [8152] total size is 57.62K  speedup is 19.02
+2022/06/03 06:10:05 [8154] building file list
+2022/06/03 06:10:05 [8154] (new) backup_dir is /home/groupb/backup/mgmt/backup-03-06-2022-06-10-01
+2022/06/03 06:10:05 [8154] delta-transmission enabled
+2022/06/03 06:10:05 [8154] code/environments/production/manifests/site.pp is uptodate
+2022/06/03 06:10:05 [8154] code/modules/mariadb/files/50-server.cnf is uptodate
+2022/06/03 06:10:05 [8154] code/modules/mariadb/manifests/config.pp is uptodate
+2022/06/03 06:10:05 [8154] code/modules/mariadb/manifests/init.pp is uptodate
+2022/06/03 06:10:05 [8154] code/modules/mariadb/manifests/install.pp is uptodate
+2022/06/03 06:10:05 [8154] code/modules/mariadb/manifests/service.pp is uptodate
+2022/06/03 06:10:05 [8154] code/modules/nagios/files/htpasswd.users is uptodate
+2022/06/03 06:10:05 [8154] code/modules/nagios/files/nagios.cfg is uptodate
+2022/06/03 06:10:05 [8154] code/modules/nagios/manifests/config.pp is uptodate
+2022/06/03 06:10:05 [8154] code/modules/nagios/manifests/init.pp is uptodate
+2022/06/03 06:10:05 [8154] code/modules/nagios/manifests/install.pp is uptodate
+2022/06/03 06:10:05 [8154] code/modules/nagios/manifests/service.pp is uptodate
+2022/06/03 06:10:05 [8154] code/modules/node_exporter/files/node-exporter.service is uptodate
+2022/06/03 06:10:05 [8154] code/modules/node_exporter/files/node_exporter/LICENSE is uptodate
+2022/06/03 06:10:05 [8154] code/modules/node_exporter/files/node_exporter/NOTICE is uptodate
+2022/06/03 06:10:05 [8154] code/modules/node_exporter/files/node_exporter/node_exporter is uptodate
+2022/06/03 06:10:05 [8154] code/modules/node_exporter/manifests/config.pp is uptodate
+2022/06/03 06:10:05 [8154] code/modules/node_exporter/manifests/init.pp is uptodate
+2022/06/03 06:10:05 [8154] code/modules/nrpe/files/check_mysql_health-2.2.2.tar.gz is uptodate
+2022/06/03 06:10:05 [8154] code/modules/nrpe/files/check_service.sh is uptodate
+2022/06/03 06:10:05 [8154] code/modules/nrpe/files/nrpe.cfg is uptodate
+2022/06/03 06:10:05 [8154] code/modules/nrpe/manifests/config.pp is uptodate
+2022/06/03 06:10:05 [8154] code/modules/nrpe/manifests/init.pp is uptodate
+2022/06/03 06:10:05 [8154] code/modules/nrpe/manifests/install.pp is uptodate
+2022/06/03 06:10:05 [8154] code/modules/nrpe/manifests/service.pp is uptodate
+2022/06/03 06:10:05 [8154] code/modules/nrpe_nagios/manifests/config.pp is uptodate
+2022/06/03 06:10:05 [8154] code/modules/nrpe_nagios/manifests/init.pp is uptodate
+2022/06/03 06:10:05 [8154] code/modules/ntp_service/manifests/init.pp is uptodate
+2022/06/03 06:10:05 [8154] code/modules/ntp_service/templates/ntp.conf.erb is uptodate
+2022/06/03 06:10:05 [8154] code/modules/php/manifests/config.pp is uptodate
+2022/06/03 06:10:05 [8154] code/modules/php/manifests/init.pp is uptodate
+2022/06/03 06:10:05 [8154] code/modules/php/manifests/install.pp is uptodate
+2022/06/03 06:10:05 [8154] code/modules/rsync/backupfile is uptodate
+2022/06/03 06:10:05 [8154] code/modules/rsync/files/backupfile.txt is uptodate
+2022/06/03 06:10:05 [8154] code/modules/rsync/files/daily.log is uptodate
+2022/06/03 06:10:05 [8154] code/modules/rsync/files/daily.sh is uptodate
+2022/06/03 06:10:05 [8154] code/modules/rsync/files/restore.sh is uptodate
+2022/06/03 06:10:05 [8154] code/modules/rsync/files/rsync.log is uptodate
+2022/06/03 06:10:05 [8154] code/modules/rsync/files/weekly.log is uptodate
+2022/06/03 06:10:05 [8154] code/modules/rsync/files/weekly.sh is uptodate
+2022/06/03 06:10:05 [8154] code/modules/rsync/manifests/config.pp is uptodate
+2022/06/03 06:10:05 [8154] code/modules/rsync/manifests/init.pp is uptodate
+2022/06/03 06:10:05 [8154] code/modules/rsync/manifests/install.pp is uptodate
+2022/06/03 06:10:05 [8154] code/modules/rsync/manifests/service.pp is uptodate
+2022/06/03 06:10:05 [8154] code/modules/sudo/files/etc/sudoers is uptodate
+2022/06/03 06:10:05 [8154] code/modules/sudo/manifests/init.pp is uptodate
+2022/06/03 06:10:05 [8154] code/modules/sudo/mariadb/files/50-server.cnf is uptodate
+2022/06/03 06:10:05 [8154] code/modules/sudo/mariadb/manifests/config.pp is uptodate
+2022/06/03 06:10:05 [8154] code/modules/sudo/mariadb/manifests/init.pp is uptodate
+2022/06/03 06:10:05 [8154] code/modules/sudo/mariadb/manifests/install.pp is uptodate
+2022/06/03 06:10:05 [8154] code/modules/sudo/mariadb/manifests/service.pp is uptodate
+2022/06/03 06:10:05 [8154] code/modules/sudo/ntp_service/manifests/init.pp is uptodate
+2022/06/03 06:10:05 [8154] code/modules/sudo/ntp_service/templates/ntp.conf.erb is uptodate
+2022/06/03 06:10:05 [8154] total: matches=0  hash_hits=0  false_alarms=0 data=0
+2022/06/03 06:10:05 [8154] sent 3.65K bytes  received 3.54K bytes  4.79K bytes/sec
+2022/06/03 06:10:05 [8154] total size is 18.49M  speedup is 2,572.87
+2022/06/03 06:10:05 [8156] building file list
+2022/06/03 06:10:05 [8156] (new) backup_dir is /home/groupb/backup/mgmt/backup-03-06-2022-06-10-01
+2022/06/03 06:10:05 [8156] delta-transmission enabled
+2022/06/03 06:10:05 [8156] puppet.conf is uptodate
+2022/06/03 06:10:05 [8156] total: matches=0  hash_hits=0  false_alarms=0 data=0
+2022/06/03 06:10:05 [8156] sent 56 bytes  received 154 bytes  420.00 bytes/sec
+2022/06/03 06:10:05 [8156] total size is 180  speedup is 0.86
