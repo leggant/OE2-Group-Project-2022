@@ -1826,3 +1826,109 @@ ls
 respup
 sudo reboot
 exit
+l
+ls
+mod
+ls
+cd nrpe
+ls
+cd manifests/
+ls
+sudo vim service.pp 
+mod
+ccd nrpe
+cd nrpe
+cd files/
+ls
+xvrf check_mysql_health-2.2.2.tar.gz 
+tar -xvf check_mysql_health-2.2.2.tar.gz 
+ls
+sudo mkdir mysql_health
+ls
+sudo mv check_mysql_health-2.2.2.tar.gz mysql_health/
+ls
+cd mysql_health/
+ls
+sudo tar -xvf check_mysql_health-2.2.2.tar.gz 
+ls
+cd check_mysql_health-2.2.2/
+ls
+cd ..
+ls
+l
+cd check_mysql_health-2.2.2/
+ls
+./contrib/
+./configure
+sudo ./configure
+make
+make all
+sudo make
+sudo make all
+ls
+cd ,,
+ls
+cd ..
+ls
+sudo mv check_mysql_health-2.2.2 /etc/nagios-plugins/config/
+cd /etc/nagios-plugins/config/
+cd check_mysql_health-2.2.2/
+cd 
+ls
+cd 
+cd /etc/nagios-plugins/config
+ls
+cd check_mysql_health-2.2.2/
+ls
+cd plugins-scripts/
+ls
+./check_mysql_health --mode uptime --database owncloud -H db-b.foo.org.nz -username owncloud --password P@ssw0rd --warning %80 --critical 3600
+sudo apt-get install libdbi-perl
+./check_mysql_health --mode uptime --database owncloud -H db-b.foo.org.nz -username owncloud --password P@ssw0rd --warning %80 --critical 3600
+cd ..
+ls
+make install
+sudo make install
+./check_mysql_health --mode uptime --database owncloud -H db-b.foo.org.nz -username owncloud --password P@ssw0rd --warning %80 --critical 3600
+ls
+cd plugins-scripts/
+./check_mysql_health --mode uptime --database owncloud -H db-b.foo.org.nz -username owncloud --password P@ssw0rd --warning %80 --critical 3600
+make
+cd ..
+ls
+make
+make install
+sudo make
+sudo make install
+./check_mysql_health --mode uptime --database owncloud -H db-b.foo.org.nz -username owncloud --password P@ssw0rd --warning %80 --critical 3600
+cd plugins-scripts/
+./check_mysql_health --mode uptime --database owncloud -H db-b.foo.org.nz -username owncloud --password P@ssw0rd --warning %80 --critical 3600
+apt-get install libdbd-mysql-perl
+sudo apt-get install libdbd-mysql-perl
+./check_mysql_health --mode uptime --database owncloud -H db-b.foo.org.nz -username owncloud --password P@ssw0rd --warning %80 --critical 3600
+./check_mysql_health --mode uptime --database owncloud -H db-b.foo.org.nz -username root --password P@ssw0rd --warning %80 --critical 3600
+./check_mysql_health --mode uptime --database mysql -H db-b.foo.org.nz -username root --password P@ssw0rd --warning %80 --critical 3600
+./check_mysql_health --mode uptime --database owncloud -H db-b.foo.org.nz  -username root --password P@ssw0rd --warning %80 --critical 3600
+./check_mysql_health --mode uptime --database owncloud -H db-b.foo.org.nz  -username root --password P@ssw0rd --warning %80 --critical 3600 -p 80
+./check_mysql_health --mode uptime --database owncloud -H db-b.foo.org.nz -p 80  -username root --password P@ssw0rd --warning %80 --critical 3600
+./check_mysql_health --mode uptime --database owncloud -H db-b.foo.org.nz;80  -username root --password P@ssw0rd --warning %80 --critical 3600
+./check_mysql_health --mode uptime --database owncloud -H db-b.foo.org.nz:80  -username root --password P@ssw0rd --warning %80 --critical 3600
+./check_mysql_health --mode uptime --database owncloud -H app-b.foo.org.nz  -username root --password P@ssw0rd --warning %80 --critical 3600
+./check_mysql_health --mode uptime --database owncloud -H db-b.foo.org.nz:80  -username root --password P@ssw0rd --warning %80 --critical 3600
+./check_mysql_health --mode uptime --database owncloud -H app-b.foo.org.nz  -username nagios --password P@ssw0rd --warning %80 --critical 3600
+./check_mysql_health --mode uptime --database owncloud -H app-b.foo.org.nz --username nagios --password P@ssw0rd --warning %80 --critical 3600
+./check_mysql_health --mode uptime --database mysql -H app-b.foo.org.nz --username nagios --password P@ssw0rd --warning %80 --critical 3600
+./check_mysql_health --mode uptime --database owncloud -H db-b.foo.org.nz -username owncloud --password P@ssw0rd --warning %80 --critical 3600
+./check_mysql_health --mode uptime --database owncloud -H db-b.foo.org.nz --username owncloud --password P@ssw0rd --warning %80 --critical 3600
+./check_mysql_health --mode uptime --database owncloud -H db-b.foo.org.nz --username root --password P@ssw0rd --warning %80 --critical 3600
+./check_mysql_health --mode uptime --database owncloud -H db-b.foo.org.nz --username bitstudent --password P@ssw0rd --warning %80 --critical 3600
+./check_mysql_health --mode uptime --database owncloud -H db-b.foo.org.nz --username www-data --password P@ssw0rd --warning %80 --critical 3600
+./check_mysql_health --mode uptime --database mysql -H db-b.foo.org.nz --username root --password P@ssw0rd --warning %80 --critical 3600
+./check_mysql_health --mode uptime --database owncloud -H app-b.foo.org.nz --username www-data --password P@ssw0rd --warning %80 --critical 3600
+./check_mysql_health --mode uptime --database owncloud -H app-b.foo.org.nz --username owncloud --password P@ssw0rd --warning %80 --critical 3600
+./check_mysql_health --mode uptime --database mysql -H db-b.foo.org.nz --username root --password P@ssw0rd --warning %80 --critical 3600
+./check_mysql_health --mode uptime --database mysql -H db-b.foo.org.nz --username bitstudent --password P@ssw0rd --warning %80 --critical 3600
+./check_mysql_health --mode uptime --database mysql -H db-b.foo.org.nz --username nagios --password P@ssw0rd --warning %80 --critical 3600
+./check_mysql_health --mode uptime --database mysql -H db-b.foo.org.nz --username nagios3 --password P@ssw0rd --warning %80 --critical 3600
+./check_mysql_health --mode uptime --database mysql -H db-b.foo.org.nz --username nagios --password P@ssw0rd --warning %80 --critical 3600
+cd :Q
