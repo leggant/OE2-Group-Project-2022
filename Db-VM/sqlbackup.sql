@@ -2551,16 +2551,16 @@ INSERT INTO `innodb_index_stats` VALUES ('owncloud','oc_appconfig','appconfig_co
 INSERT INTO `innodb_index_stats` VALUES ('owncloud','oc_appconfig','appconfig_config_key_index','2022-06-01 03:24:03','n_diff_pfx02',75,1,'configkey,appid');
 INSERT INTO `innodb_index_stats` VALUES ('owncloud','oc_appconfig','appconfig_config_key_index','2022-06-01 03:24:03','n_leaf_pages',1,NULL,'Number of leaf pages in the index');
 INSERT INTO `innodb_index_stats` VALUES ('owncloud','oc_appconfig','appconfig_config_key_index','2022-06-01 03:24:03','size',1,NULL,'Number of pages in the index');
-INSERT INTO `innodb_index_stats` VALUES ('owncloud','oc_authtoken','PRIMARY','2022-06-06 06:37:18','n_diff_pfx01',3,1,'id');
-INSERT INTO `innodb_index_stats` VALUES ('owncloud','oc_authtoken','PRIMARY','2022-06-06 06:37:18','n_leaf_pages',1,NULL,'Number of leaf pages in the index');
-INSERT INTO `innodb_index_stats` VALUES ('owncloud','oc_authtoken','PRIMARY','2022-06-06 06:37:18','size',1,NULL,'Number of pages in the index');
-INSERT INTO `innodb_index_stats` VALUES ('owncloud','oc_authtoken','authtoken_last_activity_index','2022-06-06 06:37:18','n_diff_pfx01',3,1,'last_activity');
-INSERT INTO `innodb_index_stats` VALUES ('owncloud','oc_authtoken','authtoken_last_activity_index','2022-06-06 06:37:18','n_diff_pfx02',3,1,'last_activity,id');
-INSERT INTO `innodb_index_stats` VALUES ('owncloud','oc_authtoken','authtoken_last_activity_index','2022-06-06 06:37:18','n_leaf_pages',1,NULL,'Number of leaf pages in the index');
-INSERT INTO `innodb_index_stats` VALUES ('owncloud','oc_authtoken','authtoken_last_activity_index','2022-06-06 06:37:18','size',1,NULL,'Number of pages in the index');
-INSERT INTO `innodb_index_stats` VALUES ('owncloud','oc_authtoken','authtoken_token_index','2022-06-06 06:37:18','n_diff_pfx01',3,1,'token');
-INSERT INTO `innodb_index_stats` VALUES ('owncloud','oc_authtoken','authtoken_token_index','2022-06-06 06:37:18','n_leaf_pages',1,NULL,'Number of leaf pages in the index');
-INSERT INTO `innodb_index_stats` VALUES ('owncloud','oc_authtoken','authtoken_token_index','2022-06-06 06:37:18','size',1,NULL,'Number of pages in the index');
+INSERT INTO `innodb_index_stats` VALUES ('owncloud','oc_authtoken','PRIMARY','2022-06-06 08:08:18','n_diff_pfx01',3,1,'id');
+INSERT INTO `innodb_index_stats` VALUES ('owncloud','oc_authtoken','PRIMARY','2022-06-06 08:08:18','n_leaf_pages',1,NULL,'Number of leaf pages in the index');
+INSERT INTO `innodb_index_stats` VALUES ('owncloud','oc_authtoken','PRIMARY','2022-06-06 08:08:18','size',1,NULL,'Number of pages in the index');
+INSERT INTO `innodb_index_stats` VALUES ('owncloud','oc_authtoken','authtoken_last_activity_index','2022-06-06 08:08:18','n_diff_pfx01',3,1,'last_activity');
+INSERT INTO `innodb_index_stats` VALUES ('owncloud','oc_authtoken','authtoken_last_activity_index','2022-06-06 08:08:18','n_diff_pfx02',3,1,'last_activity,id');
+INSERT INTO `innodb_index_stats` VALUES ('owncloud','oc_authtoken','authtoken_last_activity_index','2022-06-06 08:08:18','n_leaf_pages',1,NULL,'Number of leaf pages in the index');
+INSERT INTO `innodb_index_stats` VALUES ('owncloud','oc_authtoken','authtoken_last_activity_index','2022-06-06 08:08:18','size',1,NULL,'Number of pages in the index');
+INSERT INTO `innodb_index_stats` VALUES ('owncloud','oc_authtoken','authtoken_token_index','2022-06-06 08:08:18','n_diff_pfx01',3,1,'token');
+INSERT INTO `innodb_index_stats` VALUES ('owncloud','oc_authtoken','authtoken_token_index','2022-06-06 08:08:18','n_leaf_pages',1,NULL,'Number of leaf pages in the index');
+INSERT INTO `innodb_index_stats` VALUES ('owncloud','oc_authtoken','authtoken_token_index','2022-06-06 08:08:18','size',1,NULL,'Number of pages in the index');
 INSERT INTO `innodb_index_stats` VALUES ('owncloud','oc_calendarchanges','PRIMARY','2022-06-01 03:24:03','n_diff_pfx01',9,1,'id');
 INSERT INTO `innodb_index_stats` VALUES ('owncloud','oc_calendarchanges','PRIMARY','2022-06-01 03:24:03','n_leaf_pages',1,NULL,'Number of leaf pages in the index');
 INSERT INTO `innodb_index_stats` VALUES ('owncloud','oc_calendarchanges','PRIMARY','2022-06-01 03:24:03','size',1,NULL,'Number of pages in the index');
@@ -3018,7 +3018,7 @@ INSERT INTO `innodb_table_stats` VALUES ('owncloud','oc_activity_mq','2022-06-01
 INSERT INTO `innodb_table_stats` VALUES ('owncloud','oc_addressbookchanges','2022-06-01 03:24:02',12,1,1);
 INSERT INTO `innodb_table_stats` VALUES ('owncloud','oc_addressbooks','2022-06-01 03:24:03',4,1,1);
 INSERT INTO `innodb_table_stats` VALUES ('owncloud','oc_appconfig','2022-06-01 03:24:03',75,1,2);
-INSERT INTO `innodb_table_stats` VALUES ('owncloud','oc_authtoken','2022-06-06 06:37:18',3,1,2);
+INSERT INTO `innodb_table_stats` VALUES ('owncloud','oc_authtoken','2022-06-06 08:08:18',3,1,2);
 INSERT INTO `innodb_table_stats` VALUES ('owncloud','oc_calendarchanges','2022-06-01 03:24:03',9,1,1);
 INSERT INTO `innodb_table_stats` VALUES ('owncloud','oc_calendarobjects','2022-06-01 03:24:03',0,1,1);
 INSERT INTO `innodb_table_stats` VALUES ('owncloud','oc_calendars','2022-06-01 03:24:04',4,1,1);
@@ -3484,7 +3484,7 @@ CREATE TABLE `user` (
 LOCK TABLES `user` WRITE;
 /*!40000 ALTER TABLE `user` DISABLE KEYS */;
 INSERT INTO `user` VALUES ('localhost','root','','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','','','','',0,0,0,0,'unix_socket','','N','N','',0.000000);
-INSERT INTO `user` VALUES ('mgmt-b.foo.org.nz','nagios','*079A65C9ADD4208758B53EC04899574A7AB3206D','N','N','N','N','N','N','N','N','N','N','N','N','N','N','N','N','N','N','N','N','N','N','N','N','N','N','N','N','N','','','','',0,0,0,0,'','','N','N','',0.000000);
+INSERT INTO `user` VALUES ('mgmt-b.foo.org.nz','nagios','*8232A1298A49F710DBEE0B330C42EEC825D4190A','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','N','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','','','','',0,0,0,0,'','','N','N','',0.000000);
 INSERT INTO `user` VALUES ('app-x.foo.org.nz','owncloud','*8232A1298A49F710DBEE0B330C42EEC825D4190A','N','N','N','N','N','N','N','N','N','N','N','N','N','N','N','N','N','N','N','N','N','N','N','N','N','N','N','N','N','','','','',0,0,0,0,'','','N','N','',0.000000);
 INSERT INTO `user` VALUES ('app-b.foo.org.nz','owncloud','*8232A1298A49F710DBEE0B330C42EEC825D4190A','N','N','N','N','N','N','N','N','N','N','N','N','N','N','N','N','N','N','N','N','N','N','N','N','N','N','N','N','N','','','','',0,0,0,0,'','','N','N','',0.000000);
 INSERT INTO `user` VALUES ('app-b.foo.org.nz','root','*8232A1298A49F710DBEE0B330C42EEC825D4190A','N','N','N','N','N','N','N','N','N','N','N','N','N','N','N','N','N','N','N','N','N','N','N','N','N','N','N','N','N','','','','',0,0,0,0,'','','N','N','',0.000000);
@@ -3817,7 +3817,7 @@ LOCK TABLES `oc_appconfig` WRITE;
 INSERT INTO `oc_appconfig` VALUES ('activity','enabled','yes');
 INSERT INTO `oc_appconfig` VALUES ('activity','installed_version','2.7.0');
 INSERT INTO `oc_appconfig` VALUES ('activity','types','filesystem');
-INSERT INTO `oc_appconfig` VALUES ('backgroundjob','lastjob','12');
+INSERT INTO `oc_appconfig` VALUES ('backgroundjob','lastjob','13');
 INSERT INTO `oc_appconfig` VALUES ('comments','enabled','yes');
 INSERT INTO `oc_appconfig` VALUES ('comments','installed_version','0.3.0');
 INSERT INTO `oc_appconfig` VALUES ('comments','types','logging,dav');
@@ -3826,7 +3826,7 @@ INSERT INTO `oc_appconfig` VALUES ('configreport','installed_version','0.2.1');
 INSERT INTO `oc_appconfig` VALUES ('configreport','types','filesystem');
 INSERT INTO `oc_appconfig` VALUES ('core','first_install_version','10.9.1.2');
 INSERT INTO `oc_appconfig` VALUES ('core','installedat','1649627506.3774');
-INSERT INTO `oc_appconfig` VALUES ('core','lastcron','1654492223');
+INSERT INTO `oc_appconfig` VALUES ('core','lastcron','1654501245');
 INSERT INTO `oc_appconfig` VALUES ('core','lastupdateResult','[]');
 INSERT INTO `oc_appconfig` VALUES ('core','lastupdatedat','1654247790');
 INSERT INTO `oc_appconfig` VALUES ('core','oc.integritycheck.checker','[]');
@@ -3924,7 +3924,7 @@ LOCK TABLES `oc_authtoken` WRITE;
 /*!40000 ALTER TABLE `oc_authtoken` DISABLE KEYS */;
 INSERT INTO `oc_authtoken` VALUES (2,'Group-B','Group-b','v2|6c35bb77f117005bac747ac633cc202d|4ce9c2f4228cd1440c0cc817f6d12a3d|c60855b7b1c58a8e4c27f9e93294841db97ef7f62cfe8169209749617fb3d033a2d387931095e52e61566377877d99153613557a3eef37346e4257bceb81d94e','Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36','30d139ec260f78f50b25655272fd81d07b80d215834ed2040bee82adfc98647846442b0568d526cd438e88f07baa0eeda6d8c6cb4abf0ed3db53eb19de36a869',0,1654248400,1654248400);
 INSERT INTO `oc_authtoken` VALUES (5,'Anthony','Anthony','v2|12aff6e14d868367de9752220f4740e4|37180c3f6a459a929e1c7530e393cb1e|f14e6dd7755c6bca4f12a99ae2bb4be521b8613c65a429588ab862a6d184043c05d69a6d39ea074d6b88f76f678435f0e180e82efd95fb4f69721e986e35d411','Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36','fead0eb54b05e2493bede4c43d82f8f1e4844137426390eef156985308f6c0c3877a82eeed058a8b146c61329f97782cce2c9c7c0112dc45459c4c93df6b0792',0,1654406394,1654406154);
-INSERT INTO `oc_authtoken` VALUES (6,'Anthony','Anthony','v2|dbdd8b3e4235e4b9c667234c8bcb7cb5|98cd8047135c1a525ed5a6d4a54a7daa|5188cd9660b9e72970545a91f08e5167ff75c10c75d0c87a48123c98b4d97274e9f1fb5008bf823e8149cc529e157bf16df895756eba53406e217e37662c53b1','Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36','404a64208356e86dd82f22422c6274c6f2ac027257d1a412c4a82482247606462eb2d84d4ecc394529f3d88d9911a3d9f55b3096df0b7ca327b9e70e5464fa89',0,1654497558,1654497378);
+INSERT INTO `oc_authtoken` VALUES (6,'Anthony','Anthony','v2|dbdd8b3e4235e4b9c667234c8bcb7cb5|98cd8047135c1a525ed5a6d4a54a7daa|5188cd9660b9e72970545a91f08e5167ff75c10c75d0c87a48123c98b4d97274e9f1fb5008bf823e8149cc529e157bf16df895756eba53406e217e37662c53b1','Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36','404a64208356e86dd82f22422c6274c6f2ac027257d1a412c4a82482247606462eb2d84d4ecc394529f3d88d9911a3d9f55b3096df0b7ca327b9e70e5464fa89',0,1654503018,1654502838);
 /*!40000 ALTER TABLE `oc_authtoken` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -4761,7 +4761,7 @@ INSERT INTO `oc_jobs` VALUES (9,'OCA\\Federation\\SyncJob','null',1654403658,165
 INSERT INTO `oc_jobs` VALUES (10,'OCA\\Files_Sharing\\DeleteOrphanedSharesJob','null',1654406453,1654406453,0,0);
 INSERT INTO `oc_jobs` VALUES (11,'OCA\\Files_Sharing\\ExpireSharesJob','null',1654492064,1654492064,0,0);
 INSERT INTO `oc_jobs` VALUES (12,'OCA\\Files_Sharing\\External\\ScanExternalSharesJob','null',1654492223,1654492223,0,0);
-INSERT INTO `oc_jobs` VALUES (13,'OCA\\Files_Trashbin\\BackgroundJob\\ExpireTrash','null',1654244079,1654244079,0,0);
+INSERT INTO `oc_jobs` VALUES (13,'OCA\\Files_Trashbin\\BackgroundJob\\ExpireTrash','null',1654501245,1654501245,0,0);
 INSERT INTO `oc_jobs` VALUES (14,'OCA\\Files_Versions\\BackgroundJob\\ExpireVersions','null',1654244082,1654244082,0,0);
 INSERT INTO `oc_jobs` VALUES (15,'OCA\\Market\\CheckUpdateBackgroundJob','null',1654245990,1654245990,0,2);
 INSERT INTO `oc_jobs` VALUES (16,'OCA\\UpdateNotification\\Notification\\BackgroundJob','null',1654247790,1654247790,0,1);
@@ -5428,4 +5428,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2022-06-06  6:40:01
+-- Dump completed on 2022-06-06 10:40:02
