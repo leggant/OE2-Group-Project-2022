@@ -56,7 +56,7 @@ nagios_service {"users-online":
 
 nagios_service {"check_apache2":
         service_description => "check apache status",
-        hostgroup_name => "owncloud-b",
+        hostgroup_name => "check-owncloud-b",
         target => "/etc/nagios3/conf.d/ppt_services.cfg",
         check_command => "check_nrpe!check_apache2",
         max_check_attempts => 3,
@@ -107,6 +107,22 @@ nagios_service {"check_puppet_master":
         hostgroup_name => "mgmt-b",
         target => "/etc/nagios3/conf.d/ppt_services.cfg",
         check_command => "check_nrpe!check_puppet_master",
+        max_check_attempts => 3,
+        retry_check_interval => 1,
+        normal_check_interval => 5,
+        check_period => "24x7",
+        notification_interval => 30,
+        notification_period => "24x7",
+        notification_options => "w,u,c",
+        contact_groups => "slackgroup",
+        mode => '0644',
+       }
+
+nagios_service {"check_puppet_nodes":
+        service_description => "check puppet-nodes",
+        hostgroup_name => "puppets",
+        target => "/etc/nagios3/conf.d/ppt_services.cfg",
+        check_command => "check_nrpe!check_puppet_nodes",
         max_check_attempts => 3,
         retry_check_interval => 1,
         normal_check_interval => 5,

@@ -141,17 +141,16 @@ class nagios::config {
         members => 'localhost'
         }
 
-        nagios_hostgroup {"owncloud-b":
-        target => "/etc/nagios3/conf.d/ppt_hostgroups.cfg",
-        mode => "0444",
-        alias => 'owncloud-b',
-        members => 'app-b.foo.org.nz'
-        }
-
         nagios_hostgroup {"check-owncloud-b":
         target => "/etc/nagios3/conf.d/ppt_hostgroups.cfg",
         mode => "0444",
         alias => 'check-owncloud-b',
         members => 'app-b.foo.org.nz'
+        }
+        nagios_hostgroup {"puppets":
+        target => "/etc/nagios3/conf.d/ppt_hostgroups.cfg",
+        mode => "0444",
+        alias => 'puppets',
+        members => 'app-b.foo.org.nz, mgmt-b.foo.org.nz, db-b.foo.org.nz, backup-b.foo.org.nz'
         }
 }

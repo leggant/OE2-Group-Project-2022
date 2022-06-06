@@ -148,3 +148,77 @@ Jun  6 07:27:03 mgmt-b nagios3: Finished daemonizing... (New PID=26985)
 Jun  6 07:29:53 mgmt-b nagios3: SERVICE NOTIFICATION: slack;backup-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
 Jun  6 07:29:53 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;backup-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
 Jun  6 07:29:54 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;backup-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+Jun  6 07:34:53 mgmt-b nagios3: Caught SIGTERM, shutting down...
+Jun  6 07:34:53 mgmt-b nagios3: Successfully shutdown... (PID=26985)
+Jun  6 07:34:55 mgmt-b nagios3: Nagios 3.5.1 starting... (PID=27873)
+Jun  6 07:34:55 mgmt-b nagios3: Local time is Mon Jun 06 07:34:55 UTC 2022
+Jun  6 07:34:55 mgmt-b nagios3: LOG VERSION: 2.0
+Jun  6 07:34:55 mgmt-b nagios3: Finished daemonizing... (New PID=27877)
+Jun  6 07:37:57 mgmt-b nagios3: Caught SIGTERM, shutting down...
+Jun  6 07:37:57 mgmt-b nagios3: Successfully shutdown... (PID=27877)
+Jun  6 07:37:57 mgmt-b nagios3: Nagios 3.5.1 starting... (PID=28305)
+Jun  6 07:37:57 mgmt-b nagios3: Local time is Mon Jun 06 07:37:57 UTC 2022
+Jun  6 07:37:57 mgmt-b nagios3: LOG VERSION: 2.0
+Jun  6 07:37:57 mgmt-b nagios3: Finished daemonizing... (New PID=28309)
+Jun  6 07:38:52 mgmt-b nagios3: Caught SIGTERM, shutting down...
+Jun  6 07:38:52 mgmt-b nagios3: Successfully shutdown... (PID=28309)
+Jun  6 07:38:52 mgmt-b nagios3: Nagios 3.5.1 starting... (PID=28486)
+Jun  6 07:38:52 mgmt-b nagios3: Local time is Mon Jun 06 07:38:52 UTC 2022
+Jun  6 07:38:52 mgmt-b nagios3: LOG VERSION: 2.0
+Jun  6 07:38:52 mgmt-b nagios3: Finished daemonizing... (New PID=28490)
+Jun  6 07:45:42 mgmt-b nagios3: SERVICE NOTIFICATION: slack;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 2 users currently logged in
+Jun  6 07:45:42 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 2 users currently logged in
+Jun  6 07:45:42 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 2 users currently logged in
+Jun  6 07:50:02 mgmt-b nagios3: Caught SIGTERM, shutting down...
+Jun  6 07:50:02 mgmt-b nagios3: Successfully shutdown... (PID=28490)
+Jun  6 07:50:06 mgmt-b nagios3: Nagios 3.5.1 starting... (PID=29660)
+Jun  6 07:50:06 mgmt-b nagios3: Local time is Mon Jun 06 07:50:06 UTC 2022
+Jun  6 07:50:06 mgmt-b nagios3: LOG VERSION: 2.0
+Jun  6 07:50:06 mgmt-b nagios3: Finished daemonizing... (New PID=29664)
+Jun  6 07:50:15 mgmt-b nagios3: Caught SIGTERM, shutting down...
+Jun  6 07:50:15 mgmt-b nagios3: Successfully shutdown... (PID=29664)
+Jun  6 07:50:15 mgmt-b nagios3: Nagios 3.5.1 starting... (PID=29744)
+Jun  6 07:50:15 mgmt-b nagios3: Local time is Mon Jun 06 07:50:15 UTC 2022
+Jun  6 07:50:15 mgmt-b nagios3: LOG VERSION: 2.0
+Jun  6 07:50:15 mgmt-b nagios3: Finished daemonizing... (New PID=29748)
+Jun  6 07:51:05 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;check puppet-nodes;UNKNOWN;SOFT;1;NRPE: Command 'check_puppet_nodes' not defined
+Jun  6 07:51:55 mgmt-b nagios3: SERVICE ALERT: backup-b.foo.org.nz;check puppet-nodes;UNKNOWN;SOFT;1;NRPE: Command 'check_puppet_nodes' not defined
+Jun  6 07:52:05 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;check puppet-nodes;UNKNOWN;SOFT;2;NRPE: Command 'check_puppet_nodes' not defined
+Jun  6 07:52:55 mgmt-b nagios3: SERVICE ALERT: backup-b.foo.org.nz;check puppet-nodes;UNKNOWN;SOFT;2;NRPE: Command 'check_puppet_nodes' not defined
+Jun  6 07:53:05 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;check puppet-nodes;OK;SOFT;3;Active: active (running) since Mon 2022-06-06 07:52:47 UTC: 9s ago
+Jun  6 07:53:35 mgmt-b nagios3: SERVICE ALERT: db-b.foo.org.nz;check puppet-nodes;UNKNOWN;SOFT;1;NRPE: Command 'check_puppet_nodes' not defined
+Jun  6 07:53:55 mgmt-b nagios3: SERVICE ALERT: backup-b.foo.org.nz;check puppet-nodes;UNKNOWN;HARD;3;NRPE: Command 'check_puppet_nodes' not defined
+Jun  6 07:53:55 mgmt-b nagios3: SERVICE NOTIFICATION: slack;backup-b.foo.org.nz;check puppet-nodes;UNKNOWN;notify-service-by-slack;NRPE: Command check_puppet_nodes not defined
+Jun  6 07:53:55 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;backup-b.foo.org.nz;check puppet-nodes;UNKNOWN;notify-service-by-slack;NRPE: Command check_puppet_nodes not defined
+Jun  6 07:53:56 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;backup-b.foo.org.nz;check puppet-nodes;UNKNOWN;notify-service-by-slack;NRPE: Command check_puppet_nodes not defined
+Jun  6 07:54:35 mgmt-b nagios3: SERVICE ALERT: db-b.foo.org.nz;check puppet-nodes;UNKNOWN;SOFT;2;NRPE: Command 'check_puppet_nodes' not defined
+Jun  6 07:55:01 mgmt-b nagios3: Caught SIGTERM, shutting down...
+Jun  6 07:55:01 mgmt-b nagios3: Successfully shutdown... (PID=29748)
+Jun  6 07:55:05 mgmt-b nagios3: Nagios 3.5.1 starting... (PID=30309)
+Jun  6 07:55:05 mgmt-b nagios3: Local time is Mon Jun 06 07:55:05 UTC 2022
+Jun  6 07:55:05 mgmt-b nagios3: LOG VERSION: 2.0
+Jun  6 07:55:05 mgmt-b nagios3: Finished daemonizing... (New PID=30313)
+Jun  6 07:55:35 mgmt-b nagios3: SERVICE ALERT: db-b.foo.org.nz;check puppet-nodes;UNKNOWN;HARD;3;NRPE: Command 'check_puppet_nodes' not defined
+Jun  6 07:55:35 mgmt-b nagios3: SERVICE NOTIFICATION: slack;db-b.foo.org.nz;check puppet-nodes;UNKNOWN;notify-service-by-slack;NRPE: Command check_puppet_nodes not defined
+Jun  6 07:55:35 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;db-b.foo.org.nz;check puppet-nodes;UNKNOWN;notify-service-by-slack;NRPE: Command check_puppet_nodes not defined
+Jun  6 07:55:35 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;db-b.foo.org.nz;check puppet-nodes;UNKNOWN;notify-service-by-slack;NRPE: Command check_puppet_nodes not defined
+Jun  6 07:58:05 mgmt-b nagios3: SERVICE NOTIFICATION: slack;db-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 2 users currently logged in
+Jun  6 07:58:05 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;db-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 2 users currently logged in
+Jun  6 07:58:05 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;db-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 2 users currently logged in
+Jun  6 07:58:15 mgmt-b nagios3: Caught SIGTERM, shutting down...
+Jun  6 07:58:15 mgmt-b nagios3: Successfully shutdown... (PID=30313)
+Jun  6 07:58:15 mgmt-b nagios3: Nagios 3.5.1 starting... (PID=30606)
+Jun  6 07:58:15 mgmt-b nagios3: Local time is Mon Jun 06 07:58:15 UTC 2022
+Jun  6 07:58:15 mgmt-b nagios3: LOG VERSION: 2.0
+Jun  6 07:58:15 mgmt-b nagios3: Finished daemonizing... (New PID=30610)
+Jun  6 07:58:55 mgmt-b nagios3: SERVICE ALERT: backup-b.foo.org.nz;check puppet-nodes;OK;HARD;3;Active: active (running) since Mon 2022-06-06 07:57:36 UTC: 1min 13s ago
+Jun  6 07:59:55 mgmt-b nagios3: SERVICE NOTIFICATION: slack;backup-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+Jun  6 07:59:55 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;backup-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+Jun  6 07:59:56 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;backup-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+Jun  6 08:00:35 mgmt-b nagios3: SERVICE ALERT: db-b.foo.org.nz;check puppet-nodes;OK;HARD;3;Active: active (running) since Mon 2022-06-06 07:57:42 UTC: 2min 49s ago
+Jun  6 08:15:45 mgmt-b nagios3: SERVICE NOTIFICATION: slack;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+Jun  6 08:15:45 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+Jun  6 08:15:45 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+Jun  6 08:18:05 mgmt-b nagios3: SERVICE ALERT: db-b.foo.org.nz;check users-login;OK;HARD;3;USERS OK - 0 users currently logged in
+Jun  6 08:19:55 mgmt-b nagios3: SERVICE ALERT: backup-b.foo.org.nz;check users-login;OK;HARD;3;USERS OK - 0 users currently logged in
+Jun  6 08:20:45 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;check users-login;OK;HARD;3;USERS OK - 0 users currently logged in
