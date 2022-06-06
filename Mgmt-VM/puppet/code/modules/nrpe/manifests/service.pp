@@ -117,4 +117,35 @@ nagios_service {"check_puppet_master":
         contact_groups => "slackgroup",
         mode => '0644',
        }
+
+nagios_service {"check_owncloud_db":
+        service_description => "check owncloud database",
+        hostgroup_name => "mgmt-b",
+        target => "/etc/nagios3/conf.d/ppt_services.cfg",
+        check_command => "check_nrpe!check_owncloud_db",
+        max_check_attempts => 3,
+        retry_check_interval => 1,
+        normal_check_interval => 5,
+        check_period => "24x7",
+        notification_interval => 30,
+        notification_period => "24x7",
+        notification_options => "w,u,c",
+        contact_groups => "slackgroup",
+        mode => '0644',
+       }
+#nagios_service {"check_owncloud_db_test":
+#        service_description => "check owncloud database test",
+#        hostgroup_name => "mgmt-b",
+#        target => "/etc/nagios3/conf.d/ppt_services.cfg",
+#        check_command => "check_nrpe!check_owncloud_db_test",
+#        max_check_attempts => 3,
+#        retry_check_interval => 1,
+#        normal_check_interval => 5,
+#        check_period => "24x7",
+#        notification_interval => 30,
+#        notification_period => "24x7",
+#        notification_options => "w,u,c",
+#        contact_groups => "slackgroup",
+#        mode => '0644',
+#       }
 }
