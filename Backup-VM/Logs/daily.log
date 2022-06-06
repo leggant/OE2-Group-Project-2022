@@ -12,3 +12,18 @@
 2022/06/05 00:15:15 [16598] rsync error: unexplained error (code 255) at io.c(235) [sender=3.1.2]
 2022/06/06 00:15:31 [9220] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
 2022/06/06 00:15:31 [9220] rsync error: error in rsync protocol data stream (code 12) at io.c(235) [sender=3.1.2]
+2022/06/06 05:52:20 [15248] building file list
+2022/06/06 05:52:20 [15248] backup_dir is /home/groupb/backup/backup/daily
+2022/06/06 05:52:20 [15248] delta-transmission enabled
+2022/06/06 05:52:22 [15248] <f+++++++++ backup-20220606.zip
+2022/06/06 05:52:22 [15248] total: matches=0  hash_hits=0  false_alarms=0 data=106844139
+2022/06/06 05:52:22 [15248] sent 106.87M bytes  received 117 bytes  42.75M bytes/sec
+2022/06/06 05:52:22 [15248] total size is 106.84M  speedup is 1.00
+2022/06/06 05:56:35 [15420] building file list
+2022/06/06 05:56:35 [15420] backup_dir is /home/groupb/backup/backup/daily
+2022/06/06 05:56:35 [15420] delta-transmission enabled
+2022/06/06 05:56:36 [15420] <f..t...... backup-20220606.zip
+2022/06/06 05:56:36 [15420] file has vanished: "/home/groupb/backup/backup/daily/backup-20220606.zip"
+2022/06/06 05:56:36 [15420] total: matches=10336  hash_hits=11809  false_alarms=0 data=11243
+2022/06/06 05:56:36 [15420] sent 52.70K bytes  received 72.56K bytes  83.51K bytes/sec
+2022/06/06 05:56:36 [15420] total size is 106.84M  speedup is 852.94
