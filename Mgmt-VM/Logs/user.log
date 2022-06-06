@@ -14,3 +14,38 @@ Jun  5 19:01:25 mgmt-b nagios3: Auto-save of retention data completed successful
 Jun  5 20:01:25 mgmt-b nagios3: Auto-save of retention data completed successfully.
 Jun  5 21:01:25 mgmt-b nagios3: Auto-save of retention data completed successfully.
 Jun  5 22:01:25 mgmt-b nagios3: Auto-save of retention data completed successfully.
+Jun  5 23:01:25 mgmt-b nagios3: Auto-save of retention data completed successfully.
+Jun  6 00:00:00 mgmt-b nagios3: LOG ROTATION: DAILY
+Jun  6 00:00:00 mgmt-b nagios3: LOG VERSION: 2.0
+Jun  6 00:00:00 mgmt-b nagios3: CURRENT HOST STATE: app-b.foo.org.nz;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 1.04 ms
+Jun  6 00:00:00 mgmt-b nagios3: CURRENT HOST STATE: backup-b.foo.org.nz;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 1.45 ms
+Jun  6 00:00:00 mgmt-b nagios3: CURRENT HOST STATE: db-b.foo.org.nz;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 2.50 ms
+Jun  6 00:00:00 mgmt-b nagios3: CURRENT HOST STATE: localhost;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.09 ms
+Jun  6 00:00:00 mgmt-b nagios3: CURRENT HOST STATE: mgmt-b.foo.org.nz;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.03 ms
+Jun  6 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: app-b.foo.org.nz;Remote disk servers;OK;HARD;1;DISK OK - free space: /var/tmp 23934 MB (80% inode=93%):
+Jun  6 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: app-b.foo.org.nz;check apache status;OK;HARD;1;Active: active (running) since Fri 2022-06-03 04:03:09 UTC: 2 days ago
+Jun  6 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: app-b.foo.org.nz;check hosts alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.05 ms
+Jun  6 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: app-b.foo.org.nz;check owncloud status;OK;HARD;1;HTTP OK: HTTP/1.1 301 Moved Permanently - 707 bytes in 0.003 second response time
+Jun  6 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: app-b.foo.org.nz;check users-login;OK;HARD;1;USERS OK - 0 users currently logged in
+Jun  6 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: app-b.foo.org.nz;ssh servers;OK;HARD;1;SSH OK - OpenSSH_7.6p1 Ubuntu-4ubuntu0.6 (protocol 2.0)
+Jun  6 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: backup-b.foo.org.nz;Remote disk servers;OK;HARD;1;DISK OK - free space: /var/tmp 22529 MB (76% inode=94%):
+Jun  6 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: backup-b.foo.org.nz;check hosts alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.05 ms
+Jun  6 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: backup-b.foo.org.nz;check users-login;OK;HARD;1;USERS OK - 0 users currently logged in
+Jun  6 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: backup-b.foo.org.nz;ssh servers;OK;HARD;1;SSH OK - OpenSSH_7.6p1 Ubuntu-4ubuntu0.6 (protocol 2.0)
+Jun  6 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: db-b.foo.org.nz;MariaDB servers;OK;HARD;1;Uptime: 244556  Threads: 1  Questions: 35224  Slow queries: 0  Opens: 169  Flush tables: 1  Open tables: 160  Queries per second avg: 0.144
+Jun  6 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: db-b.foo.org.nz;Remote disk servers;OK;HARD;1;DISK OK - free space: /var/tmp 24377 MB (82% inode=94%):
+Jun  6 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: db-b.foo.org.nz;check hosts alive;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.04 ms
+Jun  6 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: db-b.foo.org.nz;check users-login;OK;HARD;1;USERS OK - 0 users currently logged in
+Jun  6 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: db-b.foo.org.nz;ssh servers;OK;HARD;1;SSH OK - OpenSSH_7.6p1 Ubuntu-4ubuntu0.6 (protocol 2.0)
+Jun  6 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: localhost;Current Load;OK;HARD;1;OK - load average: 0.00, 0.00, 0.00
+Jun  6 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: localhost;Current Users;OK;HARD;1;USERS OK - 0 users currently logged in
+Jun  6 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: localhost;Disk Space;OK;HARD;1;DISK OK
+Jun  6 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: localhost;HTTP;OK;HARD;1;HTTP OK: HTTP/1.1 200 OK - 11192 bytes in 0.001 second response time
+Jun  6 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: localhost;SSH;OK;HARD;1;SSH OK - OpenSSH_7.6p1 Ubuntu-4ubuntu0.6 (protocol 2.0)
+Jun  6 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: localhost;Total Processes;OK;HARD;1;PROCS OK: 109 processes
+Jun  6 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: localhost;check nagios alive;OK;HARD;1;HTTP OK: HTTP/1.1 200 OK - 1065 bytes in 0.001 second response time
+Jun  6 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: localhost;check puppet-master;OK;HARD;1;Active: active (running) since Fri 2022-06-03 04:01:31 UTC: 2 days ago
+Jun  6 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: mgmt-b.foo.org.nz;ssh servers;OK;HARD;1;SSH OK - OpenSSH_7.6p1 Ubuntu-4ubuntu0.6 (protocol 2.0)
+Jun  6 00:01:25 mgmt-b nagios3: Auto-save of retention data completed successfully.
+Jun  6 01:01:25 mgmt-b nagios3: Auto-save of retention data completed successfully.
+Jun  6 02:01:25 mgmt-b nagios3: Auto-save of retention data completed successfully.
