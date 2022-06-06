@@ -1762,3 +1762,40 @@ ls -al
 sudo systemctl restart rsyslog
 sudo systemctl status rsyslog
 ls -al
+statnag
+statpup
+cd ~
+ls
+cd OE2-Group-Project/
+ls
+cd ~
+ls
+respup
+cd /etc/backup/
+ls
+vim daily
+vim daily.sh 
+cd daily/
+ls
+cd ..
+ls
+./daily
+./daily.sh 
+ls
+vim weekly.sh 
+statnag
+statpup
+vim weekly.sh 
+respup
+vim weekly.sh 
+respup
+cd /etc/nagios
+ls
+vim nrpe.cfg 
+resnr
+sudo systemctl restart nagios-nrpe-server.service 
+ls
+vim nrpe.cfg 
+sudo systemctl renagios-nrpe-server.service 
+sudo systemctl restart nagios-nrpe-server.service 
+respup
