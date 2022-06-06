@@ -3,7 +3,7 @@
 #Hosts
 db=db-b.foo.org.nz
 mgmt=mgmt-b.foo.org.nz
-backup=backup-b.foo.org.nz
+backupvm=backup-b.foo.org.nz
 app=app-b.foo.org.nz
 host=$(hostname)
 if [ $host == $mgmt ]
@@ -81,10 +81,10 @@ done
 sudo chmod o-rx /var/www/owncloud/data -R
 
 #====================================================
-else [ $host == $backup ]
-echo " db vm"
+else [ $host == $backupvm ]
+echo "backup vm"
 
-BDIR="
+BDIRBU="
 /etc/node-exporter
 /etc/nagios
 /etc/nagios-plugins
@@ -106,9 +106,7 @@ USERX=restore-b.foo.org.nz
 BACKUPDIR=`date +%d-%m-%Y-%H-%M-%S`
 OPTS="-haAXuv -v --exclude --log-file=/home/bitstudent/rsync.log --backup-dir=~/backup/backup/backup-$BACKUPDIR"
 
-for d in $BDIR;do
+for d in $BDIRBU;do
 rsync $OPTS $d $BSERVER@$USERX:~/backup/backup
 done
-echo " backup vm"
-
 fi

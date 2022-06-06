@@ -3,7 +3,7 @@
 #Hosts
 db=db-b.foo.org.nz
 mgmt=mgmt-b.foo.org.nz
-backup=backup-b.foo.org.nz
+backupvm=backup-b.foo.org.nz
 app=app-b.foo.org.nz
 host=$(hostname)
 backupdir=/etc/backup/weekly
@@ -61,7 +61,7 @@ echo "app vm"
 
 BDIR="
 /etc/apache2
-/var/www/owncloud/data
+/var/www/owncloud
 "
 sudo chmod o+rx /var/www/owncloud/data -R
 sudo zip -r $backupdir/backup-$(date +%Y%m%d).zip $BDIR 
@@ -73,10 +73,10 @@ rsync $OPTS $backupdir/backup-$(date +%Y%m%d).zip $BSERVER@$USERX:~/backup/app/w
 sudo chmod o-rx /var/www/owncloud/data -R
 
 #====================================================
-else [ $host == $backup ]
-echo "db vm"
+else [ $host == $backupvm ]
+echo "backup vm"
 
-BDIR="
+BDIRBU="
 /etc/node-exporter
 /etc/nagios
 /etc/nagios-plugins
@@ -93,7 +93,7 @@ BDIR="
 /etc/prometheus/queries.active
 "
 # the name of the backup machine
-sudo zip -r $backupdir/backup-$(date +%Y%m%d).zip $BDIR
+sudo zip -r $backupdir/backup-$(date +%Y%m%d).zip $BDIRBU
 sudo find $backupdir/* -ctime +31 -delete
 BSERVER=groupb
 USERX=restore-b.foo.org.nz
