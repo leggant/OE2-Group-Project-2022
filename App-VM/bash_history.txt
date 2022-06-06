@@ -1,26 +1,3 @@
-174325 04:17:27.677140188 0 sysdig (25722) > switch next=25194 pgft_maj=0 pgft_min=1465 vm_size=136228 vm_rss=16096 vm_swap=0 
-174326 04:17:27.677141488 0 <NA> (25194) > switch next=25722(sysdig) pgft_maj=0 pgft_min=0 vm_size=0 vm_rss=0 vm_swap=0 
-174327 04:17:27.677142988 0 sysdig (25722) > switch next=25194 pgft_maj=0 pgft_min=1465 vm_size=136228 vm_rss=16096 vm_swap=0 
-174328 04:17:27.677143888 0 <NA> (25194) > switch next=25722(sysdig) pgft_maj=0 pgft_min=0 vm_size=0 vm_rss=0 vm_swap=0 
-174329 04:17:27.677145988 0 sysdig (25722) > stat 
-174330 04:17:27.677147388 0 sysdig (25722) < stat res=0 path=/etc/localtime 
-174331 04:17:27.677150488 0 sysdig (25722) > write fd=1 size=61 
-174332 04:17:27.677152088 0 sysdig (25722) > switch next=25194 pgft_maj=0 pgft_min=1465 vm_size=136228 vm_rss=16096 vm_swap=0 
-174333 04:17:27.677171288 0 <NA> (25194) > switch next=17906(sshd) pgft_maj=0 pgft_min=0 vm_size=0 vm_rss=0 vm_swap=0 
-174334 04:17:27.677173788 0 sshd (17906) < select res=1 
-174335 04:17:27.677174888 0 sshd (17906) > clock_gettime 
-174336 04:17:27.677175388 0 sshd (17906) < clock_gettime 
-174337 04:17:27.677176188 0 sshd (17906) > rt_sigprocmask 
-174338 04:17:27.677176588 0 sshd (17906) < rt_sigprocmask 
-174339 04:17:27.677177188 0 sshd (17906) > rt_sigprocmask 
-174340 04:17:27.677177588 0 sshd (17906) < rt_sigprocmask 
-174341 04:17:27.677178188 0 sshd (17906) > clock_gettime 
-174342 04:17:27.677178488 0 sshd (17906) < clock_gettime 
-174343 04:17:27.677179288 0 sshd (17906) > read fd=11(<f>/dev/ptmx) size=16384 
-174344 04:17:27.677182088 0 sshd (17906) > getpid 
-174345 04:17:27.677182388 0 sshd (17906) < getpid 
-174346 04:17:27.677184888 0 sshd (17906) > clock_gettime 
-174347 04:17:27.677185288 0 sshd (17906) < clock_gettime 
 174348 04:17:27.677185988 0 sshd (17906) > select 
 174349 04:17:27.677187188 0 sshd (17906) < select res=1 
 174350 04:17:27.677187788 0 sshd (17906) > clock_gettime 
@@ -1998,3 +1975,26 @@ vim owncloud.conf
 ls
 vim 000-default.conf 
 ls
+./check_mysql_health --mode uptime --database owncloud -H db-b.foo.org.nz -username owncloud --password P@ssw0rd --warning %80 --critical 3600
+cd /etc/nagios
+./check_mysql_health --mode uptime --database owncloud -H db-b.foo.org.nz -username owncloud --password P@ssw0rd --warning %80 --critical 3600
+cd /
+cd ~
+ls
+respup
+cd /etc/backup/
+ls
+./daily.sh 
+respup
+crontab -e
+./weekly.sh
+cd /var/opt
+ls
+sudo mysql -u owncloud -h db-b.foo.org.nz -p
+respup
+resnr
+statpup
+respup
+statpup
+respup
+resnr
