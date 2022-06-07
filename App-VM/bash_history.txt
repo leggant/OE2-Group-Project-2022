@@ -1,11 +1,3 @@
-174348 04:17:27.677185988 0 sshd (17906) > select 
-174349 04:17:27.677187188 0 sshd (17906) < select res=1 
-174350 04:17:27.677187788 0 sshd (17906) > clock_gettime 
-174351 04:17:27.677188088 0 sshd (17906) < clock_gettime 
-174352 04:17:27.677188688 0 sshd (17906) > rt_sigprocmask 
-174353 04:17:27.677189088 0 sshd (17906) < rt_sigprocmask 
-174354 04:17:27.677189588 0 sshd (17906) > rt_sigprocmask 
-174355 04:17:27.677189888 0 sshd (17906) < rt_sigprocmask 
 174356 04:17:27.677190488 0 sshd (17906) > clock_gettime 
 174357 04:17:27.677190888 0 sshd (17906) < clock_gettime 
 174358 04:17:27.677191488 0 sshd (17906) > write fd=3(<4t>202.49.0.75:51813->10.6.0.5:22) size=228 
@@ -1998,3 +1990,11 @@ respup
 statpup
 respup
 resnr
+statnr
+statpup
+statnag
+cat /var/log/user.log
+cat /var/log/auth.log.
+cat /var/log/auth.log
+cat /var/log/daemon.log
+ssh bitstudent@db-b.foo.org.nz
