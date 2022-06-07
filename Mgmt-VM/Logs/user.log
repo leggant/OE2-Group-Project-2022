@@ -304,3 +304,51 @@ Jun  7 02:17:45 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;app-b.foo.or
 Jun  7 02:20:05 mgmt-b nagios3: SERVICE NOTIFICATION: slack;db-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
 Jun  7 02:20:05 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;db-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
 Jun  7 02:20:05 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;db-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+Jun  7 02:30:45 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;check owncloud status;WARNING;SOFT;1;HTTP WARNING: HTTP/1.1 403 Forbidden - 454 bytes in 0.001 second response time
+Jun  7 02:31:45 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;check owncloud status;OK;SOFT;2;HTTP OK: HTTP/1.1 301 Moved Permanently - 707 bytes in 0.009 second response time
+Jun  7 02:41:45 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;check owncloud status;CRITICAL;SOFT;1;connect to address localhost and port 80: Connection refused
+Jun  7 02:42:45 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;check owncloud status;CRITICAL;SOFT;2;connect to address localhost and port 80: Connection refused
+Jun  7 02:43:45 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;check owncloud status;CRITICAL;HARD;3;connect to address localhost and port 80: Connection refused
+Jun  7 02:43:45 mgmt-b nagios3: SERVICE NOTIFICATION: slack;app-b.foo.org.nz;check owncloud status;CRITICAL;notify-service-by-slack;connect to address localhost and port 80: Connection refused
+Jun  7 02:43:45 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;app-b.foo.org.nz;check owncloud status;CRITICAL;notify-service-by-slack;connect to address localhost and port 80: Connection refused
+Jun  7 02:43:45 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;app-b.foo.org.nz;check owncloud status;CRITICAL;notify-service-by-slack;connect to address localhost and port 80: Connection refused
+Jun  7 02:47:45 mgmt-b nagios3: SERVICE NOTIFICATION: slack;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 2 users currently logged in
+Jun  7 02:47:45 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 2 users currently logged in
+Jun  7 02:47:45 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 2 users currently logged in
+Jun  7 02:48:45 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;check owncloud status;OK;HARD;3;HTTP OK: HTTP/1.1 301 Moved Permanently - 707 bytes in 0.001 second response time
+Jun  7 02:48:45 mgmt-b nagios3: SERVICE FLAPPING ALERT: app-b.foo.org.nz;check owncloud status;STARTED; Service appears to have started flapping (22.1% change >= 20.0% threshold)
+Jun  7 02:50:05 mgmt-b nagios3: SERVICE NOTIFICATION: slack;db-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+Jun  7 02:50:05 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;db-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+Jun  7 02:50:06 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;db-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+Jun  7 02:52:45 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;check users-login;CRITICAL;HARD;3;USERS CRITICAL - 3 users currently logged in
+Jun  7 02:52:45 mgmt-b nagios3: SERVICE NOTIFICATION: slack;app-b.foo.org.nz;check users-login;CRITICAL;notify-service-by-slack;USERS CRITICAL - 3 users currently logged in
+Jun  7 02:52:45 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;app-b.foo.org.nz;check users-login;CRITICAL;notify-service-by-slack;USERS CRITICAL - 3 users currently logged in
+Jun  7 02:52:46 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;app-b.foo.org.nz;check users-login;CRITICAL;notify-service-by-slack;USERS CRITICAL - 3 users currently logged in
+Jun  7 02:58:15 mgmt-b nagios3: Auto-save of retention data completed successfully.
+Jun  7 03:13:45 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;check owncloud status;WARNING;SOFT;1;HTTP WARNING: HTTP/1.1 404 Not Found - 451 bytes in 0.001 second response time
+Jun  7 03:14:45 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;check owncloud status;OK;SOFT;2;HTTP OK: HTTP/1.1 301 Moved Permanently - 707 bytes in 0.002 second response time
+Jun  7 03:17:45 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;check users-login;WARNING;HARD;3;USERS WARNING - 2 users currently logged in
+Jun  7 03:17:45 mgmt-b nagios3: SERVICE NOTIFICATION: slack;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 2 users currently logged in
+Jun  7 03:17:45 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 2 users currently logged in
+Jun  7 03:17:45 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 2 users currently logged in
+Jun  7 03:20:05 mgmt-b nagios3: SERVICE NOTIFICATION: slack;db-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+Jun  7 03:20:05 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;db-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+Jun  7 03:20:06 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;db-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+Jun  7 03:24:45 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;check owncloud status;CRITICAL;SOFT;1;connect to address localhost and port 80: Connection refused
+Jun  7 03:25:45 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;check owncloud status;CRITICAL;SOFT;2;connect to address localhost and port 80: Connection refused
+Jun  7 03:26:45 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;check owncloud status;CRITICAL;HARD;3;connect to address localhost and port 80: Connection refused
+Jun  7 03:46:45 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;check owncloud status;WARNING;HARD;3;HTTP WARNING: HTTP/1.1 404 Not Found - 451 bytes in 0.006 second response time
+Jun  7 03:47:45 mgmt-b nagios3: SERVICE NOTIFICATION: slack;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 2 users currently logged in
+Jun  7 03:47:45 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 2 users currently logged in
+Jun  7 03:47:45 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 2 users currently logged in
+Jun  7 03:50:05 mgmt-b nagios3: SERVICE NOTIFICATION: slack;db-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+Jun  7 03:50:05 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;db-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+Jun  7 03:50:05 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;db-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+Jun  7 03:56:45 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;check owncloud status;OK;HARD;3;HTTP OK: HTTP/1.1 301 Moved Permanently - 707 bytes in 0.001 second response time
+Jun  7 03:58:15 mgmt-b nagios3: Auto-save of retention data completed successfully.
+Jun  7 04:17:45 mgmt-b nagios3: SERVICE NOTIFICATION: slack;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 2 users currently logged in
+Jun  7 04:17:45 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 2 users currently logged in
+Jun  7 04:17:45 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 2 users currently logged in
+Jun  7 04:20:05 mgmt-b nagios3: SERVICE NOTIFICATION: slack;db-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+Jun  7 04:20:05 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;db-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+Jun  7 04:20:05 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;db-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
