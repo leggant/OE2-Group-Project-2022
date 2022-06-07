@@ -9246,3 +9246,790 @@
 2022/06/07 10:10:05 [6878] total: matches=0  hash_hits=0  false_alarms=0 data=0
 2022/06/07 10:10:05 [6878] sent 56 bytes  received 154 bytes  140.00 bytes/sec
 2022/06/07 10:10:05 [6878] total size is 180  speedup is 0.86
+2022/06/07 14:10:02 [18500] building file list
+2022/06/07 14:10:02 [18500] (new) backup_dir is /home/groupb/backup/mgmt/backup-07-06-2022-14-10-01
+2022/06/07 14:10:02 [18500] delta-transmission enabled
+2022/06/07 14:10:02 [18500] node-exporter/LICENSE is uptodate
+2022/06/07 14:10:02 [18500] node-exporter/NOTICE is uptodate
+2022/06/07 14:10:02 [18500] node-exporter/node_exporter is uptodate
+2022/06/07 14:10:02 [18500] total: matches=0  hash_hits=0  false_alarms=0 data=0
+2022/06/07 14:10:02 [18500] sent 165 bytes  received 251 bytes  277.33 bytes/sec
+2022/06/07 14:10:02 [18500] total size is 18.24M  speedup is 43,847.95
+2022/06/07 14:10:03 [18502] building file list
+2022/06/07 14:10:03 [18502] (new) backup_dir is /home/groupb/backup/mgmt/backup-07-06-2022-14-10-01
+2022/06/07 14:10:03 [18502] delta-transmission enabled
+2022/06/07 14:10:03 [18502] nagios/nrpe.cfg is uptodate
+2022/06/07 14:10:03 [18502] nagios/nrpe_local.cfg is uptodate
+2022/06/07 14:10:03 [18502] total: matches=0  hash_hits=0  false_alarms=0 data=0
+2022/06/07 14:10:03 [18502] sent 157 bytes  received 207 bytes  242.67 bytes/sec
+2022/06/07 14:10:03 [18502] total size is 13.89K  speedup is 38.17
+2022/06/07 14:10:03 [18504] building file list
+2022/06/07 14:10:03 [18504] (new) backup_dir is /home/groupb/backup/mgmt/backup-07-06-2022-14-10-01
+2022/06/07 14:10:03 [18504] delta-transmission enabled
+2022/06/07 14:10:03 [18504] nagios3/apache2.conf is uptodate
+2022/06/07 14:10:03 [18504] nagios3/cgi.cfg is uptodate
+2022/06/07 14:10:03 [18504] nagios3/commands.cfg is uptodate
+2022/06/07 14:10:03 [18504] nagios3/htpasswd.users is uptodate
+2022/06/07 14:10:03 [18504] nagios3/nagios.cfg is uptodate
+2022/06/07 14:10:03 [18504] nagios3/nrpe.cfg is uptodate
+2022/06/07 14:10:03 [18504] nagios3/resource.cfg is uptodate
+2022/06/07 14:10:03 [18504] nagios3/conf.d/contacts_nagios2.cfg is uptodate
+2022/06/07 14:10:03 [18504] nagios3/conf.d/extinfo_nagios2.cfg is uptodate
+2022/06/07 14:10:03 [18504] nagios3/conf.d/generic-host_nagios2.cfg is uptodate
+2022/06/07 14:10:03 [18504] nagios3/conf.d/generic-service_nagios2.cfg is uptodate
+2022/06/07 14:10:03 [18504] nagios3/conf.d/hostgroups_nagios2.cfg is uptodate
+2022/06/07 14:10:03 [18504] nagios3/conf.d/localhost_nagios2.cfg is uptodate
+2022/06/07 14:10:03 [18504] nagios3/conf.d/ppt_contactgroups.cfg is uptodate
+2022/06/07 14:10:03 [18504] nagios3/conf.d/ppt_contacts.cfg is uptodate
+2022/06/07 14:10:03 [18504] nagios3/conf.d/ppt_hostgroups.cfg is uptodate
+2022/06/07 14:10:03 [18504] nagios3/conf.d/ppt_hosts.cfg is uptodate
+2022/06/07 14:10:03 [18504] nagios3/conf.d/ppt_services.cfg is uptodate
+2022/06/07 14:10:03 [18504] nagios3/conf.d/services_nagios2.cfg is uptodate
+2022/06/07 14:10:03 [18504] nagios3/conf.d/timeperiods_nagios2.cfg is uptodate
+2022/06/07 14:10:03 [18504] nagios3/stylesheets/avail.css is uptodate
+2022/06/07 14:10:03 [18504] nagios3/stylesheets/checksanity.css is uptodate
+2022/06/07 14:10:03 [18504] nagios3/stylesheets/cmd.css is uptodate
+2022/06/07 14:10:03 [18504] nagios3/stylesheets/common.css is uptodate
+2022/06/07 14:10:03 [18504] nagios3/stylesheets/config.css is uptodate
+2022/06/07 14:10:03 [18504] nagios3/stylesheets/extinfo.css is uptodate
+2022/06/07 14:10:03 [18504] nagios3/stylesheets/histogram.css is uptodate
+2022/06/07 14:10:03 [18504] nagios3/stylesheets/history.css is uptodate
+2022/06/07 14:10:03 [18504] nagios3/stylesheets/ministatus.css is uptodate
+2022/06/07 14:10:03 [18504] nagios3/stylesheets/notifications.css is uptodate
+2022/06/07 14:10:03 [18504] nagios3/stylesheets/outages.css is uptodate
+2022/06/07 14:10:03 [18504] nagios3/stylesheets/showlog.css is uptodate
+2022/06/07 14:10:03 [18504] nagios3/stylesheets/status.css is uptodate
+2022/06/07 14:10:03 [18504] nagios3/stylesheets/statusmap.css is uptodate
+2022/06/07 14:10:03 [18504] nagios3/stylesheets/summary.css is uptodate
+2022/06/07 14:10:03 [18504] nagios3/stylesheets/tac.css is uptodate
+2022/06/07 14:10:03 [18504] nagios3/stylesheets/trends.css is uptodate
+2022/06/07 14:10:03 [18504] total: matches=0  hash_hits=0  false_alarms=0 data=0
+2022/06/07 14:10:03 [18504] sent 1.24K bytes  received 1.99K bytes  6.46K bytes/sec
+2022/06/07 14:10:03 [18504] total size is 141.54K  speedup is 43.83
+2022/06/07 14:10:04 [18506] building file list
+2022/06/07 14:10:04 [18506] (new) backup_dir is /home/groupb/backup/mgmt/backup-07-06-2022-14-10-01
+2022/06/07 14:10:04 [18506] delta-transmission enabled
+2022/06/07 14:10:04 [18506] nagios-plugins/config/apt.cfg is uptodate
+2022/06/07 14:10:04 [18506] nagios-plugins/config/breeze.cfg is uptodate
+2022/06/07 14:10:04 [18506] nagios-plugins/config/check_nrpe.cfg is uptodate
+2022/06/07 14:10:04 [18506] nagios-plugins/config/check_puppet_agent is uptodate
+2022/06/07 14:10:04 [18506] nagios-plugins/config/check_service.sh is uptodate
+2022/06/07 14:10:04 [18506] nagios-plugins/config/dhcp.cfg is uptodate
+2022/06/07 14:10:04 [18506] nagios-plugins/config/disk-smb.cfg is uptodate
+2022/06/07 14:10:04 [18506] nagios-plugins/config/disk.cfg is uptodate
+2022/06/07 14:10:04 [18506] nagios-plugins/config/dns.cfg is uptodate
+2022/06/07 14:10:04 [18506] nagios-plugins/config/dummy.cfg is uptodate
+2022/06/07 14:10:04 [18506] nagios-plugins/config/flexlm.cfg is uptodate
+2022/06/07 14:10:04 [18506] nagios-plugins/config/fping.cfg is uptodate
+2022/06/07 14:10:04 [18506] nagios-plugins/config/ftp.cfg is uptodate
+2022/06/07 14:10:04 [18506] nagios-plugins/config/games.cfg is uptodate
+2022/06/07 14:10:04 [18506] nagios-plugins/config/hppjd.cfg is uptodate
+2022/06/07 14:10:04 [18506] nagios-plugins/config/http.cfg is uptodate
+2022/06/07 14:10:04 [18506] nagios-plugins/config/ifstatus.cfg is uptodate
+2022/06/07 14:10:04 [18506] nagios-plugins/config/ldap.cfg is uptodate
+2022/06/07 14:10:04 [18506] nagios-plugins/config/load.cfg is uptodate
+2022/06/07 14:10:04 [18506] nagios-plugins/config/mail.cfg is uptodate
+2022/06/07 14:10:04 [18506] nagios-plugins/config/mailq.cfg is uptodate
+2022/06/07 14:10:04 [18506] nagios-plugins/config/mrtg.cfg is uptodate
+2022/06/07 14:10:04 [18506] nagios-plugins/config/mysql.cfg is uptodate
+2022/06/07 14:10:04 [18506] nagios-plugins/config/netware.cfg is uptodate
+2022/06/07 14:10:04 [18506] nagios-plugins/config/news.cfg is uptodate
+2022/06/07 14:10:04 [18506] nagios-plugins/config/nt.cfg is uptodate
+2022/06/07 14:10:04 [18506] nagios-plugins/config/ntp.cfg is uptodate
+2022/06/07 14:10:04 [18506] nagios-plugins/config/pgsql.cfg is uptodate
+2022/06/07 14:10:04 [18506] nagios-plugins/config/ping.cfg is uptodate
+2022/06/07 14:10:04 [18506] nagios-plugins/config/procs.cfg is uptodate
+2022/06/07 14:10:04 [18506] nagios-plugins/config/real.cfg is uptodate
+2022/06/07 14:10:04 [18506] nagios-plugins/config/rpc-nfs.cfg is uptodate
+2022/06/07 14:10:04 [18506] nagios-plugins/config/slack.cfg is uptodate
+2022/06/07 14:10:04 [18506] nagios-plugins/config/snmp.cfg is uptodate
+2022/06/07 14:10:04 [18506] nagios-plugins/config/ssh.cfg is uptodate
+2022/06/07 14:10:04 [18506] nagios-plugins/config/tcp_udp.cfg is uptodate
+2022/06/07 14:10:04 [18506] nagios-plugins/config/telnet.cfg is uptodate
+2022/06/07 14:10:04 [18506] nagios-plugins/config/users.cfg is uptodate
+2022/06/07 14:10:04 [18506] nagios-plugins/config/check_mysql_health-2.2.2/AUTHORS is uptodate
+2022/06/07 14:10:04 [18506] nagios-plugins/config/check_mysql_health-2.2.2/COPYING is uptodate
+2022/06/07 14:10:04 [18506] nagios-plugins/config/check_mysql_health-2.2.2/ChangeLog is uptodate
+2022/06/07 14:10:04 [18506] nagios-plugins/config/check_mysql_health-2.2.2/INSTALL is uptodate
+2022/06/07 14:10:04 [18506] nagios-plugins/config/check_mysql_health-2.2.2/Makefile is uptodate
+2022/06/07 14:10:04 [18506] nagios-plugins/config/check_mysql_health-2.2.2/Makefile.am is uptodate
+2022/06/07 14:10:04 [18506] nagios-plugins/config/check_mysql_health-2.2.2/Makefile.in is uptodate
+2022/06/07 14:10:04 [18506] nagios-plugins/config/check_mysql_health-2.2.2/NEWS is uptodate
+2022/06/07 14:10:04 [18506] nagios-plugins/config/check_mysql_health-2.2.2/README is uptodate
+2022/06/07 14:10:04 [18506] nagios-plugins/config/check_mysql_health-2.2.2/TODO is uptodate
+2022/06/07 14:10:04 [18506] nagios-plugins/config/check_mysql_health-2.2.2/acinclude.m4 is uptodate
+2022/06/07 14:10:04 [18506] nagios-plugins/config/check_mysql_health-2.2.2/aclocal.m4 is uptodate
+2022/06/07 14:10:04 [18506] nagios-plugins/config/check_mysql_health-2.2.2/config.guess is uptodate
+2022/06/07 14:10:04 [18506] nagios-plugins/config/check_mysql_health-2.2.2/config.log is uptodate
+2022/06/07 14:10:04 [18506] nagios-plugins/config/check_mysql_health-2.2.2/config.status is uptodate
+2022/06/07 14:10:04 [18506] nagios-plugins/config/check_mysql_health-2.2.2/config.sub is uptodate
+2022/06/07 14:10:04 [18506] nagios-plugins/config/check_mysql_health-2.2.2/configure is uptodate
+2022/06/07 14:10:04 [18506] nagios-plugins/config/check_mysql_health-2.2.2/configure.ac is uptodate
+2022/06/07 14:10:04 [18506] nagios-plugins/config/check_mysql_health-2.2.2/install-sh is uptodate
+2022/06/07 14:10:04 [18506] nagios-plugins/config/check_mysql_health-2.2.2/missing is uptodate
+2022/06/07 14:10:04 [18506] nagios-plugins/config/check_mysql_health-2.2.2/contrib/CheckMySQLHealthExt1.pm is uptodate
+2022/06/07 14:10:04 [18506] nagios-plugins/config/check_mysql_health-2.2.2/contrib/README.my-extensions is uptodate
+2022/06/07 14:10:04 [18506] nagios-plugins/config/check_mysql_health-2.2.2/contrib/check_mysql_health.php is uptodate
+2022/06/07 14:10:04 [18506] nagios-plugins/config/check_mysql_health-2.2.2/plugins-scripts/Makefile is uptodate
+2022/06/07 14:10:04 [18506] nagios-plugins/config/check_mysql_health-2.2.2/plugins-scripts/Makefile.am is uptodate
+2022/06/07 14:10:04 [18506] nagios-plugins/config/check_mysql_health-2.2.2/plugins-scripts/Makefile.in is uptodate
+2022/06/07 14:10:04 [18506] nagios-plugins/config/check_mysql_health-2.2.2/plugins-scripts/check_mysql_health is uptodate
+2022/06/07 14:10:04 [18506] nagios-plugins/config/check_mysql_health-2.2.2/plugins-scripts/check_mysql_health.pl is uptodate
+2022/06/07 14:10:04 [18506] nagios-plugins/config/check_mysql_health-2.2.2/plugins-scripts/subst is uptodate
+2022/06/07 14:10:04 [18506] nagios-plugins/config/check_mysql_health-2.2.2/plugins-scripts/subst.in is uptodate
+2022/06/07 14:10:04 [18506] nagios-plugins/config/check_mysql_health-2.2.2/plugins-scripts/Nagios/Extraopts.pm is uptodate
+2022/06/07 14:10:04 [18506] nagios-plugins/config/check_mysql_health-2.2.2/plugins-scripts/Nagios/DBD/MySQL/Cluster.pm is uptodate
+2022/06/07 14:10:04 [18506] nagios-plugins/config/check_mysql_health-2.2.2/plugins-scripts/Nagios/DBD/MySQL/Server.pm is uptodate
+2022/06/07 14:10:04 [18506] nagios-plugins/config/check_mysql_health-2.2.2/plugins-scripts/Nagios/DBD/MySQL/Server/Instance.pm is uptodate
+2022/06/07 14:10:04 [18506] nagios-plugins/config/check_mysql_health-2.2.2/plugins-scripts/Nagios/DBD/MySQL/Server/Instance/Innodb.pm is uptodate
+2022/06/07 14:10:04 [18506] nagios-plugins/config/check_mysql_health-2.2.2/plugins-scripts/Nagios/DBD/MySQL/Server/Instance/Myisam.pm is uptodate
+2022/06/07 14:10:04 [18506] nagios-plugins/config/check_mysql_health-2.2.2/plugins-scripts/Nagios/DBD/MySQL/Server/Instance/Replication.pm is uptodate
+2022/06/07 14:10:04 [18506] nagios-plugins/config/check_mysql_health-2.2.2/t/Makefile is uptodate
+2022/06/07 14:10:04 [18506] nagios-plugins/config/check_mysql_health-2.2.2/t/Makefile.am is uptodate
+2022/06/07 14:10:04 [18506] nagios-plugins/config/check_mysql_health-2.2.2/t/Makefile.in is uptodate
+2022/06/07 14:10:04 [18506] nagios-plugins/config/check_mysql_health-2.2.2/t/check_mysql_health.t is uptodate
+2022/06/07 14:10:04 [18506] total: matches=0  hash_hits=0  false_alarms=0 data=0
+2022/06/07 14:10:04 [18506] sent 2.56K bytes  received 5.73K bytes  5.53K bytes/sec
+2022/06/07 14:10:04 [18506] total size is 796.14K  speedup is 96.00
+2022/06/07 14:10:04 [18508] building file list
+2022/06/07 14:10:04 [18508] (new) backup_dir is /home/groupb/backup/mgmt/backup-07-06-2022-14-10-01
+2022/06/07 14:10:04 [18508] delta-transmission enabled
+2022/06/07 14:10:04 [18508] .d..t...... code/
+2022/06/07 14:10:04 [18508] .d..t...... code/environments/
+2022/06/07 14:10:04 [18508] .d..t...... code/environments/production/
+2022/06/07 14:10:04 [18508] .d..t...... code/environments/production/manifests/
+2022/06/07 14:10:04 [18508] <f..tp..... code/environments/production/manifests/site.pp
+2022/06/07 14:10:04 [18508] .d..t...... code/modules/
+2022/06/07 14:10:04 [18508] cd+++++++++ code/modules/github/
+2022/06/07 14:10:04 [18508] cd+++++++++ code/modules/github/manifests/
+2022/06/07 14:10:04 [18508] <f+++++++++ code/modules/github/manifests/config.pp
+2022/06/07 14:10:04 [18508] <f+++++++++ code/modules/github/manifests/init.pp
+2022/06/07 14:10:04 [18508] <f+++++++++ code/modules/github/manifests/install.pp
+2022/06/07 14:10:04 [18508] .d..t...... code/modules/mariadb/
+2022/06/07 14:10:04 [18508] .d..t...... code/modules/mariadb/files/
+2022/06/07 14:10:04 [18508] <f..tp..... code/modules/mariadb/files/50-server.cnf
+2022/06/07 14:10:04 [18508] .d..t...... code/modules/mariadb/manifests/
+2022/06/07 14:10:04 [18508] <f+++++++++ code/modules/mariadb/manifests/.config.pp.swp
+2022/06/07 14:10:04 [18508] <f+++++++++ code/modules/mariadb/manifests/.install.pp.swp
+2022/06/07 14:10:04 [18508] <f..tp..... code/modules/mariadb/manifests/config.pp
+2022/06/07 14:10:04 [18508] <f..tp..... code/modules/mariadb/manifests/init.pp
+2022/06/07 14:10:04 [18508] <f..tp..... code/modules/mariadb/manifests/install.pp
+2022/06/07 14:10:04 [18508] <f..tp..... code/modules/mariadb/manifests/service.pp
+2022/06/07 14:10:04 [18508] .d..t...... code/modules/mariadb/templates/
+2022/06/07 14:10:04 [18508] .d..t...... code/modules/nagios/
+2022/06/07 14:10:04 [18508] .d..t...... code/modules/nagios/files/
+2022/06/07 14:10:04 [18508] <f..tp..... code/modules/nagios/files/htpasswd.users
+2022/06/07 14:10:04 [18508] <f..tp..... code/modules/nagios/files/nagios.cfg
+2022/06/07 14:10:04 [18508] .d..t...... code/modules/nagios/manifests/
+2022/06/07 14:10:04 [18508] <f..tp..... code/modules/nagios/manifests/config.pp
+2022/06/07 14:10:04 [18508] <f+++++++++ code/modules/nagios/manifests/config.pp.save
+2022/06/07 14:10:04 [18508] <f..tp..... code/modules/nagios/manifests/init.pp
+2022/06/07 14:10:04 [18508] <f..tp..... code/modules/nagios/manifests/install.pp
+2022/06/07 14:10:04 [18508] <f+++++++++ code/modules/nagios/manifests/nagios.pl
+2022/06/07 14:10:04 [18508] <f..tp..... code/modules/nagios/manifests/service.pp
+2022/06/07 14:10:04 [18508] .d..t...... code/modules/nagios/templates/
+2022/06/07 14:10:04 [18508] .d..t...... code/modules/node_exporter/
+2022/06/07 14:10:04 [18508] .d..t...... code/modules/node_exporter/files/
+2022/06/07 14:10:04 [18508] <f..t...... code/modules/node_exporter/files/node-exporter.service
+2022/06/07 14:10:04 [18508] .d..t...... code/modules/node_exporter/files/node_exporter/
+2022/06/07 14:10:04 [18508] <f..t...... code/modules/node_exporter/files/node_exporter/LICENSE
+2022/06/07 14:10:04 [18508] <f..t...... code/modules/node_exporter/files/node_exporter/NOTICE
+2022/06/07 14:10:04 [18508] <f..t...... code/modules/node_exporter/files/node_exporter/node_exporter
+2022/06/07 14:10:04 [18508] .d..t...... code/modules/node_exporter/manifests/
+2022/06/07 14:10:04 [18508] <f..t...... code/modules/node_exporter/manifests/config.pp
+2022/06/07 14:10:04 [18508] <f..t...... code/modules/node_exporter/manifests/init.pp
+2022/06/07 14:10:04 [18508] .d..t...... code/modules/nrpe/
+2022/06/07 14:10:04 [18508] .d..t...... code/modules/nrpe/files/
+2022/06/07 14:10:04 [18508] <f..t...... code/modules/nrpe/files/check_mysql_health-2.2.2.tar.gz
+2022/06/07 14:10:04 [18508] <f..t...... code/modules/nrpe/files/check_service.sh
+2022/06/07 14:10:04 [18508] <f..tp..... code/modules/nrpe/files/nrpe.cfg
+2022/06/07 14:10:04 [18508] .d..t...... code/modules/nrpe/files/mysql_health/
+2022/06/07 14:10:04 [18508] <f..t...... code/modules/nrpe/files/mysql_health/check_mysql_health-2.2.2.tar.gz
+2022/06/07 14:10:04 [18508] .d..t...... code/modules/nrpe/manifests/
+2022/06/07 14:10:04 [18508] <f..tp..... code/modules/nrpe/manifests/config.pp
+2022/06/07 14:10:04 [18508] <f..tp..... code/modules/nrpe/manifests/init.pp
+2022/06/07 14:10:04 [18508] <f..tp..... code/modules/nrpe/manifests/install.pp
+2022/06/07 14:10:04 [18508] <f..tp..... code/modules/nrpe/manifests/service.pp
+2022/06/07 14:10:04 [18508] .d..t...... code/modules/nrpe_nagios/
+2022/06/07 14:10:04 [18508] <f+++++++++ code/modules/nrpe_nagios/config.pp
+2022/06/07 14:10:04 [18508] <f+++++++++ code/modules/nrpe_nagios/init.pp
+2022/06/07 14:10:04 [18508] .d..t...... code/modules/nrpe_nagios/manifests/
+2022/06/07 14:10:04 [18508] <f+++++++++ code/modules/nrpe_nagios/manifests/.config.pp.swp
+2022/06/07 14:10:04 [18508] <f..tp..... code/modules/nrpe_nagios/manifests/config.pp
+2022/06/07 14:10:04 [18508] <f..tp..... code/modules/nrpe_nagios/manifests/init.pp
+2022/06/07 14:10:04 [18508] <f..t...... code/modules/nrpe_nagios/manifests/q
+2022/06/07 14:10:04 [18508] .d..t...... code/modules/ntp_service/
+2022/06/07 14:10:04 [18508] .d..t...... code/modules/ntp_service/files/
+2022/06/07 14:10:04 [18508] .d..t...... code/modules/ntp_service/manifests/
+2022/06/07 14:10:04 [18508] <f..tp..... code/modules/ntp_service/manifests/init.pp
+2022/06/07 14:10:04 [18508] .d..t...... code/modules/ntp_service/templates/
+2022/06/07 14:10:04 [18508] <f..tp..... code/modules/ntp_service/templates/ntp.conf.erb
+2022/06/07 14:10:04 [18508] .d..t...... code/modules/owncloud/
+2022/06/07 14:10:04 [18508] .d..t...... code/modules/owncloud/files/
+2022/06/07 14:10:04 [18508] .d..t...... code/modules/owncloud/manifests/
+2022/06/07 14:10:04 [18508] .d..t...... code/modules/php/
+2022/06/07 14:10:04 [18508] .d..t...... code/modules/php/manifests/
+2022/06/07 14:10:04 [18508] <f..tp..... code/modules/php/manifests/config.pp
+2022/06/07 14:10:04 [18508] <f..tp..... code/modules/php/manifests/init.pp
+2022/06/07 14:10:04 [18508] <f..tp..... code/modules/php/manifests/install.pp
+2022/06/07 14:10:04 [18508] .d..t...... code/modules/rsync/
+2022/06/07 14:10:04 [18508] <f..t...... code/modules/rsync/backupfile
+2022/06/07 14:10:04 [18508] .d..t...... code/modules/rsync/files/
+2022/06/07 14:10:04 [18508] <f+++++++++ code/modules/rsync/files/.rsync.log.swp
+2022/06/07 14:10:04 [18508] <f+++++++++ code/modules/rsync/files/backupfile
+2022/06/07 14:10:04 [18508] <f..t...... code/modules/rsync/files/backupfile.txt
+2022/06/07 14:10:04 [18508] <f..t...... code/modules/rsync/files/daily.log
+2022/06/07 14:10:04 [18508] <f..t...... code/modules/rsync/files/daily.sh
+2022/06/07 14:10:04 [18508] <f..t...... code/modules/rsync/files/restore.sh
+2022/06/07 14:10:04 [18508] <f..t...... code/modules/rsync/files/rsync.log
+2022/06/07 14:10:04 [18508] <f+++++++++ code/modules/rsync/files/to_backup.txt
+2022/06/07 14:10:04 [18508] <f..t...... code/modules/rsync/files/weekly.log
+2022/06/07 14:10:04 [18508] <f..t...... code/modules/rsync/files/weekly.sh
+2022/06/07 14:10:04 [18508] .d..t...... code/modules/rsync/manifests/
+2022/06/07 14:10:04 [18508] <f+++++++++ code/modules/rsync/manifests/.service.pp.swp
+2022/06/07 14:10:04 [18508] <f..t...... code/modules/rsync/manifests/config.pp
+2022/06/07 14:10:04 [18508] <f..t...... code/modules/rsync/manifests/init.pp
+2022/06/07 14:10:04 [18508] <f..t...... code/modules/rsync/manifests/install.pp
+2022/06/07 14:10:04 [18508] <f..t...... code/modules/rsync/manifests/service.pp
+2022/06/07 14:10:04 [18508] .d..t...... code/modules/rsync/templates/
+2022/06/07 14:10:04 [18508] .d..t...... code/modules/sudo/
+2022/06/07 14:10:04 [18508] .d..t...... code/modules/sudo/files/
+2022/06/07 14:10:04 [18508] .d..t...... code/modules/sudo/files/etc/
+2022/06/07 14:10:04 [18508] <f..tp..... code/modules/sudo/files/etc/sudoers
+2022/06/07 14:10:04 [18508] .d..t...... code/modules/sudo/manifests/
+2022/06/07 14:10:04 [18508] <f..tp..... code/modules/sudo/manifests/init.pp
+2022/06/07 14:10:04 [18508] .d..t...... code/modules/sudo/mariadb/
+2022/06/07 14:10:04 [18508] .d..t...... code/modules/sudo/mariadb/files/
+2022/06/07 14:10:04 [18508] <f..tp..... code/modules/sudo/mariadb/files/50-server.cnf
+2022/06/07 14:10:04 [18508] .d..t...... code/modules/sudo/mariadb/manifests/
+2022/06/07 14:10:04 [18508] <f..tp..... code/modules/sudo/mariadb/manifests/config.pp
+2022/06/07 14:10:04 [18508] <f..tp..... code/modules/sudo/mariadb/manifests/init.pp
+2022/06/07 14:10:04 [18508] <f..tp..... code/modules/sudo/mariadb/manifests/install.pp
+2022/06/07 14:10:04 [18508] <f..tp..... code/modules/sudo/mariadb/manifests/service.pp
+2022/06/07 14:10:04 [18508] .d..t...... code/modules/sudo/mariadb/templates/
+2022/06/07 14:10:04 [18508] .d..t...... code/modules/sudo/ntp_service/
+2022/06/07 14:10:04 [18508] .d..t...... code/modules/sudo/ntp_service/files/
+2022/06/07 14:10:04 [18508] .d..t...... code/modules/sudo/ntp_service/manifests/
+2022/06/07 14:10:04 [18508] <f..tp..... code/modules/sudo/ntp_service/manifests/init.pp
+2022/06/07 14:10:04 [18508] .d..t...... code/modules/sudo/ntp_service/templates/
+2022/06/07 14:10:04 [18508] <f..tp..... code/modules/sudo/ntp_service/templates/ntp.conf.erb
+2022/06/07 14:10:04 [18508] .d..t...... code/modules/sudo/templates/
+2022/06/07 14:10:04 [18508] backed up code/environments/production/manifests/site.pp to /home/groupb/backup/mgmt/backup-07-06-2022-14-10-01/code/environments/production/manifests/site.pp
+2022/06/07 14:10:04 [18508] backed up code/modules/mariadb/files/50-server.cnf to /home/groupb/backup/mgmt/backup-07-06-2022-14-10-01/code/modules/mariadb/files/50-server.cnf
+2022/06/07 14:10:04 [18508] backed up code/modules/mariadb/manifests/config.pp to /home/groupb/backup/mgmt/backup-07-06-2022-14-10-01/code/modules/mariadb/manifests/config.pp
+2022/06/07 14:10:04 [18508] backed up code/modules/mariadb/manifests/init.pp to /home/groupb/backup/mgmt/backup-07-06-2022-14-10-01/code/modules/mariadb/manifests/init.pp
+2022/06/07 14:10:04 [18508] backed up code/modules/mariadb/manifests/install.pp to /home/groupb/backup/mgmt/backup-07-06-2022-14-10-01/code/modules/mariadb/manifests/install.pp
+2022/06/07 14:10:04 [18508] backed up code/modules/mariadb/manifests/service.pp to /home/groupb/backup/mgmt/backup-07-06-2022-14-10-01/code/modules/mariadb/manifests/service.pp
+2022/06/07 14:10:04 [18508] backed up code/modules/nagios/files/htpasswd.users to /home/groupb/backup/mgmt/backup-07-06-2022-14-10-01/code/modules/nagios/files/htpasswd.users
+2022/06/07 14:10:04 [18508] backed up code/modules/nagios/files/nagios.cfg to /home/groupb/backup/mgmt/backup-07-06-2022-14-10-01/code/modules/nagios/files/nagios.cfg
+2022/06/07 14:10:04 [18508] backed up code/modules/nagios/manifests/config.pp to /home/groupb/backup/mgmt/backup-07-06-2022-14-10-01/code/modules/nagios/manifests/config.pp
+2022/06/07 14:10:04 [18508] backed up code/modules/nagios/manifests/init.pp to /home/groupb/backup/mgmt/backup-07-06-2022-14-10-01/code/modules/nagios/manifests/init.pp
+2022/06/07 14:10:04 [18508] backed up code/modules/nagios/manifests/install.pp to /home/groupb/backup/mgmt/backup-07-06-2022-14-10-01/code/modules/nagios/manifests/install.pp
+2022/06/07 14:10:04 [18508] backed up code/modules/nagios/manifests/service.pp to /home/groupb/backup/mgmt/backup-07-06-2022-14-10-01/code/modules/nagios/manifests/service.pp
+2022/06/07 14:10:04 [18508] backed up code/modules/node_exporter/files/node-exporter.service to /home/groupb/backup/mgmt/backup-07-06-2022-14-10-01/code/modules/node_exporter/files/node-exporter.service
+2022/06/07 14:10:04 [18508] backed up code/modules/node_exporter/files/node_exporter/LICENSE to /home/groupb/backup/mgmt/backup-07-06-2022-14-10-01/code/modules/node_exporter/files/node_exporter/LICENSE
+2022/06/07 14:10:04 [18508] backed up code/modules/node_exporter/files/node_exporter/NOTICE to /home/groupb/backup/mgmt/backup-07-06-2022-14-10-01/code/modules/node_exporter/files/node_exporter/NOTICE
+2022/06/07 14:10:05 [18508] backed up code/modules/node_exporter/files/node_exporter/node_exporter to /home/groupb/backup/mgmt/backup-07-06-2022-14-10-01/code/modules/node_exporter/files/node_exporter/node_exporter
+2022/06/07 14:10:05 [18508] backed up code/modules/node_exporter/manifests/config.pp to /home/groupb/backup/mgmt/backup-07-06-2022-14-10-01/code/modules/node_exporter/manifests/config.pp
+2022/06/07 14:10:05 [18508] backed up code/modules/node_exporter/manifests/init.pp to /home/groupb/backup/mgmt/backup-07-06-2022-14-10-01/code/modules/node_exporter/manifests/init.pp
+2022/06/07 14:10:05 [18508] backed up code/modules/nrpe/files/check_mysql_health-2.2.2.tar.gz to /home/groupb/backup/mgmt/backup-07-06-2022-14-10-01/code/modules/nrpe/files/check_mysql_health-2.2.2.tar.gz
+2022/06/07 14:10:05 [18508] backed up code/modules/nrpe/files/check_service.sh to /home/groupb/backup/mgmt/backup-07-06-2022-14-10-01/code/modules/nrpe/files/check_service.sh
+2022/06/07 14:10:05 [18508] backed up code/modules/nrpe/files/nrpe.cfg to /home/groupb/backup/mgmt/backup-07-06-2022-14-10-01/code/modules/nrpe/files/nrpe.cfg
+2022/06/07 14:10:05 [18508] backed up code/modules/nrpe/files/mysql_health/check_mysql_health-2.2.2.tar.gz to /home/groupb/backup/mgmt/backup-07-06-2022-14-10-01/code/modules/nrpe/files/mysql_health/check_mysql_health-2.2.2.tar.gz
+2022/06/07 14:10:05 [18508] backed up code/modules/nrpe/manifests/config.pp to /home/groupb/backup/mgmt/backup-07-06-2022-14-10-01/code/modules/nrpe/manifests/config.pp
+2022/06/07 14:10:05 [18508] backed up code/modules/nrpe/manifests/init.pp to /home/groupb/backup/mgmt/backup-07-06-2022-14-10-01/code/modules/nrpe/manifests/init.pp
+2022/06/07 14:10:05 [18508] backed up code/modules/nrpe/manifests/install.pp to /home/groupb/backup/mgmt/backup-07-06-2022-14-10-01/code/modules/nrpe/manifests/install.pp
+2022/06/07 14:10:05 [18508] backed up code/modules/nrpe/manifests/service.pp to /home/groupb/backup/mgmt/backup-07-06-2022-14-10-01/code/modules/nrpe/manifests/service.pp
+2022/06/07 14:10:05 [18508] backed up code/modules/nrpe_nagios/manifests/config.pp to /home/groupb/backup/mgmt/backup-07-06-2022-14-10-01/code/modules/nrpe_nagios/manifests/config.pp
+2022/06/07 14:10:05 [18508] backed up code/modules/nrpe_nagios/manifests/init.pp to /home/groupb/backup/mgmt/backup-07-06-2022-14-10-01/code/modules/nrpe_nagios/manifests/init.pp
+2022/06/07 14:10:05 [18508] backed up code/modules/nrpe_nagios/manifests/q to /home/groupb/backup/mgmt/backup-07-06-2022-14-10-01/code/modules/nrpe_nagios/manifests/q
+2022/06/07 14:10:05 [18508] backed up code/modules/ntp_service/manifests/init.pp to /home/groupb/backup/mgmt/backup-07-06-2022-14-10-01/code/modules/ntp_service/manifests/init.pp
+2022/06/07 14:10:05 [18508] backed up code/modules/ntp_service/templates/ntp.conf.erb to /home/groupb/backup/mgmt/backup-07-06-2022-14-10-01/code/modules/ntp_service/templates/ntp.conf.erb
+2022/06/07 14:10:05 [18508] backed up code/modules/php/manifests/config.pp to /home/groupb/backup/mgmt/backup-07-06-2022-14-10-01/code/modules/php/manifests/config.pp
+2022/06/07 14:10:05 [18508] backed up code/modules/php/manifests/init.pp to /home/groupb/backup/mgmt/backup-07-06-2022-14-10-01/code/modules/php/manifests/init.pp
+2022/06/07 14:10:05 [18508] backed up code/modules/php/manifests/install.pp to /home/groupb/backup/mgmt/backup-07-06-2022-14-10-01/code/modules/php/manifests/install.pp
+2022/06/07 14:10:05 [18508] backed up code/modules/rsync/backupfile to /home/groupb/backup/mgmt/backup-07-06-2022-14-10-01/code/modules/rsync/backupfile
+2022/06/07 14:10:05 [18508] backed up code/modules/rsync/files/backupfile.txt to /home/groupb/backup/mgmt/backup-07-06-2022-14-10-01/code/modules/rsync/files/backupfile.txt
+2022/06/07 14:10:05 [18508] backed up code/modules/rsync/files/daily.log to /home/groupb/backup/mgmt/backup-07-06-2022-14-10-01/code/modules/rsync/files/daily.log
+2022/06/07 14:10:05 [18508] backed up code/modules/rsync/files/daily.sh to /home/groupb/backup/mgmt/backup-07-06-2022-14-10-01/code/modules/rsync/files/daily.sh
+2022/06/07 14:10:05 [18508] backed up code/modules/rsync/files/restore.sh to /home/groupb/backup/mgmt/backup-07-06-2022-14-10-01/code/modules/rsync/files/restore.sh
+2022/06/07 14:10:05 [18508] backed up code/modules/rsync/files/rsync.log to /home/groupb/backup/mgmt/backup-07-06-2022-14-10-01/code/modules/rsync/files/rsync.log
+2022/06/07 14:10:05 [18508] backed up code/modules/rsync/files/weekly.log to /home/groupb/backup/mgmt/backup-07-06-2022-14-10-01/code/modules/rsync/files/weekly.log
+2022/06/07 14:10:05 [18508] backed up code/modules/rsync/files/weekly.sh to /home/groupb/backup/mgmt/backup-07-06-2022-14-10-01/code/modules/rsync/files/weekly.sh
+2022/06/07 14:10:05 [18508] backed up code/modules/rsync/manifests/config.pp to /home/groupb/backup/mgmt/backup-07-06-2022-14-10-01/code/modules/rsync/manifests/config.pp
+2022/06/07 14:10:05 [18508] backed up code/modules/rsync/manifests/init.pp to /home/groupb/backup/mgmt/backup-07-06-2022-14-10-01/code/modules/rsync/manifests/init.pp
+2022/06/07 14:10:05 [18508] backed up code/modules/rsync/manifests/install.pp to /home/groupb/backup/mgmt/backup-07-06-2022-14-10-01/code/modules/rsync/manifests/install.pp
+2022/06/07 14:10:05 [18508] backed up code/modules/rsync/manifests/service.pp to /home/groupb/backup/mgmt/backup-07-06-2022-14-10-01/code/modules/rsync/manifests/service.pp
+2022/06/07 14:10:05 [18508] backed up code/modules/sudo/files/etc/sudoers to /home/groupb/backup/mgmt/backup-07-06-2022-14-10-01/code/modules/sudo/files/etc/sudoers
+2022/06/07 14:10:05 [18508] backed up code/modules/sudo/manifests/init.pp to /home/groupb/backup/mgmt/backup-07-06-2022-14-10-01/code/modules/sudo/manifests/init.pp
+2022/06/07 14:10:05 [18508] backed up code/modules/sudo/mariadb/files/50-server.cnf to /home/groupb/backup/mgmt/backup-07-06-2022-14-10-01/code/modules/sudo/mariadb/files/50-server.cnf
+2022/06/07 14:10:05 [18508] backed up code/modules/sudo/mariadb/manifests/config.pp to /home/groupb/backup/mgmt/backup-07-06-2022-14-10-01/code/modules/sudo/mariadb/manifests/config.pp
+2022/06/07 14:10:05 [18508] backed up code/modules/sudo/mariadb/manifests/init.pp to /home/groupb/backup/mgmt/backup-07-06-2022-14-10-01/code/modules/sudo/mariadb/manifests/init.pp
+2022/06/07 14:10:05 [18508] backed up code/modules/sudo/mariadb/manifests/install.pp to /home/groupb/backup/mgmt/backup-07-06-2022-14-10-01/code/modules/sudo/mariadb/manifests/install.pp
+2022/06/07 14:10:05 [18508] backed up code/modules/sudo/mariadb/manifests/service.pp to /home/groupb/backup/mgmt/backup-07-06-2022-14-10-01/code/modules/sudo/mariadb/manifests/service.pp
+2022/06/07 14:10:05 [18508] backed up code/modules/sudo/ntp_service/manifests/init.pp to /home/groupb/backup/mgmt/backup-07-06-2022-14-10-01/code/modules/sudo/ntp_service/manifests/init.pp
+2022/06/07 14:10:05 [18508] backed up code/modules/sudo/ntp_service/templates/ntp.conf.erb to /home/groupb/backup/mgmt/backup-07-06-2022-14-10-01/code/modules/sudo/ntp_service/templates/ntp.conf.erb
+2022/06/07 14:10:05 [18508] total: matches=4887  hash_hits=4887  false_alarms=0 data=27450
+2022/06/07 14:10:05 [18508] sent 53.48K bytes  received 39.41K bytes  61.93K bytes/sec
+2022/06/07 14:10:05 [18508] total size is 18.66M  speedup is 200.91
+2022/06/07 14:10:05 [18513] building file list
+2022/06/07 14:10:05 [18513] backup_dir is /home/groupb/backup/mgmt/backup-07-06-2022-14-10-01
+2022/06/07 14:10:05 [18513] delta-transmission enabled
+2022/06/07 14:10:05 [18513] puppet.conf is uptodate
+2022/06/07 14:10:05 [18513] total: matches=0  hash_hits=0  false_alarms=0 data=0
+2022/06/07 14:10:05 [18513] sent 56 bytes  received 148 bytes  408.00 bytes/sec
+2022/06/07 14:10:05 [18513] total size is 180  speedup is 0.88
+2022/06/07 18:10:02 [29462] building file list
+2022/06/07 18:10:02 [29462] (new) backup_dir is /home/groupb/backup/mgmt/backup-07-06-2022-18-10-01
+2022/06/07 18:10:02 [29462] delta-transmission enabled
+2022/06/07 18:10:02 [29462] node-exporter/LICENSE is uptodate
+2022/06/07 18:10:02 [29462] node-exporter/NOTICE is uptodate
+2022/06/07 18:10:02 [29462] node-exporter/node_exporter is uptodate
+2022/06/07 18:10:02 [29462] total: matches=0  hash_hits=0  false_alarms=0 data=0
+2022/06/07 18:10:02 [29462] sent 169 bytes  received 255 bytes  282.67 bytes/sec
+2022/06/07 18:10:02 [29462] total size is 18.24M  speedup is 43,020.63
+2022/06/07 18:10:03 [29464] building file list
+2022/06/07 18:10:03 [29464] (new) backup_dir is /home/groupb/backup/mgmt/backup-07-06-2022-18-10-01
+2022/06/07 18:10:03 [29464] delta-transmission enabled
+2022/06/07 18:10:03 [29464] nagios/nrpe.cfg is uptodate
+2022/06/07 18:10:03 [29464] nagios/nrpe_local.cfg is uptodate
+2022/06/07 18:10:03 [29464] total: matches=0  hash_hits=0  false_alarms=0 data=0
+2022/06/07 18:10:03 [29464] sent 161 bytes  received 207 bytes  245.33 bytes/sec
+2022/06/07 18:10:03 [29464] total size is 13.89K  speedup is 37.75
+2022/06/07 18:10:04 [29466] building file list
+2022/06/07 18:10:04 [29466] (new) backup_dir is /home/groupb/backup/mgmt/backup-07-06-2022-18-10-01
+2022/06/07 18:10:04 [29466] delta-transmission enabled
+2022/06/07 18:10:04 [29466] nagios3/apache2.conf is uptodate
+2022/06/07 18:10:04 [29466] nagios3/cgi.cfg is uptodate
+2022/06/07 18:10:04 [29466] nagios3/commands.cfg is uptodate
+2022/06/07 18:10:04 [29466] nagios3/htpasswd.users is uptodate
+2022/06/07 18:10:04 [29466] nagios3/nagios.cfg is uptodate
+2022/06/07 18:10:04 [29466] nagios3/nrpe.cfg is uptodate
+2022/06/07 18:10:04 [29466] nagios3/resource.cfg is uptodate
+2022/06/07 18:10:04 [29466] nagios3/conf.d/contacts_nagios2.cfg is uptodate
+2022/06/07 18:10:04 [29466] nagios3/conf.d/extinfo_nagios2.cfg is uptodate
+2022/06/07 18:10:04 [29466] nagios3/conf.d/generic-host_nagios2.cfg is uptodate
+2022/06/07 18:10:04 [29466] nagios3/conf.d/generic-service_nagios2.cfg is uptodate
+2022/06/07 18:10:04 [29466] nagios3/conf.d/hostgroups_nagios2.cfg is uptodate
+2022/06/07 18:10:04 [29466] nagios3/conf.d/localhost_nagios2.cfg is uptodate
+2022/06/07 18:10:04 [29466] nagios3/conf.d/ppt_contactgroups.cfg is uptodate
+2022/06/07 18:10:04 [29466] nagios3/conf.d/ppt_contacts.cfg is uptodate
+2022/06/07 18:10:04 [29466] nagios3/conf.d/ppt_hostgroups.cfg is uptodate
+2022/06/07 18:10:04 [29466] nagios3/conf.d/ppt_hosts.cfg is uptodate
+2022/06/07 18:10:04 [29466] nagios3/conf.d/ppt_services.cfg is uptodate
+2022/06/07 18:10:04 [29466] nagios3/conf.d/services_nagios2.cfg is uptodate
+2022/06/07 18:10:04 [29466] nagios3/conf.d/timeperiods_nagios2.cfg is uptodate
+2022/06/07 18:10:04 [29466] nagios3/stylesheets/avail.css is uptodate
+2022/06/07 18:10:04 [29466] nagios3/stylesheets/checksanity.css is uptodate
+2022/06/07 18:10:04 [29466] nagios3/stylesheets/cmd.css is uptodate
+2022/06/07 18:10:04 [29466] nagios3/stylesheets/common.css is uptodate
+2022/06/07 18:10:04 [29466] nagios3/stylesheets/config.css is uptodate
+2022/06/07 18:10:04 [29466] nagios3/stylesheets/extinfo.css is uptodate
+2022/06/07 18:10:04 [29466] nagios3/stylesheets/histogram.css is uptodate
+2022/06/07 18:10:04 [29466] nagios3/stylesheets/history.css is uptodate
+2022/06/07 18:10:04 [29466] nagios3/stylesheets/ministatus.css is uptodate
+2022/06/07 18:10:04 [29466] nagios3/stylesheets/notifications.css is uptodate
+2022/06/07 18:10:04 [29466] nagios3/stylesheets/outages.css is uptodate
+2022/06/07 18:10:04 [29466] nagios3/stylesheets/showlog.css is uptodate
+2022/06/07 18:10:04 [29466] nagios3/stylesheets/status.css is uptodate
+2022/06/07 18:10:04 [29466] nagios3/stylesheets/statusmap.css is uptodate
+2022/06/07 18:10:04 [29466] nagios3/stylesheets/summary.css is uptodate
+2022/06/07 18:10:04 [29466] nagios3/stylesheets/tac.css is uptodate
+2022/06/07 18:10:04 [29466] nagios3/stylesheets/trends.css is uptodate
+2022/06/07 18:10:04 [29466] total: matches=0  hash_hits=0  false_alarms=0 data=0
+2022/06/07 18:10:04 [29466] sent 1.23K bytes  received 1.99K bytes  2.15K bytes/sec
+2022/06/07 18:10:04 [29466] total size is 141.54K  speedup is 43.89
+2022/06/07 18:10:04 [29471] building file list
+2022/06/07 18:10:04 [29471] (new) backup_dir is /home/groupb/backup/mgmt/backup-07-06-2022-18-10-01
+2022/06/07 18:10:04 [29471] delta-transmission enabled
+2022/06/07 18:10:04 [29471] nagios-plugins/config/apt.cfg is uptodate
+2022/06/07 18:10:04 [29471] nagios-plugins/config/breeze.cfg is uptodate
+2022/06/07 18:10:04 [29471] nagios-plugins/config/check_nrpe.cfg is uptodate
+2022/06/07 18:10:04 [29471] nagios-plugins/config/check_puppet_agent is uptodate
+2022/06/07 18:10:04 [29471] nagios-plugins/config/check_service.sh is uptodate
+2022/06/07 18:10:04 [29471] nagios-plugins/config/dhcp.cfg is uptodate
+2022/06/07 18:10:04 [29471] nagios-plugins/config/disk-smb.cfg is uptodate
+2022/06/07 18:10:04 [29471] nagios-plugins/config/disk.cfg is uptodate
+2022/06/07 18:10:04 [29471] nagios-plugins/config/dns.cfg is uptodate
+2022/06/07 18:10:04 [29471] nagios-plugins/config/dummy.cfg is uptodate
+2022/06/07 18:10:04 [29471] nagios-plugins/config/flexlm.cfg is uptodate
+2022/06/07 18:10:04 [29471] nagios-plugins/config/fping.cfg is uptodate
+2022/06/07 18:10:04 [29471] nagios-plugins/config/ftp.cfg is uptodate
+2022/06/07 18:10:04 [29471] nagios-plugins/config/games.cfg is uptodate
+2022/06/07 18:10:04 [29471] nagios-plugins/config/hppjd.cfg is uptodate
+2022/06/07 18:10:04 [29471] nagios-plugins/config/http.cfg is uptodate
+2022/06/07 18:10:04 [29471] nagios-plugins/config/ifstatus.cfg is uptodate
+2022/06/07 18:10:04 [29471] nagios-plugins/config/ldap.cfg is uptodate
+2022/06/07 18:10:04 [29471] nagios-plugins/config/load.cfg is uptodate
+2022/06/07 18:10:04 [29471] nagios-plugins/config/mail.cfg is uptodate
+2022/06/07 18:10:04 [29471] nagios-plugins/config/mailq.cfg is uptodate
+2022/06/07 18:10:04 [29471] nagios-plugins/config/mrtg.cfg is uptodate
+2022/06/07 18:10:04 [29471] nagios-plugins/config/mysql.cfg is uptodate
+2022/06/07 18:10:04 [29471] nagios-plugins/config/netware.cfg is uptodate
+2022/06/07 18:10:04 [29471] nagios-plugins/config/news.cfg is uptodate
+2022/06/07 18:10:04 [29471] nagios-plugins/config/nt.cfg is uptodate
+2022/06/07 18:10:04 [29471] nagios-plugins/config/ntp.cfg is uptodate
+2022/06/07 18:10:04 [29471] nagios-plugins/config/pgsql.cfg is uptodate
+2022/06/07 18:10:04 [29471] nagios-plugins/config/ping.cfg is uptodate
+2022/06/07 18:10:04 [29471] nagios-plugins/config/procs.cfg is uptodate
+2022/06/07 18:10:04 [29471] nagios-plugins/config/real.cfg is uptodate
+2022/06/07 18:10:04 [29471] nagios-plugins/config/rpc-nfs.cfg is uptodate
+2022/06/07 18:10:04 [29471] nagios-plugins/config/slack.cfg is uptodate
+2022/06/07 18:10:04 [29471] nagios-plugins/config/snmp.cfg is uptodate
+2022/06/07 18:10:04 [29471] nagios-plugins/config/ssh.cfg is uptodate
+2022/06/07 18:10:04 [29471] nagios-plugins/config/tcp_udp.cfg is uptodate
+2022/06/07 18:10:04 [29471] nagios-plugins/config/telnet.cfg is uptodate
+2022/06/07 18:10:04 [29471] nagios-plugins/config/users.cfg is uptodate
+2022/06/07 18:10:04 [29471] nagios-plugins/config/check_mysql_health-2.2.2/AUTHORS is uptodate
+2022/06/07 18:10:04 [29471] nagios-plugins/config/check_mysql_health-2.2.2/COPYING is uptodate
+2022/06/07 18:10:04 [29471] nagios-plugins/config/check_mysql_health-2.2.2/ChangeLog is uptodate
+2022/06/07 18:10:04 [29471] nagios-plugins/config/check_mysql_health-2.2.2/INSTALL is uptodate
+2022/06/07 18:10:04 [29471] nagios-plugins/config/check_mysql_health-2.2.2/Makefile is uptodate
+2022/06/07 18:10:04 [29471] nagios-plugins/config/check_mysql_health-2.2.2/Makefile.am is uptodate
+2022/06/07 18:10:04 [29471] nagios-plugins/config/check_mysql_health-2.2.2/Makefile.in is uptodate
+2022/06/07 18:10:04 [29471] nagios-plugins/config/check_mysql_health-2.2.2/NEWS is uptodate
+2022/06/07 18:10:04 [29471] nagios-plugins/config/check_mysql_health-2.2.2/README is uptodate
+2022/06/07 18:10:04 [29471] nagios-plugins/config/check_mysql_health-2.2.2/TODO is uptodate
+2022/06/07 18:10:04 [29471] nagios-plugins/config/check_mysql_health-2.2.2/acinclude.m4 is uptodate
+2022/06/07 18:10:04 [29471] nagios-plugins/config/check_mysql_health-2.2.2/aclocal.m4 is uptodate
+2022/06/07 18:10:04 [29471] nagios-plugins/config/check_mysql_health-2.2.2/config.guess is uptodate
+2022/06/07 18:10:04 [29471] nagios-plugins/config/check_mysql_health-2.2.2/config.log is uptodate
+2022/06/07 18:10:04 [29471] nagios-plugins/config/check_mysql_health-2.2.2/config.status is uptodate
+2022/06/07 18:10:04 [29471] nagios-plugins/config/check_mysql_health-2.2.2/config.sub is uptodate
+2022/06/07 18:10:04 [29471] nagios-plugins/config/check_mysql_health-2.2.2/configure is uptodate
+2022/06/07 18:10:04 [29471] nagios-plugins/config/check_mysql_health-2.2.2/configure.ac is uptodate
+2022/06/07 18:10:04 [29471] nagios-plugins/config/check_mysql_health-2.2.2/install-sh is uptodate
+2022/06/07 18:10:04 [29471] nagios-plugins/config/check_mysql_health-2.2.2/missing is uptodate
+2022/06/07 18:10:04 [29471] nagios-plugins/config/check_mysql_health-2.2.2/contrib/CheckMySQLHealthExt1.pm is uptodate
+2022/06/07 18:10:04 [29471] nagios-plugins/config/check_mysql_health-2.2.2/contrib/README.my-extensions is uptodate
+2022/06/07 18:10:04 [29471] nagios-plugins/config/check_mysql_health-2.2.2/contrib/check_mysql_health.php is uptodate
+2022/06/07 18:10:04 [29471] nagios-plugins/config/check_mysql_health-2.2.2/plugins-scripts/Makefile is uptodate
+2022/06/07 18:10:04 [29471] nagios-plugins/config/check_mysql_health-2.2.2/plugins-scripts/Makefile.am is uptodate
+2022/06/07 18:10:04 [29471] nagios-plugins/config/check_mysql_health-2.2.2/plugins-scripts/Makefile.in is uptodate
+2022/06/07 18:10:04 [29471] nagios-plugins/config/check_mysql_health-2.2.2/plugins-scripts/check_mysql_health is uptodate
+2022/06/07 18:10:04 [29471] nagios-plugins/config/check_mysql_health-2.2.2/plugins-scripts/check_mysql_health.pl is uptodate
+2022/06/07 18:10:04 [29471] nagios-plugins/config/check_mysql_health-2.2.2/plugins-scripts/subst is uptodate
+2022/06/07 18:10:04 [29471] nagios-plugins/config/check_mysql_health-2.2.2/plugins-scripts/subst.in is uptodate
+2022/06/07 18:10:04 [29471] nagios-plugins/config/check_mysql_health-2.2.2/plugins-scripts/Nagios/Extraopts.pm is uptodate
+2022/06/07 18:10:04 [29471] nagios-plugins/config/check_mysql_health-2.2.2/plugins-scripts/Nagios/DBD/MySQL/Cluster.pm is uptodate
+2022/06/07 18:10:04 [29471] nagios-plugins/config/check_mysql_health-2.2.2/plugins-scripts/Nagios/DBD/MySQL/Server.pm is uptodate
+2022/06/07 18:10:04 [29471] nagios-plugins/config/check_mysql_health-2.2.2/plugins-scripts/Nagios/DBD/MySQL/Server/Instance.pm is uptodate
+2022/06/07 18:10:04 [29471] nagios-plugins/config/check_mysql_health-2.2.2/plugins-scripts/Nagios/DBD/MySQL/Server/Instance/Innodb.pm is uptodate
+2022/06/07 18:10:04 [29471] nagios-plugins/config/check_mysql_health-2.2.2/plugins-scripts/Nagios/DBD/MySQL/Server/Instance/Myisam.pm is uptodate
+2022/06/07 18:10:04 [29471] nagios-plugins/config/check_mysql_health-2.2.2/plugins-scripts/Nagios/DBD/MySQL/Server/Instance/Replication.pm is uptodate
+2022/06/07 18:10:04 [29471] nagios-plugins/config/check_mysql_health-2.2.2/t/Makefile is uptodate
+2022/06/07 18:10:04 [29471] nagios-plugins/config/check_mysql_health-2.2.2/t/Makefile.am is uptodate
+2022/06/07 18:10:04 [29471] nagios-plugins/config/check_mysql_health-2.2.2/t/Makefile.in is uptodate
+2022/06/07 18:10:04 [29471] nagios-plugins/config/check_mysql_health-2.2.2/t/check_mysql_health.t is uptodate
+2022/06/07 18:10:04 [29471] total: matches=0  hash_hits=0  false_alarms=0 data=0
+2022/06/07 18:10:04 [29471] sent 2.56K bytes  received 5.73K bytes  16.59K bytes/sec
+2022/06/07 18:10:04 [29471] total size is 796.14K  speedup is 96.00
+2022/06/07 18:10:05 [29473] building file list
+2022/06/07 18:10:05 [29473] (new) backup_dir is /home/groupb/backup/mgmt/backup-07-06-2022-18-10-01
+2022/06/07 18:10:05 [29473] delta-transmission enabled
+2022/06/07 18:10:05 [29473] code/environments/production/manifests/site.pp is uptodate
+2022/06/07 18:10:05 [29473] code/modules/github/manifests/config.pp is uptodate
+2022/06/07 18:10:05 [29473] code/modules/github/manifests/init.pp is uptodate
+2022/06/07 18:10:05 [29473] code/modules/github/manifests/install.pp is uptodate
+2022/06/07 18:10:05 [29473] code/modules/mariadb/files/50-server.cnf is uptodate
+2022/06/07 18:10:05 [29473] code/modules/mariadb/manifests/.config.pp.swp is uptodate
+2022/06/07 18:10:05 [29473] code/modules/mariadb/manifests/.install.pp.swp is uptodate
+2022/06/07 18:10:05 [29473] code/modules/mariadb/manifests/config.pp is uptodate
+2022/06/07 18:10:05 [29473] code/modules/mariadb/manifests/init.pp is uptodate
+2022/06/07 18:10:05 [29473] code/modules/mariadb/manifests/install.pp is uptodate
+2022/06/07 18:10:05 [29473] code/modules/mariadb/manifests/service.pp is uptodate
+2022/06/07 18:10:05 [29473] code/modules/nagios/files/htpasswd.users is uptodate
+2022/06/07 18:10:05 [29473] code/modules/nagios/files/nagios.cfg is uptodate
+2022/06/07 18:10:05 [29473] code/modules/nagios/manifests/config.pp is uptodate
+2022/06/07 18:10:05 [29473] code/modules/nagios/manifests/config.pp.save is uptodate
+2022/06/07 18:10:05 [29473] code/modules/nagios/manifests/init.pp is uptodate
+2022/06/07 18:10:05 [29473] code/modules/nagios/manifests/install.pp is uptodate
+2022/06/07 18:10:05 [29473] code/modules/nagios/manifests/nagios.pl is uptodate
+2022/06/07 18:10:05 [29473] code/modules/nagios/manifests/service.pp is uptodate
+2022/06/07 18:10:05 [29473] code/modules/node_exporter/files/node-exporter.service is uptodate
+2022/06/07 18:10:05 [29473] code/modules/node_exporter/files/node_exporter/LICENSE is uptodate
+2022/06/07 18:10:05 [29473] code/modules/node_exporter/files/node_exporter/NOTICE is uptodate
+2022/06/07 18:10:05 [29473] code/modules/node_exporter/files/node_exporter/node_exporter is uptodate
+2022/06/07 18:10:05 [29473] code/modules/node_exporter/manifests/config.pp is uptodate
+2022/06/07 18:10:05 [29473] code/modules/node_exporter/manifests/init.pp is uptodate
+2022/06/07 18:10:05 [29473] code/modules/nrpe/files/check_mysql_health-2.2.2.tar.gz is uptodate
+2022/06/07 18:10:05 [29473] code/modules/nrpe/files/check_service.sh is uptodate
+2022/06/07 18:10:05 [29473] code/modules/nrpe/files/nrpe.cfg is uptodate
+2022/06/07 18:10:05 [29473] code/modules/nrpe/files/mysql_health/check_mysql_health-2.2.2.tar.gz is uptodate
+2022/06/07 18:10:05 [29473] code/modules/nrpe/manifests/config.pp is uptodate
+2022/06/07 18:10:05 [29473] code/modules/nrpe/manifests/init.pp is uptodate
+2022/06/07 18:10:05 [29473] code/modules/nrpe/manifests/install.pp is uptodate
+2022/06/07 18:10:05 [29473] code/modules/nrpe/manifests/service.pp is uptodate
+2022/06/07 18:10:05 [29473] code/modules/nrpe_nagios/config.pp is uptodate
+2022/06/07 18:10:05 [29473] code/modules/nrpe_nagios/init.pp is uptodate
+2022/06/07 18:10:05 [29473] code/modules/nrpe_nagios/manifests/.config.pp.swp is uptodate
+2022/06/07 18:10:05 [29473] code/modules/nrpe_nagios/manifests/config.pp is uptodate
+2022/06/07 18:10:05 [29473] code/modules/nrpe_nagios/manifests/init.pp is uptodate
+2022/06/07 18:10:05 [29473] code/modules/nrpe_nagios/manifests/q is uptodate
+2022/06/07 18:10:05 [29473] code/modules/ntp_service/manifests/init.pp is uptodate
+2022/06/07 18:10:05 [29473] code/modules/ntp_service/templates/ntp.conf.erb is uptodate
+2022/06/07 18:10:05 [29473] code/modules/php/manifests/config.pp is uptodate
+2022/06/07 18:10:05 [29473] code/modules/php/manifests/init.pp is uptodate
+2022/06/07 18:10:05 [29473] code/modules/php/manifests/install.pp is uptodate
+2022/06/07 18:10:05 [29473] code/modules/rsync/backupfile is uptodate
+2022/06/07 18:10:05 [29473] code/modules/rsync/files/.rsync.log.swp is uptodate
+2022/06/07 18:10:05 [29473] code/modules/rsync/files/backupfile is uptodate
+2022/06/07 18:10:05 [29473] code/modules/rsync/files/backupfile.txt is uptodate
+2022/06/07 18:10:05 [29473] code/modules/rsync/files/daily.log is uptodate
+2022/06/07 18:10:05 [29473] code/modules/rsync/files/daily.sh is uptodate
+2022/06/07 18:10:05 [29473] code/modules/rsync/files/restore.sh is uptodate
+2022/06/07 18:10:05 [29473] code/modules/rsync/files/rsync.log is uptodate
+2022/06/07 18:10:05 [29473] code/modules/rsync/files/to_backup.txt is uptodate
+2022/06/07 18:10:05 [29473] code/modules/rsync/files/weekly.log is uptodate
+2022/06/07 18:10:05 [29473] code/modules/rsync/files/weekly.sh is uptodate
+2022/06/07 18:10:05 [29473] code/modules/rsync/manifests/.service.pp.swp is uptodate
+2022/06/07 18:10:05 [29473] code/modules/rsync/manifests/config.pp is uptodate
+2022/06/07 18:10:05 [29473] code/modules/rsync/manifests/init.pp is uptodate
+2022/06/07 18:10:05 [29473] code/modules/rsync/manifests/install.pp is uptodate
+2022/06/07 18:10:05 [29473] code/modules/rsync/manifests/service.pp is uptodate
+2022/06/07 18:10:05 [29473] code/modules/sudo/files/etc/sudoers is uptodate
+2022/06/07 18:10:05 [29473] code/modules/sudo/manifests/init.pp is uptodate
+2022/06/07 18:10:05 [29473] code/modules/sudo/mariadb/files/50-server.cnf is uptodate
+2022/06/07 18:10:05 [29473] code/modules/sudo/mariadb/manifests/config.pp is uptodate
+2022/06/07 18:10:05 [29473] code/modules/sudo/mariadb/manifests/init.pp is uptodate
+2022/06/07 18:10:05 [29473] code/modules/sudo/mariadb/manifests/install.pp is uptodate
+2022/06/07 18:10:05 [29473] code/modules/sudo/mariadb/manifests/service.pp is uptodate
+2022/06/07 18:10:05 [29473] code/modules/sudo/ntp_service/manifests/init.pp is uptodate
+2022/06/07 18:10:05 [29473] code/modules/sudo/ntp_service/templates/ntp.conf.erb is uptodate
+2022/06/07 18:10:05 [29473] total: matches=0  hash_hits=0  false_alarms=0 data=0
+2022/06/07 18:10:05 [29473] sent 3.93K bytes  received 4.54K bytes  5.64K bytes/sec
+2022/06/07 18:10:05 [29473] total size is 18.66M  speedup is 2,203.91
+2022/06/07 18:10:06 [29475] building file list
+2022/06/07 18:10:06 [29475] (new) backup_dir is /home/groupb/backup/mgmt/backup-07-06-2022-18-10-01
+2022/06/07 18:10:06 [29475] delta-transmission enabled
+2022/06/07 18:10:06 [29475] puppet.conf is uptodate
+2022/06/07 18:10:06 [29475] total: matches=0  hash_hits=0  false_alarms=0 data=0
+2022/06/07 18:10:06 [29475] sent 56 bytes  received 154 bytes  140.00 bytes/sec
+2022/06/07 18:10:06 [29475] total size is 180  speedup is 0.86
+2022/06/07 22:10:02 [7887] building file list
+2022/06/07 22:10:02 [7887] (new) backup_dir is /home/groupb/backup/mgmt/backup-07-06-2022-22-10-01
+2022/06/07 22:10:02 [7887] delta-transmission enabled
+2022/06/07 22:10:02 [7887] node-exporter/LICENSE is uptodate
+2022/06/07 22:10:02 [7887] node-exporter/NOTICE is uptodate
+2022/06/07 22:10:02 [7887] node-exporter/node_exporter is uptodate
+2022/06/07 22:10:02 [7887] total: matches=0  hash_hits=0  false_alarms=0 data=0
+2022/06/07 22:10:02 [7887] sent 169 bytes  received 255 bytes  282.67 bytes/sec
+2022/06/07 22:10:02 [7887] total size is 18.24M  speedup is 43,020.63
+2022/06/07 22:10:03 [7889] building file list
+2022/06/07 22:10:03 [7889] (new) backup_dir is /home/groupb/backup/mgmt/backup-07-06-2022-22-10-01
+2022/06/07 22:10:03 [7889] delta-transmission enabled
+2022/06/07 22:10:03 [7889] nagios/nrpe.cfg is uptodate
+2022/06/07 22:10:03 [7889] nagios/nrpe_local.cfg is uptodate
+2022/06/07 22:10:03 [7889] total: matches=0  hash_hits=0  false_alarms=0 data=0
+2022/06/07 22:10:03 [7889] sent 161 bytes  received 207 bytes  245.33 bytes/sec
+2022/06/07 22:10:03 [7889] total size is 13.89K  speedup is 37.75
+2022/06/07 22:10:03 [7891] building file list
+2022/06/07 22:10:03 [7891] (new) backup_dir is /home/groupb/backup/mgmt/backup-07-06-2022-22-10-01
+2022/06/07 22:10:03 [7891] delta-transmission enabled
+2022/06/07 22:10:03 [7891] nagios3/apache2.conf is uptodate
+2022/06/07 22:10:03 [7891] nagios3/cgi.cfg is uptodate
+2022/06/07 22:10:03 [7891] nagios3/commands.cfg is uptodate
+2022/06/07 22:10:03 [7891] nagios3/htpasswd.users is uptodate
+2022/06/07 22:10:03 [7891] nagios3/nagios.cfg is uptodate
+2022/06/07 22:10:03 [7891] nagios3/nrpe.cfg is uptodate
+2022/06/07 22:10:03 [7891] nagios3/resource.cfg is uptodate
+2022/06/07 22:10:03 [7891] nagios3/conf.d/contacts_nagios2.cfg is uptodate
+2022/06/07 22:10:03 [7891] nagios3/conf.d/extinfo_nagios2.cfg is uptodate
+2022/06/07 22:10:03 [7891] nagios3/conf.d/generic-host_nagios2.cfg is uptodate
+2022/06/07 22:10:03 [7891] nagios3/conf.d/generic-service_nagios2.cfg is uptodate
+2022/06/07 22:10:03 [7891] nagios3/conf.d/hostgroups_nagios2.cfg is uptodate
+2022/06/07 22:10:03 [7891] nagios3/conf.d/localhost_nagios2.cfg is uptodate
+2022/06/07 22:10:03 [7891] nagios3/conf.d/ppt_contactgroups.cfg is uptodate
+2022/06/07 22:10:03 [7891] nagios3/conf.d/ppt_contacts.cfg is uptodate
+2022/06/07 22:10:03 [7891] nagios3/conf.d/ppt_hostgroups.cfg is uptodate
+2022/06/07 22:10:03 [7891] nagios3/conf.d/ppt_hosts.cfg is uptodate
+2022/06/07 22:10:03 [7891] nagios3/conf.d/ppt_services.cfg is uptodate
+2022/06/07 22:10:03 [7891] nagios3/conf.d/services_nagios2.cfg is uptodate
+2022/06/07 22:10:03 [7891] nagios3/conf.d/timeperiods_nagios2.cfg is uptodate
+2022/06/07 22:10:03 [7891] nagios3/stylesheets/avail.css is uptodate
+2022/06/07 22:10:03 [7891] nagios3/stylesheets/checksanity.css is uptodate
+2022/06/07 22:10:03 [7891] nagios3/stylesheets/cmd.css is uptodate
+2022/06/07 22:10:03 [7891] nagios3/stylesheets/common.css is uptodate
+2022/06/07 22:10:03 [7891] nagios3/stylesheets/config.css is uptodate
+2022/06/07 22:10:03 [7891] nagios3/stylesheets/extinfo.css is uptodate
+2022/06/07 22:10:03 [7891] nagios3/stylesheets/histogram.css is uptodate
+2022/06/07 22:10:03 [7891] nagios3/stylesheets/history.css is uptodate
+2022/06/07 22:10:03 [7891] nagios3/stylesheets/ministatus.css is uptodate
+2022/06/07 22:10:03 [7891] nagios3/stylesheets/notifications.css is uptodate
+2022/06/07 22:10:03 [7891] nagios3/stylesheets/outages.css is uptodate
+2022/06/07 22:10:03 [7891] nagios3/stylesheets/showlog.css is uptodate
+2022/06/07 22:10:03 [7891] nagios3/stylesheets/status.css is uptodate
+2022/06/07 22:10:03 [7891] nagios3/stylesheets/statusmap.css is uptodate
+2022/06/07 22:10:03 [7891] nagios3/stylesheets/summary.css is uptodate
+2022/06/07 22:10:03 [7891] nagios3/stylesheets/tac.css is uptodate
+2022/06/07 22:10:03 [7891] nagios3/stylesheets/trends.css is uptodate
+2022/06/07 22:10:03 [7891] total: matches=0  hash_hits=0  false_alarms=0 data=0
+2022/06/07 22:10:03 [7891] sent 1.24K bytes  received 1.99K bytes  6.46K bytes/sec
+2022/06/07 22:10:03 [7891] total size is 141.54K  speedup is 43.83
+2022/06/07 22:10:04 [7893] building file list
+2022/06/07 22:10:04 [7893] (new) backup_dir is /home/groupb/backup/mgmt/backup-07-06-2022-22-10-01
+2022/06/07 22:10:04 [7893] delta-transmission enabled
+2022/06/07 22:10:04 [7893] nagios-plugins/config/apt.cfg is uptodate
+2022/06/07 22:10:04 [7893] nagios-plugins/config/breeze.cfg is uptodate
+2022/06/07 22:10:04 [7893] nagios-plugins/config/check_nrpe.cfg is uptodate
+2022/06/07 22:10:04 [7893] nagios-plugins/config/check_puppet_agent is uptodate
+2022/06/07 22:10:04 [7893] nagios-plugins/config/check_service.sh is uptodate
+2022/06/07 22:10:04 [7893] nagios-plugins/config/dhcp.cfg is uptodate
+2022/06/07 22:10:04 [7893] nagios-plugins/config/disk-smb.cfg is uptodate
+2022/06/07 22:10:04 [7893] nagios-plugins/config/disk.cfg is uptodate
+2022/06/07 22:10:04 [7893] nagios-plugins/config/dns.cfg is uptodate
+2022/06/07 22:10:04 [7893] nagios-plugins/config/dummy.cfg is uptodate
+2022/06/07 22:10:04 [7893] nagios-plugins/config/flexlm.cfg is uptodate
+2022/06/07 22:10:04 [7893] nagios-plugins/config/fping.cfg is uptodate
+2022/06/07 22:10:04 [7893] nagios-plugins/config/ftp.cfg is uptodate
+2022/06/07 22:10:04 [7893] nagios-plugins/config/games.cfg is uptodate
+2022/06/07 22:10:04 [7893] nagios-plugins/config/hppjd.cfg is uptodate
+2022/06/07 22:10:04 [7893] nagios-plugins/config/http.cfg is uptodate
+2022/06/07 22:10:04 [7893] nagios-plugins/config/ifstatus.cfg is uptodate
+2022/06/07 22:10:04 [7893] nagios-plugins/config/ldap.cfg is uptodate
+2022/06/07 22:10:04 [7893] nagios-plugins/config/load.cfg is uptodate
+2022/06/07 22:10:04 [7893] nagios-plugins/config/mail.cfg is uptodate
+2022/06/07 22:10:04 [7893] nagios-plugins/config/mailq.cfg is uptodate
+2022/06/07 22:10:04 [7893] nagios-plugins/config/mrtg.cfg is uptodate
+2022/06/07 22:10:04 [7893] nagios-plugins/config/mysql.cfg is uptodate
+2022/06/07 22:10:04 [7893] nagios-plugins/config/netware.cfg is uptodate
+2022/06/07 22:10:04 [7893] nagios-plugins/config/news.cfg is uptodate
+2022/06/07 22:10:04 [7893] nagios-plugins/config/nt.cfg is uptodate
+2022/06/07 22:10:04 [7893] nagios-plugins/config/ntp.cfg is uptodate
+2022/06/07 22:10:04 [7893] nagios-plugins/config/pgsql.cfg is uptodate
+2022/06/07 22:10:04 [7893] nagios-plugins/config/ping.cfg is uptodate
+2022/06/07 22:10:04 [7893] nagios-plugins/config/procs.cfg is uptodate
+2022/06/07 22:10:04 [7893] nagios-plugins/config/real.cfg is uptodate
+2022/06/07 22:10:04 [7893] nagios-plugins/config/rpc-nfs.cfg is uptodate
+2022/06/07 22:10:04 [7893] nagios-plugins/config/slack.cfg is uptodate
+2022/06/07 22:10:04 [7893] nagios-plugins/config/snmp.cfg is uptodate
+2022/06/07 22:10:04 [7893] nagios-plugins/config/ssh.cfg is uptodate
+2022/06/07 22:10:04 [7893] nagios-plugins/config/tcp_udp.cfg is uptodate
+2022/06/07 22:10:04 [7893] nagios-plugins/config/telnet.cfg is uptodate
+2022/06/07 22:10:04 [7893] nagios-plugins/config/users.cfg is uptodate
+2022/06/07 22:10:04 [7893] nagios-plugins/config/check_mysql_health-2.2.2/AUTHORS is uptodate
+2022/06/07 22:10:04 [7893] nagios-plugins/config/check_mysql_health-2.2.2/COPYING is uptodate
+2022/06/07 22:10:04 [7893] nagios-plugins/config/check_mysql_health-2.2.2/ChangeLog is uptodate
+2022/06/07 22:10:04 [7893] nagios-plugins/config/check_mysql_health-2.2.2/INSTALL is uptodate
+2022/06/07 22:10:04 [7893] nagios-plugins/config/check_mysql_health-2.2.2/Makefile is uptodate
+2022/06/07 22:10:04 [7893] nagios-plugins/config/check_mysql_health-2.2.2/Makefile.am is uptodate
+2022/06/07 22:10:04 [7893] nagios-plugins/config/check_mysql_health-2.2.2/Makefile.in is uptodate
+2022/06/07 22:10:04 [7893] nagios-plugins/config/check_mysql_health-2.2.2/NEWS is uptodate
+2022/06/07 22:10:04 [7893] nagios-plugins/config/check_mysql_health-2.2.2/README is uptodate
+2022/06/07 22:10:04 [7893] nagios-plugins/config/check_mysql_health-2.2.2/TODO is uptodate
+2022/06/07 22:10:04 [7893] nagios-plugins/config/check_mysql_health-2.2.2/acinclude.m4 is uptodate
+2022/06/07 22:10:04 [7893] nagios-plugins/config/check_mysql_health-2.2.2/aclocal.m4 is uptodate
+2022/06/07 22:10:04 [7893] nagios-plugins/config/check_mysql_health-2.2.2/config.guess is uptodate
+2022/06/07 22:10:04 [7893] nagios-plugins/config/check_mysql_health-2.2.2/config.log is uptodate
+2022/06/07 22:10:04 [7893] nagios-plugins/config/check_mysql_health-2.2.2/config.status is uptodate
+2022/06/07 22:10:04 [7893] nagios-plugins/config/check_mysql_health-2.2.2/config.sub is uptodate
+2022/06/07 22:10:04 [7893] nagios-plugins/config/check_mysql_health-2.2.2/configure is uptodate
+2022/06/07 22:10:04 [7893] nagios-plugins/config/check_mysql_health-2.2.2/configure.ac is uptodate
+2022/06/07 22:10:04 [7893] nagios-plugins/config/check_mysql_health-2.2.2/install-sh is uptodate
+2022/06/07 22:10:04 [7893] nagios-plugins/config/check_mysql_health-2.2.2/missing is uptodate
+2022/06/07 22:10:04 [7893] nagios-plugins/config/check_mysql_health-2.2.2/contrib/CheckMySQLHealthExt1.pm is uptodate
+2022/06/07 22:10:04 [7893] nagios-plugins/config/check_mysql_health-2.2.2/contrib/README.my-extensions is uptodate
+2022/06/07 22:10:04 [7893] nagios-plugins/config/check_mysql_health-2.2.2/contrib/check_mysql_health.php is uptodate
+2022/06/07 22:10:04 [7893] nagios-plugins/config/check_mysql_health-2.2.2/plugins-scripts/Makefile is uptodate
+2022/06/07 22:10:04 [7893] nagios-plugins/config/check_mysql_health-2.2.2/plugins-scripts/Makefile.am is uptodate
+2022/06/07 22:10:04 [7893] nagios-plugins/config/check_mysql_health-2.2.2/plugins-scripts/Makefile.in is uptodate
+2022/06/07 22:10:04 [7893] nagios-plugins/config/check_mysql_health-2.2.2/plugins-scripts/check_mysql_health is uptodate
+2022/06/07 22:10:04 [7893] nagios-plugins/config/check_mysql_health-2.2.2/plugins-scripts/check_mysql_health.pl is uptodate
+2022/06/07 22:10:04 [7893] nagios-plugins/config/check_mysql_health-2.2.2/plugins-scripts/subst is uptodate
+2022/06/07 22:10:04 [7893] nagios-plugins/config/check_mysql_health-2.2.2/plugins-scripts/subst.in is uptodate
+2022/06/07 22:10:04 [7893] nagios-plugins/config/check_mysql_health-2.2.2/plugins-scripts/Nagios/Extraopts.pm is uptodate
+2022/06/07 22:10:04 [7893] nagios-plugins/config/check_mysql_health-2.2.2/plugins-scripts/Nagios/DBD/MySQL/Cluster.pm is uptodate
+2022/06/07 22:10:04 [7893] nagios-plugins/config/check_mysql_health-2.2.2/plugins-scripts/Nagios/DBD/MySQL/Server.pm is uptodate
+2022/06/07 22:10:04 [7893] nagios-plugins/config/check_mysql_health-2.2.2/plugins-scripts/Nagios/DBD/MySQL/Server/Instance.pm is uptodate
+2022/06/07 22:10:04 [7893] nagios-plugins/config/check_mysql_health-2.2.2/plugins-scripts/Nagios/DBD/MySQL/Server/Instance/Innodb.pm is uptodate
+2022/06/07 22:10:04 [7893] nagios-plugins/config/check_mysql_health-2.2.2/plugins-scripts/Nagios/DBD/MySQL/Server/Instance/Myisam.pm is uptodate
+2022/06/07 22:10:04 [7893] nagios-plugins/config/check_mysql_health-2.2.2/plugins-scripts/Nagios/DBD/MySQL/Server/Instance/Replication.pm is uptodate
+2022/06/07 22:10:04 [7893] nagios-plugins/config/check_mysql_health-2.2.2/t/Makefile is uptodate
+2022/06/07 22:10:04 [7893] nagios-plugins/config/check_mysql_health-2.2.2/t/Makefile.am is uptodate
+2022/06/07 22:10:04 [7893] nagios-plugins/config/check_mysql_health-2.2.2/t/Makefile.in is uptodate
+2022/06/07 22:10:04 [7893] nagios-plugins/config/check_mysql_health-2.2.2/t/check_mysql_health.t is uptodate
+2022/06/07 22:10:04 [7893] total: matches=0  hash_hits=0  false_alarms=0 data=0
+2022/06/07 22:10:04 [7893] sent 2.56K bytes  received 5.73K bytes  5.53K bytes/sec
+2022/06/07 22:10:04 [7893] total size is 796.14K  speedup is 96.00
+2022/06/07 22:10:04 [7895] building file list
+2022/06/07 22:10:04 [7895] (new) backup_dir is /home/groupb/backup/mgmt/backup-07-06-2022-22-10-01
+2022/06/07 22:10:04 [7895] delta-transmission enabled
+2022/06/07 22:10:04 [7895] code/environments/production/manifests/site.pp is uptodate
+2022/06/07 22:10:04 [7895] code/modules/github/manifests/config.pp is uptodate
+2022/06/07 22:10:04 [7895] code/modules/github/manifests/init.pp is uptodate
+2022/06/07 22:10:04 [7895] code/modules/github/manifests/install.pp is uptodate
+2022/06/07 22:10:04 [7895] code/modules/mariadb/files/50-server.cnf is uptodate
+2022/06/07 22:10:04 [7895] code/modules/mariadb/manifests/.config.pp.swp is uptodate
+2022/06/07 22:10:04 [7895] code/modules/mariadb/manifests/.install.pp.swp is uptodate
+2022/06/07 22:10:04 [7895] code/modules/mariadb/manifests/config.pp is uptodate
+2022/06/07 22:10:04 [7895] code/modules/mariadb/manifests/init.pp is uptodate
+2022/06/07 22:10:04 [7895] code/modules/mariadb/manifests/install.pp is uptodate
+2022/06/07 22:10:04 [7895] code/modules/mariadb/manifests/service.pp is uptodate
+2022/06/07 22:10:04 [7895] code/modules/nagios/files/htpasswd.users is uptodate
+2022/06/07 22:10:04 [7895] code/modules/nagios/files/nagios.cfg is uptodate
+2022/06/07 22:10:04 [7895] code/modules/nagios/manifests/config.pp is uptodate
+2022/06/07 22:10:04 [7895] code/modules/nagios/manifests/config.pp.save is uptodate
+2022/06/07 22:10:04 [7895] code/modules/nagios/manifests/init.pp is uptodate
+2022/06/07 22:10:04 [7895] code/modules/nagios/manifests/install.pp is uptodate
+2022/06/07 22:10:04 [7895] code/modules/nagios/manifests/nagios.pl is uptodate
+2022/06/07 22:10:04 [7895] code/modules/nagios/manifests/service.pp is uptodate
+2022/06/07 22:10:04 [7895] code/modules/node_exporter/files/node-exporter.service is uptodate
+2022/06/07 22:10:04 [7895] code/modules/node_exporter/files/node_exporter/LICENSE is uptodate
+2022/06/07 22:10:04 [7895] code/modules/node_exporter/files/node_exporter/NOTICE is uptodate
+2022/06/07 22:10:04 [7895] code/modules/node_exporter/files/node_exporter/node_exporter is uptodate
+2022/06/07 22:10:04 [7895] code/modules/node_exporter/manifests/config.pp is uptodate
+2022/06/07 22:10:04 [7895] code/modules/node_exporter/manifests/init.pp is uptodate
+2022/06/07 22:10:04 [7895] code/modules/nrpe/files/check_mysql_health-2.2.2.tar.gz is uptodate
+2022/06/07 22:10:04 [7895] code/modules/nrpe/files/check_service.sh is uptodate
+2022/06/07 22:10:04 [7895] code/modules/nrpe/files/nrpe.cfg is uptodate
+2022/06/07 22:10:04 [7895] code/modules/nrpe/files/mysql_health/check_mysql_health-2.2.2.tar.gz is uptodate
+2022/06/07 22:10:04 [7895] code/modules/nrpe/manifests/config.pp is uptodate
+2022/06/07 22:10:04 [7895] code/modules/nrpe/manifests/init.pp is uptodate
+2022/06/07 22:10:04 [7895] code/modules/nrpe/manifests/install.pp is uptodate
+2022/06/07 22:10:04 [7895] code/modules/nrpe/manifests/service.pp is uptodate
+2022/06/07 22:10:04 [7895] code/modules/nrpe_nagios/config.pp is uptodate
+2022/06/07 22:10:04 [7895] code/modules/nrpe_nagios/init.pp is uptodate
+2022/06/07 22:10:04 [7895] code/modules/nrpe_nagios/manifests/.config.pp.swp is uptodate
+2022/06/07 22:10:04 [7895] code/modules/nrpe_nagios/manifests/config.pp is uptodate
+2022/06/07 22:10:04 [7895] code/modules/nrpe_nagios/manifests/init.pp is uptodate
+2022/06/07 22:10:04 [7895] code/modules/nrpe_nagios/manifests/q is uptodate
+2022/06/07 22:10:04 [7895] code/modules/ntp_service/manifests/init.pp is uptodate
+2022/06/07 22:10:04 [7895] code/modules/ntp_service/templates/ntp.conf.erb is uptodate
+2022/06/07 22:10:04 [7895] code/modules/php/manifests/config.pp is uptodate
+2022/06/07 22:10:04 [7895] code/modules/php/manifests/init.pp is uptodate
+2022/06/07 22:10:04 [7895] code/modules/php/manifests/install.pp is uptodate
+2022/06/07 22:10:04 [7895] code/modules/rsync/backupfile is uptodate
+2022/06/07 22:10:04 [7895] code/modules/rsync/files/.rsync.log.swp is uptodate
+2022/06/07 22:10:04 [7895] code/modules/rsync/files/backupfile is uptodate
+2022/06/07 22:10:04 [7895] code/modules/rsync/files/backupfile.txt is uptodate
+2022/06/07 22:10:04 [7895] code/modules/rsync/files/daily.log is uptodate
+2022/06/07 22:10:04 [7895] code/modules/rsync/files/daily.sh is uptodate
+2022/06/07 22:10:04 [7895] code/modules/rsync/files/restore.sh is uptodate
+2022/06/07 22:10:04 [7895] code/modules/rsync/files/rsync.log is uptodate
+2022/06/07 22:10:04 [7895] code/modules/rsync/files/to_backup.txt is uptodate
+2022/06/07 22:10:04 [7895] code/modules/rsync/files/weekly.log is uptodate
+2022/06/07 22:10:04 [7895] code/modules/rsync/files/weekly.sh is uptodate
+2022/06/07 22:10:04 [7895] code/modules/rsync/manifests/.service.pp.swp is uptodate
+2022/06/07 22:10:04 [7895] code/modules/rsync/manifests/config.pp is uptodate
+2022/06/07 22:10:04 [7895] code/modules/rsync/manifests/init.pp is uptodate
+2022/06/07 22:10:04 [7895] code/modules/rsync/manifests/install.pp is uptodate
+2022/06/07 22:10:04 [7895] code/modules/rsync/manifests/service.pp is uptodate
+2022/06/07 22:10:04 [7895] code/modules/sudo/files/etc/sudoers is uptodate
+2022/06/07 22:10:04 [7895] code/modules/sudo/manifests/init.pp is uptodate
+2022/06/07 22:10:04 [7895] code/modules/sudo/mariadb/files/50-server.cnf is uptodate
+2022/06/07 22:10:04 [7895] code/modules/sudo/mariadb/manifests/config.pp is uptodate
+2022/06/07 22:10:04 [7895] code/modules/sudo/mariadb/manifests/init.pp is uptodate
+2022/06/07 22:10:04 [7895] code/modules/sudo/mariadb/manifests/install.pp is uptodate
+2022/06/07 22:10:04 [7895] code/modules/sudo/mariadb/manifests/service.pp is uptodate
+2022/06/07 22:10:04 [7895] code/modules/sudo/ntp_service/manifests/init.pp is uptodate
+2022/06/07 22:10:04 [7895] code/modules/sudo/ntp_service/templates/ntp.conf.erb is uptodate
+2022/06/07 22:10:04 [7895] total: matches=0  hash_hits=0  false_alarms=0 data=0
+2022/06/07 22:10:04 [7895] sent 3.93K bytes  received 4.54K bytes  16.94K bytes/sec
+2022/06/07 22:10:04 [7895] total size is 18.66M  speedup is 2,203.91
+2022/06/07 22:10:05 [7900] building file list
+2022/06/07 22:10:05 [7900] (new) backup_dir is /home/groupb/backup/mgmt/backup-07-06-2022-22-10-01
+2022/06/07 22:10:05 [7900] delta-transmission enabled
+2022/06/07 22:10:05 [7900] puppet.conf is uptodate
+2022/06/07 22:10:05 [7900] total: matches=0  hash_hits=0  false_alarms=0 data=0
+2022/06/07 22:10:05 [7900] sent 56 bytes  received 154 bytes  140.00 bytes/sec
+2022/06/07 22:10:05 [7900] total size is 180  speedup is 0.86

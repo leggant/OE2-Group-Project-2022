@@ -388,3 +388,32 @@ Jun  7 10:29:45 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;app-b.foo.or
 Jun  7 10:58:15 mgmt-b nagios3: Auto-save of retention data completed successfully.
 Jun  7 10:59:45 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;check users-login;OK;HARD;3;USERS OK - 0 users currently logged in
 Jun  7 11:29:45 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;check users-login;WARNING;SOFT;1;USERS WARNING - 1 users currently logged in
+Jun  7 11:30:45 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;check users-login;WARNING;SOFT;2;USERS WARNING - 1 users currently logged in
+Jun  7 11:31:45 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;check users-login;WARNING;HARD;3;USERS WARNING - 1 users currently logged in
+Jun  7 11:31:45 mgmt-b nagios3: SERVICE NOTIFICATION: slack;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+Jun  7 11:31:45 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+Jun  7 11:31:45 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+Jun  7 11:58:15 mgmt-b nagios3: Auto-save of retention data completed successfully.
+Jun  7 12:01:45 mgmt-b nagios3: SERVICE NOTIFICATION: slack;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+Jun  7 12:01:45 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+Jun  7 12:01:45 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+Jun  7 12:31:45 mgmt-b nagios3: SERVICE NOTIFICATION: slack;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+Jun  7 12:31:45 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+Jun  7 12:31:45 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+Jun  7 12:58:15 mgmt-b nagios3: Auto-save of retention data completed successfully.
+Jun  7 13:01:45 mgmt-b nagios3: SERVICE NOTIFICATION: slack;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+Jun  7 13:01:45 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+Jun  7 13:01:46 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+Jun  7 13:31:45 mgmt-b nagios3: SERVICE NOTIFICATION: slack;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+Jun  7 13:31:45 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+Jun  7 13:31:45 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+Jun  7 13:41:45 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;check users-login;OK;HARD;3;USERS OK - 0 users currently logged in
+Jun  7 13:58:15 mgmt-b nagios3: Auto-save of retention data completed successfully.
+Jun  7 14:58:15 mgmt-b nagios3: Auto-save of retention data completed successfully.
+Jun  7 15:58:15 mgmt-b nagios3: Auto-save of retention data completed successfully.
+Jun  7 16:58:15 mgmt-b nagios3: Auto-save of retention data completed successfully.
+Jun  7 17:58:15 mgmt-b nagios3: Auto-save of retention data completed successfully.
+Jun  7 18:58:15 mgmt-b nagios3: Auto-save of retention data completed successfully.
+Jun  7 19:58:15 mgmt-b nagios3: Auto-save of retention data completed successfully.
+Jun  7 20:58:15 mgmt-b nagios3: Auto-save of retention data completed successfully.
+Jun  7 21:58:15 mgmt-b nagios3: Auto-save of retention data completed successfully.
