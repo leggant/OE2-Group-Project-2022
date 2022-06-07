@@ -998,3 +998,93 @@ respup
 statpup
 statnr
 history -w
+sudo -i
+ls
+sudo -i
+cd /var/www/owncloud
+sudo -u www-data php occ user:help
+sudo -u www-data php occ user:sync
+sudo -u www-data php occ user:sync Anthony
+sudo -u www-data php occ user:setting
+sudo -u www-data php occ user:enable Anthony
+sudo -u www-data php occ user:enable Mohammed
+sudo -u www-data php occ user:move-home 
+sudo -u www-data php occ user:move-home Anthony Anthony
+sudo -u www-data php occ user:move-home Anthony ./Anthony
+sudo -u www-data php occ user:add TestUser
+ls -al
+cd data/
+sudo -i
+cd /var/www/owncloud
+sudo -u www-data php occ user:enable TestUser
+sudo -i
+ls -al
+sudo -i
+sudo -u www-data php occ user:enable TestUser
+sudo -u www-data php occ user
+sudo -u www-data php occ user:home:list-users
+sudo -u www-data php occ user:home:list-users .
+sudo -u www-data php occ user:report
+sudo -u www-data php occ user:sync 
+./occ
+ls
+sudo -i
+sudo -u www-data php occ user:
+sudo -u www-data php occ user:delete TestUser
+sudo -u www-data php occ user:setting admin
+sudo -u www-data php occ user:lsit
+sudo -u www-data php occ user:list
+sudo -u www-data php occ user:modify admin
+sudo -u www-data php occ user:modify admin --help
+sudo -u www-data php occ user:
+sudo -u www-data php occ user:delete admin
+sudo -u www-data php occ user:modify admin2 displayname=admin
+sudo -u www-data php occ user:modify admin2 --help
+sudo -u www-data php occ user:modify --uid=admin2
+sudo -u www-data php occ user:modify admin2
+sudo -u www-data php occ user:modify admin2 displayname admin
+sudo -u www-data php occ user:lsit
+sudo -u www-data php occ user:list
+sudo -u www-data php occ user:list-groups
+sudo -u www-data php occ user:list-groups admin2
+sudo -u www-data php occ user:modify admin2 displayname admin group uid admin
+sudo -u www-data php occ user:modify admin group admin
+sudo -u www-data php occ user:list
+sudo -u www-data php occ user:enable admin2
+cd data
+sudo -i
+sudo -u www-data php occ user:
+sudo -u www-data php occ user:delete Anthony
+sudo -u www-data php occ user:delete Mohammed
+sudo -u www-data php occ user:delete Group-B
+sudo -u www-data php occ user:add Group-B
+sudo -u www-data php occ user:enable Group-B
+sudo -u www-data php occ user:add Anthony
+sudo -u www-data php occ user:enable Anthony
+sudo -u www-data php occ user:add Mohammed
+sudo -u www-data php occ user:enable Mohammed
+sudo -i
+sudo -u www-data php occ user:enable Mohammed
+sudo -u www-data php occ user:
+sudo -u www-data php occ user:sync
+sudo -u www-data php occ user:sync Anthony
+sudo -u www-data php occ user:list
+cd data/
+sudo -i
+sudo -u www-data php occ user:sync Anthony
+sudo -u www-data php occ user:add Anthony
+sudo -u www-data php occ user:delete Anthony
+sudo -u www-data php occ user:
+sudo -u www-data php occ user:list
+sudo -u www-data php occ user:delete Group-B
+sudo -u www-data php occ user:delete Mohammed
+sudo -u www-data php occ user:enable Mohammed
+sudo -u www-data php occ user:enable Anthony
+sudo -i
+buapp
+cd /etc/backup
+ls
+./restore.sh 
+./daily.sh 
+./restore.sh 
+exit
