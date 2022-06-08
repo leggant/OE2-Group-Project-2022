@@ -1,8 +1,4 @@
 sudo mysql -u root -p
-statpup
-stat mysql
-res mysql
-sudo mysql -u root -p
 res mysql
 sudo mysql -u root -p
 respup
@@ -1998,3 +1994,7 @@ ls
 statpup
 resnr
 ssh bitstudent@app-b.foo.org.nz
+cd /etc/puppet/
+ls
+sudo -i
+sudo service ntp status
