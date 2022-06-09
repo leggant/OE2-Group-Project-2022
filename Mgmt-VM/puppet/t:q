@@ -1,0 +1,20 @@
+[0;1;32m●[0m puppet.service - Puppet agent
+   Loaded: loaded (/lib/systemd/system/puppet.service; enabled; vendor preset: enabled)
+   Active: [0;1;32mactive (running)[0m since Wed 2022-06-08 06:59:21 UTC; 51s ago
+     Docs: man:puppet-agent(8)
+  Process: 22141 ExecStart=/usr/bin/puppet agent (code=exited, status=0/SUCCESS)
+ Main PID: 22165 (puppet)
+    Tasks: 2 (limit: 1050)
+   CGroup: /system.slice/puppet.service
+           └─22165 /usr/bin/ruby /usr/bin/puppet agent
+
+Jun 08 06:59:23 mgmt-b.foo.org.nz puppet-agent[22172]: [0;1;39m[0;1;31m[0;1;39m(/Stage[main]/Nagios::Service/Service[nagios3]) Dependency File[/etc/nagios3/htpasswd.users] has failures: true[0m
+Jun 08 06:59:23 mgmt-b.foo.org.nz puppet-agent[22172]: [0;1;39m[0;1;31m[0;1;39m(/Stage[main]/Nagios::Service/Service[nagios3]) Skipping because of failed dependencies[0m
+Jun 08 06:59:23 mgmt-b.foo.org.nz puppet-agent[22172]: [0;1;39m[0;1;31m[0;1;39m(/Stage[main]/Nagios::Service/Nagios_service[ssh]) Dependency File[/etc/nagios3/nagios.cfg] has failures: true[0m
+Jun 08 06:59:23 mgmt-b.foo.org.nz puppet-agent[22172]: [0;1;39m[0;1;31m[0;1;39m(/Stage[main]/Nagios::Service/Nagios_service[ssh]) Skipping because of failed dependencies[0m
+Jun 08 06:59:23 mgmt-b.foo.org.nz puppet-agent[22172]: [0;1;39m[0;1;31m[0;1;39m(/Stage[main]/Nagios::Service/Nagios_service[db]) Dependency File[/etc/nagios3/nagios.cfg] has failures: true[0m
+Jun 08 06:59:23 mgmt-b.foo.org.nz puppet-agent[22172]: [0;1;39m[0;1;31m[0;1;39m(/Stage[main]/Nagios::Service/Nagios_service[db]) Skipping because of failed dependencies[0m
+Jun 08 06:59:23 mgmt-b.foo.org.nz puppet-agent[22172]: [0;1;39m[0;1;31m[0;1;39m(/Stage[main]/Nrpe::Service/File[/etc/nagios3/conf.d/ppt_services.cfg]) Dependency File[/etc/nagios3/nagios.cfg] has failures: true[0m
+Jun 08 06:59:23 mgmt-b.foo.org.nz puppet-agent[22172]: [0;1;39m[0;1;31m[0;1;39m(/Stage[main]/Nrpe::Service/File[/etc/nagios3/conf.d/ppt_services.cfg]) Skipping because of failed dependencies[0m
+Jun 08 06:59:23 mgmt-b.foo.org.nz puppet-agent[22172]: [0;1;39m[0;1;31m[0;1;39mApplied catalog in 0.62 seconds[0m
+Jun 08 06:59:23 mgmt-b.foo.org.nz puppet-agent[22172]: [0;1;31m[0;1;39m[0;1;31mCould not send report: Failed to open TCP connection to mgmt-b.foo.org.nz:8140 (Connection refused - connect(2) for "mgmt-b.foo.org.nz" port 8140)[0m
