@@ -670,3 +670,38 @@ Jun  9 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: mgmt-b.foo.org.nz;check p
 Jun  9 00:00:00 mgmt-b nagios3: CURRENT SERVICE STATE: mgmt-b.foo.org.nz;ssh servers;OK;HARD;1;SSH OK - OpenSSH_7.6p1 Ubuntu-4ubuntu0.6 (protocol 2.0)
 Jun  9 00:40:18 mgmt-b nagios3: Auto-save of retention data completed successfully.
 Jun  9 01:40:18 mgmt-b nagios3: Auto-save of retention data completed successfully.
+Jun  9 02:40:18 mgmt-b nagios3: Auto-save of retention data completed successfully.
+Jun  9 03:40:18 mgmt-b nagios3: Auto-save of retention data completed successfully.
+Jun  9 03:53:48 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;check users-login;WARNING;SOFT;1;USERS WARNING - 2 users currently logged in
+Jun  9 03:54:48 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;check users-login;WARNING;SOFT;2;USERS WARNING - 2 users currently logged in
+Jun  9 03:55:48 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;check users-login;WARNING;HARD;3;USERS WARNING - 2 users currently logged in
+Jun  9 03:55:48 mgmt-b nagios3: SERVICE NOTIFICATION: slack;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 2 users currently logged in
+Jun  9 03:55:48 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 2 users currently logged in
+Jun  9 03:55:49 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 2 users currently logged in
+Jun  9 03:56:48 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;check owncloud status;CRITICAL;SOFT;1;connect to address localhost and port 80: Connection refused
+Jun  9 03:57:48 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;check owncloud status;CRITICAL;SOFT;2;connect to address localhost and port 80: Connection refused
+Jun  9 03:58:48 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;check owncloud status;CRITICAL;HARD;3;connect to address localhost and port 80: Connection refused
+Jun  9 03:58:48 mgmt-b nagios3: SERVICE NOTIFICATION: slack;app-b.foo.org.nz;check owncloud status;CRITICAL;notify-service-by-slack;connect to address localhost and port 80: Connection refused
+Jun  9 03:58:49 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;app-b.foo.org.nz;check owncloud status;CRITICAL;notify-service-by-slack;connect to address localhost and port 80: Connection refused
+Jun  9 03:58:50 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;app-b.foo.org.nz;check owncloud status;CRITICAL;notify-service-by-slack;connect to address localhost and port 80: Connection refused
+Jun  9 04:24:55 mgmt-b nagios3: Caught SIGTERM, shutting down...
+Jun  9 04:24:55 mgmt-b nagios3: Successfully shutdown... (PID=27203)
+Jun  9 04:24:55 mgmt-b nagios3: Nagios 3.5.1 starting... (PID=22545)
+Jun  9 04:24:55 mgmt-b nagios3: Local time is Thu Jun 09 04:24:55 UTC 2022
+Jun  9 04:24:55 mgmt-b nagios3: LOG VERSION: 2.0
+Jun  9 04:24:55 mgmt-b nagios3: Finished daemonizing... (New PID=22552)
+Jun  9 04:25:45 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;check users-login;CRITICAL;HARD;3;(null)
+Jun  9 04:25:45 mgmt-b nagios3: SERVICE NOTIFICATION: slack;app-b.foo.org.nz;check users-login;CRITICAL;notify-service-by-slack;(null)
+Jun  9 04:25:45 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;app-b.foo.org.nz;check users-login;CRITICAL;notify-service-by-slack;(null)
+Jun  9 04:25:45 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;app-b.foo.org.nz;check users-login;CRITICAL;notify-service-by-slack;(null)
+Jun  9 04:27:35 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;Remote disk servers;CRITICAL;SOFT;1;(null)
+Jun  9 04:28:05 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;check puppet-nodes;CRITICAL;SOFT;1;(null)
+Jun  9 04:28:35 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;Remote disk servers;CRITICAL;SOFT;2;(null)
+Jun  9 04:28:35 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;check apache status;CRITICAL;SOFT;1;(null)
+Jun  9 04:29:05 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;check puppet-nodes;CRITICAL;SOFT;2;(null)
+Jun  9 04:29:35 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;Remote disk servers;CRITICAL;HARD;3;(null)
+Jun  9 04:29:35 mgmt-b nagios3: SERVICE NOTIFICATION: slack;app-b.foo.org.nz;Remote disk servers;CRITICAL;notify-service-by-slack;(null)
+Jun  9 04:29:35 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;app-b.foo.org.nz;Remote disk servers;CRITICAL;notify-service-by-slack;(null)
+Jun  9 04:29:35 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;app-b.foo.org.nz;Remote disk servers;CRITICAL;notify-service-by-slack;(null)
+Jun  9 04:29:36 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;check apache status;CRITICAL;SOFT;2;(null)
+Jun  9 04:29:45 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;check hosts alive;CRITICAL;SOFT;1;(null)
