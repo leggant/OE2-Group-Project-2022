@@ -2551,16 +2551,16 @@ INSERT INTO `innodb_index_stats` VALUES ('owncloud','oc_appconfig','appconfig_co
 INSERT INTO `innodb_index_stats` VALUES ('owncloud','oc_appconfig','appconfig_config_key_index','2022-06-07 12:17:12','n_diff_pfx02',77,1,'configkey,appid');
 INSERT INTO `innodb_index_stats` VALUES ('owncloud','oc_appconfig','appconfig_config_key_index','2022-06-07 12:17:12','n_leaf_pages',1,NULL,'Number of leaf pages in the index');
 INSERT INTO `innodb_index_stats` VALUES ('owncloud','oc_appconfig','appconfig_config_key_index','2022-06-07 12:17:12','size',1,NULL,'Number of pages in the index');
-INSERT INTO `innodb_index_stats` VALUES ('owncloud','oc_authtoken','PRIMARY','2022-06-08 06:06:42','n_diff_pfx01',2,1,'id');
-INSERT INTO `innodb_index_stats` VALUES ('owncloud','oc_authtoken','PRIMARY','2022-06-08 06:06:42','n_leaf_pages',1,NULL,'Number of leaf pages in the index');
-INSERT INTO `innodb_index_stats` VALUES ('owncloud','oc_authtoken','PRIMARY','2022-06-08 06:06:42','size',1,NULL,'Number of pages in the index');
-INSERT INTO `innodb_index_stats` VALUES ('owncloud','oc_authtoken','authtoken_last_activity_index','2022-06-08 06:06:42','n_diff_pfx01',2,1,'last_activity');
-INSERT INTO `innodb_index_stats` VALUES ('owncloud','oc_authtoken','authtoken_last_activity_index','2022-06-08 06:06:42','n_diff_pfx02',2,1,'last_activity,id');
-INSERT INTO `innodb_index_stats` VALUES ('owncloud','oc_authtoken','authtoken_last_activity_index','2022-06-08 06:06:42','n_leaf_pages',1,NULL,'Number of leaf pages in the index');
-INSERT INTO `innodb_index_stats` VALUES ('owncloud','oc_authtoken','authtoken_last_activity_index','2022-06-08 06:06:42','size',1,NULL,'Number of pages in the index');
-INSERT INTO `innodb_index_stats` VALUES ('owncloud','oc_authtoken','authtoken_token_index','2022-06-08 06:06:42','n_diff_pfx01',2,1,'token');
-INSERT INTO `innodb_index_stats` VALUES ('owncloud','oc_authtoken','authtoken_token_index','2022-06-08 06:06:42','n_leaf_pages',1,NULL,'Number of leaf pages in the index');
-INSERT INTO `innodb_index_stats` VALUES ('owncloud','oc_authtoken','authtoken_token_index','2022-06-08 06:06:42','size',1,NULL,'Number of pages in the index');
+INSERT INTO `innodb_index_stats` VALUES ('owncloud','oc_authtoken','PRIMARY','2022-06-09 06:38:49','n_diff_pfx01',2,1,'id');
+INSERT INTO `innodb_index_stats` VALUES ('owncloud','oc_authtoken','PRIMARY','2022-06-09 06:38:49','n_leaf_pages',1,NULL,'Number of leaf pages in the index');
+INSERT INTO `innodb_index_stats` VALUES ('owncloud','oc_authtoken','PRIMARY','2022-06-09 06:38:49','size',1,NULL,'Number of pages in the index');
+INSERT INTO `innodb_index_stats` VALUES ('owncloud','oc_authtoken','authtoken_last_activity_index','2022-06-09 06:38:49','n_diff_pfx01',2,1,'last_activity');
+INSERT INTO `innodb_index_stats` VALUES ('owncloud','oc_authtoken','authtoken_last_activity_index','2022-06-09 06:38:49','n_diff_pfx02',2,1,'last_activity,id');
+INSERT INTO `innodb_index_stats` VALUES ('owncloud','oc_authtoken','authtoken_last_activity_index','2022-06-09 06:38:49','n_leaf_pages',1,NULL,'Number of leaf pages in the index');
+INSERT INTO `innodb_index_stats` VALUES ('owncloud','oc_authtoken','authtoken_last_activity_index','2022-06-09 06:38:49','size',1,NULL,'Number of pages in the index');
+INSERT INTO `innodb_index_stats` VALUES ('owncloud','oc_authtoken','authtoken_token_index','2022-06-09 06:38:49','n_diff_pfx01',2,1,'token');
+INSERT INTO `innodb_index_stats` VALUES ('owncloud','oc_authtoken','authtoken_token_index','2022-06-09 06:38:49','n_leaf_pages',1,NULL,'Number of leaf pages in the index');
+INSERT INTO `innodb_index_stats` VALUES ('owncloud','oc_authtoken','authtoken_token_index','2022-06-09 06:38:49','size',1,NULL,'Number of pages in the index');
 INSERT INTO `innodb_index_stats` VALUES ('owncloud','oc_calendarchanges','PRIMARY','2022-06-07 12:56:59','n_diff_pfx01',33,1,'id');
 INSERT INTO `innodb_index_stats` VALUES ('owncloud','oc_calendarchanges','PRIMARY','2022-06-07 12:56:59','n_leaf_pages',1,NULL,'Number of leaf pages in the index');
 INSERT INTO `innodb_index_stats` VALUES ('owncloud','oc_calendarchanges','PRIMARY','2022-06-07 12:56:59','size',1,NULL,'Number of pages in the index');
@@ -2735,33 +2735,33 @@ INSERT INTO `innodb_index_stats` VALUES ('owncloud','oc_file_locks','lock_ttl_in
 INSERT INTO `innodb_index_stats` VALUES ('owncloud','oc_file_locks','lock_ttl_index','2022-06-08 03:29:29','n_diff_pfx02',0,1,'ttl,id');
 INSERT INTO `innodb_index_stats` VALUES ('owncloud','oc_file_locks','lock_ttl_index','2022-06-08 03:29:29','n_leaf_pages',1,NULL,'Number of leaf pages in the index');
 INSERT INTO `innodb_index_stats` VALUES ('owncloud','oc_file_locks','lock_ttl_index','2022-06-08 03:29:29','size',1,NULL,'Number of pages in the index');
-INSERT INTO `innodb_index_stats` VALUES ('owncloud','oc_filecache','PRIMARY','2022-06-08 03:34:25','n_diff_pfx01',77,2,'fileid');
-INSERT INTO `innodb_index_stats` VALUES ('owncloud','oc_filecache','PRIMARY','2022-06-08 03:34:25','n_leaf_pages',2,NULL,'Number of leaf pages in the index');
-INSERT INTO `innodb_index_stats` VALUES ('owncloud','oc_filecache','PRIMARY','2022-06-08 03:34:25','size',3,NULL,'Number of pages in the index');
-INSERT INTO `innodb_index_stats` VALUES ('owncloud','oc_filecache','fs_parent_name_hash','2022-06-08 03:34:25','n_diff_pfx01',28,1,'parent');
-INSERT INTO `innodb_index_stats` VALUES ('owncloud','oc_filecache','fs_parent_name_hash','2022-06-08 03:34:25','n_diff_pfx02',73,1,'parent,name');
-INSERT INTO `innodb_index_stats` VALUES ('owncloud','oc_filecache','fs_parent_name_hash','2022-06-08 03:34:25','n_diff_pfx03',77,1,'parent,name,fileid');
-INSERT INTO `innodb_index_stats` VALUES ('owncloud','oc_filecache','fs_parent_name_hash','2022-06-08 03:34:25','n_leaf_pages',1,NULL,'Number of leaf pages in the index');
-INSERT INTO `innodb_index_stats` VALUES ('owncloud','oc_filecache','fs_parent_name_hash','2022-06-08 03:34:25','size',1,NULL,'Number of pages in the index');
-INSERT INTO `innodb_index_stats` VALUES ('owncloud','oc_filecache','fs_storage_mimepart','2022-06-08 03:34:25','n_diff_pfx01',5,1,'storage');
-INSERT INTO `innodb_index_stats` VALUES ('owncloud','oc_filecache','fs_storage_mimepart','2022-06-08 03:34:25','n_diff_pfx02',13,1,'storage,mimepart');
-INSERT INTO `innodb_index_stats` VALUES ('owncloud','oc_filecache','fs_storage_mimepart','2022-06-08 03:34:25','n_diff_pfx03',77,1,'storage,mimepart,fileid');
-INSERT INTO `innodb_index_stats` VALUES ('owncloud','oc_filecache','fs_storage_mimepart','2022-06-08 03:34:25','n_leaf_pages',1,NULL,'Number of leaf pages in the index');
-INSERT INTO `innodb_index_stats` VALUES ('owncloud','oc_filecache','fs_storage_mimepart','2022-06-08 03:34:25','size',1,NULL,'Number of pages in the index');
-INSERT INTO `innodb_index_stats` VALUES ('owncloud','oc_filecache','fs_storage_mimetype','2022-06-08 03:34:25','n_diff_pfx01',5,1,'storage');
-INSERT INTO `innodb_index_stats` VALUES ('owncloud','oc_filecache','fs_storage_mimetype','2022-06-08 03:34:25','n_diff_pfx02',21,1,'storage,mimetype');
-INSERT INTO `innodb_index_stats` VALUES ('owncloud','oc_filecache','fs_storage_mimetype','2022-06-08 03:34:25','n_diff_pfx03',77,1,'storage,mimetype,fileid');
-INSERT INTO `innodb_index_stats` VALUES ('owncloud','oc_filecache','fs_storage_mimetype','2022-06-08 03:34:25','n_leaf_pages',1,NULL,'Number of leaf pages in the index');
-INSERT INTO `innodb_index_stats` VALUES ('owncloud','oc_filecache','fs_storage_mimetype','2022-06-08 03:34:25','size',1,NULL,'Number of pages in the index');
-INSERT INTO `innodb_index_stats` VALUES ('owncloud','oc_filecache','fs_storage_path_hash','2022-06-08 03:34:25','n_diff_pfx01',5,1,'storage');
-INSERT INTO `innodb_index_stats` VALUES ('owncloud','oc_filecache','fs_storage_path_hash','2022-06-08 03:34:25','n_diff_pfx02',77,1,'storage,path_hash');
-INSERT INTO `innodb_index_stats` VALUES ('owncloud','oc_filecache','fs_storage_path_hash','2022-06-08 03:34:25','n_leaf_pages',1,NULL,'Number of leaf pages in the index');
-INSERT INTO `innodb_index_stats` VALUES ('owncloud','oc_filecache','fs_storage_path_hash','2022-06-08 03:34:25','size',1,NULL,'Number of pages in the index');
-INSERT INTO `innodb_index_stats` VALUES ('owncloud','oc_filecache','fs_storage_size','2022-06-08 03:34:25','n_diff_pfx01',5,1,'storage');
-INSERT INTO `innodb_index_stats` VALUES ('owncloud','oc_filecache','fs_storage_size','2022-06-08 03:34:25','n_diff_pfx02',72,1,'storage,size');
-INSERT INTO `innodb_index_stats` VALUES ('owncloud','oc_filecache','fs_storage_size','2022-06-08 03:34:25','n_diff_pfx03',77,1,'storage,size,fileid');
-INSERT INTO `innodb_index_stats` VALUES ('owncloud','oc_filecache','fs_storage_size','2022-06-08 03:34:25','n_leaf_pages',1,NULL,'Number of leaf pages in the index');
-INSERT INTO `innodb_index_stats` VALUES ('owncloud','oc_filecache','fs_storage_size','2022-06-08 03:34:25','size',1,NULL,'Number of pages in the index');
+INSERT INTO `innodb_index_stats` VALUES ('owncloud','oc_filecache','PRIMARY','2022-06-09 05:52:41','n_diff_pfx01',81,2,'fileid');
+INSERT INTO `innodb_index_stats` VALUES ('owncloud','oc_filecache','PRIMARY','2022-06-09 05:52:41','n_leaf_pages',2,NULL,'Number of leaf pages in the index');
+INSERT INTO `innodb_index_stats` VALUES ('owncloud','oc_filecache','PRIMARY','2022-06-09 05:52:41','size',3,NULL,'Number of pages in the index');
+INSERT INTO `innodb_index_stats` VALUES ('owncloud','oc_filecache','fs_parent_name_hash','2022-06-09 05:52:41','n_diff_pfx01',28,1,'parent');
+INSERT INTO `innodb_index_stats` VALUES ('owncloud','oc_filecache','fs_parent_name_hash','2022-06-09 05:52:41','n_diff_pfx02',77,1,'parent,name');
+INSERT INTO `innodb_index_stats` VALUES ('owncloud','oc_filecache','fs_parent_name_hash','2022-06-09 05:52:41','n_diff_pfx03',81,1,'parent,name,fileid');
+INSERT INTO `innodb_index_stats` VALUES ('owncloud','oc_filecache','fs_parent_name_hash','2022-06-09 05:52:41','n_leaf_pages',1,NULL,'Number of leaf pages in the index');
+INSERT INTO `innodb_index_stats` VALUES ('owncloud','oc_filecache','fs_parent_name_hash','2022-06-09 05:52:41','size',1,NULL,'Number of pages in the index');
+INSERT INTO `innodb_index_stats` VALUES ('owncloud','oc_filecache','fs_storage_mimepart','2022-06-09 05:52:41','n_diff_pfx01',5,1,'storage');
+INSERT INTO `innodb_index_stats` VALUES ('owncloud','oc_filecache','fs_storage_mimepart','2022-06-09 05:52:41','n_diff_pfx02',13,1,'storage,mimepart');
+INSERT INTO `innodb_index_stats` VALUES ('owncloud','oc_filecache','fs_storage_mimepart','2022-06-09 05:52:41','n_diff_pfx03',81,1,'storage,mimepart,fileid');
+INSERT INTO `innodb_index_stats` VALUES ('owncloud','oc_filecache','fs_storage_mimepart','2022-06-09 05:52:41','n_leaf_pages',1,NULL,'Number of leaf pages in the index');
+INSERT INTO `innodb_index_stats` VALUES ('owncloud','oc_filecache','fs_storage_mimepart','2022-06-09 05:52:41','size',1,NULL,'Number of pages in the index');
+INSERT INTO `innodb_index_stats` VALUES ('owncloud','oc_filecache','fs_storage_mimetype','2022-06-09 05:52:41','n_diff_pfx01',5,1,'storage');
+INSERT INTO `innodb_index_stats` VALUES ('owncloud','oc_filecache','fs_storage_mimetype','2022-06-09 05:52:41','n_diff_pfx02',21,1,'storage,mimetype');
+INSERT INTO `innodb_index_stats` VALUES ('owncloud','oc_filecache','fs_storage_mimetype','2022-06-09 05:52:41','n_diff_pfx03',81,1,'storage,mimetype,fileid');
+INSERT INTO `innodb_index_stats` VALUES ('owncloud','oc_filecache','fs_storage_mimetype','2022-06-09 05:52:41','n_leaf_pages',1,NULL,'Number of leaf pages in the index');
+INSERT INTO `innodb_index_stats` VALUES ('owncloud','oc_filecache','fs_storage_mimetype','2022-06-09 05:52:41','size',1,NULL,'Number of pages in the index');
+INSERT INTO `innodb_index_stats` VALUES ('owncloud','oc_filecache','fs_storage_path_hash','2022-06-09 05:52:41','n_diff_pfx01',5,1,'storage');
+INSERT INTO `innodb_index_stats` VALUES ('owncloud','oc_filecache','fs_storage_path_hash','2022-06-09 05:52:41','n_diff_pfx02',81,1,'storage,path_hash');
+INSERT INTO `innodb_index_stats` VALUES ('owncloud','oc_filecache','fs_storage_path_hash','2022-06-09 05:52:41','n_leaf_pages',1,NULL,'Number of leaf pages in the index');
+INSERT INTO `innodb_index_stats` VALUES ('owncloud','oc_filecache','fs_storage_path_hash','2022-06-09 05:52:41','size',1,NULL,'Number of pages in the index');
+INSERT INTO `innodb_index_stats` VALUES ('owncloud','oc_filecache','fs_storage_size','2022-06-09 05:52:41','n_diff_pfx01',5,1,'storage');
+INSERT INTO `innodb_index_stats` VALUES ('owncloud','oc_filecache','fs_storage_size','2022-06-09 05:52:41','n_diff_pfx02',76,1,'storage,size');
+INSERT INTO `innodb_index_stats` VALUES ('owncloud','oc_filecache','fs_storage_size','2022-06-09 05:52:41','n_diff_pfx03',81,1,'storage,size,fileid');
+INSERT INTO `innodb_index_stats` VALUES ('owncloud','oc_filecache','fs_storage_size','2022-06-09 05:52:41','n_leaf_pages',1,NULL,'Number of leaf pages in the index');
+INSERT INTO `innodb_index_stats` VALUES ('owncloud','oc_filecache','fs_storage_size','2022-06-09 05:52:41','size',1,NULL,'Number of pages in the index');
 INSERT INTO `innodb_index_stats` VALUES ('owncloud','oc_files_trash','PRIMARY','2022-06-01 03:24:05','n_diff_pfx01',0,1,'auto_id');
 INSERT INTO `innodb_index_stats` VALUES ('owncloud','oc_files_trash','PRIMARY','2022-06-01 03:24:05','n_leaf_pages',1,NULL,'Number of leaf pages in the index');
 INSERT INTO `innodb_index_stats` VALUES ('owncloud','oc_files_trash','PRIMARY','2022-06-01 03:24:05','size',1,NULL,'Number of pages in the index');
@@ -3018,7 +3018,7 @@ INSERT INTO `innodb_table_stats` VALUES ('owncloud','oc_activity_mq','2022-06-01
 INSERT INTO `innodb_table_stats` VALUES ('owncloud','oc_addressbookchanges','2022-06-07 13:11:18',31,1,1);
 INSERT INTO `innodb_table_stats` VALUES ('owncloud','oc_addressbooks','2022-06-07 13:12:07',5,1,1);
 INSERT INTO `innodb_table_stats` VALUES ('owncloud','oc_appconfig','2022-06-07 12:17:12',77,1,2);
-INSERT INTO `innodb_table_stats` VALUES ('owncloud','oc_authtoken','2022-06-08 06:06:42',2,1,2);
+INSERT INTO `innodb_table_stats` VALUES ('owncloud','oc_authtoken','2022-06-09 06:38:49',2,1,2);
 INSERT INTO `innodb_table_stats` VALUES ('owncloud','oc_calendarchanges','2022-06-07 12:56:59',33,1,1);
 INSERT INTO `innodb_table_stats` VALUES ('owncloud','oc_calendarobjects','2022-06-01 03:24:03',0,1,1);
 INSERT INTO `innodb_table_stats` VALUES ('owncloud','oc_calendars','2022-06-07 13:11:52',5,1,1);
@@ -3037,7 +3037,7 @@ INSERT INTO `innodb_table_stats` VALUES ('owncloud','oc_external_mounts','2022-0
 INSERT INTO `innodb_table_stats` VALUES ('owncloud','oc_external_options','2022-06-01 03:24:04',0,1,2);
 INSERT INTO `innodb_table_stats` VALUES ('owncloud','oc_federated_reshares','2022-06-01 03:24:04',0,1,0);
 INSERT INTO `innodb_table_stats` VALUES ('owncloud','oc_file_locks','2022-06-08 03:29:29',0,1,2);
-INSERT INTO `innodb_table_stats` VALUES ('owncloud','oc_filecache','2022-06-08 03:34:25',77,3,5);
+INSERT INTO `innodb_table_stats` VALUES ('owncloud','oc_filecache','2022-06-09 05:52:41',81,3,5);
 INSERT INTO `innodb_table_stats` VALUES ('owncloud','oc_files_trash','2022-06-01 03:24:05',0,1,3);
 INSERT INTO `innodb_table_stats` VALUES ('owncloud','oc_group_admin','2022-06-01 03:24:06',4,1,1);
 INSERT INTO `innodb_table_stats` VALUES ('owncloud','oc_group_user','2022-06-07 13:11:18',7,1,1);
@@ -3604,7 +3604,7 @@ LOCK TABLES `oc_accounts` WRITE;
 INSERT INTO `oc_accounts` VALUES (8,NULL,'admin2','admin2','admin',NULL,1654607448,'OC\\User\\Database','/var/www/owncloud/data/admin2',1);
 INSERT INTO `oc_accounts` VALUES (13,'leggtc1@student.op.ac.nz','Anthony','anthony','Anthony',NULL,1654657680,'OC\\User\\Database','/var/www/owncloud/data/Anthony',1);
 INSERT INTO `oc_accounts` VALUES (14,'alhama2@student.op.ac.nz','Mohammed','mohammed','Mohammed',NULL,1654659251,'OC\\User\\Database','/var/www/owncloud/data/Mohammed',1);
-INSERT INTO `oc_accounts` VALUES (15,'admin@admin.com','Group-B','group-b','Group-B',NULL,1654607509,'OC\\User\\Database','/var/www/owncloud/data/Group-B',1);
+INSERT INTO `oc_accounts` VALUES (15,'admin@admin.com','Group-B','group-b','Group-B',NULL,1654753943,'OC\\User\\Database','/var/www/owncloud/data/Group-B',1);
 /*!40000 ALTER TABLE `oc_accounts` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -3841,7 +3841,7 @@ LOCK TABLES `oc_appconfig` WRITE;
 INSERT INTO `oc_appconfig` VALUES ('activity','enabled','yes');
 INSERT INTO `oc_appconfig` VALUES ('activity','installed_version','2.7.0');
 INSERT INTO `oc_appconfig` VALUES ('activity','types','filesystem');
-INSERT INTO `oc_appconfig` VALUES ('backgroundjob','lastjob','7');
+INSERT INTO `oc_appconfig` VALUES ('backgroundjob','lastjob','12');
 INSERT INTO `oc_appconfig` VALUES ('comments','enabled','yes');
 INSERT INTO `oc_appconfig` VALUES ('comments','installed_version','0.3.0');
 INSERT INTO `oc_appconfig` VALUES ('comments','types','logging,dav');
@@ -3850,7 +3850,7 @@ INSERT INTO `oc_appconfig` VALUES ('configreport','installed_version','0.2.1');
 INSERT INTO `oc_appconfig` VALUES ('configreport','types','filesystem');
 INSERT INTO `oc_appconfig` VALUES ('core','first_install_version','10.10.0.3');
 INSERT INTO `oc_appconfig` VALUES ('core','installedat','1654574323.1453');
-INSERT INTO `oc_appconfig` VALUES ('core','lastcron','1654668485');
+INSERT INTO `oc_appconfig` VALUES ('core','lastcron','1654755921');
 INSERT INTO `oc_appconfig` VALUES ('core','lastupdateResult','[]');
 INSERT INTO `oc_appconfig` VALUES ('core','lastupdatedat','1654661954');
 INSERT INTO `oc_appconfig` VALUES ('core','oc.integritycheck.checker','[]');
@@ -3940,7 +3940,7 @@ CREATE TABLE `oc_authtoken` (
   PRIMARY KEY (`id`),
   UNIQUE KEY `authtoken_token_index` (`token`),
   KEY `authtoken_last_activity_index` (`last_activity`)
-) ENGINE=InnoDB AUTO_INCREMENT=25 DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
+) ENGINE=InnoDB AUTO_INCREMENT=26 DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -3950,7 +3950,7 @@ CREATE TABLE `oc_authtoken` (
 LOCK TABLES `oc_authtoken` WRITE;
 /*!40000 ALTER TABLE `oc_authtoken` DISABLE KEYS */;
 INSERT INTO `oc_authtoken` VALUES (23,'Anthony','Anthony','v2|42d9dc1ca6c3fd9849d2ae2cc0b2d392|635acc7f1c6b6b87e0944f737f314bd5|b8af3c5e1fb6d66d61b96324fd132b73fff651f1f21f4f29926ba2d77977f1867f2882d9c1aeeba3b817477bc7426e3201ed3c13e28f96127817b035fcc47650','Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36','2f90d7057ea01d8fa2b848b0322956ba9a6894bbd393b778f65793a0276ec5a9958e0f51945bb57153150314ef3fa6c1e2cc9494b3b6eb2cf5fad444f1d237bd',0,1654668128,1654668188);
-INSERT INTO `oc_authtoken` VALUES (24,'Mohammed','Mohammed','v2|759bd523813d948fb9e26dad323c9880|a0a0d9a9740e35d4f4c7d8677bac5b0d|6425a043caf12466fe70860e383d45d41a62839bac375dd331ce4fdbe623b50c53a044b9d490abf042e4c89cb91cab34f9d7452cebd2b51cf79448ec62aa2cc0','Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36','a40ff17c503b51ccd9ef0a03a01fd8fdd8bd794524fd3bd047b479adffa524d816f436c5eb7a26fdf439ebd8180ec5210f5e0f91c1360d54909bde33bf11b010',0,1654668482,1654668402);
+INSERT INTO `oc_authtoken` VALUES (25,'Group-B','Group-B','v2|d0324ed8df3d28abad6a8b7b9e47dd0f|630dc61ac3a1bcb8cccf020d6405ba29|f16c5f4994b08a05e052a5663fc888ec4f2d4af88b7f0eaba9e08a787bd88c61d49fcf3d99338174aa919bccce2441ba869f00620484ca0f82285fcdf810b303','Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36','95318a61cd083335daa3fab120392da9a7c42ea0f3755ebbe31b4301894404789620736543166e511c51700f39587e42735eeb9fadf3267f4bf9f45f92bb7946',0,1654756790,1654756553);
 /*!40000 ALTER TABLE `oc_authtoken` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -4561,7 +4561,7 @@ CREATE TABLE `oc_filecache` (
   KEY `fs_storage_mimetype` (`storage`,`mimetype`),
   KEY `fs_storage_mimepart` (`storage`,`mimepart`),
   KEY `fs_storage_size` (`storage`,`size`,`fileid`)
-) ENGINE=InnoDB AUTO_INCREMENT=237 DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
+) ENGINE=InnoDB AUTO_INCREMENT=241 DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -4626,7 +4626,7 @@ INSERT INTO `oc_filecache` VALUES (212,14,'files/Documents/Puppet 5 Beginner\'s 
 INSERT INTO `oc_filecache` VALUES (213,14,'files/Documents/Puppet Best Practices.pdf','d3762bdd9e748c7edcc405bd047ccc45',204,'Puppet Best Practices.pdf',7,5,4770681,1647312797,1647312797,0,0,'6362d1ff70ec2b3ab94f93bc0b799707',27,'SHA1:44663d2d762167f5196277f5db71aa01ecf1b95f MD5:04eabf1fb065bdc131fa1fac8aac78e0 ADLER32:1b37b5bd');
 INSERT INTO `oc_filecache` VALUES (214,13,'files/Documents/Puppet 5 Beginner\'s Guide - Third Edition.pdf','a93d892659a048c947fb7da2e902f7a2',185,'Puppet 5 Beginner\'s Guide - Third Edition.pdf',7,5,3152119,1647312834,1647312834,0,0,'5ec52b2f469f5c3b9b4a85e87db6615e',27,'SHA1:8d3b52d21637a22cf76d7e278ee9ad8c23650d9d MD5:56aedcf29b5bba68e9aa6f6d9ce8ce08 ADLER32:0a7bdd24');
 INSERT INTO `oc_filecache` VALUES (215,13,'files/Documents/Puppet Best Practices.pdf','d3762bdd9e748c7edcc405bd047ccc45',185,'Puppet Best Practices.pdf',7,5,4770681,1647312797,1647312797,0,0,'8d51c8e80ad5bab6b6bbc3e6176c16f6',27,'SHA1:44663d2d762167f5196277f5db71aa01ecf1b95f MD5:04eabf1fb065bdc131fa1fac8aac78e0 ADLER32:1b37b5bd');
-INSERT INTO `oc_filecache` VALUES (216,15,'','d41d8cd98f00b204e9800998ecf8427e',-1,'',2,1,15990888,1654607533,1654607532,0,0,'629f4eadd8f10',23,'');
+INSERT INTO `oc_filecache` VALUES (216,15,'','d41d8cd98f00b204e9800998ecf8427e',-1,'',2,1,16676649,1654753951,1654607532,0,0,'62a18a9fb1f11',23,'');
 INSERT INTO `oc_filecache` VALUES (217,15,'cache','0fea6a13c52b4d4725368f24b045ca84',216,'cache',2,1,0,1654607509,1654607509,0,0,'629f4e958fbb9',31,'');
 INSERT INTO `oc_filecache` VALUES (218,15,'files','45b963397aa40d4a0063e0d85e4fe7a1',216,'files',2,1,15191081,1654607532,1654607532,0,0,'629f4eac3de06',31,'');
 INSERT INTO `oc_filecache` VALUES (219,15,'files/Photos','d01bb67e7b71dd49fd06bad922f521c9',218,'Photos',2,1,1011464,1654607510,1654607510,0,0,'629f4e96ab96f',31,'');
@@ -4638,15 +4638,19 @@ INSERT INTO `oc_filecache` VALUES (224,15,'files/Documents/Example.odt','c89c560
 INSERT INTO `oc_filecache` VALUES (225,15,'files/ownCloud Manual.pdf','a73aa0f95f162297bbb7ffa3fb5ad709',218,'ownCloud Manual.pdf',7,5,6697715,1654607511,1654607511,0,0,'0fdd4121346a80f06546013185a8d7fa',27,'SHA1:c06b161afd207df01bfc8794ecd90a149bebfd60 MD5:28f7bbe404cf119cbfd12e22825c0271 ADLER32:0e133d7b');
 INSERT INTO `oc_filecache` VALUES (226,15,'files/20131011_095636.jpg','0c310a9ba1c177d0eefe3ff8c85ab1f4',218,'20131011_095636.jpg',4,3,3929788,1381448550,1381448550,0,0,'dc4b2ff5609cb976332d5c8ebe0ae864',27,'SHA1:bb38ed481e2224fe60664d8ed691bb0b34fdadeb MD5:4294ce21caa1eb5d7d3bd8a9710ebba3 ADLER32:517593b6');
 INSERT INTO `oc_filecache` VALUES (227,15,'files/20131013_141521.jpg','f144eef438358d5d95ff0f0a6026ab72',218,'20131013_141521.jpg',4,3,3515887,1381587320,1381587320,0,0,'862b68be8f7023656539616af0f22f95',27,'SHA1:8e9f1f68bb91ad9361d926543ffaa65ce5a1ddba MD5:a1daa7674f7981485c0a4ce9dc629571 ADLER32:f2d722e0');
-INSERT INTO `oc_filecache` VALUES (228,15,'thumbnails','3b8779ba05b8f0aed49650f3ff8beb4b',216,'thumbnails',2,1,799807,1654607533,1654607533,0,0,'629f4eadd8f10',31,'');
-INSERT INTO `oc_filecache` VALUES (229,15,'thumbnails/226','fec331acd3c6ed7c44ca84b76231f514',228,'226',2,1,516671,1654607532,1654607532,0,0,'629f4eacc9537',31,'');
+INSERT INTO `oc_filecache` VALUES (228,15,'thumbnails','3b8779ba05b8f0aed49650f3ff8beb4b',216,'thumbnails',2,1,1485568,1654753951,1654607533,0,0,'62a18a9fb1f11',31,'');
+INSERT INTO `oc_filecache` VALUES (229,15,'thumbnails/226','fec331acd3c6ed7c44ca84b76231f514',228,'226',2,1,957104,1654753951,1654753951,0,0,'62a18a9fb1f11',31,'');
 INSERT INTO `oc_filecache` VALUES (230,15,'thumbnails/226/2048-1536-max.png','a3e6d70c396341bd1055eb067983b8dc',229,'2048-1536-max.png',8,3,515690,1654607532,1654607532,0,0,'9bea71b98cbe84e1b9d6ca351928d29f',27,'SHA1:82476992960a981ed8eeddec75b72bd03736718a MD5:d5d085ac1d37c9466d983fa1175df446 ADLER32:f1f137cf');
 INSERT INTO `oc_filecache` VALUES (231,15,'thumbnails/226/32-32.png','3536033da6c5db7e399266d87867ec57',229,'32-32.png',8,3,981,1654607532,1654607532,0,0,'6bf535be4572bd26547d31680eda1da9',27,'SHA1:685e277669494b5520f1abb3c73328c7e08fd008 MD5:5e6f427199f14d18315100d1a8f20061 ADLER32:ed09789c');
-INSERT INTO `oc_filecache` VALUES (232,15,'thumbnails/227','72ef0d207df1de71ba504a8d42f39585',228,'227',2,1,283136,1654607533,1654607533,0,0,'629f4eadd8f10',31,'');
+INSERT INTO `oc_filecache` VALUES (232,15,'thumbnails/227','72ef0d207df1de71ba504a8d42f39585',228,'227',2,1,528464,1654753951,1654753951,0,0,'62a18a9f850d6',31,'');
 INSERT INTO `oc_filecache` VALUES (233,15,'thumbnails/227/2048-1152-max.png','8043ba53d89ccc80770190c45f314ed0',232,'2048-1152-max.png',8,3,282133,1654607533,1654607533,0,0,'f2f4592cbb7005b9ceeb1a296ac5cb27',27,'SHA1:5113dea29221b2473667ba113ad2aba8803938b9 MD5:4c0602017b67a11d1636e87bfed6bc58 ADLER32:4bb464de');
 INSERT INTO `oc_filecache` VALUES (234,15,'thumbnails/227/32-32.png','352f26b310c5771cbae762c39317c582',232,'32-32.png',8,3,1003,1654607533,1654607533,0,0,'59bf05e8840cdba815784f9dd2cff25e',27,'SHA1:57bf9b3b226e8c4d0be965f3303d3a6ad82a1d46 MD5:4fa768e60de6fbc34429c6c773ebe5a2 ADLER32:766c84bb');
 INSERT INTO `oc_filecache` VALUES (235,14,'thumbnails/207/64-64.png','fc8574ac106b296f26a09e5513a72161',209,'64-64.png',8,3,1794,1654659256,1654659256,0,0,'3705aaa06d06e6d8001fb3ef575d72c7',27,'SHA1:fcec5f9eb35e1a671e7e119f8a39836d721b4472 MD5:a168ac55385108258fd156d0f6cf1a22 ADLER32:f5e010e0');
 INSERT INTO `oc_filecache` VALUES (236,14,'thumbnails/207/1920-1080-with-aspect.png','f1df6a748dccbefcacbbd55778430ecb',209,'1920-1080-with-aspect.png',8,3,243534,1654659265,1654659265,0,0,'a249251abab353fca2a46ef7a3abf44d',27,'SHA1:56535e05654bb7b80cad48d5d5ee3a56bbb24236 MD5:6c0265699738c23fbc0d7bcf7c9dcbef ADLER32:595706de');
+INSERT INTO `oc_filecache` VALUES (237,15,'thumbnails/227/64-64.png','2348e6f47436e839e34354e9c43185e6',232,'64-64.png',8,3,1794,1654753946,1654753946,0,0,'cdc91f3ea6e112999a2dd733dc5a930b',27,'SHA1:fcec5f9eb35e1a671e7e119f8a39836d721b4472 MD5:a168ac55385108258fd156d0f6cf1a22 ADLER32:f5e010e0');
+INSERT INTO `oc_filecache` VALUES (238,15,'thumbnails/226/64-64.png','0144a1c9487d9f43e73223a439c5c1a6',229,'64-64.png',8,3,1670,1654753946,1654753946,0,0,'76af822999c29fd6094c88122c7d8bbf',27,'SHA1:f50712acaaf7ca5db5ffea27b98cb431dce69826 MD5:29e720a873482c8482d05729ec13da51 ADLER32:98eccf8a');
+INSERT INTO `oc_filecache` VALUES (239,15,'thumbnails/227/1920-1080-with-aspect.png','74e9b742802238e5f8beb2b49c95abcd',232,'1920-1080-with-aspect.png',8,3,243534,1654753951,1654753951,0,0,'b8b0d06f1aa474200850c2768c42cf0c',27,'SHA1:56535e05654bb7b80cad48d5d5ee3a56bbb24236 MD5:6c0265699738c23fbc0d7bcf7c9dcbef ADLER32:595706de');
+INSERT INTO `oc_filecache` VALUES (240,15,'thumbnails/226/1920-1440-with-aspect.png','c0b2f2ac0fb1b1c38e3d52e8729369a3',229,'1920-1440-with-aspect.png',8,3,438763,1654753951,1654753951,0,0,'ac86a7c6b9d579514bcf713723fa0e74',27,'SHA1:1433d2e769f6cd3c5600a6b63727b0056e7be013 MD5:8897e203d5e479c3556cb1d60d555c9e ADLER32:6e7688f1');
 /*!40000 ALTER TABLE `oc_filecache` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -4798,11 +4802,11 @@ INSERT INTO `oc_jobs` VALUES (4,'OCA\\Files\\BackgroundJob\\CleanupPersistentFil
 INSERT INTO `oc_jobs` VALUES (5,'OCA\\DAV\\CardDAV\\SyncJob','null',1654602308,1654664159,0,1);
 INSERT INTO `oc_jobs` VALUES (6,'OCA\\DAV\\BackgroundJob\\CleanProperties','null',1654603635,1654667173,0,0);
 INSERT INTO `oc_jobs` VALUES (7,'OCA\\Activity\\BackgroundJob\\EmailNotification','null',1654668485,1654668485,0,0);
-INSERT INTO `oc_jobs` VALUES (8,'OCA\\Activity\\BackgroundJob\\ExpireActivities','null',1654604138,1654659397,0,0);
-INSERT INTO `oc_jobs` VALUES (9,'OCA\\Federation\\SyncJob','null',1654604146,1654659852,0,0);
-INSERT INTO `oc_jobs` VALUES (10,'OCA\\Files_Sharing\\DeleteOrphanedSharesJob','null',1654659970,1654659970,0,0);
-INSERT INTO `oc_jobs` VALUES (11,'OCA\\Files_Sharing\\ExpireSharesJob','null',1654604158,1654660310,0,0);
-INSERT INTO `oc_jobs` VALUES (12,'OCA\\Files_Sharing\\External\\ScanExternalSharesJob','null',1654660313,1654660313,0,0);
+INSERT INTO `oc_jobs` VALUES (8,'OCA\\Activity\\BackgroundJob\\ExpireActivities','null',1654746685,1654746685,0,0);
+INSERT INTO `oc_jobs` VALUES (9,'OCA\\Federation\\SyncJob','null',1654753901,1654753901,0,0);
+INSERT INTO `oc_jobs` VALUES (10,'OCA\\Files_Sharing\\DeleteOrphanedSharesJob','null',1654753914,1654753914,0,0);
+INSERT INTO `oc_jobs` VALUES (11,'OCA\\Files_Sharing\\ExpireSharesJob','null',1654753945,1654753945,0,0);
+INSERT INTO `oc_jobs` VALUES (12,'OCA\\Files_Sharing\\External\\ScanExternalSharesJob','null',1654755920,1654755920,0,0);
 INSERT INTO `oc_jobs` VALUES (13,'OCA\\Files_Trashbin\\BackgroundJob\\ExpireTrash','null',1654660836,1654660836,0,0);
 INSERT INTO `oc_jobs` VALUES (14,'OCA\\Files_Versions\\BackgroundJob\\ExpireVersions','null',1654660837,1654660837,0,0);
 INSERT INTO `oc_jobs` VALUES (15,'OCA\\Market\\CheckUpdateBackgroundJob','null',1654661368,1654661368,0,1);
@@ -5468,4 +5472,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2022-06-09  2:40:01
+-- Dump completed on 2022-06-09  6:40:01
