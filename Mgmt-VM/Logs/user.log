@@ -800,3 +800,49 @@ Jun  9 06:25:53 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;app-b.foo.or
 Jun  9 06:29:41 mgmt-b nagios3: SERVICE NOTIFICATION: slack;app-b.foo.org.nz;Remote disk servers;CRITICAL;notify-service-by-slack;(null)
 Jun  9 06:29:41 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;app-b.foo.org.nz;Remote disk servers;CRITICAL;notify-service-by-slack;(null)
 Jun  9 06:29:41 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;app-b.foo.org.nz;Remote disk servers;CRITICAL;notify-service-by-slack;(null)
+Jun  9 06:30:41 mgmt-b nagios3: SERVICE NOTIFICATION: slack;app-b.foo.org.nz;check apache status;CRITICAL;notify-service-by-slack;(null)
+Jun  9 06:30:42 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;app-b.foo.org.nz;check apache status;CRITICAL;notify-service-by-slack;(null)
+Jun  9 06:30:43 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;app-b.foo.org.nz;check apache status;CRITICAL;notify-service-by-slack;(null)
+Jun  9 06:33:51 mgmt-b nagios3: SERVICE NOTIFICATION: slack;app-b.foo.org.nz;check owncloud status;CRITICAL;notify-service-by-slack;(null)
+Jun  9 06:33:51 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;app-b.foo.org.nz;check owncloud status;CRITICAL;notify-service-by-slack;(null)
+Jun  9 06:33:51 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;app-b.foo.org.nz;check owncloud status;CRITICAL;notify-service-by-slack;(null)
+Jun  9 06:35:01 mgmt-b nagios3: SERVICE NOTIFICATION: slack;app-b.foo.org.nz;check puppet-nodes;CRITICAL;notify-service-by-slack;(null)
+Jun  9 06:35:01 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;app-b.foo.org.nz;check puppet-nodes;CRITICAL;notify-service-by-slack;(null)
+Jun  9 06:35:01 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;app-b.foo.org.nz;check puppet-nodes;CRITICAL;notify-service-by-slack;(null)
+Jun  9 06:36:41 mgmt-b nagios3: SERVICE NOTIFICATION: slack;app-b.foo.org.nz;check hosts alive;CRITICAL;notify-service-by-slack;(null)
+Jun  9 06:36:41 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;app-b.foo.org.nz;check hosts alive;CRITICAL;notify-service-by-slack;(null)
+Jun  9 06:36:42 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;app-b.foo.org.nz;check hosts alive;CRITICAL;notify-service-by-slack;(null)
+Jun  9 06:44:01 mgmt-b nagios3: SERVICE NOTIFICATION: slack;backup-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 2 users currently logged in
+Jun  9 06:44:01 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;backup-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 2 users currently logged in
+Jun  9 06:44:02 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;backup-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 2 users currently logged in
+Jun  9 06:55:51 mgmt-b nagios3: SERVICE NOTIFICATION: slack;app-b.foo.org.nz;check users-login;CRITICAL;notify-service-by-slack;(null)
+Jun  9 06:55:51 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;app-b.foo.org.nz;check users-login;CRITICAL;notify-service-by-slack;(null)
+Jun  9 06:55:52 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;app-b.foo.org.nz;check users-login;CRITICAL;notify-service-by-slack;(null)
+Jun  9 06:59:41 mgmt-b nagios3: SERVICE NOTIFICATION: slack;app-b.foo.org.nz;Remote disk servers;CRITICAL;notify-service-by-slack;(null)
+Jun  9 06:59:41 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;app-b.foo.org.nz;Remote disk servers;CRITICAL;notify-service-by-slack;(null)
+Jun  9 06:59:41 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;app-b.foo.org.nz;Remote disk servers;CRITICAL;notify-service-by-slack;(null)
+Jun  9 07:00:41 mgmt-b nagios3: SERVICE NOTIFICATION: slack;app-b.foo.org.nz;check apache status;CRITICAL;notify-service-by-slack;(null)
+Jun  9 07:00:41 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;app-b.foo.org.nz;check apache status;CRITICAL;notify-service-by-slack;(null)
+Jun  9 07:00:41 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;app-b.foo.org.nz;check apache status;CRITICAL;notify-service-by-slack;(null)
+Jun  9 07:03:51 mgmt-b nagios3: SERVICE NOTIFICATION: slack;app-b.foo.org.nz;check owncloud status;CRITICAL;notify-service-by-slack;(null)
+Jun  9 07:03:51 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;app-b.foo.org.nz;check owncloud status;CRITICAL;notify-service-by-slack;(null)
+Jun  9 07:03:51 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;app-b.foo.org.nz;check owncloud status;CRITICAL;notify-service-by-slack;(null)
+Jun  9 07:05:01 mgmt-b nagios3: SERVICE NOTIFICATION: slack;app-b.foo.org.nz;check puppet-nodes;CRITICAL;notify-service-by-slack;(null)
+Jun  9 07:05:02 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;app-b.foo.org.nz;check puppet-nodes;CRITICAL;notify-service-by-slack;(null)
+Jun  9 07:05:03 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;app-b.foo.org.nz;check puppet-nodes;CRITICAL;notify-service-by-slack;(null)
+Jun  9 07:06:11 mgmt-b nagios3: Auto-save of retention data completed successfully.
+Jun  9 07:06:41 mgmt-b nagios3: SERVICE NOTIFICATION: slack;app-b.foo.org.nz;check hosts alive;CRITICAL;notify-service-by-slack;(null)
+Jun  9 07:06:41 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;app-b.foo.org.nz;check hosts alive;CRITICAL;notify-service-by-slack;(null)
+Jun  9 07:06:41 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;app-b.foo.org.nz;check hosts alive;CRITICAL;notify-service-by-slack;(null)
+Jun  9 07:10:01 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;check puppet-nodes;OK;HARD;3;Active: active (running) since Thu 2022-06-09 06:38:17 UTC: 31min ago
+Jun  9 07:10:41 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;check apache status;OK;HARD;3;Active: active (running) since Thu 2022-06-09 05:51:39 UTC: 1h 18min ago
+Jun  9 07:10:51 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;check users-login;WARNING;HARD;3;USERS WARNING - 2 users currently logged in
+Jun  9 07:10:51 mgmt-b nagios3: SERVICE NOTIFICATION: slack;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 2 users currently logged in
+Jun  9 07:10:51 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 2 users currently logged in
+Jun  9 07:10:52 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 2 users currently logged in
+Jun  9 07:11:41 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;check hosts alive;OK;HARD;3;PING OK - Packet loss = 0%, RTA = 0.05 ms
+Jun  9 07:13:51 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;check owncloud status;OK;HARD;3;HTTP OK: HTTP/1.1 301 Moved Permanently - 707 bytes in 0.001 second response time
+Jun  9 07:14:01 mgmt-b nagios3: SERVICE NOTIFICATION: slack;backup-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 2 users currently logged in
+Jun  9 07:14:01 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;backup-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 2 users currently logged in
+Jun  9 07:14:01 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;backup-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 2 users currently logged in
+Jun  9 07:14:41 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;Remote disk servers;OK;HARD;3;DISK OK - free space: /var/tmp 23886 MB (80% inode=94%):
