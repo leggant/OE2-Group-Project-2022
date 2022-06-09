@@ -846,3 +846,15 @@ Jun  9 07:14:01 mgmt-b nagios3: SERVICE NOTIFICATION: slack;backup-b.foo.org.nz;
 Jun  9 07:14:01 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;backup-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 2 users currently logged in
 Jun  9 07:14:01 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;backup-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 2 users currently logged in
 Jun  9 07:14:41 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;Remote disk servers;OK;HARD;3;DISK OK - free space: /var/tmp 23886 MB (80% inode=94%):
+Jun  9 07:40:51 mgmt-b nagios3: SERVICE NOTIFICATION: slack;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+Jun  9 07:40:52 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+Jun  9 07:40:53 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+Jun  9 07:44:01 mgmt-b nagios3: SERVICE NOTIFICATION: slack;backup-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+Jun  9 07:44:01 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;backup-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+Jun  9 07:44:02 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;backup-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+Jun  9 08:06:11 mgmt-b nagios3: Auto-save of retention data completed successfully.
+Jun  9 08:10:51 mgmt-b nagios3: SERVICE NOTIFICATION: slack;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+Jun  9 08:10:51 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+Jun  9 08:10:51 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+Jun  9 08:14:01 mgmt-b nagios3: SERVICE ALERT: backup-b.foo.org.nz;check users-login;OK;HARD;3;USERS OK - 0 users currently logged in
+Jun  9 08:15:51 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;check users-login;OK;HARD;3;USERS OK - 0 users currently logged in

@@ -1932,3 +1932,53 @@ sudo apt-get install libdbd-mysql-perl
 ./check_mysql_health --mode uptime --database mysql -H db-b.foo.org.nz --username nagios3 --password P@ssw0rd --warning %80 --critical 3600
 ./check_mysql_health --mode uptime --database mysql -H db-b.foo.org.nz --username nagios --password P@ssw0rd --warning %80 --critical 3600
 cd :Q
+mod
+ls
+cd nrpe
+l;s
+ls
+cd ..
+ls
+cd nagios/
+ls
+cd manifests/
+ls
+cd ..
+cd files/
+ls
+ls -la
+ls
+vim nagios.cfg 
+site
+statnag
+statpup
+statmas
+resmas
+statmas
+respup
+statpup
+cd ..
+lks
+ls
+cd manifests/
+ls
+vim service.pp 
+vim config.pp
+mod
+cd nrpe
+cd ..
+cd nrpe_nagios/
+ls
+cd manifests/
+lks
+ls
+vim config.pp 
+mod
+ls
+cd nrpe
+ls
+cd manifests/
+ls
+vim config.pp 
+statnr
+sudo lsof -i -P -n | grep LISTEN
