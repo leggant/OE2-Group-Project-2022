@@ -1799,3 +1799,8 @@ vim nrpe.cfg
 sudo systemctl renagios-nrpe-server.service 
 sudo systemctl restart nagios-nrpe-server.service 
 respup
+sudo nano /etc/puppet/puppet.conf
+cd /etc/nagios
+ls -al
+sudo lsof -i -P -n | grep LISTEN
+sudo -i
