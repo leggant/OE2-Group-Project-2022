@@ -934,3 +934,26 @@ Jun 10 02:25:51 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;check owncloud s
 Jun 10 02:25:51 mgmt-b nagios3: SERVICE NOTIFICATION: slack;app-b.foo.org.nz;check owncloud status;CRITICAL;notify-service-by-slack;connect to address localhost and port 80: Connection refused
 Jun 10 02:25:51 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;app-b.foo.org.nz;check owncloud status;CRITICAL;notify-service-by-slack;connect to address localhost and port 80: Connection refused
 Jun 10 02:25:52 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;app-b.foo.org.nz;check owncloud status;CRITICAL;notify-service-by-slack;connect to address localhost and port 80: Connection refused
+Jun 10 02:30:51 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;check owncloud status;WARNING;HARD;3;HTTP WARNING: HTTP/1.1 403 Forbidden - 454 bytes in 0.001 second response time
+Jun 10 02:30:51 mgmt-b nagios3: SERVICE NOTIFICATION: slack;app-b.foo.org.nz;check owncloud status;WARNING;notify-service-by-slack;HTTP WARNING: HTTP/1.1 403 Forbidden - 454 bytes in 0.001 second response time
+Jun 10 02:30:51 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;app-b.foo.org.nz;check owncloud status;WARNING;notify-service-by-slack;HTTP WARNING: HTTP/1.1 403 Forbidden - 454 bytes in 0.001 second response time
+Jun 10 02:30:51 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;app-b.foo.org.nz;check owncloud status;WARNING;notify-service-by-slack;HTTP WARNING: HTTP/1.1 403 Forbidden - 454 bytes in 0.001 second response time
+Jun 10 02:35:51 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;check owncloud status;OK;HARD;3;HTTP OK: HTTP/1.1 301 Moved Permanently - 535 bytes in 0.001 second response time
+Jun 10 02:35:51 mgmt-b nagios3: SERVICE FLAPPING ALERT: app-b.foo.org.nz;check owncloud status;STARTED; Service appears to have started flapping (23.7% change >= 20.0% threshold)
+Jun 10 02:42:51 mgmt-b nagios3: SERVICE NOTIFICATION: slack;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+Jun 10 02:42:51 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+Jun 10 02:42:51 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+Jun 10 02:51:11 mgmt-b nagios3: SERVICE NOTIFICATION: slack;db-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+Jun 10 02:51:11 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;db-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+Jun 10 02:51:11 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;db-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+Jun 10 03:06:11 mgmt-b nagios3: Auto-save of retention data completed successfully.
+Jun 10 03:12:51 mgmt-b nagios3: SERVICE NOTIFICATION: slack;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 2 users currently logged in
+Jun 10 03:12:51 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 2 users currently logged in
+Jun 10 03:12:51 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;app-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 2 users currently logged in
+Jun 10 03:21:11 mgmt-b nagios3: SERVICE NOTIFICATION: slack;db-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+Jun 10 03:21:11 mgmt-b nagios3: SERVICE NOTIFICATION: slack-mohammed;db-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+Jun 10 03:21:12 mgmt-b nagios3: SERVICE NOTIFICATION: slack-anthony;db-b.foo.org.nz;check users-login;WARNING;notify-service-by-slack;USERS WARNING - 1 users currently logged in
+Jun 10 03:27:51 mgmt-b nagios3: SERVICE ALERT: app-b.foo.org.nz;check users-login;OK;HARD;3;USERS OK - 0 users currently logged in
+Jun 10 03:31:11 mgmt-b nagios3: SERVICE ALERT: db-b.foo.org.nz;check users-login;OK;HARD;3;USERS OK - 0 users currently logged in
+Jun 10 04:06:11 mgmt-b nagios3: Auto-save of retention data completed successfully.
+Jun 10 04:10:51 mgmt-b nagios3: SERVICE FLAPPING ALERT: app-b.foo.org.nz;check owncloud status;STOPPED; Service appears to have stopped flapping (3.8% change < 5.0% threshold)

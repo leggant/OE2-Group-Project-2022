@@ -1982,3 +1982,9 @@ ls
 vim config.pp 
 statnr
 sudo lsof -i -P -n | grep LISTEN
+cd /var
+ls
+cd log
+ls
+ls -al
+site
