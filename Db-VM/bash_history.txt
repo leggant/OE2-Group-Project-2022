@@ -1,17 +1,4 @@
 sudo mysql -u root -p
-res mysql
-sudo mysql -u root -p
-respup
-statpup
-res mysql
-sudo mysql -u root -p
-res mysql
-respup
-statpup
-sudo mysql -u root -p
-respup
-res mysql
-sudo mysql -u root -p
 statpup
 stat mysql
 statpup
@@ -1998,3 +1985,16 @@ cd /etc/puppet/
 ls
 sudo -i
 sudo service ntp status
+cd /etc/backup/
+ls
+cd mysql-backup/
+ls
+ls -al
+sudo mysql -u root -p
+respup
+statpup
+cd /var/
+ls
+cd lib
+ls
+exit
