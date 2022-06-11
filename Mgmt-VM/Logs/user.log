@@ -1064,3 +1064,50 @@ Jun 11 01:06:11 mgmt-b nagios3: Auto-save of retention data completed successful
 Jun 11 02:06:11 mgmt-b nagios3: Auto-save of retention data completed successfully.
 Jun 11 03:06:11 mgmt-b nagios3: Auto-save of retention data completed successfully.
 Jun 11 04:06:11 mgmt-b nagios3: Auto-save of retention data completed successfully.
+Jun 11 05:06:11 mgmt-b nagios3: Auto-save of retention data completed successfully.
+Jun 11 06:06:11 mgmt-b nagios3: Auto-save of retention data completed successfully.
+Jun 11 06:10:35 mgmt-b os-prober: debug: running /usr/lib/os-probes/50mounted-tests on /dev/sda14
+Jun 11 06:10:35 mgmt-b 50mounted-tests: debug: /dev/sda14 type not recognised; skipping
+Jun 11 06:10:35 mgmt-b os-prober: debug: os detected by /usr/lib/os-probes/50mounted-tests
+Jun 11 06:10:35 mgmt-b os-prober: debug: running /usr/lib/os-probes/mounted/05efi on mounted /dev/sda15
+Jun 11 06:10:35 mgmt-b 05efi: debug: /dev/sda15 is a FAT32 partition
+Jun 11 06:10:35 mgmt-b 05efi: debug: /dev/sda15 partition scheme is gpt
+Jun 11 06:10:35 mgmt-b 05efi: debug: /dev/sda15 partition type is c12a7328-f81f-11d2-ba4b-00a0c93ec93b
+Jun 11 06:10:35 mgmt-b 05efi: debug: running subtest /usr/lib/os-probes/mounted/efi/10elilo
+Jun 11 06:10:35 mgmt-b 05efi: debug: running subtest /usr/lib/os-probes/mounted/efi/20microsoft
+Jun 11 06:10:35 mgmt-b os-prober: debug: running /usr/lib/os-probes/mounted/10freedos on mounted /dev/sda15
+Jun 11 06:10:35 mgmt-b 10freedos: debug: /dev/sda15 is a FAT32 partition
+Jun 11 06:10:35 mgmt-b os-prober: debug: running /usr/lib/os-probes/mounted/10qnx on mounted /dev/sda15
+Jun 11 06:10:35 mgmt-b 10qnx: debug: /dev/sda15 is not a QNX4 partition: exiting
+Jun 11 06:10:35 mgmt-b os-prober: debug: running /usr/lib/os-probes/mounted/20macosx on mounted /dev/sda15
+Jun 11 06:10:35 mgmt-b macosx-prober: debug: /dev/sda15 is not an HFS+ partition: exiting
+Jun 11 06:10:35 mgmt-b os-prober: debug: running /usr/lib/os-probes/mounted/20microsoft on mounted /dev/sda15
+Jun 11 06:10:35 mgmt-b 20microsoft: debug: Skipping legacy bootloaders on UEFI system
+Jun 11 06:10:35 mgmt-b os-prober: debug: running /usr/lib/os-probes/mounted/30utility on mounted /dev/sda15
+Jun 11 06:10:35 mgmt-b 30utility: debug: /dev/sda15 is a FAT32 partition
+Jun 11 06:10:35 mgmt-b os-prober: debug: running /usr/lib/os-probes/mounted/40lsb on mounted /dev/sda15
+Jun 11 06:10:35 mgmt-b os-prober: debug: running /usr/lib/os-probes/mounted/70hurd on mounted /dev/sda15
+Jun 11 06:10:35 mgmt-b os-prober: debug: running /usr/lib/os-probes/mounted/80minix on mounted /dev/sda15
+Jun 11 06:10:35 mgmt-b os-prober: debug: running /usr/lib/os-probes/mounted/83haiku on mounted /dev/sda15
+Jun 11 06:10:35 mgmt-b 83haiku: debug: /dev/sda15 is not a BeFS partition: exiting
+Jun 11 06:10:35 mgmt-b os-prober: debug: running /usr/lib/os-probes/mounted/90linux-distro on mounted /dev/sda15
+Jun 11 06:10:35 mgmt-b os-prober: debug: running /usr/lib/os-probes/mounted/90solaris on mounted /dev/sda15
+Jun 11 06:10:35 mgmt-b os-prober: debug: running /usr/lib/os-probes/mounted/05efi on mounted /dev/sdb1
+Jun 11 06:10:35 mgmt-b 05efi: debug: /dev/sdb1 is ext4 partition: exiting
+Jun 11 06:10:35 mgmt-b os-prober: debug: running /usr/lib/os-probes/mounted/10freedos on mounted /dev/sdb1
+Jun 11 06:10:35 mgmt-b 10freedos: debug: /dev/sdb1 is not a FAT partition: exiting
+Jun 11 06:10:35 mgmt-b os-prober: debug: running /usr/lib/os-probes/mounted/10qnx on mounted /dev/sdb1
+Jun 11 06:10:35 mgmt-b 10qnx: debug: /dev/sdb1 is not a QNX4 partition: exiting
+Jun 11 06:10:35 mgmt-b os-prober: debug: running /usr/lib/os-probes/mounted/20macosx on mounted /dev/sdb1
+Jun 11 06:10:35 mgmt-b macosx-prober: debug: /dev/sdb1 is not an HFS+ partition: exiting
+Jun 11 06:10:35 mgmt-b os-prober: debug: running /usr/lib/os-probes/mounted/20microsoft on mounted /dev/sdb1
+Jun 11 06:10:35 mgmt-b 20microsoft: debug: Skipping legacy bootloaders on UEFI system
+Jun 11 06:10:35 mgmt-b os-prober: debug: running /usr/lib/os-probes/mounted/30utility on mounted /dev/sdb1
+Jun 11 06:10:35 mgmt-b 30utility: debug: /dev/sdb1 is not a FAT partition: exiting
+Jun 11 06:10:35 mgmt-b os-prober: debug: running /usr/lib/os-probes/mounted/40lsb on mounted /dev/sdb1
+Jun 11 06:10:35 mgmt-b os-prober: debug: running /usr/lib/os-probes/mounted/70hurd on mounted /dev/sdb1
+Jun 11 06:10:35 mgmt-b os-prober: debug: running /usr/lib/os-probes/mounted/80minix on mounted /dev/sdb1
+Jun 11 06:10:35 mgmt-b os-prober: debug: running /usr/lib/os-probes/mounted/83haiku on mounted /dev/sdb1
+Jun 11 06:10:35 mgmt-b 83haiku: debug: /dev/sdb1 is not a BeFS partition: exiting
+Jun 11 06:10:35 mgmt-b os-prober: debug: running /usr/lib/os-probes/mounted/90linux-distro on mounted /dev/sdb1
+Jun 11 06:10:35 mgmt-b os-prober: debug: running /usr/lib/os-probes/mounted/90solaris on mounted /dev/sdb1
