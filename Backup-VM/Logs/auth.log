@@ -7558,3 +7558,203 @@ Jun 10 22:15:10 backup-b sudo: pam_unix(sudo:session): session opened for user r
 Jun 10 22:15:10 backup-b sudo: pam_unix(sudo:session): session closed for user root
 Jun 10 22:15:10 backup-b sudo:     root : TTY=unknown ; PWD=/home/bitstudent ; USER=root ; COMMAND=/bin/cp /var/log/auth.log /home/bitstudent/OE2-Group-Project/Backup-VM/Logs
 Jun 10 22:15:10 backup-b sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 10 22:15:10 backup-b sudo: pam_unix(sudo:session): session closed for user root
+Jun 10 22:15:10 backup-b sudo:     root : TTY=unknown ; PWD=/home/bitstudent ; USER=root ; COMMAND=/bin/chown -R bitstudent /home/bitstudent/OE2-Group-Project/Backup-VM
+Jun 10 22:15:10 backup-b sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 10 22:15:10 backup-b sudo: pam_unix(sudo:session): session closed for user root
+Jun 10 22:15:10 backup-b sudo:     root : TTY=unknown ; PWD=/home/bitstudent ; USER=root ; COMMAND=/bin/chgrp -R bitstudent /home/bitstudent/OE2-Group-Project/Backup-VM
+Jun 10 22:15:10 backup-b sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 10 22:15:10 backup-b sudo: pam_unix(sudo:session): session closed for user root
+Jun 10 22:15:10 backup-b sudo:     root : TTY=unknown ; PWD=/home/bitstudent ; USER=root ; COMMAND=/bin/chmod -R 775 /home/bitstudent/OE2-Group-Project/Scripts
+Jun 10 22:15:10 backup-b sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 10 22:15:10 backup-b sudo: pam_unix(sudo:session): session closed for user root
+Jun 10 22:15:15 backup-b sudo: pam_unix(sudo:session): session closed for user root
+Jun 10 22:15:15 backup-b CRON[3634]: pam_unix(cron:session): session closed for user bitstudent
+Jun 10 22:17:01 backup-b CRON[3783]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 10 22:17:01 backup-b CRON[3783]: pam_unix(cron:session): session closed for user root
+Jun 10 22:17:52 backup-b sshd[3796]: Connection closed by 10.6.0.6 port 35286 [preauth]
+Jun 10 22:20:01 backup-b CRON[3835]: pam_unix(cron:session): session opened for user bitstudent by (uid=0)
+Jun 10 22:20:08 backup-b CRON[3835]: pam_unix(cron:session): session closed for user bitstudent
+Jun 10 22:22:52 backup-b sshd[3890]: Connection closed by 10.6.0.6 port 35794 [preauth]
+Jun 10 22:27:52 backup-b sshd[3993]: Connection closed by 10.6.0.6 port 36312 [preauth]
+Jun 10 22:32:52 backup-b sshd[4120]: Connection closed by 10.6.0.6 port 36832 [preauth]
+Jun 10 22:37:52 backup-b sshd[4187]: Connection closed by 10.6.0.6 port 37350 [preauth]
+Jun 10 22:42:52 backup-b sshd[4248]: Connection closed by 10.6.0.6 port 37866 [preauth]
+Jun 10 22:47:52 backup-b sshd[4316]: Connection closed by 10.6.0.6 port 38374 [preauth]
+Jun 10 22:52:52 backup-b sshd[4378]: Connection closed by 10.6.0.6 port 38890 [preauth]
+Jun 10 22:57:52 backup-b sshd[4485]: Connection closed by 10.6.0.6 port 39408 [preauth]
+Jun 10 23:02:52 backup-b sshd[4562]: Connection closed by 10.6.0.6 port 39924 [preauth]
+Jun 10 23:07:52 backup-b sshd[4624]: Connection closed by 10.6.0.6 port 40444 [preauth]
+Jun 10 23:12:52 backup-b sshd[4681]: Connection closed by 10.6.0.6 port 40952 [preauth]
+Jun 10 23:17:01 backup-b CRON[4733]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 10 23:17:01 backup-b CRON[4733]: pam_unix(cron:session): session closed for user root
+Jun 10 23:17:52 backup-b sshd[4746]: Connection closed by 10.6.0.6 port 41472 [preauth]
+Jun 10 23:22:52 backup-b sshd[4818]: Connection closed by 10.6.0.6 port 41988 [preauth]
+Jun 10 23:27:52 backup-b sshd[4913]: Connection closed by 10.6.0.6 port 42506 [preauth]
+Jun 10 23:32:52 backup-b sshd[4984]: Connection closed by 10.6.0.6 port 43022 [preauth]
+Jun 10 23:37:52 backup-b sshd[5046]: Connection closed by 10.6.0.6 port 43530 [preauth]
+Jun 10 23:42:52 backup-b sshd[5107]: Connection closed by 10.6.0.6 port 44046 [preauth]
+Jun 10 23:47:52 backup-b sshd[5172]: Connection closed by 10.6.0.6 port 44562 [preauth]
+Jun 10 23:52:52 backup-b sshd[5239]: Connection closed by 10.6.0.6 port 45078 [preauth]
+Jun 10 23:57:52 backup-b sshd[5342]: Connection closed by 10.6.0.6 port 45596 [preauth]
+Jun 11 00:02:52 backup-b sshd[5409]: Connection closed by 10.6.0.6 port 46104 [preauth]
+Jun 11 00:07:52 backup-b sshd[5475]: Connection closed by 10.6.0.6 port 46624 [preauth]
+Jun 11 00:12:52 backup-b sshd[5558]: Connection closed by 10.6.0.6 port 47140 [preauth]
+Jun 11 00:15:01 backup-b CRON[5596]: pam_unix(cron:session): session opened for user bitstudent by (uid=0)
+Jun 11 00:15:01 backup-b sudo: bitstudent : TTY=unknown ; PWD=/etc/backup ; USER=root ; COMMAND=/usr/bin/zip -r /etc/backup/daily/backup-20220611.zip /etc/node-exporter /etc/nagios /etc/nagios-plugins /etc/puppet /etc/prometheus-plugins /etc/prometheus/prometheus /etc/prometheus/prometheus.yml /etc/prometheus/rules.yml /etc/prometheus/tsdb /etc/prometheus/promtool /etc/prometheus/consoles /etc/prometheus/console_libraries /etc/prometheus/NOTICE /etc/prometheus/queries.active
+Jun 11 00:15:01 backup-b sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 11 00:15:15 backup-b sudo: pam_unix(sudo:session): session closed for user root
+Jun 11 00:15:15 backup-b sudo: bitstudent : TTY=unknown ; PWD=/etc/backup ; USER=root ; COMMAND=/usr/bin/find /etc/backup/daily/backup-20220603.zip /etc/backup/daily/backup-20220604.zip /etc/backup/daily/backup-20220605.zip /etc/backup/daily/backup-20220606.zip /etc/backup/daily/backup-20220607.zip /etc/backup/daily/backup-20220608.zip /etc/backup/daily/backup-20220609.zip /etc/backup/daily/backup-20220610.zip /etc/backup/daily/backup-20220611.zip -ctime +7 -delete
+Jun 11 00:15:15 backup-b sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 11 00:15:15 backup-b sudo: pam_unix(sudo:session): session closed for user root
+Jun 11 00:15:17 backup-b CRON[5596]: pam_unix(cron:session): session closed for user bitstudent
+Jun 11 00:17:01 backup-b CRON[5621]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 11 00:17:01 backup-b CRON[5621]: pam_unix(cron:session): session closed for user root
+Jun 11 00:17:52 backup-b sshd[5634]: Connection closed by 10.6.0.6 port 47660 [preauth]
+Jun 11 00:22:52 backup-b sshd[5700]: Connection closed by 10.6.0.6 port 48176 [preauth]
+Jun 11 00:27:52 backup-b sshd[5805]: Connection closed by 10.6.0.6 port 48694 [preauth]
+Jun 11 00:32:52 backup-b sshd[5872]: Connection closed by 10.6.0.6 port 49204 [preauth]
+Jun 11 00:37:52 backup-b sshd[5934]: Connection closed by 10.6.0.6 port 49722 [preauth]
+Jun 11 00:42:52 backup-b sshd[6001]: Connection closed by 10.6.0.6 port 50238 [preauth]
+Jun 11 00:47:52 backup-b sshd[6060]: Connection closed by 10.6.0.6 port 50754 [preauth]
+Jun 11 00:52:52 backup-b sshd[6127]: Connection closed by 10.6.0.6 port 51270 [preauth]
+Jun 11 00:57:52 backup-b sshd[6230]: Connection closed by 10.6.0.6 port 51780 [preauth]
+Jun 11 01:02:52 backup-b sshd[6298]: Connection closed by 10.6.0.6 port 52296 [preauth]
+Jun 11 01:07:52 backup-b sshd[6364]: Connection closed by 10.6.0.6 port 52816 [preauth]
+Jun 11 01:12:52 backup-b sshd[6425]: Connection closed by 10.6.0.6 port 53332 [preauth]
+Jun 11 01:17:01 backup-b CRON[6489]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 11 01:17:01 backup-b CRON[6489]: pam_unix(cron:session): session closed for user root
+Jun 11 01:17:52 backup-b sshd[6497]: Connection closed by 10.6.0.6 port 53850 [preauth]
+Jun 11 01:22:52 backup-b sshd[6558]: Connection closed by 10.6.0.6 port 54358 [preauth]
+Jun 11 01:27:52 backup-b sshd[6661]: Connection closed by 10.6.0.6 port 54876 [preauth]
+Jun 11 01:32:52 backup-b sshd[6728]: Connection closed by 10.6.0.6 port 55392 [preauth]
+Jun 11 01:37:52 backup-b sshd[6784]: Connection closed by 10.6.0.6 port 55910 [preauth]
+Jun 11 01:42:52 backup-b sshd[6856]: Connection closed by 10.6.0.6 port 56430 [preauth]
+Jun 11 01:47:52 backup-b sshd[6919]: Connection closed by 10.6.0.6 port 56938 [preauth]
+Jun 11 01:52:52 backup-b sshd[6985]: Connection closed by 10.6.0.6 port 57454 [preauth]
+Jun 11 01:57:52 backup-b sshd[7130]: Connection closed by 10.6.0.6 port 57972 [preauth]
+Jun 11 02:02:52 backup-b sshd[7198]: Connection closed by 10.6.0.6 port 58488 [preauth]
+Jun 11 02:07:52 backup-b sshd[7259]: Connection closed by 10.6.0.6 port 59008 [preauth]
+Jun 11 02:12:52 backup-b sshd[7321]: Connection closed by 10.6.0.6 port 59528 [preauth]
+Jun 11 02:15:01 backup-b CRON[7358]: pam_unix(cron:session): session opened for user bitstudent by (uid=0)
+Jun 11 02:15:01 backup-b sudo: bitstudent : TTY=unknown ; PWD=/home/bitstudent ; USER=root ; COMMAND=/bin/bash /home/bitstudent/OE2-Group-Project/Scripts/backup/backup.sh
+Jun 11 02:15:01 backup-b sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 11 02:15:01 backup-b sudo:     root : TTY=unknown ; PWD=/home/bitstudent/OE2-Group-Project ; USER=root ; COMMAND=/bin/chmod 774 ./.git
+Jun 11 02:15:01 backup-b sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 11 02:15:01 backup-b sudo: pam_unix(sudo:session): session closed for user root
+Jun 11 02:15:01 backup-b sudo:     root : TTY=unknown ; PWD=/home/bitstudent/OE2-Group-Project ; USER=root ; COMMAND=/bin/chmod 774 .gitignore
+Jun 11 02:15:01 backup-b sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 11 02:15:01 backup-b sudo: pam_unix(sudo:session): session closed for user root
+Jun 11 02:15:01 backup-b sudo:     root : TTY=unknown ; PWD=/home/bitstudent/OE2-Group-Project/.git ; USER=root ; COMMAND=/bin/chown bitstudent FETCH_HEAD
+Jun 11 02:15:01 backup-b sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 11 02:15:01 backup-b sudo: pam_unix(sudo:session): session closed for user root
+Jun 11 02:15:01 backup-b sudo:     root : TTY=unknown ; PWD=/home/bitstudent/OE2-Group-Project/.git ; USER=root ; COMMAND=/bin/chgrp bitstudent FETCH_HEAD
+Jun 11 02:15:01 backup-b sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 11 02:15:01 backup-b sudo: pam_unix(sudo:session): session closed for user root
+Jun 11 02:15:01 backup-b sudo:     root : TTY=unknown ; PWD=/home/bitstudent/OE2-Group-Project/.git ; USER=root ; COMMAND=/bin/chown bitstudent ORIG_HEAD
+Jun 11 02:15:01 backup-b sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 11 02:15:01 backup-b sudo: pam_unix(sudo:session): session closed for user root
+Jun 11 02:15:01 backup-b sudo:     root : TTY=unknown ; PWD=/home/bitstudent/OE2-Group-Project/.git ; USER=root ; COMMAND=/bin/chgrp bitstudent ORIG_HEAD
+Jun 11 02:15:01 backup-b sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 11 02:15:01 backup-b sudo: pam_unix(sudo:session): session closed for user root
+Jun 11 02:15:01 backup-b sudo:     root : TTY=unknown ; PWD=/home/bitstudent/OE2-Group-Project/.git ; USER=root ; COMMAND=/bin/chmod 774 ./COMMIT_EDITMSG ./FETCH_HEAD ./HEAD ./ORIG_HEAD ./branches ./config ./description ./hooks ./index ./info ./logs ./objects ./packed-refs ./refs
+Jun 11 02:15:01 backup-b sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 11 02:15:01 backup-b sudo: pam_unix(sudo:session): session closed for user root
+Jun 11 02:15:01 backup-b sudo:     root : TTY=unknown ; PWD=/home/bitstudent/OE2-Group-Project/.git/objects ; USER=root ; COMMAND=/bin/chgrp bitstudent ./00 ./01 ./02 ./03 ./04 ./05 ./06 ./07 ./08 ./09 ./0a ./0b ./0c ./0d ./0e ./0f ./10 ./11 ./12 ./13 ./14 ./15 ./16 ./17 ./18 ./19 ./1a ./1b ./1c ./1d ./1e ./1f ./20 ./21 ./22 ./23 ./24 ./25 ./26 ./27 ./28 ./29 ./2a ./2b ./2c ./2d ./2e ./2f ./30 ./31 ./32 ./33 ./34 ./35 ./36 ./37 ./38 ./39 ./3a ./3b ./3c ./3d ./3e ./3f ./40 ./41 ./42 ./43 ./44 ./45 ./46 ./47 ./48 ./49 ./4a ./4b ./4c ./4d ./4e ./4f ./50 ./51 ./52 ./53 ./54 ./55 ./56 ./57 ./58 ./59 ./5a ./5b ./5c ./5d ./5e ./5f ./60 ./61 ./62 ./63 ./64 ./65 ./66 ./67 ./68 ./69 ./6a ./6b ./6c ./6d ./6e ./6f ./70 ./71 ./72 ./73 ./74 ./75 ./76 ./77 ./78 ./79 ./7a ./7b ./7c ./7d ./7e ./7f ./80 ./81 ./82 ./83 ./84 ./85 ./86 ./87 ./88 ./89 ./8a ./8b ./8c ./8d ./8e ./8f ./90 ./91 ./92 ./93 ./94 ./95 ./96 ./97 ./98 ./99 ./9a ./9b ./9c ./9d ./9e ./9f ./a0 ./a1 ./a2 ./a3 ./a4 ./a5 ./a6 ./a7
+Jun 11 02:15:01 backup-b sudo:     root : (command continued) ./a8 ./a9 ./aa ./ab ./ac ./ad ./ae ./af ./b0 ./b1 ./b2 ./b3 ./b4 ./b5 ./b6 ./b7 ./b8 ./b9 ./ba ./bb ./bc ./bd ./be ./bf ./c0 ./c1 ./c2 ./c3 ./c4 ./c5 ./c6 ./c7 ./c8 ./c9 ./ca ./cb ./cc ./cd ./ce ./cf ./d0 ./d1 ./d2 ./d3 ./d4 ./d5 ./d6 ./d7 ./d8 ./d9 ./da ./db ./dc ./dd ./de ./df ./e0 ./e1 ./e2 ./e3 ./e4 ./e5 ./e6 ./e7 ./e8 ./e9 ./ea ./eb ./ec ./ed ./ee ./ef ./f0 ./f1 ./f2 ./f3 ./f4 ./f5 ./f6 ./f7 ./f8 ./f9 ./fa ./fb ./fc ./fd ./fe ./ff ./info ./pack
+Jun 11 02:15:01 backup-b sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 11 02:15:01 backup-b sudo: pam_unix(sudo:session): session closed for user root
+Jun 11 02:15:01 backup-b sudo:     root : TTY=unknown ; PWD=/home/bitstudent/OE2-Group-Project/.git/objects ; USER=root ; COMMAND=/bin/chown bitstudent ./00 ./01 ./02 ./03 ./04 ./05 ./06 ./07 ./08 ./09 ./0a ./0b ./0c ./0d ./0e ./0f ./10 ./11 ./12 ./13 ./14 ./15 ./16 ./17 ./18 ./19 ./1a ./1b ./1c ./1d ./1e ./1f ./20 ./21 ./22 ./23 ./24 ./25 ./26 ./27 ./28 ./29 ./2a ./2b ./2c ./2d ./2e ./2f ./30 ./31 ./32 ./33 ./34 ./35 ./36 ./37 ./38 ./39 ./3a ./3b ./3c ./3d ./3e ./3f ./40 ./41 ./42 ./43 ./44 ./45 ./46 ./47 ./48 ./49 ./4a ./4b ./4c ./4d ./4e ./4f ./50 ./51 ./52 ./53 ./54 ./55 ./56 ./57 ./58 ./59 ./5a ./5b ./5c ./5d ./5e ./5f ./60 ./61 ./62 ./63 ./64 ./65 ./66 ./67 ./68 ./69 ./6a ./6b ./6c ./6d ./6e ./6f ./70 ./71 ./72 ./73 ./74 ./75 ./76 ./77 ./78 ./79 ./7a ./7b ./7c ./7d ./7e ./7f ./80 ./81 ./82 ./83 ./84 ./85 ./86 ./87 ./88 ./89 ./8a ./8b ./8c ./8d ./8e ./8f ./90 ./91 ./92 ./93 ./94 ./95 ./96 ./97 ./98 ./99 ./9a ./9b ./9c ./9d ./9e ./9f ./a0 ./a1 ./a2 ./a3 ./a4 ./a5 ./a6 ./a7
+Jun 11 02:15:01 backup-b sudo:     root : (command continued) ./a8 ./a9 ./aa ./ab ./ac ./ad ./ae ./af ./b0 ./b1 ./b2 ./b3 ./b4 ./b5 ./b6 ./b7 ./b8 ./b9 ./ba ./bb ./bc ./bd ./be ./bf ./c0 ./c1 ./c2 ./c3 ./c4 ./c5 ./c6 ./c7 ./c8 ./c9 ./ca ./cb ./cc ./cd ./ce ./cf ./d0 ./d1 ./d2 ./d3 ./d4 ./d5 ./d6 ./d7 ./d8 ./d9 ./da ./db ./dc ./dd ./de ./df ./e0 ./e1 ./e2 ./e3 ./e4 ./e5 ./e6 ./e7 ./e8 ./e9 ./ea ./eb ./ec ./ed ./ee ./ef ./f0 ./f1 ./f2 ./f3 ./f4 ./f5 ./f6 ./f7 ./f8 ./f9 ./fa ./fb ./fc ./fd ./fe ./ff ./info ./pack
+Jun 11 02:15:01 backup-b sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 11 02:15:01 backup-b sudo: pam_unix(sudo:session): session closed for user root
+Jun 11 02:15:01 backup-b sudo:     root : TTY=unknown ; PWD=/home/bitstudent/OE2-Group-Project/.git/objects ; USER=root ; COMMAND=/bin/chmod 774 ./00 ./01 ./02 ./03 ./04 ./05 ./06 ./07 ./08 ./09 ./0a ./0b ./0c ./0d ./0e ./0f ./10 ./11 ./12 ./13 ./14 ./15 ./16 ./17 ./18 ./19 ./1a ./1b ./1c ./1d ./1e ./1f ./20 ./21 ./22 ./23 ./24 ./25 ./26 ./27 ./28 ./29 ./2a ./2b ./2c ./2d ./2e ./2f ./30 ./31 ./32 ./33 ./34 ./35 ./36 ./37 ./38 ./39 ./3a ./3b ./3c ./3d ./3e ./3f ./40 ./41 ./42 ./43 ./44 ./45 ./46 ./47 ./48 ./49 ./4a ./4b ./4c ./4d ./4e ./4f ./50 ./51 ./52 ./53 ./54 ./55 ./56 ./57 ./58 ./59 ./5a ./5b ./5c ./5d ./5e ./5f ./60 ./61 ./62 ./63 ./64 ./65 ./66 ./67 ./68 ./69 ./6a ./6b ./6c ./6d ./6e ./6f ./70 ./71 ./72 ./73 ./74 ./75 ./76 ./77 ./78 ./79 ./7a ./7b ./7c ./7d ./7e ./7f ./80 ./81 ./82 ./83 ./84 ./85 ./86 ./87 ./88 ./89 ./8a ./8b ./8c ./8d ./8e ./8f ./90 ./91 ./92 ./93 ./94 ./95 ./96 ./97 ./98 ./99 ./9a ./9b ./9c ./9d ./9e ./9f ./a0 ./a1 ./a2 ./a3 ./a4 ./a5 ./a6 ./a7 ./a8 ./a9
+Jun 11 02:15:01 backup-b sudo:     root : (command continued) ./aa ./ab ./ac ./ad ./ae ./af ./b0 ./b1 ./b2 ./b3 ./b4 ./b5 ./b6 ./b7 ./b8 ./b9 ./ba ./bb ./bc ./bd ./be ./bf ./c0 ./c1 ./c2 ./c3 ./c4 ./c5 ./c6 ./c7 ./c8 ./c9 ./ca ./cb ./cc ./cd ./ce ./cf ./d0 ./d1 ./d2 ./d3 ./d4 ./d5 ./d6 ./d7 ./d8 ./d9 ./da ./db ./dc ./dd ./de ./df ./e0 ./e1 ./e2 ./e3 ./e4 ./e5 ./e6 ./e7 ./e8 ./e9 ./ea ./eb ./ec ./ed ./ee ./ef ./f0 ./f1 ./f2 ./f3 ./f4 ./f5 ./f6 ./f7 ./f8 ./f9 ./fa ./fb ./fc ./fd ./fe ./ff ./info ./pack
+Jun 11 02:15:01 backup-b sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 11 02:15:01 backup-b sudo: pam_unix(sudo:session): session closed for user root
+Jun 11 02:15:03 backup-b sudo:     root : TTY=unknown ; PWD=/home/bitstudent ; USER=root ; COMMAND=/bin/cp /etc/puppet/ /home/bitstudent/OE2-Group-Project/Backup-VM/ -r
+Jun 11 02:15:03 backup-b sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 11 02:15:03 backup-b sudo: pam_unix(sudo:session): session closed for user root
+Jun 11 02:15:03 backup-b sudo:     root : TTY=unknown ; PWD=/home/bitstudent ; USER=root ; COMMAND=/bin/cp /etc/hosts /home/bitstudent/OE2-Group-Project/Backup-VM/hosts
+Jun 11 02:15:03 backup-b sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 11 02:15:03 backup-b sudo: pam_unix(sudo:session): session closed for user root
+Jun 11 02:15:03 backup-b sudo:     root : TTY=unknown ; PWD=/home/bitstudent ; USER=root ; COMMAND=/bin/chmod go+r /home/bitstudent/OE2-Group-Project/Backup-VM/hosts
+Jun 11 02:15:03 backup-b sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 11 02:15:03 backup-b sudo: pam_unix(sudo:session): session closed for user root
+Jun 11 02:15:03 backup-b sudo:     root : TTY=unknown ; PWD=/home/bitstudent ; USER=root ; COMMAND=/bin/cp /etc/puppet/ /home/bitstudent/OE2-Group-Project/Backup-VM/ -r
+Jun 11 02:15:03 backup-b sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 11 02:15:03 backup-b sudo: pam_unix(sudo:session): session closed for user root
+Jun 11 02:15:03 backup-b sudo:     root : TTY=unknown ; PWD=/home/bitstudent ; USER=root ; COMMAND=/bin/cp /home/bitstudent/.bash_history /home/bitstudent/OE2-Group-Project/Backup-VM/bash_history.txt
+Jun 11 02:15:03 backup-b sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 11 02:15:03 backup-b sudo: pam_unix(sudo:session): session closed for user root
+Jun 11 02:15:03 backup-b sudo:     root : TTY=unknown ; PWD=/home/bitstudent ; USER=root ; COMMAND=/bin/chmod go+r /home/bitstudent/OE2-Group-Project/Backup-VM/bash_history.txt
+Jun 11 02:15:03 backup-b sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 11 02:15:03 backup-b sudo: pam_unix(sudo:session): session closed for user root
+Jun 11 02:15:03 backup-b sudo:     root : TTY=unknown ; PWD=/home/bitstudent ; USER=root ; COMMAND=/bin/cp /home/bitstudent/.bashrc /home/bitstudent/OE2-Group-Project/Backup-VM/bashrc
+Jun 11 02:15:03 backup-b sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 11 02:15:03 backup-b sudo: pam_unix(sudo:session): session closed for user root
+Jun 11 02:15:03 backup-b sudo:     root : TTY=unknown ; PWD=/home/bitstudent ; USER=root ; COMMAND=/bin/chmod go+r /home/bitstudent/OE2-Group-Project/Backup-VM/bashrc
+Jun 11 02:15:03 backup-b sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 11 02:15:03 backup-b sudo: pam_unix(sudo:session): session closed for user root
+Jun 11 02:15:03 backup-b sudo:     root : TTY=unknown ; PWD=/home/bitstudent ; USER=root ; COMMAND=/bin/cp /etc/nagios /home/bitstudent/OE2-Group-Project/Backup-VM -r
+Jun 11 02:15:03 backup-b sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 11 02:15:03 backup-b sudo: pam_unix(sudo:session): session closed for user root
+Jun 11 02:15:03 backup-b sudo:     root : TTY=unknown ; PWD=/home/bitstudent ; USER=root ; COMMAND=/bin/cp /etc/nagios-plugins /home/bitstudent/OE2-Group-Project/Backup-VM -r
+Jun 11 02:15:03 backup-b sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 11 02:15:03 backup-b sudo: pam_unix(sudo:session): session closed for user root
+Jun 11 02:15:03 backup-b sudo:     root : TTY=unknown ; PWD=/home/bitstudent ; USER=root ; COMMAND=/bin/cp /etc/prometheus/console_libraries/ /home/bitstudent/OE2-Group-Project/Backup-VM/prometheus/ -r
+Jun 11 02:15:03 backup-b sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 11 02:15:03 backup-b sudo: pam_unix(sudo:session): session closed for user root
+Jun 11 02:15:03 backup-b sudo:     root : TTY=unknown ; PWD=/home/bitstudent ; USER=root ; COMMAND=/bin/cp /etc/prometheus/consoles/ /home/bitstudent/OE2-Group-Project/Backup-VM/prometheus/ -r
+Jun 11 02:15:03 backup-b sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 11 02:15:03 backup-b sudo: pam_unix(sudo:session): session closed for user root
+Jun 11 02:15:03 backup-b sudo:     root : TTY=unknown ; PWD=/home/bitstudent ; USER=root ; COMMAND=/bin/cp /etc/prometheus/prometheus /home/bitstudent/OE2-Group-Project/Backup-VM/prometheus/prometheus
+Jun 11 02:15:03 backup-b sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 11 02:15:05 backup-b sudo: pam_unix(sudo:session): session closed for user root
+Jun 11 02:15:05 backup-b sudo:     root : TTY=unknown ; PWD=/home/bitstudent ; USER=root ; COMMAND=/bin/cp /etc/prometheus/prometheus.yml /home/bitstudent/OE2-Group-Project/Backup-VM/prometheus/prometheus.yml
+Jun 11 02:15:05 backup-b sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 11 02:15:06 backup-b sudo: pam_unix(sudo:session): session closed for user root
+Jun 11 02:15:06 backup-b sudo:     root : TTY=unknown ; PWD=/home/bitstudent ; USER=root ; COMMAND=/bin/cp /etc/prometheus/rules.yml /home/bitstudent/OE2-Group-Project/Backup-VM/prometheus/rules.yml
+Jun 11 02:15:06 backup-b sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 11 02:15:06 backup-b sudo: pam_unix(sudo:session): session closed for user root
+Jun 11 02:15:06 backup-b sudo:     root : TTY=unknown ; PWD=/home/bitstudent ; USER=root ; COMMAND=/bin/cp /etc/prometheus/tsdb /home/bitstudent/OE2-Group-Project/Backup-VM/prometheus/tsdb
+Jun 11 02:15:06 backup-b sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 11 02:15:06 backup-b sudo: pam_unix(sudo:session): session closed for user root
+Jun 11 02:15:06 backup-b sudo:     root : TTY=unknown ; PWD=/home/bitstudent ; USER=root ; COMMAND=/bin/cp /etc/prometheus/promtool /home/bitstudent/OE2-Group-Project/Backup-VM/prometheus/promtool
+Jun 11 02:15:06 backup-b sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 11 02:15:07 backup-b sudo: pam_unix(sudo:session): session closed for user root
+Jun 11 02:15:08 backup-b sudo:     root : TTY=unknown ; PWD=/home/bitstudent ; USER=root ; COMMAND=/bin/cp /etc/prometheus/lock /home/bitstudent/OE2-Group-Project/Backup-VM/prometheus/lock
+Jun 11 02:15:08 backup-b sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 11 02:15:08 backup-b sudo: pam_unix(sudo:session): session closed for user root
+Jun 11 02:15:08 backup-b sudo:     root : TTY=unknown ; PWD=/home/bitstudent ; USER=root ; COMMAND=/bin/cp /etc/prometheus/NOTICE /home/bitstudent/OE2-Group-Project/Backup-VM/prometheus/NOTICE
+Jun 11 02:15:08 backup-b sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 11 02:15:08 backup-b sudo: pam_unix(sudo:session): session closed for user root
+Jun 11 02:15:08 backup-b sudo:     root : TTY=unknown ; PWD=/home/bitstudent ; USER=root ; COMMAND=/bin/cp /etc/prometheus-plugins /home/bitstudent/OE2-Group-Project/Backup-VM -r
+Jun 11 02:15:08 backup-b sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 11 02:15:10 backup-b sudo: pam_unix(sudo:session): session closed for user root
+Jun 11 02:15:10 backup-b sudo:     root : TTY=unknown ; PWD=/home/bitstudent ; USER=root ; COMMAND=/bin/cp /etc/rsyslog.d/50-default.conf /home/bitstudent/OE2-Group-Project/Backup-VM/Logs
+Jun 11 02:15:10 backup-b sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 11 02:15:10 backup-b sudo: pam_unix(sudo:session): session closed for user root
+Jun 11 02:15:10 backup-b sudo:     root : TTY=unknown ; PWD=/home/bitstudent ; USER=root ; COMMAND=/bin/cp /etc/node-exporter /home/bitstudent/OE2-Group-Project/Backup-VM -r
+Jun 11 02:15:10 backup-b sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 11 02:15:11 backup-b sudo: pam_unix(sudo:session): session closed for user root
+Jun 11 02:15:11 backup-b sudo:     root : TTY=unknown ; PWD=/home/bitstudent ; USER=root ; COMMAND=/bin/cp /etc/systemd/system/prometheus.service /home/bitstudent/OE2-Group-Project/Backup-VM/prometheus-plugins/prometheus.service
+Jun 11 02:15:11 backup-b sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 11 02:15:11 backup-b sudo: pam_unix(sudo:session): session closed for user root
+Jun 11 02:15:11 backup-b sudo:     root : TTY=unknown ; PWD=/home/bitstudent ; USER=root ; COMMAND=/bin/cp /home/bitstudent/rsync.log /home/bitstudent/OE2-Group-Project/Backup-VM/Logs
+Jun 11 02:15:11 backup-b sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 11 02:15:11 backup-b sudo: pam_unix(sudo:session): session closed for user root
+Jun 11 02:15:11 backup-b sudo:     root : TTY=unknown ; PWD=/home/bitstudent ; USER=root ; COMMAND=/bin/cp /home/bitstudent/daily.log /home/bitstudent/OE2-Group-Project/Backup-VM/Logs
+Jun 11 02:15:11 backup-b sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 11 02:15:11 backup-b sudo: pam_unix(sudo:session): session closed for user root
+Jun 11 02:15:11 backup-b sudo:     root : TTY=unknown ; PWD=/home/bitstudent ; USER=root ; COMMAND=/bin/cp /home/bitstudent/weekly.log /home/bitstudent/OE2-Group-Project/Backup-VM/Logs
+Jun 11 02:15:11 backup-b sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 11 02:15:11 backup-b sudo: pam_unix(sudo:session): session closed for user root
+Jun 11 02:15:11 backup-b sudo:     root : TTY=unknown ; PWD=/home/bitstudent ; USER=root ; COMMAND=/bin/cp /var/log/cron.log /home/bitstudent/OE2-Group-Project/Backup-VM/Logs
+Jun 11 02:15:11 backup-b sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 11 02:15:11 backup-b sudo: pam_unix(sudo:session): session closed for user root
+Jun 11 02:15:11 backup-b sudo:     root : TTY=unknown ; PWD=/home/bitstudent ; USER=root ; COMMAND=/bin/cp /var/log/user.log /home/bitstudent/OE2-Group-Project/Backup-VM/Logs
+Jun 11 02:15:11 backup-b sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 11 02:15:11 backup-b sudo: pam_unix(sudo:session): session closed for user root
+Jun 11 02:15:11 backup-b sudo:     root : TTY=unknown ; PWD=/home/bitstudent ; USER=root ; COMMAND=/bin/cp /var/log/auth.log /home/bitstudent/OE2-Group-Project/Backup-VM/Logs
+Jun 11 02:15:11 backup-b sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
