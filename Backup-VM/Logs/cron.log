@@ -432,3 +432,7 @@ Jun 13 02:20:01 backup-b CRON[20427]: (bitstudent) CMD (cd /etc/backup && ./rest
 Jun 13 02:20:08 backup-b CRON[20426]: (CRON) info (No MTA installed, discarding output)
 Jun 13 03:17:01 backup-b CRON[21331]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
 Jun 13 04:15:01 backup-b CRON[22161]: (bitstudent) CMD (sudo bash ~/OE2-Group-Project/Scripts/backup/backup.sh)
+Jun 13 04:15:15 backup-b CRON[22160]: (CRON) info (No MTA installed, discarding output)
+Jun 13 04:17:01 backup-b CRON[22306]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jun 13 05:17:01 backup-b CRON[23605]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jun 13 06:15:01 backup-b CRON[24436]: (bitstudent) CMD (sudo bash ~/OE2-Group-Project/Scripts/backup/backup.sh)
